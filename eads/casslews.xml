@@ -1,0 +1,757 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::casslews.xml//EN" encodinganalog="Identifier">umich-bhl-88154</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Lewis Cass papers [microform], 1814-1847</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by National Archives and Records Administration staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2009-03-13</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  <classification ref="/repositories/2/classifications/1"/></eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Lewis Cass papers [microform], 1814-1847</titleproper>
+      <author>Collection processed and finding aid created by National Archives and Records Administration staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Cass, Lewis, 1782-1866.</persname>
+      </origination>
+      <unittitle encodinganalog="245">Lewis Cass papers [microform] <unitdate type="inclusive" encodinganalog="245$f" normal="1814/1847">1814-1847</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">88154 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Official correspondence, notes, and instructions received while serving as U. S. Minister to France and Secretary of War; also official documents of the Michigan Superintendency of Indian Affairs, 1819-1831, and the Office of Indian Affairs, 1814-1817 and 1822-1829, relating in part to Cass's work in negotiating land treaties with the Indians of the Michigan Territory.</abstract>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">60 microfilms</extent>
+      </physdesc>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The microfilm was donated by Nelson Vance Russell (donor no. <num type="donor" encodinganalog="541$e">487</num>) who had acquired the films from the National Archives in the course of his research. The microfilm was acquired in 1946.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is not held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <originalsloc>
+        <p>Original materials are at the National Archives of the United States.</p>
+      </originalsloc>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box, Lewis Cass papers [microform], Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Lewis Cass was governor of the Michigan Territory, 1813-1831, Secretary of War, 1831-1836, U. S. Minister to France, 1836-1842, U.S. Senator from Michigan, 1845-1856, candidate for President in 1848, and U.S. Secretary of State (1857-1860).</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The microfilm was acquired by Professor Nelson Vance Russell in the course of his research on the life of Lewis Cass. The originals of the records are in the National Archives and Records Administration. The files have been arranged by record group number which correspond to the various departments and agencies with whom Cass was associated as territorial governor, as diplomat, or, in the case of the War Department, as Secretary. The series in the collection are: United States Minister to France, United States Secretary of War, Michigan Superintendency of Indian Affairs, and United States Office of Indian Affairs. Cass's work with the Indians as governor of the Michigan Territory is documented in these last two series.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Indians of North America--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610">United States. War Dept.</corpname>
+        <geogname source="lcsh" encodinganalog="651">United States--Foreign relations--France.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Office of Indian Affairs.</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>United States Minister to France</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Dispatches, notes, and miscellaneous letters sent</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="91fb8a13-ecfa-4929-81a8-d07464b65621">1</container>
+              <container type="reel" label="Roll" parent="91fb8a13-ecfa-4929-81a8-d07464b65621">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1836/1842">1836-1842</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy no. 14, Roll 1, Vol. 1)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="9630318c-5488-458f-b03b-2b99dcf04228">1</container>
+              <container type="reel" label="Roll" parent="9630318c-5488-458f-b03b-2b99dcf04228">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1836/1842">1836-1842</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy no. 14, Roll 2, Vol. 2)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="5eace1ca-f53e-4094-b6c4-56684c96c80f">1</container>
+              <container type="reel" label="Roll" parent="5eace1ca-f53e-4094-b6c4-56684c96c80f">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1836/1842">1836-1842</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy no. 14, Roll 3, Vol. 3)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="2aec9d5e-eeff-448b-a93c-ac3786c3ac9f">1</container>
+              <container type="reel" label="Roll" parent="2aec9d5e-eeff-448b-a93c-ac3786c3ac9f">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1836/1842">1836-1842</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy no. 14, Roll 4, Vol. 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="29f870bb-e2a8-4bb0-8ed0-550b73341b73">1</container>
+              <container type="reel" label="Roll" parent="29f870bb-e2a8-4bb0-8ed0-550b73341b73">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1836/1842">1836-1842</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy no. 14, Roll 5)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box [1696447696262530]" id="dd0a35c2-20bd-401a-a953-bb4db535477c">1</container>
+            <container type="reel" label="Roll" parent="dd0a35c2-20bd-401a-a953-bb4db535477c">6</container>
+            <unittitle>Instructions from the State Department <unitdate type="inclusive" normal="1835/1842">1835-1842</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(NARA microcopy no. 14, Roll 6)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box [1696447696262530]" id="950b3348-147c-4c37-aafd-90fa1a3b1122">1</container>
+            <container type="reel" label="Roll" parent="950b3348-147c-4c37-aafd-90fa1a3b1122">7</container>
+            <unittitle>Notes from the French Foreign Office <unitdate type="inclusive" normal="1835/1842">1835-1842</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(NARA microcopy no. 14, Roll 7)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box [1696447696262530]" id="953031c8-d440-47ee-a25c-816c053c7c11">1</container>
+            <container type="reel" label="Roll" parent="953031c8-d440-47ee-a25c-816c053c7c11">8</container>
+            <unittitle>Consular Letters Received <unitdate type="inclusive" normal="1835/1842">1835-1842</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(NARA microcopy no. 14, Roll 8)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box [1696447696262530]" id="bb4eb57d-2f34-4c64-831a-450adbd25264">1</container>
+            <container type="reel" label="Roll" parent="bb4eb57d-2f34-4c64-831a-450adbd25264">9</container>
+            <unittitle>Miscellaneous Letters Received <unitdate type="inclusive" normal="1835/1842">1835-1842</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(NARA microcopy no. 14, Roll 9, Vol. 1)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box [1696447696262530]" id="77cdadfa-0e16-497e-a5cf-77d9ef902b4a">1</container>
+            <container type="reel" label="Roll" parent="77cdadfa-0e16-497e-a5cf-77d9ef902b4a">10</container>
+            <unittitle>Miscellaneous Letters Received <unitdate type="inclusive" normal="1835/1842">1835-1842</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(NARA microcopy no. 14, Roll 10, Vol. 2)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Dispatches from U.S. Ministers to France</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="8f8a04bb-5f7e-4d9c-8822-303b1740e5e3">3</container>
+              <container type="reel" label="Roll" parent="8f8a04bb-5f7e-4d9c-8822-303b1740e5e3">59</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1836-11-19/1839-05-06">November 19, 1836-May 6, 1839</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA copy 34, roll 31)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="0de4e5e2-b5e5-4eac-86d7-19476673f80b">3</container>
+              <container type="reel" label="Roll" parent="0de4e5e2-b5e5-4eac-86d7-19476673f80b">60</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1839-05-21/1843-03-07">May 21, 1839-March 7, 1843</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA copy 34, roll 32)</p>
+            </odd>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>United States Secretary of War</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Register of Letters Received</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="226eb79c-6aa8-440b-a86f-fc98d32447e1">1</container>
+              <container type="reel" label="Roll" parent="226eb79c-6aa8-440b-a86f-fc98d32447e1">11</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1831">1831</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 28, Vol. 28)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="b3adfe2f-149c-42a1-bc93-d5c7a56592b2">1</container>
+              <container type="reel" label="Roll" parent="b3adfe2f-149c-42a1-bc93-d5c7a56592b2">12</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1831">1831</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 29, Vol. 29)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="b76d678b-72ce-4091-88e9-baa74bc6759e">1</container>
+              <container type="reel" label="Roll" parent="b76d678b-72ce-4091-88e9-baa74bc6759e">13</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1831/1832">1831-1832</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 30, Vol. 30)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="9f96d485-6e3b-4aca-979b-b05cca65f55a">1</container>
+              <container type="reel" label="Roll" parent="9f96d485-6e3b-4aca-979b-b05cca65f55a">14</container>
+              <unittitle><unitdate type="inclusive" normal="1832-08/1832-09">August-September 1832</unitdate>, <unitdate type="inclusive" normal="1831">1831</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 31, Vol. 31)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="da019cf4-a3bf-4183-ab31-b141798a221c">1</container>
+              <container type="reel" label="Roll" parent="da019cf4-a3bf-4183-ab31-b141798a221c">15</container>
+              <unittitle><unitdate type="inclusive" normal="1832/1833">1832-1833</unitdate>, <unitdate type="inclusive" normal="1831">1831</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 32, Vol. 32)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="7ba0d68d-53af-4301-8c69-23b152d12698">1</container>
+              <container type="reel" label="Roll" parent="7ba0d68d-53af-4301-8c69-23b152d12698">16</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1833-05/1833-12">May-December 1833</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 33, Vol. 33)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="40cd2d6d-c262-46cd-bae1-e5e055722ffa">1</container>
+              <container type="reel" label="Roll" parent="40cd2d6d-c262-46cd-bae1-e5e055722ffa">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1834-01/1834-08">January-August 1834</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 34, Vol. 34)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="b51126fa-d81a-47a2-88cc-971a209acf7c">1</container>
+              <container type="reel" label="Roll" parent="b51126fa-d81a-47a2-88cc-971a209acf7c">18</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1834-04/1834-12">April-December 1834</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 35, Vol. 35)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="772677ef-89d8-450c-a8a0-3bdcc04b290a">1</container>
+              <container type="reel" label="Roll" parent="772677ef-89d8-450c-a8a0-3bdcc04b290a">19</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1835-01/1835-08">January-August 1835</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 36, Vol. 36)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [1696447696262530]" id="5c5b7640-c50f-4d43-886e-532035a42fed">1</container>
+              <container type="reel" label="Roll" parent="5c5b7640-c50f-4d43-886e-532035a42fed">20</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1835-09/1835-12">September-December 1835</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 37, Vol. 37)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="c7834fb8-3b3d-4339-9fe9-9bb22ef78b85">2</container>
+              <container type="reel" label="Roll" parent="c7834fb8-3b3d-4339-9fe9-9bb22ef78b85">21</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1836-01/1836-03">January-March 1836</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 38, Vol. 38)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="ad4d3249-038d-4bfc-ba18-5ece152e173e">2</container>
+              <container type="reel" label="Roll" parent="ad4d3249-038d-4bfc-ba18-5ece152e173e">22</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1836-03/1836-05">March-May 1836</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 39, Vol. 39)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="6f524f81-843c-49cf-adbd-1351301dcef2">2</container>
+              <container type="reel" label="Roll" parent="6f524f81-843c-49cf-adbd-1351301dcef2">23</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1836-06/1836-09">June-September 1836</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 40, Vol. 39)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="c0332697-716d-48d7-b9d4-844d84d02544">2</container>
+              <container type="reel" label="Roll" parent="c0332697-716d-48d7-b9d4-844d84d02544">24</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1836-10/1837-02">October 1836-February 1837</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 22, Roll 41, Vol. 41)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Letters Sent</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="66fa6bf9-2dbf-4afa-bdf7-3202bd4e52c3">2</container>
+              <container type="reel" label="Roll" parent="66fa6bf9-2dbf-4afa-bdf7-3202bd4e52c3">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1830-08/1833">August 1830-1833</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 6, Roll 13)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="08ada254-390f-48ee-b735-e6283e393f40">2</container>
+              <container type="reel" label="Roll" parent="08ada254-390f-48ee-b735-e6283e393f40">26</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1834/1835-02">1834-February 1835</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 6, Roll 14)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="f63da143-ebd9-495d-abbc-84aedb26aef2">2</container>
+              <container type="reel" label="Roll" parent="f63da143-ebd9-495d-abbc-84aedb26aef2">27</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1836-01/1836-05">January-May 1836</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 6, Roll 15)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="2e21ff91-cade-4b8b-9bf3-008fcffed89a">2</container>
+              <container type="reel" label="Roll" parent="2e21ff91-cade-4b8b-9bf3-008fcffed89a">28</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1836-05/1836-12">May-December 1836</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 6, Roll 16)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Confidential and Unofficial Letters Sent</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="e53535a9-2da3-4528-b875-307499175e13">2</container>
+              <container type="reel" label="Roll" parent="e53535a9-2da3-4528-b875-307499175e13">29</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1814-11/1835-08">November 1814-August 1835</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 7, Roll 1)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="a4592a97-70fb-4412-94cf-60a31fdca338">2</container>
+              <container type="reel" label="Roll" parent="a4592a97-70fb-4412-94cf-60a31fdca338">30</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1835-09/1847-04">September 1835-April 1847</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(NARA microcopy 7, Roll 2)</p>
+            </odd>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Michigan Superintendency of Indian Affairs</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Letters Received by the Superintendents</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="af73468d-bc71-4f12-8efd-b632196b6f06">2</container>
+              <container type="reel" label="Roll" parent="af73468d-bc71-4f12-8efd-b632196b6f06">32</container>
+              <unittitle>Calendar Year <unitdate type="inclusive" normal="1819">1819</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="6ff73a36-b903-4e83-9acf-577e53b293c5">2</container>
+              <container type="reel" label="Roll" parent="6ff73a36-b903-4e83-9acf-577e53b293c5">33</container>
+              <unittitle>Calendar Year <unitdate type="inclusive" normal="1820">1820</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="d226b395-77c0-45aa-a9df-2354cb161464">2</container>
+              <container type="reel" label="Roll" parent="d226b395-77c0-45aa-a9df-2354cb161464">34</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1821-01-01/1821-06-30">January 1-June 30, 1821</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="109f6d7a-bf4d-420e-a896-33ef0005d0b9">2</container>
+              <container type="reel" label="Roll" parent="109f6d7a-bf4d-420e-a896-33ef0005d0b9">35</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1821-07/1821-12-31">July-December 31, 1821</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="1d28fd2d-d42d-43c6-8014-15738df732a5">2</container>
+              <container type="reel" label="Roll" parent="1d28fd2d-d42d-43c6-8014-15738df732a5">36</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1822-01-01/1822-06-30">January 1-June 30, 1822</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="596cc1dc-d2f6-4cc5-af69-98fc183330ce">2</container>
+              <container type="reel" label="Roll" parent="596cc1dc-d2f6-4cc5-af69-98fc183330ce">37</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1822-07/1822-12-31">July-December 31, 1822</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="a400b699-52de-479d-95a4-62935b1efc8a">2</container>
+              <container type="reel" label="Roll" parent="a400b699-52de-479d-95a4-62935b1efc8a">38</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1823-01-01/1823-06-30">January 1-June 30, 1823</unitdate>
+                <unitdate type="inclusive" normal="1824-07-01/1824-08-16">July 1-August 16, 1824</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="0f80ddbe-939d-42af-9cb9-bde67b9f95c9">2</container>
+              <container type="reel" label="Roll" parent="0f80ddbe-939d-42af-9cb9-bde67b9f95c9">39</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1823-07-01/1823-12-31">July 1-December 31, 1823</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [30834439895551083104]" id="0b519b11-a8ab-4f6a-8430-9374f148237d">2</container>
+              <container type="reel" label="Roll" parent="0b519b11-a8ab-4f6a-8430-9374f148237d">40</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1824-01-01/1824-06-30">January 1-June 30, 1824</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="86efd16f-c774-4afb-bf66-ccf54547ca1d">3</container>
+              <container type="reel" label="Roll" parent="86efd16f-c774-4afb-bf66-ccf54547ca1d">41</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1824-08-17/1824-12-31">August 17-December 31, 1824</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="3388bd4e-0499-4531-b1bd-1b3d4af7ba64">3</container>
+              <container type="reel" label="Roll" parent="3388bd4e-0499-4531-b1bd-1b3d4af7ba64">42</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1825-01-01/1825-06-30">January 1-June 30, 1825</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="cf8c5194-e969-47ec-9a35-d1c9bc12c21c">3</container>
+              <container type="reel" label="Roll" parent="cf8c5194-e969-47ec-9a35-d1c9bc12c21c">43</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1825-07-01/1825-12-31">July 1-December 31, 1825</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="b7dba9e7-e63c-442d-a975-363abccc8489">3</container>
+              <container type="reel" label="Roll" parent="b7dba9e7-e63c-442d-a975-363abccc8489">44</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1826-01-01/1826-06-30">January 1-June 30, 1826</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="df14ce07-6a5c-49fd-8de4-1bb954bc485e">3</container>
+              <container type="reel" label="Roll" parent="df14ce07-6a5c-49fd-8de4-1bb954bc485e">45</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1826-07-01/1826-12-31">July 1-December 31, 1826</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="eab56ebe-9bfe-4cbb-be21-4e2727700326">3</container>
+              <container type="reel" label="Roll" parent="eab56ebe-9bfe-4cbb-be21-4e2727700326">46</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1827-01-01/1827-06-30">January 1-June 30, 1827</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="d2ab0731-4398-4c78-bbf9-49d444f24a75">3</container>
+              <container type="reel" label="Roll" parent="d2ab0731-4398-4c78-bbf9-49d444f24a75">47</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1827-07-01/1827-12-31">July 1-December 31, 1827</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="a52e3f4b-be5d-4329-b4f1-509a3d942fd5">3</container>
+              <container type="reel" label="Roll" parent="a52e3f4b-be5d-4329-b4f1-509a3d942fd5">48</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1828-01-01/1828-05-31">January 1-May 31, 1828</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="39b246a9-7d20-4181-a723-2a4da7b99ca7">3</container>
+              <container type="reel" label="Roll" parent="39b246a9-7d20-4181-a723-2a4da7b99ca7">49</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1828-06-01/1828-12-31">June 1-December 31, 1828</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="2ba4c30b-8c00-49dd-87b6-28f68413fd28">3</container>
+              <container type="reel" label="Roll" parent="2ba4c30b-8c00-49dd-87b6-28f68413fd28">50</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1829-01-01/1829-06-30">January 1-June 30, 1829</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="f0edb32e-9c97-4670-9d38-e4584884b3f7">3</container>
+              <container type="reel" label="Roll" parent="f0edb32e-9c97-4670-9d38-e4584884b3f7">51</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1829-07-01/1829-12-31">July 1-December 31, 1829</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="c1818787-a1da-4fe1-9e84-d511d3af875e">3</container>
+              <container type="reel" label="Roll" parent="c1818787-a1da-4fe1-9e84-d511d3af875e">52</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1830-01-01/1830-07-31">January 1-July 31, 1830</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="bc3ca1ab-ed88-4502-8599-fcee6161fe55">3</container>
+              <container type="reel" label="Roll" parent="bc3ca1ab-ed88-4502-8599-fcee6161fe55">53</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1830-08-01/1830-12-31">August 1-December 31, 1830</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box [710106184120607136886105]" id="a148d21a-f09a-45fa-ab30-e3cbd83ba631">3</container>
+              <container type="reel" label="Roll" parent="a148d21a-f09a-45fa-ab30-e3cbd83ba631">54</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1831-01-01/1831-08-26">January 1-August 26, 1831</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(end of reel also includes miscellaneous speeches at treaty councils, 1814-1825)</p>
+            </odd>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>United States Office of Indian Affairs</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box [710106184120607136886105]" id="1a051409-967d-43eb-a5ff-098d5b397208">3</container>
+            <container type="reel" label="Roll" parent="1a051409-967d-43eb-a5ff-098d5b397208">55</container>
+            <unittitle>Records <unitdate type="inclusive" normal="1814/1823">1814-1823</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box [710106184120607136886105]" id="5844cc20-231d-4bca-96ae-cfcbc4abc142">3</container>
+            <container type="reel" label="Roll" parent="5844cc20-231d-4bca-96ae-cfcbc4abc142">56</container>
+            <unittitle>Field papers, Sault Ste. Marie Agency <unitdate type="inclusive" normal="1822/1829">1822-1829</unitdate></unittitle>
+            <physdesc>
+              <physfacet>microfilm negative</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box [710106184120607136886105]" id="c564d2fc-c5bc-4976-98af-43978e30ac05">3</container>
+            <container type="reel" label="Roll" parent="c564d2fc-c5bc-4976-98af-43978e30ac05">57</container>
+            <unittitle>Letters sent to Sault Ste. Marie Agency, etc. <unitdate type="inclusive" normal="1826">1826</unitdate></unittitle>
+            <physdesc>
+              <physfacet>microfilm negative</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box [710106184120607136886105]" id="f9d9a127-cb0c-4f47-ac7d-0e7b431c36ac">3</container>
+            <container type="reel" label="Roll" parent="f9d9a127-cb0c-4f47-ac7d-0e7b431c36ac">58</container>
+            <unittitle>Letters sent to Sault Ste. Marie Agency, etc. <unitdate type="inclusive" normal="1828">1828</unitdate></unittitle>
+            <physdesc>
+              <physfacet>microfilm negative</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
