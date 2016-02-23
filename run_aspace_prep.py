@@ -11,12 +11,12 @@ from aspace_prep.add_compound_agent_terms import add_compound_agent_terms
 
 
 def run_aspace_prep(aspace_ead_dir, subjects_agents_dir):
-	camelcase_attributes(aspace_ead_dir)
-	add_classifications(aspace_ead_dir)
-	amend_duplicate_call_numbers(aspace_ead_dir)
-	skip_nested_items(aspace_ead_dir)
-	add_container_parent_ids(aspace_ead_dir)
-	add_container_barcodes(aspace_ead_dir)
+	#camelcase_attributes(aspace_ead_dir)
+	#add_classifications(aspace_ead_dir)
+	#amend_duplicate_call_numbers(aspace_ead_dir)
+	#skip_nested_items(aspace_ead_dir)
+	#add_container_parent_ids(aspace_ead_dir)
+	#add_container_barcodes(aspace_ead_dir)
 	get_compound_agents(aspace_ead_dir, subjects_agents_dir)
 	get_subjects(aspace_ead_dir, subjects_agents_dir)
 	subject_term_identification(aspace_ead_dir, subjects_agents_dir)

@@ -39,10 +39,8 @@ def get_compound_agents(ead_dir, subjects_agents_dir):
         data.append(row)
 
     output_csv = join(subjects_agents_dir,'compound_agents.csv')
-    if os.path.exists(output_csv):
-        os.remove(output_csv)
 
-    with open(output_csv, 'ab') as csvfile:
+    with open(output_csv, 'wb') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerows(data)
 
