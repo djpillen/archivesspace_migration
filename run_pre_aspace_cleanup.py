@@ -1,3 +1,5 @@
+from os.path import join
+
 from pre_aspace_cleanup.normalize_dates import normalize_dates
 from pre_aspace_cleanup.authfilenumber_urls_to_uris import authfilenumber_urls_to_uris
 from pre_aspace_cleanup.authfilenumber_propagation import authfilenumber_propagation
@@ -29,9 +31,11 @@ def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir):
 	print "*** COPY THE MASTER FILES TO THE LOCAL EAD DIR"
 
 def main():
-	ead_dir = 'C:/Users/djpillen/GitHub/vandura/Real_Masters_all'
+	vandura_base_dir = 'C:/Users/djpillen/GitHub/vandura'
+	vandura_real_masters_all = join(vandura_base_dir, 'Real_Masters_all')
+	local_ead_dir = 'eads'
 	dspace_mets_dir = 'C:/Users/djpillen/GitHub/dspace_mets'
-	run_pre_aspace_cleanup(ead_dir, dspace_mets_dir)
+	run_pre_aspace_cleanup(local_ead_dir, dspace_mets_dir)
 
 if __name__ == "__main__":
 	main()

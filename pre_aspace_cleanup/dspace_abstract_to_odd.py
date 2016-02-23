@@ -8,8 +8,8 @@ import time
 def dspace_abstract_to_odd(ead_dir, dspace_mets_dir):
     skip = ['nispodcast.xml','bamdocs.xml','actonh.xml','stewartmary.xml','mullinsr.xml','pollackp.xml','saxj.xml','caen.xml','shurtleffm.xml','ticecarol.xml','ootbmpm.xml']
     add_odd = ['schoening.xml','nsfnet.xml','gonzalesjess.xml']
-
-    for filename in os.listdir(ead_dir):
+    filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith('.xml')]
+    for filename in filenames:
         print "Adding DSpace abstracts to odds in {0}".format(filename)
         if filename not in skip:
             tree = etree.parse(join(ead_dir, filename))
