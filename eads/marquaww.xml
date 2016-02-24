@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Marquardt, Walter W. (Walter William), 1878-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/5605">Marquardt, Walter W. (Walter William), 1878-</persname>
       </origination>
-      <unittitle encodinganalog="245">Walter W. Marquardt papers <unitdate type="inclusive" encodinganalog="245$f" normal="1896/1952">1896-1952</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91421 Aa 2</unitid>
+      <unittitle encodinganalog="245">Walter W. Marquardt papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1896/1952">1896-1952</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91421 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Educator and director of education 1916-1919 in the Philippines. Bound volumes containing correspondence, appointments, speeches, writings, diaries, and travel accounts detailing career in the Philippines.</abstract>
       <physdesc altrender="whole">
@@ -84,34 +84,34 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Education--Philippines.</subject>
-        <persname source="lcnaf" encodinganalog="600">Marquardt, Walter W. (Walter William), 1878-</persname>
-        <geogname source="lcsh" encodinganalog="651">Philippines--History--1898-1946.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8952">Education--Philippines.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5605">Marquardt, Walter W. (Walter William), 1878-</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/940">Philippines--History--1898-1946.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lcsh" encodinganalog="651">Philippines--History--1898-1946.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022244">Taft, William H. (William Howard), 1857-1930.</persname>
-        <persname source="lcnaf" encodinganalog="600">Yeater, Charles Emmett, b. 1861.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/940">Philippines--History--1898-1946.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022244" ref="/agents/people/2887">Taft, William H. (William Howard), 1857-1930.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1278">Yeater, Charles Emmett, b. 1861.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <persname source="lcnaf" encodinganalog="600">Marquardt, Walter W. (Walter William), 1878-</persname>
-        <geogname source="lcsh" encodinganalog="651">Philippines--History--Japanese occupation, 1942-1945.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945--Campaigns--Philippines.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5605">Marquardt, Walter W. (Walter William), 1878-</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2285">Philippines--History--Japanese occupation, 1942-1945.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8953">World War, 1939-1945--Campaigns--Philippines.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81147296">Laurel, Jose P. (Jose Paciano), 1891-1959.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osmeña, Sergio, 1878-1961.</persname>
-        <persname source="lcnaf" encodinganalog="700">Romulo, Carlos P. (Carlos Peña), 1899-1985.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81147296" ref="/agents/people/9052">Laurel, Jose P. (Jose Paciano), 1891-1959.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2573">Osmeña, Sergio, 1878-1961.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/57">Romulo, Carlos P. (Carlos Peña), 1899-1985.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Lantern slides.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3497">Lantern slides.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -522,8 +522,7 @@
               <container type="box" label="Box [59582261434913870291557]" id="34c353c2-91c6-4b6b-81cf-e5f818147045">1</container>
               <container type="tray" label="Tray" parent="34c353c2-91c6-4b6b-81cf-e5f818147045">1</container>
               <unitid>47</unitid>
-              <unittitle>Benguet-Baguio Zigzag <unitdate type="inclusive" normal="1920">1920</unitdate></unittitle>
-            </did>
+              <unittitle>Benguet-Baguio Zigzag</unittitle><unitdate type="inclusive" normal="1920">1920</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -538,8 +537,7 @@
               <container type="box" label="Box [59582261434913870291557]" id="1ec4e1b1-b743-4e18-8480-8e965f082707">1</container>
               <container type="tray" label="Tray" parent="1ec4e1b1-b743-4e18-8480-8e965f082707">1</container>
               <unitid>49</unitid>
-              <unittitle>Igorot Burial ground <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-            </did>
+              <unittitle>Igorot Burial ground</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1372,8 +1370,7 @@
               <container type="box" label="Box [3074785508479137470406]" id="6cdb6282-cad3-4e22-a2b6-36ce6ccf25ce">2</container>
               <container type="tray" label="Tray" parent="6cdb6282-cad3-4e22-a2b6-36ce6ccf25ce">3</container>
               <unitid>151</unitid>
-              <unittitle>National Guard recruits <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-            </did>
+              <unittitle>National Guard recruits</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1417,16 +1414,14 @@
               <container type="box" label="Box [3074785508479137470406]" id="b044ef37-5a0e-43ba-912c-08ead8daf001">2</container>
               <container type="tray" label="Tray" parent="b044ef37-5a0e-43ba-912c-08ead8daf001">4</container>
               <unitid>156</unitid>
-              <unittitle>Gov. Yeater and Dr. Marquardt at mansion house <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-            </did>
+              <unittitle>Gov. Yeater and Dr. Marquardt at mansion house</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3074785508479137470406]" id="ae2684df-d36a-4685-9e76-9685d794d801">2</container>
               <container type="tray" label="Tray" parent="ae2684df-d36a-4685-9e76-9685d794d801">4</container>
               <unitid>157</unitid>
-              <unittitle>At Bontoc <unitdate type="inclusive" normal="1919">1919</unitdate> Yeater, Marquardt</unittitle>
-            </did>
+              <unittitle>At Bontoc  Yeater, Marquardt</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1489,8 +1484,7 @@
               <container type="box" label="Box [3074785508479137470406]" id="c7e4c0c9-7712-4502-8759-7efce2f4da3a">2</container>
               <container type="tray" label="Tray" parent="c7e4c0c9-7712-4502-8759-7efce2f4da3a">4</container>
               <unitid>165</unitid>
-              <unittitle>Coming into Sagada <unitdate type="inclusive" normal="1919">1919</unitdate> Yeater, Marquardt, and Skattebol</unittitle>
-            </did>
+              <unittitle>Coming into Sagada  Yeater, Marquardt, and Skattebol</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1713,8 +1707,7 @@
               <container type="box" label="Box [3074785508479137470406]" id="d319bfd3-98d0-4684-917d-ea15dc4a4524">2</container>
               <container type="tray" label="Tray" parent="d319bfd3-98d0-4684-917d-ea15dc4a4524">4</container>
               <unitid>193</unitid>
-              <unittitle>Mr. and Mrs. Emilio Aguinaldo <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-            </did>
+              <unittitle>Mr. and Mrs. Emilio Aguinaldo</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1862,8 +1855,7 @@
               <container type="box" label="Box [73785754599932253]" id="7ea701a7-a914-4875-9a5e-d995d8700ac9">3</container>
               <container type="tray" label="Tray" parent="7ea701a7-a914-4875-9a5e-d995d8700ac9">5</container>
               <unitid>211</unitid>
-              <unittitle>A meeting of Bontoc headmen <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
-            </did>
+              <unittitle>A meeting of Bontoc headmen</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1921,8 +1913,7 @@
               <container type="box" label="Box [73785754599932253]" id="19f58fbb-6c25-4e38-a9c3-4d2b1722322e">3</container>
               <container type="tray" label="Tray" parent="19f58fbb-6c25-4e38-a9c3-4d2b1722322e">5</container>
               <unitid>219</unitid>
-              <unittitle>Hilario Clapp--a Bontoc, senior in Medicine <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-            </did>
+              <unittitle>Hilario Clapp--a Bontoc, senior in Medicine</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1977,8 +1968,7 @@
               <container type="box" label="Box [73785754599932253]" id="68ea8d9a-5782-4ef8-b3fc-c8906a137187">3</container>
               <container type="tray" label="Tray" parent="68ea8d9a-5782-4ef8-b3fc-c8906a137187">5</container>
               <unitid>226</unitid>
-              <unittitle>Among the Ifugaos <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-            </did>
+              <unittitle>Among the Ifugaos</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2001,8 +1991,7 @@
               <container type="box" label="Box [73785754599932253]" id="0ee159e0-1b2a-4969-8553-220570d785e6">3</container>
               <container type="tray" label="Tray" parent="0ee159e0-1b2a-4969-8553-220570d785e6">5</container>
               <unitid>229</unitid>
-              <unittitle>Ifugao people at home <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-            </did>
+              <unittitle>Ifugao people at home</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2225,8 +2214,7 @@
               <container type="box" label="Box [73785754599932253]" id="19990000-5026-4e93-a969-ed0e64980d10">3</container>
               <container type="tray" label="Tray" parent="19990000-5026-4e93-a969-ed0e64980d10">6</container>
               <unitid>257</unitid>
-              <unittitle>A Moro girl's indoor baseball team <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-            </did>
+              <unittitle>A Moro girl's indoor baseball team</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2297,8 +2285,7 @@
               <container type="box" label="Box [73785754599932253]" id="5c5877d1-1740-4d63-8fae-5875a89d710f">3</container>
               <container type="tray" label="Tray" parent="5c5877d1-1740-4d63-8fae-5875a89d710f">6</container>
               <unitid>266</unitid>
-              <unittitle>Old time opium den, Manila <unitdate type="inclusive" normal="1901">1901</unitdate></unittitle>
-            </did>
+              <unittitle>Old time opium den, Manila</unittitle><unitdate type="inclusive" normal="1901">1901</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2337,8 +2324,7 @@
               <container type="box" label="Box [73785754599932253]" id="6374915c-198b-4470-99c6-55ce3f25ecea">3</container>
               <container type="tray" label="Tray" parent="6374915c-198b-4470-99c6-55ce3f25ecea">6</container>
               <unitid>271</unitid>
-              <unittitle>Embroidery worker <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-            </did>
+              <unittitle>Embroidery worker</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2630,8 +2616,7 @@
               <container type="box" label="Box [73785754599932253]" id="6a9d6a3d-0ce0-4a65-a04d-35f3ff0948e7">3</container>
               <container type="tray" label="Tray" parent="6a9d6a3d-0ce0-4a65-a04d-35f3ff0948e7">6</container>
               <unitid>307</unitid>
-              <unittitle>Teacher's cottage, Sulu <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-            </did>
+              <unittitle>Teacher's cottage, Sulu</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2774,8 +2759,7 @@
               <container type="box" label="Box [43860044346095557]" id="4b2043d0-cb60-4b3a-aa0e-bdc5b9cef23b">4</container>
               <container type="tray" label="Tray" parent="4b2043d0-cb60-4b3a-aa0e-bdc5b9cef23b">7</container>
               <unitid>325</unitid>
-              <unittitle>Folk dances; Playground Day, Carnival <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
-            </did>
+              <unittitle>Folk dances; Playground Day, Carnival</unittitle><unitdate type="inclusive" normal="1914">1914</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3093,14 +3077,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5192322473335641]">7</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1919/1921">1919-1921</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1919/1921">1919-1921</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5192322473335641]">7</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1942/1952">1942-1952</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1942/1952">1942-1952</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

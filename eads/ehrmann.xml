@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ehrmann, Howard Meredith, 1898-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/258">Ehrmann, Howard Meredith, 1898-</persname>
       </origination>
-      <unittitle encodinganalog="245">Howard M. Ehrmann papers <unitdate type="inclusive" encodinganalog="245$f" normal="1927/1968">1927-1968</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851197 Aa 2</unitid>
+      <unittitle encodinganalog="245">Howard M. Ehrmann papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1927/1968">1927-1968</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851197 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Historian, chairman of the Department of History at University of Michigan. The series in the collection include Biographical/Personal; Course Materials; Correspondence (general and University of Michigan); Research and Grant files; and Articles and Reviews.</abstract>
       <physdesc altrender="whole">
@@ -77,15 +77,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr99003347">Delta Kappa Epsilon. Omicron Chapter (University of Michigan)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2006017183">Ehrmann, Howard M. (Howard Meredith), 1898-1989</persname>
-        <geogname source="lcsh" encodinganalog="651">Europe--History--Study and teaching.</geogname>
-        <subject source="lcsh" encodinganalog="650">Greek letter societies--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Historians--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of History.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. War Seminar.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr99003347" ref="/agents/corporate_entities/3989">Delta Kappa Epsilon. Omicron Chapter (University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2006017183" ref="/agents/people/7803">Ehrmann, Howard M. (Howard Meredith), 1898-1989</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1741">Europe--History--Study and teaching.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5839">Greek letter societies--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5772">Historians--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/531">University of Michigan. Dept. of History.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/26">University of Michigan. War Seminar.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -140,8 +140,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>147, European Diplomatic History <unitdate type="inclusive" normal="1933/1947">1933-1947</unitdate></unittitle>
-          </did>
+            <unittitle>147, European Diplomatic History</unittitle><unitdate type="inclusive" normal="1933/1947">1933-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -158,8 +157,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>241/645, Studies in European History since <unitdate type="inclusive" normal="1870">1870</unitdate></unittitle>
-          </did>
+            <unittitle>241/645, Studies in European History since</unittitle><unitdate type="inclusive" normal="1870">1870</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -176,14 +174,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>454, European Diplomatic History <unitdate type="inclusive" normal="1904/1933">1904-1933</unitdate></unittitle>
-          </did>
+            <unittitle>454, European Diplomatic History</unittitle><unitdate type="inclusive" normal="1904/1933">1904-1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>455, European Diplomatic History since <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
-          </did>
+            <unittitle>455, European Diplomatic History since</unittitle><unitdate type="inclusive" normal="1933">1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -206,26 +202,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>USC, summer term <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <unittitle>USC, summer term</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>Stanford, summer term <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-          </did>
+            <unittitle>Stanford, summer term</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>Stanford, lecture, <unitdate type="inclusive" normal="1953">summer 1953</unitdate></unittitle>
-          </did>
+            <unittitle>Stanford, lecture</unittitle><unitdate type="inclusive" normal="1953">summer 1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>Johns Hopkins, Bologna <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Johns Hopkins, Bologna</unittitle><unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -523,8 +515,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [232564988195823792]">1</container>
-              <unittitle>American Historical Association, Whaddon Hall project <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            </did>
+              <unittitle>American Historical Association, Whaddon Hall project</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -582,42 +573,27 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [232564988195823792]">1</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive">Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [232564988195823792]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1936/1940">1936-1940</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1936/1940">1936-1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [232564988195823792]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1941/1945">1941-1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1941/1945">1941-1945</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [232564988195823792]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951/1960">1951-1960</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1951/1960">1951-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [232564988195823792]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961/1967">1961-1967</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961/1967">1961-1967</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -632,14 +608,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [232564988195823792]">1</container>
-              <unittitle>Fulbright <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></unittitle>
-            </did>
+              <unittitle>Fulbright</unittitle><unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [232564988195823792]">1</container>
-              <unittitle>Fulbright <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></unittitle>
-            </did>
+              <unittitle>Fulbright</unittitle><unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -674,26 +648,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>Renouvin <title render="italic">The Immediate Origins of the War</title>, <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
-          </did>
+            <unittitle>Renouvin <title render="italic">The Immediate Origins of the War</title></unittitle><unitdate type="inclusive" normal="1928">1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>Bloch <title render="italic">Les Causes de la Guerre Mondiale</title>, <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
-          </did>
+            <unittitle>Bloch <title render="italic">Les Causes de la Guerre Mondiale</title></unittitle><unitdate type="inclusive" normal="1933">1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>Toscano <title render="italic">Gli Accordi di San Giovanni di Moriana</title>, <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <unittitle>Toscano <title render="italic">Gli Accordi di San Giovanni di Moriana</title></unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>Sasse, "War das Deutsche Engreifen in die Bosniche Krise..." <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <unittitle>Sasse, "War das Deutsche Engreifen in die Bosniche Krise..."</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -704,38 +674,32 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>Russell and Kniffen <title render="italic">Culture Worlds</title>, <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-          </did>
+            <unittitle>Russell and Kniffen <title render="italic">Culture Worlds</title></unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle><title render="italic">History of Europe in the Twentieth Century</title>, <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">History of Europe in the Twentieth Century</title></unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle><title render="italic">I Documenti Diplomatici Italiani,1914-1918</title>, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">I Documenti Diplomatici Italiani,1914-1918</title></unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle><title render="italic">I Documenti Diplomatici Italiani,1922-1935</title>, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">I Documenti Diplomatici Italiani,1922-1935</title></unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>Ashley volume of U of M <title render="italic">History of the Modern World</title>, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Ashley volume of U of M <title render="italic">History of the Modern World</title></unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle>Medlicott <title render="italic">From Metternich to Hitler</title>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <unittitle>Medlicott <title render="italic">From Metternich to Hitler</title></unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -746,8 +710,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [232564988195823792]">1</container>
-            <unittitle><title render="italic">Papers Relating to the Foreign Relations of the U.S.</title>, vols. v and vi, <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Papers Relating to the Foreign Relations of the U.S.</title>, vols. v and vi</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -767,14 +730,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [232564988195823792]">1</container>
-              <unittitle>Article-A Bibliographic Guide to the Study of International Relations <unitdate type="inclusive" normal="1870/1919">1870-1919</unitdate></unittitle>
-            </did>
+              <unittitle>Article-A Bibliographic Guide to the Study of International Relations</unittitle><unitdate type="inclusive" normal="1870/1919">1870-1919</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [342967174190954861350]">2</container>
-              <unittitle>Book Ms.-Italy in <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Book Ms.-Italy in</unittitle><unitdate type="inclusive" normal="1914">1914</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -782,8 +743,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [342967174190954861350]">2</container>
-              <unittitle>Article-The Pact of London <unitdate type="inclusive" normal="1914-09-15">September 15, 1914</unitdate></unittitle>
-            </did>
+              <unittitle>Article-The Pact of London</unittitle><unitdate type="inclusive" normal="1914-09-15">September 15, 1914</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -811,14 +771,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [342967174190954861350]">2</container>
-              <unittitle>Article-Paris Peace Conference History <unitdate type="inclusive" normal="1939/1952">1939-1952</unitdate>, with Russell Fifield</unittitle>
-            </did>
+              <unittitle>Article-Paris Peace Conference History , with Russell Fifield</unittitle><unitdate type="inclusive" normal="1939/1952">1939-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [342967174190954861350]">2</container>
-              <unittitle>Book ms.- <title render="italic">The Second World War: A Political History of the Immediate Origins and First Years of the War, 1939-41</title>, <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Book ms.- <title render="italic">The Second World War: A Political History of the Immediate Origins and First Years of the War, 1939-41</title></unittitle><unitdate type="inclusive" normal="1946">1946</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
@@ -836,20 +794,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [342967174190954861350]">2</container>
-              <unittitle>Centennial celebration of the unification of Italy <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
+              <unittitle>Centennial celebration of the unification of Italy</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [342967174190954861350]">2</container>
-              <unittitle>National Defense Committee, Ann Arbor <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
-            </did>
+              <unittitle>National Defense Committee, Ann Arbor</unittitle><unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [342967174190954861350]">2</container>
-              <unittitle>Universite d'Aix Marseille, Cours d'Ete <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            </did>
+              <unittitle>Universite d'Aix Marseille, Cours d'Ete</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -865,26 +820,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [342967174190954861350]">2</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive">Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [342967174190954861350]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1936/1940">1936-1940</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1936/1940">1936-1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [342967174190954861350]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></did>
           </c03>
         </c02>
       </c01>

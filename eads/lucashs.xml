@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lucas, Henry Stephen, 1889-1961.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6700">Lucas, Henry Stephen, 1889-1961.</persname>
       </origination>
-      <unittitle encodinganalog="245">Henry Stephen Lucas collection <unitdate type="inclusive" encodinganalog="245$f" normal="1846/1930">1846-1930</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851749 mf 511c-mf 513c; Aa 1</unitid>
+      <unittitle encodinganalog="245">Henry Stephen Lucas collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1846/1930">1846-1930</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851749 mf 511c-mf 513c; Aa 1</unitid>
       <langmaterial>The material is in <language langcode="dut" encodinganalog="041">Dutch</language></langmaterial>
       <abstract>Professor of history at the University of Washington. Manuscripts, pamphlets, maps, pictures, newspapers, and other materials dealing with the Dutch migration to America collected for his book <title render="italic">Netherlanders in America</title>.</abstract>
       <physdesc altrender="part">
@@ -85,13 +85,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Dutch Americans.</subject>
-        <geogname source="lcsh" encodinganalog="651">United States--Emigration and immigration.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Holland (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="630">Netherlanders in America.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Washington.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Netherlands--Emigration and immigration.</geogname>
-        <subject source="lcsh" encodinganalog="650">Immigrants--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8891">Dutch Americans.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/862">United States--Emigration and immigration.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1115">Holland (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="630" ref="/subjects/8892">Netherlanders in America.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4802">University of Washington.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1688">Netherlands--Emigration and immigration.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7027">Immigrants--United States.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -118,26 +118,22 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [849494864514715984]">1</container>
-              <unittitle><title render="italic">De Grondwet</title>, Holland, Michigan, <unitdate type="inclusive" normal="1873-12-23">December 23, 1873</unitdate></unittitle>
-            </did>
+              <unittitle><title render="italic">De Grondwet</title>, Holland, Michigan</unittitle><unitdate type="inclusive" normal="1873-12-23">December 23, 1873</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [849494864514715984]">1</container>
-              <unittitle><title render="italic">De Hollander</title>, Holland, Michigan, <unitdate type="inclusive" normal="1875-04-21">April 21, 1875</unitdate></unittitle>
-            </did>
+              <unittitle><title render="italic">De Hollander</title>, Holland, Michigan</unittitle><unitdate type="inclusive" normal="1875-04-21">April 21, 1875</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [849494864514715984]">1</container>
-              <unittitle><title render="italic">De Wachter</title>, Grand Rapids, Michigan, <unitdate type="inclusive" normal="1882-01-26">January 26, 1882</unitdate></unittitle>
-            </did>
+              <unittitle><title render="italic">De Wachter</title>, Grand Rapids, Michigan</unittitle><unitdate type="inclusive" normal="1882-01-26">January 26, 1882</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [849494864514715984]">1</container>
-              <unittitle><title render="italic">Pella's Weekblad</title>, Pella, Iowa, <unitdate type="inclusive" normal="1869-01-19">January 19, 1869</unitdate></unittitle>
-            </did>
+              <unittitle><title render="italic">Pella's Weekblad</title>, Pella, Iowa</unittitle><unitdate type="inclusive" normal="1869-01-19">January 19, 1869</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -216,8 +212,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [0584409483812710]">2</container>
-              <unittitle><title render="italic">Hollender</title>, Holland, Michigan, 4 <unitdate type="inclusive" normal="1851-01">January 1851</unitdate></unittitle>
-            </did>
+              <unittitle><title render="italic">Hollender</title>, Holland, Michigan, 4</unittitle><unitdate type="inclusive" normal="1851-01">January 1851</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -265,8 +260,7 @@
         <c02 level="file">
           <did>
             <container type="reel" label="Roll [8168072480966012636352]">3</container>
-            <unittitle>Notes taken during an interview with Mr. Theodore Koch <unitdate type="inclusive" normal="1934-09-11">September 11, 1934</unitdate>. 14 p.</unittitle>
-            <physdesc>
+            <unittitle>Notes taken during an interview with Mr. Theodore Koch . 14 p.</unittitle><unitdate type="inclusive" normal="1934-09-11">September 11, 1934</unitdate><physdesc>
               <physfacet>typescript</physfacet>
             </physdesc>
           </did>
@@ -274,8 +268,7 @@
         <c02 level="file">
           <did>
             <container type="reel" label="Roll [8168072480966012636352]">3</container>
-            <unittitle>Koch, Theodore F. Abbreviated description of my life. <unitdate type="inclusive" normal="1930">1930</unitdate>. 79 p</unittitle>
-            <physdesc>
+            <unittitle>Koch, Theodore F. Abbreviated description of my life. . 79 p</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate><physdesc>
               <physfacet>typescript</physfacet>
             </physdesc>
           </did>
@@ -367,8 +360,7 @@
         <c02 level="file">
           <did>
             <container type="reel" label="Roll [8168072480966012636352]">3</container>
-            <unittitle>Remeeus, Johannes. <title render="italic">Kort journaal van onze reize uit Heidelburg, Provintie Zeeland Koningryk der Nederlanden, naar Milwaukee in den Staat Wisconsin in Noord-Amerika in het jaar 1854</title>. [<unitdate type="inclusive" normal="1861" certainty="approximate">1861</unitdate> [51] p.</unittitle>
-          </did>
+            <unittitle>Remeeus, Johannes. <title render="italic">Kort journaal van onze reize uit Heidelburg, Provintie Zeeland Koningryk der Nederlanden, naar Milwaukee in den Staat Wisconsin in Noord-Amerika in het jaar 1854</title>. [ [51] p.</unittitle><unitdate type="inclusive" normal="1861" certainty="approximate">1861</unitdate></did>
           <odd>
             <p>(location of original unknown)</p>
           </odd>

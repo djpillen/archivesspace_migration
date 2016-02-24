@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Welch, Kenneth Curtis, 1891-1973.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/5908">Welch, Kenneth Curtis, 1891-1973.</persname>
       </origination>
-      <unittitle encodinganalog="245">Kenneth C. Welch Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1915/1972">1915-1972</unitdate></unittitle>
-      <abstract>Grand Rapids, Michigan, architect and planner. Correspondence, writings, working files, and photographs for out-of-state and Michigan projects, primarily in Grand Rapids, Lansing, Flint, and East Lansing; professional materials relating to problems of urban planning, the design of department stores and shopping centers, his general interest in lighting designs, traffic patterns, and parking areas, and to his work with the Lake Michigan Region Planning Committee, the American Institute of Architects and the Michigan Society of Architects; also Welch family materials, including record, 1915-1925, of the Welch Manufacturing Company of Grand Rapids, Michigan.</abstract>
+      <unittitle encodinganalog="245">Kenneth C. Welch Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1915/1972">1915-1972</unitdate><abstract>Grand Rapids, Michigan, architect and planner. Correspondence, writings, working files, and photographs for out-of-state and Michigan projects, primarily in Grand Rapids, Lansing, Flint, and East Lansing; professional materials relating to problems of urban planning, the design of department stores and shopping centers, his general interest in lighting designs, traffic patterns, and parking areas, and to his work with the Lake Michigan Region Planning Committee, the American Institute of Architects and the Michigan Society of Architects; also Welch family materials, including record, 1915-1925, of the Welch Manufacturing Company of Grand Rapids, Michigan.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85520 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -95,74 +95,74 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79053945">American Institute of Architects.</corpname>
-        <subject source="lcsh" encodinganalog="650">Architects.</subject>
-        <subject source="lcsh" encodinganalog="650">Architecture.</subject>
-        <subject source="lcsh" encodinganalog="650">Automobile parking.</subject>
-        <subject source="lcsh" encodinganalog="650">City planning--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Department stores.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79129544">East Lansing (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396">Flint (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151">Grand Rapids (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Lake Michigan Region Planning Council.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Lansing (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85000355">Michigan Society of Architects.</corpname>
-        <subject source="lcsh" encodinganalog="650">Shopping centers.</subject>
-        <famname source="lcnaf" encodinganalog="600">Welch family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Welch Manufacturing Company (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79053945" ref="/agents/corporate_entities/1966">American Institute of Architects.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6271">Architects.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5837">Architecture.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6272">Automobile parking.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7275">City planning--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10684">Department stores.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79129544" ref="/subjects/1079">East Lansing (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396" ref="/subjects/889">Flint (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151" ref="/subjects/1098">Grand Rapids (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/388">Lake Michigan Region Planning Council.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1136">Lansing (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85000355" ref="/agents/corporate_entities/4069">Michigan Society of Architects.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8932">Shopping centers.</subject>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/180">Welch family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3318">Welch Manufacturing Company (Grand Rapids, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79079329">Albuquerque (N.M.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Architecture.</subject>
-        <subject source="lcsh" encodinganalog="650">Automobile parking.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79006530">Baltimore (Md.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Beverly (Mass.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Breton Village Shopping Center (Grand Rapids, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Business enterprises.</subject>
-        <subject source="lcsh" encodinganalog="650">Business enterprises--Michigan--East Lansing.</subject>
-        <subject source="lcsh" encodinganalog="650">Business enterprises--Michigan--Grand Rapids.</subject>
-        <subject source="lcsh" encodinganalog="650">Business enterprises--Michigan--Kalamazoo.</subject>
-        <subject source="lcsh" encodinganalog="650">Business enterprises--Michigan--Lansing.</subject>
-        <subject source="lcsh" encodinganalog="650">Business enterprises--Michigan--Southfield.</subject>
-        <subject source="lcsh" encodinganalog="650">Business enterprises--Michigan--Spring Lake.</subject>
-        <geogname source="lcsh" encodinganalog="651">Charlotte (N.C.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Church buildings--Michigan--Grand Rapids.</subject>
-        <subject source="lctgm" encodinganalog="650">Churches.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79055157">Denver (Colo.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79081388">Des Moines (Iowa)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Aerial photographs.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Edina (Minn.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">El Paso (Tex.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Flint (Mich.)--Aerial photographs.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Fountain Street Baptist Church (Grand Rapids, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80139920">Framingham (Mass.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82045026">Glen Burnie (Md.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Grand Rapids (Mich.)--Aerial photographs.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Grand Rapids (Mich.)--Buildings, structures, etc.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Italy.</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79058293">Jacksonville (Fla.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Libraries--Michigan--Sparta.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79007751">New York (N.Y.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Northland Shopping Center (Southfield, Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Owosso (Mich.)--Aerial photographs.</geogname>
-        <subject source="lctgm" encodinganalog="650">Parties--Michigan--East Lansing--1960.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82060977">Plainwell (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88107231">Saint Davids (Pa.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79054641">San Antonio (Tex.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Schools--Michigan--Whitehall.</subject>
-        <subject source="lctgm" encodinganalog="650">Shopping.</subject>
-        <subject source="lcsh" encodinganalog="650">Shopping centers.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85207703">Sparta (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Streets--Michigan--Grand Rapids.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n78085424">Wausau (Wis.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">West Hartford (Conn.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80119359">Wilmington (N.C.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79079329" ref="/subjects/3067">Albuquerque (N.M.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3867">Architecture.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6272">Automobile parking.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79006530" ref="/subjects/3068">Baltimore (Md.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/3069">Beverly (Mass.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4252">Breton Village Shopping Center (Grand Rapids, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4507">Business enterprises.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10685">Business enterprises--Michigan--East Lansing.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10686">Business enterprises--Michigan--Grand Rapids.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10687">Business enterprises--Michigan--Kalamazoo.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10688">Business enterprises--Michigan--Lansing.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10403">Business enterprises--Michigan--Southfield.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10689">Business enterprises--Michigan--Spring Lake.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/3070">Charlotte (N.C.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10690">Church buildings--Michigan--Grand Rapids.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3947">Churches.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79055157" ref="/subjects/3071">Denver (Colo.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79081388" ref="/subjects/3072">Des Moines (Iowa)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/3073">Detroit (Mich.)--Aerial photographs.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/3074">Edina (Minn.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/3075">El Paso (Tex.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/3076">Flint (Mich.)--Aerial photographs.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/641">Fountain Street Baptist Church (Grand Rapids, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80139920" ref="/subjects/3077">Framingham (Mass.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82045026" ref="/subjects/3078">Glen Burnie (Md.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/3079">Grand Rapids (Mich.)--Aerial photographs.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1455">Grand Rapids (Mich.)--Buildings, structures, etc.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/999">Italy.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79058293" ref="/subjects/3080">Jacksonville (Fla.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5568">Libraries--Michigan--Sparta.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79007751" ref="/subjects/925">New York (N.Y.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2354">Northland Shopping Center (Southfield, Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/3081">Owosso (Mich.)--Aerial photographs.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5569">Parties--Michigan--East Lansing--1960.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82060977" ref="/subjects/1198">Plainwell (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88107231" ref="/subjects/3082">Saint Davids (Pa.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79054641" ref="/subjects/3083">San Antonio (Tex.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4023">Schools--Michigan--Whitehall.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5570">Shopping.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8932">Shopping centers.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85207703" ref="/subjects/2369">Sparta (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10691">Streets--Michigan--Grand Rapids.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n78085424" ref="/subjects/3084">Wausau (Wis.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/3085">West Hartford (Conn.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80119359" ref="/subjects/3086">Wilmington (N.C.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="gmgpc" encodinganalog="655">Aerial photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3449">Aerial photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -185,8 +185,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1945/1972">1945-1972</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1945/1972">1945-1972</unitdate></did>
         <scopecontent>
           <p>The correspondence series covers the period of 1945 to 1972 and is arranged alphabetically. The bulk of the correspondence concerns projects Welch was involved with and his professional activities. There are two folders of correspondence with Gerald Ford.</p>
         </scopecontent>
@@ -648,8 +647,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [89847508840439754782060]">2</container>
-            <unittitle>Welch's election to the Jury of Fellows, A.I.A. <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-          </did>
+            <unittitle>Welch's election to the Jury of Fellows, A.I.A.</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
           <odd>
             <p>(2-13)</p>
           </odd>
@@ -661,10 +659,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [89847508840439754782060]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1925/1935">1925-1935</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1925/1935">1925-1935</unitdate></did>
             <odd>
               <p>(2-14)</p>
             </odd>
@@ -672,10 +667,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [89847508840439754782060]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1936/1943">1936-1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1936/1943">1936-1943</unitdate></did>
             <odd>
               <p>(2-15)</p>
             </odd>
@@ -683,10 +675,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [89847508840439754782060]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944/1950">1944-1950</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1944/1950">1944-1950</unitdate></did>
             <odd>
               <p>(2-16)</p>
             </odd>
@@ -713,8 +702,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [89847508840439754782060]">2</container>
-            <unittitle>Record book of the Welch Manufacturing Company <unitdate type="inclusive" normal="1915/1925">1915-1925</unitdate></unittitle>
-          </did>
+            <unittitle>Record book of the Welch Manufacturing Company</unittitle><unitdate type="inclusive" normal="1915/1925">1915-1925</unitdate></did>
           <odd>
             <p>(2-19)</p>
           </odd>
@@ -726,8 +714,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [89847508840439754782060]">2</container>
-              <unittitle>Store Survey and Design Manual <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-            </did>
+              <unittitle>Store Survey and Design Manual</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
             <odd>
               <p>(2-20)</p>
             </odd>
@@ -774,8 +761,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Store modernization show, New York City <unitdate type="inclusive" normal="1947-07">July 1947</unitdate></unittitle>
-            </did>
+              <unittitle>Store modernization show, New York City</unittitle><unitdate type="inclusive" normal="1947-07">July 1947</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [827194649567083044807]">3</container>
@@ -807,8 +793,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [827194649567083044807]">3</container>
-              <unittitle>Papers of the Branch Store Clinic, Research Bureau for Retail Training, University of Pittsburgh <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-            </did>
+              <unittitle>Papers of the Branch Store Clinic, Research Bureau for Retail Training, University of Pittsburgh</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
             <odd>
               <p>(3-6)</p>
             </odd>
@@ -842,8 +827,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [827194649567083044807]">3</container>
-              <unittitle>Papers of the Harvard University Urban Design Conference, "The Shopping Center as a Nucleus of Inter-City Activity," <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <unittitle>Papers of the Harvard University Urban Design Conference, "The Shopping Center as a Nucleus of Inter-City Activity,"</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
             <odd>
               <p>(3-10)</p>
             </odd>
@@ -883,16 +867,14 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [827194649567083044807]">3</container>
-              <unittitle>Papers of the A.I.A. School Lighting Roundtable <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-            </did>
+              <unittitle>Papers of the A.I.A. School Lighting Roundtable</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
             <odd>
               <p>(3-14)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Illuminating Engineering Society Project on School Lighting <unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate></unittitle>
-            </did>
+              <unittitle>Illuminating Engineering Society Project on School Lighting</unittitle><unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [827194649567083044807]">3</container>
@@ -915,16 +897,14 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [827194649567083044807]">3</container>
-              <unittitle>Papers of the A.I.A. Symposium on Light and Illumination <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-            </did>
+              <unittitle>Papers of the A.I.A. Symposium on Light and Illumination</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
             <odd>
               <p>(3-17)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Papers of the Inter-Society Color Council <unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate></unittitle>
-            </did>
+              <unittitle>Papers of the Inter-Society Color Council</unittitle><unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [827194649567083044807]">3</container>
@@ -982,8 +962,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [827194649567083044807]">3</container>
-              <unittitle>Papers of the Highway Research Board <unitdate type="inclusive" normal="1918/1950">1918-1950</unitdate></unittitle>
-            </did>
+              <unittitle>Papers of the Highway Research Board</unittitle><unitdate type="inclusive" normal="1918/1950">1918-1950</unitdate></did>
             <odd>
               <p>(3-24)</p>
             </odd>
@@ -1014,8 +993,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [827194649567083044807]">3</container>
-              <unittitle>Papers of the A.I.A. Committee on Community Planning <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <unittitle>Papers of the A.I.A. Committee on Community Planning</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
             <odd>
               <p>(3-27)</p>
             </odd>
@@ -1023,8 +1001,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [827194649567083044807]">3</container>
-              <unittitle>Papers concerning the Baltimore Plan for 'Public and Private Housing <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-            </did>
+              <unittitle>Papers concerning the Baltimore Plan for 'Public and Private Housing</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
             <odd>
               <p>(3-28)</p>
             </odd>
@@ -1045,8 +1022,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [827194649567083044807]">3</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
             <odd>
               <p>(3-29)</p>
             </odd>
@@ -1054,8 +1030,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [827194649567083044807]">3</container>
-              <unittitle>Reports and proposals <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Reports and proposals</unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -1066,8 +1041,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [827194649567083044807]">3</container>
-              <unittitle>News clippings <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-            </did>
+              <unittitle>News clippings</unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
             <odd>
               <p>(3-32)</p>
             </odd>
@@ -1107,8 +1081,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [827194649567083044807]">3</container>
-              <unittitle>City Master plans <unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate></unittitle>
-            </did>
+              <unittitle>City Master plans</unittitle><unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate></did>
             <odd>
               <p>(3-36)</p>
             </odd>
@@ -1116,8 +1089,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9111351734410932835708363]">4</container>
-              <unittitle>Printed materials <unitdate type="inclusive" normal="1941/1960">1941-1960</unitdate></unittitle>
-            </did>
+              <unittitle>Printed materials</unittitle><unitdate type="inclusive" normal="1941/1960">1941-1960</unitdate></did>
             <odd>
               <p>(4-l)</p>
             </odd>
@@ -1125,8 +1097,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9111351734410932835708363]">4</container>
-              <unittitle>Parking plans <unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate></unittitle>
-            </did>
+              <unittitle>Parking plans</unittitle><unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate></did>
             <odd>
               <p>(4-2)</p>
             </odd>
@@ -1138,8 +1109,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9111351734410932835708363]">4</container>
-                <unittitle>Miscellaneous papers <unitdate type="inclusive" normal="1946" certainty="approximate">1946</unitdate></unittitle>
-              </did>
+                <unittitle>Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1946" certainty="approximate">1946</unitdate></did>
               <odd>
                 <p>(4-3)</p>
               </odd>
@@ -1153,8 +1123,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9111351734410932835708363]">4</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1954/1964">1954-1964</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1954/1964">1954-1964</unitdate></did>
             <odd>
               <p>(4-4)</p>
             </odd>
@@ -1185,8 +1154,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9111351734410932835708363]">4</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
             <odd>
               <p>(4-7)</p>
             </odd>
@@ -1203,8 +1171,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9111351734410932835708363]">4</container>
-              <unittitle>Reports of the Flint Planning Commission <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Reports of the Flint Planning Commission</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -1228,8 +1195,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [9111351734410932835708363]">4</container>
-                  <unittitle>Correspondence and Plans <unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence and Plans</unittitle><unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate></did>
                 <odd>
                   <p>(4-12)</p>
                 </odd>
@@ -1251,8 +1217,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [9111351734410932835708363]">4</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></did>
                 <odd>
                   <p>(4-14)</p>
                 </odd>
@@ -1260,8 +1225,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [9111351734410932835708363]">4</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
                 <odd>
                   <p>(4-15)</p>
                 </odd>
@@ -1283,8 +1247,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [9111351734410932835708363]">4</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></did>
                 <odd>
                   <p>(4-17)</p>
                 </odd>
@@ -1315,8 +1278,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [9111351734410932835708363]">4</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></did>
                 <odd>
                   <p>(4-20)</p>
                 </odd>
@@ -1347,8 +1309,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [9111351734410932835708363]">4</container>
-                  <unittitle>Papers concerning zoning controversy <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-                </did>
+                  <unittitle>Papers concerning zoning controversy</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
                 <odd>
                   <p>(4-23)</p>
                 </odd>
@@ -1361,8 +1322,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [9111351734410932835708363]">4</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1955/1958">1955-1958</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1955/1958">1955-1958</unitdate></did>
                 <odd>
                   <p>(4-24)</p>
                 </odd>
@@ -1370,8 +1330,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [9111351734410932835708363]">4</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></did>
                 <odd>
                   <p>(4-25)</p>
                 </odd>
@@ -1411,8 +1370,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [9111351734410932835708363]">4</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1944/1949">1944-1949</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1944/1949">1944-1949</unitdate></did>
                 <odd>
                   <p>(4-29)</p>
                 </odd>
@@ -1478,8 +1436,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Miscellaneous papers <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-                </did>
+                  <unittitle>Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
                 <odd>
                   <p>(5-3)</p>
                 </odd>
@@ -1506,8 +1463,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Minutes and Memos <unitdate type="inclusive" normal="1947-01/1947-06">January-June 1947</unitdate></unittitle>
-                </did>
+                  <unittitle>Minutes and Memos</unittitle><unitdate type="inclusive" normal="1947-01/1947-06">January-June 1947</unitdate></did>
                 <odd>
                   <p>(5-5)</p>
                 </odd>
@@ -1515,8 +1471,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Minutes and Memos <unitdate type="inclusive" normal="1947-07/1948-01">July 1947-January 1948</unitdate></unittitle>
-                </did>
+                  <unittitle>Minutes and Memos</unittitle><unitdate type="inclusive" normal="1947-07/1948-01">July 1947-January 1948</unitdate></did>
                 <odd>
                   <p>(5-6)</p>
                 </odd>
@@ -1524,8 +1479,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1947">1947</unitdate></did>
                 <odd>
                   <p>(5-7)</p>
                 </odd>
@@ -1533,8 +1487,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>News clippings <unitdate type="inclusive" normal="1956/1970">1956-1970</unitdate></unittitle>
-                </did>
+                  <unittitle>News clippings</unittitle><unitdate type="inclusive" normal="1956/1970">1956-1970</unitdate></did>
                 <odd>
                   <p>(5-8)</p>
                 </odd>
@@ -1542,8 +1495,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Zoning regulations <unitdate type="inclusive" normal="1940/1952">1940-1952</unitdate></unittitle>
-                </did>
+                  <unittitle>Zoning regulations</unittitle><unitdate type="inclusive" normal="1940/1952">1940-1952</unitdate></did>
                 <odd>
                   <p>(5-9)</p>
                 </odd>
@@ -1551,8 +1503,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Century-Monroe Expressway Project <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate></unittitle>
-                </did>
+                  <unittitle>Century-Monroe Expressway Project</unittitle><unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate></did>
                 <odd>
                   <p>(5-10)</p>
                 </odd>
@@ -1565,8 +1516,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Reports <unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate></unittitle>
-                </did>
+                  <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate></did>
                 <odd>
                   <p>(5-11)</p>
                 </odd>
@@ -1583,8 +1533,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1967-01/1970-03">January 1967-March 1970</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1967-01/1970-03">January 1967-March 1970</unitdate></did>
                 <odd>
                   <p>(5-13)</p>
                 </odd>
@@ -1592,8 +1541,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1970-04/1972-08">April 1970-August 1972</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1970-04/1972-08">April 1970-August 1972</unitdate></did>
                 <odd>
                   <p>(5-14)</p>
                 </odd>
@@ -1615,8 +1563,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Miscellaneous papers <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate></unittitle>
-                </did>
+                  <unittitle>Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate></did>
                 <odd>
                   <p>(5-16)</p>
                 </odd>
@@ -1629,8 +1576,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1945/1954">1945-1954</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1945/1954">1945-1954</unitdate></did>
                 <odd>
                   <p>(5-17)</p>
                 </odd>
@@ -1638,8 +1584,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Reports <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1947">1947</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
@@ -1659,8 +1604,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Articles and News clippings <unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate></unittitle>
-                </did>
+                  <unittitle>Articles and News clippings</unittitle><unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate></did>
                 <odd>
                   <p>(5-21)</p>
                 </odd>
@@ -1673,8 +1617,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Miscellaneous papers <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-                </did>
+                  <unittitle>Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
                 <odd>
                   <p>(5-22)</p>
                 </odd>
@@ -1683,8 +1626,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [54710463741592570820]">5</container>
-                <unittitle>Miscellaneous Printed materials concerning Grand Rapids Urban Planning <unitdate type="inclusive" normal="1942/1952">1942-1952</unitdate></unittitle>
-              </did>
+                <unittitle>Miscellaneous Printed materials concerning Grand Rapids Urban Planning</unittitle><unitdate type="inclusive" normal="1942/1952">1942-1952</unitdate></did>
               <odd>
                 <p>(5-23)</p>
               </odd>
@@ -1696,8 +1638,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Minutes <unitdate type="inclusive" normal="1963/1970">1963-1970</unitdate></unittitle>
-                </did>
+                  <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1963/1970">1963-1970</unitdate></did>
                 <odd>
                   <p>(5-24)</p>
                 </odd>
@@ -1705,8 +1646,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Minutes <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
-                </did>
+                  <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></did>
                 <odd>
                   <p>(5-25)</p>
                 </odd>
@@ -1714,8 +1654,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1962/1972">1962-1972</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1962/1972">1962-1972</unitdate></did>
                 <odd>
                   <p>(5-26)</p>
                 </odd>
@@ -1723,8 +1662,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Reports <unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
@@ -1735,8 +1673,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [54710463741592570820]">5</container>
-                  <unittitle>Papers concerning the Kent County Airport Cascade Zoning Ordinance <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
-                </did>
+                  <unittitle>Papers concerning the Kent County Airport Cascade Zoning Ordinance</unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
                 <odd>
                   <p>(5-29)</p>
                 </odd>
@@ -1766,8 +1703,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [30967267745784617210781]">7</container>
-              <unittitle>Downtown Development Studies <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            </did>
+              <unittitle>Downtown Development Studies</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
             <odd>
               <p>(7-1)</p>
             </odd>
@@ -1779,8 +1715,7 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>Downtown Rehabilitation Program <unitdate type="inclusive" normal="1957/1961">1957-1961</unitdate></unittitle>
-            </did>
+              <unittitle>Downtown Rehabilitation Program</unittitle><unitdate type="inclusive" normal="1957/1961">1957-1961</unitdate></did>
             <c04 level="file">
               <did>
                 <unittitle>Correspondence</unittitle>
@@ -1788,10 +1723,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [30967267745784617210781]">7</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1957-12/1958-06">December 1957-June 1958</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1957-12/1958-06">December 1957-June 1958</unitdate></did>
                 <odd>
                   <p>(7-2)</p>
                 </odd>
@@ -1799,10 +1731,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [30967267745784617210781]">7</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1958-07/1958-12">July-December 1958</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1958-07/1958-12">July-December 1958</unitdate></did>
                 <odd>
                   <p>(7-3)</p>
                 </odd>
@@ -1810,10 +1739,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [30967267745784617210781]">7</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1959-01/1959-04">January-April 1959</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1959-01/1959-04">January-April 1959</unitdate></did>
                 <odd>
                   <p>(7-4)</p>
                 </odd>
@@ -1821,10 +1747,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [30967267745784617210781]">7</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1959">May-December 1959</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1959">May-December 1959</unitdate></did>
                 <odd>
                   <p>(7-5)</p>
                 </odd>
@@ -1832,10 +1755,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [30967267745784617210781]">7</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
                 <odd>
                   <p>(7-6)</p>
                 </odd>
@@ -1848,10 +1768,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [30967267745784617210781]">7</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1958">1958</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1958">1958</unitdate></did>
                 <odd>
                   <p>(7-7)</p>
                 </odd>
@@ -1859,10 +1776,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [30967267745784617210781]">7</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1959-01/1959-06">January-June 1959</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1959-01/1959-06">January-June 1959</unitdate></did>
                 <odd>
                   <p>(7-8)</p>
                 </odd>
@@ -1870,10 +1784,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [30967267745784617210781]">7</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1959-07/1959-12">July-December 1959</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1959-07/1959-12">July-December 1959</unitdate></did>
                 <odd>
                   <p>(7-9)</p>
                 </odd>
@@ -1881,10 +1792,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [30967267745784617210781]">7</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1960">1960</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1960">1960</unitdate></did>
                 <odd>
                   <p>(7-10)</p>
                 </odd>
@@ -1937,8 +1845,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [30967267745784617210781]">7</container>
-                <unittitle>Miscellaneous papers <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-              </did>
+                <unittitle>Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
               <odd>
                 <p>(7-18)</p>
               </odd>
@@ -1952,8 +1859,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [30967267745784617210781]">7</container>
-              <unittitle>Central Business District Development Report <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-            </did>
+              <unittitle>Central Business District Development Report</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
             <odd>
               <p>(7-19)</p>
             </odd>
@@ -1966,8 +1872,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [30967267745784617210781]">7</container>
-              <unittitle>Papers concerning urban development <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></unittitle>
-            </did>
+              <unittitle>Papers concerning urban development</unittitle><unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
             <odd>
               <p>(7-20)</p>
             </odd>
@@ -2008,8 +1913,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [30967267745784617210781]">7</container>
-              <unittitle>Correspondence concerning expansion of the public library <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence concerning expansion of the public library</unittitle><unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></did>
             <odd>
               <p>(7-23)</p>
             </odd>
@@ -2022,8 +1926,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [30967267745784617210781]">7</container>
-              <unittitle>Report on Urban Planning <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <unittitle>Report on Urban Planning</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
             <odd>
               <p>(7-24)</p>
             </odd>
@@ -2036,8 +1939,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [30967267745784617210781]">7</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1959/1971">1959-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1959/1971">1959-1971</unitdate></did>
             <odd>
               <p>(7-25)</p>
             </odd>
@@ -2073,8 +1975,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [30967267745784617210781]">7</container>
-              <unittitle>Development plan <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Development plan</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
             <odd>
               <p>(7-28)</p>
             </odd>
@@ -2087,8 +1988,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3972011442413090276202]">8</container>
-              <unittitle>Reports <unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate></unittitle>
-            </did>
+              <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate></did>
             <odd>
               <p>(8-1)</p>
             </odd>
@@ -2096,8 +1996,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3972011442413090276202]">8</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
             <odd>
               <p>(8-2)</p>
             </odd>
@@ -2110,8 +2009,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3972011442413090276202]">8</container>
-              <unittitle>Planning Guide <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Planning Guide</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
             <odd>
               <p>(8-3)</p>
             </odd>
@@ -2124,8 +2022,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3972011442413090276202]">8</container>
-              <unittitle>Papers of the Seminar on the Dynamics of Urban Transportation, Detroit <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <unittitle>Papers of the Seminar on the Dynamics of Urban Transportation, Detroit</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             <odd>
               <p>(8-4)</p>
             </odd>
@@ -2133,8 +2030,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3972011442413090276202]">8</container>
-              <unittitle>Reports concerning highways and transportation in Michigan <unitdate type="inclusive" normal="1947/1961">1947-1961</unitdate></unittitle>
-            </did>
+              <unittitle>Reports concerning highways and transportation in Michigan</unittitle><unitdate type="inclusive" normal="1947/1961">1947-1961</unitdate></did>
             <odd>
               <p>(8-5)</p>
             </odd>
@@ -2146,8 +2042,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3972011442413090276202]">8</container>
-                <unittitle>Newsletter <unitdate type="inclusive" normal="1947/1952">1947-1952</unitdate></unittitle>
-              </did>
+                <unittitle>Newsletter</unittitle><unitdate type="inclusive" normal="1947/1952">1947-1952</unitdate></did>
               <odd>
                 <p>(8-6)</p>
               </odd>
@@ -2155,8 +2050,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3972011442413090276202]">8</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1947/1950">1947-1950</unitdate></unittitle>
-              </did>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1947/1950">1947-1950</unitdate></did>
               <odd>
                 <p>(8-7)</p>
               </odd>
@@ -2164,8 +2058,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3972011442413090276202]">8</container>
-                <unittitle>Community Planning Annual <unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate></unittitle>
-              </did>
+                <unittitle>Community Planning Annual</unittitle><unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate></did>
               <odd>
                 <p>(8-8)</p>
               </odd>
@@ -2174,8 +2067,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3972011442413090276202]">8</container>
-              <unittitle>Handbook and Directory of Planning in Michigan published by the American Institute of Planners <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></unittitle>
-            </did>
+              <unittitle>Handbook and Directory of Planning in Michigan published by the American Institute of Planners</unittitle><unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></did>
             <odd>
               <p>(8-9)</p>
             </odd>
@@ -2187,8 +2079,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3972011442413090276202]">8</container>
-                <unittitle>Handbook <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-              </did>
+                <unittitle>Handbook</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
               <odd>
                 <p>(8-10)</p>
               </odd>
@@ -2196,8 +2087,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3972011442413090276202]">8</container>
-                <unittitle>Minutes and Newsletters <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-              </did>
+                <unittitle>Minutes and Newsletters</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
               <odd>
                 <p>(8-11)</p>
               </odd>
@@ -2206,8 +2096,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3972011442413090276202]">8</container>
-              <unittitle>A.I.A.--Miscellaneous papers <unitdate type="inclusive" normal="1947/1971">1947-1971</unitdate></unittitle>
-            </did>
+              <unittitle>A.I.A.--Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1947/1971">1947-1971</unitdate></did>
             <odd>
               <p>(8-12)</p>
             </odd>
@@ -2215,8 +2104,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3972011442413090276202]">8</container>
-              <unittitle>Michigan Society of Architects--Miscellaneous papers <unitdate type="inclusive" normal="1945/1958">1945-1958</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Society of Architects--Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1945/1958">1945-1958</unitdate></did>
             <odd>
               <p>(8-13)</p>
             </odd>
@@ -2232,10 +2120,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [3972011442413090276202]">8</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1960">1960</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1960">1960</unitdate></did>
                 <odd>
                   <p>(8-14)</p>
                 </odd>
@@ -2243,10 +2128,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [3972011442413090276202]">8</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1961">1961</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1961">1961</unitdate></did>
                 <odd>
                   <p>(8-15)</p>
                 </odd>
@@ -2254,10 +2136,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [3972011442413090276202]">8</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1962-01/1962-08">January-August 1962</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1962-01/1962-08">January-August 1962</unitdate></did>
                 <odd>
                   <p>(8-16)</p>
                 </odd>
@@ -2265,10 +2144,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [3972011442413090276202]">8</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1962-09/1962-12">September-December 1962</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1962-09/1962-12">September-December 1962</unitdate></did>
                 <odd>
                   <p>(8-17)</p>
                 </odd>
@@ -2276,10 +2152,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [3972011442413090276202]">8</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></did>
                 <odd>
                   <p>(8-18)</p>
                 </odd>
@@ -2292,10 +2165,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [3972011442413090276202]">8</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1960">1960</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1960">1960</unitdate></did>
                 <odd>
                   <p>(8-19)</p>
                 </odd>
@@ -2303,10 +2173,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [3972011442413090276202]">8</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1961">1961</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1961">1961</unitdate></did>
                 <odd>
                   <p>(8-20)</p>
                 </odd>
@@ -2314,10 +2181,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [3972011442413090276202]">8</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1962/1965">1962-1965</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1962/1965">1962-1965</unitdate></did>
                 <odd>
                   <p>(8-21)</p>
                 </odd>
@@ -2326,8 +2190,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3972011442413090276202]">8</container>
-                <unittitle>Planning memos <unitdate type="inclusive" normal="1962/1972">1962-1972</unitdate></unittitle>
-              </did>
+                <unittitle>Planning memos</unittitle><unitdate type="inclusive" normal="1962/1972">1962-1972</unitdate></did>
               <odd>
                 <p>(8-22)</p>
               </odd>
@@ -2335,8 +2198,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3972011442413090276202]">8</container>
-                <unittitle>News clippings and articles <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></unittitle>
-              </did>
+                <unittitle>News clippings and articles</unittitle><unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></did>
               <odd>
                 <p>(8-23)</p>
               </odd>
@@ -2344,8 +2206,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3972011442413090276202]">8</container>
-                <unittitle>Reports <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></unittitle>
-              </did>
+                <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></did>
               <odd>
                 <p>(8-24)</p>
               </odd>
@@ -2353,8 +2214,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3972011442413090276202]">8</container>
-                <unittitle>Miscellaneous papers <unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate></unittitle>
-              </did>
+                <unittitle>Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate></did>
               <odd>
                 <p>(8-25)</p>
               </odd>
@@ -2363,8 +2223,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3972011442413090276202]">8</container>
-              <unittitle>A.I.A. Great Lakes District Seminars <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
-            </did>
+              <unittitle>A.I.A. Great Lakes District Seminars</unittitle><unitdate type="inclusive" normal="1947">1947</unitdate></did>
             <odd>
               <p>(8-26)</p>
             </odd>
@@ -2381,8 +2240,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [97963242458932923744748]">9</container>
-            <unittitle>Alabama, Russelville: Shopping Center Market Study <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Alabama, Russelville: Shopping Center Market Study</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           <odd>
             <p>(9-1)</p>
           </odd>
@@ -2394,8 +2252,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [97963242458932923744748]">9</container>
-              <unittitle>General Development Data <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></unittitle>
-            </did>
+              <unittitle>General Development Data</unittitle><unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></did>
             <odd>
               <p>(9-2)</p>
             </odd>
@@ -2407,8 +2264,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></unittitle>
-              </did>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></did>
               <odd>
                 <p>(9-3)</p>
               </odd>
@@ -2426,8 +2282,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [97963242458932923744748]">9</container>
-              <unittitle>Connecticut, West Hartford: Bishop's Corners-Description and Photographs <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            </did>
+              <unittitle>Connecticut, West Hartford: Bishop's Corners-Description and Photographs</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
             <odd>
               <p>(9-5)</p>
             </odd>
@@ -2440,8 +2295,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [97963242458932923744748]">9</container>
-              <unittitle>East and West Malls--Market Analysis <unitdate type="inclusive" normal="1957/1963">1957-1963</unitdate></unittitle>
-            </did>
+              <unittitle>East and West Malls--Market Analysis</unittitle><unitdate type="inclusive" normal="1957/1963">1957-1963</unitdate></did>
             <odd>
               <p>(9-6)</p>
             </odd>
@@ -2449,8 +2303,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [97963242458932923744748]">9</container>
-              <unittitle>Winter Park Shopping Center--Market Analysis <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
+              <unittitle>Winter Park Shopping Center--Market Analysis</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
             <odd>
               <p>(9-7)</p>
             </odd>
@@ -2458,8 +2311,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [97963242458932923744748]">9</container>
-              <unittitle>Beacon Hills and Harbor Shopping Center Building Plans <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-            </did>
+              <unittitle>Beacon Hills and Harbor Shopping Center Building Plans</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
             <odd>
               <p>(9-8)</p>
             </odd>
@@ -2471,10 +2323,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1956-01/1956-09">January-September 1956</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1956-01/1956-09">January-September 1956</unitdate></did>
               <odd>
                 <p>(9-9)</p>
               </odd>
@@ -2482,10 +2331,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1956-10/1956-12">October-December 1956</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1956-10/1956-12">October-December 1956</unitdate></did>
               <odd>
                 <p>(9-10)</p>
               </odd>
@@ -2493,10 +2339,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1957-01/1957-06">January-June 1957</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1957-01/1957-06">January-June 1957</unitdate></did>
               <odd>
                 <p>(9-11)</p>
               </odd>
@@ -2504,10 +2347,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1957-07/1957-12">July-December 1957</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1957-07/1957-12">July-December 1957</unitdate></did>
               <odd>
                 <p>(9-12)</p>
               </odd>
@@ -2515,10 +2355,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958-01/1958-06">January-June 1958</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1958-01/1958-06">January-June 1958</unitdate></did>
               <odd>
                 <p>(9-13)</p>
               </odd>
@@ -2526,10 +2363,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958-07/1959-03">July 1958-March 1959</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1958-07/1959-03">July 1958-March 1959</unitdate></did>
               <odd>
                 <p>(9-14)</p>
               </odd>
@@ -2547,8 +2381,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>Yorktown Center <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Yorktown Center</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
               <odd>
                 <p>(9-15)</p>
               </odd>
@@ -2556,8 +2389,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>Montgomery Ward Company <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-              </did>
+                <unittitle>Montgomery Ward Company</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
               <odd>
                 <p>(9-16)</p>
               </odd>
@@ -2584,8 +2416,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>Springfield Center <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-              </did>
+                <unittitle>Springfield Center</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
               <odd>
                 <p>(9-18)</p>
               </odd>
@@ -2595,8 +2426,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [97963242458932923744748]">9</container>
-            <unittitle>Indiana, Fort Wayne: Southtown mall <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
-          </did>
+            <unittitle>Indiana, Fort Wayne: Southtown mall</unittitle><unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></did>
           <odd>
             <p>(9-19)</p>
           </odd>
@@ -2608,8 +2438,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [97963242458932923744748]">9</container>
-              <unittitle>Burlington: Town Market Analysis <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <unittitle>Burlington: Town Market Analysis</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
             <odd>
               <p>(9-20)</p>
             </odd>
@@ -2621,8 +2450,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>Miscellaneous papers <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-              </did>
+                <unittitle>Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
               <odd>
                 <p>(9-21)</p>
               </odd>
@@ -2631,8 +2459,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [97963242458932923744748]">9</container>
-              <unittitle>Newton: Newton Shopping Center <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <unittitle>Newton: Newton Shopping Center</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
             <odd>
               <p>(9-22)</p>
             </odd>
@@ -2640,8 +2467,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [97963242458932923744748]">9</container>
-              <unittitle>Spencer: Spencer Shopping Center <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <unittitle>Spencer: Spencer Shopping Center</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
             <odd>
               <p>(9-23)</p>
             </odd>
@@ -2654,8 +2480,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [97963242458932923744748]">9</container>
-              <unittitle>City Market Analysis for Community Research Inc. <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <unittitle>City Market Analysis for Community Research Inc.</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
             <odd>
               <p>(9-24)</p>
             </odd>
@@ -2663,8 +2488,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [97963242458932923744748]">9</container>
-              <unittitle>Correspondence, worksheets, sample aerials <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence, worksheets, sample aerials</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
             <odd>
               <p>(9-25)</p>
             </odd>
@@ -2685,8 +2509,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [97963242458932923744748]">9</container>
-                  <unittitle>Reports <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
@@ -2726,8 +2549,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>Miscellaneous papers <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-              </did>
+                <unittitle>Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
               <odd>
                 <p>(9-30)</p>
               </odd>
@@ -2740,8 +2562,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></unittitle>
-              </did>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
               <odd>
                 <p>(9-31)</p>
               </odd>
@@ -2749,8 +2570,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97963242458932923744748]">9</container>
-                <unittitle>Miscellaneous papers <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></unittitle>
-              </did>
+                <unittitle>Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
               <odd>
                 <p>(9-32)</p>
               </odd>
@@ -2763,8 +2583,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [767738840092121174]">10</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1948/1953">1948-1953</unitdate></unittitle>
-              </did>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1948/1953">1948-1953</unitdate></did>
               <odd>
                 <p>(10-1)</p>
               </odd>
@@ -2796,8 +2615,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [767738840092121174]">10</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></did>
             <odd>
               <p>(10-4)</p>
             </odd>
@@ -2819,8 +2637,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [767738840092121174]">10</container>
-              <unittitle>Joplin: Normandy Shopping Center <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <unittitle>Joplin: Normandy Shopping Center</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
             <odd>
               <p>(10-6)</p>
             </odd>
@@ -2832,8 +2649,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [767738840092121174]">10</container>
-                <unittitle>Meadowbrook Commercial Area Economic Study <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-              </did>
+                <unittitle>Meadowbrook Commercial Area Economic Study</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
               <odd>
                 <p>(10-7)</p>
               </odd>
@@ -2841,8 +2657,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [767738840092121174]">10</container>
-                <unittitle>Hallmark Cards Inc.--Kansas City Real Estate Project Miscellaneous papers <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-              </did>
+                <unittitle>Hallmark Cards Inc.--Kansas City Real Estate Project Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
               <odd>
                 <p>(10-8)</p>
               </odd>
@@ -2865,8 +2680,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [767738840092121174]">10</container>
-              <unittitle>Omaha: "The Center" <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            </did>
+              <unittitle>Omaha: "The Center"</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
             <odd>
               <p>(10-10)</p>
             </odd>
@@ -2878,10 +2692,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [767738840092121174]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1952-07/1952-12">July-December 1952</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1952-07/1952-12">July-December 1952</unitdate></did>
               <odd>
                 <p>(10-11)</p>
               </odd>
@@ -2889,10 +2700,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [767738840092121174]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1953-01/1953-06">January-June 1953</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1953-01/1953-06">January-June 1953</unitdate></did>
               <odd>
                 <p>(10-12)</p>
               </odd>
@@ -2900,10 +2708,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [767738840092121174]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1953-07/1953-12">July-December 1953</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1953-07/1953-12">July-December 1953</unitdate></did>
               <odd>
                 <p>(10-13)</p>
               </odd>
@@ -2911,10 +2716,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [767738840092121174]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></did>
               <odd>
                 <p>(10-14)</p>
               </odd>
@@ -2924,16 +2726,14 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [767738840092121174]">10</container>
-            <unittitle>New Jersey, Camden: Market Analysis of the Big H for Webb and Knapp, Inc. <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-          </did>
+            <unittitle>New Jersey, Camden: Market Analysis of the Big H for Webb and Knapp, Inc.</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
           <odd>
             <p>(10-15)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>New Mexico, Albuquerque: The Albuquerque Office Building <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <unittitle>New Mexico, Albuquerque: The Albuquerque Office Building</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [767738840092121174]">10</container>
@@ -2960,8 +2760,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [767738840092121174]">10</container>
-              <unittitle>R.H. Macy Company--Parkchester Data <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-            </did>
+              <unittitle>R.H. Macy Company--Parkchester Data</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
             <odd>
               <p>(10-18)</p>
             </odd>
@@ -2978,8 +2777,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [767738840092121174]">10</container>
-                <unittitle>News clippings <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-              </did>
+                <unittitle>News clippings</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
               <odd>
                 <p>(10-19)</p>
               </odd>
@@ -2992,8 +2790,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [767738840092121174]">10</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1959-10/1960-06">October 1959-June 1960</unitdate></unittitle>
-              </did>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1959-10/1960-06">October 1959-June 1960</unitdate></did>
               <odd>
                 <p>(10-20)</p>
               </odd>
@@ -3001,10 +2798,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [767738840092121174]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1960-10/1965-05">October 1960-May 1965</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1960-10/1965-05">October 1960-May 1965</unitdate></did>
               <odd>
                 <p>(10-21)</p>
               </odd>
@@ -3022,8 +2816,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [767738840092121174]">10</container>
-                <unittitle>Hills and Dales Shopping Center <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-              </did>
+                <unittitle>Hills and Dales Shopping Center</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
               <odd>
                 <p>(10-22)</p>
               </odd>
@@ -3031,8 +2824,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [767738840092121174]">10</container>
-                <unittitle>Fairmont Shopping Plaza <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-              </did>
+                <unittitle>Fairmont Shopping Plaza</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
               <odd>
                 <p>(10-23)</p>
               </odd>
@@ -3064,8 +2856,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [767738840092121174]">10</container>
-              <unittitle>West Lucas County: Economic Analysis for Zoning Study <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
+              <unittitle>West Lucas County: Economic Analysis for Zoning Study</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
             <odd>
               <p>(10-26)</p>
             </odd>
@@ -3073,8 +2864,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [767738840092121174]">10</container>
-              <unittitle>Papers concerning miscellaneous Ohio projects <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
+              <unittitle>Papers concerning miscellaneous Ohio projects</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
             <odd>
               <p>(10-27)</p>
             </odd>
@@ -3091,8 +2881,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [656052649786619494114]">11</container>
-                <unittitle>Commercial Area Studies <unitdate type="inclusive" normal="1945">1945</unitdate>, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-              </did>
+                <unittitle>Commercial Area Studies</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate><unitdate type="inclusive" normal="1954">1954</unitdate></did>
               <odd>
                 <p>(11-1)</p>
               </odd>
@@ -3114,8 +2903,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [656052649786619494114]">11</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate></unittitle>
-              </did>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate></did>
               <odd>
                 <p>(11-3)</p>
               </odd>
@@ -3150,8 +2938,7 @@
             </did>
             <c04 level="file">
               <did>
-                <unittitle>Airport Village Shopping Center <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-              </did>
+                <unittitle>Airport Village Shopping Center</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [656052649786619494114]">11</container>
@@ -3165,8 +2952,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [656052649786619494114]">11</container>
-                <unittitle>Texas Homes Apartments <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-              </did>
+                <unittitle>Texas Homes Apartments</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
               <odd>
                 <p>(11-7)</p>
               </odd>
@@ -3179,8 +2965,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [656052649786619494114]">11</container>
-                <unittitle>General Economic Studies <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-              </did>
+                <unittitle>General Economic Studies</unittitle><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
               <odd>
                 <p>(11-8)</p>
               </odd>
@@ -3192,8 +2977,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [656052649786619494114]">11</container>
-                  <unittitle>Economic Survey <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-                </did>
+                  <unittitle>Economic Survey</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
                 <odd>
                   <p>(11-9)</p>
                 </odd>
@@ -3207,10 +2991,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [656052649786619494114]">11</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1957-03/1957-12">March-December 1957</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1957-03/1957-12">March-December 1957</unitdate></did>
               <odd>
                 <p>(11-10)</p>
               </odd>
@@ -3218,10 +2999,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [656052649786619494114]">11</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958-01/1958-06">January-June 1958</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1958-01/1958-06">January-June 1958</unitdate></did>
               <odd>
                 <p>(11-11)</p>
               </odd>
@@ -3229,10 +3007,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [656052649786619494114]">11</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958-07/1968-04">July 1958-April 1968</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1958-07/1968-04">July 1958-April 1968</unitdate></did>
               <odd>
                 <p>(11-12)</p>
               </odd>
@@ -3242,8 +3017,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [656052649786619494114]">11</container>
-            <unittitle>Virginia, Norfolk: Norfolk Redevelopment and Housing Authority, Miscellaneous papers <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Virginia, Norfolk: Norfolk Redevelopment and Housing Authority, Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           <odd>
             <p>(11-13)</p>
           </odd>
@@ -3251,8 +3025,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [656052649786619494114]">11</container>
-            <unittitle>Washington, D.C.: Spring Valley Shopping Center <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-          </did>
+            <unittitle>Washington, D.C.: Spring Valley Shopping Center</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
           <odd>
             <p>(11-14)</p>
           </odd>
@@ -3283,8 +3056,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [656052649786619494114]">11</container>
-            <unittitle>Venezuela, Caracas: Commercial Center--Sabana Grande Project <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Venezuela, Caracas: Commercial Center--Sabana Grande Project</unittitle><unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></did>
           <odd>
             <p>(11-17)</p>
           </odd>
@@ -3292,22 +3064,17 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Articles and Speeches <unitdate type="inclusive" normal="1938/1967">1938-1967</unitdate></unittitle>
-        </did>
+          <unittitle>Articles and Speeches</unittitle><unitdate type="inclusive" normal="1938/1967">1938-1967</unitdate></did>
         <scopecontent>
           <p>Articles and speeches deal mainly with topics relating to the design of commercial and retail space and were published in a variety of professional and trade magazines or presented before professional meetings such as the American Institute of Architects and the Illuminating Engineering Society. The series is arranged chronologically.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1938">1938</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1938">1938</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Merchandising Goes Modern"--Address: Indianapolis <unitdate type="inclusive" normal="1938-09">September 1938</unitdate></unittitle>
-            </did>
+              <unittitle>"Merchandising Goes Modern"--Address: Indianapolis</unittitle><unitdate type="inclusive" normal="1938-09">September 1938</unitdate></did>
             <odd>
               <p>(12-1)</p>
             </odd>
@@ -3315,15 +3082,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1942">1942</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1942">1942</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Modernizing for Wartime Efficiency" <title render="italic">Apparel Arts</title>, <unitdate type="inclusive" normal="1942-03">March 1942</unitdate></unittitle>
-            </did>
+              <unittitle>"Modernizing for Wartime Efficiency" <title render="italic">Apparel Arts</title></unittitle><unitdate type="inclusive" normal="1942-03">March 1942</unitdate></did>
             <odd>
               <p>(12-2)</p>
             </odd>
@@ -3331,15 +3094,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1943">1943</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1943">1943</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Post-War Pattern for Commercial Building" <title render="italic">American Builder</title>, <unitdate type="inclusive" normal="1943-06">June 1943</unitdate></unittitle>
-            </did>
+              <unittitle>"Post-War Pattern for Commercial Building" <title render="italic">American Builder</title></unittitle><unitdate type="inclusive" normal="1943-06">June 1943</unitdate></did>
             <odd>
               <p>(12-3)</p>
             </odd>
@@ -3347,8 +3106,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Self Selection is Sensible" <title render="italic">Apparel Arts</title>, <unitdate type="inclusive" normal="1943-10">October 1943</unitdate></unittitle>
-            </did>
+              <unittitle>"Self Selection is Sensible" <title render="italic">Apparel Arts</title></unittitle><unitdate type="inclusive" normal="1943-10">October 1943</unitdate></did>
             <odd>
               <p>(12-4)</p>
             </odd>
@@ -3356,15 +3114,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1944">1944</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1944">1944</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>Address to the Michigan Society of Architects, Detroit Chapter Conference on Planning-- <unitdate type="inclusive" normal="1944-02-16">February 16, 1944</unitdate></unittitle>
-            </did>
+              <unittitle>Address to the Michigan Society of Architects, Detroit Chapter Conference on Planning--</unittitle><unitdate type="inclusive" normal="1944-02-16">February 16, 1944</unitdate></did>
             <odd>
               <p>(12-5)</p>
             </odd>
@@ -3372,8 +3126,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Where are Department Stores Going?" <title render="italic">Architectural Record</title>, <unitdate type="inclusive" normal="1944-11">November 1944</unitdate></unittitle>
-            </did>
+              <unittitle>"Where are Department Stores Going?" <title render="italic">Architectural Record</title></unittitle><unitdate type="inclusive" normal="1944-11">November 1944</unitdate></did>
             <odd>
               <p>(12-6)</p>
             </odd>
@@ -3381,8 +3134,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>Address: Illuminating Engineering Society Technical Conference <unitdate type="inclusive" normal="1944-09-15">September 15, 1944</unitdate></unittitle>
-            </did>
+              <unittitle>Address: Illuminating Engineering Society Technical Conference</unittitle><unitdate type="inclusive" normal="1944-09-15">September 15, 1944</unitdate></did>
             <odd>
               <p>(12-7)</p>
             </odd>
@@ -3390,8 +3142,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Modern Trends in Department Store Planning" <title render="italic">Department Store Economist</title>, <unitdate type="inclusive" normal="1944-11">November 1944</unitdate></unittitle>
-            </did>
+              <unittitle>"Modern Trends in Department Store Planning" <title render="italic">Department Store Economist</title></unittitle><unitdate type="inclusive" normal="1944-11">November 1944</unitdate></did>
             <odd>
               <p>(12-8)</p>
             </odd>
@@ -3399,8 +3150,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Your Store Tomorrow" <title render="italic">Women's Wear Daily</title>, <unitdate type="inclusive" normal="1944-12-27/1944-12-28">December 27-28, 1944</unitdate></unittitle>
-            </did>
+              <unittitle>"Your Store Tomorrow" <title render="italic">Women's Wear Daily</title></unittitle><unitdate type="inclusive" normal="1944-12-27/1944-12-28">December 27-28, 1944</unitdate></did>
             <odd>
               <p>(12-9)</p>
             </odd>
@@ -3408,8 +3158,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Some Economics of Store Lighting" <title render="italic">Illuminating Engineering</title>, <unitdate type="inclusive" normal="1944-12">December 1944</unitdate></unittitle>
-            </did>
+              <unittitle>"Some Economics of Store Lighting" <title render="italic">Illuminating Engineering</title></unittitle><unitdate type="inclusive" normal="1944-12">December 1944</unitdate></did>
             <odd>
               <p>(12-10)</p>
             </odd>
@@ -3417,15 +3166,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1945">1945</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1945">1945</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>Address: Illuminating Engineering Society, Cleveland <unitdate type="inclusive" normal="1945-01-15">January 15, 1945</unitdate></unittitle>
-            </did>
+              <unittitle>Address: Illuminating Engineering Society, Cleve</unittitle><unitdate type="inclusive" normal="1945-01-15">January 15, 1945</unitdate></did>
             <odd>
               <p>(12-11)</p>
             </odd>
@@ -3433,8 +3178,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Postwar Store Planning"--Address: Canadian Retail Federation, Toronto <unitdate type="inclusive" normal="1945-01-17">January 17, 1945</unitdate></unittitle>
-            </did>
+              <unittitle>"Postwar Store Planning"--Address: Canadian Retail Federation, Toronto</unittitle><unitdate type="inclusive" normal="1945-01-17">January 17, 1945</unitdate></did>
             <odd>
               <p>(12-12)</p>
             </odd>
@@ -3442,8 +3186,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Grand Rapids Parking Plan" <title render="italic">Architectural Record</title>, <unitdate type="inclusive" normal="1945-02">February 1945</unitdate></unittitle>
-            </did>
+              <unittitle>"Grand Rapids Parking Plan" <title render="italic">Architectural Record</title></unittitle><unitdate type="inclusive" normal="1945-02">February 1945</unitdate></did>
             <odd>
               <p>(12-13)</p>
             </odd>
@@ -3451,8 +3194,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Modern Store Arrangement and Civic Planning"--Address: Lawrence and Emporia, Kansas <unitdate type="inclusive" normal="1945-07-10/1945-07-11">July 10, 1945-July 11, 1945</unitdate></unittitle>
-            </did>
+              <unittitle>"Modern Store Arrangement and Civic Planning"--Address: Lawrence and Emporia, Kansas</unittitle><unitdate type="inclusive" normal="1945-07-10/1945-07-11">July 10, 1945-July 11, 1945</unitdate></did>
             <odd>
               <p>(12-14)</p>
             </odd>
@@ -3460,8 +3202,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Modern Lighting and Store Operation" <title render="italic">Lighting and Lamps</title>, <unitdate type="inclusive" normal="1945-02">February 1945</unitdate></unittitle>
-            </did>
+              <unittitle>"Modern Lighting and Store Operation" <title render="italic">Lighting and Lamps</title></unittitle><unitdate type="inclusive" normal="1945-02">February 1945</unitdate></did>
             <odd>
               <p>(12-15)</p>
             </odd>
@@ -3469,15 +3210,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1946">1946</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1946">1946</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Reflection Factors in Store Windows" <title render="italic">Architectural Engineering Magazine</title>, <unitdate type="inclusive" normal="1946-07">July 1946</unitdate></unittitle>
-            </did>
+              <unittitle>"Reflection Factors in Store Windows" <title render="italic">Architectural Engineering Magazine</title></unittitle><unitdate type="inclusive" normal="1946-07">July 1946</unitdate></did>
             <odd>
               <p>(12-16)</p>
             </odd>
@@ -3485,8 +3222,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Post-War Hat Selling", Hat Life <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-            </did>
+              <unittitle>"Post-War Hat Selling", Hat Life</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
             <odd>
               <p>(12-17)</p>
             </odd>
@@ -3494,8 +3230,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Lightness and Brightness for Selling" <title render="italic">Illuminating Engineering</title>, <unitdate type="inclusive" normal="1946-05">May 1946</unitdate></unittitle>
-            </did>
+              <unittitle>"Lightness and Brightness for Selling" <title render="italic">Illuminating Engineering</title></unittitle><unitdate type="inclusive" normal="1946-05">May 1946</unitdate></did>
             <odd>
               <p>(12-18)</p>
             </odd>
@@ -3503,8 +3238,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Applied Brightness Control in Schools" <title render="italic">Architectural Record</title>, <unitdate type="inclusive" normal="1946-03">March 1946</unitdate></unittitle>
-            </did>
+              <unittitle>"Applied Brightness Control in Schools" <title render="italic">Architectural Record</title></unittitle><unitdate type="inclusive" normal="1946-03">March 1946</unitdate></did>
             <odd>
               <p>(12-19)</p>
             </odd>
@@ -3512,8 +3246,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Store Modernization and Display" Address--Michigan Retail Dry Goods Association <unitdate type="inclusive" normal="1946-06-06">June 6, 1946</unitdate></unittitle>
-            </did>
+              <unittitle>"Store Modernization and Display" Address--Michigan Retail Dry Goods Association</unittitle><unitdate type="inclusive" normal="1946-06-06">June 6, 1946</unitdate></did>
             <odd>
               <p>(12-20)</p>
             </odd>
@@ -3521,8 +3254,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Store Lighting" <title render="italic">Hat Life</title>, <unitdate type="inclusive" normal="1946-06">June 1946</unitdate>, <unitdate type="inclusive" normal="1946-12">December 1946</unitdate>, <unitdate type="inclusive" normal="1947-01">January 1947</unitdate></unittitle>
-            </did>
+              <unittitle>"Store Lighting" <title render="italic">Hat Life</title></unittitle><unitdate type="inclusive" normal="1946-06">June 1946</unitdate><unitdate type="inclusive" normal="1946-12">December 1946</unitdate><unitdate type="inclusive" normal="1947-01">January 1947</unitdate></did>
             <odd>
               <p>(12-21)</p>
             </odd>
@@ -3530,8 +3262,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Living and Shopping" <title render="italic">American Druggist</title>, <unitdate type="inclusive" normal="1946-07">July 1946</unitdate></unittitle>
-            </did>
+              <unittitle>"Living and Shopping" <title render="italic">American Druggist</title></unittitle><unitdate type="inclusive" normal="1946-07">July 1946</unitdate></did>
             <odd>
               <p>(12-22)</p>
             </odd>
@@ -3539,8 +3270,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"New Concepts in Store Lighting" <title render="italic">Architectural Record</title>, <unitdate type="inclusive" normal="1946-08">August 1946</unitdate></unittitle>
-            </did>
+              <unittitle>"New Concepts in Store Lighting" <title render="italic">Architectural Record</title></unittitle><unitdate type="inclusive" normal="1946-08">August 1946</unitdate></did>
             <odd>
               <p>(12-23)</p>
             </odd>
@@ -3548,8 +3278,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Neighborhood Shopping Centers and Parking Problems" Address: Planning Institute, Grand Rapids <unitdate type="inclusive" normal="1946-09-04">September 4, 1946</unitdate></unittitle>
-            </did>
+              <unittitle>"Neighborhood Shopping Centers and Parking Problems" Address: Planning Institute, Grand Rapids</unittitle><unitdate type="inclusive" normal="1946-09-04">September 4, 1946</unitdate></did>
             <odd>
               <p>(12-24)</p>
             </odd>
@@ -3557,8 +3286,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Modernize for Prestige and Sales"--Address: National Stationers' Convention <unitdate type="inclusive" normal="1946-09-30">September 30, 1946</unitdate></unittitle>
-            </did>
+              <unittitle>"Modernize for Prestige and Sales"--Address: National Stationers' Convention</unittitle><unitdate type="inclusive" normal="1946-09-30">September 30, 1946</unitdate></did>
             <odd>
               <p>(12-25)</p>
             </odd>
@@ -3566,8 +3294,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>Address: New England Clothiers and Furnishers Association <unitdate type="inclusive" normal="1946-11-12">November 12, 1946</unitdate></unittitle>
-            </did>
+              <unittitle>Address: New England Clothiers and Furnishers Association</unittitle><unitdate type="inclusive" normal="1946-11-12">November 12, 1946</unitdate></did>
             <odd>
               <p>(12-26)</p>
             </odd>
@@ -3575,8 +3302,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Vision and Selling" <title render="italic">Curtain and Drapery Magazine</title>, <unitdate type="inclusive" normal="1946-11">November 1946</unitdate>, <unitdate type="inclusive" normal="1946-12">December 1946</unitdate>, <unitdate type="inclusive" normal="1947-01">January 1947</unitdate></unittitle>
-            </did>
+              <unittitle>"Vision and Selling" <title render="italic">Curtain and Drapery Magazine</title></unittitle><unitdate type="inclusive" normal="1946-11">November 1946</unitdate><unitdate type="inclusive" normal="1946-12">December 1946</unitdate><unitdate type="inclusive" normal="1947-01">January 1947</unitdate></did>
             <odd>
               <p>(12-27)</p>
             </odd>
@@ -3584,8 +3310,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Convenience vs. Shopping Goods" <title render="italic">Women's Wear Daily</title>, <unitdate type="inclusive" normal="1946-12-26">December 26, 1946</unitdate></unittitle>
-            </did>
+              <unittitle>"Convenience vs. Shopping Goods" <title render="italic">Women's Wear Daily</title></unittitle><unitdate type="inclusive" normal="1946-12-26">December 26, 1946</unitdate></did>
             <odd>
               <p>(12-28)</p>
             </odd>
@@ -3593,15 +3318,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1947">1947</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1947">1947</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Automobiles, Cities and Shopping Centers"--Address: Snag Club <unitdate type="inclusive" normal="1947-02-25">February 25, 1947</unitdate></unittitle>
-            </did>
+              <unittitle>"Automobiles, Cities and Shopping Centers"--Address: Snag Club</unittitle><unitdate type="inclusive" normal="1947-02-25">February 25, 1947</unitdate></did>
             <odd>
               <p>(12-29)</p>
             </odd>
@@ -3609,8 +3330,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Display and Lighting" <title render="italic">Display World</title>, <unitdate type="inclusive" normal="1947-08">August 1947</unitdate></unittitle>
-            </did>
+              <unittitle>"Display and Lighting" <title render="italic">Display World</title></unittitle><unitdate type="inclusive" normal="1947-08">August 1947</unitdate></did>
             <odd>
               <p>(12-30)</p>
             </odd>
@@ -3618,8 +3338,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"The Department Store" <title render="italic">Forms and Functions of Twentieth Century Architecture</title>, Columbia University, <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
-            </did>
+              <unittitle>"The Department Store" <title render="italic">Forms and Functions of Twentieth Century Architecture</title>, Columbia University</unittitle><unitdate type="inclusive" normal="1947">1947</unitdate></did>
             <odd>
               <p>(12-31)</p>
             </odd>
@@ -3627,15 +3346,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1948">1948</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1948">1948</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Design of the Modern Store with Emphasis on Lighting and Color" Address: Electric Institute of Boston <unitdate type="inclusive" normal="1948-01-15">January 15, 1948</unitdate></unittitle>
-            </did>
+              <unittitle>"Design of the Modern Store with Emphasis on Lighting and Color" Address: Electric Institute of Boston</unittitle><unitdate type="inclusive" normal="1948-01-15">January 15, 1948</unitdate></did>
             <odd>
               <p>(12-32)</p>
             </odd>
@@ -3643,8 +3358,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Effect of Retail Distribution on City Plan" Michigan Society of Architects <unitdate type="inclusive" normal="1948-02-24">February 24, 1948</unitdate></unittitle>
-            </did>
+              <unittitle>"Effect of Retail Distribution on City Plan" Michigan Society of Architects</unittitle><unitdate type="inclusive" normal="1948-02-24">February 24, 1948</unitdate></did>
             <odd>
               <p>(12-33)</p>
             </odd>
@@ -3652,8 +3366,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Planned Flexibility Essential" <title render="italic">Women's Wear Daily</title>, <unitdate type="inclusive" normal="1948-02-25">February 25, 1948</unitdate></unittitle>
-            </did>
+              <unittitle>"Planned Flexibility Essential" <title render="italic">Women's Wear Daily</title></unittitle><unitdate type="inclusive" normal="1948-02-25">February 25, 1948</unitdate></did>
             <odd>
               <p>(12-34)</p>
             </odd>
@@ -3661,8 +3374,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>Store Modernization--Clinics and Forums (transcript) <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-            </did>
+              <unittitle>Store Modernization--Clinics and Forums (transcript)</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
             <odd>
               <p>(12-35)</p>
             </odd>
@@ -3670,8 +3382,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"The Relocation of Commercial Areas"--Address: National Planning Conference of the American Society of Planning Officials, New York <unitdate type="inclusive" normal="1948-10-13">October 13, 1948</unitdate></unittitle>
-            </did>
+              <unittitle>"The Relocation of Commercial Areas"--Address: National Planning Conference of the American Society of Planning Officials, New York</unittitle><unitdate type="inclusive" normal="1948-10-13">October 13, 1948</unitdate></did>
             <odd>
               <p>(12-36)</p>
             </odd>
@@ -3679,8 +3390,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Brightness Engineering" <title render="italic">Architectural Forum</title>, <unitdate type="inclusive" normal="1948-05">May 1948</unitdate></unittitle>
-            </did>
+              <unittitle>"Brightness Engineering" <title render="italic">Architectural Forum</title></unittitle><unitdate type="inclusive" normal="1948-05">May 1948</unitdate></did>
             <odd>
               <p>(12-37)</p>
             </odd>
@@ -3688,8 +3398,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Regional Suburban Centers"--Address: American Institute of Planners Meeting, Long Beach, Cal. <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-            </did>
+              <unittitle>"Regional Suburban Centers"--Address: American Institute of Planners Meeting, Long Beach, Cal.</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
             <odd>
               <p>(12-38)</p>
             </odd>
@@ -3697,15 +3406,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1949">1949</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1949">1949</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"A Method of Analyzing Economics of Store Lighting" <title render="italic">Illuminating Engineering</title>, <unitdate type="inclusive" normal="1949-01">January 1949</unitdate></unittitle>
-            </did>
+              <unittitle>"A Method of Analyzing Economics of Store Lighting" <title render="italic">Illuminating Engineering</title></unittitle><unitdate type="inclusive" normal="1949-01">January 1949</unitdate></did>
             <odd>
               <p>(12-39)</p>
             </odd>
@@ -3713,8 +3418,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Light and Color Treatment as Applied to Unusual Interiors" Address: Rochester Chapter IES <unitdate type="inclusive" normal="1949-02-10">February 10, 1949</unitdate></unittitle>
-            </did>
+              <unittitle>"Light and Color Treatment as Applied to Unusual Interiors" Address: Rochester Chapter IES</unittitle><unitdate type="inclusive" normal="1949-02-10">February 10, 1949</unitdate></did>
             <odd>
               <p>(12-40)</p>
             </odd>
@@ -3722,8 +3426,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>Address: 7th Ann Arbor Conference, April 1 and 2 <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-            </did>
+              <unittitle>Address: 7th Ann Arbor Conference, April 1 and 2</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
             <odd>
               <p>(12-41)</p>
             </odd>
@@ -3731,8 +3434,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Markets in the Meadows" <title render="italic">Forum</title>, <unitdate type="inclusive" normal="1949-03">March 1949</unitdate></unittitle>
-            </did>
+              <unittitle>"Markets in the Meadows" <title render="italic">Forum</title></unittitle><unitdate type="inclusive" normal="1949-03">March 1949</unitdate></did>
             <odd>
               <p>(12-42)</p>
             </odd>
@@ -3740,8 +3442,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Store Lighting Economics"--Address: Western Regional Conference of the IES, San Francisco <unitdate type="inclusive" normal="1949-03-03">March 3, 1949</unitdate></unittitle>
-            </did>
+              <unittitle>"Store Lighting Economics"--Address: Western Regional Conference of the IES, San Francisco</unittitle><unitdate type="inclusive" normal="1949-03-03">March 3, 1949</unitdate></did>
             <odd>
               <p>(12-43)</p>
             </odd>
@@ -3749,8 +3450,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Modern Shopping Centers"--Address: National Citizens Conference on Community Planning, Oklahoma City <unitdate type="inclusive" normal="1949-03-28">March 28, 1949</unitdate></unittitle>
-            </did>
+              <unittitle>"Modern Shopping Centers"--Address: National Citizens Conference on Community Planning, Oklahoma City</unittitle><unitdate type="inclusive" normal="1949-03-28">March 28, 1949</unitdate></did>
             <odd>
               <p>(12-44)</p>
             </odd>
@@ -3758,8 +3458,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Principles of Store Lighting and their Proper Application" Address: Milwaukee IES Chapter Conference <unitdate type="inclusive" normal="1949-05-19">May 19, 1949</unitdate></unittitle>
-            </did>
+              <unittitle>"Principles of Store Lighting and their Proper Application" Address: Milwaukee IES Chapter Conference</unittitle><unitdate type="inclusive" normal="1949-05-19">May 19, 1949</unitdate></did>
             <odd>
               <p>(12-45)</p>
             </odd>
@@ -3767,8 +3466,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"The Modern Shopping Center" <title render="italic">Tennessee Planner</title>, <unitdate type="inclusive" normal="1949-08">August 1949</unitdate></unittitle>
-            </did>
+              <unittitle>"The Modern Shopping Center" <title render="italic">Tennessee Planner</title></unittitle><unitdate type="inclusive" normal="1949-08">August 1949</unitdate></did>
             <odd>
               <p>(12-46)</p>
             </odd>
@@ -3776,8 +3474,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"A Store Front--Siegells" <title render="italic">Architectural Record</title>, <unitdate type="inclusive" normal="1949-10">October 1949</unitdate></unittitle>
-            </did>
+              <unittitle>"A Store Front--Siegells" <title render="italic">Architectural Record</title></unittitle><unitdate type="inclusive" normal="1949-10">October 1949</unitdate></did>
             <odd>
               <p>(12-47)</p>
             </odd>
@@ -3785,8 +3482,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"The Design of Stores, Planning and Lighting"--Address: AIA Regional Convention, St. Louis <unitdate type="inclusive" normal="1949-11-19">November 19, 1949</unitdate></unittitle>
-            </did>
+              <unittitle>"The Design of Stores, Planning and Lighting"--Address: AIA Regional Convention, St. Louis</unittitle><unitdate type="inclusive" normal="1949-11-19">November 19, 1949</unitdate></did>
             <odd>
               <p>(12-48)</p>
             </odd>
@@ -3794,15 +3490,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950">1950</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1950">1950</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Flextures" <title render="italic">Architectural Forum</title>, <unitdate type="inclusive" normal="1950-02">February 1950</unitdate></unittitle>
-            </did>
+              <unittitle>"Flextures" <title render="italic">Architectural Forum</title></unittitle><unitdate type="inclusive" normal="1950-02">February 1950</unitdate></did>
             <odd>
               <p>(12-49)</p>
             </odd>
@@ -3810,8 +3502,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"New Shopping Trends"--Address: National Institute of Cleaning and Dyeing <unitdate type="inclusive" normal="1950-03-14">March 14, 1950</unitdate></unittitle>
-            </did>
+              <unittitle>"New Shopping Trends"--Address: National Institute of Cleaning and Dyeing</unittitle><unitdate type="inclusive" normal="1950-03-14">March 14, 1950</unitdate></did>
             <odd>
               <p>(12-50)</p>
             </odd>
@@ -3819,8 +3510,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"What is the Future of the Shopping Center" <unitdate type="inclusive" normal="1950-04">April 1950</unitdate></unittitle>
-            </did>
+              <unittitle>"What is the Future of the Shopping Center"</unittitle><unitdate type="inclusive" normal="1950-04">April 1950</unitdate></did>
             <odd>
               <p>(12-51)</p>
             </odd>
@@ -3828,8 +3518,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"What Makes a 1940 Store Obsolete?" <title render="italic">Forum</title>, <unitdate type="inclusive" normal="1950-08">August 1950</unitdate></unittitle>
-            </did>
+              <unittitle>"What Makes a 1940 Store Obsolete?" <title render="italic">Forum</title></unittitle><unitdate type="inclusive" normal="1950-08">August 1950</unitdate></did>
             <odd>
               <p>(12-52)</p>
             </odd>
@@ -3837,8 +3526,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Sub-Central Regional Retail Districts" <unitdate type="inclusive" normal="1950-11-16">November 16, 1950</unitdate></unittitle>
-            </did>
+              <unittitle>"Sub-Central Regional Retail Districts"</unittitle><unitdate type="inclusive" normal="1950-11-16">November 16, 1950</unitdate></did>
             <odd>
               <p>(12-53)</p>
             </odd>
@@ -3846,15 +3534,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951">1951</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1951">1951</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"New Regional Shopping Centers"--Ann Arbor Conference <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-            </did>
+              <unittitle>"New Regional Shopping Centers"--Ann Arbor Conference</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
             <odd>
               <p>(12-54)</p>
             </odd>
@@ -3862,8 +3546,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Current Relocation of Retail Centers"--AIA Wisconsin Second Annual Convention, Milwaukee <unitdate type="inclusive" normal="1951-02-16">February 16, 1951</unitdate></unittitle>
-            </did>
+              <unittitle>"Current Relocation of Retail Centers"--AIA Wisconsin Second Annual Convention, Milwaukee</unittitle><unitdate type="inclusive" normal="1951-02-16">February 16, 1951</unitdate></did>
             <odd>
               <p>(12-55)</p>
             </odd>
@@ -3871,8 +3554,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Regional Shopping Centers" <title render="italic">Architectural Record</title>, <unitdate type="inclusive" normal="1951-03">March 1951</unitdate></unittitle>
-            </did>
+              <unittitle>"Regional Shopping Centers" <title render="italic">Architectural Record</title></unittitle><unitdate type="inclusive" normal="1951-03">March 1951</unitdate></did>
             <odd>
               <p>(12-56)</p>
             </odd>
@@ -3880,8 +3562,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Location and Design of Shopping Centers"--Address: American Planning and Civic Association, Miami <unitdate type="inclusive" normal="1951-04-03">April 3, 1951</unitdate></unittitle>
-            </did>
+              <unittitle>"Location and Design of Shopping Centers"--Address: American Planning and Civic Association, Miami</unittitle><unitdate type="inclusive" normal="1951-04-03">April 3, 1951</unitdate></did>
             <odd>
               <p>(12-57)</p>
             </odd>
@@ -3889,15 +3570,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1952">1952</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1952">1952</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Shopping Centers" (Review) <title render="italic">Progressive Architecture</title>, <unitdate type="inclusive" normal="1952-03">March 1952</unitdate></unittitle>
-            </did>
+              <unittitle>"Shopping Centers" (Review) <title render="italic">Progressive Architecture</title></unittitle><unitdate type="inclusive" normal="1952-03">March 1952</unitdate></did>
             <odd>
               <p>(12-58)</p>
             </odd>
@@ -3905,8 +3582,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Crossroads in Architecture"--Symposium, Museum of Modern Art <unitdate type="inclusive" normal="1952-06-24">June 24, 1952</unitdate></unittitle>
-            </did>
+              <unittitle>"Crossroads in Architecture"--Symposium, Museum of Modern Art</unittitle><unitdate type="inclusive" normal="1952-06-24">June 24, 1952</unitdate></did>
             <odd>
               <p>(12-59)</p>
             </odd>
@@ -3914,15 +3590,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953">1953</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1953">1953</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Relationship of Marketing Studies to Highway Access and Traffic Facilities of Large Regional Centers"--32nd Annual Meeting of the Highway Research Board, Washington, D.C. <unitdate type="inclusive" normal="1953-01-13">January 13, 1953</unitdate></unittitle>
-            </did>
+              <unittitle>"Relationship of Marketing Studies to Highway Access and Traffic Facilities of Large Regional Centers"--32nd Annual Meeting of the Highway Research Board, Washington, D.C.</unittitle><unitdate type="inclusive" normal="1953-01-13">January 13, 1953</unitdate></did>
             <odd>
               <p>(12-60)</p>
             </odd>
@@ -3930,8 +3602,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Low Cost Electric Lighting" <title render="italic">Architectural Forum</title>, <unitdate type="inclusive" normal="1953-10">October 1953</unitdate></unittitle>
-            </did>
+              <unittitle>"Low Cost Electric Lighting" <title render="italic">Architectural Forum</title></unittitle><unitdate type="inclusive" normal="1953-10">October 1953</unitdate></did>
             <odd>
               <p>(12-61)</p>
             </odd>
@@ -3939,15 +3610,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956">1956</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1956">1956</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Types and Architectural Concepts of Shopping Centers Women's Wear Daily <unitdate type="inclusive" normal="1956-10">October 1956</unitdate></unittitle>
-            </did>
+              <unittitle>"Types and Architectural Concepts of Shopping Centers Women's Wear Daily</unittitle><unitdate type="inclusive" normal="1956-10">October 1956</unitdate></did>
             <odd>
               <p>(12-62)</p>
             </odd>
@@ -3955,15 +3622,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957">1957</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1957">1957</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Formula Predetermines Site Potential" <title render="italic">Daily News Record</title>, <unitdate type="inclusive" normal="1957-03-22">March 22, 1957</unitdate></unittitle>
-            </did>
+              <unittitle>"Formula Predetermines Site Potential" <title render="italic">Daily News Record</title></unittitle><unitdate type="inclusive" normal="1957-03-22">March 22, 1957</unitdate></did>
             <odd>
               <p>(12-63)</p>
             </odd>
@@ -3980,15 +3643,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1958">1958</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1958">1958</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"Regional Center and Downtown" <unitdate type="inclusive" normal="1958-05">May 1958</unitdate></unittitle>
-            </did>
+              <unittitle>"Regional Center and Downtown"</unittitle><unitdate type="inclusive" normal="1958-05">May 1958</unitdate></did>
             <odd>
               <p>(12-65)</p>
             </odd>
@@ -3996,15 +3655,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1967">1967</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1967">1967</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
-              <unittitle>"The Architectural Discipline of Lighting" <title render="italic">Architectural Discipline</title>, <unitdate type="inclusive" normal="1967-08">August 1967</unitdate></unittitle>
-            </did>
+              <unittitle>"The Architectural Discipline of Lighting" <title render="italic">Architectural Discipline</title></unittitle><unitdate type="inclusive" normal="1967-08">August 1967</unitdate></did>
             <odd>
               <p>(12-66)</p>
             </odd>
@@ -4012,10 +3667,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate>Undated</unitdate>
-            </unittitle>
-          </did>
+            <unitdate>Undated</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9106135811347601082276]">12</container>
@@ -4101,21 +3753,18 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Aerial photographs <unitdate type="inclusive" normal="1944" certainty="approximate">circa 1944</unitdate></unittitle>
-              </did>
+                <unittitle>Aerial photographs</unittitle><unitdate type="inclusive" normal="1944" certainty="approximate">circa 1944</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Oversize Box [75006288449485591624]">15</container>
-                <unittitle>Northland Shopping Center <unitdate type="inclusive" normal="1955" certainty="approximate">circa 1955</unitdate></unittitle>
-              </did>
+                <unittitle>Northland Shopping Center</unittitle><unitdate type="inclusive" normal="1955" certainty="approximate">circa 1955</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>East Lansing, Central business district study <unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></unittitle>
-            </did>
+              <unittitle>East Lansing, Central business district study</unittitle><unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></did>
             <odd>
               <p>(includes photos of stores and street party)</p>
             </odd>
@@ -4123,14 +3772,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Flint, Aerial photographs <unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></unittitle>
-            </did>
+              <unittitle>Flint, Aerial photographs</unittitle><unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Grand Haven, Temporary shopping mall <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-            </did>
+              <unittitle>Grand Haven, Temporary shopping mall</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -4139,16 +3786,14 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Central Reformed Church, Lighting design <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
-              </did>
+                <unittitle>Central Reformed Church, Lighting design</unittitle><unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></did>
               <odd>
                 <p>(interior views)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Fountain Street Church, Lighting design <unitdate type="inclusive" normal="1965/1968" certainty="approximate">circa 1965-1968</unitdate></unittitle>
-              </did>
+                <unittitle>Fountain Street Church, Lighting design</unittitle><unitdate type="inclusive" normal="1965/1968" certainty="approximate">circa 1965-1968</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [5259154993420594345716]">13</container>
@@ -4171,8 +3816,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Church of the Nazarene <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
-              </did>
+                <unittitle>Church of the Nazarene</unittitle><unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></did>
               <odd>
                 <p>(exterior and interior views of several buildings)</p>
               </odd>
@@ -4180,8 +3824,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Reed's Lake Apartments <unitdate type="inclusive" normal="1967/1968" certainty="approximate">circa 1967-1968</unitdate></unittitle>
-              </did>
+                <unittitle>Reed's Lake Apartments</unittitle><unitdate type="inclusive" normal="1967/1968" certainty="approximate">circa 1967-1968</unitdate></did>
               <odd>
                 <p>(includes photos of Reeds Lake and adjacent parkland)</p>
               </odd>
@@ -4189,8 +3832,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Breton Village Shopping Center <unitdate type="inclusive" normal="1968/1970" certainty="approximate">circa 1968-1970</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Breton Village Shopping Center</unittitle><unitdate type="inclusive" normal="1968/1970" certainty="approximate">circa 1968-1970</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
@@ -4210,8 +3852,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Kent Country Club <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-              </did>
+                <unittitle>Kent Country Club</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -4221,16 +3862,14 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Grand Rapids parking plan <unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate></unittitle>
-              </did>
+                <unittitle>Grand Rapids parking plan</unittitle><unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate></did>
               <odd>
                 <p>(includes downtown views)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Aerial photographs <unitdate type="inclusive" normal="1954">1954</unitdate>, <unitdate>undated</unitdate></unittitle>
-              </did>
+                <unittitle>Aerial photographs</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate><unitdate>undated</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [5259154993420594345716]">13</container>
@@ -4247,8 +3886,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Central business district, late <unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></unittitle>
-              </did>
+                <unittitle>Central business district, late</unittitle><unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></did>
               <odd>
                 <p>(includes street scenes)</p>
               </odd>
@@ -4256,8 +3894,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Kent County Planning Commission, Aerial photographs <unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Kent County Planning Commission, Aerial photographs</unittitle><unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -4266,32 +3903,27 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Kalamazoo, "Downtown Kalamazoo's Mall" <unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></unittitle>
-            </did>
+              <unittitle>Kalamazoo, "Downtown Kalamazoo's Mall"</unittitle><unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Lansing, Downtown Rehabilitation Program <unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></unittitle>
-            </did>
+              <unittitle>Lansing, Downtown Rehabilitation Program</unittitle><unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Owosso (aerial views) <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Owosso (aerial views)</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Plainwell, Public Library expansion <unitdate type="inclusive" normal="1965" certainty="approximate">circa 1965</unitdate></unittitle>
-            </did>
+              <unittitle>Plainwell, Public Library expansion</unittitle><unitdate type="inclusive" normal="1965" certainty="approximate">circa 1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Sparta, Public Library expansion project <unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></unittitle>
-            </did>
+              <unittitle>Sparta, Public Library expansion project</unittitle><unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></did>
             <odd>
               <p>(includes exteriors, interiors, and construction photos)</p>
             </odd>
@@ -4299,8 +3931,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Spring Lake <unitdate type="inclusive" normal="1965" certainty="approximate">circa 1965</unitdate></unittitle>
-            </did>
+              <unittitle>Spring Lake</unittitle><unitdate type="inclusive" normal="1965" certainty="approximate">circa 1965</unitdate></did>
             <odd>
               <p>(includes street scenes and aerial photos)</p>
             </odd>
@@ -4308,8 +3939,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Whitehall <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-            </did>
+              <unittitle>Whitehall</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
             <odd>
               <p>(exteriors and interiors of schools)</p>
             </odd>
@@ -4322,8 +3952,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Lake Michigan Regional Planning Committee <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
-            </did>
+              <unittitle>Lake Michigan Regional Planning Committee</unittitle><unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></did>
             <odd>
               <p>(includes photos of meetings and aerial photos of Chicago area)</p>
             </odd>
@@ -4336,8 +3965,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Colorado, Denver, Aerial photographs <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Colorado, Denver, Aerial photographs</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -4355,14 +3983,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Jacksonville, Aerial photographs <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-              </did>
+                <unittitle>Jacksonville, Aerial photographs</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25095923470999774188685]">15</container>
-                <unittitle>Other locations <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
-              </did>
+                <unittitle>Other locations</unittitle><unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></did>
               <odd>
                 <p>(comparative shopping center photos)</p>
               </odd>
@@ -4371,8 +3997,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Iowa, Des Moines, Grand Plaza Shopping Center <unitdate type="inclusive" normal="1959" certainty="approximate">circa 1959</unitdate></unittitle>
-            </did>
+              <unittitle>Iowa, Des Moines, Grand Plaza Shopping Center</unittitle><unitdate type="inclusive" normal="1959" certainty="approximate">circa 1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -4381,14 +4006,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Baltimore, Mondawmin Shopping Center <unitdate type="inclusive" normal="1955" certainty="approximate">circa 1955</unitdate></unittitle>
-              </did>
+                <unittitle>Baltimore, Mondawmin Shopping Center</unittitle><unitdate type="inclusive" normal="1955" certainty="approximate">circa 1955</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25095923470999774188685]">15</container>
-                <unittitle>Glen Burnie, Harundale Mall <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-              </did>
+                <unittitle>Glen Burnie, Harundale Mall</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -4398,14 +4021,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Beverly, North Shore Shopping Center <unitdate type="inclusive" normal="1947">1947</unitdate>, <unitdate>undated</unitdate></unittitle>
-              </did>
+                <unittitle>Beverly, North Shore Shopping Center</unittitle><unitdate type="inclusive" normal="1947">1947</unitdate><unitdate>undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Framingham, Shoppers' World <unitdate type="inclusive" normal="1951">1951</unitdate>, <unitdate type="inclusive" normal="1954">1954</unitdate>, <unitdate>undated</unitdate></unittitle>
-              </did>
+                <unittitle>Framingham, Shoppers' World</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate><unitdate type="inclusive" normal="1954">1954</unitdate><unitdate>undated</unitdate></did>
               <odd>
                 <p>(includes photos of flood)</p>
               </odd>
@@ -4414,14 +4035,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Minnesota, Edina, Southdale Shopping Center <unitdate type="inclusive" normal="1956" certainty="approximate">circa 1956</unitdate></unittitle>
-            </did>
+              <unittitle>Minnesota, Edina, Southdale Shopping Center</unittitle><unitdate type="inclusive" normal="1956" certainty="approximate">circa 1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>New Mexico, Albuquerque, The Albuquerque Office Building <unitdate type="inclusive" normal="1965" certainty="approximate">circa 1965</unitdate></unittitle>
-            </did>
+              <unittitle>New Mexico, Albuquerque, The Albuquerque Office Building</unittitle><unitdate type="inclusive" normal="1965" certainty="approximate">circa 1965</unitdate></did>
             <odd>
               <p>(chiefly aerial photos)</p>
             </odd>
@@ -4433,20 +4052,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25095923470999774188685]">15</container>
-                <unittitle>Port Authority Bus System terminal <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-              </did>
+                <unittitle>Port Authority Bus System terminal</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25095923470999774188685]">15</container>
-                <unittitle>Flushing central business district study <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-              </did>
+                <unittitle>Flushing central business district study</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25095923470999774188685]">15</container>
-                <unittitle>Yonkers Cross Country Shopping Center <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-              </did>
+                <unittitle>Yonkers Cross Country Shopping Center</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -4456,21 +4072,18 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>Charlotte, Charlottetown Mall <unitdate type="inclusive" normal="1961">1961</unitdate>, <unitdate>undated</unitdate></unittitle>
-              </did>
+                <unittitle>Charlotte, Charlottetown Mall</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate><unitdate>undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Oversize Box [75006288449485591624]">15</container>
-                <unittitle>Wilmington, Hanover Shopping Center <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>, <unitdate>undated</unitdate></unittitle>
-              </did>
+                <unittitle>Wilmington, Hanover Shopping Center</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate><unitdate>undated</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Pennsylvania, St. David's, District Shopping Center <unitdate type="inclusive" normal="1956" certainty="approximate">circa 1956</unitdate></unittitle>
-            </did>
+              <unittitle>Pennsylvania, St. David's, District Shopping Center</unittitle><unitdate type="inclusive" normal="1956" certainty="approximate">circa 1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -4479,21 +4092,18 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>El Paso, Airport Village Shopping Center <unitdate type="inclusive" normal="1955" certainty="approximate">circa 1955</unitdate></unittitle>
-              </did>
+                <unittitle>El Paso, Airport Village Shopping Center</unittitle><unitdate type="inclusive" normal="1955" certainty="approximate">circa 1955</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5259154993420594345716]">13</container>
-                <unittitle>San Antonio, North Star Mall <unitdate type="inclusive" normal="1958" certainty="approximate">circa 1958</unitdate></unittitle>
-              </did>
+                <unittitle>San Antonio, North Star Mall</unittitle><unitdate type="inclusive" normal="1958" certainty="approximate">circa 1958</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5259154993420594345716]">13</container>
-              <unittitle>Wisconsin, Wausau, Aerial photographs <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Wisconsin, Wausau, Aerial photographs</unittitle><unitdate>undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -4570,8 +4180,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [25095923470999774188685]">15</container>
-              <unittitle>Michigan projects: Detroit, Northland Shopping Center <unitdate type="inclusive" normal="1955" certainty="approximate">circa 1955</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan projects: Detroit, Northland Shopping Center</unittitle><unitdate type="inclusive" normal="1955" certainty="approximate">circa 1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -4580,8 +4189,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25095923470999774188685]">15</container>
-                <unittitle>Florida, Other locations <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
-              </did>
+                <unittitle>Florida, Other locations</unittitle><unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></did>
               <odd>
                 <p>(comparative shopping center photos)</p>
               </odd>
@@ -4589,8 +4197,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25095923470999774188685]">15</container>
-                <unittitle>Maryland, Glen Burnie, Harundale Mall <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-              </did>
+                <unittitle>Maryland, Glen Burnie, Harundale Mall</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -4599,20 +4206,17 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [25095923470999774188685]">15</container>
-                  <unittitle>Port Authority Bus System terminal <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-                </did>
+                  <unittitle>Port Authority Bus System terminal</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [25095923470999774188685]">15</container>
-                  <unittitle>Flushing central business district study <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-                </did>
+                  <unittitle>Flushing central business district study</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [25095923470999774188685]">15</container>
-                  <unittitle>Yonkers Cross Country Shopping Center <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-                </did>
+                  <unittitle>Yonkers Cross Country Shopping Center</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -4622,8 +4226,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [25095923470999774188685]">15</container>
-                  <unittitle>Wilmington, Hanover Shopping Center <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>, <unitdate>undated</unitdate></unittitle>
-                </did>
+                  <unittitle>Wilmington, Hanover Shopping Center</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate><unitdate>undated</unitdate></did>
               </c05>
             </c04>
           </c03>

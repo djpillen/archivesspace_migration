@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -41,9 +42,8 @@
   </frontmatter>
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
-      <origination><famname source="lcnaf" encodinganalog="100">Upjohn family.</famname> [Robert U. Redpath, collector]</origination>
-      <unittitle encodinganalog="245">Upjohn Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1795/1974">1795-1974</unitdate></unittitle>
-      <abstract>Papers of the Upjohn family of Hastings and Kalamazoo, Michigan, collected by Dr. E. Gifford Upjohn. Papers and genealogical materials of Upjohn and related families, especially the Mills family, Kirby family, and Clough family; include materials concerning family activities, medical practice, and daily life; also papers concerning the work of Clough family members as missionaries to southern India; and selected Upjohn Pharmaceutical Company historical records; and photographs.</abstract>
+      <origination><famname source="lcnaf" encodinganalog="100" ref="/agents/families/44">Upjohn family.</famname> [Robert U. Redpath, collector]</origination>
+      <unittitle encodinganalog="245">Upjohn Family Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1795/1974">1795-1974</unitdate><abstract>Papers of the Upjohn family of Hastings and Kalamazoo, Michigan, collected by Dr. E. Gifford Upjohn. Papers and genealogical materials of Upjohn and related families, especially the Mills family, Kirby family, and Clough family; include materials concerning family activities, medical practice, and daily life; also papers concerning the work of Clough family members as missionaries to southern India; and selected Upjohn Pharmaceutical Company historical records; and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85579 Aa 2 AC</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -81,52 +81,52 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Baptists--Missions--India.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90624203">Clough, J. E. (John Everett), 1836-1910.</persname>
-        <famname source="lcnaf" encodinganalog="600">Clough family.</famname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081913">Hastings (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">India.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Kalamazoo (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Kirby family.</famname>
-        <subject source="lcsh" encodinganalog="650">Medicine--Michigan.</subject>
-        <famname source="lcnaf" encodinganalog="600">Mills family.</famname>
-        <subject source="lcsh" encodinganalog="650">Missionaries--India.</subject>
-        <subject source="lcsh" encodinganalog="650">Pharmacy.</subject>
-        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Kalamazoo.</subject>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, E. Gifford.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Gratia Clough, 1874-1957.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Henry Uriah, 1843-1887.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Lawrence Northcote, 1873-1967.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Millie Kirby, 1852-1920.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Uriah, 1808-1896.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr96020838">Upjohn, William, 1770-1847.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, William, 1807-1887.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Upjohn Company.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10517">Baptists--Missions--India.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90624203" ref="/agents/people/8254">Clough, J. E. (John Everett), 1836-1910.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/245">Clough family.</famname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081913" ref="/subjects/1111">Hastings (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/965">India.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/976">Kalamazoo (Mich.)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/28">Kirby family.</famname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6035">Medicine--Michigan.</subject>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/394">Mills family.</famname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6319">Missionaries--India.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10518">Pharmacy.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10271">Physicians--Michigan--Kalamazoo.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2739">Upjohn, E. Gifford.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2515">Upjohn, Gratia Clough, 1874-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7742">Upjohn, Henry Uriah, 1843-1887.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6754">Upjohn, Lawrence Northcote, 1873-1967.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8916">Upjohn, Millie Kirby, 1852-1920.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3255">Upjohn, Uriah, 1808-1896.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr96020838" ref="/agents/people/6659">Upjohn, William, 1770-1847.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3447">Upjohn, William, 1807-1887.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5707">Upjohn Company.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <subject source="lcsh" encodinganalog="650">Baptists--Missions--India.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90624203">Clough, J. E. (John Everett), 1836-1910.</persname>
-        <famname source="lcnaf" encodinganalog="600">Clough family.</famname>
-        <geogname source="lcsh" encodinganalog="651">India.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Kalamazoo High School (Kalamazoo, Mich.). Class of 1892.</corpname>
-        <famname source="lcnaf" encodinganalog="600">Kirby family.</famname>
-        <subject source="lctgm" encodinganalog="650">Missionaries--India.</subject>
-        <subject source="lctgm" encodinganalog="650">Missions--India.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Medicine and Surgery. Class of 1900.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Gratia Clough, 1874-1957.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Henry Uriah, 1843-1887.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Lawrence Northcote, 1873-1967.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Millie Kirby, 1852-1920.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Uriah, 1808-1896.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, William, 1807-1887.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Upjohn Company.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10517">Baptists--Missions--India.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90624203" ref="/agents/people/8254">Clough, J. E. (John Everett), 1836-1910.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/245">Clough family.</famname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/965">India.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1054">Kalamazoo High School (Kalamazoo, Mich.). Class of 1892.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/28">Kirby family.</famname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3893">Missionaries--India.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4264">Missions--India.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2307">University of Michigan. Dept. of Medicine and Surgery. Class of 1900.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2515">Upjohn, Gratia Clough, 1874-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7742">Upjohn, Henry Uriah, 1843-1887.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6754">Upjohn, Lawrence Northcote, 1873-1967.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8916">Upjohn, Millie Kirby, 1852-1920.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3255">Upjohn, Uriah, 1808-1896.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3447">Upjohn, William, 1807-1887.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5707">Upjohn Company.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="gmgpc" encodinganalog="655">Ambrotypes.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Tintypes.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3467">Ambrotypes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3453">Tintypes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -179,8 +179,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Papers <unitdate type="inclusive" normal="1795/1796">1795-1796</unitdate>, <unitdate type="inclusive" normal="1809">1809</unitdate></unittitle>
-            </did>
+              <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1795/1796">1795-1796</unitdate><unitdate type="inclusive" normal="1809">1809</unitdate></did>
             <odd>
               <p>(1-7)</p>
             </odd>
@@ -188,8 +187,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Journal <unitdate type="inclusive" normal="1820-07-24/1821-10-06">July 24, 1820-October 6, 1821</unitdate></unittitle>
-            </did>
+              <unittitle>Journal</unittitle><unitdate type="inclusive" normal="1820-07-24/1821-10-06">July 24, 1820-October 6, 1821</unitdate></did>
             <odd>
               <p>(1-8)</p>
             </odd>
@@ -197,8 +195,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Journal <unitdate type="inclusive" normal="1821-10-28/1847-01-28">October 28, 1821-January 28, 1847</unitdate></unittitle>
-            </did>
+              <unittitle>Journal</unittitle><unitdate type="inclusive" normal="1821-10-28/1847-01-28">October 28, 1821-January 28, 1847</unitdate></did>
             <odd>
               <p>(1-9)</p>
             </odd>
@@ -206,8 +203,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Sermon Outlines <unitdate type="inclusive" normal="1802" certainty="approximate">circa 1802</unitdate></unittitle>
-            </did>
+              <unittitle>Sermon Outlines</unittitle><unitdate type="inclusive" normal="1802" certainty="approximate">circa 1802</unitdate></did>
             <odd>
               <p>(1-10)</p>
             </odd>
@@ -215,8 +211,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Daybook <unitdate type="inclusive" normal="1823/1832">1823-1832</unitdate></unittitle>
-            </did>
+              <unittitle>Daybook</unittitle><unitdate type="inclusive" normal="1823/1832">1823-1832</unitdate></did>
             <odd>
               <p>(1-11)</p>
             </odd>
@@ -238,8 +233,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Papers <unitdate type="inclusive" normal="1860/1869" certainty="approximate">circa 1860s</unitdate></unittitle>
-            </did>
+              <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1860/1869" certainty="approximate">circa 1860s</unitdate></did>
             <odd>
               <p>(1-13)</p>
             </odd>
@@ -256,8 +250,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Journal entry <unitdate type="inclusive" normal="1830">1830</unitdate></unittitle>
-            </did>
+              <unittitle>Journal entry</unittitle><unitdate type="inclusive" normal="1830">1830</unitdate></did>
             <odd>
               <p>(1-15)</p>
             </odd>
@@ -265,8 +258,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Journal entry <unitdate type="inclusive" normal="1840">1840</unitdate></unittitle>
-            </did>
+              <unittitle>Journal entry</unittitle><unitdate type="inclusive" normal="1840">1840</unitdate></did>
             <odd>
               <p>(1-16)</p>
             </odd>
@@ -297,8 +289,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Court Case <unitdate type="inclusive" normal="1881">1881</unitdate></unittitle>
-            </did>
+              <unittitle>Court Case</unittitle><unitdate type="inclusive" normal="1881">1881</unitdate></did>
             <odd>
               <p>(1-19)</p>
             </odd>
@@ -306,8 +297,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [035336407384807148]">4</container>
-              <unittitle>Day Book <unitdate type="inclusive" normal="1834/1839">1834-1839</unitdate></unittitle>
-            </did>
+              <unittitle>Day Book</unittitle><unitdate type="inclusive" normal="1834/1839">1834-1839</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -379,8 +369,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1865/1869">1865-1869</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1865/1869">1865-1869</unitdate></did>
             <odd>
               <p>(1-23)</p>
             </odd>
@@ -388,8 +377,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1870/1879">1870-1879</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1870/1879">1870-1879</unitdate></did>
             <odd>
               <p>(1-24)</p>
             </odd>
@@ -397,8 +385,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1880/1885">1880-1885</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1880/1885">1880-1885</unitdate></did>
             <odd>
               <p>(1-25)</p>
             </odd>
@@ -406,8 +393,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Papers <unitdate type="inclusive" normal="1868/1884">1868-1884</unitdate></unittitle>
-            </did>
+              <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1868/1884">1868-1884</unitdate></did>
             <odd>
               <p>(1-26)</p>
             </odd>
@@ -415,8 +401,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Patent Office communications <unitdate type="inclusive" normal="1867/1878">1867-1878</unitdate></unittitle>
-            </did>
+              <unittitle>Patent Office communications</unittitle><unitdate type="inclusive" normal="1867/1878">1867-1878</unitdate></did>
             <odd>
               <p>(1-27)</p>
             </odd>
@@ -424,8 +409,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Patent Office communications <unitdate type="inclusive" normal="1867/1878">1867-1878</unitdate></unittitle>
-            </did>
+              <unittitle>Patent Office communications</unittitle><unitdate type="inclusive" normal="1867/1878">1867-1878</unitdate></did>
             <odd>
               <p>(1-28)</p>
             </odd>
@@ -433,14 +417,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [035336407384807148]">4</container>
-              <unittitle>School Book <unitdate type="inclusive" normal="1867">1867</unitdate></unittitle>
-            </did>
+              <unittitle>School Book</unittitle><unitdate type="inclusive" normal="1867">1867</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Bank-Book <unitdate type="inclusive" normal="1883/1884">1883-1884</unitdate></unittitle>
-            </did>
+              <unittitle>Bank-Book</unittitle><unitdate type="inclusive" normal="1883/1884">1883-1884</unitdate></did>
             <odd>
               <p>(1-29)</p>
             </odd>
@@ -448,20 +430,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [035336407384807148]">4</container>
-              <unittitle>Daybook "A" <unitdate type="inclusive" normal="1871/1873">1871-1873</unitdate></unittitle>
-            </did>
+              <unittitle>Daybook "A"</unittitle><unitdate type="inclusive" normal="1871/1873">1871-1873</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [035336407384807148]">4</container>
-              <unittitle>Daybook "C" <unitdate type="inclusive" normal="1873/1877">1873-1877</unitdate></unittitle>
-            </did>
+              <unittitle>Daybook "C"</unittitle><unitdate type="inclusive" normal="1873/1877">1873-1877</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [035336407384807148]">4</container>
-              <unittitle>Daybook "D" <unitdate type="inclusive" normal="1877/1887">1877-1887</unitdate></unittitle>
-            </did>
+              <unittitle>Daybook "D"</unittitle><unitdate type="inclusive" normal="1877/1887">1877-1887</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -492,8 +471,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Diary <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate></unittitle>
-            </did>
+              <unittitle>Diary</unittitle><unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate></did>
             <odd>
               <p>(1-32)</p>
             </odd>
@@ -519,14 +497,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [035336407384807148]">4</container>
-              <unittitle>Notebook <unitdate type="inclusive" normal="1873/1875">1873-1875</unitdate></unittitle>
-            </did>
+              <unittitle>Notebook</unittitle><unitdate type="inclusive" normal="1873/1875">1873-1875</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [035336407384807148]">4</container>
-              <unittitle>Accounts with Renters <unitdate type="inclusive" normal="1882/1898">1882-1898</unitdate></unittitle>
-            </did>
+              <unittitle>Accounts with Renters</unittitle><unitdate type="inclusive" normal="1882/1898">1882-1898</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -574,8 +550,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate></did>
             <odd>
               <p>(1-38)</p>
             </odd>
@@ -583,8 +558,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></did>
             <odd>
               <p>(1-39)</p>
             </odd>
@@ -592,8 +566,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93079348880049027975144]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate></did>
             <odd>
               <p>(1-40)</p>
             </odd>
@@ -721,8 +694,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [17354476494296414764172]">2</container>
-              <unittitle>Biographical materials; also tape funeral eulogy tape <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Biographical materials; also tape funeral eulogy tape</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             <odd>
               <p>(2-1)</p>
             </odd>
@@ -734,10 +706,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [17354476494296414764172]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1896/1900">1896-1900</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1896/1900">1896-1900</unitdate></did>
               <odd>
                 <p>(2-2)</p>
               </odd>
@@ -745,10 +714,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [17354476494296414764172]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1905/1910">1905-1910</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1905/1910">1905-1910</unitdate></did>
               <odd>
                 <p>(2-3)</p>
               </odd>
@@ -756,10 +722,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [17354476494296414764172]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1911/1916">1911-1916</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1911/1916">1911-1916</unitdate></did>
               <odd>
                 <p>(2-4)</p>
               </odd>
@@ -767,10 +730,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [17354476494296414764172]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1917/1918">1917-1918</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1917/1918">1917-1918</unitdate></did>
               <odd>
                 <p>(2-5)</p>
               </odd>
@@ -778,10 +738,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [17354476494296414764172]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1941/1960">1941-1960</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1941/1960">1941-1960</unitdate></did>
               <odd>
                 <p>(2-6)</p>
               </odd>
@@ -799,8 +756,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [17354476494296414764172]">2</container>
-              <unittitle>Interview by Dr. Dunbar <unitdate type="inclusive" normal="1963-08-03">August 3, 1963</unitdate></unittitle>
-            </did>
+              <unittitle>Interview by Dr. Dunbar</unittitle><unitdate type="inclusive" normal="1963-08-03">August 3, 1963</unitdate></did>
             <odd>
               <p>(2-8)</p>
             </odd>
@@ -808,8 +764,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [17354476494296414764172]">2</container>
-              <unittitle>Kalamazoo High School Centennial Program <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            </did>
+              <unittitle>Kalamazoo High School Centennial Program</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
             <odd>
               <p>(2-9)</p>
             </odd>
@@ -817,8 +772,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [17354476494296414764172]">2</container>
-              <unittitle>Account Book <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
-            </did>
+              <unittitle>Account Book</unittitle><unitdate type="inclusive" normal="1911">1911</unitdate></did>
             <odd>
               <p>(2-10)</p>
             </odd>
@@ -826,8 +780,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [17354476494296414764172]">2</container>
-              <unittitle>Account Book <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-            </did>
+              <unittitle>Account Book</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
             <odd>
               <p>(2-11)</p>
             </odd>
@@ -835,8 +788,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [17354476494296414764172]">2</container>
-              <unittitle>Account Book <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-            </did>
+              <unittitle>Account Book</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
             <odd>
               <p>(2-12)</p>
             </odd>
@@ -865,10 +817,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [17354476494296414764172]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1898/1900">1898-1900</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1898/1900">1898-1900</unitdate></did>
               <odd>
                 <p>(2-14)</p>
               </odd>
@@ -876,10 +825,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [17354476494296414764172]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1902/1910">1902-1910</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1902/1910">1902-1910</unitdate></did>
               <odd>
                 <p>(2-15)</p>
               </odd>
@@ -887,10 +833,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [17354476494296414764172]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1911/1917">1911-1917</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1911/1917">1911-1917</unitdate></did>
               <odd>
                 <p>(2-16)</p>
               </odd>
@@ -898,10 +841,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [17354476494296414764172]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1932/1957">1932-1957</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1932/1957">1932-1957</unitdate></did>
               <odd>
                 <p>(2-17)</p>
               </odd>
@@ -938,8 +878,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [87570649886875383276]">1</container>
-              <unittitle>Daybook <unitdate type="inclusive" normal="1837" certainty="approximate">circa 1837</unitdate></unittitle>
-            </did>
+              <unittitle>Daybook</unittitle><unitdate type="inclusive" normal="1837" certainty="approximate">circa 1837</unitdate></did>
             <odd>
               <p>(also used as scrapbook)</p>
             </odd>
@@ -1012,8 +951,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [17354476494296414764172]">2</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1866/1960">1866-1960</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1866/1960">1866-1960</unitdate></did>
             <odd>
               <p>(2-24)</p>
             </odd>
@@ -1061,8 +999,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [17354476494296414764172]">2</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1937/1949">1937-1949</unitdate></unittitle>
-              </did>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1937/1949">1937-1949</unitdate></did>
               <odd>
                 <p>(2-29)</p>
               </odd>
@@ -1128,10 +1065,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [17354476494296414764172]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1900/1930">1900-1930</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1900/1930">1900-1930</unitdate></did>
               <odd>
                 <p>(2-37)</p>
               </odd>
@@ -1139,10 +1073,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [17354476494296414764172]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1931/1939">1931-1939</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1931/1939">1931-1939</unitdate></did>
               <odd>
                 <p>(2-38)</p>
               </odd>
@@ -1150,10 +1081,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [17354476494296414764172]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></did>
               <odd>
                 <p>(2-39)</p>
               </odd>
@@ -1161,10 +1089,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1942/1944">1942-1944</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1942/1944">1942-1944</unitdate></did>
               <odd>
                 <p>(3-1)</p>
               </odd>
@@ -1172,10 +1097,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate></did>
               <odd>
                 <p>(3-2)</p>
               </odd>
@@ -1183,10 +1105,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1965/1973">1965-1973</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1965/1973">1965-1973</unitdate></did>
               <odd>
                 <p>(3-3)</p>
               </odd>
@@ -1195,8 +1114,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4434539448315887838]">3</container>
-              <unittitle>The Bulletin of the John Clough Genealogical Society <unitdate type="inclusive" normal="1946/1955">1946-1955</unitdate></unittitle>
-            </did>
+              <unittitle>The Bulletin of the John Clough Genealogical Society</unittitle><unitdate type="inclusive" normal="1946/1955">1946-1955</unitdate></did>
             <odd>
               <p>(3-4)</p>
             </odd>
@@ -1242,8 +1160,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4434539448315887838]">3</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1876">1876</unitdate>, <unitdate type="inclusive" normal="1898/1905">1898-1905</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1876">1876</unitdate><unitdate type="inclusive" normal="1898/1905">1898-1905</unitdate></did>
             <odd>
               <p>(3-8)</p>
             </odd>
@@ -1288,8 +1205,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1938/1953">1938-1953</unitdate></unittitle>
-              </did>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1938/1953">1938-1953</unitdate></did>
               <odd>
                 <p>(3-12)</p>
               </odd>
@@ -1350,68 +1266,57 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>American Baptist Foreign Mission <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-              </did>
+                <unittitle>American Baptist Foreign Mission</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>The Baptist Missionary Review <unitdate type="inclusive" normal="1917-04">April 1917</unitdate>, <unitdate type="inclusive" normal="1928-05">May 1928</unitdate></unittitle>
-              </did>
+                <unittitle>The Baptist Missionary Review</unittitle><unitdate type="inclusive" normal="1917-04">April 1917</unitdate><unitdate type="inclusive" normal="1928-05">May 1928</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>Report of the American Baptist Telugu Mission <unitdate type="inclusive" normal="1900">1900</unitdate>, <unitdate type="inclusive" normal="1905">1905</unitdate>, <unitdate type="inclusive" normal="1917">1917</unitdate>, <unitdate type="inclusive" normal="1919/1921">1919-1921</unitdate>, <unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate>, <unitdate type="inclusive" normal="1933/1936">1933-1936</unitdate></unittitle>
-              </did>
+                <unittitle>Report of the American Baptist Telugu Mission</unittitle><unitdate type="inclusive" normal="1900">1900</unitdate><unitdate type="inclusive" normal="1905">1905</unitdate><unitdate type="inclusive" normal="1917">1917</unitdate><unitdate type="inclusive" normal="1919/1921">1919-1921</unitdate><unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate><unitdate type="inclusive" normal="1933/1936">1933-1936</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>Ongole Mission Field Annual Report <unitdate type="inclusive" normal="1913">1913</unitdate>, <unitdate type="inclusive" normal="1915/1916">1915-1916</unitdate>, <unitdate type="inclusive" normal="1921">1921</unitdate>, <unitdate type="inclusive" normal="1924/1929">1924-1929</unitdate>, <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-              </did>
+                <unittitle>Ongole Mission Field Annual Report</unittitle><unitdate type="inclusive" normal="1913">1913</unitdate><unitdate type="inclusive" normal="1915/1916">1915-1916</unitdate><unitdate type="inclusive" normal="1921">1921</unitdate><unitdate type="inclusive" normal="1924/1929">1924-1929</unitdate><unitdate type="inclusive" normal="1931">1931</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>Ongole: The Story of a Great Mission Station <unitdate type="inclusive" normal="1923">1923</unitdate>, <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-              </did>
+                <unittitle>Ongole: The Story of a Great Mission Station</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate><unitdate type="inclusive" normal="1930">1930</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>Handbook on the Station work at Ongole, India <unitdate type="inclusive" normal="1902">1902</unitdate></unittitle>
-              </did>
+                <unittitle>Handbook on the Station work at Ongole, India</unittitle><unitdate type="inclusive" normal="1902">1902</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>Telugu Hymns <unitdate type="inclusive" normal="1898">1898</unitdate></unittitle>
-              </did>
+                <unittitle>Telugu Hymns</unittitle><unitdate type="inclusive" normal="1898">1898</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>History of Madira Mission <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-              </did>
+                <unittitle>History of Madira Mission</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>Great Foreign Missionaries in India <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
-              </did>
+                <unittitle>Great Foreign Missionaries in India</unittitle><unitdate type="inclusive" normal="1928">1928</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>Ongole on the Air <unitdate type="inclusive" normal="1866/1932">1866-1932</unitdate>, <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-              </did>
+                <unittitle>Ongole on the Air</unittitle><unitdate type="inclusive" normal="1866/1932">1866-1932</unitdate><unitdate type="inclusive" normal="1932">1932</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4434539448315887838]">3</container>
-                <unittitle>Field Survey/South India <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-              </did>
+                <unittitle>Field Survey/South India</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -1468,8 +1373,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4434539448315887838]">3</container>
-            <unittitle>Company History <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>Company History</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           <odd>
             <p>(3-23)</p>
           </odd>
@@ -1481,8 +1385,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4434539448315887838]">3</container>
-              <unittitle>Paper <unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate></unittitle>
-            </did>
+              <unittitle>Paper</unittitle><unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate></did>
             <odd>
               <p>(3-24)</p>
             </odd>
@@ -1490,8 +1393,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4434539448315887838]">3</container>
-              <unittitle>Sales Pamphlets <unitdate type="inclusive" normal="1886">1886</unitdate></unittitle>
-            </did>
+              <unittitle>Sales Pamphlets</unittitle><unitdate type="inclusive" normal="1886">1886</unitdate></did>
             <odd>
               <p>(3-25)</p>
             </odd>
@@ -1527,8 +1429,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4434539448315887838]">3</container>
-            <unittitle>Internal Annual Report <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-          </did>
+            <unittitle>Internal Annual Report</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           <odd>
             <p>(3-29)</p>
           </odd>
@@ -1554,8 +1455,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [136489414481485119682]">5</container>
-              <unittitle><title render="italic">The Genealogy of the Descendants of John Clough of Salisbury, Massachusetts</title>. Littleton, N.H. <unitdate type="inclusive" normal="1952">1952</unitdate>, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle><title render="italic">The Genealogy of the Descendants of John Clough of Salisbury, Massachusetts</title>. Littleton, N.H.</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate><unitdate type="inclusive" normal="1966">1966</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
@@ -1563,14 +1463,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [136489414481485119682]">5</container>
-              <unittitle>Eva Clough Speare, ed. <title render="italic">The Story of the Family of John Clough of Salisbury, Massachusetts</title>. Littleton, N.H., <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-            </did>
+              <unittitle>Eva Clough Speare, ed. <title render="italic">The Story of the Family of John Clough of Salisbury, Massachusetts</title>. Littleton, N.H.</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [136489414481485119682]">5</container>
-              <unittitle><title render="italic">The Poetical Works of Arthur Hugh Clough, with a memoir by Francis Turner Palgrave</title>. London, <unitdate>Undated</unitdate></unittitle>
-            </did>
+              <unittitle><title render="italic">The Poetical Works of Arthur Hugh Clough, with a memoir by Francis Turner Palgrave</title>. London</unittitle><unitdate>Undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1580,20 +1478,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [136489414481485119682]">5</container>
-              <unittitle>John E. Clough. <title render="italic">Social Christianity in the Orient</title>. New York, <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
-            </did>
+              <unittitle>John E. Clough. <title render="italic">Social Christianity in the Orient</title>. New York</unittitle><unitdate type="inclusive" normal="1914">1914</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [136489414481485119682]">5</container>
-              <unittitle>Herbert W. Hines. <title render="italic">Clough, Kingdom-Builder in South India</title>, Philadelphia, <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-            </did>
+              <unittitle>Herbert W. Hines. <title render="italic">Clough, Kingdom-Builder in South India</title>, Philadelphia</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [136489414481485119682]">5</container>
-              <unittitle>Emma Rauschenbusch-Clough. <title render="italic">While Sewing Sandals, or Tales of a Telugu Pariah Tribe</title>. London, <unitdate type="inclusive" normal="1899">1899</unitdate></unittitle>
-            </did>
+              <unittitle>Emma Rauschenbusch-Clough. <title render="italic">While Sewing Sandals, or Tales of a Telugu Pariah Tribe</title>. London</unittitle><unitdate type="inclusive" normal="1899">1899</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1609,14 +1504,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [136489414481485119682]">5</container>
-              <unittitle>James Sunderland. <title render="italic">Annals of a Life of Faith, An Autobiography</title> Kansas City, Mo., <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
-            </did>
+              <unittitle>James Sunderland. <title render="italic">Annals of a Life of Faith, An Autobiography</title> Kansas City, Mo.</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [136489414481485119682]">5</container>
-              <unittitle>James Sunderland, et al. <title render="italic">Biographical sketches and Recollections of the Lives of Thomas Sunderland (2d) and Sarah Broadhead (Lovell)</title> Kansas City, Mo., <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
-            </did>
+              <unittitle>James Sunderland, et al. <title render="italic">Biographical sketches and Recollections of the Lives of Thomas Sunderland (2d) and Sarah Broadhead (Lovell)</title> Kansas City, Mo.</unittitle><unitdate type="inclusive" normal="1914">1914</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1626,8 +1519,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [136489414481485119682]">5</container>
-              <unittitle>Walter J. Sturgeon. <title render="italic">A Genealogical History of the Sturgeons of North America</title>. Cincinnati, <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
-            </did>
+              <unittitle>Walter J. Sturgeon. <title render="italic">A Genealogical History of the Sturgeons of North America</title>. Cincinnati</unittitle><unitdate type="inclusive" normal="1926">1926</unitdate></did>
           </c03>
         </c02>
       </c01>

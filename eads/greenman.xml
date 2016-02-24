@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Greenman, Emerson Frank, 1895-1973.</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5716">Greenman, Emerson Frank, 1895-1973.</persname>
       </origination>
-      <unittitle encodinganalog="245">Emerson Frank Greenman Papers <unitdate encodinganalog="245$f" type="inclusive" normal="1888/1984">1888-1984</unitdate>, <unitdate encodinganalog="245$g" type="bulk" normal="1924/1972">1924-1972</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">851362 Aa 2</unitid>
+      <unittitle encodinganalog="245">Emerson Frank Greenman Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive" normal="1888/1984">1888-1984</unitdate><unitdate encodinganalog="245$g" type="bulk" normal="1924/1972">1924-1972</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">851362 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Emerson Frank Greenman was a prominent Michigan archaeologist who served as Curator of the Great Lakes Division of the Museum of Anthropology at the University of Michigan from 1945 to 1965. The Greenman papers include correspondence, administrative materials related to the Camp Killarney field school in Ontario, Canada, site files for archaeological sites in Canada, research and topical files, scrapbooks and photographs.</abstract>
       <note>
@@ -88,68 +88,68 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Education--Michigan--Mount Pleasant.</subject>
-        <subject source="lcsh" encodinganalog="650">Indians of North America--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">McBain (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155116">Mount Pleasant (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011098905">Mount Pleasant Indian School.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Pontiac, Ottawa Chief, d. 1769.</persname>
-        <persname source="lcnaf" encodinganalog="600">Greenman, Emerson Frank, 1895-1973.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899">University of Michigan. Museum of Anthropology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82146244">Michigan Archaeological Society.</corpname>
-        <subject source="lcsh" encodinganalog="650">Archaeology.</subject>
-        <subject source="lcsh" encodinganalog="650">Excavations (Archaeology)--Ontario.</subject>
-        <geogname source="lcsh" encodinganalog="651">Manitoulin Island (Ont.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Ontario--Antiquities.</geogname>
-        <subject source="lcsh" encodinganalog="650">Indians of North America.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8055">Education--Michigan--Mount Pleasant.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6077">Indians of North America--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1354">McBain (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155116" ref="/subjects/1164">Mount Pleasant (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011098905" ref="/agents/corporate_entities/1562">Mount Pleasant Indian School.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3229">Pontiac, Ottawa Chief, d. 1769.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5716">Greenman, Emerson Frank, 1895-1973.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899" ref="/agents/corporate_entities/2842">University of Michigan. Museum of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82146244" ref="/agents/corporate_entities/651">Michigan Archaeological Society.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6611">Archaeology.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8056">Excavations (Archaeology)--Ontario.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1939">Manitoulin Island (Ont.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1940">Ontario--Antiquities.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6751">Indians of North America.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">African Americans--Michigan--Work.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80149764">Alcona County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Au Train River (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Boats.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091936">Cheboygan County (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Churches.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Clinton Inn (Clinton, Mich.)</corpname>
-        <geogname source="lctgm" encodinganalog="651">Clinton (Mich.)--Hotels and taverns.</geogname>
-        <subject source="lctgm" encodinganalog="650">Courthouses--Michigan--Monroe.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83128558">Cross Village (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Cutover lands.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Dwellings.</subject>
-        <subject source="lctgm" encodinganalog="650">Fire engines and equipment.</subject>
-        <geogname source="lcsh" encodinganalog="651">Gogebic, Lake (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Hotels and taverns--Michigan--Clinton.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80098569">Huron County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Huron, Lake (Mich. and Ont.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Indians of North America.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80073587">Ingham County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091931">Iosco County (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Log cabins.</subject>
-        <geogname source="lcsh" encodinganalog="651">Looking Glass River (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Lumber industry--1888.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923">Mackinac Island (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan, Northern.</geogname>
-        <subject source="lctgm" encodinganalog="650">Military parades and ceremonies.</subject>
-        <subject source="lctgm" encodinganalog="650">Mills--Michigan--Presque Ile County.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81131970">Missaukee County (Mich.)</geogname>
-        <geogname source="lctgm" encodinganalog="651">Monroe (Mich.)--Courthouses.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Muskegon River (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81074442">Ogemaw County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081790">Owosso (Mich.)</geogname>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <geogname source="lctgm" encodinganalog="651">Presque Ile County (Mich.)--Mills.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Roscommon County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Shiawassee River (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Upper Peninsula (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Excavations (Archaeology)--Ontario.</subject>
-        <geogname source="lcsh" encodinganalog="651">Manitoulin Island (Ont.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4450">African Americans--Michigan--Work.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80149764" ref="/subjects/1548">Alcona County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1941">Au Train River (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3741">Boats.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091936" ref="/subjects/975">Cheboygan County (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3947">Churches.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4750">Clinton Inn (Clinton, Mich.)</corpname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/314">Clinton (Mich.)--Hotels and taverns.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4451">Courthouses--Michigan--Monroe.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83128558" ref="/subjects/1063">Cross Village (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4452">Cutover lands.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539" ref="/subjects/929">Detroit (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3995">Dwellings.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3593">Fire engines and equipment.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1942">Gogebic, Lake (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4453">Hotels and taverns--Michigan--Clinton.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80098569" ref="/subjects/1393">Huron County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1943">Huron, Lake (Mich. and Ont.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6751">Indians of North America.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80073587" ref="/subjects/1733">Ingham County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091931" ref="/subjects/1556">Iosco County (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4143">Log cabins.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1944">Looking Glass River (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4454">Lumber industry--1888.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923" ref="/subjects/945">Mackinac Island (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1945">Michigan, Northern.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3982">Military parades and ceremonies.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4455">Mills--Michigan--Presque Ile County.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81131970" ref="/subjects/1763">Missaukee County (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/315">Monroe (Mich.)--Courthouses.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1830">Muskegon River (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81074442" ref="/subjects/1562">Ogemaw County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081790" ref="/subjects/1186">Owosso (Mich.)</geogname>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/316">Presque Ile County (Mich.)--Mills.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1565">Roscommon County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1946">Shiawassee River (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/934">Upper Peninsula (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8056">Excavations (Archaeology)--Ontario.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1939">Manitoulin Island (Ont.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Field notes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3186">Field notes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -175,8 +175,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Baggerly, Carmen <unitdate type="inclusive" normal="1936/1958">1936-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Baggerly, Carmen</unittitle><unitdate type="inclusive" normal="1936/1958">1936-1958</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -184,8 +183,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Beeson, Lewis <unitdate type="inclusive" normal="1955/1961">1955-1961</unitdate></unittitle>
-          </did>
+            <unittitle>Beeson, Lewis</unittitle><unitdate type="inclusive" normal="1955/1961">1955-1961</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -193,8 +191,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Bender, Frank Jr. <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate></unittitle>
-          </did>
+            <unittitle>Bender, Frank Jr.</unittitle><unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -202,8 +199,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Benton, Robert <unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Benton, Robert</unittitle><unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -211,8 +207,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Bloomfield, Leonard <unitdate type="inclusive" normal="1933/1937">1933-1937</unitdate></unittitle>
-          </did>
+            <unittitle>Bloomfield, Leonard</unittitle><unitdate type="inclusive" normal="1933/1937">1933-1937</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -220,8 +215,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Burch, Homer L. <unitdate type="inclusive" normal="1951/1956">1951-1956</unitdate></unittitle>
-          </did>
+            <unittitle>Burch, Homer L.</unittitle><unitdate type="inclusive" normal="1951/1956">1951-1956</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -229,8 +223,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Butterfield, Ira W. <unitdate type="inclusive" normal="1954/1962">1954-1962</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Butterfield, Ira W.</unittitle><unitdate type="inclusive" normal="1954/1962">1954-1962</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -250,8 +243,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Cremation <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-          </did>
+            <unittitle>Cremation</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -259,8 +251,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Cunningham, Wilbur M. <unitdate type="inclusive" normal="1939/1957">1939-1957</unitdate></unittitle>
-          </did>
+            <unittitle>Cunningham, Wilbur M.</unittitle><unitdate type="inclusive" normal="1939/1957">1939-1957</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -268,8 +259,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Cushman, Gwynne <unitdate type="inclusive" normal="1938/1959">1938-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Cushman, Gwynne</unittitle><unitdate type="inclusive" normal="1938/1959">1938-1959</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -286,8 +276,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Darling, Birt <unitdate type="inclusive" normal="1948/1957">1948-1957</unitdate></unittitle>
-          </did>
+            <unittitle>Darling, Birt</unittitle><unitdate type="inclusive" normal="1948/1957">1948-1957</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -295,8 +284,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Davis, George W. <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></unittitle>
-          </did>
+            <unittitle>Davis, George W.</unittitle><unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -304,8 +292,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>De Visscher, Jerry <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></unittitle>
-          </did>
+            <unittitle>De Visscher, Jerry</unittitle><unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -313,8 +300,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Dever, Harry <unitdate type="inclusive" normal="1957/1961">1957-1961</unitdate></unittitle>
-          </did>
+            <unittitle>Dever, Harry</unittitle><unitdate type="inclusive" normal="1957/1961">1957-1961</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -322,8 +308,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Dustin, Fred <unitdate type="inclusive" normal="1942/1957">1942-1957</unitdate></unittitle>
-          </did>
+            <unittitle>Dustin, Fred</unittitle><unitdate type="inclusive" normal="1942/1957">1942-1957</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -340,8 +325,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Ellis, H. Holmes <unitdate type="inclusive" normal="1938/1960">1938-1960</unitdate></unittitle>
-          </did>
+            <unittitle>Ellis, H. Holmes</unittitle><unitdate type="inclusive" normal="1938/1960">1938-1960</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -358,8 +342,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Fox, George R. <unitdate type="inclusive" normal="1930/1957">1930-1957</unitdate></unittitle>
-          </did>
+            <unittitle>Fox, George R.</unittitle><unitdate type="inclusive" normal="1930/1957">1930-1957</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -367,8 +350,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Franz, Harvey <unitdate type="inclusive" normal="1955/1962">1955-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Franz, Harvey</unittitle><unitdate type="inclusive" normal="1955/1962">1955-1962</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -385,8 +367,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Gagnon, E.J. <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-          </did>
+            <unittitle>Gagnon, E.J.</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -394,8 +375,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Gibson, Edmond P. <unitdate type="inclusive" normal="1951/1961">1951-1961</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Gibson, Edmond P.</unittitle><unitdate type="inclusive" normal="1951/1961">1951-1961</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -406,8 +386,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Gillis, Edward V. <unitdate type="inclusive" normal="1955/1960">1955-1960</unitdate></unittitle>
-          </did>
+            <unittitle>Gillis, Edward V.</unittitle><unitdate type="inclusive" normal="1955/1960">1955-1960</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -415,8 +394,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Green, Amos R. <unitdate type="inclusive" normal="1938/1962">1938-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Green, Amos R.</unittitle><unitdate type="inclusive" normal="1938/1962">1938-1962</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -424,8 +402,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Groesbeck, H.D. <unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Groesbeck, H.D.</unittitle><unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -433,8 +410,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Guthe, Carl E. <unitdate type="inclusive" normal="1935/1940">1935-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Guthe, Carl E.</unittitle><unitdate type="inclusive" normal="1935/1940">1935-1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -451,8 +427,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Haltiner, Gerald <unitdate type="inclusive" normal="1951/1958">1951-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Haltiner, Gerald</unittitle><unitdate type="inclusive" normal="1951/1958">1951-1958</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -460,8 +435,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Hampton, A.S. <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Hampton, A.S.</unittitle><unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -469,8 +443,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Hard, Robert <unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate></unittitle>
-          </did>
+            <unittitle>Hard, Robert</unittitle><unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -478,8 +451,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Harvey, Wallace <unitdate type="inclusive" normal="1951/1963">1951-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Harvey, Wallace</unittitle><unitdate type="inclusive" normal="1951/1963">1951-1963</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -487,8 +459,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Hatt, Robert T. <unitdate type="inclusive" normal="1939/1961">1939-1961</unitdate></unittitle>
-          </did>
+            <unittitle>Hatt, Robert T.</unittitle><unitdate type="inclusive" normal="1939/1961">1939-1961</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -496,8 +467,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Herrick, Ruth <unitdate type="inclusive" normal="1952/1962">1952-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Herrick, Ruth</unittitle><unitdate type="inclusive" normal="1952/1962">1952-1962</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -505,8 +475,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Hill, Harry C. <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-          </did>
+            <unittitle>Hill, Harry C.</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -514,8 +483,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Hoag, O.S. <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
-          </did>
+            <unittitle>Hoag, O.S.</unittitle><unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -523,8 +491,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Hosack, Harry <unitdate type="inclusive" normal="1936/1949">1936-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Hosack, Harry</unittitle><unitdate type="inclusive" normal="1936/1949">1936-1949</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -532,8 +499,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Hrdlicka, Ales <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Hrdlicka, Ales</unittitle><unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -541,8 +507,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Hyde, Edwin <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Hyde, Edwin</unittitle><unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -568,8 +533,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Jenness, Diamond <unitdate type="inclusive" normal="1938/1942">1938-1942</unitdate></unittitle>
-          </did>
+            <unittitle>Jenness, Diamond</unittitle><unitdate type="inclusive" normal="1938/1942">1938-1942</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -586,8 +550,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Kempton, Rockwell M. <unitdate type="inclusive" normal="1942/1952">1942-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Kempton, Rockwell M.</unittitle><unitdate type="inclusive" normal="1942/1952">1942-1952</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -595,8 +558,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Kinietz, Vernon <unitdate type="inclusive" normal="1938/1950">1938-1950</unitdate></unittitle>
-          </did>
+            <unittitle>Kinietz, Vernon</unittitle><unitdate type="inclusive" normal="1938/1950">1938-1950</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -604,8 +566,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Krogman, William M. <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></unittitle>
-          </did>
+            <unittitle>Krogman, William M.</unittitle><unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -622,8 +583,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Lambert, Margaret <unitdate type="inclusive" normal="1939/1958">1939-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Lambert, Margaret</unittitle><unitdate type="inclusive" normal="1939/1958">1939-1958</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -631,8 +591,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Lamorandiere, John <unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Lamorandiere, John</unittitle><unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -640,8 +599,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Le Donne, Antoinette <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Le Donne, Antoinette</unittitle><unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -649,8 +607,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Lemmer, Victor F. <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Lemmer, Victor F.</unittitle><unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -667,8 +624,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Mastin, Kathleen <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></unittitle>
-          </did>
+            <unittitle>Mastin, Kathleen</unittitle><unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -676,8 +632,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>McCoy, Raymond <unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></unittitle>
-          </did>
+            <unittitle>McCoy, Raymond</unittitle><unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -685,8 +640,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>McCutcheon, Ted <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-          </did>
+            <unittitle>McCutcheon, Ted</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -694,8 +648,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>McGregor, Gus <unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></unittitle>
-          </did>
+            <unittitle>McGregor, Gus</unittitle><unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -703,8 +656,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>McNairn, John S. <unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></unittitle>
-          </did>
+            <unittitle>McNairn, John S.</unittitle><unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -712,8 +664,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Messer, Donald and Lois <unitdate type="inclusive" normal="1951/1956">1951-1956</unitdate></unittitle>
-          </did>
+            <unittitle>Messer, Donald and Lois</unittitle><unitdate type="inclusive" normal="1951/1956">1951-1956</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -721,8 +672,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Michigan Archaeological Society <unitdate type="inclusive" normal="1953/1958">1953-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Archaeological Society</unittitle><unitdate type="inclusive" normal="1953/1958">1953-1958</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -730,8 +680,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4300967047264963358]">1</container>
-            <unittitle>Mott, Harold <unitdate type="inclusive" normal="1953/1962">1953-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Mott, Harold</unittitle><unitdate type="inclusive" normal="1953/1962">1953-1962</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -748,8 +697,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Needels, George <unitdate type="inclusive" normal="1938/1941">1938-1941</unitdate></unittitle>
-          </did>
+            <unittitle>Needels, George</unittitle><unitdate type="inclusive" normal="1938/1941">1938-1941</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -757,8 +705,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Norton, Vaughn <unitdate type="inclusive" normal="1954/1958">1954-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Norton, Vaughn</unittitle><unitdate type="inclusive" normal="1954/1958">1954-1958</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -784,8 +731,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Parchert, Karl G. <unitdate type="inclusive" normal="1952/1962">1952-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Parchert, Karl G.</unittitle><unitdate type="inclusive" normal="1952/1962">1952-1962</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -793,8 +739,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Patterson, P.J. <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Patterson, P.J.</unittitle><unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -802,8 +747,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Pilling, Arnold <unitdate type="inclusive" normal="1958/1965">1958-1965</unitdate></unittitle>
-          </did>
+            <unittitle>Pilling, Arnold</unittitle><unitdate type="inclusive" normal="1958/1965">1958-1965</unitdate></did>
           <odd>
             <p>(includes photo)</p>
           </odd>
@@ -814,8 +758,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Pomnitz, Charles E. <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></unittitle>
-          </did>
+            <unittitle>Pomnitz, Charles E.</unittitle><unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -823,8 +766,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Praus, Alexis <unitdate type="inclusive" normal="1949/1963">1949-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Praus, Alexis</unittitle><unitdate type="inclusive" normal="1949/1963">1949-1963</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -841,8 +783,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Quack, Douglas <unitdate type="inclusive" normal="1951/1958">1951-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Quack, Douglas</unittitle><unitdate type="inclusive" normal="1951/1958">1951-1958</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -850,8 +791,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Quimby, George I. <unitdate type="inclusive" normal="1937/1952">1937-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Quimby, George I.</unittitle><unitdate type="inclusive" normal="1937/1952">1937-1952</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -859,8 +799,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Ritchie, William A. <unitdate type="inclusive" normal="1937/1963">1937-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Ritchie, William A.</unittitle><unitdate type="inclusive" normal="1937/1963">1937-1963</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -877,8 +816,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Schmidt, Walter <unitdate type="inclusive" normal="1938/1965">1938-1965</unitdate></unittitle>
-          </did>
+            <unittitle>Schmidt, Walter</unittitle><unitdate type="inclusive" normal="1938/1965">1938-1965</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -886,8 +824,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Schneider, Robert <unitdate type="inclusive" normal="1936/1946">1936-1946</unitdate></unittitle>
-          </did>
+            <unittitle>Schneider, Robert</unittitle><unitdate type="inclusive" normal="1936/1946">1936-1946</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -895,8 +832,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Shetrone, H.C. <unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Shetrone, H.C.</unittitle><unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -904,8 +840,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Skinner, H. Alan <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-          </did>
+            <unittitle>Skinner, H. Alan</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
           <odd>
             <p>(includes photos)</p>
           </odd>
@@ -916,8 +851,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Spooner, Harry L. <unitdate type="inclusive" normal="1928/1939">1928-1939</unitdate></unittitle>
-          </did>
+            <unittitle>Spooner, Harry L.</unittitle><unitdate type="inclusive" normal="1928/1939">1928-1939</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -925,8 +859,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Stanley, George <unitdate type="inclusive" normal="1939/1949">1939-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Stanley, George</unittitle><unitdate type="inclusive" normal="1939/1949">1939-1949</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -934,8 +867,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Stroebel, Ralph <unitdate type="inclusive" normal="1950/1964">1950-1964</unitdate></unittitle>
-          </did>
+            <unittitle>Stroebel, Ralph</unittitle><unitdate type="inclusive" normal="1950/1964">1950-1964</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -970,8 +902,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Voegelin, Carl and Erminie <unitdate type="inclusive" normal="1936/1941">1936-1941</unitdate></unittitle>
-          </did>
+            <unittitle>Voegelin, Carl and Erminie</unittitle><unitdate type="inclusive" normal="1936/1941">1936-1941</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -988,8 +919,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Weir, Alistair <unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate></unittitle>
-          </did>
+            <unittitle>Weir, Alistair</unittitle><unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -997,8 +927,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Wilmarth, Harold <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Wilmarth, Harold</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1006,8 +935,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Wintemberg, W.J. <unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Wintemberg, W.J.</unittitle><unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1015,8 +943,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Woodfill, W.S. <unitdate type="inclusive" normal="1943/1963">1943-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Woodfill, W.S.</unittitle><unitdate type="inclusive" normal="1943/1963">1943-1963</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1068,8 +995,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Accounting <unitdate type="inclusive" normal="1935/1944">1935-1944</unitdate></unittitle>
-          </did>
+            <unittitle>Accounting</unittitle><unitdate type="inclusive" normal="1935/1944">1935-1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1078,55 +1004,38 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5675946045017263734]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1938/1945">1938-1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1938/1945">1938-1945</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5675946045017263734]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5675946045017263734]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5675946045017263734]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5675946045017263734]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Archaeological Survey of the Silver Peak District <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-          </did>
+            <unittitle>Archaeological Survey of the Silver Peak District</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Course Materials <unitdate type="inclusive" normal="1940/1953">1940-1953</unitdate></unittitle>
-          </did>
+            <unittitle>Course Materials</unittitle><unitdate type="inclusive" normal="1940/1953">1940-1953</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1151,8 +1060,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Carlisle and Mount Pleasant Indian Schools <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-          </did>
+            <unittitle>Carlisle and Mount Pleasant Indian Schools</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1169,8 +1077,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675946045017263734]">2</container>
-            <unittitle>Great Lakes Research Institute <unitdate type="inclusive" normal="1944/1952">1944-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Great Lakes Research Institute</unittitle><unitdate type="inclusive" normal="1944/1952">1944-1952</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1200,8 +1107,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72459372643429489907]">3</container>
-              <unittitle>Student Notes <unitdate type="inclusive" normal="1924/1926">1924-1926</unitdate></unittitle>
-            </did>
+              <unittitle>Student Notes</unittitle><unitdate type="inclusive" normal="1924/1926">1924-1926</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1219,8 +1125,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [72459372643429489907]">3</container>
-            <unittitle>Jim Pontiac <unitdate type="inclusive" normal="1933/1968">1933-1968</unitdate></unittitle>
-          </did>
+            <unittitle>Jim Pontiac</unittitle><unitdate type="inclusive" normal="1933/1968">1933-1968</unitdate></did>
           <odd>
             <p>(claimed to be a grandson of Chief Pontiac)</p>
           </odd>
@@ -1244,8 +1149,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72459372643429489907]">3</container>
-              <unittitle>Microfilm Project <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-            </did>
+              <unittitle>Microfilm Project</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1263,8 +1167,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [72459372643429489907]">3</container>
-            <unittitle>Michigan Sites-Bay County, Macomb County, Saginaw and Wayne County <unitdate type="inclusive" normal="1937/1959">1937-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Sites-Bay County, Macomb County, Saginaw and Wayne County</unittitle><unitdate type="inclusive" normal="1937/1959">1937-1959</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1272,8 +1175,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [72459372643429489907]">3</container>
-            <unittitle>Notes on Michigan Mounds and Native American Groups <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Notes on Michigan Mounds and Native American Groups</unittitle><unitdate type="inclusive">undated</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1281,8 +1183,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [72459372643429489907]">3</container>
-            <unittitle>Notes on Otchipwe Grammar <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Notes on Otchipwe Grammar</unittitle><unitdate type="inclusive">undated</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1303,8 +1204,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72459372643429489907]">3</container>
-              <unittitle>Caribbean and Couri <unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Caribbean and Couri</unittitle><unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1312,8 +1212,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72459372643429489907]">3</container>
-              <unittitle>Comments on "Le Solutreen" by Philip E.L. Smith <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Comments on "Le Solutreen" by Philip E.L. Smith</unittitle><unitdate type="inclusive">undated</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1330,8 +1229,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72459372643429489907]">3</container>
-              <unittitle>Military Hospital <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-            </did>
+              <unittitle>Military Hospital</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1339,8 +1237,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72459372643429489907]">3</container>
-              <unittitle>Oceanographic Research <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Oceanographic Research</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1348,8 +1245,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72459372643429489907]">3</container>
-              <unittitle>Research Trip to European Museums <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></unittitle>
-            </did>
+              <unittitle>Research Trip to European Museums</unittitle><unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1369,8 +1265,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72459372643429489907]">3</container>
-              <unittitle>Sandia <unitdate type="inclusive" normal="1955/1959">1955-1959</unitdate></unittitle>
-            </did>
+              <unittitle>Sandia</unittitle><unitdate type="inclusive" normal="1955/1959">1955-1959</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1378,8 +1273,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72459372643429489907]">3</container>
-              <unittitle>Spain <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
-            </did>
+              <unittitle>Spain</unittitle><unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1387,8 +1281,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72459372643429489907]">3</container>
-              <unittitle>"Terminology of the Palaeolithic," <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>"Terminology of the Palaeolithic,"</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1406,8 +1299,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [72459372643429489907]">3</container>
-            <unittitle>Washtenaw (meaning of word) <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>Washtenaw (meaning of word)</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1479,8 +1371,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [60928934421308175507]">5</container>
-            <unittitle>Ba1 <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-          </did>
+            <unittitle>Ba1</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1497,8 +1388,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [60928934421308175507]">5</container>
-            <unittitle>Canadian Sites-Correspondence <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-          </did>
+            <unittitle>Canadian Sites-Correspondence</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
           <odd>
             <p>(includes photos)</p>
           </odd>
@@ -1538,10 +1428,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1939">1939</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1939">1939</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1549,10 +1436,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1941">1941</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1941">1941</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1560,10 +1444,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1571,10 +1452,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1948">1948</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1948">1948</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1582,10 +1460,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1593,10 +1468,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1953">1953</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1953">1953</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1615,8 +1487,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [60928934421308175507]">5</container>
-            <unittitle>Collins Inlet (CI1)-Contour Map <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Collins Inlet (CI1)-Contour Map</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1624,8 +1495,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [60928934421308175507]">5</container>
-            <unittitle>Field Notes-MI1, MI2, LC1, WI1, LLC1 and West Bay Site <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-          </did>
+            <unittitle>Field Notes-MI1, MI2, LC1, WI1, LLC1 and West Bay Site</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1637,10 +1507,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60928934421308175507]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947">1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947">1947</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1648,10 +1515,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60928934421308175507]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1950">1950</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1950">1950</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1660,8 +1524,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [60928934421308175507]">5</container>
-            <unittitle>Geological Report-KB1, LC1, CH1 <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
-          </did>
+            <unittitle>Geological Report-KB1, LC1, CH1</unittitle><unitdate type="inclusive" normal="1939">1939</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1689,10 +1552,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1700,10 +1560,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1942">1942</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1942">1942</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1711,10 +1568,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1727,10 +1581,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1947">1947</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1947">1947</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1738,10 +1589,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1749,10 +1597,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1761,8 +1606,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60928934421308175507]">5</container>
-              <unittitle>Index Information <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Index Information</unittitle><unitdate type="inclusive">undated</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1770,8 +1614,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60928934421308175507]">5</container>
-              <unittitle>Maps <unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate></unittitle>
-            </did>
+              <unittitle>Maps</unittitle><unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate></did>
             <odd>
               <p>(includes photos)</p>
             </odd>
@@ -1782,8 +1625,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60928934421308175507]">5</container>
-              <unittitle>Research <unitdate type="inclusive" normal="1949/1961">1949-1961</unitdate></unittitle>
-            </did>
+              <unittitle>Research</unittitle><unitdate type="inclusive" normal="1949/1961">1949-1961</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1791,8 +1633,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60928934421308175507]">5</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1940/1953">1940-1953</unitdate></unittitle>
-            </did>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1940/1953">1940-1953</unitdate></did>
             <odd>
               <p>(includes photos)</p>
             </odd>
@@ -1804,8 +1645,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [60928934421308175507]">5</container>
-            <unittitle>George Lake 2 (GL2)-Field Notes <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-          </did>
+            <unittitle>George Lake 2 (GL2)-Field Notes</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1813,8 +1653,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [60928934421308175507]">5</container>
-            <unittitle>Horton's Bluff <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <unittitle>Horton's Bluff</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1826,8 +1665,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60928934421308175507]">5</container>
-              <unittitle>General <unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate><unitdate type="inclusive">undated</unitdate></did>
             <odd>
               <p>(includes photographs and negatives)</p>
             </odd>
@@ -1838,8 +1676,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60928934421308175507]">5</container>
-              <unittitle>Artifacts <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
-            </did>
+              <unittitle>Artifacts</unittitle><unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1847,8 +1684,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60928934421308175507]">5</container>
-              <unittitle>Drawings from Field <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-            </did>
+              <unittitle>Drawings from Field</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1860,10 +1696,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1939">1939</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1939">1939</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1871,10 +1704,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1940">1940</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1940">1940</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1882,10 +1712,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1941">1941</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1941">1941</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1893,10 +1720,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60928934421308175507]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1942">1942</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1942">1942</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1904,10 +1728,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6563848409171090]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1944">1944</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1944">1944</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1915,10 +1736,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6563848409171090]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1946">1946</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1946">1946</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1926,10 +1744,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6563848409171090]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1947">1947</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1947">1947</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1937,10 +1752,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6563848409171090]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1948">1948</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1948">1948</unitdate></did>
               <odd>
                 <p>(includes photos)</p>
               </odd>
@@ -1951,10 +1763,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6563848409171090]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1962,10 +1771,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6563848409171090]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1950">1950</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1950">1950</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1973,10 +1779,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6563848409171090]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1984,10 +1787,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6563848409171090]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1953">1953</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1953">1953</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1996,8 +1796,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6563848409171090]">6</container>
-              <unittitle>Lake-Levels and Succession of Cultures <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Lake-Levels and Succession of Cultures</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -2005,8 +1804,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6563848409171090]">6</container>
-              <unittitle>Log <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-            </did>
+              <unittitle>Log</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -2014,8 +1812,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6563848409171090]">6</container>
-              <unittitle>Map Lists <unitdate type="inclusive" normal="1939/1950">1939-1950</unitdate></unittitle>
-            </did>
+              <unittitle>Map Lists</unittitle><unitdate type="inclusive" normal="1939/1950">1939-1950</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -2041,8 +1838,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6563848409171090]">6</container>
-                <unittitle><unitdate type="inclusive" normal="1939/1948">1939-1948</unitdate> (in Box 7)</unittitle>
-              </did>
+                <unittitle>(in Box 7)</unittitle><unitdate type="inclusive" normal="1939/1948">1939-1948</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -2050,10 +1846,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6563848409171090]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1938">Summer 1938</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1938">Summer 1938</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -2061,10 +1854,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6563848409171090]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1939">Summer 1939</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1939">Summer 1939</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -2072,10 +1862,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6563848409171090]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1940">Summer 1940</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1940">Summer 1940</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -2112,8 +1899,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6563848409171090]">6</container>
-            <unittitle>McBean1 (McB1)-Field Notes and Maps <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-          </did>
+            <unittitle>McBean1 (McB1)-Field Notes and Maps</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -2121,8 +1907,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6563848409171090]">6</container>
-            <unittitle>MI6, MI8, and MI9 <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-          </did>
+            <unittitle>MI6, MI8, and MI9</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -2171,8 +1956,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6563848409171090]">6</container>
-            <unittitle>Partridge Island-Field Notes <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
-          </did>
+            <unittitle>Partridge Island-Field Notes</unittitle><unitdate type="inclusive" normal="1939">1939</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -2193,8 +1977,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6563848409171090]">6</container>
-              <unittitle>Analysis of Sanderson Collection by Scarlett E. Janusas <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-            </did>
+              <unittitle>Analysis of Sanderson Collection by Scarlett E. Janusas</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -2202,8 +1985,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6563848409171090]">6</container>
-              <unittitle>Catalogue of Sanderson Material <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-            </did>
+              <unittitle>Catalogue of Sanderson Material</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
             <odd>
               <p>(includes photo)</p>
             </odd>
@@ -2214,8 +1996,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6563848409171090]">6</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -2223,8 +2004,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6563848409171090]">6</container>
-              <unittitle>Expeditions Report <unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate></unittitle>
-            </did>
+              <unittitle>Expeditions Report</unittitle><unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -2244,8 +2024,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6563848409171090]">6</container>
-              <unittitle>Notes from Carl Guthe on work by Steward and Hughes <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-            </did>
+              <unittitle>Notes from Carl Guthe on work by Steward and Hughes</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -2272,8 +2051,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6563848409171090]">6</container>
-            <unittitle>Port Clinton Mound <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-          </did>
+            <unittitle>Port Clinton Mound</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -2281,8 +2059,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6563848409171090]">6</container>
-            <unittitle>Providence Bay 1-Field Notes and Maps <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-          </did>
+            <unittitle>Providence Bay 1-Field Notes and Maps</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -2290,8 +2067,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6563848409171090]">6</container>
-            <unittitle>Southwestern Ontario Survey <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-          </did>
+            <unittitle>Southwestern Ontario Survey</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -2308,8 +2084,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6563848409171090]">6</container>
-            <unittitle>Tyson Farm <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-          </did>
+            <unittitle>Tyson Farm</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -2325,10 +2100,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [46328371314913473523]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1939/1948">1939-1948</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1939/1948">1939-1948</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Matthew's and St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/2063">St. Matthew's and St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">St. Matthew's and St. Joseph's Episcopal Church (Detroit, Mich.) Records <unitdate type="inclusive" encodinganalog="245$f" normal="1884/2006">1884-2006</unitdate></unittitle>
-      <abstract>Church formed in 1971 from the merger of two Detroit, Michigan, Episcopal parishes. Records include historical and informational files; vestry minutes and treasurer's records; records of church organizations; publications and church bulletins; subject files; scrapbooks; and photographs.</abstract>
+      <unittitle encodinganalog="245">St. Matthew's and St. Joseph's Episcopal Church (Detroit, Mich.) Records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1884/2006">1884-2006</unitdate><abstract>Church formed in 1971 from the merger of two Detroit, Michigan, Episcopal parishes. Records include historical and informational files; vestry minutes and treasurer's records; records of church organizations; publications and church bulletins; subject files; scrapbooks; and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">89513 Ba 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -85,9 +85,9 @@
       <p>
         <list type="simple">
           <head>Church Leadership</head>
-          <item>St. Matthew's Episcopal Church <sublist type="simple"><subitem>Vicars: <sublist type="simple"><subitem>William C. Monroe (1846-1859)</subitem><subitem>Reverend King (1859-1860)</subitem><subitem>Samuel Berry (1860-1861)</subitem><subitem>G. Mott Williams (1881-1887)</subitem><subitem>W. Warren Wilson (1887-1889)</subitem><subitem>D. Charles H. Thompson (1890-1893)</subitem><subitem>Joshua B. Massiah (1893-1906)</subitem></sublist> </subitem><subitem>Rectors: <sublist type="simple"><subitem>George Bundy (1906-1910)</subitem><subitem>Robert Bagnall (1911-1921)</subitem><subitem>Everard W. Daniel (1921-1939)</subitem><subitem>F. Ricksford Meyers (1940-1965)</subitem><subitem>Robert C. Chapman (1966-1968)</subitem><subitem>Quintin E. Primo, Jr. (1969-1971)</subitem></sublist> </subitem></sublist> </item>
-          <item>St. Joseph's Episcopal Church <sublist type="simple"><subitem>Rectors: <sublist type="simple"><subitem>Paul Faude (1910-1921)</subitem><subitem>Samuel S. Marquis (1921-1925)</subitem><subitem>William R. Kinder (1925-1942)</subitem><subitem>William C. Hamm (1942-1952)</subitem><subitem>H. Reginald Howden (1953-1956)</subitem><subitem>Joseph Dickson (1957-1963)</subitem><subitem>David M. Gracie (1963-1967)</subitem><subitem>Robert E. Morrison (1967-1970)</subitem></sublist> </subitem></sublist> </item>
-          <item>St. Matthew's and St. Joseph's Episcopal Church <sublist type="simple"><subitem>Rectors: <sublist type="simple"><subitem>Quintin E. Primo, Jr. (1971-1972)</subitem><subitem>Orris G. Walker, Jr. (1972- )</subitem></sublist> </subitem></sublist> </item>
+          <item>St. Matthew's Episcopal Church <sublist type="simple"><subitem>Vicars: <sublist type="simple"><subitem>William C. Monroe (1846-1859)</subitem> <subitem>Reverend King (1859-1860)</subitem> <subitem>Samuel Berry (1860-1861)</subitem> <subitem>G. Mott Williams (1881-1887)</subitem> <subitem>W. Warren Wilson (1887-1889)</subitem> <subitem>D. Charles H. Thompson (1890-1893)</subitem> <subitem>Joshua B. Massiah (1893-1906)</subitem></sublist> </subitem> <subitem>Rectors: <sublist type="simple"><subitem>George Bundy (1906-1910)</subitem> <subitem>Robert Bagnall (1911-1921)</subitem> <subitem>Everard W. Daniel (1921-1939)</subitem> <subitem>F. Ricksford Meyers (1940-1965)</subitem> <subitem>Robert C. Chapman (1966-1968)</subitem> <subitem>Quintin E. Primo, Jr. (1969-1971)</subitem></sublist> </subitem></sublist> </item>
+          <item>St. Joseph's Episcopal Church <sublist type="simple"><subitem>Rectors: <sublist type="simple"><subitem>Paul Faude (1910-1921)</subitem> <subitem>Samuel S. Marquis (1921-1925)</subitem> <subitem>William R. Kinder (1925-1942)</subitem> <subitem>William C. Hamm (1942-1952)</subitem> <subitem>H. Reginald Howden (1953-1956)</subitem> <subitem>Joseph Dickson (1957-1963)</subitem> <subitem>David M. Gracie (1963-1967)</subitem> <subitem>Robert E. Morrison (1967-1970)</subitem></sublist> </subitem></sublist> </item>
+          <item>St. Matthew's and St. Joseph's Episcopal Church <sublist type="simple"><subitem>Rectors: <sublist type="simple"><subitem>Quintin E. Primo, Jr. (1971-1972)</subitem> <subitem>Orris G. Walker, Jr. (1972- )</subitem></sublist> </subitem></sublist> </item>
         </list>
       </p>
     </bioghist>
@@ -100,29 +100,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Afro-American churches.</subject>
-        <subject source="lcsh" encodinganalog="650">Afro-Americans--Michigan--Detroit.</subject>
-        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Matthew's and St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Matthew's Episcopal Church (Detroit, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8966">Afro-American churches.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7367">Afro-Americans--Michigan--Detroit.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/948">Detroit (Mich.)--Church history.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/805">Episcopal Church--Michigan--Detroit.<term type="geographic">Michigan</term><term type="geographic">Detroit.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4520">St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2063">St. Matthew's and St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1300">St. Matthew's Episcopal Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <subject source="lcsh" encodinganalog="650">Afro-American churches.</subject>
-        <subject source="lcsh" encodinganalog="650">Afro-Americans--Michigan--Detroit.</subject>
-        <subject source="lctgm" encodinganalog="650">Churches.</subject>
-        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Churches.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">National Association for the Advancement of Colored People. Great Lakes Conference (2nd : 1917 : Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Matthew's Episcopal Church (Detroit, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8966">Afro-American churches.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7367">Afro-Americans--Michigan--Detroit.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3947">Churches.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2294">Detroit (Mich.)--Churches.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/805">Episcopal Church--Michigan--Detroit.<term type="geographic">Michigan</term><term type="geographic">Detroit.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4171">National Association for the Advancement of Colored People. Great Lakes Conference (2nd : 1917 : Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4520">St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1300">St. Matthew's Episcopal Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -168,8 +168,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [76216727446830476635275]">1</container>
-              <unittitle>Membership list <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-            </did>
+              <unittitle>Membership list</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -186,14 +185,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [76216727446830476635275]">1</container>
-              <unittitle>Michigan Non-Profit Corporation Reports <unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Non-Profit Corporation Reports</unittitle><unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [76216727446830476635275]">1</container>
-              <unittitle>Parochial Reports (to the Diocese of Michigan) <unitdate type="inclusive" normal="1925/1931">1925-1931 (scattered dates)</unitdate></unittitle>
-            </did>
+              <unittitle>Parochial Reports (to the Diocese of Michigan)</unittitle><unitdate type="inclusive" normal="1925/1931">1925-1931 (scattered dates)</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -206,8 +203,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [76216727446830476635275]">1</container>
-              <unittitle>Vestry minutes <unitdate type="inclusive" normal="1927/1970">1927-1970</unitdate></unittitle>
-              <physdesc altrender="part">
+              <unittitle>Vestry minutes</unittitle><unitdate type="inclusive" normal="1927/1970">1927-1970</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -218,14 +214,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [76216727446830476635275]">1</container>
-              <unittitle>Parish Council minute book <unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></unittitle>
-            </did>
+              <unittitle>Parish Council minute book</unittitle><unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [76216727446830476635275]">1</container>
-              <unittitle>Treasurer's records <unitdate type="inclusive" normal="1924/1970">1924-1970</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Treasurer's records</unittitle><unitdate type="inclusive" normal="1924/1970">1924-1970</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -241,8 +235,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [76216727446830476635275]">1</container>
-              <unittitle>F. Ricksford Meyers correspondence <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>F. Ricksford Meyers correspondence</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -250,8 +243,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [76216727446830476635275]">1</container>
-              <unittitle>Robert C. Chapman-testimony re South Africa investments <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Robert C. Chapman-testimony re South Africa investments</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -270,8 +262,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [916098029304102938603981]">2</container>
-              <unittitle>Minutes <unitdate type="inclusive" normal="1929/1942">1929-1942</unitdate></unittitle>
-              <physdesc altrender="part">
+              <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1929/1942">1929-1942</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -306,8 +297,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [916098029304102938603981]">2</container>
-              <unittitle>Minutes and miscellanea <unitdate type="inclusive" normal="1940/1973">1940-1973 (scattered dates)</unitdate></unittitle>
-            </did>
+              <unittitle>Minutes and miscellanea</unittitle><unitdate type="inclusive" normal="1940/1973">1940-1973 (scattered dates)</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -326,14 +316,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [916098029304102938603981]">2</container>
-              <unittitle>Newsletters: <title render="italic">St. Matthew's Record</title>, <unitdate type="inclusive" normal="1914">1914</unitdate>; untitled news sheet <unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate>; <title render="italic">St. Matthew's Parish News</title>, <unitdate type="inclusive" normal="1952">1952</unitdate>; <title render="italic">The Recorder</title>, <unitdate type="inclusive" normal="1966">1966</unitdate>; <title render="italic">Newsletter</title>, <unitdate type="inclusive" normal="1969">1969</unitdate>;</unittitle>
-            </did>
+              <unittitle>Newsletters: <title render="italic">St. Matthew's Record</title>, 1914; untitled news sheet 1928-1929; <title render="italic">St. Matthew's Parish News</title>, 1952; <title render="italic">The Recorder</title>, 1966; <title render="italic">Newsletter</title>, 1969;</unittitle><unitdate type="inclusive" normal="1914">1914</unitdate><unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate><unitdate type="inclusive" normal="1952">1952</unitdate><unitdate type="inclusive" normal="1966">1966</unitdate><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [916098029304102938603981]">2</container>
-              <unittitle>Bulletins <unitdate type="inclusive" normal="1945/1969">1945-1969</unitdate> (mainly 1967)</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Bulletins  (mainly 1967)</unittitle><unitdate type="inclusive" normal="1945/1969">1945-1969</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -397,8 +385,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [706121848314926536]">4</container>
-              <unittitle>History of St. Joseph's written by Alfred H. Povah <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <unittitle>History of St. Joseph's written by Alfred H. Povah</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -435,8 +422,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [706121848314926536]">4</container>
-              <unittitle>Vestry minutes <unitdate type="inclusive" normal="1884/1947">1884-1947</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Vestry minutes</unittitle><unitdate type="inclusive" normal="1884/1947">1884-1947</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 volumes</extent>
               </physdesc>
             </did>
@@ -447,8 +433,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0761494628465363734998]">5</container>
-              <unittitle>Vestry minutes <unitdate type="inclusive" normal="1947/1966">1947-1966</unitdate></unittitle>
-              <physdesc altrender="part">
+              <unittitle>Vestry minutes</unittitle><unitdate type="inclusive" normal="1947/1966">1947-1966</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">3 volumes</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -460,8 +445,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [854170410684285185889592]">6</container>
-              <unittitle>Vestry minutes <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></unittitle>
-              <physdesc altrender="part">
+              <unittitle>Vestry minutes</unittitle><unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">5 volumes</extent>
                 <physfacet>booklets</physfacet>
               </physdesc>
@@ -473,8 +457,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [854170410684285185889592]">6</container>
-              <unittitle>Parish Council minutes <unitdate type="inclusive" normal="1931/1942">1931-1942</unitdate></unittitle>
-              <physdesc altrender="part">
+              <unittitle>Parish Council minutes</unittitle><unitdate type="inclusive" normal="1931/1942">1931-1942</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -485,8 +468,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [854170410684285185889592]">6</container>
-              <unittitle>Annual reports <unitdate type="inclusive" normal="1959/1969">1959-1969</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Annual reports</unittitle><unitdate type="inclusive" normal="1959/1969">1959-1969</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -502,8 +484,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [854170410684285185889592]">6</container>
-              <unittitle><title render="italic">St. Joseph's Record</title>, <unitdate type="inclusive" normal="1910/1970">1910-1970</unitdate></unittitle>
-              <physdesc altrender="part">
+              <unittitle><title render="italic">St. Joseph's Record</title></unittitle><unitdate type="inclusive" normal="1910/1970">1910-1970</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -514,8 +495,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [34908040673369723118]">12</container>
-              <unittitle>Bulletins <unitdate type="inclusive" normal="1927/1968">1927-1968</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Bulletins</unittitle><unitdate type="inclusive" normal="1927/1968">1927-1968</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">27 folders</extent>
               </physdesc>
             </did>
@@ -531,38 +511,32 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>Black Economic Development Conference <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Black Economic Development Conference</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>Building Committee minute book <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
-            </did>
+              <unittitle>Building Committee minute book</unittitle><unitdate type="inclusive" normal="1910">1910</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>Community Involvement paper <unitdate type="inclusive" normal="1968" certainty="approximate">circa 1968</unitdate></unittitle>
-            </did>
+              <unittitle>Community Involvement paper</unittitle><unitdate type="inclusive" normal="1968" certainty="approximate">circa 1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>Correspondence and Memoranda <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence and Memoranda</unittitle><unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>Endowment Fund <unitdate type="inclusive" normal="1940/1969" certainty="approximate">circa 1940s-circa 1960s</unitdate></unittitle>
-            </did>
+              <unittitle>Endowment Fund</unittitle><unitdate type="inclusive" normal="1940/1969" certainty="approximate">circa 1940s-circa 1960s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>Merger <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Merger</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -573,38 +547,32 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>Neighborhood Services proposal <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Neighborhood Services proposal</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>North Woodward Community Council <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></unittitle>
-            </did>
+              <unittitle>North Woodward Community Council</unittitle><unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>North Woodward Clergy Association <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
-            </did>
+              <unittitle>North Woodward Clergy Association</unittitle><unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>Revolving Fund <unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate></unittitle>
-            </did>
+              <unittitle>Revolving Fund</unittitle><unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>Urban Church Commission <unitdate type="inclusive" normal="1959/1968">1959-1968</unitdate></unittitle>
-            </did>
+              <unittitle>Urban Church Commission</unittitle><unitdate type="inclusive" normal="1959/1968">1959-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>Vietnam War/draft resistors (church position statements) <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Vietnam War/draft resistors (church position statements)</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -614,14 +582,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>Church choir minutes <unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></unittitle>
-            </did>
+              <unittitle>Church choir minutes</unittitle><unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>Women's Auxiliary Guild minute book <unitdate type="inclusive" normal="1942/1953">1942-1953</unitdate></unittitle>
-            </did>
+              <unittitle>Women's Auxiliary Guild minute book</unittitle><unitdate type="inclusive" normal="1942/1953">1942-1953</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -631,10 +597,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -644,10 +607,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942/1963">1942-1963</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1942/1963">1942-1963</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
             </did>
@@ -681,32 +641,27 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>St. Matthew's, 130th <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <unittitle>St. Matthew's, 130th</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>St. Matthew's, 135th <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-            </did>
+              <unittitle>St. Matthew's, 135th</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>St. Joseph's, 100th <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-            </did>
+              <unittitle>St. Joseph's, 100th</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>St. Matthew's, 140th <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-            </did>
+              <unittitle>St. Matthew's, 140th</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0921351474608609908498222]">7</container>
-              <unittitle>St. Matthew's, 150th <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <unittitle>St. Matthew's, 150th</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
             <odd>
               <p>(includes records of the celebration committee)</p>
             </odd>
@@ -749,8 +704,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [338576204994140732667]">8</container>
-              <unittitle>Vestry minutes <unitdate type="inclusive" normal="1971/1988">1971-1988</unitdate></unittitle>
-              <physdesc altrender="part">
+              <unittitle>Vestry minutes</unittitle><unitdate type="inclusive" normal="1971/1988">1971-1988</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">10 folders</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -764,8 +718,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1756374801971987115]">9</container>
-              <unittitle>Annual reports <unitdate type="inclusive" normal="1971/1997">1971-1997</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Annual reports</unittitle><unitdate type="inclusive" normal="1971/1997">1971-1997</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -776,8 +729,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1756374801971987115]">9</container>
-              <unittitle>Treasurer's reports <unitdate type="inclusive" normal="1972/1987">1972-1987</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Treasurer's reports</unittitle><unitdate type="inclusive" normal="1972/1987">1972-1987</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 folders</extent>
               </physdesc>
             </did>
@@ -799,8 +751,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1756374801971987115]">9</container>
-              <unittitle>Correspondence and Memoranda <unitdate type="inclusive" normal="1971/1982">1971-1982</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Correspondence and Memoranda</unittitle><unitdate type="inclusive" normal="1971/1982">1971-1982</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
@@ -808,8 +759,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1756374801971987115]">9</container>
-              <unittitle>Dixon, Blair <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></unittitle>
-            </did>
+              <unittitle>Dixon, Blair</unittitle><unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -820,14 +770,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1756374801971987115]">9</container>
-              <unittitle>Mayson, the Rt. Rev. H. Irving <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <unittitle>Mayson, the Rt. Rev. H. Irving</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1756374801971987115]">9</container>
-              <unittitle>Meet The Authors <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <unittitle>Meet The Authors</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
             <odd>
               <p>(a program designed to introduce local authors)</p>
             </odd>
@@ -835,8 +783,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1756374801971987115]">9</container>
-              <unittitle>Merger file <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Merger file</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -850,26 +797,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1756374801971987115]">9</container>
-              <unittitle>Remodeling Specifications <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
-            </did>
+              <unittitle>Remodeling Specifications</unittitle><unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1756374801971987115]">9</container>
-              <unittitle>Search committee <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <unittitle>Search committee</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1756374801971987115]">9</container>
-              <unittitle>Vestry Workshop <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-            </did>
+              <unittitle>Vestry Workshop</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1756374801971987115]">9</container>
-              <unittitle>Woodward Convocation meeting <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-            </did>
+              <unittitle>Woodward Convocation meeting</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -879,8 +822,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [498311324479574911571375]">10</container>
-              <unittitle><title render="italic">The Record</title>, <unitdate type="inclusive" normal="1971/1975" certainty="approximate">circa 1971-1975 (scattered dates)</unitdate></unittitle>
-            </did>
+              <unittitle><title render="italic">The Record</title></unittitle><unitdate type="inclusive" normal="1971/1975" certainty="approximate">circa 1971-1975 (scattered dates)</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -912,8 +854,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [498311324479574911571375]">10</container>
-              <unittitle>Sunday bulletins <unitdate type="inclusive" normal="1971/1978">1971-1978</unitdate></unittitle>
-            </did>
+              <unittitle>Sunday bulletins</unittitle><unitdate type="inclusive" normal="1971/1978">1971-1978</unitdate></did>
             <odd>
               <p>(includes gaps for later years)</p>
             </odd>
@@ -921,8 +862,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [18454521547028144643630]">11</container>
-              <unittitle>Sunday bulletins <unitdate type="inclusive" normal="1985/2006">1985-2006</unitdate></unittitle>
-            </did>
+              <unittitle>Sunday bulletins</unittitle><unitdate type="inclusive" normal="1985/2006">1985-2006</unitdate></did>
             <odd>
               <p>(includes gaps)</p>
             </odd>
@@ -1001,8 +941,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3417319347743252920995479]">13</container>
-              <unittitle>Photograph album of church personalities and occasions <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <unittitle>Photograph album of church personalities and occasions</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -1069,8 +1008,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [689858540639055064939]">14</container>
-            <unittitle>Programs, obsequies for members, clippings, and miscellanea relating to church history <unitdate type="inclusive" normal="1980/2006" certainty="approximate">1980s-2006</unitdate></unittitle>
-          </did>
+            <unittitle>Programs, obsequies for members, clippings, and miscellanea relating to church history</unittitle><unitdate type="inclusive" normal="1980/2006" certainty="approximate">1980s-2006</unitdate></did>
           <odd>
             <p>(unprocessed)</p>
           </odd>

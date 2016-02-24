@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Physical Education for Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4196">University of Michigan. Dept. of Physical Education for Women.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Dept. of Physical Education for Women (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1878/1972">1878-1972</unitdate></unittitle>
-      <abstract>University of Michigan department responsible for administering and teaching required curriculum in physical education for women and overseeing recreational sports for women. Records include annual reports, minutes of staff meetings, scrapbooks, topical files, history of physical education for women at the University, and other materials relating to the Women's Athletic Association; also photographs</abstract>
+      <unittitle encodinganalog="245">Dept. of Physical Education for Women (University of Michigan) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1878/1972">1878-1972</unitdate><abstract>University of Michigan department responsible for administering and teaching required curriculum in physical education for women and overseeing recreational sports for women. Records include annual reports, minutes of staff meetings, scrapbooks, topical files, history of physical education for women at the University, and other materials relating to the Women's Athletic Association; also photographs</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">87147 Bimu C205 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -89,61 +89,56 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Athletics--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Physical education and training.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Women's Athletic Association.</corpname>
-        <subject source="lcsh" encodinganalog="650">Athletes--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Women athletes--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Women college students--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physical Education for Women.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5970">Athletics--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7303">Physical education and training.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Sports.<term type="topical">Sports.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students.<term type="topical">Students.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4648">University of Michigan. Women's Athletic Association.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7304">Athletes--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7305">Women athletes--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5842">Women college students--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4196">University of Michigan. Dept. of Physical Education for Women.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Barbour Gymnasium (University of Michigan)</corpname>
-        <subject source="lctgm" encodinganalog="650">Dancing--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan League.</corpname>
-        <subject source="lctgm" encodinganalog="650">Recreation.</subject>
-        <subject source="lctgm" encodinganalog="650">Sports.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physical Education for Women.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Freshman Week.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Health Service.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Lantern Night.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students.</corpname>
-        <subject source="lctgm" encodinganalog="650">Women.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Women's Athletic Building (University of Michigan)</corpname>
-        <subject source="lcsh" encodinganalog="650">Women college students--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1225">Barbour Gymnasium (University of Michigan)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4206">Dancing--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4729">Michigan League.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3627">Recreation.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3628">Sports.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Sports.<term type="topical">Sports.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4196">University of Michigan. Dept. of Physical Education for Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2803">University of Michigan. Freshman Week.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4448">University of Michigan. University Health Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3422">University of Michigan. Lantern Night.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs.<term type="topical">Students</term><term type="topical">Social life and customs.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students.<term type="topical">Students.</term></corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3617">Women.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4509">Women's Athletic Building (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5842">Women college students--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="file">
         <did>
           <container type="box" label="Box [945024341429475773248]">1</container>
-          <unittitle>Card file index of women P.E. Majors <unitdate type="inclusive" normal="1924/1972">1924-1972</unitdate></unittitle>
-        </did>
+          <unittitle>Card file index of women P.E. Majors</unittitle><unitdate type="inclusive" normal="1924/1972">1924-1972</unitdate></did>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Scrapbooks <unitdate type="inclusive" normal="1923/1968">1923-1968</unitdate></unittitle>
-        </did>
+          <unittitle>Scrapbooks</unittitle><unitdate type="inclusive" normal="1923/1968">1923-1968</unitdate></did>
         <scopecontent>
           <p>Scrapbooks contain clippings and programs detailing women's athletic and campus events, including extensive information on World War II era activities.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box [945024341429475773248]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1923/1936">1923-1936</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1923/1936">1923-1936</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
@@ -151,10 +146,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7283431748638137466317]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1937/1951-03">1937-March 1951</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1937/1951-03">1937-March 1951</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
@@ -162,10 +154,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6659114749200]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951-03/1968">March 1951-1968</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1951-03/1968">March 1951-1968</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>
@@ -181,34 +170,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [445814726485933758]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1930/1942">1930/31-1941/42</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1930/1942">1930/31-1941/42</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [06377869054786607169184]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1942/1954">1942/43-1953/54</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1942/1954">1942/43-1953/54</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [468847244263207318016]">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954/1967">1954/55-1966/67</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1954/1967">1954/55-1966/67</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [884299683476223335642285]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1967/1970">1967/68-1969/70</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1967/1970">1967/68-1969/70</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -218,10 +195,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [884299683476223335642285]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1946/1970">1946/47-1969/70</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1946/1970">1946/47-1969/70</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -237,8 +211,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [884299683476223335642285]">7</container>
-            <unittitle>Conference on Curriculum Problems in Physical Education, summer session <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-          </did>
+            <unittitle>Conference on Curriculum Problems in Physical Education, summer session</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -267,14 +240,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [945024341429475773248]">1</container>
-            <unittitle>Card file of women's physical education majors <unitdate type="inclusive" normal="1924/1972">1924-1972</unitdate></unittitle>
-          </did>
+            <unittitle>Card file of women's physical education majors</unittitle><unitdate type="inclusive" normal="1924/1972">1924-1972</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Topical files <unitdate type="inclusive" normal="1942/1972" certainty="approximate">circa 1942-1972</unitdate></unittitle>
-        </did>
+          <unittitle>Topical files</unittitle><unitdate type="inclusive" normal="1942/1972" certainty="approximate">circa 1942-1972</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [561852834492139058732]">8</container>
@@ -397,8 +368,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [561852834492139058732]">8</container>
-            <unittitle>Physical Education Elective Program <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <unittitle>Physical Education Elective Program</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -413,26 +383,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [561852834492139058732]">8</container>
-              <unittitle>Recruitment Committee <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Recruitment Committee</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [561852834492139058732]">8</container>
-              <unittitle>Open house <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Open house</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [561852834492139058732]">8</container>
-              <unittitle>Open house <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-            </did>
+              <unittitle>Open house</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [561852834492139058732]">8</container>
-              <unittitle>Recruitment Day <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Recruitment Day</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -443,14 +409,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [561852834492139058732]">8</container>
-              <unittitle>Recruitment Day <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
+              <unittitle>Recruitment Day</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [561852834492139058732]">8</container>
-              <unittitle>Recruitment Committee <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
-            </did>
+              <unittitle>Recruitment Committee</unittitle><unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -556,7 +520,7 @@
           <did>
             <container type="box" label="Box [799304453880320851453]">9</container>
             <unittitle>Archery</unittitle>
-            <dao href="87147-1" show="new" actuate="onRequest">
+            <dao href="87147-1" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8845">
               <daodesc>
                 <p>[view sample images]</p>
               </daodesc>
@@ -579,7 +543,7 @@
           <did>
             <container type="box" label="Box [799304453880320851453]">9</container>
             <unittitle>Basketball</unittitle>
-            <dao href="87147-4" show="new" actuate="onRequest">
+            <dao href="87147-4" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8846">
               <daodesc>
                 <p>[view sample images]</p>
               </daodesc>
@@ -596,7 +560,7 @@
           <did>
             <container type="box" label="Box [799304453880320851453]">9</container>
             <unittitle>Correctives</unittitle>
-            <dao href="87147-6" show="new" actuate="onRequest">
+            <dao href="87147-6" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8847">
               <daodesc>
                 <p>[view sample images]</p>
               </daodesc>
@@ -607,7 +571,7 @@
           <did>
             <container type="box" label="Box [799304453880320851453]">9</container>
             <unittitle>Crew</unittitle>
-            <dao href="87147-7" show="new" actuate="onRequest">
+            <dao href="87147-7" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8848">
               <daodesc>
                 <p>[view sample images]</p>
               </daodesc>
@@ -636,7 +600,7 @@
           <did>
             <container type="box" label="Box [799304453880320851453]">9</container>
             <unittitle>Dance, Modern</unittitle>
-            <dao href="87147-11" show="new" actuate="onRequest">
+            <dao href="87147-11" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8849">
               <daodesc>
                 <p>[view sample images]</p>
               </daodesc>
@@ -659,7 +623,7 @@
           <did>
             <container type="box" label="Box [799304453880320851453]">9</container>
             <unittitle>Field hockey</unittitle>
-            <dao href="87147-16" show="new" actuate="onRequest">
+            <dao href="87147-16" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8850">
               <daodesc>
                 <p>[sample images]</p>
               </daodesc>
@@ -682,7 +646,7 @@
           <did>
             <container type="box" label="Box [799304453880320851453]">9</container>
             <unittitle>Golf</unittitle>
-            <dao href="87147-17" show="new" actuate="onRequest">
+            <dao href="87147-17" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8851">
               <daodesc>
                 <p>[view sample images]</p>
               </daodesc>
@@ -696,7 +660,7 @@
           <did>
             <container type="box" label="Box [799304453880320851453]">9</container>
             <unittitle>Gymnastics</unittitle>
-            <dao href="87147-18" show="new" actuate="onRequest">
+            <dao href="87147-18" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8852">
               <daodesc>
                 <p>[view sample images]</p>
               </daodesc>
@@ -719,7 +683,7 @@
           <did>
             <container type="box" label="Box [799304453880320851453]">9</container>
             <unittitle>Lantern Night</unittitle>
-            <dao href="87147-21" show="new" actuate="onRequest">
+            <dao href="87147-21" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8853">
               <daodesc>
                 <p>[view sample images]</p>
               </daodesc>
@@ -748,7 +712,7 @@
           <did>
             <container type="box" label="Box [799304453880320851453]">9</container>
             <unittitle>Rifle</unittitle>
-            <dao href="87147-25" show="new" actuate="onRequest">
+            <dao href="87147-25" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8854">
               <daodesc>
                 <p>[view sample images]</p>
               </daodesc>
@@ -777,7 +741,7 @@
           <did>
             <container type="box" label="Box [799304453880320851453]">9</container>
             <unittitle>Swimming</unittitle>
-            <dao href="87147-29" show="new" actuate="onRequest">
+            <dao href="87147-29" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8855">
               <daodesc>
                 <p>[view sample images]</p>
               </daodesc>
@@ -788,7 +752,7 @@
           <did>
             <container type="box" label="Box [799304453880320851453]">9</container>
             <unittitle>Tennis</unittitle>
-            <dao href="87147-30" show="new" actuate="onRequest">
+            <dao href="87147-30" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8856">
               <daodesc>
                 <p>[view sample images]</p>
               </daodesc>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Stewart Howe Alumni Service of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3272">Stewart Howe Alumni Service of Michigan.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Stewart Howe Alumni Service of Michigan records <unitdate type="inclusive" encodinganalog="245$f" normal="1936/1967">1936-1967</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89308 Bb 2</unitid>
+      <unittitle encodinganalog="245">Stewart Howe Alumni Service of Michigan records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1936/1967">1936-1967</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89308 Bb 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Organization concerned with the administration of fraternity and sorority publications, fund raising, and membership solicitation. Topical files, newsletters, and general correspondence.</abstract>
       <physdesc altrender="whole">
@@ -78,10 +78,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Alumni and alumnae.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
-        <subject source="lcsh" encodinganalog="650">Greek letter societies--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Alumni and alumnae.<term type="topical">Alumni and alumnae.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5839">Greek letter societies--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5675">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Belser, Karl J. (Karl Jacob), 1902-1972.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1966">Belser, Karl J. (Karl Jacob), 1902-1972.</persname>
       </origination>
-      <unittitle encodinganalog="245">Karl J. Belser Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1924/1972">1924-1972</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85737 Aa 2;UAm</unitid>
+      <unittitle encodinganalog="245">Karl J. Belser Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1924/1972">1924-1972</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85737 Aa 2;UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Urban planning specialist. Reports, sketches, and other material relating to the development of the Willow Run Bomber Plant area in Wayne County, Michigan, during World War II; studies of the proposed Detroit Civic Center, 1952; also papers concerning his later work as planning director in Santa Clara County, California; letter from Frank Lloyd Wright; and sketchbooks with drawings and watercolors of buildings and scenes in Europe, the United States, and Taiwan; also photographs of Belser.</abstract>
       <repository>
@@ -72,33 +72,33 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Belser, Karl J. (Karl Jacob), 1902-1972.</persname>
-        <subject source="lcsh" encodinganalog="650">City planning--California--Santa Clara County.</subject>
-        <subject source="lcsh" encodinganalog="650">City planning--Michigan--Wayne County.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Civic Center (Detroit, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Conservation of natural resources--United States.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79089118">Santa Clara County (Calif.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Wayne County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Bomber Plant.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1966">Belser, Karl J. (Karl Jacob), 1902-1972.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6255">City planning--California--Santa Clara County.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6256">City planning--Michigan--Wayne County.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5322">Civic Center (Detroit, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5816">Conservation of natural resources--United States.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79089118" ref="/subjects/1263">Santa Clara County (Calif.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1247">Wayne County (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2910">Willow Run Bomber Plant.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Belser, Karl J. (Karl Jacob), 1902-1972.</persname>
-        <subject source="lctgm" encodinganalog="650">Buildings.</subject>
-        <geogname source="lcsh" encodinganalog="651">Europe.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Taiwan.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Grand Canyon (Ariz.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1966">Belser, Karl J. (Karl Jacob), 1902-1972.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3866">Buildings.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/980">Europe.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1264">Taiwan.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1265">Grand Canyon (Ariz.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79032932">Wright, Frank Lloyd, 1867-1959.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79032932" ref="/agents/people/4371">Wright, Frank Lloyd, 1867-1959.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="651">Drawings.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Paintings.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="651" ref="/subjects/3462">Drawings.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3463">Paintings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -109,8 +109,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1324453046928397321776]">1</container>
-            <unittitle>Agriculture planning <unitdate type="inclusive" normal="1954/1966">1954-1966</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Agriculture planning</unittitle><unitdate type="inclusive" normal="1954/1966">1954-1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -134,8 +133,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1324453046928397321776]">1</container>
-              <unittitle>Boston memorabilia <unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate></unittitle>
-            </did>
+              <unittitle>Boston memorabilia</unittitle><unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -146,8 +144,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1324453046928397321776]">1</container>
-              <unittitle>Memorial service (and condolences) <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-            </did>
+              <unittitle>Memorial service (and condolences)</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -159,14 +156,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1324453046928397321776]">1</container>
-            <unittitle>California Planning Commissioners handbook <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-          </did>
+            <unittitle>California Planning Commissioners handbook</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1324453046928397321776]">1</container>
-            <unittitle>California, University of: Speech re Santa Clara Valley <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>California, University of: Speech re Santa Clara Valley</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -180,8 +175,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1324453046928397321776]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1953/1971">1953-1971</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1953/1971">1953-1971</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -228,26 +222,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1324453046928397321776]">1</container>
-            <unittitle>Lambda-Alpha <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-          </did>
+            <unittitle>Lambda-Alpha</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1324453046928397321776]">1</container>
-            <unittitle>Laney College lecture <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <unittitle>Laney College lecture</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1324453046928397321776]">1</container>
-            <unittitle>Los Angeles (urban redevelopment) <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></unittitle>
-          </did>
+            <unittitle>Los Angeles (urban redevelopment)</unittitle><unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1324453046928397321776]">1</container>
-            <unittitle>Montalvo Association <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Montalvo Association</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -261,8 +251,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6024575491916871714]">2</container>
-            <unittitle>Open Space, Committee on, Reports <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-          </did>
+            <unittitle>Open Space, Committee on, Reports</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -291,8 +280,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6024575491916871714]">2</container>
-            <unittitle>Radford talk <unitdate type="inclusive" normal="1933">1933</unitdate> "The Development of American Architecture"</unittitle>
-          </did>
+            <unittitle>Radford talk  "The Development of American Architecture"</unittitle><unitdate type="inclusive" normal="1933">1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -327,8 +315,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9525353084318022149267]">3</container>
-            <unittitle>Speech <unitdate type="inclusive" normal="1969">1969</unitdate> "The Land Crisis"</unittitle>
-          </did>
+            <unittitle>Speech  "The Land Crisis"</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -345,8 +332,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9525353084318022149267]">3</container>
-            <unittitle>Santa Rosa. Report <unitdate type="inclusive" normal="1969">1969</unitdate> re open space</unittitle>
-          </did>
+            <unittitle>Santa Rosa. Report  re open space</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -369,8 +355,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9525353084318022149267]">3</container>
-            <unittitle>Teacher's Day <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>Teacher's Day</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -425,8 +410,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [332774584422561093534]">4</container>
-            <unittitle>Scrapbook <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbook</unittitle><unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -448,8 +432,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [647587154867326886888]">5</container>
-              <unittitle>France <unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate></unittitle>
-              <physdesc>
+              <unittitle>France</unittitle><unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate><physdesc>
                 <physfacet>Pencil, watercolor, and ink</physfacet>
               </physdesc>
             </did>
@@ -463,8 +446,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [647587154867326886888]">5</container>
-              <unittitle>United States, including Grand Canyon <unitdate type="inclusive" normal="1926/1931">1926-1931</unitdate></unittitle>
-              <physdesc>
+              <unittitle>United States, including Grand Canyon</unittitle><unitdate type="inclusive" normal="1926/1931">1926-1931</unitdate><physdesc>
                 <physfacet>Pencil, colored pencil, and pencil and ink</physfacet>
               </physdesc>
             </did>
@@ -475,8 +457,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [647587154867326886888]">5</container>
-              <unittitle>England <unitdate type="inclusive" normal="1929">1929</unitdate>, <unitdate type="inclusive" normal="1937">1937</unitdate> (1)</unittitle>
-              <physdesc>
+              <unittitle>England ,  (1)</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate><unitdate type="inclusive" normal="1937">1937</unitdate><physdesc>
                 <physfacet>Pencil with one in chalk</physfacet>
               </physdesc>
             </did>
@@ -487,8 +468,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [647587154867326886888]">5</container>
-              <unittitle>Italy, Germany, Scotland, Scandinavia, Switzerland <unitdate type="inclusive" normal="1925/1937">1925-1937</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Italy, Germany, Scotland, Scandinavia, Switzer</unittitle><unitdate type="inclusive" normal="1925/1937">1925-1937</unitdate><physdesc>
                 <physfacet>Pencil with one in ink</physfacet>
               </physdesc>
             </did>
@@ -499,8 +479,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [647587154867326886888]">5</container>
-              <unittitle>Taiwan <unitdate type="inclusive" normal="1968">1968</unitdate> "Taiwan Notes, Karl J. Belser" with printed contents table</unittitle>
-              <physdesc>
+              <unittitle>Taiwan  "Taiwan Notes, Karl J. Belser" with printed contents table</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate><physdesc>
                 <physfacet>Reproduction of Crayon and Wash</physfacet>
               </physdesc>
             </did>

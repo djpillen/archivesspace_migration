@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hulcher, Wendell E. (Wendell Ellsworth), 1922-1999.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6645">Hulcher, Wendell E. (Wendell Ellsworth), 1922-1999.</persname>
       </origination>
-      <unittitle encodinganalog="245">Wendell E. Hulcher papers <unitdate type="inclusive" encodinganalog="245$f" normal="1959/1971">1959-1971</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851517 Aa 2; UAm</unitid>
+      <unittitle encodinganalog="245">Wendell E. Hulcher papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1959/1971">1959-1971</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851517 Aa 2; UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Michigan, Republican city councilman, 1960-1964; mayor, 1965-1969, and deputy director of the U.S. Office of Intergovernmental Relations; councilman and mayoralty files; also materials concerning his activities with several U.S. government agencies and Florida Southern College.</abstract>
       <repository>
@@ -86,32 +86,32 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79081960">Agnew, Spiro T., 1918-1996.</persname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Mayors--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">City planning--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81131868">Florida Southern College.</corpname>
-        <subject source="lcsh" encodinganalog="650">Housing--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Hulcher, Wendell Elsworth, 1922-</persname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1961-1970.</geogname>
-        <subject source="lcsh" encodinganalog="650">Municipal government--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1969-1974.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79081960" ref="/agents/people/5812">Agnew, Spiro T., 1918-1996.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6247">Mayors--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5692">City planning--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81131868" ref="/agents/corporate_entities/3640">Florida Southern College.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5679">Housing--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8802">Hulcher, Wendell Elsworth, 1922-</persname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/806">Michigan--Politics and government--1961-1970.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5664">Municipal government--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4055">Republican Party (Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/908">United States--Politics and government--1969-1974.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/906">Michigan--Politics and government--1951-</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Mayors.</geogname>
-        <subject source="lctgm" encodinganalog="650">Automobiles.</subject>
-        <persname source="lcnaf" encodinganalog="600">Hulcher, Wendell Elsworth, 1922-</persname>
-        <subject source="lctgm" encodinganalog="650">Mayors--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Politics and government--1961-1970.</subject>
-        <subject source="lctgm" encodinganalog="650">Rites and ceremonies.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/339">Ann Arbor (Mich.)--Mayors.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4146">Automobiles.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8802">Hulcher, Wendell Elsworth, 1922-</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4113">Mayors--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3873">Politics and government--1961-1970.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3696">Rites and ceremonies.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -121,13 +121,11 @@
         </did>
         <c02 level="subseries">
           <did>
-            <unittitle>Topical File <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
-          </did>
+            <unittitle>Topical File</unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [81867886341541335502170]">1</container>
-              <unittitle>Accomplishments <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Accomplishments</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -435,14 +433,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [414844193750433306]">3</container>
-              <unittitle>Conference on Natural Beauty <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Conference on Natural Beauty</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [414844193750433306]">3</container>
-              <unittitle>Conference on Natural Beauty <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Conference on Natural Beauty</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -696,8 +692,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [393130734780446488462]">4</container>
-              <unittitle>Law Enforcement Conference <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Law Enforcement Conference</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -783,14 +778,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [069764010836897038937]">5</container>
-              <unittitle>Michigan Municipal League Convention <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Municipal League Convention</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [069764010836897038937]">5</container>
-              <unittitle>Michigan Municipal League Convention <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Municipal League Convention</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -807,26 +800,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [069764010836897038937]">5</container>
-              <unittitle>Michigan Week <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Week</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [069764010836897038937]">5</container>
-              <unittitle>Michigan Week <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Week</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [069764010836897038937]">5</container>
-              <unittitle>Michigan Week <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Week</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [069764010836897038937]">5</container>
-              <unittitle>Michigan Week <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Week</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1044,20 +1033,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [21979160404809128482936]">8</container>
-              <unittitle>Report-Year End <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Report-Year End</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [21979160404809128482936]">8</container>
-              <unittitle>Report-Year End <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Report-Year End</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [21979160404809128482936]">8</container>
-              <unittitle>Report-Year End <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Report-Year End</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1110,8 +1096,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [21979160404809128482936]">8</container>
-              <unittitle>Sesquicentennial of the University <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Sesquicentennial of the University</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -1242,14 +1227,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [647604940649393325007]">9</container>
-              <unittitle>U.S. Conference of Mayors- <unitdate type="inclusive" normal="1966">1966</unitdate> Convention</unittitle>
-            </did>
+              <unittitle>U.S. Conference of Mayors-  Convention</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [647604940649393325007]">9</container>
-              <unittitle>U.S. Conference of Mayors- <unitdate type="inclusive" normal="1967">1967</unitdate> Convention</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>U.S. Conference of Mayors-  Convention</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -1257,8 +1240,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [647604940649393325007]">9</container>
-              <unittitle>U.S. Conference of Mayors- <unitdate type="inclusive" normal="1968">1968</unitdate> Convention</unittitle>
-            </did>
+              <unittitle>U.S. Conference of Mayors-  Convention</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1425,8 +1407,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24911127442483554452]">10</container>
-              <unittitle>Youth In Government Day <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Youth In Government Day</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1448,82 +1429,52 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24911127442483554452]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965-04/1965-08">April-August, 1965</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1965-04/1965-08">April-August, 1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2505316084401478]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965-09/1966-01">September 1965-January 1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1965-09/1966-01">September 1965-January 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [24128221654587206105126]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966-02/1966-07">February-July 1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966-02/1966-07">February-July 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416174497094099014448648]">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966-08/1966-12">August-December 1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966-08/1966-12">August-December 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1441295942009386505364594]">14</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967-01/1967-05">January-May 1967</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1967-01/1967-05">January-May 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [50319411690718]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967-06/1967-10">June-October 1967</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1967-06/1967-10">June-October 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [389322204541892207357705]">16</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967-11/1968-03">November 1967-March 1968</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1967-11/1968-03">November 1967-March 1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1115573948651381449]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968-04/1968-07">April-July 1968</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1968-04/1968-07">April-July 1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [649839402996178]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968-08/1968-12">August-December 1968</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1968-08/1968-12">August-December 1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [66319082438696668471]">19</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969-01/1969-04">January-April 1969</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1969-01/1969-04">January-April 1969</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1539,98 +1490,82 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [132501432911275973216]">20</container>
-              <unittitle>Mayoral Campaign File <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Mayoral Campaign File</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [068606741885592516588061]">21</container>
-              <unittitle>Mayoral Campaign File <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Mayoral Campaign File</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [068606741885592516588061]">21</container>
-              <unittitle>City Budgets <unitdate type="inclusive" normal="1964/1967">1964/1965-1966/1967</unitdate></unittitle>
-            </did>
+              <unittitle>City Budgets</unittitle><unitdate type="inclusive" normal="1964/1967">1964/1965-1966/1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0743043463328708]">22</container>
-              <unittitle>City Budgets <unitdate type="inclusive" normal="1967/1969">1967/1968-1968/1969</unitdate></unittitle>
-            </did>
+              <unittitle>City Budgets</unittitle><unitdate type="inclusive" normal="1967/1969">1967/1968-1968/1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0743043463328708]">22</container>
-              <unittitle>Michigan Municipal League <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Municipal League</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0743043463328708]">22</container>
-              <unittitle>Committee of One Hundred (Southeast Michigan local government leaders) <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></unittitle>
-            </did>
+              <unittitle>Committee of One Hundred (Southeast Michigan local government leaders)</unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0743043463328708]">22</container>
-              <unittitle>Housing Commission. Referendum <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Housing Commission. Referendum</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0743043463328708]">22</container>
-              <unittitle>Sign Ordinance <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Sign Ordinance</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0743043463328708]">22</container>
-              <unittitle>European Trip <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>European Trip</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6538869494269809429174473]">23</container>
-              <unittitle>Vice President's Conference for Mayors <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Vice President's Conference for Mayors</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6538869494269809429174473]">23</container>
-              <unittitle>Christmas Letters <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate></unittitle>
-            </did>
+              <unittitle>Christmas Letters</unittitle><unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6538869494269809429174473]">23</container>
-              <unittitle>Boy Scouts <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Boy Scouts</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6538869494269809429174473]">23</container>
-              <unittitle>Governor George Romney Visit <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Governor George Romney Visit</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6538869494269809429174473]">23</container>
-              <unittitle>President Richard Nixon Inaugural <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>President Richard Nixon Inaugural</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6538869494269809429174473]">23</container>
-              <unittitle>Bermuda Trip <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Bermuda Trip</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6538869494269809429174473]">23</container>
-              <unittitle>Governor's Special Commission on Urban Problems <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Governor's Special Commission on Urban Problems</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1641,8 +1576,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6538869494269809429174473]">23</container>
-              <unittitle>Urban Coalition <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Urban Coalition</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1653,44 +1587,37 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6538869494269809429174473]">23</container>
-              <unittitle>Redirection of State Resources <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Redirection of State Resources</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [285398852431110032982]">24</container>
-              <unittitle>U.S. Conference of Mayors <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>U.S. Conference of Mayors</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [285398852431110032982]">24</container>
-              <unittitle>National League of Cities <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>National League of Cities</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [285398852431110032982]">24</container>
-              <unittitle>Urban Crises Conference <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Urban Crises Conference</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [285398852431110032982]">24</container>
-              <unittitle>Water Resources <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Water Resources</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [285398852431110032982]">24</container>
-              <unittitle>Draft of <unitdate type="inclusive" normal="1968">1968</unitdate> Annual Report</unittitle>
-            </did>
+              <unittitle>Draft of  Annual Report</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [285398852431110032982]">24</container>
-              <unittitle>Blue Ribbon Committee on Financing City Services <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Blue Ribbon Committee on Financing City Services</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1713,8 +1640,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [8594810734059634882216]">34</container>
-              <unittitle>Notebooks <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate> concerning local Republican Party affairs</unittitle>
-              <physdesc altrender="part">
+              <unittitle>Notebooks  concerning local Republican Party affairs</unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -1731,8 +1657,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [8594810734059634882216]">34</container>
-              <unittitle>Papers <unitdate type="inclusive" normal="1967">1967</unitdate> concerning testimony before U.S. Subcommittee on Fiscal Policy</unittitle>
-            </did>
+              <unittitle>Papers  concerning testimony before U.S. Subcommittee on Fiscal Policy</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1778,56 +1703,47 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [93874831980524368]">27</container>
-            <unittitle>City Council file <unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate></unittitle>
-          </did>
+            <unittitle>City Council file</unittitle><unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [93874831980524368]">27</container>
-            <unittitle>Campaigns <unitdate type="inclusive" normal="1960">1960</unitdate>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <unittitle>Campaigns</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate><unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [93874831980524368]">27</container>
-            <unittitle>Scrapbooks <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate> concerning city elections and council activities</unittitle>
-          </did>
+            <unittitle>Scrapbooks  concerning city elections and council activities</unittitle><unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [832315740905861671737]">28</container>
-            <unittitle>Fair Housing Ordinance and Human Relations Commission <unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Fair Housing Ordinance and Human Relations Commission</unittitle><unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [67379254378739402233]">29</container>
-            <unittitle>New Zoning Law <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></unittitle>
-          </did>
+            <unittitle>New Zoning Law</unittitle><unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [67379254378739402233]">29</container>
-            <unittitle>City Budget <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
-          </did>
+            <unittitle>City Budget</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [67379254378739402233]">29</container>
-            <unittitle>Municipal Airport <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Municipal Airport</unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [67379254378739402233]">29</container>
-            <unittitle>Sewage Disposal <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Sewage Disposal</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [67379254378739402233]">29</container>
-            <unittitle>Water Supply Facilities <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <unittitle>Water Supply Facilities</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1843,14 +1759,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422872184523977971702]">30</container>
-            <unittitle>Office of Intergovernmental Relations file <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-          </did>
+            <unittitle>Office of Intergovernmental Relations file</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [91633494438969357600]">31</container>
-            <unittitle>Office of Intergovernmental Relations file <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-          </did>
+            <unittitle>Office of Intergovernmental Relations file</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
           <odd>
             <p>(continued)</p>
           </odd>
@@ -1858,8 +1772,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [212214280449895917040]">32</container>
-            <unittitle>Office of Intergovernmental Relations file <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-          </did>
+            <unittitle>Office of Intergovernmental Relations file</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
           <odd>
             <p>(continued)</p>
           </odd>
@@ -1867,8 +1780,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [65012541979985488798520]">33</container>
-            <unittitle>Office of Intergovernmental Relations file <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-          </did>
+            <unittitle>Office of Intergovernmental Relations file</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
           <odd>
             <p>(continued)</p>
           </odd>
@@ -1876,8 +1788,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [8594810734059634882216]">34</container>
-            <unittitle>Office of Intergovernmental Relations file <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-          </did>
+            <unittitle>Office of Intergovernmental Relations file</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
           <odd>
             <p>(continued)</p>
           </odd>
@@ -1909,8 +1820,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7670582543899961600]">35</container>
-            <unittitle>Notes concerning Cabinet meeting <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <unittitle>Notes concerning Cabinet meeting</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

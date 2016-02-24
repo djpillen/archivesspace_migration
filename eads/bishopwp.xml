@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Bishop, William Warner, 1871-1955.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/5632">Bishop, William Warner, 1871-1955.</persname>
       </origination>
-      <unittitle encodinganalog="245">William Warner Bishop pamphlets and reprints <unitdate type="inclusive" encodinganalog="245$f" normal="1900/1951">1900-1951</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">721 DA 2; B622.8; P186</unitid>
+      <unittitle encodinganalog="245">William Warner Bishop pamphlets and reprints</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1900/1951">1900-1951</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">721 DA 2; B622.8; P186</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Reference Librarian at the Library of Congress, 1904-1915 and Librarian of the University of Michigan, 1905-1915. Journal articles and other writings on library topics.</abstract>
       <physdesc altrender="whole">
@@ -81,9 +81,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n78089035">Library of Congress.</corpname>
-        <subject encodinganalog="650" source="lcsh">Libraries.</subject>
-        <subject encodinganalog="650" source="lcsh">Librarianship.</subject>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n78089035" ref="/agents/corporate_entities/3361">Library of Congress.</corpname>
+        <subject encodinganalog="650" source="lcsh" ref="/subjects/6350">Libraries.</subject>
+        <subject encodinganalog="650" source="lcsh" ref="/subjects/6351">Librarianship.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -829,8 +829,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [71442413554958671245032]">1</container>
-            <unittitle>To Directors of Libraries: [Microfilming Project for Pre-1550 Books Printed in English]. Letter <unitdate type="inclusive" normal="1936-04-15">April 15,1936</unitdate></unittitle>
-          </did>
+            <unittitle>To Directors of Libraries: [Microfilming Project for Pre-1550 Books Printed in English]. Letter</unittitle><unitdate type="inclusive" normal="1936-04-15">April 15,1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

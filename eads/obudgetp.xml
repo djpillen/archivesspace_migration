@@ -24,7 +24,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Office of Budgets and Planning.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3072">University of Michigan. Office of Budgets and Planning.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Office of Budgets and Planning (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1970/1979">1970-1979</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87295 Bimu B3 2</unitid>
+      <unittitle encodinganalog="245">Office of Budgets and Planning (University of Michigan) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1970/1979">1970-1979</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87295 Bimu B3 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Administrative unit formed by President Robben Fleming to service the needs of the Long Range Planning Committee, the Budget Priorities Committee, and the Program Evaluation Committee. Minutes of meetings, budget material, and supporting papers.</abstract>
       <repository>
@@ -85,12 +85,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Black Action Movement (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Budget Priorities Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Planning.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Program Evaluation Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of Budgets and Planning.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4081">Black Action Movement (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Administration.<term type="topical">Administration.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1841">University of Michigan. Budget Priorities Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Planning.<term type="topical">Planning.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2873">University of Michigan. Program Evaluation Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3072">University of Michigan. Office of Budgets and Planning.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -951,8 +951,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [925454494139691471]">5</container>
-            <unittitle>Collected material <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>Collected material</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
       </c01>
     </dsc>

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Twining, Robert</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/129">Twining, Robert</persname>
       </origination>
-      <unittitle encodinganalog="245">Robert Twining collection <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1966">1925-1966</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1930/1957">1930-1957</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013154 Aa2 UA1</unitid>
+      <unittitle encodinganalog="245">Robert Twining collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1925/1966">1925-1966</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1930/1957">1930-1957</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013154 Aa2 UA1</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The Robert Twining collection is comprised of photographs, scrapbooks, slides, negatives, and films of Camp Al-Gon-Quian. Located on Burt Lake, Michigan, the camp was founded in 1925 by Herbert H. Twining as a summer camp for boys. The materials in the collection detail activities of Camp Al-Gon-Quian, such as fishing, archery, and horseback riding. There are also materials relating to Camp Mississauga, which was a camp for older boys in Canada.</abstract>
       <physdesc altrender="part">
@@ -90,29 +90,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Al-Gon-Quian Boys Camp (Burt Lake, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Archery--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Backpacking--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Camping--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Camps--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Canoes--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Handicraft--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Hiking--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Horseback riding--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Sailing--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Shooting--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Swimming--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Travel--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2474">Al-Gon-Quian Boys Camp (Burt Lake, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4050">Archery--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5467">Backpacking--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4535">Camping--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4404">Camps--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4533">Canoes--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5468">Handicraft--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5469">Hiking--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5470">Horseback riding--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5471">Sailing--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5472">Shooting--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5473">Swimming--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5474">Travel--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Black-and-white negatives.</genreform>
-        <genreform source="aat" encodinganalog="655">Black-and-white slides.</genreform>
-        <genreform source="aat" encodinganalog="655">Color slides.</genreform>
-        <genreform source="aat" encodinganalog="655">Home movies.</genreform>
-        <genreform source="aat" encodinganalog="655">Motion pictures.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3142">Black-and-white negatives.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3381">Black-and-white slides.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3206">Color slides.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3382">Home movies.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3162">Motion pictures.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -135,8 +135,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [36434528447928146487]">1</container>
-            <unittitle>Camp Hayo-Went-Ha <unitdate type="inclusive" normal="1922" certainty="approximate">circa 1922</unitdate> 1 folder</unittitle>
-          </did>
+            <unittitle>Camp Hayo-Went-Ha  1 folder</unittitle><unitdate type="inclusive" normal="1922" certainty="approximate">circa 1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -336,8 +335,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [279844284102548101]">5</container>
-            <unittitle><title render="italic">Camp Al-Gon-Quian Camper and Counselor files, 1925-1967</title>, <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Camp Al-Gon-Quian Camper and Counselor files, 1925-1967</title></unittitle><unitdate type="inclusive" normal="2012">2012</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -352,44 +350,37 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [279844284102548101]">5</container>
-              <unittitle>Scrapbook, labeled <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-            </did>
+              <unittitle>Scrapbook, labeled</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [279844284102548101]">5</container>
-              <unittitle>Scrapbook, labeled <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-            </did>
+              <unittitle>Scrapbook, labeled</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [279844284102548101]">5</container>
-              <unittitle>Scrapbook, labeled <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
-            </did>
+              <unittitle>Scrapbook, labeled</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [279844284102548101]">5</container>
-              <unittitle>Scrapbook <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            </did>
+              <unittitle>Scrapbook</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [279844284102548101]">5</container>
-              <unittitle>Scrapbook, labeled <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Scrapbook, labeled</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [279844284102548101]">5</container>
-              <unittitle>Scrapbook, Property of Camp Al-Gon-Quian <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Scrapbook, Property of Camp Al-Gon-Quian</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [279844284102548101]">5</container>
-              <unittitle>Scrapbook <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Scrapbook</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -587,8 +578,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3082431046594982616145068]">8</container>
-                <unittitle>All camp shots, cabin groups, archery, rifle <unitdate type="inclusive" normal="1959">1959</unitdate> 40 slides</unittitle>
-              </did>
+                <unittitle>All camp shots, cabin groups, archery, rifle  40 slides</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -599,8 +589,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3082431046594982616145068]">8</container>
-                <unittitle>Canoe trips, launching the team, campers arrive <unitdate type="inclusive" normal="1959">1959</unitdate> 30 slides</unittitle>
-              </did>
+                <unittitle>Canoe trips, launching the team, campers arrive  30 slides</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -614,8 +603,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3082431046594982616145068]">8</container>
-                <unittitle>Charlevoix meet, tennis, archery, track meet <unitdate type="inclusive" normal="1958">1958</unitdate> 25 slides</unittitle>
-              </did>
+                <unittitle>Charlevoix meet, tennis, archery, track meet  25 slides</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -650,14 +638,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3082431046594982616145068]">8</container>
-                <unittitle>Horses, rodeo, tennis, track meet <unitdate type="inclusive" normal="1959">1959</unitdate> 40 slides</unittitle>
-              </did>
+                <unittitle>Horses, rodeo, tennis, track meet  40 slides</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3082431046594982616145068]">8</container>
-                <unittitle>Horse show and final day <unitdate type="inclusive" normal="1959">1959</unitdate> 34 slides</unittitle>
-              </did>
+                <unittitle>Horse show and final day  34 slides</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -674,14 +660,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3082431046594982616145068]">8</container>
-                <unittitle>Meets, athletics, swimming, water skiing <unitdate type="inclusive" normal="1959">1959</unitdate> 43 slides</unittitle>
-              </did>
+                <unittitle>Meets, athletics, swimming, water skiing  43 slides</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3082431046594982616145068]">8</container>
-                <unittitle>Nip truck trip <unitdate type="inclusive" normal="1959">1959</unitdate> 35 slides</unittitle>
-              </did>
+                <unittitle>Nip truck trip  35 slides</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -692,14 +676,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [33034997448761224]">9</container>
-              <unittitle><unitdate type="inclusive" normal="1941">1941</unitdate> Negatives, approximately 30 negatives</unittitle>
-            </did>
+              <unittitle>Negatives, approximately 30 negatives</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [33034997448761224]">9</container>
-              <unittitle><unitdate type="inclusive" normal="1957">1957</unitdate> Negatives, approximately 90 negatives</unittitle>
-            </did>
+              <unittitle>Negatives, approximately 90 negatives</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -791,38 +773,32 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Camp Mississauga, Drowning Ridge, towing canoes, fishing in Lake Superior <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-          </did>
+            <unittitle>Camp Mississauga, Drowning Ridge, towing canoes, fishing in Lake Superior</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Hudson Bay Trip <unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate></unittitle>
-          </did>
+            <unittitle>Hudson Bay Trip</unittitle><unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Old Lane Hall, black and white <unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></unittitle>
-          </did>
+            <unittitle>Old Lane Hall, black and white</unittitle><unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Al-Gon-Quian <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-          </did>
+            <unittitle>Al-Gon-Quian</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Canadian Camp <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-          </did>
+            <unittitle>Canadian Camp</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Horseshow and Boxing <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-          </did>
+            <unittitle>Horseshow and Boxing</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -833,138 +809,107 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Petoskey Winter Sports; <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
-          </did>
+            <unittitle>Petoskey Winter Sports;</unittitle><unitdate type="inclusive" normal="1933">1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>East Coast Hudson Bay trip <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-          </did>
+            <unittitle>East Coast Hudson Bay trip</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Camp Al-Gon-Quian <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
-          </did>
+            <unittitle>Camp Al-Gon-Quian</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1936">1936</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1942">1942</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1948">1948</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1948">1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Movie Shorts <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-          </did>
+            <unittitle>Movie Shorts</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1948">1948</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1948">1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1949">1949</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1949">1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Sailing, rifle range close up, sailing races, chip cruise <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <unittitle>Sailing, rifle range close up, sailing races, chip cruise</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Honeymoon-short, [foot?] ball <unitdate type="inclusive" normal="1932">1932</unitdate>, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <unittitle>Honeymoon-short, [foot?] ball</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Horse show, course paddling, second cuts <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <unittitle>Horse show, course paddling, second cuts</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Best cuts <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <unittitle>Best cuts</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Track, swim, riding trip, first cuts <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <unittitle>Track, swim, riding trip, first cuts</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Al-Gon-Quian <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Al-Gon-Quian</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Archery, tennis courts, and view of fields <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Archery, tennis courts, and view of fields</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Boat <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Boat</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Broke <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Broke</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Camp <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Camp</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Camp Al-Gon-Quian <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Camp Al-Gon-Quian</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [02232849791626108762]">10</container>
-            <unittitle>Old Al-Gon-Quian past <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Old Al-Gon-Quian past</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -975,40 +920,32 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [18795664659758735202]">11</container>
-            <unittitle>Camp <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-          </did>
+            <unittitle>Camp</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [18795664659758735202]">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1949">1949</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1949">1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [18795664659758735202]">11</container>
-            <unittitle>Camp Al-Gon-Quian, by RET <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <unittitle>Camp Al-Gon-Quian, by RET</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [18795664659758735202]">11</container>
-            <unittitle><unitdate type="inclusive" normal="1952">1952</unitdate> trip, camp <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-          </did>
+            <unittitle>1952 trip, camp 1955</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate><unitdate type="inclusive" normal="1955">1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [18795664659758735202]">11</container>
-            <unittitle>Camp Al-Gon-Quian <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-          </did>
+            <unittitle>Camp Al-Gon-Quian</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [18795664659758735202]">11</container>
-            <unittitle>Al-Gon-Quian <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Al-Gon-Quian</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

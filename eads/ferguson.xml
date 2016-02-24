@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ferguson, Homer, 1888-1982.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1480">Ferguson, Homer, 1888-1982.</persname>
       </origination>
-      <unittitle encodinganalog="245">Homer Ferguson Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1939/1976">1939-1976</unitdate></unittitle>
-      <abstract>Republican U.S. Senator from Michigan, U.S. Ambassador to the Philippines; files relating to his various career responsibilities, photographs, sound recordings.</abstract>
+      <unittitle encodinganalog="245">Homer Ferguson Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1939/1976">1939-1976</unitdate><abstract>Republican U.S. Senator from Michigan, U.S. Ambassador to the Philippines; files relating to his various career responsibilities, photographs, sound recordings.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85187 Aa 2 Ac</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -83,11 +83,11 @@
       <list type="simple">
         <head>Summary Contents List</head>
         <item>Circuit Judgeship: One-Man Grand Jury, 1939-1941 -- boxes 1-2</item>
-        <item>Senate Career, 1942-1954 -- boxes 2-14 <sublist type="simple"><subitem>Committees -- boxes 2-11 <sublist type="simple"><subitem>Pearl Harbor-- boxes 8-11</subitem></sublist> </subitem><subitem>Correspondence -- box 11</subitem><subitem>Legislative Record -- box 12</subitem><subitem>Public Addresses -- boxes 12-13</subitem><subitem>Topical Files -- boxes 13-14</subitem><subitem>Voting Record -- box 14</subitem></sublist> </item>
+        <item>Senate Career, 1942-1954 -- boxes 2-14 <sublist type="simple"><subitem>Committees -- boxes 2-11 <sublist type="simple"><subitem>Pearl Harbor-- boxes 8-11</subitem></sublist> </subitem> <subitem>Correspondence -- box 11</subitem> <subitem>Legislative Record -- box 12</subitem> <subitem>Public Addresses -- boxes 12-13</subitem> <subitem>Topical Files -- boxes 13-14</subitem> <subitem>Voting Record -- box 14</subitem></sublist> </item>
         <item>Interregnum: November 1954 - April 1955 -- box 15</item>
         <item>Hoover Commission, 1953-1955 -- box 15</item>
         <item>Philippines Ambassadorship, 1955-1956 -- box 16</item>
-        <item>United States Court of Military Appeals, 1956-1976 -- boxes 17-21 and 25 (part) <sublist type="simple"><subitem>Correspondence -- boxes 17-18, 25</subitem><subitem>Public Addresses -- boxes 18-19</subitem><subitem>Topical Files -- boxes 19-21, 25</subitem></sublist> </item>
+        <item>United States Court of Military Appeals, 1956-1976 -- boxes 17-21 and 25 (part) <sublist type="simple"><subitem>Correspondence -- boxes 17-18, 25</subitem> <subitem>Public Addresses -- boxes 18-19</subitem> <subitem>Topical Files -- boxes 19-21, 25</subitem></sublist> </item>
         <item>Inter-Parliamentary Union, 1949-1972 -- box 21</item>
         <item>Clippings -- box 22</item>
         <item>Photographs -- boxes 23-25 and oversize folder</item>
@@ -104,93 +104,93 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79056767">Barkley, Alben William, 1877-1956.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80126170">Beard, Charles Austin, 1874-1948.</persname>
-        <subject source="lcsh" encodinganalog="650">Courts.</subject>
-        <subject source="lcsh" encodinganalog="650">Crime.</subject>
-        <geogname source="lcsh" encodinganalog="651">East Asia.</geogname>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1948.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1954.</subject>
-        <persname source="lcnaf" encodinganalog="600">Ferguson, Homer, 1889-1982.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79145277">Hughes Aircraft Company.</corpname>
-        <subject source="lcsh" encodinganalog="650">Judges--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043290">McCarthy, Joseph, 1908-1957.</persname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1939-1945.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1946-1960.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79115506">Pearson, Drew, 1897-1969.</persname>
-        <subject source="lcsh" encodinganalog="650">Pearl Harbor (Hawaii), Attack on, 1941.</subject>
-        <geogname source="lcsh" encodinganalog="651">Philippines--History--1946-1986.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Travelers.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82086518">United States. Commission on Organization of the Executive Branch of the Government (1953-1955)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50076080">United States. Court of Military Appeals.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--Defenses.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1933-1953.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1953-1961.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79022161">United States. Congress. Senate.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Wayne County (Mich.). One-Man Grand Jury (1939-1942)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Bomber Plant.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79056767" ref="/agents/people/7874">Barkley, Alben William, 1877-1956.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80126170" ref="/agents/people/5153">Beard, Charles Austin, 1874-1948.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7743">Courts.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7744">Crime.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1702">East Asia.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6520">Elections--Michigan--1948.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6267">Elections--Michigan--1954.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7348">Ferguson, Homer, 1889-1982.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79145277" ref="/agents/corporate_entities/1577">Hughes Aircraft Company.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7248">Judges--United States.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043290" ref="/agents/people/763">McCarthy, Joseph, 1908-1957.</persname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/808">Michigan--Politics and government--1939-1945.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/805">Michigan--Politics and government--1946-1960.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79115506" ref="/agents/people/2064">Pearson, Drew, 1897-1969.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7745">Pearl Harbor (Hawaii), Attack on, 1941.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/939">Philippines--History--1946-1986.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4055">Republican Party (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6015">Travelers.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82086518" ref="/agents/corporate_entities/5359">United States. Commission on Organization of the Executive Branch of the Government (1953-1955)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50076080" ref="/agents/corporate_entities/2979">United States. Court of Military Appeals.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1844">United States--Defenses.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1267">United States--Politics and government--1933-1953.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1268">United States--Politics and government--1953-1961.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79022161" ref="/agents/corporate_entities/761">United States. Congress. Senate.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5619">Wayne County (Mich.). One-Man Grand Jury (1939-1942)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2910">Willow Run Bomber Plant.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Aircraft Parts Production Corporation (Ann Arbor, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n94105471">Brucker, Wilber Marion, 1894-1968.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Chrysler Corporation.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50030526">Dulles, John Foster, 1888-1959.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066408">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
-        <geogname source="lcsh" encodinganalog="651">Far East.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Ferguson, Homer, 1889-1982.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n93069611">Ferguson, Myrtle.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022087">Ford, Gerald R., 1913-2006.</persname>
-        <subject source="lctgm" encodinganalog="650">Forts and fortifications.</subject>
-        <subject source="lctgm" encodinganalog="650">Housing.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043370">Hughes, Howard, 1905-1976.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026910">Humphrey, Hubert H. (Hubert Horatio), 1911-1978.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79138852">Inter-parliamentary Union.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Inter-American Highway.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80005801">Johnson, Lyndon B. (Lyndon Baines), 1908-1973.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82048848">Magsaysay, Ramon, 1907-1957.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043290">McCarthy, Joseph, 1908-1957.</persname>
-        <subject source="lctgm" encodinganalog="650">Military facilities.</subject>
-        <geogname source="lcsh" encodinganalog="651">Philippines--History--1946-1986.</geogname>
-        <subject source="lctgm" encodinganalog="650">Political elections--1954.</subject>
-        <subject source="lctgm" encodinganalog="650">Politics and government.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92042890">Potter, Charles E. (Charles Edward), 1916-1979.</persname>
-        <subject source="lctgm" encodinganalog="650">Racism.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (U.S. : 1854- )</corpname>
-        <geogname source="lcsh" encodinganalog="651">Saint Lawrence Seaway.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83125299">Taft, Robert A. (Robert Alphonso), 1889-1953.</persname>
-        <subject source="lctgm" encodinganalog="650">Travel.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79029742">Truman, Harry S., 1884-1972.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063202">United States. Army.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79022161">United States. Congress. Senate.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50076080">United States. Court of Military Appeals.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n00086557">Willow Run (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5717">Aircraft Parts Production Corporation (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n94105471" ref="/agents/people/4211">Brucker, Wilber Marion, 1894-1968.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3269">Chrysler Corporation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50030526" ref="/agents/people/1524">Dulles, John Foster, 1888-1959.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066408" ref="/agents/people/3747">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1845">Far East.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7348">Ferguson, Homer, 1889-1982.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n93069611" ref="/agents/people/2040">Ferguson, Myrtle.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022087" ref="/agents/people/4120">Ford, Gerald R., 1913-2006.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4304">Forts and fortifications.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3988">Housing.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043370" ref="/agents/people/1521">Hughes, Howard, 1905-1976.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026910" ref="/agents/people/424">Humphrey, Hubert H. (Hubert Horatio), 1911-1978.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79138852" ref="/agents/corporate_entities/3750">Inter-parliamentary Union.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1846">Inter-American Highway.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80005801" ref="/agents/people/1299">Johnson, Lyndon B. (Lyndon Baines), 1908-1973.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82048848" ref="/agents/people/1005">Magsaysay, Ramon, 1907-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043290" ref="/agents/people/763">McCarthy, Joseph, 1908-1957.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4239">Military facilities.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/939">Philippines--History--1946-1986.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4305">Political elections--1954.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4119">Politics and government.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92042890" ref="/agents/people/7036">Potter, Charles E. (Charles Edward), 1916-1979.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4306">Racism.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/287">Republican Party (U.S. : 1854- )</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1630">Saint Lawrence Seaway.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83125299" ref="/agents/people/3565">Taft, Robert A. (Robert Alphonso), 1889-1953.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3857">Travel.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79029742" ref="/agents/people/873">Truman, Harry S., 1884-1972.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063202" ref="/agents/corporate_entities/801">United States. Army.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79022161" ref="/agents/corporate_entities/761">United States. Congress. Senate.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50076080" ref="/agents/corporate_entities/2979">United States. Court of Military Appeals.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/3635">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n00086557" ref="/subjects/1847">Willow Run (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93069611">Ferguson, Myrtle.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93069611" ref="/agents/people/2040">Ferguson, Myrtle.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="gmgpc" encodinganalog="655">Albums.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="lcsh" encodinganalog="655">Sound recordings.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3458">Albums.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="lcsh" encodinganalog="655" ref="/subjects/3438">Sound recordings.</genreform>
       </controlaccess>
       <controlaccess>
         <head>Sound Recordings</head>
-        <subject source="lcsh" encodinganalog="650">Crime.</subject>
-        <subject source="lcsh" encodinganalog="650">Criminal courts.</subject>
-        <geogname source="lcsh" encodinganalog="651">Philippines--Anniversaries, etc.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Philippines--History--1946-1986.</geogname>
-        <subject source="lcsh" encodinganalog="650">Trials (Fraud)--Michigan--Wayne County.</subject>
-        <subject source="lcsh" encodinganalog="650">Trials (Military offenses)--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50076080">United States. Court of Military Appeals.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1945-1989.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Wayne County (Mich.). One-Man Grand Jury (1939-1942)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Ferguson, Homer, 1889-1982.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7744">Crime.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7746">Criminal courts.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1848">Philippines--Anniversaries, etc.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/939">Philippines--History--1946-1986.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7747">Trials (Fraud)--Michigan--Wayne County.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7748">Trials (Military offenses)--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50076080" ref="/agents/corporate_entities/2979">United States. Court of Military Appeals.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1271">United States--Politics and government--1945-1989.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5619">Wayne County (Mich.). One-Man Grand Jury (1939-1942)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7348">Ferguson, Homer, 1889-1982.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -248,8 +248,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Circuit Judgeship: One-Man Grand Jury <unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate></unittitle>
-          <physdesc altrender="part">
+          <unittitle>Circuit Judgeship: One-Man Grand Jury</unittitle><unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate><physdesc altrender="part">
             <extent altrender="materialtype spaceoccupied">0.3 linear feet</extent>
           </physdesc>
           <physdesc altrender="part">
@@ -342,8 +341,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Senate Career <unitdate normal="1942/1954">1942-1954</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Senate Career</unittitle><unitdate normal="1942/1954">1942-1954</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">13.5 linear feet</extent>
           </physdesc>
         </did>
@@ -380,8 +378,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [05884394039844971101194]">2</container>
-                  <unittitle><unitdate type="inclusive" normal="1949">1949</unitdate> Trip Around the World</unittitle>
-                </did>
+                  <unittitle>Trip Around the World</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
                 <odd>
                   <p>includes "Senator's Notes"</p>
                 </odd>
@@ -389,8 +386,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [05884394039844971101194]">2</container>
-                  <unittitle>Miscellaneous <unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate></unittitle>
-                </did>
+                  <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate></did>
                 <odd>
                   <p>includes handwritten notes on Far East</p>
                 </odd>
@@ -409,14 +405,12 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [05884394039844971101194]">2</container>
-                  <unittitle>Commodity Speculation material re: Edwin Pauley <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-                </did>
+                  <unittitle>Commodity Speculation material re: Edwin Pauley</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [05884394039844971101194]">2</container>
-                  <unittitle>Foreign Economic Cooperation <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-                </did>
+                  <unittitle>Foreign Economic Cooperation</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
                 <odd>
                   <p>(committee agent and mission chief reports)</p>
                 </odd>
@@ -520,10 +514,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [0310019436844178747]">3</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1943">1943</unitdate>
-                  </unittitle>
-                  <physdesc altrender="whole">
+                  <unitdate type="inclusive" normal="1943">1943</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
@@ -531,26 +522,17 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [0310019436844178747]">3</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1944">1944</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1944">1944</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [0310019436844178747]">3</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1945">1945</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1945">1945</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [0310019436844178747]">3</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1946">1946</unitdate>
-                  </unittitle>
-                  <physdesc altrender="whole">
+                  <unitdate type="inclusive" normal="1946">1946</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
@@ -558,18 +540,12 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [0310019436844178747]">3</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1947">1947</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1947">1947</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [0310019436844178747]">3</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1948">1948</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1948">1948</unitdate></did>
               </c05>
             </c04>
             <c04 level="otherlevel" otherlevel="sub-sub-subseries">
@@ -618,8 +594,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [0310019436844178747]">3</container>
-                  <unittitle>Army Depots (mostly re: <unitdate type="inclusive" normal="1944">1944</unitdate> investigation of Fort Bliss, El Paso, Texas)</unittitle>
-                </did>
+                  <unittitle>Army Depots (mostly re:  investigation of Fort Bliss, El Paso, Texas)</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -852,30 +827,21 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [46132723449484821866654]">6</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1944">1944</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1944">1944</unitdate></did>
                   <odd>
                     <p>(mostly correspondence)</p>
                   </odd>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1945">1945</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1945">1945</unitdate></did>
                   <odd>
                     <p>(mostly correspondence)</p>
                   </odd>
                   <c07 level="file">
                     <did>
                       <container type="box" label="Box [46132723449484821866654]">6</container>
-                      <unittitle>
-                        <unitdate type="inclusive" normal="1945-01">January 1945</unitdate>
-                      </unittitle>
-                      <physdesc altrender="whole">
+                      <unitdate type="inclusive" normal="1945-01">January 1945</unitdate><physdesc altrender="whole">
                         <extent altrender="materialtype spaceoccupied">2 folders</extent>
                       </physdesc>
                     </did>
@@ -883,26 +849,17 @@
                   <c07 level="file">
                     <did>
                       <container type="box" label="Box [46132723449484821866654]">6</container>
-                      <unittitle>
-                        <unitdate type="inclusive" normal="1945-02">February 1945</unitdate>
-                      </unittitle>
-                    </did>
+                      <unitdate type="inclusive" normal="1945-02">February 1945</unitdate></did>
                   </c07>
                   <c07 level="file">
                     <did>
                       <container type="box" label="Box [46132723449484821866654]">6</container>
-                      <unittitle>
-                        <unitdate type="inclusive" normal="1945-03">March 1945</unitdate>
-                      </unittitle>
-                    </did>
+                      <unitdate type="inclusive" normal="1945-03">March 1945</unitdate></did>
                   </c07>
                   <c07 level="file">
                     <did>
                       <container type="box" label="Box [46132723449484821866654]">6</container>
-                      <unittitle>
-                        <unitdate type="inclusive" normal="1945-04/1945-07">April-July 1945</unitdate>
-                      </unittitle>
-                    </did>
+                      <unitdate type="inclusive" normal="1945-04/1945-07">April-July 1945</unitdate></did>
                   </c07>
                   <c07 level="file">
                     <did>
@@ -1043,8 +1000,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <unittitle>Trips: <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-                </did>
+                  <unittitle>Trips:</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [8342884416669238890351]">7</container>
@@ -1128,24 +1084,17 @@
             </scopecontent>
             <c04 level="file">
               <did>
-                <unittitle>Correspondence <unitdate>Undated</unitdate></unittitle>
-              </did>
+                <unittitle>Correspondence</unittitle><unitdate>Undated</unitdate></did>
               <scopecontent>
                 <p>The correspondence is arranged chronologically by month and year, and is mostly citizen mail, the more important exceptions to which are noted on the contents list.</p>
               </scopecontent>
               <c05 level="file">
                 <did>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1944">1944</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1944">1944</unitdate></did>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [3656286494910544343]">8</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1944-05/1944-06">May-June 1944</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1944-05/1944-06">May-June 1944</unitdate></did>
                   <odd>
                     <p>(includes letter to/from Army Judge Advocate General)</p>
                   </odd>
@@ -1153,18 +1102,12 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [3656286494910544343]">8</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1944-07/1944-08">July-August 1944</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1944-07/1944-08">July-August 1944</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [3656286494910544343]">8</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1944-09/1944-10">September-October 1944</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1944-09/1944-10">September-October 1944</unitdate></did>
                   <odd>
                     <p>(includes letters to/from Secretaries of War and Navy)</p>
                   </odd>
@@ -1172,33 +1115,21 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [3656286494910544343]">8</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1944-11/1944-12">November-December 1944</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1944-11/1944-12">November-December 1944</unitdate></did>
                 </c06>
               </c05>
               <c05 level="file">
                 <did>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1945">1945</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1945">1945</unitdate></did>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [3656286494910544343]">8</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1945-01/1945-08">January-August 1945</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1945-01/1945-08">January-August 1945</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [3656286494910544343]">8</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1945-09">September 1945</unitdate>
-                    </unittitle>
-                    <physdesc altrender="whole">
+                    <unitdate type="inclusive" normal="1945-09">September 1945</unitdate><physdesc altrender="whole">
                       <extent altrender="materialtype spaceoccupied">2 folders</extent>
                     </physdesc>
                   </did>
@@ -1206,10 +1137,7 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [3656286494910544343]">8</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1945-10">October 1945</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1945-10">October 1945</unitdate></did>
                   <odd>
                     <p>(includes correspondence with Committee Counsel and Secretary, Republican Steering Committee)</p>
                   </odd>
@@ -1217,10 +1145,7 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [3656286494910544343]">8</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1945-11/1945-12">November-December 1945</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1945-11/1945-12">November-December 1945</unitdate></did>
                   <odd>
                     <p>(includes correspondence with Committee Counsel and other non-citizen type mail)</p>
                   </odd>
@@ -1228,41 +1153,26 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1946">1946</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1946">1946</unitdate></did>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [3656286494910544343]">8</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1946-01">January 1946</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1946-01">January 1946</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [3656286494910544343]">8</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1946-02">February 1946</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1946-02">February 1946</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [3656286494910544343]">8</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1946-03/1946-04">March-April 1946</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1946-03/1946-04">March-April 1946</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [3656286494910544343]">8</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1946-05/1946-08">May-August 1946</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1946-05/1946-08">May-August 1946</unitdate></did>
                 </c06>
               </c05>
             </c04>
@@ -1299,14 +1209,12 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [16759494900816783138]">9</container>
-                  <unittitle>Appropriations, Military (letter and chart re: <unitdate type="inclusive" normal="1933/1941">1933-1941</unitdate> period)</unittitle>
-                </did>
+                  <unittitle>Appropriations, Military (letter and chart re:  period)</unittitle><unitdate type="inclusive" normal="1933/1941">1933-1941</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [16759494900816783138]">9</container>
-                  <unittitle>Barkley, Alben (typewritten remarks re: Barkley's <unitdate type="inclusive" normal="1941-08-18">August 18, 1941</unitdate> meeting with FDR)</unittitle>
-                </did>
+                  <unittitle>Barkley, Alben (typewritten remarks re: Barkley's  meeting with FDR)</unittitle><unitdate type="inclusive" normal="1941-08-18">August 18, 1941</unitdate></did>
                 <odd>
                   <p>"Make a file and mark it if Barkley Resignes (sic)" notation at top</p>
                 </odd>
@@ -1662,8 +1570,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [4616490170544489035530]">10</container>
-                  <unittitle>"Notes On Majority Report," <unitdate type="inclusive" normal="1946-07-19">July 19, 1946</unitdate></unittitle>
-                </did>
+                  <unittitle>"Notes On Majority Report,"</unittitle><unitdate type="inclusive" normal="1946-07-19">July 19, 1946</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -1848,8 +1755,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [49035424783449083417]">11</container>
-                  <unittitle>Warning Messages: <unitdate type="inclusive" normal="1941-11-26/1941-11-27">November 26-27, 1941</unitdate></unittitle>
-                </did>
+                  <unittitle>Warning Messages:</unittitle><unitdate type="inclusive" normal="1941-11-26/1941-11-27">November 26-27, 1941</unitdate></did>
                 <odd>
                   <p>(handwritten notes)</p>
                 </odd>
@@ -1921,16 +1827,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [49035424783449083417]">11</container>
-              <unittitle><unitdate>Undated</unitdate>, <unitdate type="inclusive" normal="1947/1949">1947-1949</unitdate></unittitle>
-            </did>
+              <unitdate>Undated</unitdate><unitdate type="inclusive" normal="1947/1949">1947-1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [49035424783449083417]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
             <odd>
               <p>(Martin Gold)</p>
             </odd>
@@ -1938,26 +1840,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [49035424783449083417]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1950">1950</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1950">1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [49035424783449083417]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [49035424783449083417]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951-12/1952-01">December 1951-January 1952</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1951-12/1952-01">December 1951-January 1952</unitdate></did>
             <odd>
               <p>(samples of letters to families of servicemen visited on 1951-1952 trip to Korea)</p>
             </odd>
@@ -1990,58 +1883,37 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [792976512475065185]">12</container>
-              <unittitle>
-                <unitdate>Undated</unitdate>
-              </unittitle>
-            </did>
+              <unitdate>Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [792976512475065185]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943/1946">1943-1946</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943/1946">1943-1946</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [792976512475065185]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947">1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947">1947</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [792976512475065185]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948">1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948">1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [792976512475065185]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949">1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949">1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [792976512475065185]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1950">1950</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1950">1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [55829406869373301609]">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951">1951</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1951">1951</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2049,10 +1921,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [55829406869373301609]">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952">1952</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1952">1952</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2060,10 +1929,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [55829406869373301609]">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1953">1953</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1953">1953</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2071,10 +1937,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [55829406869373301609]">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954">1954</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1954">1954</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
@@ -2135,8 +1998,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1863254955803056]">14</container>
-              <unittitle>Commonwealth Parliamentary Association Conference: Australia (report on) <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-            </did>
+              <unittitle>Commonwealth Parliamentary Association Conference: Australia (report on)</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2223,10 +2085,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1863254955803056]">14</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1942">1942</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1942">1942</unitdate></did>
               <odd>
                 <p>(letter from Prentiss Brown re: setting up debates)</p>
               </odd>
@@ -2234,10 +2093,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1863254955803056]">14</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1948">1948</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1948">1948</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -2248,17 +2104,13 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1863254955803056]">14</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1954">1954</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1954">1954</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1863254955803056]">14</container>
-              <unittitle>Expatriation Act <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            </did>
+              <unittitle>Expatriation Act</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
             <odd>
               <p>(mostly drafts of the bill)</p>
             </odd>
@@ -2266,8 +2118,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1863254955803056]">14</container>
-              <unittitle>Foreign Aid <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
-            </did>
+              <unittitle>Foreign Aid</unittitle><unitdate type="inclusive" normal="1947">1947</unitdate></did>
             <odd>
               <p>Ferguson letter to Styles Bridges re: Herter Select Committee on Foreign Aid report, and copy of report</p>
             </odd>
@@ -2292,8 +2143,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1863254955803056]">14</container>
-              <unittitle>Formosa <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-            </did>
+              <unittitle>Formosa</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
             <odd>
               <p>(Ferguson letter to Truman re: defense of Formosa, and Truman's routine response)</p>
             </odd>
@@ -2358,8 +2208,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1863254955803056]">14</container>
-              <unittitle>Motor Carrier Claims Commission <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-            </did>
+              <unittitle>Motor Carrier Claims Commission</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2418,8 +2267,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1863254955803056]">14</container>
-              <unittitle>Trip Around The World <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Trip Around The World</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2454,8 +2302,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Voting Record <unitdate type="inclusive" normal="1943/1953">1943-1953</unitdate></unittitle>
-          </did>
+            <unittitle>Voting Record</unittitle><unitdate type="inclusive" normal="1943/1953">1943-1953</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1863254955803056]">14</container>
@@ -2466,8 +2313,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Interregnum: <unitdate type="inclusive" normal="1954/1955-04">November 1954-April, 1955</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Interregnum:</unittitle><unitdate type="inclusive" normal="1954/1955-04">November 1954-April, 1955</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">13 folders</extent>
           </physdesc>
         </did>
@@ -2476,17 +2322,11 @@
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954">1954</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1954">1954</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44595164336035011343]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954-11">November 1954</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1954-11">November 1954</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">9 folders</extent>
               </physdesc>
             </did>
@@ -2497,66 +2337,44 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [44595164336035011343]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954-12">December 1954</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1954-12">December 1954</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1955">1955</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1955">1955</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44595164336035011343]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1955-01">January 1955</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1955-01">January 1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44595164336035011343]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1955-02">February 1955</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1955-02">February 1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44595164336035011343]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1955-03/1955-04">March-April 1955</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1955-03/1955-04">March-April 1955</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Hoover Commission <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></unittitle>
-        </did>
+          <unittitle>Hoover Commission</unittitle><unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></did>
         <scopecontent>
           <p>The Hoover Commission series files (1953-1955; 0.5 linear ft.) are arranged chronologically and are comprised of the following types of materials, all of which are directly related to the work of the Commission: clippings; correspondence; staff and organizational information; minutes; press releases; task force reports; and memoranda to Ferguson from Lawrence Lindemer, Ferguson's committee assistant.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box [44595164336035011343]">15</container>
-            <unittitle>
-              <unitdate>Undated</unitdate>
-            </unittitle>
-          </did>
+            <unitdate>Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [44595164336035011343]">15</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953">1953</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1953">1953</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -2564,10 +2382,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [44595164336035011343]">15</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954">1954</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1954">1954</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -2575,10 +2390,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [44595164336035011343]">15</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1955">1955</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1955">1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2592,8 +2404,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Philippines Ambassadorship <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Philippines Ambassadorship</unittitle><unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">1 linear feet</extent>
           </physdesc>
         </did>
@@ -2624,8 +2435,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3864164072919566824]">16</container>
-            <unittitle>Diary ("Ambassador's Diary": daily appointments schedule) <unitdate normal="1955-04-07/1956-03-16">April 7, 1955-March 16, 1956</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Diary ("Ambassador's Diary": daily appointments schedule)</unittitle><unitdate normal="1955-04-07/1956-03-16">April 7, 1955-March 16, 1956</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -2660,8 +2470,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>United States Court Of Military Appeals <unitdate type="inclusive" normal="1956/1976">1956-1976</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>United States Court Of Military Appeals</unittitle><unitdate type="inclusive" normal="1956/1976">1956-1976</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">5 linear feet</extent>
           </physdesc>
         </did>
@@ -2722,8 +2531,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [00948408545538057782140]">25</container>
-                <unittitle><unitdate>Undated</unitdate>, <unitdate type="inclusive" normal="1956/1971">1956-1971</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unitdate>Undated</unitdate><unitdate type="inclusive" normal="1956/1971">1956-1971</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">12 folders</extent>
                 </physdesc>
               </did>
@@ -2738,8 +2546,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [152554159128113420262]">18</container>
-              <unittitle>Television Appearance <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
+              <unittitle>Television Appearance</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
             <odd>
               <p>(materials re: Junior Bar Association TV Program)</p>
             </odd>
@@ -2751,20 +2558,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0955373483382916323096]">19</container>
-                <unittitle>Appropriations Committee <unitdate type="inclusive" normal="1962/1972">1962-1972</unitdate></unittitle>
-              </did>
+                <unittitle>Appropriations Committee</unittitle><unitdate type="inclusive" normal="1962/1972">1962-1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0955373483382916323096]">19</container>
-                <unittitle>Judiciary Committee: Subcommittee on Constitutional Rights of Military Personnel <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-              </did>
+                <unittitle>Judiciary Committee: Subcommittee on Constitutional Rights of Military Personnel</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0955373483382916323096]">19</container>
-                <unittitle>Post Office and Civil Service Committee <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-              </did>
+                <unittitle>Post Office and Civil Service Committee</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
               <odd>
                 <p>(re: job upgrade for R. Tedrow)</p>
               </odd>
@@ -2781,8 +2585,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0955373483382916323096]">19</container>
-              <unittitle>Ad Hoc Committee for Military Justice, Department of the Army <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-            </did>
+              <unittitle>Ad Hoc Committee for Military Justice, Department of the Army</unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2831,8 +2634,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [0955373483382916323096]">19</container>
-                  <unittitle>Anderson, Clayton <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-                </did>
+                  <unittitle>Anderson, Clayton</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
                 <odd>
                   <p>(re: question of whether U.S. was at war on November 3, 1964)</p>
                 </odd>
@@ -2846,8 +2648,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [0955373483382916323096]">19</container>
-                  <unittitle>Gallagher vs. Quinn, et al. <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-                </did>
+                  <unittitle>Gallagher vs. Quinn, et al.</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
                 <odd>
                   <p>(mostly appeals, motions, and replies)</p>
                 </odd>
@@ -2855,8 +2656,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [0955373483382916323096]">19</container>
-                  <unittitle>O'Callahan vs. Parker <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-                </did>
+                  <unittitle>O'Callahan vs. Parker</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
                 <odd>
                   <p>(materials re: U.S. Supreme Court decision and consequences for Military Court of Appeals)</p>
                 </odd>
@@ -2864,8 +2664,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [0955373483382916323096]">19</container>
-                  <unittitle>Wright, J.C. <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-                </did>
+                  <unittitle>Wright, J.C.</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
                 <odd>
                   <p>(re: admissibility of voice print machine evidence)</p>
                 </odd>
@@ -2874,8 +2673,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0955373483382916323096]">19</container>
-                <unittitle>October Term <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>October Term</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
               </did>
@@ -2912,47 +2710,33 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [36325402040986501221934]">20</container>
-                <unittitle>
-                  <unitdate>Undated</unitdate>
-                </unittitle>
-              </did>
+                <unitdate>Undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [36325402040986501221934]">20</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [36325402040986501221934]">20</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1957">1957</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1957">1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [36325402040986501221934]">20</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [36325402040986501221934]">20</container>
-                <unittitle><unitdate type="inclusive" normal="1962/1966">1962-1966</unitdate>, <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>, <unitdate type="inclusive" normal="1971">1971</unitdate>, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1962/1966">1962-1966</unitdate><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate><unitdate type="inclusive" normal="1971">1971</unitdate><unitdate type="inclusive" normal="1972">1972</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [36325402040986501221934]">20</container>
-              <unittitle>Mohbat, Joseph <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Mohbat, Joseph</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2967,8 +2751,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [36325402040986501221934]">20</container>
-                <unittitle>Dissenting to Denials of Petition for Review <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Dissenting to Denials of Petition for Review</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
@@ -2985,8 +2768,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [36325402040986501221934]">20</container>
-                <unittitle>Synopses of <unitdate type="inclusive" normal="1961/1969">1961/62-1968/69</unitdate></unittitle>
-              </did>
+                <unittitle>Synopses of</unittitle><unitdate type="inclusive" normal="1961/1969">1961/62-1968/69</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -3044,8 +2826,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [36325402040986501221934]">20</container>
-                <unittitle>Army Ad Hoc Committee on Military Justice <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Army Ad Hoc Committee on Military Justice</unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -3056,8 +2837,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97039674993551000931023]">21</container>
-                <unittitle>Congressional Investigations <unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate></unittitle>
-              </did>
+                <unittitle>Congressional Investigations</unittitle><unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -3066,26 +2846,17 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [97039674993551000931023]">21</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1956">1956</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1956">1956</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [97039674993551000931023]">21</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1957">1957</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1957">1957</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [97039674993551000931023]">21</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1958">1958</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1958">1958</unitdate></did>
                 <odd>
                   <p>(contains interesting material re: Ferguson's views on Court changes)</p>
                 </odd>
@@ -3093,66 +2864,44 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [97039674993551000931023]">21</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1959">1959</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1959">1959</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [97039674993551000931023]">21</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1961">1961</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1961">1961</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [97039674993551000931023]">21</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1962">1962</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1962">1962</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [97039674993551000931023]">21</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [97039674993551000931023]">21</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1972">1972</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1972">1972</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [97039674993551000931023]">21</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1974">1974</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1974">1974</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [97039674993551000931023]">21</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1975">1975</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1975">1975</unitdate></did>
               </c05>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [97039674993551000931023]">21</container>
-              <unittitle>Vietnam Trip <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Vietnam Trip</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             <odd>
               <p>unknown if trip was taken, include itinerary and explanatory letter</p>
             </odd>
@@ -3167,8 +2916,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Inter-Parliamentary Union <unitdate type="inclusive" normal="1949/1972">1949-1972</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Inter-Parliamentary Union</unittitle><unitdate type="inclusive" normal="1949/1972">1949-1972</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">0.3 linear feet</extent>
           </physdesc>
         </did>
@@ -3178,8 +2926,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [97039674993551000931023]">21</container>
-            <unittitle>Various materials <unitdate type="inclusive" normal="1949/1972">1949-1972</unitdate></unittitle>
-          </did>
+            <unittitle>Various materials</unittitle><unitdate type="inclusive" normal="1949/1972">1949-1972</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -3311,8 +3058,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9083758413791562]">23</container>
-              <unittitle>Bond-a-Month Drive <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            </did>
+              <unittitle>Bond-a-Month Drive</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3333,10 +3079,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9083758413791562]">23</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1954">1954</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1954">1954</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -3377,8 +3120,7 @@
                 </c06>
                 <c06 level="file">
                   <did>
-                    <unittitle>World Wide Fact Finding Trip <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-                  </did>
+                    <unittitle>World Wide Fact Finding Trip</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
                   <c07 level="file">
                     <did>
                       <container type="box" label="Box [9083758413791562]">23</container>
@@ -3446,8 +3188,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [9083758413791562]">23</container>
-                  <unittitle>Caribbean Maneuvers <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-                </did>
+                  <unittitle>Caribbean Maneuvers</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -3497,8 +3238,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [9083758413791562]">23</container>
-                  <unittitle>Reunion <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-                </did>
+                  <unittitle>Reunion</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -3547,14 +3287,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9083758413791562]">23</container>
-              <unittitle>Dayan, Moshe: Visit <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            </did>
+              <unittitle>Dayan, Moshe: Visit</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9083758413791562]">23</container>
-              <unittitle>Detroit Birthday Festival <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-            </did>
+              <unittitle>Detroit Birthday Festival</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
             <odd>
               <p>(includes Ferguson with Blair Moody, Harry Truman, and G. Mennen Williams)</p>
             </odd>
@@ -3610,8 +3348,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9083758413791562]">23</container>
-              <unittitle>Lincoln, Abraham: Visit to Lincoln's Home <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-            </did>
+              <unittitle>Lincoln, Abraham: Visit to Lincoln's Home</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3638,8 +3375,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9083758413791562]">23</container>
-                <unittitle>U.S. Army: FP-136 Launching. <unitdate type="inclusive" normal="1943-08-07">August 7, 1943</unitdate></unittitle>
-              </did>
+                <unittitle>U.S. Army: FP-136 Launching.</unittitle><unitdate type="inclusive" normal="1943-08-07">August 7, 1943</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -3693,14 +3429,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9083758413791562]">23</container>
-                <unittitle>Japan: Camp Chitose <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-              </did>
+                <unittitle>Japan: Camp Chitose</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9083758413791562]">23</container>
-                <unittitle>Korea: Official Visits <unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Korea: Official Visits</unittitle><unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
@@ -3741,8 +3475,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9083758413791562]">23</container>
-              <unittitle>Various <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></unittitle>
-            </did>
+              <unittitle>Various</unittitle><unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></did>
             <odd>
               <p>(includes picture of Hoover Commission)</p>
             </odd>
@@ -3791,8 +3524,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3310494282976467334]">24</container>
-              <unittitle>Bacolad City: Joint Induction of Philippine Jr. Chamber of Commerce and Bacolad Junior Chamber of Commerce; Negros Occidental <unitdate type="inclusive" normal="1955-07-02">July 2, 1955</unitdate></unittitle>
-            </did>
+              <unittitle>Bacolad City: Joint Induction of Philippine Jr. Chamber of Commerce and Bacolad Junior Chamber of Commerce; Negros Occidental</unittitle><unitdate type="inclusive" normal="1955-07-02">July 2, 1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3940,8 +3672,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3310494282976467334]">24</container>
-              <unittitle>Nangka PRRM Project Inspection <unitdate type="inclusive" normal="1955-06-12">June 12, 1955</unitdate></unittitle>
-            </did>
+              <unittitle>Nangka PRRM Project Inspection</unittitle><unitdate type="inclusive" normal="1955-06-12">June 12, 1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3964,8 +3695,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3310494282976467334]">24</container>
-              <unittitle>Return Visit <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-            </did>
+              <unittitle>Return Visit</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -4053,8 +3783,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3310494282976467334]">24</container>
-              <unittitle>Michigan Delegation Breakfast <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Delegation Breakfast</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -4091,44 +3820,37 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3310494282976467334]">24</container>
-              <unittitle>Iran <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Iran</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3310494282976467334]">24</container>
-              <unittitle>Israel <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
-            </did>
+              <unittitle>Israel</unittitle><unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3310494282976467334]">24</container>
-              <unittitle>Japan and Korea <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-            </did>
+              <unittitle>Japan and Korea</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3310494282976467334]">24</container>
-              <unittitle>Kennedy Space Center Tour <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Kennedy Space Center Tour</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3310494282976467334]">24</container>
-              <unittitle>Paris <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>Paris</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3310494282976467334]">24</container>
-              <unittitle>Peru and Colombia <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Peru and Colombia</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3310494282976467334]">24</container>
-              <unittitle>Washington, D.C. <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            </did>
+              <unittitle>Washington, D.C.</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -4253,8 +3975,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [00948408545538057782140]">25</container>
-              <unittitle>Pearl Harbor Committee and other subjects <unitdate type="inclusive" normal="1942/1944">1942-1944</unitdate></unittitle>
-            </did>
+              <unittitle>Pearl Harbor Committee and other subjects</unittitle><unitdate type="inclusive" normal="1942/1944">1942-1944</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -4274,14 +3995,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [00948408545538057782140]">25</container>
-              <unittitle>Visit of Harry S. Truman, President of the United States, to the Infantry Center, Fort Benning, Georgia <unitdate type="inclusive" normal="1950-04-21">April 21, 1950</unitdate></unittitle>
-            </did>
+              <unittitle>Visit of Harry S. Truman, President of the United States, to the Infantry Center, Fort Benning, Georgia</unittitle><unitdate type="inclusive" normal="1950-04-21">April 21, 1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [00948408545538057782140]">25</container>
-              <unittitle>Album from the Philippines period, Assembled by Chief Photographer Felix Manuel at Malacañang <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Album from the Philippines period, Assembled by Chief Photographer Felix Manuel at Malacañang</unittitle><unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate><physdesc>
                 <physfacet>Small 8 x 10 volume bound in green and black plastic</physfacet>
               </physdesc>
             </did>
@@ -4289,8 +4008,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [00948408545538057782140]">25</container>
-              <unittitle>Album from the Philippines period assembled by Chief Photographer Felix Manuel at Malacañang <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Album from the Philippines period assembled by Chief Photographer Felix Manuel at Malacañang</unittitle><unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate><physdesc>
                 <physfacet>large, 10 x 14 volume bound in green and black plastic</physfacet>
               </physdesc>
             </did>
@@ -4298,8 +4016,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [00948408545538057782140]">25</container>
-              <unittitle>"A Visit to the Armor Combat Training Center, Camp Irwin, California, by the Honorable Wilbur M. Brucker <unitdate type="inclusive" normal="1958-05-23">May 23, 1958</unitdate>"</unittitle>
-            </did>
+              <unittitle>"A Visit to the Armor Combat Training Center, Camp Irwin, California, by the Honorable Wilbur M. Brucker "</unittitle><unitdate type="inclusive" normal="1958-05-23">May 23, 1958</unitdate></did>
             <odd>
               <p>(Stamped in gold on cover: Judge Homer Ferguson)</p>
             </odd>
@@ -4318,8 +4035,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [00948408545538057782140]">25</container>
-            <unittitle>Statements taken for Wayne County graft grand jury <unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Statements taken for Wayne County graft grand jury</unittitle><unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">35 phonograph records</extent>
               <extent altrender="carrier">in carrying case</extent>
             </physdesc>
@@ -4331,8 +4047,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [00948408545538057782140]">25</container>
-            <unittitle>Edison Voicewriter discs of memos, letters, conference notes, miscellaneous, mostly from the late <unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></unittitle>
-          </did>
+            <unittitle>Edison Voicewriter discs of memos, letters, conference notes, miscellaneous, mostly from the late</unittitle><unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></did>
           <odd>
             <p>(recording speed unknown)</p>
           </odd>
@@ -4340,8 +4055,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [00948408545538057782140]">25</container>
-            <unittitle>"Rizal Day Address" <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>"Rizal Day Address"</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 audiotapes</extent>
               <physfacet>reel-to-reel</physfacet>
             </physdesc>
@@ -4350,8 +4064,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Myrtle Ferguson Papers <unitdate type="inclusive" normal="1946/1966">1946-1966</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Myrtle Ferguson Papers</unittitle><unitdate type="inclusive" normal="1946/1966">1946-1966</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">1 linear feet</extent>
           </physdesc>
         </did>
@@ -4373,8 +4086,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [337335547912470310352]">26</container>
-            <unittitle>Correspondence <unitdate>undated</unitdate>, <unitdate type="inclusive" normal="1946/1966">1946-1966</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Correspondence</unittitle><unitdate>undated</unitdate><unitdate type="inclusive" normal="1946/1966">1946-1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>

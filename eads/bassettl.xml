@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Bassett, Leslie, 1905-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/8742">Bassett, Leslie, 1905-</persname>
       </origination>
-      <unittitle encodinganalog="245">Leslie Bassett Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1946/2005">1946-2005</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0601 Aa 2</unitid>
+      <unittitle encodinganalog="245">Leslie Bassett Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1946/2005">1946-2005</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0601 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Leslie Bassett is a composer and professor of music at the University of Michigan. Bassett’s papers, consisting of correspondence, collected memorabilia, photographs, lectures, scrapbooks, and music, document his career as a composer and professor of music.</abstract>
       <physdesc altrender="part">
@@ -86,29 +86,28 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81062079">Bassett, Leslie, 1923-</persname>
-        <subject source="lcsh" encodinganalog="650">Composers--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81062079" ref="/agents/people/5444">Bassett, Leslie, 1923-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6153">Composers--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/1001">University of Michigan. School of Music.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81062079">Bassett, Leslie, 1923-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87152785">Bassett, Anita Denniston.</persname>
-        <subject source="aat" encodinganalog="650">Concerts--United States.</subject>
-        <subject source="aat" encodinganalog="650">Composers.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81062079" ref="/agents/people/5444">Bassett, Leslie, 1923-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87152785" ref="/agents/people/798">Bassett, Anita Denniston.</persname>
+        <subject source="aat" encodinganalog="650" ref="/subjects/10868">Concerts--United States.</subject>
+        <subject source="aat" encodinganalog="650" ref="/subjects/10869">Composers.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1958/2005">1958-2005</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1958/2005">1958-2005</unitdate></did>
         <scopecontent>
           <p>The Correspondence series (1958-2005, 3.5 linear ft.) is arranged by date, correspondent (name of individual or organization), and topic. Researchers can find both personal correspondence from friends and family as well as professional correspondence detailing different aspects of Bassett's career including music recording and publishing, guest composing, commissions, and awards and fellowships.</p>
         </scopecontent>
@@ -119,10 +118,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [89642990408146651310]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959/1988">1959-1988</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1959/1988">1959-1988</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">18 folders</extent>
               </physdesc>
             </did>
@@ -130,10 +126,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [2959774117247224953]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1988/2004">1988-2004</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1988/2004">1988-2004</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">9 folders</extent>
               </physdesc>
             </did>
@@ -141,10 +134,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [2959774117247224953]">2</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive">Undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -158,32 +148,27 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>Finney, Ross Lee <unitdate type="inclusive" normal="1963/1981">1963-1981</unitdate></unittitle>
-              </did>
+                <unittitle>Finney, Ross Lee</unittitle><unitdate type="inclusive" normal="1963/1981">1963-1981</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>Letters from former students <unitdate type="inclusive" normal="1975/1983">1975-1983</unitdate></unittitle>
-              </did>
+                <unittitle>Letters from former students</unittitle><unitdate type="inclusive" normal="1975/1983">1975-1983</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>Letters from other composers <unitdate type="inclusive" normal="1960/1983">1960-1983</unitdate></unittitle>
-              </did>
+                <unittitle>Letters from other composers</unittitle><unitdate type="inclusive" normal="1960/1983">1960-1983</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>University of Michigan colleagues <unitdate type="inclusive" normal="1981/1998">1981-1998</unitdate></unittitle>
-              </did>
+                <unittitle>University of Michigan colleagues</unittitle><unitdate type="inclusive" normal="1981/1998">1981-1998</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>Valentino, Callegarin <unitdate type="inclusive" normal="1967/1984">1967-1984</unitdate></unittitle>
-              </did>
+                <unittitle>Valentino, Callegarin</unittitle><unitdate type="inclusive" normal="1967/1984">1967-1984</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -193,68 +178,57 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>Abingdon Press <unitdate type="inclusive" normal="1965/1981">1965-1981</unitdate></unittitle>
-              </did>
+                <unittitle>Abingdon Press</unittitle><unitdate type="inclusive" normal="1965/1981">1965-1981</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>Alfred Publishing Company, Inc./Hinshaw Music, Inc. <unitdate type="inclusive" normal="1977/2001">1977-2001</unitdate></unittitle>
-              </did>
+                <unittitle>Alfred Publishing Company, Inc./Hinshaw Music, Inc.</unittitle><unitdate type="inclusive" normal="1977/2001">1977-2001</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>Alphonse Leduc/Robert King Music Sales <unitdate type="inclusive" normal="1959/2003">1959-2003</unitdate></unittitle>
-              </did>
+                <unittitle>Alphonse Leduc/Robert King Music Sales</unittitle><unitdate type="inclusive" normal="1959/2003">1959-2003</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>American Composers Alliance (ACA) <unitdate type="inclusive" normal="1957/2003">1957-2003</unitdate></unittitle>
-              </did>
+                <unittitle>American Composers Alliance (ACA)</unittitle><unitdate type="inclusive" normal="1957/2003">1957-2003</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>American Composers Alliance Library <unitdate type="inclusive" normal="1953/1962">1953-1962</unitdate></unittitle>
-              </did>
+                <unittitle>American Composers Alliance Library</unittitle><unitdate type="inclusive" normal="1953/1962">1953-1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>American Composers Orchestra (ACO) <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-              </did>
+                <unittitle>American Composers Orchestra (ACO)</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>American Society of University Composers (ASUC) <unitdate type="inclusive" normal="1967/1981">1967-1981</unitdate></unittitle>
-              </did>
+                <unittitle>American Society of University Composers (ASUC)</unittitle><unitdate type="inclusive" normal="1967/1981">1967-1981</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>Autograph Editions <unitdate type="inclusive" normal="1966/1977">1966-1977</unitdate></unittitle>
-              </did>
+                <unittitle>Autograph Editions</unittitle><unitdate type="inclusive" normal="1966/1977">1966-1977</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>The Brass Press <unitdate type="inclusive" normal="1973/1980">1973-1980</unitdate></unittitle>
-              </did>
+                <unittitle>The Brass Press</unittitle><unitdate type="inclusive" normal="1973/1980">1973-1980</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2959774117247224953]">2</container>
-                <unittitle>Broadcast Music, Inc. (BMI) <unitdate type="inclusive" normal="1972/2002">1972-2002</unitdate></unittitle>
-              </did>
+                <unittitle>Broadcast Music, Inc. (BMI)</unittitle><unitdate type="inclusive" normal="1972/2002">1972-2002</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>C. F. Peters Corporation <unitdate type="inclusive" normal="1966/2005">1966-2005</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>C. F. Peters Corporation</unittitle><unitdate type="inclusive" normal="1966/2005">1966-2005</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
               </did>
@@ -262,32 +236,27 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>The Church Hymnal Corporation <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-              </did>
+                <unittitle>The Church Hymnal Corporation</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Composers Facsimile Edition <unitdate type="inclusive" normal="1958/1969">1958-1969</unitdate></unittitle>
-              </did>
+                <unittitle>Composers Facsimile Edition</unittitle><unitdate type="inclusive" normal="1958/1969">1958-1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Detroit Symphony Orchestra <unitdate type="inclusive" normal="1989/1996">1989-1996</unitdate></unittitle>
-              </did>
+                <unittitle>Detroit Symphony Orchestra</unittitle><unitdate type="inclusive" normal="1989/1996">1989-1996</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Galaxy Music Corporation <unitdate type="inclusive" normal="1960/1967">1960-1967</unitdate>, <unitdate type="inclusive" normal="1989/1999">1989-1999</unitdate></unittitle>
-              </did>
+                <unittitle>Galaxy Music Corporation</unittitle><unitdate type="inclusive" normal="1960/1967">1960-1967</unitdate><unitdate type="inclusive" normal="1989/1999">1989-1999</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Guggenheim (John Simon Guggenheim Memorial Foundation) <unitdate type="inclusive" normal="1972/1981">1972-1981</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Guggenheim (John Simon Guggenheim Memorial Foundation)</unittitle><unitdate type="inclusive" normal="1972/1981">1972-1981</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -295,110 +264,92 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>International Trombone Association <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></unittitle>
-              </did>
+                <unittitle>International Trombone Association</unittitle><unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>League of Composers -- International Society for Contemporary Music (ISCM) <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-              </did>
+                <unittitle>League of Composers -- International Society for Contemporary Music (ISCM)</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Library of Congress (commission) <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></unittitle>
-              </did>
+                <unittitle>Library of Congress (commission)</unittitle><unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Lorimer Publications <unitdate type="inclusive" normal="1983/1985">1983-1985</unitdate></unittitle>
-              </did>
+                <unittitle>Lorimer Publications</unittitle><unitdate type="inclusive" normal="1983/1985">1983-1985</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Ludwig Music <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></unittitle>
-              </did>
+                <unittitle>Ludwig Music</unittitle><unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Master Musicians Collective <unitdate type="inclusive" normal="1992/2000">1992-2000</unitdate></unittitle>
-              </did>
+                <unittitle>Master Musicians Collective</unittitle><unitdate type="inclusive" normal="1992/2000">1992-2000</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>National Foundation on the Arts and the Humanities (UM sabbatical leave) <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-              </did>
+                <unittitle>National Foundation on the Arts and the Humanities (UM sabbatical leave)</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>National Endowment for the Arts <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></unittitle>
-              </did>
+                <unittitle>National Endowment for the Arts</unittitle><unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>New World Records <unitdate type="inclusive" normal="1979">1979</unitdate>, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-              </did>
+                <unittitle>New World Records</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate><unitdate type="inclusive" normal="1998">1998</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Opus One/CRI/Chestnut Brass <unitdate type="inclusive" normal="1993/1997">1993-1997</unitdate></unittitle>
-              </did>
+                <unittitle>Opus One/CRI/Chestnut Brass</unittitle><unitdate type="inclusive" normal="1993/1997">1993-1997</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Philadelphia Orchestra <unitdate type="inclusive" normal="1973/1982">1973-1982</unitdate>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-              </did>
+                <unittitle>Philadelphia Orchestra</unittitle><unitdate type="inclusive" normal="1973/1982">1973-1982</unitdate><unitdate type="inclusive" normal="1994">1994</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Philharmusica Co. <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-              </did>
+                <unittitle>Philharmusica Co.</unittitle><unitdate type="inclusive" normal="1999">1999</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Prentice-Hall <unitdate type="inclusive" normal="1966/1982">1966-1982</unitdate></unittitle>
-              </did>
+                <unittitle>Prentice-Hall</unittitle><unitdate type="inclusive" normal="1966/1982">1966-1982</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Pulitzer Prizes <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></unittitle>
-              </did>
+                <unittitle>Pulitzer Prizes</unittitle><unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Theodore Presser Co. (Merion Music) <unitdate type="inclusive" normal="1977/2000">1977-2000</unitdate></unittitle>
-              </did>
+                <unittitle>Theodore Presser Co. (Merion Music)</unittitle><unitdate type="inclusive" normal="1977/2000">1977-2000</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>University Music Press <unitdate type="inclusive" normal="1961/1981">1961-1981</unitdate></unittitle>
-              </did>
+                <unittitle>University Music Press</unittitle><unitdate type="inclusive" normal="1961/1981">1961-1981</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>Who's Who, <unitdate normal="1980/1989" certainty="approximate">circa 1980s</unitdate></unittitle>
-              </did>
+                <unittitle>Who's Who</unittitle><unitdate normal="1980/1989" certainty="approximate">circa 1980s</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7534507498064220528424]">3</container>
-                <unittitle>World Library Publications <unitdate type="inclusive" normal="1969/2005">1969-2005</unitdate></unittitle>
-              </did>
+                <unittitle>World Library Publications</unittitle><unitdate type="inclusive" normal="1969/2005">1969-2005</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -409,14 +360,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [26992924945588060204909]">4</container>
-              <unittitle>Baltimore recording <unitdate type="inclusive" normal="1978/1980">1978-1980</unitdate></unittitle>
-            </did>
+              <unittitle>Baltimore recording</unittitle><unitdate type="inclusive" normal="1978/1980">1978-1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [26992924945588060204909]">4</container>
-              <unittitle>Commissions <unitdate type="inclusive" normal="1975/2005">1975-2005</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Commissions</unittitle><unitdate type="inclusive" normal="1975/2005">1975-2005</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -430,45 +379,38 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [26992924945588060204909]">4</container>
-              <unittitle>Guest composer <unitdate type="inclusive" normal="1971/2003">1971-2003</unitdate></unittitle>
-            </did>
+              <unittitle>Guest composer</unittitle><unitdate type="inclusive" normal="1971/2003">1971-2003</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [26992924945588060204909]">4</container>
-              <unittitle>Orchestras (other) <unitdate type="inclusive" normal="1992/1999">1992-1999</unitdate></unittitle>
-            </did>
+              <unittitle>Orchestras (other)</unittitle><unitdate type="inclusive" normal="1992/1999">1992-1999</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [26992924945588060204909]">4</container>
-              <unittitle>Orchestra performances <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></unittitle>
-            </did>
+              <unittitle>Orchestra performances</unittitle><unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [26992924945588060204909]">4</container>
-              <unittitle>Permissions (texts) <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <unittitle>Permissions (texts)</unittitle><unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [26992924945588060204909]">4</container>
-              <unittitle>Recordings (other) <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate></unittitle>
-            </did>
+              <unittitle>Recordings (other)</unittitle><unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [26992924945588060204909]">4</container>
-              <unittitle>Stanley Professorship <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <unittitle>Stanley Professorship</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Memorabilia <unitdate type="inclusive" normal="1946/2004">1946-2004</unitdate></unittitle>
-        </did>
+          <unittitle>Memorabilia</unittitle><unitdate type="inclusive" normal="1946/2004">1946-2004</unitdate></did>
         <scopecontent>
           <p>The Memorabilia series, (1946-2004, 1.5 linear ft.) contains Bassett's collected memorabilia, including articles and clippings as well as programs of music events and performances. Most of the collected programs are from performances at which he conducted or when his music was performed.</p>
         </scopecontent>
@@ -488,10 +430,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [26992924945588060204909]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946/1961">1946-1961</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1946/1961">1946-1961</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
             </did>
@@ -499,10 +438,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [65390634856945165]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962/1986">1962-1986</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1962/1986">1962-1986</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">21 folders</extent>
               </physdesc>
             </did>
@@ -510,10 +446,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [192001661466628989764]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1987/2004">1987-2004</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1987/2004">1987-2004</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">14 folders</extent>
               </physdesc>
             </did>
@@ -521,10 +454,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [192001661466628989764]">6</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive">Undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -539,8 +469,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Topical Files <unitdate type="inclusive" normal="1983/2004">1983-2004</unitdate></unittitle>
-        </did>
+          <unittitle>Topical Files</unittitle><unitdate type="inclusive" normal="1983/2004">1983-2004</unitdate></did>
         <scopecontent>
           <p>The Topical Files (1983-2004, 0.5 linear ft.) series includes interviews of Bassett, several of Bassett's lectures (including his speech as the Henry Russel Lecturer), and various program notes.</p>
         </scopecontent>
@@ -551,14 +480,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [192001661466628989764]">6</container>
-              <unittitle>Johnson <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-            </did>
+              <unittitle>Johnson</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [192001661466628989764]">6</container>
-              <unittitle>Tomassini <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-            </did>
+              <unittitle>Tomassini</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -574,8 +501,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [192001661466628989764]">6</container>
-              <unittitle>Commencement address for the School of Music, "Great Art Thou, O Music!" <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-            </did>
+              <unittitle>Commencement address for the School of Music, "Great Art Thou, O Music!"</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -586,20 +512,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [192001661466628989764]">6</container>
-              <unittitle>Henry Russel Lecture, "The Shape of Content," <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-            </did>
+              <unittitle>Henry Russel Lecture, "The Shape of Content,"</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [192001661466628989764]">6</container>
-              <unittitle>Michigan Orchestra Association on repertory <unitdate type="inclusive" normal="1989-10-13">October 13, 1989</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Orchestra Association on repertory</unittitle><unitdate type="inclusive" normal="1989-10-13">October 13, 1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [192001661466628989764]">6</container>
-              <unittitle>"Music in changing times," <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>"Music in changing times,"</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -610,20 +533,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [192001661466628989764]">6</container>
-              <unittitle>University of Michigan Scientific Club, "American Music: some old, some new," <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-            </did>
+              <unittitle>University of Michigan Scientific Club, "American Music: some old, some new,"</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [192001661466628989764]">6</container>
-              <unittitle>"What are the origins of a new piece of music?" <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>"What are the origins of a new piece of music?"</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [192001661466628989764]">6</container>
-              <unittitle>World Day of Prayer, First Baptist Church, Ann Arbor, "A talk on prayer," <unitdate type="inclusive" normal="1967-02-10">February 10, 1967</unitdate></unittitle>
-            </did>
+              <unittitle>World Day of Prayer, First Baptist Church, Ann Arbor, "A talk on prayer,"</unittitle><unitdate type="inclusive" normal="1967-02-10">February 10, 1967</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -646,8 +566,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [192001661466628989764]">6</container>
-            <unittitle>Robert Lee Finney memorial service <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-          </did>
+            <unittitle>Robert Lee Finney memorial service</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -666,8 +585,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><genreform normal="Photographs">Photographs</genreform>, <unitdate type="inclusive" normal="1977/2003">1977-2003</unitdate></unittitle>
-        </did>
+          <unittitle><genreform normal="Photographs">Photographs</genreform></unittitle><unitdate type="inclusive" normal="1977/2003">1977-2003</unitdate></did>
         <scopecontent>
           <p>The Photographs (1977-2003, 0.5 linear ft.) document Bassett's personal and professional life, including many photos of family, friends and colleagues as well as photographs of composers, performances, and events.</p>
         </scopecontent>
@@ -684,20 +602,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [00274558229815]">7</container>
-              <unittitle>American Academy of Arts and Letters, award recipients <unitdate type="inclusive" normal="1996-05-15">May 15, 1996</unitdate></unittitle>
-            </did>
+              <unittitle>American Academy of Arts and Letters, award recipients</unittitle><unitdate type="inclusive" normal="1996-05-15">May 15, 1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [00274558229815]">7</container>
-              <unittitle>Composers Concordance concert <unitdate type="inclusive" normal="1996-11">November 1996</unitdate></unittitle>
-            </did>
+              <unittitle>Composers Concordance concert</unittitle><unitdate type="inclusive" normal="1996-11">November 1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [00274558229815]">7</container>
-              <unittitle>Contemporary Directions Ensemble (CDE) program <unitdate type="inclusive" normal="2003-04-12">April 12, 2003</unitdate></unittitle>
-            </did>
+              <unittitle>Contemporary Directions Ensemble (CDE) program</unittitle><unitdate type="inclusive" normal="2003-04-12">April 12, 2003</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -712,27 +627,23 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [00274558229815]">7</container>
-                <unittitle>Premiere of "Thoughts that Sing, Breathe, and Burn," <unitdate type="inclusive" normal="1997-02-27/1997-03-01">February 27-March 1, 1997</unitdate></unittitle>
-              </did>
+                <unittitle>Premiere of "Thoughts that Sing, Breathe, and Burn,"</unittitle><unitdate type="inclusive" normal="1997-02-27/1997-03-01">February 27-March 1, 1997</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [00274558229815]">7</container>
-              <unittitle>Midland (Mich.) Symphony Orchestra, premiere of "Concerto for Two Pianos and Orchestra," <unitdate type="inclusive" normal="1977-04-30">April 30, 1977</unitdate></unittitle>
-            </did>
+              <unittitle>Midland (Mich.) Symphony Orchestra, premiere of "Concerto for Two Pianos and Orchestra,"</unittitle><unitdate type="inclusive" normal="1977-04-30">April 30, 1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [00274558229815]">7</container>
-              <unittitle>Mu Phi Epsilon, 100th year anniversary celebration <unitdate type="inclusive" normal="2003-08">August 2003</unitdate></unittitle>
-            </did>
+              <unittitle>Mu Phi Epsilon, 100th year anniversary celebration</unittitle><unitdate type="inclusive" normal="2003-08">August 2003</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [00274558229815]">7</container>
-              <unittitle>Orchestral Hall <unitdate type="inclusive" normal="1992-02-06/1992-02-09">February 6-9, 1992</unitdate> [and?] Calif., <unitdate type="inclusive" normal="1991-12">December 1991</unitdate></unittitle>
-            </did>
+              <unittitle>Orchestral Hall February 6-9, 1992 [and?] Calif., December 1991</unittitle><unitdate type="inclusive" normal="1992-02-06/1992-02-09">February 6-9, 1992</unitdate><unitdate type="inclusive" normal="1991-12">December 1991</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -760,8 +671,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [00274558229815]">7</container>
-              <unittitle>Paul Yeon Lee, Wendoyln Olson, Gabriela Frank at the time of the recording of "Sounds Remembered" for Equilibrium Records <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-            </did>
+              <unittitle>Paul Yeon Lee, Wendoyln Olson, Gabriela Frank at the time of the recording of "Sounds Remembered" for Equilibrium Records</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -780,16 +690,14 @@
       <c01 level="series">
         <did>
           <container type="box" label="Box [00274558229815]">7</container>
-          <unittitle>Scrapbooks <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-        </did>
+          <unittitle>Scrapbooks</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         <scopecontent>
           <p>The Scrapbooks (1991, 0.5 linear ft.) were compiled for Bassett upon his retirement from the University of Michigan in 1991. The scrapbooks include photographs, cards, letters, programs, and clippings covering his career in music and his time at the University of Michigan.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box [00274558229815]">7</container>
-            <unittitle>Retirement from UM <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Retirement from UM</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
@@ -864,14 +772,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [2551669374092000076137197]">12</container>
-              <unittitle>Five Movements for Orchestra <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
+              <unittitle>Five Movements for Orchestra</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2551669374092000076137197]">12</container>
-              <unittitle>Variations for Orchestra <unitdate type="inclusive" normal="1963">1963</unitdate> (©1966)</unittitle>
-            </did>
+              <unittitle>Variations for Orchestra  (©1966)</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
             <odd>
               <p>(LB won the Pulitzer Prize in 1966)</p>
             </odd>
@@ -879,8 +785,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [87573794791000624]">1</container>
-              <unittitle>Variations for Orchestra <unitdate type="inclusive" normal="1963">1963</unitdate> (©1966)</unittitle>
-            </did>
+              <unittitle>Variations for Orchestra  (©1966)</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
             <odd>
               <p>(LB won the Pulitzer Prize in 1966)</p>
             </odd>
@@ -888,14 +793,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [2551669374092000076137197]">12</container>
-              <unittitle>Colloquy <unitdate type="inclusive" normal="1968">1968</unitdate> (©1969)</unittitle>
-            </did>
+              <unittitle>Colloquy  (©1969)</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [756420900833]">42</container>
-              <unittitle>Colloquy <unitdate type="inclusive" normal="1968">1968</unitdate> (©1969)</unittitle>
-            </did>
+              <unittitle>Colloquy  (©1969)</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -903,38 +806,32 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [352788024290941081932]">13</container>
-              <unittitle>Celebration in Praise of Earth <unitdate type="inclusive" normal="1970">1970</unitdate> (©1971)</unittitle>
-            </did>
+              <unittitle>Celebration in Praise of Earth  (©1971)</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [392942843882483485]">2</container>
-              <unittitle>Celebration in Praise of Earth <unitdate type="inclusive" normal="1970">1970</unitdate> (©1971)</unittitle>
-            </did>
+              <unittitle>Celebration in Praise of Earth  (©1971)</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [352788024290941081932]">13</container>
-              <unittitle>Forces <unitdate type="inclusive" normal="1972">1972</unitdate> (©1973)</unittitle>
-            </did>
+              <unittitle>Forces  (©1973)</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2943560647594919678]">14</container>
-              <unittitle>Echoes from an Invisible World <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate> (©1976)</unittitle>
-            </did>
+              <unittitle>Echoes from an Invisible World  (©1976)</unittitle><unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [22961456260080]">3</container>
-              <unittitle>Echoes from an Invisible World <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate> (©1976)</unittitle>
-            </did>
+              <unittitle>Echoes from an Invisible World  (©1976)</unittitle><unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [756420900833]">42</container>
-              <unittitle>Echoes from an Invisible World <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate> (©1976)</unittitle>
-            </did>
+              <unittitle>Echoes from an Invisible World  (©1976)</unittitle><unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -942,20 +839,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3537231413851137391058]">15</container>
-              <unittitle>Concerto for Two Pianos and Orchestra <unitdate type="inclusive" normal="1976">1976</unitdate> (©1977)</unittitle>
-            </did>
+              <unittitle>Concerto for Two Pianos and Orchestra  (©1977)</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [4769689546578887085772]">4</container>
-              <unittitle>Concerto for Two Pianos and Orchestra <unitdate type="inclusive" normal="1976">1976</unitdate> (©1977)</unittitle>
-            </did>
+              <unittitle>Concerto for Two Pianos and Orchestra  (©1977)</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [756420900833]">42</container>
-              <unittitle>Concerto for Two Pianos and Orchestra <unitdate type="inclusive" normal="1976">1976</unitdate> (©1977)</unittitle>
-            </did>
+              <unittitle>Concerto for Two Pianos and Orchestra  (©1977)</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -963,14 +857,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3537231413851137391058]">15</container>
-              <unittitle>Concerto Lirico for Trombone and Orchestra <unitdate type="inclusive" normal="1983">1983</unitdate> (©1984)</unittitle>
-            </did>
+              <unittitle>Concerto Lirico for Trombone and Orchestra  (©1984)</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [756420900833]">42</container>
-              <unittitle>Concerto Lirico for Trombone and Orchestra <unitdate type="inclusive" normal="1983">1983</unitdate> (©1984)</unittitle>
-            </did>
+              <unittitle>Concerto Lirico for Trombone and Orchestra  (©1984)</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -978,14 +870,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3537231413851137391058]">15</container>
-              <unittitle>From a Source Evolving <unitdate type="inclusive" normal="1985">1985</unitdate> (©1986)</unittitle>
-            </did>
+              <unittitle>From a Source Evolving  (©1986)</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [756420900833]">42</container>
-              <unittitle>From a Source Evolving <unitdate type="inclusive" normal="1985">1985</unitdate> (©1986)</unittitle>
-            </did>
+              <unittitle>From a Source Evolving  (©1986)</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -993,20 +883,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [756420900833]">42</container>
-              <unittitle>Concerto for Orchestra <unitdate type="inclusive" normal="1991">1991</unitdate> (©1991) (Concerto for Brass and Orchestra)</unittitle>
-            </did>
+              <unittitle>Concerto for Orchestra  (©1991) (Concerto for Brass and Orchestra)</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1330134803295278]">43</container>
-              <unittitle>Thoughts that Sing, Breathe and Burn <unitdate type="inclusive" normal="1995">1995</unitdate> (©1996)</unittitle>
-            </did>
+              <unittitle>Thoughts that Sing, Breathe and Burn  (©1996)</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1330134803295278]">43</container>
-              <unittitle>Concerto for Alto Saxophone and Orchestra <unitdate type="inclusive" normal="1999">1999</unitdate> ©2000</unittitle>
-            </did>
+              <unittitle>Concerto for Alto Saxophone and Orchestra  ©2000</unittitle><unitdate type="inclusive" normal="1999">1999</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1016,14 +903,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [85665226624127430152]">16</container>
-              <unittitle>Designs, Images and Textures <unitdate type="inclusive" normal="1964">1964</unitdate> (©1966)</unittitle>
-            </did>
+              <unittitle>Designs, Images and Textures  (©1966)</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [103395841973387297]">44</container>
-              <unittitle>Designs, Images and Textures <unitdate type="inclusive" normal="1964">1964</unitdate> (©1966)</unittitle>
-            </did>
+              <unittitle>Designs, Images and Textures  (©1966)</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -1031,14 +916,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [85665226624127430152]">16</container>
-              <unittitle>Sounds, Shapes and Symbols <unitdate type="inclusive" normal="1977">1977</unitdate> (©1978)</unittitle>
-            </did>
+              <unittitle>Sounds, Shapes and Symbols  (©1978)</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [103395841973387297]">44</container>
-              <unittitle>Sounds, Shapes and Symbols <unitdate type="inclusive" normal="1977">1977</unitdate> (©1978)</unittitle>
-            </did>
+              <unittitle>Sounds, Shapes and Symbols  (©1978)</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -1046,14 +929,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [85665226624127430152]">16</container>
-              <unittitle>Concerto Grosso <unitdate type="inclusive" normal="1982">1982</unitdate> (©1983)</unittitle>
-            </did>
+              <unittitle>Concerto Grosso  (©1983)</unittitle><unitdate type="inclusive" normal="1982">1982</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [103395841973387297]">44</container>
-              <unittitle>Concerto Grosso <unitdate type="inclusive" normal="1982">1982</unitdate> (©1983)</unittitle>
-            </did>
+              <unittitle>Concerto Grosso  (©1983)</unittitle><unitdate type="inclusive" normal="1982">1982</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -1061,14 +942,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [85665226624127430152]">16</container>
-              <unittitle>Colors and Contours <unitdate type="inclusive" normal="1984">1984</unitdate> (©1985)</unittitle>
-            </did>
+              <unittitle>Colors and Contours  (©1985)</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [103395841973387297]">44</container>
-              <unittitle>Lullaby (for Kirsten) <unitdate type="inclusive" normal="1985">1985</unitdate> (©1990)</unittitle>
-            </did>
+              <unittitle>Lullaby (for Kirsten)  (©1990)</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -1076,14 +955,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [75695664599079413438]">17</container>
-              <unittitle>Fantasy for Clarinet and Wind Ensemble <unitdate type="inclusive" normal="1986">1986</unitdate> (©1987)</unittitle>
-            </did>
+              <unittitle>Fantasy for Clarinet and Wind Ensemble  (©1987)</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [103395841973387297]">44</container>
-              <unittitle>Fantasy for Clarinet and Wind Ensemble <unitdate type="inclusive" normal="1986">1986</unitdate> (©1987)</unittitle>
-            </did>
+              <unittitle>Fantasy for Clarinet and Wind Ensemble  (©1987)</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -1091,14 +968,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [75695664599079413438]">17</container>
-              <unittitle>Wood and Reed Transformed <unitdate type="inclusive" normal="1998">1998</unitdate> (©1999)</unittitle>
-            </did>
+              <unittitle>Wood and Reed Transformed  (©1999)</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [103395841973387297]">44</container>
-              <unittitle>Wood and Reed Transformed <unitdate type="inclusive" normal="1998">1998</unitdate> (©1999)</unittitle>
-            </did>
+              <unittitle>Wood and Reed Transformed  (©1999)</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -1111,62 +986,52 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [13792413457030486]">18</container>
-              <unittitle>Trio for Viola, Clarinet and Piano <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            </did>
+              <unittitle>Trio for Viola, Clarinet and Piano</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [13792413457030486]">18</container>
-              <unittitle>Quintet for Strings <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            </did>
+              <unittitle>Quintet for Strings</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [13792413457030486]">18</container>
-              <unittitle>Clarinet Duets <unitdate type="inclusive" normal="1955">1955</unitdate> (©1956, 1977)</unittitle>
-            </did>
+              <unittitle>Clarinet Duets  (©1956, 1977)</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [13792413457030486]">18</container>
-              <unittitle>Sonata for Viola and Piano <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-            </did>
+              <unittitle>Sonata for Viola and Piano</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [13792413457030486]">18</container>
-              <unittitle>Sonata for Violoncello and Piano <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-            </did>
+              <unittitle>Sonata for Violoncello and Piano</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [13792413457030486]">18</container>
-              <unittitle>Five Pieces for String Quartet <unitdate type="inclusive" normal="1957">1957</unitdate> (©1960)</unittitle>
-            </did>
+              <unittitle>Five Pieces for String Quartet  (©1960)</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [13792413457030486]">18</container>
-              <unittitle>Woodwind Quintet <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <unittitle>Woodwind Quintet</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [13792413457030486]">18</container>
-              <unittitle>Cello Duets <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            </did>
+              <unittitle>Cello Duets</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [13792413457030486]">18</container>
-              <unittitle>Sonata for Violin and Piano <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            </did>
+              <unittitle>Sonata for Violin and Piano</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [13792413457030486]">18</container>
-              <unittitle>Quintet for Piano and Strings <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <unittitle>Quintet for Piano and Strings</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1177,38 +1042,32 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [520940613241610963]">19</container>
-              <unittitle>Music for Cello and Piano <unitdate type="inclusive" normal="1966">1966</unitdate> (©1971)</unittitle>
-            </did>
+              <unittitle>Music for Cello and Piano  (©1971)</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [520940613241610963]">19</container>
-              <unittitle>Nonet <unitdate type="inclusive" normal="1967">1967</unitdate> (©1969)</unittitle>
-            </did>
+              <unittitle>Nonet  (©1969)</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [6676314858368148068261]">5</container>
-              <unittitle>Nonet <unitdate type="inclusive" normal="1967">1967</unitdate> (©1969)</unittitle>
-            </did>
+              <unittitle>Nonet  (©1969)</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [520940613241610963]">19</container>
-              <unittitle>Music for Saxophone and Piano <unitdate type="inclusive" normal="1968">1968</unitdate> (©1969)</unittitle>
-            </did>
+              <unittitle>Music for Saxophone and Piano  (©1969)</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9305124809271968620]">20</container>
-              <unittitle>Sextet for Piano and Strings <unitdate type="inclusive" normal="1971">1971</unitdate> (©1975)</unittitle>
-            </did>
+              <unittitle>Sextet for Piano and Strings  (©1975)</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [103395841973387297]">44</container>
-              <unittitle>Sextet for Piano and Strings <unitdate type="inclusive" normal="1971">1971</unitdate> (©1975)</unittitle>
-            </did>
+              <unittitle>Sextet for Piano and Strings  (©1975)</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -1216,92 +1075,77 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [04085656443393555308]">21</container>
-              <unittitle>Sounds Remembered <unitdate type="inclusive" normal="1972">1972</unitdate> (©1975)</unittitle>
-            </did>
+              <unittitle>Sounds Remembered  (©1975)</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [04085656443393555308]">21</container>
-              <unittitle>Wind Music <unitdate type="inclusive" normal="1975">1975</unitdate> (©1977)</unittitle>
-            </did>
+              <unittitle>Wind Music  (©1977)</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [04085656443393555308]">21</container>
-              <unittitle>Sextet for flutes, clarinets, and strings <unitdate type="inclusive" normal="1979">1979</unitdate> (©1982)</unittitle>
-            </did>
+              <unittitle>Sextet for flutes, clarinets, and strings  (©1982)</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [04085656443393555308]">21</container>
-              <unittitle>Fourth String Quartet <unitdate type="inclusive" normal="1978">1978</unitdate> (©1980)</unittitle>
-            </did>
+              <unittitle>Fourth String Quartet  (©1980)</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [04085656443393555308]">21</container>
-              <unittitle>Trio for Violin, Clarinet and Piano <unitdate type="inclusive" normal="1980">1980</unitdate> (©1982)</unittitle>
-            </did>
+              <unittitle>Trio for Violin, Clarinet and Piano  (©1982)</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [81669323640572046246]">22</container>
-              <unittitle>Concerto da Camera <unitdate type="inclusive" normal="1981">1981</unitdate> (©1982)</unittitle>
-            </did>
+              <unittitle>Concerto da Camera  (©1982)</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [81669323640572046246]">22</container>
-              <unittitle>Duo Concertante <unitdate type="inclusive" normal="1984">1984</unitdate> (©1988)</unittitle>
-            </did>
+              <unittitle>Duo Concertante  (©1988)</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [81669323640572046246]">22</container>
-              <unittitle>Dialogues <unitdate type="inclusive" normal="1987">1987</unitdate> (©1990)</unittitle>
-            </did>
+              <unittitle>Dialogues  (©1990)</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [81669323640572046246]">22</container>
-              <unittitle>Pierrot Songs <unitdate type="inclusive" normal="1988">1988</unitdate> (©1990)</unittitle>
-            </did>
+              <unittitle>Pierrot Songs  (©1990)</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [464340684237666902]">23</container>
-              <unittitle>Duo-Inventions, (two cellos) <unitdate type="inclusive" normal="1988">1988</unitdate> (©1990)</unittitle>
-            </did>
+              <unittitle>Duo-Inventions, (two cellos)  (©1990)</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [464340684237666902]">23</container>
-              <unittitle>Illuminations <unitdate type="inclusive" normal="1989">1989</unitdate> (©1990)</unittitle>
-            </did>
+              <unittitle>Illuminations  (©1990)</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [464340684237666902]">23</container>
-              <unittitle>Arias for Clarinet and Piano <unitdate type="inclusive" normal="1992">1992</unitdate> (©1993)</unittitle>
-            </did>
+              <unittitle>Arias for Clarinet and Piano  (©1993)</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [464340684237666902]">23</container>
-              <unittitle>Narratives, (guitar quartet) <unitdate type="inclusive" normal="1993">1993</unitdate> (©1995)</unittitle>
-            </did>
+              <unittitle>Narratives, (guitar quartet)  (©1995)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [464340684237666902]">23</container>
-              <unittitle>Trio-Inventions <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <unittitle>Trio-Inventions</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [464340684237666902]">23</container>
-              <unittitle>Three Graces <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-            </did>
+              <unittitle>Three Graces</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1311,110 +1155,92 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [94948316480840186537803]">24</container>
-              <unittitle>The Lamb, text by William Blake <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-            </did>
+              <unittitle>The Lamb, text by William Blake</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [94948316480840186537803]">24</container>
-              <unittitle>Out of the Depths, Ps. 130 <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <unittitle>Out of the Depths, Ps. 130</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [94948316480840186537803]">24</container>
-              <unittitle>Cantata, For City, Nation, World, Lutheran hymns and other texts <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            </did>
+              <unittitle>Cantata, For City, Nation, World, Lutheran hymns and other texts</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [94948316480840186537803]">24</container>
-              <unittitle>Moonrise, text by D H Lawrence <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-            </did>
+              <unittitle>Moonrise, text by D H Lawrence</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [94948316480840186537803]">24</container>
-              <unittitle>Remembrance, text by Hoover Rupert <unitdate type="inclusive" normal="1960">1960</unitdate> (©1968)</unittitle>
-            </did>
+              <unittitle>Remembrance, text by Hoover Rupert  (©1968)</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [94948316480840186537803]">24</container>
-              <unittitle>Eclogue, Encomium and Evocation, text from Song of Songs <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <unittitle>Eclogue, Encomium and Evocation, text from Song of Songs</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [94948316480840186537803]">24</container>
-              <unittitle>Follow Now that Bright Star (Christmas carol) <unitdate type="inclusive" normal="1962">1962</unitdate> (©1977)</unittitle>
-            </did>
+              <unittitle>Follow Now that Bright Star (Christmas carol)  (©1977)</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [94948316480840186537803]">24</container>
-              <unittitle>Hear My Prayer, O Lord, text from Psalm 64 <unitdate type="inclusive" normal="1965">1965</unitdate> (©1967)</unittitle>
-            </did>
+              <unittitle>Hear My Prayer, O Lord, text from Psalm 64  (©1967)</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [94948316480840186537803]">24</container>
-              <unittitle>Prayers for Divine Service, Latin texts <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Prayers for Divine Service, Latin texts</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [94948316480840186537803]">24</container>
-              <unittitle>Notes in the Silence, texts from Dag Hammarskjold's <title render="italic">Markings</title>, <unitdate type="inclusive" normal="1966">1966</unitdate> (©1973)</unittitle>
-            </did>
+              <unittitle>Notes in the Silence, texts from Dag Hammarskjold's <title render="italic">Markings</title>,  (©1973)</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [065788794232561044139379]">25</container>
-              <unittitle>Collect, text a prayer for peace <unitdate type="inclusive" normal="1969">1969</unitdate> (©1970)</unittitle>
-            </did>
+              <unittitle>Collect, text a prayer for peace  (©1970)</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [065788794232561044139379]">25</container>
-              <unittitle>Moon Canticle, texts from numerous sources concerning the moon <unitdate type="inclusive" normal="1969">1969</unitdate> (©1971)</unittitle>
-            </did>
+              <unittitle>Moon Canticle, texts from numerous sources concerning the moon  (©1971)</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [065788794232561044139379]">25</container>
-              <unittitle>Of Wind and Earth, texts by Shelley, William Conan Bryant, St. Francis <unitdate type="inclusive" normal="1973">1973</unitdate> (©1978)</unittitle>
-            </did>
+              <unittitle>Of Wind and Earth, texts by Shelley, William Conan Bryant, St. Francis  (©1978)</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [065788794232561044139379]">25</container>
-              <unittitle>A Ring of Emeralds, 5 movements with assorted Irish texts <unitdate type="inclusive" normal="1979">1979</unitdate> (©1981)</unittitle>
-            </did>
+              <unittitle>A Ring of Emeralds, 5 movements with assorted Irish texts  (©1981)</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [065788794232561044139379]">25</container>
-              <unittitle>Sing to the Lord, text from Psalm 95 <unitdate type="inclusive" normal="1981">1981</unitdate> (©1987)</unittitle>
-            </did>
+              <unittitle>Sing to the Lord, text from Psalm 95  (©1987)</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [065788794232561044139379]">25</container>
-              <unittitle>Lord, Who Hast Formed Me, text by George Herbert <unitdate type="inclusive" normal="1981">1981</unitdate> (©1987)</unittitle>
-            </did>
+              <unittitle>Lord, Who Hast Formed Me, text by George Herbert  (©1987)</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [065788794232561044139379]">25</container>
-              <unittitle>Whoe'er She Be, text by Robert Crashaw <unitdate type="inclusive" normal="1986">1986</unitdate> (©1989)</unittitle>
-            </did>
+              <unittitle>Whoe'er She Be, text by Robert Crashaw  (©1989)</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [103395841973387297]">44</container>
-              <unittitle>Whoe'er She Be, text by Robert Crashaw <unitdate type="inclusive" normal="1986">1986</unitdate> (©1989)</unittitle>
-            </did>
+              <unittitle>Whoe'er She Be, text by Robert Crashaw  (©1989)</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -1422,14 +1248,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [065788794232561044139379]">25</container>
-              <unittitle>Almighty, Eternal, text by L. Bassett <unitdate type="inclusive" normal="1990">1990</unitdate> (©1994)</unittitle>
-            </did>
+              <unittitle>Almighty, Eternal, text by L. Bassett  (©1994)</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [103395841973387297]">44</container>
-              <unittitle>Almighty, Eternal, text by L. Bassett <unitdate type="inclusive" normal="1990">1990</unitdate> (©1994)</unittitle>
-            </did>
+              <unittitle>Almighty, Eternal, text by L. Bassett  (©1994)</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
             <odd>
               <p>(oversize)</p>
             </odd>
@@ -1437,8 +1261,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [065788794232561044139379]">25</container>
-              <unittitle>Maker of our Being, text by L. Bassett <unitdate type="inclusive" normal="1993">1993</unitdate> (©1995)</unittitle>
-            </did>
+              <unittitle>Maker of our Being, text by L. Bassett  (©1995)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1448,56 +1271,47 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3929379461509305912385]">26</container>
-              <unittitle>Quartet for Trombones <unitdate type="inclusive" normal="1949">1949</unitdate> (©1954)</unittitle>
-            </did>
+              <unittitle>Quartet for Trombones  (©1954)</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3929379461509305912385]">26</container>
-              <unittitle>Sonata for Horn and Piano <unitdate type="inclusive" normal="1952">1952</unitdate> (©1954)</unittitle>
-            </did>
+              <unittitle>Sonata for Horn and Piano  (©1954)</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3929379461509305912385]">26</container>
-              <unittitle>Brass Trio <unitdate type="inclusive" normal="1953">1953</unitdate> (©1968)</unittitle>
-            </did>
+              <unittitle>Brass Trio  (©1968)</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3929379461509305912385]">26</container>
-              <unittitle>Sonata for Trombone and Piano <unitdate type="inclusive" normal="1954">1954</unitdate> (©1954)</unittitle>
-            </did>
+              <unittitle>Sonata for Trombone and Piano  (©1954)</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3929379461509305912385]">26</container>
-              <unittitle>Suite for Unaccompanied Trombone <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <unittitle>Suite for Unaccompanied Trombone</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3929379461509305912385]">26</container>
-              <unittitle>12 Duos for Two or Four Trombones <unitdate type="inclusive" normal="1974">1974</unitdate> (©1978)</unittitle>
-            </did>
+              <unittitle>12 Duos for Two or Four Trombones  (©1978)</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3929379461509305912385]">26</container>
-              <unittitle>Salute <unitdate type="inclusive" normal="1985">1985</unitdate> (©1985)</unittitle>
-            </did>
+              <unittitle>Salute  (©1985)</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3929379461509305912385]">26</container>
-              <unittitle>Brass Quintet <unitdate type="inclusive" normal="1988">1988</unitdate> (©1991)</unittitle>
-            </did>
+              <unittitle>Brass Quintet  (©1991)</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3929379461509305912385]">26</container>
-              <unittitle>Song and Dance <unitdate type="inclusive" normal="1993">1993</unitdate> (©1998)</unittitle>
-            </did>
+              <unittitle>Song and Dance  (©1998)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1507,38 +1321,32 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [918423174988947896]">27</container>
-              <unittitle>Four Songs, texts Wm. Blake, Geo. Herbert, Edwin A. Robinson <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            </did>
+              <unittitle>Four Songs, texts Wm. Blake, Geo. Herbert, Edwin A. Robinson</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [918423174988947896]">27</container>
-              <unittitle>To Music, texts by Ben Jonson, Robert Herrick, Wm. Billings <unitdate type="inclusive" normal="1962">1962</unitdate> (©1966)</unittitle>
-            </did>
+              <unittitle>To Music, texts by Ben Jonson, Robert Herrick, Wm. Billings  (©1966)</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [918423174988947896]">27</container>
-              <unittitle>The Jade Garden, four oriental poems in English <unitdate type="inclusive" normal="1973">1973</unitdate> (©1977)</unittitle>
-            </did>
+              <unittitle>The Jade Garden, four oriental poems in English  (©1977)</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [918423174988947896]">27</container>
-              <unittitle>Time and Beyond, texts by Emerson, Tagore, Mark Van Doren <unitdate type="inclusive" normal="1973">1973</unitdate> (©1980)</unittitle>
-            </did>
+              <unittitle>Time and Beyond, texts by Emerson, Tagore, Mark Van Doren  (©1980)</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [918423174988947896]">27</container>
-              <unittitle>Love Songs (Five Love Songs for Soprano and Piano), texts from anon. Greek, W S Landor, Anne Bradstreet, Emerson, Henry Harrington <unitdate type="inclusive" normal="1975">1975</unitdate> (©1977)</unittitle>
-            </did>
+              <unittitle>Love Songs (Five Love Songs for Soprano and Piano), texts from anon. Greek, W S Landor, Anne Bradstreet, Emerson, Henry Harrington  (©1977)</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [918423174988947896]">27</container>
-              <unittitle>Two Stephens Songs <title render="italic">The Shell</title> and <title render="italic">The Lion</title> (<title render="italic">In Waste Places</title>), poems by James Stephens, <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate></unittitle>
-            </did>
+              <unittitle>Two Stephens Songs <title render="italic">The Shell</title> and <title render="italic">The Lion</title> (<title render="italic">In Waste Places</title>), poems by James Stephens</unittitle><unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1548,20 +1356,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [8381599491170732647]">28</container>
-              <unittitle>Soliloquies <unitdate type="inclusive" normal="1976">1976</unitdate> (©1978)</unittitle>
-            </did>
+              <unittitle>Soliloquies  (©1978)</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [8381599491170732647]">28</container>
-              <unittitle>Temperaments (five) <unitdate type="inclusive" normal="1979/1983">1979-1983</unitdate> (©1984)</unittitle>
-            </did>
+              <unittitle>Temperaments (five)  (©1984)</unittitle><unitdate type="inclusive" normal="1979/1983">1979-1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [8381599491170732647]">28</container>
-              <unittitle>Metamorphoses, 8 pieces for solo bassoon <unitdate type="inclusive" normal="1990">1990</unitdate> (©1992)</unittitle>
-            </did>
+              <unittitle>Metamorphoses, 8 pieces for solo bassoon  (©1992)</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1577,20 +1382,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [8381599491170732647]">28</container>
-              <unittitle>Voluntaries <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <unittitle>Voluntaries</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [8381599491170732647]">28</container>
-              <unittitle>Four Statements <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Four Statements</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [8381599491170732647]">28</container>
-              <unittitle>Liturgies (6 movements) <unitdate type="inclusive" normal="1980">1980</unitdate> (©1984)</unittitle>
-            </did>
+              <unittitle>Liturgies (6 movements)  (©1984)</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1600,32 +1402,27 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [028103234459534010829659]">29</container>
-              <unittitle>Six Piano Pieces <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-            </did>
+              <unittitle>Six Piano Pieces</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [028103234459534010829659]">29</container>
-              <unittitle>Mobile <unitdate type="inclusive" normal="1961">1961</unitdate> (©1979)</unittitle>
-            </did>
+              <unittitle>Mobile  (©1979)</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [028103234459534010829659]">29</container>
-              <unittitle>Elaborations <unitdate type="inclusive" normal="1966">1966</unitdate> (©1983)</unittitle>
-            </did>
+              <unittitle>Elaborations  (©1983)</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [028103234459534010829659]">29</container>
-              <unittitle>Preludes (seven) <unitdate type="inclusive" normal="1984">1984</unitdate> (©1988)</unittitle>
-            </did>
+              <unittitle>Preludes (seven)  (©1988)</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [028103234459534010829659]">29</container>
-              <unittitle>Configurations <unitdate type="inclusive" normal="1987">1987</unitdate> (©1988)</unittitle>
-            </did>
+              <unittitle>Configurations  (©1988)</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1635,8 +1432,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [13195269195474858954056]">30</container>
-              <unittitle>Second Symphony <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-            </did>
+              <unittitle>Second Symphony</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
             <odd>
               <p>(composition for doctorate)</p>
             </odd>
@@ -1644,8 +1440,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72798763643709691939527]">31</container>
-              <unittitle>Second Symphony <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-            </did>
+              <unittitle>Second Symphony</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
             <odd>
               <p>(composition for doctorate) continued</p>
             </odd>
@@ -1653,8 +1448,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4779190454975951281]">32</container>
-              <unittitle>Symphony in B <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-              <physdesc altrender="part">
+              <unittitle>Symphony in B</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -1668,8 +1462,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [245361882413895690428]">33</container>
-              <unittitle>Designs in Brass : Two Movements for Brass Choir <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-            </did>
+              <unittitle>Designs in Brass : Two Movements for Brass Choir</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
             <odd>
               <p>(one of two compositions written for M.M. degree)</p>
             </odd>
@@ -1718,14 +1511,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [245361882413895690428]">33</container>
-              <unittitle>Short Response for After Prayer <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-            </did>
+              <unittitle>Short Response for After Prayer</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [245361882413895690428]">33</container>
-              <unittitle>Introit: Sing Praise to the Lord (First United Methodist Church) <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <unittitle>Introit: Sing Praise to the Lord (First United Methodist Church)</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1766,8 +1557,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [12723596420496348685965]">34</container>
-              <unittitle>Trombones in the Instrumental Ensembles of Biagio Marini <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <unittitle>Trombones in the Instrumental Ensembles of Biagio Marini</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1820,8 +1610,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [01368508746634362251]">36</container>
-              <unittitle>Incidental Music for the Tempest <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-            </did>
+              <unittitle>Incidental Music for the Tempest</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>

@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6688">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
       </origination>
-      <unittitle encodinganalog="245">Walter I. McKenzie Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1914/1962">1914-1962</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1918/1919">1918-1919</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1946/1947">1946-1947</unitdate></unittitle>
-      <abstract>Detroit attorney, assistant U. S. Prosecutor at the International Military Tribunal for the Far East following World War II; correspondence and official court materials largely relating to Japanese intervention in Manchuria; materials relating to service in Polar Expedition to northern Russian during World War I; miscellaneous papers relating to other political and legal activities; and photographs.</abstract>
+      <unittitle encodinganalog="245">Walter I. McKenzie Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1914/1962">1914-1962</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1918/1919">1918-1919</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1946/1947">1946-1947</unitdate><abstract>Detroit attorney, assistant U. S. Prosecutor at the International Military Tribunal for the Far East following World War II; correspondence and official court materials largely relating to Japanese intervention in Manchuria; materials relating to service in Polar Expedition to northern Russian during World War I; miscellaneous papers relating to other political and legal activities; and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">2009195 Aa 2 UAm</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -90,30 +90,30 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80152331">International Military Tribunal for the Far East.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Japan.</geogname>
-        <persname source="lcnaf" encodinganalog="600">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Foreign relations--Japan.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80152331" ref="/agents/corporate_entities/663">International Military Tribunal for the Far East.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Japan.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6688">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/984">United States--Foreign relations--Japan.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80152331">International Military Tribunal for the Far East.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Japan.</geogname>
-        <persname source="lcnaf" encodinganalog="600">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
-        <famname source="lcnaf" encodinganalog="600">McKenzie family.</famname>
-        <subject source="lctgm" encodinganalog="650">Military art and science.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81094908">Veterans of Foreign Wars of the United States.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539" ref="/subjects/929">Detroit (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80152331" ref="/agents/corporate_entities/663">International Military Tribunal for the Far East.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Japan.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6688">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/31">McKenzie family.</famname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3771">Military art and science.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81094908" ref="/agents/corporate_entities/1078">Veterans of Foreign Wars of the United States.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -144,8 +144,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2370844469225515197]">1</container>
-            <unittitle>Dated files <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1914/1937">1914-1937</unitdate>, <unitdate type="inclusive" normal="1944/1958">1944-1958</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Dated files</unittitle><unitdate type="inclusive">undated</unitdate><unitdate type="inclusive" normal="1914/1937">1914-1937</unitdate><unitdate type="inclusive" normal="1944/1958">1944-1958</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">15 folders</extent>
             </physdesc>
           </did>
@@ -153,8 +152,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2370844469225515197]">1</container>
-            <unittitle>Exchanges with wife and other family members <unitdate type="inclusive" normal="1946-03/1946-11">March-November 1946</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Exchanges with wife and other family members</unittitle><unitdate type="inclusive" normal="1946-03/1946-11">March-November 1946</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
             </physdesc>
           </did>
@@ -464,8 +462,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [177754488575935821]">2</container>
-            <unittitle>Judgment <unitdate type="inclusive" normal="1948-11">November 1948</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Judgment</unittitle><unitdate type="inclusive" normal="1948-11">November 1948</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 volumes</extent>
             </physdesc>
           </did>
@@ -473,8 +470,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [177754488575935821]">2</container>
-            <unittitle>Monthly diaries <unitdate type="inclusive" normal="1946-03/1946-12">March-December 1946</unitdate></unittitle>
-          </did>
+            <unittitle>Monthly diaries</unittitle><unitdate type="inclusive" normal="1946-03/1946-12">March-December 1946</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -487,8 +483,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0367145462628152429]">3</container>
-            <unittitle>Law school notes and examinations <unitdate type="inclusive" normal="1914" certainty="approximate">circa 1914</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Law school notes and examinations</unittitle><unitdate type="inclusive" normal="1914" certainty="approximate">circa 1914</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -521,8 +516,7 @@
           <did>
             <container type="box" label="Box [0367145462628152429]" id="ad862b19-d0ea-43fd-895f-636aa277b39b">3</container>
             <container type="folder" label="Folder" parent="ad862b19-d0ea-43fd-895f-636aa277b39b">2</container>
-            <unittitle>Diary of experiences in Russia <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></unittitle>
-            <physdesc altrender="part">
+            <unittitle>Diary of experiences in Russia</unittitle><unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate><physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">1 items</extent>
             </physdesc>
             <physdesc altrender="part">
@@ -532,16 +526,12 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1918-01/1919-07">January 1918-July 1919</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1918-01/1919-07">January 1918-July 1919</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0367145462628152429]" id="71bb0d6c-30ca-407c-a0fb-898ac40f354e">3</container>
               <container type="folder" label="Folder" parent="71bb0d6c-30ca-407c-a0fb-898ac40f354e">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918-01/1918-06">January-June 1918</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1918-01/1918-06">January-June 1918</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 items</extent>
               </physdesc>
             </did>
@@ -550,10 +540,7 @@
             <did>
               <container type="box" label="Box [0367145462628152429]" id="e678c702-7aaa-425f-855c-7e16b4a1d13e">3</container>
               <container type="folder" label="Folder" parent="e678c702-7aaa-425f-855c-7e16b4a1d13e">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918-07">July 1918</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1918-07">July 1918</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">30 items</extent>
               </physdesc>
             </did>
@@ -562,19 +549,13 @@
             <did>
               <container type="box" label="Box [0367145462628152429]" id="b4ab24bf-33b5-478e-a6dc-3fbd4d55e50d">3</container>
               <container type="folder" label="Folder" parent="b4ab24bf-33b5-478e-a6dc-3fbd4d55e50d">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918-08/1918-09">August-September, 1918</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1918-08/1918-09">August-September, 1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0367145462628152429]" id="f54e960d-a203-4c6b-9491-3898123d5310">3</container>
               <container type="folder" label="Folder" parent="f54e960d-a203-4c6b-9491-3898123d5310">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918-10/1918-12">October-December 1918</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1918-10/1918-12">October-December 1918</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">31 items</extent>
               </physdesc>
             </did>
@@ -583,10 +564,7 @@
             <did>
               <container type="box" label="Box [0367145462628152429]" id="8a9abb6d-bb34-4e61-9cd7-0867e3dac4b0">3</container>
               <container type="folder" label="Folder" parent="8a9abb6d-bb34-4e61-9cd7-0867e3dac4b0">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1919-01/1919-03">January-March, 1919</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1919-01/1919-03">January-March, 1919</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">19 items</extent>
               </physdesc>
             </did>
@@ -595,10 +573,7 @@
             <did>
               <container type="box" label="Box [0367145462628152429]" id="a2e4a789-de55-452c-b17b-1b6c884aaa96">3</container>
               <container type="folder" label="Folder" parent="a2e4a789-de55-452c-b17b-1b6c884aaa96">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1919-04/1919-05">April-May, 1919</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1919-04/1919-05">April-May, 1919</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">20 items</extent>
               </physdesc>
             </did>
@@ -607,10 +582,7 @@
             <did>
               <container type="box" label="Box [0367145462628152429]" id="0442633c-1b49-4d93-a6de-ef14a8afa5d0">3</container>
               <container type="folder" label="Folder" parent="0442633c-1b49-4d93-a6de-ef14a8afa5d0">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1919-06/1919-07">June-July, 1919</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1919-06/1919-07">June-July, 1919</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">15 items</extent>
               </physdesc>
             </did>
@@ -746,8 +718,7 @@
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [047766310453850091771]">1</container>
-              <unittitle>Group photos, 339th Infantry, Camp Devens <unitdate type="inclusive" normal="1919-07-14">July 14, 1919</unitdate> and Reunion photos, <unitdate type="inclusive" normal="1921/1945">1921-1945</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Group photos, 339th Infantry, Camp Devens July 14, 1919 and Reunion photos, 1921-1945</unittitle><unitdate type="inclusive" normal="1919-07-14">July 14, 1919</unitdate><unitdate type="inclusive" normal="1921/1945">1921-1945</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 items</extent>
               </physdesc>
             </did>
@@ -764,8 +735,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0367145462628152429]">3</container>
-            <unittitle>Political miscellanea <unitdate type="inclusive" normal="1920/1939" certainty="approximate">1920s-1930s</unitdate></unittitle>
-          </did>
+            <unittitle>Political miscellanea</unittitle><unitdate type="inclusive" normal="1920/1939" certainty="approximate">1920s-1930s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -791,8 +761,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0367145462628152429]">3</container>
-            <unittitle>Personal cash book <unitdate type="inclusive" normal="1924/1928">1924-1928</unitdate></unittitle>
-          </did>
+            <unittitle>Personal cash book</unittitle><unitdate type="inclusive" normal="1924/1928">1924-1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -840,8 +809,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0367145462628152429]">3</container>
-            <unittitle>Far East War Crimes Trial <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate></unittitle>
-          </did>
+            <unittitle>Far East War Crimes Trial</unittitle><unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

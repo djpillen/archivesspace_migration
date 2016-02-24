@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Alumni Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/637">University of Michigan. Alumni Association.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Alumni Association (University of Michigan) Individual Photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1969" certainty="approximate">circa 1880-1960s</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8730; Bimu; H1a; 2 [8730p]</unitid>
+      <unittitle encodinganalog="245">Alumni Association (University of Michigan) Individual Photographs</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1880/1969" certainty="approximate">circa 1880-1960s</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8730; Bimu; H1a; 2 [8730p]</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Photos of University of Michigan alumni, faculty and staff collected by the University Alumni Association.</abstract>
       <physdesc altrender="whole">
@@ -79,11 +79,11 @@
         <head>Subjects:</head>
         <controlaccess>
           <head>Subjects - Visual Materials:</head>
-          <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Alumni and alumnae.</corpname>
-          <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Sports.</corpname>
-          <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-          <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
-          <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students.</corpname>
+          <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Alumni and alumnae.<term type="topical">Alumni and alumnae.</term></corpname>
+          <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Sports.<term type="topical">Sports.</term></corpname>
+          <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+          <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
+          <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students.<term type="topical">Students.</term></corpname>
         </controlaccess>
       </controlaccess>
     </controlaccess>
@@ -60742,8 +60742,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [877688312426932995113]">146</container>
-              <unittitle><persname>Sukarno</persname> (President of Indonesia), <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle><persname>Sukarno</persname> (President of Indonesia)</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 photographs</extent>
               </physdesc>
             </did>

@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79119400">Kauper, Paul G.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79119400" ref="/agents/people/1794">Kauper, Paul G.</persname>
       </origination>
-      <unittitle encodinganalog="245">Paul G. Kauper papers <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1974">1925-1974</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85306 Aa 2</unitid>
+      <unittitle encodinganalog="245">Paul G. Kauper papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1925/1974">1925-1974</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85306 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of law at the University of Michigan. Papers include correspondence, course materials, and professional files reflecting his interest in constitutional law, university affairs, and legal questions of religious liberty and church-state relations; and manuscripts of writings, speech and conference files, reprints and copies of articles, and photographs.</abstract>
       <repository>
@@ -83,91 +83,75 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">African Americans--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Citizens' Council.</corpname>
-        <subject source="lcsh" encodinganalog="650">Church and state.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79119400">Kauper, Paul G.</persname>
-        <subject source="lcsh" encodinganalog="650">Law.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Lutheran Church--Michigan--Ann Arbor.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79071132">State Bar of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Governor's Transportation Study Commission (1950-1952)</corpname>
-        <subject source="lcsh" encodinganalog="650">Transportation--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Law School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1951-1960.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1961-1970.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Zion Lutheran Church (Ann Arbor, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Public schools--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Trucking--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5763">African Americans--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/241">Ann Arbor Citizens' Council.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8607">Church and state.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79119400" ref="/agents/people/1794">Kauper, Paul G.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5830">Law.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3278">Lutheran Church--Michigan--Ann Arbor.<term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79071132" ref="/agents/corporate_entities/5161">State Bar of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3643">Michigan. Governor's Transportation Study Commission (1950-1952)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8010">Transportation--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Law School.<term type="topical">Law School.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1951-1960.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1951-1960.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1961-1970.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1961-1970.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4655">Zion Lutheran Church (Ann Arbor, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5699">Public schools--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8608">Trucking--United States.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79119400">Kauper, Paul G.</persname>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <corpname source="lcnaf" encodinganalog="610">University of Heidelberg.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Law School--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79119400" ref="/agents/people/1794">Kauper, Paul G.</persname>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/365">University of Heidelberg.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Law School--Faculty.<term type="topical">Faculty.</term><term type="topical">Law School</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79119400">Kauper, Paul G.</persname>
-        <subject source="lcsh" encodinganalog="650">Church and state--United States.</subject>
-        <geogname source="lcsh" encodinganalog="651">Ann Arbor (Mich.)--Religion.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79119400" ref="/agents/people/1794">Kauper, Paul G.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6378">Church and state--United States.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1293">Ann Arbor (Mich.)--Religion.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Compact discs.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3165">Compact discs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1925/1974">1925-1974</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1925/1974">1925-1974</unitdate></did>
         <scopecontent>
           <p>The Correspondence file is arranged chronologically.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box [08622122441982114398]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1925/1947">1925-1947</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1925/1947">1925-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7615510243903840]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1948/1956">1948-1956</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1948/1956">1948-1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [826818457585385674]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957/1963">1957-1963</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1957/1963">1957-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6810379947243994932817]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [770374182676013299]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969/1974">1969-1974</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1969/1974">1969-1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -395,8 +379,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [044886459165864124]">16</container>
-              <unittitle>Law School Committee on Evaluation of Faculty Services <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-            </did>
+              <unittitle>Law School Committee on Evaluation of Faculty Services</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -412,8 +395,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [281584744178852898]">17</container>
-              <unittitle>Personal memorabilia <unitdate type="inclusive" normal="1929/1967">1929-1967</unitdate></unittitle>
-            </did>
+              <unittitle>Personal memorabilia</unittitle><unitdate type="inclusive" normal="1929/1967">1929-1967</unitdate></did>
             <odd>
               <p>(intended as scrapbook; includes programs, clippings, etc.)</p>
             </odd>
@@ -426,8 +408,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [281584744178852898]">17</container>
-              <unittitle>Committee on Taxation <unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate></unittitle>
-            </did>
+              <unittitle>Committee on Taxation</unittitle><unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -444,8 +425,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [281584744178852898]">17</container>
-              <unittitle>Law School Summer Institute (Taxation) of Business Enterprise) <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-            </did>
+              <unittitle>Law School Summer Institute (Taxation) of Business Enterprise)</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -481,32 +461,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [597640994292922881827]">18</container>
-            <unittitle>Heidelberg University: Honorary Degree <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>Heidelberg University: Honorary Degree</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [597640994292922881827]">18</container>
-            <unittitle>Michigan Constitutional Convention <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Constitutional Convention</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [597640994292922881827]">18</container>
-            <unittitle>Legal memoranda and private case material <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-          </did>
+            <unittitle>Legal memoranda and private case material</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [597640994292922881827]">18</container>
-            <unittitle>Wayne County Law Practice <unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate></unittitle>
-          </did>
+            <unittitle>Wayne County Law Practice</unittitle><unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [597640994292922881827]">18</container>
-            <unittitle>New York State Bar Examinations course <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
-          </did>
+            <unittitle>New York State Bar Examinations course</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -607,8 +582,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9233444879459105699]">19</container>
-            <unittitle>Lobbying Act Amendments <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></unittitle>
-          </did>
+            <unittitle>Lobbying Act Amendments</unittitle><unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -643,8 +617,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9233444879459105699]">19</container>
-            <unittitle>Campus demonstrators <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
-          </did>
+            <unittitle>Campus demonstrators</unittitle><unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -655,8 +628,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9233444879459105699]">19</container>
-            <unittitle>Committee on Academic Standards and Incentives <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-          </did>
+            <unittitle>Committee on Academic Standards and Incentives</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -677,8 +649,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7254831340595555601170]">20</container>
-              <unittitle>Calendar Revision <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Calendar Revision</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -708,8 +679,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7254831340595555601170]">20</container>
-            <unittitle>A.A.L.S.: Committee on Supreme Court Decisions <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-          </did>
+            <unittitle>A.A.L.S.: Committee on Supreme Court Decisions</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -828,8 +798,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Governor's Transportation Study Commission <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Governor's Transportation Study Commission</unittitle><unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0231834104011007029]">31</container>
@@ -840,13 +809,11 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0231834104011007029]">31</container>
-            <unittitle>Ann Arbor Citizens' Council, Executive Board <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></unittitle>
-          </did>
+            <unittitle>Ann Arbor Citizens' Council, Executive Board</unittitle><unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Ann Arbor School Board's Special Committee to Study Racial Discrimination in the Public Schools <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
-          </did>
+            <unittitle>Ann Arbor School Board's Special Committee to Study Racial Discrimination in the Public Schools</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0231834104011007029]">31</container>
@@ -886,8 +853,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Michigan State Bar Association, Condemnation Procedure Committee <unitdate type="inclusive" normal="1956/1969">1956-1969</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan State Bar Association, Condemnation Procedure Committee</unittitle><unitdate type="inclusive" normal="1956/1969">1956-1969</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [311304794856423172]">32</container>
@@ -910,8 +876,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>University Course Materials, ca. <unitdate type="inclusive" normal="1949/1974">1949-1974</unitdate></unittitle>
-        </did>
+          <unittitle>University Course Materials, ca.</unittitle><unitdate type="inclusive" normal="1949/1974">1949-1974</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Church and State Seminar</unittitle>
@@ -919,34 +884,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1971">1971</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972">1972</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1973">1973</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1973">1973</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -956,66 +909,42 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956">Spring 1956</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1956">Spring 1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962">Spring 1962</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1962">Spring 1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963">Spring 1963</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1963">Spring 1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968">Winter 1968</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1968">Winter 1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968">Fall 1968</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1968">Fall 1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970">Winter 1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970">Winter 1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970">Fall 1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970">Fall 1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972">Winter 1972</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1972">Winter 1972</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -1023,18 +952,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1973">Winter 1973</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1973">Winter 1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5068800659407873922077]">33</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1974">Winter 1974</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1974">Winter 1974</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1080,14 +1003,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [50411398847986403691461]">34</container>
-              <unittitle>Outlines <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-            </did>
+              <unittitle>Outlines</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [50411398847986403691461]">34</container>
-              <unittitle>Seminar, <unitdate type="inclusive" normal="1949">Spring 1949</unitdate></unittitle>
-            </did>
+              <unittitle>Seminar</unittitle><unitdate type="inclusive" normal="1949">Spring 1949</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1174,8 +1095,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [359010480746399472]">35</container>
-              <unittitle>Outline <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Outline</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -1194,18 +1114,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [359010480746399472]">35</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952">Spring 1952</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1952">Spring 1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [359010480746399472]">35</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1953">Summer 1953</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1953">Summer 1953</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -1219,18 +1133,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [359010480746399472]">35</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1967">1967</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [359010480746399472]">35</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1974">1974</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1240,8 +1148,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [359010480746399472]">35</container>
-            <unittitle>OPAL (drafts of panel discussions) <unitdate type="inclusive" normal="1965">1965</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>OPAL (drafts of panel discussions)</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1309,19 +1216,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6477970433220686636]">36</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1923/1934">1923-1934</unitdate>
-              <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1923/1934">1923-1934</unitdate><unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [265966240123166021]">37</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1943/1973">1943-1973</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1943/1973">1943-1973</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1331,10 +1231,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [265966240123166021]">37</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1930/1969" certainty="approximate">1930s-1960s</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1930/1969" certainty="approximate">1930s-1960s</unitdate></did>
           <odd>
             <p>(unprocessed)</p>
           </odd>
@@ -1350,34 +1247,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [132404430451943115905820]">38</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1930/1956">1930-1956</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1930/1956">1930-1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6422844061641685010887892]">39</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957/1963">1957-1963</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1957/1963">1957-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8921856044691940773016]">40</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1964/1971">1964-1971</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1964/1971">1964-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3544511419316729687]">41</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1404,10 +1289,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [92244349591463434943]">42</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1940/1979" certainty="approximate">1940s-1970s</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1940/1979" certainty="approximate">1940s-1970s</unitdate></did>
           <odd>
             <p>(unprocessed)</p>
           </odd>
@@ -1422,12 +1304,11 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Lecture series on church-state relations <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Lecture series on church-state relations</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [92244349591463434943]">42</container>
-              <unittitle>audio tapes</unittitle>
+              <unittitle>Audio tapes</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 tapes</extent>
               </physdesc>

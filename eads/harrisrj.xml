@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Harris, Robert J.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/969">Harris, Robert J.</persname>
       </origination>
-      <unittitle encodinganalog="245">Robert J. Harris papers <unitdate type="inclusive" encodinganalog="245$f" normal="1959/1973" certainty="approximate">circa 1959-1963 and 1969-1973</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">851427 Aa 2</unitid>
+      <unittitle encodinganalog="245">Robert J. Harris papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1959/1973" certainty="approximate">circa 1959-1963 and 1969-1973</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">851427 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Democratic mayor of Ann Arbor, Michigan; University of Michigan law school professor. Papers include mayoralty files relating to city politics and municipal issues, including the affairs of the police department and other city departments, the Ann Arbor Transportation Authority, the Model Cities Program, and the Southeast Michigan Council of Governments (SEMCOG); and scattered law school course and research materials, ca. 1959-ca. 1963</abstract>
       <repository>
@@ -84,18 +84,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
-        <subject source="lcsh" encodinganalog="650">Mayors--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1961-1970.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1971-1980.</geogname>
-        <subject source="lcsh" encodinganalog="650">Municipal government--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Police--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Transportation--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Law School.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/39">Ann Arbor (Mich.). Common Council.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6247">Mayors--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/3762">Democratic Party (Mich.)</corpname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/806">Michigan--Politics and government--1961-1970.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/797">Michigan--Politics and government--1971-1980.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5664">Municipal government--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8118">Police--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6454">Transportation--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Law School.<term type="topical">Law School.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/906">Michigan--Politics and government--1951-</geogname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -430,7 +430,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [80605849748520786099]">2</container>
-            <unittitle> and Ann Arbor Tomorrow)</unittitle>
+            <unittitle>And Ann Arbor Tomorrow)</unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -550,8 +550,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [80605849748520786099]">2</container>
-            <unittitle>Congratulations on re-election <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <unittitle>Congratulations on re-election</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -592,14 +591,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [80605849748520786099]">2</container>
-            <unittitle>Council Campaign <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>Council Campaign</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [80605849748520786099]">2</container>
-            <unittitle>Council Campaign <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>Council Campaign</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -808,8 +805,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [678354442831286459744]">3</container>
-            <unittitle>Gas Tax Legislation <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>Gas Tax Legislation</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1309,8 +1305,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [64284812472258168819]">6</container>
-            <unittitle>Miss Michigan <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>Miss Michigan</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1529,8 +1524,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [66875952499836637]">7</container>
-              <unittitle>Tubingen, Germany <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>Tubingen, Germany</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1638,20 +1632,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [66875952499836637]">7</container>
-            <unittitle>Proclamations <unitdate type="inclusive" normal="1972">January 1972</unitdate></unittitle>
-          </did>
+            <unittitle>Proclamations</unittitle><unitdate type="inclusive" normal="1972">January 1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [66875952499836637]">7</container>
-            <unittitle>Proclamations- <unitdate type="inclusive" normal="1971-08/1971-12">August 1971-December 1971</unitdate></unittitle>
-          </did>
+            <unittitle>Proclamations-</unittitle><unitdate type="inclusive" normal="1971-08/1971-12">August 1971-December 1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [66875952499836637]">7</container>
-            <unittitle>Proclamations- <unitdate type="inclusive" normal="1970-07/1971-07">July 1970-July 1971</unitdate></unittitle>
-          </did>
+            <unittitle>Proclamations-</unittitle><unitdate type="inclusive" normal="1970-07/1971-07">July 1970-July 1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1824,8 +1815,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [234967803764178198102480]">8</container>
-            <unittitle>Speeches- <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-          </did>
+            <unittitle>Speeches-</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1848,8 +1838,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [234967803764178198102480]">8</container>
-            <unittitle>Special Olympics for Handicapped <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>Special Olympics for Handicapped</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1962,8 +1951,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [045347383047398198796237]">9</container>
-            <unittitle>United Nations Day-1971 &amp; <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>United Nations Day-1971 &amp;</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2370,8 +2358,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [46143840012914]">10</container>
-            <unittitle>Youth-Summer <unitdate type="inclusive" normal="1970">1970</unitdate> Programs</unittitle>
-          </did>
+            <unittitle>Youth-Summer  Programs</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3257,8 +3244,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38684199234282]">26</container>
-              <unittitle>City Income Tax Campaigns <unitdate type="inclusive" normal="1969">1969</unitdate> &amp; <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-            </did>
+              <unittitle>City Income Tax Campaigns  &amp;</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3718,50 +3704,42 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [028014667418102520269]">36</container>
-            <unittitle>Elections-County Millage <unitdate type="inclusive" normal="1969-09">September 1969</unitdate></unittitle>
-          </did>
+            <unittitle>Elections-County Millage</unittitle><unitdate type="inclusive" normal="1969-09">September 1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [028014667418102520269]">36</container>
-            <unittitle>Elections, City Council <unitdate type="inclusive" normal="1970-04">April, 1970</unitdate></unittitle>
-          </did>
+            <unittitle>Elections, City Council</unittitle><unitdate type="inclusive" normal="1970-04">April, 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [028014667418102520269]">36</container>
-            <unittitle>Elections, General <unitdate type="inclusive" normal="1970-11">November 1970</unitdate></unittitle>
-          </did>
+            <unittitle>Elections, General</unittitle><unitdate type="inclusive" normal="1970-11">November 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [028014667418102520269]">36</container>
-            <unittitle>Elections, City Council <unitdate type="inclusive" normal="1971-04">April 1971</unitdate></unittitle>
-          </did>
+            <unittitle>Elections, City Council</unittitle><unitdate type="inclusive" normal="1971-04">April 1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [028014667418102520269]">36</container>
-            <unittitle>Elections, City Council <unitdate type="inclusive" normal="1972-04">April, 1972</unitdate></unittitle>
-          </did>
+            <unittitle>Elections, City Council</unittitle><unitdate type="inclusive" normal="1972-04">April, 1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [028014667418102520269]">36</container>
-            <unittitle>Elections, General <unitdate type="inclusive" normal="1972-11">November 1972</unitdate></unittitle>
-          </did>
+            <unittitle>Elections, General</unittitle><unitdate type="inclusive" normal="1972-11">November 1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [007930879438827220426]">37</container>
-            <unittitle>Elections-General <unitdate type="inclusive" normal="1972-11">November 1972</unitdate></unittitle>
-          </did>
+            <unittitle>Elections-General</unittitle><unitdate type="inclusive" normal="1972-11">November 1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [007930879438827220426]">37</container>
-            <unittitle>Elections-City Council <unitdate type="inclusive" normal="1973-04">April 1973</unitdate></unittitle>
-          </did>
+            <unittitle>Elections-City Council</unittitle><unitdate type="inclusive" normal="1973-04">April 1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -4365,8 +4343,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [022098880496872789699877]">43</container>
-            <unittitle>Proclamations <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-          </did>
+            <unittitle>Proclamations</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -4383,14 +4360,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [022098880496872789699877]">43</container>
-            <unittitle>Papers concerning Sunday Rock Concerts <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <unittitle>Papers concerning Sunday Rock Concerts</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [022098880496872789699877]">43</container>
-            <unittitle>Papers concerning the South University disturbances <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Papers concerning the South University disturbances</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -4403,8 +4378,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [246380134090948866754]">44</container>
-            <unittitle>Course and research materials <unitdate type="inclusive" normal="1959/1963" certainty="approximate">circa 1959-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Course and research materials</unittitle><unitdate type="inclusive" normal="1959/1963" certainty="approximate">circa 1959-1963</unitdate></did>
         </c02>
       </c01>
     </dsc>

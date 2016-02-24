@@ -28,7 +28,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hilbish, Thomas</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3356">Hilbish, Thomas</persname>
       </origination>
-      <unittitle encodinganalog="245">Thomas Hilbish papers <unitdate type="inclusive" encodinganalog="245$f" normal="1937/2004">1937-2004</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1990">1960-1990</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009139 Aa 2</unitid>
+      <unittitle encodinganalog="245">Thomas Hilbish papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1937/2004">1937-2004</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1960/1990">1960-1990</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009139 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor at the University of Michigan (1965-1988). Director of Choirs, and respected conductor of choral music, well-known for his extensive repertoire and new interpretations of 20th century choral music. The collection includes photographs, video, press clippings, writings, correspondence, and programs documenting Hilbish's work as an instructor and conductor from 1948 to 2004.</abstract>
       <physdesc altrender="whole">
@@ -90,44 +90,42 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Conducting.</subject>
-        <subject source="lcsh" encodinganalog="650">Conductors (Music)</subject>
-        <subject source="lcsh" encodinganalog="650">Choral conducing.</subject>
-        <subject source="lcsh" encodinganalog="650">Choral Conductors.</subject>
-        <subject source="lcsh" encodinganalog="650">Music--Michigan--Ann Arbor.</subject>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Choral organizations.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no96013362">University of Michigan. Choral Union.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n82011028">University of Michigan. University Musical Society.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8201">Conducting.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8202">Conductors (Music)</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8203">Choral conducing.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8204">Choral Conductors.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5709">Music--Michigan--Ann Arbor.</subject>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/1001">University of Michigan. School of Music.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Choral organizations.<term type="temporal">Choral organizations.</term></corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no96013362" ref="/agents/corporate_entities/20">University of Michigan. Choral Union.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n82011028" ref="/agents/corporate_entities/5241">University of Michigan. University Musical Society.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lcsh" encodinganalog="650">Choral conducing.</subject>
-        <subject source="lcsh" encodinganalog="650">Choral Conductors.</subject>
-        <subject source="lcsh" encodinganalog="650">Music--Michigan--Ann Arbor.</subject>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">Princeton Chamber Singers.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8203">Choral conducing.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8204">Choral Conductors.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5709">Music--Michigan--Ann Arbor.</subject>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/1001">University of Michigan. School of Music.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/182">Princeton Chamber Singers.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform encodinganalog="655" source="aat">Photographs.</genreform>
-        <genreform encodinganalog="655" source="aat">Videotapes.</genreform>
+        <genreform encodinganalog="655" source="aat" ref="/subjects/3135">Photographs.</genreform>
+        <genreform encodinganalog="655" source="aat" ref="/subjects/3134">Videotapes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Biographical Materials <unitdate type="inclusive" normal="1937/2003">1937-2003</unitdate></unittitle>
-        </did>
+          <unittitle>Biographical Materials</unittitle><unitdate type="inclusive" normal="1937/2003">1937-2003</unitdate></did>
         <scopecontent>
           <p>Records in the Biographical Materials series, 1937-2003 (0.25 linear feet) document Hilbish's early years, education, and lifetime achievements. The series includes information on his college years, awards, honors, and curricula vitae.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box [554977488232648]">1</container>
-            <unittitle>Awards and Honors <unitdate type="inclusive" normal="1969/2003">1969-2003</unitdate></unittitle>
-          </did>
+            <unittitle>Awards and Honors</unittitle><unitdate type="inclusive" normal="1969/2003">1969-2003</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -145,14 +143,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [554977488232648]">1</container>
-              <unittitle>Bristol High School <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-            </did>
+              <unittitle>Bristol High School</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [554977488232648]">1</container>
-              <unittitle>University of Miami <unitdate type="inclusive" normal="1938/1941">1938-1941</unitdate></unittitle>
-            </did>
+              <unittitle>University of Miami</unittitle><unitdate type="inclusive" normal="1938/1941">1938-1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -164,14 +160,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [554977488232648]">1</container>
-            <unittitle>Naval Records <unitdate type="inclusive" normal="1942/1946">1942-1946</unitdate></unittitle>
-          </did>
+            <unittitle>Naval Records</unittitle><unitdate type="inclusive" normal="1942/1946">1942-1946</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Conducting Work <unitdate type="inclusive" normal="1947/2003">1947-2003</unitdate></unittitle>
-        </did>
+          <unittitle>Conducting Work</unittitle><unitdate type="inclusive" normal="1947/2003">1947-2003</unitdate></did>
         <scopecontent>
           <p>The Conducting Work series, 1947-2003 (0.5 linear feet), documents Hilbish's professional career. The series is divided into three subseries: Administrative Materials, Choirs, and Choral Scores. The records in the administrative materials subseries are concerned with the more general aspects of Hilbish's conducting work, and include program notes, correspondence, and press clippings. The choirs subseries includes materials documenting Hilbish's work with the United States Universities Chorus, the Princeton High School Choir, and the University of Michigan Chamber Choir. Materials in this subseries include tour information, performance reviews, and correspondence. Programs for concerts by these choirs may be found in the Programs series. The final subseries, choral scores, is comprised of Hilbish's notes on choral scores, primarily those of Stravinsky and Schönberg.</p>
         </scopecontent>
@@ -188,14 +182,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [554977488232648]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1947/2006">1947-2006</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1947/2006">1947-2006</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [554977488232648]">1</container>
-              <unittitle>Press Clippings <unitdate type="inclusive" normal="1955/1981">1955-1981</unitdate></unittitle>
-            </did>
+              <unittitle>Press Clippings</unittitle><unitdate type="inclusive" normal="1955/1981">1955-1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -224,14 +216,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [554977488232648]">1</container>
-                <unittitle>Scrapbook <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
-              </did>
+                <unittitle>Scrapbook</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [554977488232648]">1</container>
-                <unittitle>Tours <unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate></unittitle>
-              </did>
+                <unittitle>Tours</unittitle><unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -369,8 +359,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Programs <unitdate type="inclusive" normal="1946/2004">1946-2004</unitdate></unittitle>
-        </did>
+          <unittitle>Programs</unittitle><unitdate type="inclusive" normal="1946/2004">1946-2004</unitdate></did>
         <scopecontent>
           <p>Materials in the Programs series, 1946-2004 (0.5 linear feet), document Hilbish's orchestral and choral conducting performances. The majority of the programs in the series are for Hilbish's work with the Princeton High School Choir and the University of Michigan's many musical ensembles.</p>
         </scopecontent>
@@ -437,8 +426,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Teaching <unitdate type="inclusive" normal="1949/1997">1949-1997</unitdate></unittitle>
-        </did>
+          <unittitle>Teaching</unittitle><unitdate type="inclusive" normal="1949/1997">1949-1997</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Administrative Materials</unittitle>
@@ -551,8 +539,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Audio Visual Materials <unitdate type="inclusive" normal="1987/2003">1987-2003</unitdate></unittitle>
-        </did>
+          <unittitle>Audio Visual Materials</unittitle><unitdate type="inclusive" normal="1987/2003">1987-2003</unitdate></did>
         <scopecontent>
           <p>The Audio Visual Materials series, 1945-2003 and undated (0.75 linear feet) includes two subseries, Photographs and Videotapes (VHS) documenting Hilbish's conducting career. While the series contains a few photographs of Hilbish as a young man, the majority of tapes and photographs in this series document Hilbish's choral conducting work, primarily with the Princeton High School Choir and the University of Michigan Chamber Choir.</p>
         </scopecontent>
@@ -586,8 +573,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [909166875403441343687]">3</container>
-              <unittitle>Ann Arbor Cantata Singers Concert <unitdate type="inclusive" normal="2001-12-14">December 14, 2001</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Ann Arbor Cantata Singers Concert</unittitle><unitdate type="inclusive" normal="2001-12-14">December 14, 2001</unitdate><physdesc>
                 <physfacet>VHS</physfacet>
               </physdesc>
             </did>
@@ -595,8 +581,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [909166875403441343687]">3</container>
-              <unittitle>Ann Arbor Cantata Singers Concert <unitdate type="inclusive" normal="2003-11-23">November 23, 2003</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Ann Arbor Cantata Singers Concert</unittitle><unitdate type="inclusive" normal="2003-11-23">November 23, 2003</unitdate><physdesc>
                 <physfacet>VHS</physfacet>
               </physdesc>
             </did>
@@ -622,8 +607,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [909166875403441343687]">3</container>
-              <unittitle>Chinese Concert, Evangel College, Springfield, MO <unitdate type="inclusive" normal="1995-02-13">February 13, 1995</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Chinese Concert, Evangel College, Springfield, MO</unittitle><unitdate type="inclusive" normal="1995-02-13">February 13, 1995</unitdate><physdesc>
                 <physfacet>VHS</physfacet>
               </physdesc>
             </did>
@@ -631,8 +615,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [909166875403441343687]">3</container>
-              <unittitle>Fall Concert, University of Arizona Choral Association, Tucson, AZ <unitdate type="inclusive" normal="1993-10-17">October 17, 1993</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Fall Concert, University of Arizona Choral Association, Tucson, AZ</unittitle><unitdate type="inclusive" normal="1993-10-17">October 17, 1993</unitdate><physdesc>
                 <physfacet>VHS</physfacet>
               </physdesc>
             </did>
@@ -650,8 +633,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [909166875403441343687]">3</container>
-              <unittitle><title render="italic">Mass in B Minor</title>, Johann Sebastian Bach, UCLA Choir &amp; Orchestra, <unitdate type="inclusive" normal="1989-03">March 1989</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle><title render="italic">Mass in B Minor</title>, Johann Sebastian Bach, UCLA Choir &amp; Orchestra</unittitle><unitdate type="inclusive" normal="1989-03">March 1989</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 videotapes</extent>
                 <physfacet>VHS (TM)</physfacet>
               </physdesc>
@@ -687,8 +669,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [909166875403441343687]">3</container>
-              <unittitle>Tom at Miami Graduation <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Tom at Miami Graduation</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate><physdesc>
                 <physfacet>VHS</physfacet>
               </physdesc>
             </did>
@@ -696,8 +677,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [909166875403441343687]">3</container>
-              <unittitle><title render="italic">The War Requiem</title>, Benjamin Britten, University of Michigan Choir &amp; Orchestra, Ann Arbor, MI, <unitdate type="inclusive" normal="1987-04-21">April 21, 1987</unitdate></unittitle>
-              <physdesc altrender="part">
+              <unittitle><title render="italic">The War Requiem</title>, Benjamin Britten, University of Michigan Choir &amp; Orchestra, Ann Arbor, MI</unittitle><unitdate type="inclusive" normal="1987-04-21">April 21, 1987</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">4 videotapes</extent>
                 <physfacet>VHS (TM)</physfacet>
               </physdesc>
@@ -710,8 +690,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [909166875403441343687]">3</container>
-              <unittitle>Winter Concert, Princeton High School Choir 50th Reunion, Princeton, NJ <unitdate type="inclusive" normal="1995-12-21">December 21, 1995</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Winter Concert, Princeton High School Choir 50th Reunion, Princeton, NJ</unittitle><unitdate type="inclusive" normal="1995-12-21">December 21, 1995</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 videotapes</extent>
                 <physfacet>VHS (TM)</physfacet>
               </physdesc>

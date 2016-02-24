@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Grand Valley State Colleges Oral History Project</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/286">Grand Valley State Colleges Oral History Project</corpname>
       </origination>
-      <unittitle encodinganalog="245">Grand Valley State Colleges Oral History Project <unitdate type="inclusive" encodinganalog="245$f" normal="1976/1977">1976-1977</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05147 Bi 2</unitid>
+      <unittitle encodinganalog="245">Grand Valley State Colleges Oral History Project</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1976/1977">1976-1977</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05147 Bi 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Oral history project undertaken by Professor John Tevebaugh of Grand Valley State Colleges in 1976. The focus of the interviews was the history of Grand Rapids, Michigan.</abstract>
       <physdesc altrender="whole">
@@ -76,46 +76,45 @@
       </p>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <geogname source="lcsh" encodinganalog="651">Grand Rapids (Mich.)--History.</geogname>
-        <title source="aacr2">Fitzgerald's prophecy (Radio program)</title>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1924">Grand Rapids (Mich.)--History.</geogname>
+        <title source="aacr2" ref="/subjects/60">Fitzgerald's prophecy (Radio program)</title>
       </controlaccess>
       <controlaccess>
         <head>Contributors: Sound Recordings</head>
-        <persname source="lcnaf" encodinganalog="700">Tevebaugh, John.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87892248">Alvarado Mendoza, Arturo.</persname>
-        <persname source="lcnaf" encodinganalog="700">Amberg, David.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ammann, Michael S.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009070890">Bailey, Bea.</persname>
-        <persname source="lcnaf" encodinganalog="700">Bielskus, Tony.</persname>
-        <persname source="lcnaf" encodinganalog="700">Carey, John.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2002062835">Frankforter, W. D.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hannah, Harold.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hutchins, Lee Montgomery.</persname>
-        <persname source="lcnaf" encodinganalog="700">Olson, Charles.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no99028816">Parks, Lyman S., 1917-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91080646">Phillips, Michael G.</persname>
-        <persname source="lcnaf" encodinganalog="700">Post, E. M.</persname>
-        <persname source="lcnaf" encodinganalog="700">Roberts, Roy.</persname>
-        <persname source="lcnaf" encodinganalog="700">Schipper, Howard D.</persname>
-        <persname source="lcnaf" encodinganalog="700">Schroeder, Mary Emily, 1912-1987.</persname>
-        <persname source="lcnaf" encodinganalog="700">Sikkema, Henry.</persname>
-        <persname source="lcnaf" encodinganalog="700">Swets, Seymour.</persname>
-        <persname source="lcnaf" encodinganalog="700">Symons, Ed.</persname>
-        <persname source="lcnaf" encodinganalog="700">VerMeulen, James.</persname>
-        <persname source="lcnaf" encodinganalog="700">Witte, John.</persname>
-        <persname source="lcnaf" encodinganalog="700">Woods, Dorothy.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3273">Tevebaugh, John.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87892248" ref="/agents/people/5426">Alvarado Mendoza, Arturo.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4285">Amberg, David.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5313">Ammann, Michael S.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009070890" ref="/agents/people/5488">Bailey, Bea.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4990">Bielskus, Tony.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5330">Carey, John.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2002062835" ref="/agents/people/6354">Frankforter, W. D.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8280">Hannah, Harold.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3067">Hutchins, Lee Montgomery.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2517">Olson, Charles.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no99028816" ref="/agents/people/1903">Parks, Lyman S., 1917-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91080646" ref="/agents/people/2204">Phillips, Michael G.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6526">Post, E. M.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8540">Roberts, Roy.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1313">Schipper, Howard D.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/492">Schroeder, Mary Emily, 1912-1987.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5771">Sikkema, Henry.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8680">Swets, Seymour.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1304">Symons, Ed.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5332">VerMeulen, James.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6031">Witte, John.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8263">Woods, Dorothy.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
-        <genreform source="aat" encodinganalog="655">Oral histories.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3156">Oral histories.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Oral history interviews <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          <physdesc>
+          <unittitle>Oral history interviews</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate><physdesc>
             <physfacet>5 in. sound tapes</physfacet>
           </physdesc>
         </did>

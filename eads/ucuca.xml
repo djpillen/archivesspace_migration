@@ -24,7 +24,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. University Committee on the Use and Care of Animals.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/245">University of Michigan. University Committee on the Use and Care of Animals.</corpname>
       </origination>
-      <unittitle encodinganalog="245">University Committee on the Use and Care of Animals (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1979/2003">1979-2003</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0728 Bimu 2</unitid>
+      <unittitle encodinganalog="245">University Committee on the Use and Care of Animals (University of Michigan) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1979/2003">1979-2003</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0728 Bimu 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The University Committee on the Use and Care of Animals (UCUCA) records consist of meeting minutes and agendas, annual reports, and animal facility inspections. The UCUCA works to ensure that all projects using animals at the University of Michigan are conducted in accordance with university guidelines and policies and federal law concerning laboratory animal welfare.</abstract>
       <physdesc altrender="whole">
@@ -83,26 +83,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Animal welfare.</subject>
-        <subject source="lcsh" encodinganalog="650">Laboratory animals.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Unit for Laboratory Animal Medicine.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Committee on the Use and Care of Animals.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8356">Animal welfare.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10448">Laboratory animals.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Research.<term type="topical">Research.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4034">University of Michigan. Unit for Laboratory Animal Medicine.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/245">University of Michigan. University Committee on the Use and Care of Animals.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Meeting Minutes and Agendas <unitdate type="inclusive" normal="1979/2003">1979-2003</unitdate></unittitle>
-        </did>
+          <unittitle>Meeting Minutes and Agendas</unittitle><unitdate type="inclusive" normal="1979/2003">1979-2003</unitdate></did>
         <scopecontent>
           <p>The Meeting Minutes and Agendas series (5.5 linear feet, 1979-2003) contains meeting minutes, agendas, and meeting materials. Meetings occur monthly, and these materials provide excellent insight into the management and administration of the UCUCA.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0084914168691201]">1</container>
-            <unittitle>Memorandum <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
-          </did>
+            <unittitle>Memorandum</unittitle><unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date type="restriction" normal="2026-07-01">July 1, 2026</date>]</p>
           </accessrestrict>
@@ -110,10 +108,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0084914168691201]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1979/1983">1979-1983</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1979/1983">1979-1983</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date type="restriction" normal="2026-07-01">July 1, 2026</date>]</p>
           </accessrestrict>
@@ -121,10 +116,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0084914168691201]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1984/1985-06">1984-June 1985</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1984/1985-06">1984-June 1985</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date type="restriction" normal="2026-07-01">July 1, 2026</date>]</p>
           </accessrestrict>
@@ -132,10 +124,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0084914168691201]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1985-07/1985-12">July 1985-December 1985</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1985-07/1985-12">July 1985-December 1985</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
@@ -146,10 +135,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0084914168691201]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1986">1986</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1986">1986</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
@@ -160,10 +146,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0084914168691201]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1987">1987</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1987">1987</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
@@ -174,10 +157,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0084914168691201]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1988">1988</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1988">1988</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
@@ -188,10 +168,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0084914168691201]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1989">1989</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1989">1989</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
@@ -202,10 +179,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0084914168691201]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1990-01/1990-09">January 1990-September 1990</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1990-01/1990-09">January 1990-September 1990</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 folders</extent>
             </physdesc>
           </did>
@@ -216,10 +190,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [566957345930995900]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1990-10/1990-12">October 1990-December 1990</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1990-10/1990-12">October 1990-December 1990</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -230,10 +201,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [566957345930995900]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1991">1991</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1991">1991</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
@@ -244,10 +212,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [566957345930995900]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1992">1992</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1992">1992</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 folders</extent>
             </physdesc>
           </did>
@@ -258,10 +223,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [566957345930995900]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1993">1993</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1993">1993</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 folders</extent>
             </physdesc>
           </did>
@@ -272,10 +234,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [566957345930995900]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1994-01/1994-08">January 1994-August 1994</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1994-01/1994-08">January 1994-August 1994</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 folders</extent>
             </physdesc>
           </did>
@@ -286,10 +245,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [31894734552395434]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1994-09/1994-12">September 1994-December 1994</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1994-09/1994-12">September 1994-December 1994</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -300,10 +256,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [31894734552395434]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1995">1995</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1995">1995</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 folders</extent>
             </physdesc>
           </did>
@@ -314,10 +267,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [31894734552395434]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1996">1996</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1996">1996</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 folders</extent>
             </physdesc>
           </did>
@@ -328,10 +278,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [31894734552395434]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1997-01/1997-04">January 1997-April 1997</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1997-01/1997-04">January 1997-April 1997</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -342,10 +289,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4453448893480531993]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1997-05/1997-12">May 1997-December 1997</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1997-05/1997-12">May 1997-December 1997</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 folders</extent>
             </physdesc>
           </did>
@@ -356,10 +300,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4453448893480531993]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1998">1998</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1998">1998</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
@@ -370,10 +311,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4453448893480531993]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1999">1999</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1999">1999</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 folders</extent>
             </physdesc>
           </did>
@@ -384,10 +322,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4453448893480531993]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2000-01/2000-07">January 2000-July 2000</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="2000-01/2000-07">January 2000-July 2000</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
             </physdesc>
           </did>
@@ -398,10 +333,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [20958874097971560]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2000-08/2000-12">August 2000-December 2000</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="2000-08/2000-12">August 2000-December 2000</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
@@ -412,10 +344,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [20958874097971560]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2001">2001</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="2001">2001</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 folders</extent>
             </physdesc>
           </did>
@@ -426,10 +355,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [20958874097971560]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2002">2002</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="2002">2002</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 folders</extent>
             </physdesc>
           </did>
@@ -440,10 +366,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [20958874097971560]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2003-01/2003-04">January 2003-April 2003</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="2003-01/2003-04">January 2003-April 2003</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -454,10 +377,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422009848613680265218]">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2003-05/2003-12">May 2003-December 2003</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="2003-05/2003-12">May 2003-December 2003</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -468,8 +388,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Reports <unitdate type="inclusive" normal="1979/2003">1979-2003</unitdate></unittitle>
-        </did>
+          <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1979/2003">1979-2003</unitdate></did>
         <scopecontent>
           <p>The Reports series (3.2 linear feet, 1979-2003) consists of reports made by the UCUCA to the University of Michigan Office of the Vice President for Research (OVPR) and federal agencies. Also included are inspection reports of the animal care facilities made by the USDA. The Reports series is an excellent place to find detailed information about the animal care facilities located at the University of Michigan and their functions.</p>
         </scopecontent>
@@ -480,8 +399,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [422009848613680265218]">6</container>
-              <unittitle>UCUCA History with <unitdate type="inclusive" normal="1979/1983">1979-1983</unitdate></unittitle>
-            </did>
+              <unittitle>UCUCA History with</unittitle><unitdate type="inclusive" normal="1979/1983">1979-1983</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date type="restriction" normal="2026-07-01">July 1, 2026</date>]</p>
             </accessrestrict>
@@ -489,8 +407,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [422009848613680265218]">6</container>
-              <unittitle>Annual Report to, 1980-88 <unitdate type="inclusive" normal="1990/2003">1990-2003</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Annual Report to, 1980-88</unittitle><unitdate type="inclusive" normal="1990/2003">1990-2003</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">23 folders</extent>
               </physdesc>
             </did>
@@ -502,8 +419,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [478374844588244782]">7</container>
-            <unittitle>Annual Report to the Office of Laboratory Animal Welfare (OLAW) <unitdate type="inclusive" normal="1986/2002">1986-2002</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Annual Report to the Office of Laboratory Animal Welfare (OLAW)</unittitle><unitdate type="inclusive" normal="1986/2002">1986-2002</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">17 folders</extent>
             </physdesc>
           </did>
@@ -518,10 +434,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [478374844588244782]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1993/1998">1993-1998</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1993/1998">1993-1998</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">12 folders</extent>
               </physdesc>
             </did>
@@ -532,10 +445,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [533832145259287248933351]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1999/2002">1999-2002</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1999/2002">1999-2002</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 folders</extent>
               </physdesc>
             </did>
@@ -546,10 +456,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [533832145259287248933351]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2003">2003</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="2003">2003</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -565,8 +472,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [533832145259287248933351]">8</container>
-              <unittitle>Annual Report to <unitdate type="inclusive" normal="1984/2002">1984-2002</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Annual Report to</unittitle><unitdate type="inclusive" normal="1984/2002">1984-2002</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">19 folders</extent>
               </physdesc>
             </did>
@@ -577,8 +483,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [533832145259287248933351]">8</container>
-              <unittitle>Inspection Reports <unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate>, <unitdate type="inclusive" normal="1990/1997">1990-1997</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Inspection Reports</unittitle><unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate><unitdate type="inclusive" normal="1990/1997">1990-1997</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">22 folders</extent>
               </physdesc>
             </did>

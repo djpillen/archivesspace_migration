@@ -41,7 +41,8 @@
         <item>headings removed and other changes made to conform to new style, GK</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -52,10 +53,9 @@
   <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Section of Thoracic Surgery.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/699">University of Michigan. Section of Thoracic Surgery.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Section of Thoracic Surgery (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1927/1960">1927-1960</unitdate></unittitle>
-      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9665 Bimu 2</unitid>
+      <unittitle encodinganalog="245">Section of Thoracic Surgery (University of Michigan) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1927/1960">1927-1960</unitdate><unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9665 Bimu 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <abstract>A division of the Department of Surgery of the University of Michigan Hospital, established the nation's first residency training program in thoracic surgery in 1928; documents development of the program at Michigan and advances in surgical procedures, includes correspondence, operation notes, case studies, and photographs and negatives of patients and surgical procedures.</abstract>
       <repository>
@@ -112,58 +112,57 @@
       </p>
       <controlaccess>
         <head>Form and Genre:</head>
-        <genreform source="aat">Photographs.</genreform>
+        <genreform source="aat" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Section of Thoracic Surgery.</corpname>
-        <subject source="lcsh" encodinganalog="650">Chest--Surgery.</subject>
-        <subject source="lcsh" encodinganalog="650">Thoracic surgeons.</subject>
-        <subject source="lcsh" encodinganalog="650">Tuberculosis.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Hospital.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88067098">Michigan Tuberculosis Association.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Alexander, John, 1891-</persname>
-        <corpname source="lcnaf" encodinganalog="610">American Trudeau Society.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Haight, Cameron.</persname>
-        <subject source="lcsh" encodinganalog="650">Tuberculosis--Hospitals--Michigan--Howell.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/699">University of Michigan. Section of Thoracic Surgery.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10376">Chest--Surgery.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10377">Thoracic surgeons.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9211">Tuberculosis.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3161">University of Michigan. University Hospital.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88067098" ref="/agents/corporate_entities/4918">Michigan Tuberculosis Association.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2805">Alexander, John, 1891-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5501">American Trudeau Society.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/589">Haight, Cameron.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10378">Tuberculosis--Hospitals--Michigan--Howell.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78095629">Bethune, Norman.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85020962">Blalock, Alfred, 1899-1964.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87947642">Coller, Frederick A.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79132482">Cushing, Harvey, 1869-1939.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88110709">Cutler, Elliott Carr, 1888-1947.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr91031191">Frazier, Charles H. (Charles Harrison), 1870-1936.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88044809">Graham, Evarts A. (Evarts Ambrose), 1883-1957</persname>
-        <persname source="lcnaf" encodinganalog="700">Harvey, Samuel Clark, 1886-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85808455">Nissen, Rudolf, 1896-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804119">Sauerbruch, Ferdinand, 1875-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700">Sloan, Herbert.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008081512">Sergent, Emile, 1867-1943.</persname>
-        <persname source="lcnaf" encodinganalog="700">Steele, John Dutton.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78095629" ref="/agents/people/3220">Bethune, Norman.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85020962" ref="/agents/people/3432">Blalock, Alfred, 1899-1964.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87947642" ref="/agents/people/6811">Coller, Frederick A.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79132482" ref="/agents/people/3287">Cushing, Harvey, 1869-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88110709" ref="/agents/people/6881">Cutler, Elliott Carr, 1888-1947.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr91031191" ref="/agents/people/8945">Frazier, Charles H. (Charles Harrison), 1870-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88044809" ref="/agents/people/887">Graham, Evarts A. (Evarts Ambrose), 1883-1957</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6531">Harvey, Samuel Clark, 1886-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85808455" ref="/agents/people/2143">Nissen, Rudolf, 1896-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804119" ref="/agents/people/5235">Sauerbruch, Ferdinand, 1875-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7149">Sloan, Herbert.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008081512" ref="/agents/people/8070">Sergent, Emile, 1867-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7517">Steele, John Dutton.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Section of Thoracic Surgery.</corpname>
-        <subject source="lctgm" encodinganalog="650">Tuberculosis.</subject>
-        <subject source="lctgm" encodinganalog="650">Surgery.</subject>
-        <subject source="lcsh" encodinganalog="650">Bronchoscopy.</subject>
-        <subject source="lcsh" encodinganalog="650">Empyema.</subject>
-        <subject source="lcsh" encodinganalog="650">Pneumonectomy.</subject>
-        <subject source="lcsh" encodinganalog="650">Lungs--Abscess.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945--Education and the war.</subject>
-        <persname source="lcnaf" encodinganalog="600">Haight, Cameron.</persname>
-        <persname source="lcnaf" encodinganalog="600">Alexander, John, 1891-</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Medical School. Class of 1943.</corpname>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/699">University of Michigan. Section of Thoracic Surgery.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5445">Tuberculosis.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3897">Surgery.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10379">Bronchoscopy.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10380">Empyema.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10381">Pneumonectomy.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10382">Lungs--Abscess.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6049">World War, 1939-1945--Education and the war.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/589">Haight, Cameron.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2805">Alexander, John, 1891-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1122">University of Michigan. Medical School. Class of 1943.</corpname>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1927/1960">1927-1960</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1927/1960">1927-1960</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">16 linear feet</extent>
           </physdesc>
         </did>
@@ -174,10 +173,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1927/1929">1927-1929</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1927/1929">1927-1929</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [979746158407815103543]">1</container>
@@ -193,10 +189,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1930">1930</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1930">1930</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [979746158407815103543]">1</container>
@@ -212,10 +205,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1931">1931</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1931">1931</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [979746158407815103543]">1</container>
@@ -231,10 +221,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1932">1932</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1932">1932</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9962476417186786592149]">2</container>
@@ -250,10 +237,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1933">1933</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1933">1933</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9962476417186786592149]">2</container>
@@ -281,10 +265,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1934">1934</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1934">1934</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [045538452961307793565]">3</container>
@@ -300,10 +281,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1935">1935</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1935">1935</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [045538452961307793565]">3</container>
@@ -331,10 +309,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1936">1936</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1936">1936</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [77332168643632652567468]">4</container>
@@ -362,10 +337,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1937">1937</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1937">1937</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [59760857743631554838]">5</container>
@@ -393,10 +365,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1938">1938</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1938">1938</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [455787574203526556101040]">6</container>
@@ -412,10 +381,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1939">1939</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1939">1939</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [455787574203526556101040]">6</container>
@@ -443,10 +409,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1940">1940</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1940">1940</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3615078362430798253136]">7</container>
@@ -462,10 +425,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1941">1941</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1941">1941</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3615078362430798253136]">7</container>
@@ -490,8 +450,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [59542924009213725219]">8</container>
-              <unittitle><corpname>Michigan Tuberculosis Association</corpname>, <unitdate type="inclusive" normal="1937/1941">1937-1941</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle><corpname>Michigan Tuberculosis Association</corpname></unittitle><unitdate type="inclusive" normal="1937/1941">1937-1941</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -514,10 +473,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1942">1942</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1942">1942</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [59542924009213725219]">8</container>
@@ -545,10 +501,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1943">1943</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1943">1943</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [169850735456878768]">9</container>
@@ -565,10 +518,7 @@
         <c02 level="file">
           <did>
             <container label="Box [8479030945542852623039]" type="box">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1944">1944</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1944">1944</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [8479030945542852623039]">10</container>
@@ -584,10 +534,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1945">1945</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1945">1945</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [8479030945542852623039]">10</container>
@@ -615,10 +562,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1946">1946</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1946">1946</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [64194749884418654828833320]">11</container>
@@ -646,10 +590,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1947">1947</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1947">1947</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [618891004498485432487]">12</container>
@@ -665,10 +606,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1948">1948</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1948">1948</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [618891004498485432487]">12</container>
@@ -684,10 +622,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1949">1949</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1949">1949</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [618891004498485432487]">12</container>
@@ -715,10 +650,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950">1950</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1950">1950</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5961448874323075116]">13</container>
@@ -734,10 +666,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951">1951</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1951">1951</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5961448874323075116]">13</container>
@@ -754,10 +683,7 @@
         <c02 level="file">
           <did>
             <container label="Box [2407348798216604]" type="box">14</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1952">1952</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1952">1952</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2407348798216604]">14</container>
@@ -773,10 +699,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953">1953</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1953">1953</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2407348798216604]">14</container>
@@ -789,10 +712,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954">1954</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1954">1954</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2407348798216604]">14</container>
@@ -816,10 +736,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1955">1955</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1955">1955</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2407348798216604]">14</container>
@@ -1166,10 +1083,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956">1956</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1956">1956</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2407348798216604]">14</container>
@@ -1590,10 +1504,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957">1957</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1957">1957</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [17335454932236938]">15</container>
@@ -2105,10 +2016,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1958">1958</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1958">1958</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [54909449279463573842]">16</container>
@@ -2379,10 +2287,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1959">1959</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1959">1959</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [54909449279463573842]">16</container>
@@ -2398,10 +2303,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1960">1960</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1960">1960</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [54909449279463573842]">16</container>
@@ -2418,8 +2320,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Operative Notes <unitdate type="inclusive" normal="1927/1954">1927-1954</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Operative Notes</unittitle><unitdate type="inclusive" normal="1927/1954">1927-1954</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">2.8 linear feet</extent>
           </physdesc>
         </did>
@@ -2435,10 +2336,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1927">1927</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1927">1927</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2446,10 +2344,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1928">1928</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1928">1928</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2457,10 +2352,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1929">1929</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1929">1929</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2468,10 +2360,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1930">1930</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1930">1930</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2479,10 +2368,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931">1931</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1931">1931</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2490,10 +2376,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1932">1932</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1932">1932</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2501,10 +2384,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933">1933</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1933">1933</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">11 folders</extent>
               </physdesc>
             </did>
@@ -2515,10 +2395,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934">1934</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1934">1934</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2529,10 +2406,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935">1935</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1935">1935</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2543,10 +2417,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1936">1936</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1936">1936</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2554,10 +2425,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2565,10 +2433,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947/1949">1947-1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947/1949">1947-1949</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2576,10 +2441,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1950">1950</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1950">1950</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2587,10 +2449,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951">1951</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1951">1951</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2598,10 +2457,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952">1952</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1952">1952</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2609,10 +2465,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [72144396036314008257]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2627,10 +2480,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935">1935</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1935">1935</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2638,10 +2488,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1936">1936</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1936">1936</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2652,10 +2499,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1940">1940</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1940">1940</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2663,10 +2507,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1941">1941</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1941">1941</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2674,10 +2515,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943">1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943">1943</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2685,10 +2523,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944">1944</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1944">1944</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2696,10 +2531,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945">1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945">1945</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2707,10 +2539,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946">1946</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1946">1946</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2718,10 +2547,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947">1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947">1947</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2729,10 +2555,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948">1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948">1948</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2740,10 +2563,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949">1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949">1949</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2751,10 +2571,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1950">1950</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1950">1950</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2762,10 +2579,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951">1951</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1951">1951</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2773,10 +2587,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [821500784195131008]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952">1952</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1952">1952</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2789,8 +2600,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Anterolateral Thoracoplasty</subject>, <unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Anterolateral Thoracoplasty</subject></unittitle><unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2798,8 +2608,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Broncoscopic Aspiration of Secretions</subject>, <unitdate type="inclusive" normal="1931/1933">1931-1933</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Broncoscopic Aspiration of Secretions</subject></unittitle><unitdate type="inclusive" normal="1931/1933">1931-1933</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2807,8 +2616,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Broncoscopic Drainage</subject>, <unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Broncoscopic Drainage</subject></unittitle><unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2816,8 +2624,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Broncoscopy</subject>, <unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle><subject>Broncoscopy</subject></unittitle><unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2828,8 +2635,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Cauterization</subject>, <unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Cauterization</subject></unittitle><unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2837,8 +2643,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Closed Drainage of Empyema</subject>, <unitdate type="inclusive" normal="1928/1934">1928-1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Closed Drainage of Empyema</subject></unittitle><unitdate type="inclusive" normal="1928/1934">1928-1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2846,8 +2651,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Division of Adhesions</subject>, <unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Division of Adhesions</subject></unittitle><unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2855,8 +2659,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Drainage of Abscess</subject>, <unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Drainage of Abscess</subject></unittitle><unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2864,8 +2667,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Empyemic Thoracoplasty</subject>, <unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Empyemic Thoracoplasty</subject></unittitle><unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2873,8 +2675,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Extrapleural Thoracoplasty</subject>, <unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Extrapleural Thoracoplasty</subject></unittitle><unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2882,8 +2683,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Lobectomy</subject>, <unitdate type="inclusive" normal="1928/1934">1928-1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Lobectomy</subject></unittitle><unitdate type="inclusive" normal="1928/1934">1928-1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2891,8 +2691,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Miscellaneous Explorations (Successful &amp; Unsuccessful)</subject>, <unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Miscellaneous Explorations (Successful &amp; Unsuccessful)</subject></unittitle><unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2900,8 +2699,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Open Drainage Empyema</subject>, <unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle><subject>Open Drainage Empyema</subject></unittitle><unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2912,8 +2710,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Pneumonolysis</subject>, <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Pneumonolysis</subject></unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2921,8 +2718,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Posterolateral Thoracoplasty</subject>, <unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Posterolateral Thoracoplasty</subject></unittitle><unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2930,8 +2726,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Sinus Operations</subject>, <unitdate type="inclusive" normal="1927">1927</unitdate>, <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Sinus Operations</subject></unittitle><unitdate type="inclusive" normal="1927">1927</unitdate><unitdate type="inclusive" normal="1934">1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2939,8 +2734,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Thoracoplasty</subject>, <unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Thoracoplasty</subject></unittitle><unitdate type="inclusive" normal="1927/1934">1927-1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2948,8 +2742,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Thoracotomy</subject>, <unitdate type="inclusive" normal="1928/1934">1928-1934</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Thoracotomy</subject></unittitle><unitdate type="inclusive" normal="1928/1934">1928-1934</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2957,8 +2750,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [769761412080542736906]">19</container>
-              <unittitle><subject>Miscellaneous Operations on Extremities</subject>, <unitdate type="inclusive" normal="1931/1935">1931-1935</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Miscellaneous Operations on Extremities</subject></unittitle><unitdate type="inclusive" normal="1931/1935">1931-1935</unitdate></did>
             <accessrestrict>
               <p>[Restricted, Patient Records]</p>
             </accessrestrict>
@@ -2967,8 +2759,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Papers and Notes <unitdate type="inclusive" normal="1929/1949">1929-1949</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Papers and Notes</unittitle><unitdate type="inclusive" normal="1929/1949">1929-1949</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">0.2 linear feet</extent>
           </physdesc>
         </did>
@@ -2978,14 +2769,12 @@
         <c02 level="file">
           <did>
             <container label="Box [769761412080542736906]" type="box">19</container>
-            <unittitle>"The <subject>Empyema</subject> Problem," (Alexander), <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-          </did>
+            <unittitle>"The <subject>Empyema</subject> Problem," (Alexander)</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [769761412080542736906]">19</container>
-            <unittitle>" <subject>Monaldi Drainage</subject>" <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
-          </did>
+            <unittitle>" <subject>Monaldi Drainage</subject>"</unittitle><unitdate type="inclusive" normal="1947">1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2996,26 +2785,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [769761412080542736906]">19</container>
-            <unittitle>"The Surgical Management of the Acute Recurring and Chronic Forms of <subject>Spontaneous Pneumothorax</subject>," (Haight &amp; Alexander), <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
-          </did>
+            <unittitle>"The Surgical Management of the Acute Recurring and Chronic Forms of <subject>Spontaneous Pneumothorax</subject>," (Haight &amp; Alexander)</unittitle><unitdate type="inclusive" normal="1947">1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [769761412080542736906]">19</container>
-            <unittitle>"Surgical Treatment of <subject>Tuberculosis Empyema and its Pyogenic Complications</subject>," (Haight), <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-          </did>
+            <unittitle>"Surgical Treatment of <subject>Tuberculosis Empyema and its Pyogenic Complications</subject>," (Haight)</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [769761412080542736906]">19</container>
-            <unittitle>Miscellaneous Reprints <unitdate type="inclusive" normal="1934/1949">1934-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Miscellaneous Reprints</unittitle><unitdate type="inclusive" normal="1934/1949">1934-1949</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Photographs and Negatives <unitdate type="inclusive" normal="1929/1957">1929-1957</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Photographs and Negatives</unittitle><unitdate type="inclusive" normal="1929/1957">1929-1957</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">1 linear feet</extent>
           </physdesc>
         </did>
@@ -3285,20 +3070,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5605146440898964563386]">20</container>
-              <unittitle><subject>Army Course (includes negatives)</subject>, <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Army Course (includes negatives)</subject></unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5605146440898964563386]">20</container>
-              <unittitle><subject>Junior and Senior Surgical Sections</subject>, <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Junior and Senior Surgical Sections</subject></unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5605146440898964563386]">20</container>
-              <unittitle><subject>Malacca Tuberculosis Unit</subject>, <unitdate type="inclusive" normal="1945" certainty="approximate">circa 1945</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Malacca Tuberculosis Unit</subject></unittitle><unitdate type="inclusive" normal="1945" certainty="approximate">circa 1945</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3309,10 +3091,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5605146440898964563386]">20</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1933/1942">1933-1942</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1933/1942">1933-1942</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -3320,8 +3099,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5605146440898964563386]">20</container>
-                <unittitle><unitdate type="inclusive" normal="1946/1957">1946-1957</unitdate> and n.d.</unittitle>
-                <physdesc altrender="whole">
+                <unittitle>And n.d.</unittitle><unitdate type="inclusive" normal="1946/1957">1946-1957</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -3330,8 +3108,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5605146440898964563386]">20</container>
-              <unittitle><subject>Staff (includes negatives)</subject>, <unitdate type="inclusive" normal="1934/1935" certainty="approximate">circa 1934-1935</unitdate></unittitle>
-            </did>
+              <unittitle><subject>Staff (includes negatives)</subject></unittitle><unitdate type="inclusive" normal="1934/1935" certainty="approximate">circa 1934-1935</unitdate></did>
           </c03>
         </c02>
       </c01>

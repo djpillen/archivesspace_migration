@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Aiton, Arthur Scott, 1894-1955.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/294">Aiton, Arthur Scott, 1894-1955.</persname>
       </origination>
-      <unittitle encodinganalog="245">Arthur Scott Aiton pamphlets and reprints <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1949">1926-1949</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">[7219] DA 2; A311; P186</unitid>
+      <unittitle encodinganalog="245">Arthur Scott Aiton pamphlets and reprints</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1926/1949">1926-1949</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">[7219] DA 2; A311; P186</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of Latin American history at the University of Michigan. Reprints of journal articles and other writings.</abstract>
       <physdesc altrender="whole">
@@ -82,7 +82,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject encodinganalog="650" source="lcsh">Latin America--History.</subject>
+        <subject encodinganalog="650" source="lcsh" ref="/subjects/5773">Latin America--History.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Gill, Lillian.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6703">Gill, Lillian.</persname>
       </origination>
-      <unittitle encodinganalog="245">Lillian Gill papers <unitdate type="inclusive" encodinganalog="245$f" normal="1950/2007" certainty="approximate">1950s-2007</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008001 Aa 2</unitid>
+      <unittitle encodinganalog="245">Lillian Gill papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1950/2007" certainty="approximate">1950s-2007</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008001 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>African American businesswoman from Grand Rapids, Michigan; correspondence, clippings, published materials, and photographs largely relating to her civic, political, fraternal, and church activities, especially her long-time involvement with the Order of the Eastern Star and with New Hope Baptist Church in Grand Rapids.</abstract>
       <physdesc altrender="whole">
@@ -81,33 +81,33 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">African American Baptists--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">African American Baptists--Michigan--Grand Rapids.</subject>
-        <subject source="lcsh" encodinganalog="650">African American freemasonry.</subject>
-        <subject source="lcsh" encodinganalog="650">African American freemasons.</subject>
-        <subject source="lcsh" encodinganalog="650">African American women--Michigan--Grand Rapids.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82040295">Amway Corporation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">General Baptist State Convention of Michigan.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Gill, Lillian.</persname>
-        <geogname source="lcsh" encodinganalog="651">Grand Rapids (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Great Lakes Mutual Life Insurance Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">New Hope Baptist Church (Grand Rapids, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50069908">Order of the Eastern Star.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Western District Association.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7978">African American Baptists--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7979">African American Baptists--Michigan--Grand Rapids.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7980">African American freemasonry.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6596">African American freemasons.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7981">African American women--Michigan--Grand Rapids.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82040295" ref="/agents/corporate_entities/3183">Amway Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4012">General Baptist State Convention of Michigan.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6703">Gill, Lillian.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1905">Grand Rapids (Mich.)--Church history.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/599">Great Lakes Mutual Life Insurance Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3805">New Hope Baptist Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50069908" ref="/agents/corporate_entities/1818">Order of the Eastern Star.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1922">Western District Association.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lcsh" encodinganalog="650">African American women--Michigan--Grand Rapids.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82040295">Amway Corporation.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Gill, Lillian.</persname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151">Grand Rapids (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">New Hope Baptist Church (Grand Rapids, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50069908">Order of the Eastern Star.</corpname>
-        <subject source="lctgm" encodinganalog="650">Fraternal organizations--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7981">African American women--Michigan--Grand Rapids.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82040295" ref="/agents/corporate_entities/3183">Amway Corporation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6703">Gill, Lillian.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151" ref="/subjects/1098">Grand Rapids (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3805">New Hope Baptist Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50069908" ref="/agents/corporate_entities/1818">Order of the Eastern Star.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4391">Fraternal organizations--United States.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -221,14 +221,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [11764525624389479434993126]">1</container>
-            <unittitle>Michigan Constitutional Convention, campaign for delegate <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Constitutional Convention, campaign for delegate</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [11764525624389479434993126]">1</container>
-            <unittitle>Model Cities Temporary Committee <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <unittitle>Model Cities Temporary Committee</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -272,10 +270,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24858742807783991]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960/1990">1960-1990</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1960/1990">1960-1990</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -283,10 +278,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [73898205462348150566325]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1991/2005">1991-2005</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1991/2005">1991-2005</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
@@ -299,10 +291,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [73898205462348150566325]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954/2006">1954-2006</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1954/2006">1954-2006</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>

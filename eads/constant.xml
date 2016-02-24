@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n88616196">Constantinides, Kathy, 1936-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n88616196" ref="/agents/people/4541">Constantinides, Kathy, 1936-</persname>
       </origination>
-      <unittitle encodinganalog="245">Kathy and Angelos Constantinides papers <unitdate type="inclusive" encodinganalog="245$f" normal="1889/2012">1889-2012</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012044 Aa 2</unitid>
+      <unittitle encodinganalog="245">Kathy and Angelos Constantinides papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1889/2012">1889-2012</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012044 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">1.1 linear feet</extent>
@@ -82,18 +82,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Bakalis, Pete.</persname>
-        <persname source="lcnaf" encodinganalog="600">Bakalis, Hrissi.</persname>
-        <persname source="lcnaf" encodinganalog="600">Constantinides, Angelos.</persname>
-        <persname source="lcnaf" encodinganalog="600">Constantinides, Eleni.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86870732">Constantinides, George.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88616196">Constantinides, Kathy, 1936-</persname>
-        <subject source="lcsh" encodinganalog="650">Greek Americans--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Women's rights--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5957">Bakalis, Pete.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8324">Bakalis, Hrissi.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6610">Constantinides, Angelos.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1897">Constantinides, Eleni.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86870732" ref="/agents/people/8767">Constantinides, George.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88616196" ref="/agents/people/4541">Constantinides, Kathy, 1936-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6982">Greek Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6228">Women's rights--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Constantinides, Angelos.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6610">Constantinides, Angelos.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -104,8 +104,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1955847413541859]">1</container>
-            <unittitle>Early documents: dowry agreement, <unitdate type="inclusive" normal="1889">1889</unitdate> and cantina permit, <unitdate type="inclusive" normal="1900">1900</unitdate></unittitle>
-          </did>
+            <unittitle>Early documents: dowry agreement, 1889 and cantina permit, 1900</unittitle><unitdate type="inclusive" normal="1889">1889</unitdate><unitdate type="inclusive" normal="1900">1900</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -203,8 +202,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Letters to the editor and to organizations on topics of women's rights and civil liberties <unitdate type="inclusive" normal="1979/2010">1979-2010</unitdate></unittitle>
-          </did>
+            <unittitle>Letters to the editor and to organizations on topics of women's rights and civil liberties</unittitle><unitdate type="inclusive" normal="1979/2010">1979-2010</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9030720402635937062750]">2</container>
@@ -322,8 +320,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1955847413541859]">1</container>
-            <unittitle>Chicago College of Osteopathy class of <unitdate type="inclusive" normal="1959">1959</unitdate> class photo</unittitle>
-          </did>
+            <unittitle>Chicago College of Osteopathy class of  class photo</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Poole, S. Alicia.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/7304">Poole, S. Alicia.</persname>
       </origination>
-      <unittitle encodinganalog="245">S. Alicia Poole papers and photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1959" certainty="approximate">1860s-1950s</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852054 Aa 2</unitid>
+      <unittitle encodinganalog="245">S. Alicia Poole papers and photographs</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1860/1959" certainty="approximate">1860s-1950s</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852054 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Resident of Mackinac Island, Michigan; photoprints and negatives of Mackinac Island scenes.</abstract>
       <physdesc altrender="whole">
@@ -75,43 +75,43 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923">Mackinac Island (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Poole family.</famname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923" ref="/subjects/945">Mackinac Island (Mich.)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/343">Poole family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname source="lcnaf" encodinganalog="600">Boardman family.</famname>
-        <subject source="lctgm" encodinganalog="650">Buildings--Michigan--Mackinac Island.</subject>
-        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Mackinac Island.</subject>
-        <subject source="lctgm" encodinganalog="650">Carriages and coaches.</subject>
-        <subject source="lctgm" encodinganalog="650">Dogsleds.</subject>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Mackinac Island.</subject>
-        <subject source="lctgm" encodinganalog="650">Ferries.</subject>
-        <geogname source="lcsh" encodinganalog="651">Fort Mackinac (Mackinac Island, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Grand Hotel (Mackinac Island, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Hotels and taverns--Michigan--Mackinac Island.</subject>
-        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Iroquois Hotel (Mackinac Island, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Lighthouses--Michigan--Mackinac, Straits of.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923">Mackinac Island (Mich.)</geogname>
-        <geogname source="lctgm" encodinganalog="651">Mackinac Island (Mich.)--Buildings.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Mackinac Island (Mich.)--Business enterprises.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Mackinac Island (Mich.)--Hotels and taverns.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Mackinac Island (Mich.)--Streets.</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923">Mackinac Island (Mich.)</geogname>
-        <geogname source="lctgm" encodinganalog="651">Mackinac, Straits of (Mich.)--Lighthouses.</geogname>
-        <subject source="lctgm" encodinganalog="650">Monuments and memorials.</subject>
-        <persname source="lcnaf" encodinganalog="600">Poole, S. Alicia.</persname>
-        <famname source="lcnaf" encodinganalog="600">Poole family.</famname>
-        <subject source="lctgm" encodinganalog="650">Resorts--Michigan--Mackinac Island.</subject>
-        <subject source="lctgm" encodinganalog="650">Ships--Great Lakes.</subject>
-        <subject source="lctgm" encodinganalog="650">Streets--Michigan--Mackinac Island.</subject>
-        <subject source="lcsh" encodinganalog="650">Tourism.</subject>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/317">Boardman family.</famname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5169">Buildings--Michigan--Mackinac Island.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5170">Business enterprises--Michigan--Mackinac Island.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3652">Carriages and coaches.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4139">Dogsleds.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5171">Dwellings--Michigan--Mackinac Island.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3785">Ferries.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2566">Fort Mackinac (Mackinac Island, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4087">Grand Hotel (Mackinac Island, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5078">Hotels and taverns--Michigan--Mackinac Island.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3687">Interiors.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2513">Iroquois Hotel (Mackinac Island, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5172">Lighthouses--Michigan--Mackinac, Straits of.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923" ref="/subjects/945">Mackinac Island (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/552">Mackinac Island (Mich.)--Buildings.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/640">Mackinac Island (Mich.)--Business enterprises.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/623">Mackinac Island (Mich.)--Hotels and taverns.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/641">Mackinac Island (Mich.)--Streets.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923" ref="/subjects/945">Mackinac Island (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/642">Mackinac, Straits of (Mich.)--Lighthouses.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3861">Monuments and memorials.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7304">Poole, S. Alicia.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/343">Poole family.</famname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4437">Resorts--Michigan--Mackinac Island.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3979">Ships--Great Lakes.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5173">Streets--Michigan--Mackinac Island.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5908">Tourism.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Tintypes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3453">Tintypes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -356,8 +356,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [596795549389841927077242]">1</container>
-              <unittitle>Woman <unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate>. Photo by Drum, Brunswick, Yew Jersey</unittitle>
-            </did>
+              <unittitle>Woman . Photo by Drum, Brunswick, Yew Jersey</unittitle><unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -410,14 +409,12 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [596795549389841927077242]">1</container>
-              <unittitle>Framed oval photograph of woman <unitdate type="inclusive" normal="1870" certainty="approximate">circa 1870</unitdate></unittitle>
-            </did>
+              <unittitle>Framed oval photograph of woman</unittitle><unitdate type="inclusive" normal="1870" certainty="approximate">circa 1870</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
               <container type="box" label="Box [596795549389841927077242]">1</container>
-              <unittitle>Framed oval photograph of man <unitdate type="inclusive" normal="1870" certainty="approximate">circa 1870</unitdate></unittitle>
-            </did>
+              <unittitle>Framed oval photograph of man</unittitle><unitdate type="inclusive" normal="1870" certainty="approximate">circa 1870</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -545,8 +542,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [596795549389841927077242]">1</container>
-              <unittitle>Iroquois Hotel <unitdate type="inclusive" normal="1905" certainty="approximate">circa 1905</unitdate>, <unitdate type="inclusive" normal="1920">1920</unitdate></unittitle>
-            </did>
+              <unittitle>Iroquois Hotel</unittitle><unitdate type="inclusive" normal="1905" certainty="approximate">circa 1905</unitdate><unitdate type="inclusive" normal="1920">1920</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">

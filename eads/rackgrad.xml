@@ -24,7 +24,8 @@
         <item>Original encoding from 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">From Scholarly Promise to Achievement: A Selection of Distinguished Rackham Ph.D.'s of the Past Fifty Years (Ann Arbor, 1988)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3233">From Scholarly Promise to Achievement: A Selection of Distinguished Rackham Ph.D.'s of the Past Fifty Years (Ann Arbor, 1988)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Exhibition photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1988">1988</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92149 UBImu E17 2 UBImum E17</unitid>
+      <unittitle encodinganalog="245">Exhibition photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1988">1988</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92149 UBImu E17 2 UBImum E17</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Exhibition photographs and captions used in the fiftieth anniversary celebration of the Rackham Building, 1988. Also includes related correspondence. Mainly photographs of distinguished Rackham Ph.D. holders.</abstract>
       <physdesc altrender="part">
@@ -86,19 +86,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lctgm" encodinganalog="650">Exhibitions.</subject>
-        <corpname source="lcnaf" encodinganalog="610">From Scholarly Promise to Achievement (1988 : Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Horace H. Rackham School of Graduate Studies.</corpname>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Exhibitions.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3576">Exhibitions.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1236">From Scholarly Promise to Achievement (1988 : Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/596">Horace H. Rackham School of Graduate Studies.</corpname>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Exhibitions.<term type="topical">Exhibitions.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students.<term type="topical">Students.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform encodinganalog="655" source="aat">Photographs.</genreform>
+        <genreform encodinganalog="655" source="aat" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Alawan, Raad.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/7974">Alawan, Raad.</persname>
       </origination>
-      <unittitle encodinganalog="245">Raad Alawan video collection <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2005">1960-2005</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="2004/2005">2004-2005</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009103 Aa 2</unitid>
+      <unittitle encodinganalog="245">Raad Alawan video collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1960/2005">1960-2005</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="2004/2005">2004-2005</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009103 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>A Dearborn, Michigan writer and television producer. Collection includes DVDs of the interviews and film footage used in the production of his documentary, "New beginnings: the story of the Islamic Center of America."</abstract>
       <physdesc altrender="whole">
@@ -83,19 +83,19 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Alawan, Raad.</persname>
-        <subject source="lcsh" encodinganalog="650">Islam--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Islamic Center of America (Dearborn, Mich.)</corpname>
-        <title source="aacr2" encodinganalog="740">New beginnings.</title>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7974">Alawan, Raad.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5775">Islam--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5584">Islamic Center of America (Dearborn, Mich.)</corpname>
+        <title source="aacr2" encodinganalog="740" ref="/subjects/2">New beginnings.</title>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2007016972">Qazwini, Hassan, 1964-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2007016972" ref="/agents/people/6069">Qazwini, Hassan, 1964-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">DVDs.</genreform>
-        <genreform source="aat" encodinganalog="655">Oral histories.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3155">DVDs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3156">Oral histories.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -191,8 +191,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [63430741140749586796]">1</container>
-            <unittitle>Various Locations: Women Baking, Ramadan, Joy Road Mosque <unitdate type="inclusive" normal="2004">2004</unitdate>; Ford Road Mosque new construction; Warren Ave. .</unittitle>
-          </did>
+            <unittitle>Various Locations: Women Baking, Ramadan, Joy Road Mosque ; Ford Road Mosque new construction; Warren Ave. .</unittitle><unitdate type="inclusive" normal="2004">2004</unitdate></did>
           <odd>
             <p>(DVD #10)</p>
           </odd>
@@ -263,8 +262,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [63430741140749586796]">1</container>
-            <unittitle>Video Lectures of Imam Mohammad Jawad Chirri and miscellaneous footage. <unitdate type="inclusive" normal="1960/1970" certainty="approximate">circa 1960-1970</unitdate>;</unittitle>
-          </did>
+            <unittitle>Video Lectures of Imam Mohammad Jawad Chirri and miscellaneous footage. ;</unittitle><unitdate type="inclusive" normal="1960/1970" certainty="approximate">circa 1960-1970</unitdate></did>
           <odd>
             <p>(Includes video Lectures Imam Mohammad Jawad Chirri; fund raising Event; Imam Sayed Hassen Al-Qazwini prayer/U S House of Representatives; President Jimmy Carter; Various 8 mm Films by Eide Alawan: Hassan &amp; Nada traditional Lebanese Wedding, circa 1970; Imam M.J. Chirri &amp; Sheikh Khalil Bazzy officiating, reception &amp; banquet, at Joy Road Mosque (no sound); Groundbreaking/excavation Islamic Center of Detroit (Later America), circa 1960; early construction, steel framing &amp; Basement, Imam M. J. Chirri, Ibrahim 'Abe' Alawan, Fuad Hassen (Joy Road Mosque Architect), and congregation)</p>
           </odd>

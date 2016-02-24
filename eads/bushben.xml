@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Bush, Benjamin F.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3247">Bush, Benjamin F.</persname>
       </origination>
-      <unittitle encodinganalog="245">Benjamin F. Bush manuscript maps <unitdate type="inclusive" encodinganalog="245$f" normal="1850/1870" certainty="approximate">circa 1850-1870</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">754; M4112: .L7; 1850; B8</unitid>
+      <unittitle encodinganalog="245">Benjamin F. Bush manuscript maps</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1850/1870" certainty="approximate">circa 1850-1870</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">754; M4112: .L7; 1850; B8</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">9 folders</extent>
@@ -77,32 +77,32 @@
       </p>
       <controlaccess>
         <head>Subjects: Maps</head>
-        <geogname source="lcsh" encodinganalog="651">Alcona County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Alpena County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Arenac County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Bay County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Clare County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Genesee County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Gladwin County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Huron County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Iosco County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Isabella County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Midland County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Montmorency County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Ogemaw County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Oscoda County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Saginaw County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Tuscola County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Arenac (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Au Sable River (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Bay City (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Carrollton (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">North Saint Charles (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Saginaw (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Saginaw River (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Salina (Mich.)--Maps.</geogname>
-        <subject source="lcsh" encodinganalog="650">Nautical charts--Huron, Lake (Mich. and Ont.)</subject>
-        <subject source="lcsh" encodinganalog="650">Real property--Michigan--Maps.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1405">Alcona County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1406">Alpena County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1407">Arenac County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1408">Bay County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1324">Clare County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1409">Genesee County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1410">Gladwin County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1411">Huron County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1412">Iosco County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1413">Isabella County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1414">Midland County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1330">Montmorency County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1415">Ogemaw County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1334">Oscoda County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1416">Saginaw County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1417">Tuscola County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1418">Arenac (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1419">Au Sable River (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1420">Bay City (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1421">Carrollton (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1422">North Saint Charles (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1423">Saginaw (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1424">Saginaw River (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1425">Salina (Mich.)--Maps.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6594">Nautical charts--Huron, Lake (Mich. and Ont.)</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6595">Real property--Michigan--Maps.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

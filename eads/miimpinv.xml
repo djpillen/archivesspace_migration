@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n50058117">Michigan Historical Records Survey.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n50058117" ref="/agents/corporate_entities/3311">Michigan Historical Records Survey.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Michigan Imprints Inventory records <unitdate type="inclusive" encodinganalog="245$f" normal="1936/1941">1936-1941</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851852 Ca 2</unitid>
+      <unittitle encodinganalog="245">Michigan Imprints Inventory records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1936/1941">1936-1941</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851852 Ca 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Project of the Work Projects Administration in Michigan. Notes on books and pamphlets published in Michigan between 1796 and 1876.</abstract>
       <physdesc altrender="whole">
@@ -84,12 +84,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="630">American imprints inventory.</subject>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Bibliography.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50058117">Michigan Historical Records Survey.</corpname>
-        <subject source="lcsh" encodinganalog="630">Michigan imprints inventory.</subject>
-        <subject source="lcsh" encodinganalog="650">Publishers and publishing--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United States. Work Projects Administration.</corpname>
+        <subject source="lcsh" encodinganalog="630" ref="/subjects/9353">American imprints inventory.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1295">Michigan--Bibliography.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50058117" ref="/agents/corporate_entities/3311">Michigan Historical Records Survey.</corpname>
+        <subject source="lcsh" encodinganalog="630" ref="/subjects/9354">Michigan imprints inventory.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9355">Publishers and publishing--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1279">United States. Work Projects Administration.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -117,8 +117,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [278568560418003992178224]">2</container>
-            <unittitle>Serials by date, <unitdate normal="1844/1876" type="inclusive">1844-1876</unitdate></unittitle>
-          </did>
+            <unittitle>Serials by date</unittitle><unitdate normal="1844/1876" type="inclusive">1844-1876</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -131,8 +130,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Imprints by city <unitdate type="inclusive" normal="1796/1876">1796-1876</unitdate></unittitle>
-          </did>
+            <unittitle>Imprints by city</unittitle><unitdate type="inclusive" normal="1796/1876">1796-1876</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [278568560418003992178224]">2</container>
@@ -176,8 +174,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [48534054029070086013973]">5</container>
-            <unittitle>State documents, <unitdate normal="1851/1878" type="inclusive">1851-1878</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>State documents</unittitle><unitdate normal="1851/1878" type="inclusive">1851-1878</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>

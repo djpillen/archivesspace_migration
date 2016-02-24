@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50006342">Bates, Marston, 1906-1974.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50006342" ref="/agents/people/2443">Bates, Marston, 1906-1974.</persname>
       </origination>
-      <unittitle encodinganalog="245">Marston Bates Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1913/1974">1913-1974</unitdate></unittitle>
-      <abstract>Professor of zoology at the University of Michigan, scientist for the Rockefeller Foundation, and scientific writer for both professional and popular publications. Correspondence, journals, manuscripts of writings, and class materials, including papers detailing his work with the United Fruit Company in Central America, 1928-1931, his later activities with the International Health Division of the Rockefeller Foundation, especially his interest in mosquito research and malaria control programs during the 1930's and 1940's, and his demographic studies of the people of the Ifalik Atoll in the South Pacific in 1953; and photographs.</abstract>
+      <unittitle encodinganalog="245">Marston Bates Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1913/1974">1913-1974</unitdate><abstract>Professor of zoology at the University of Michigan, scientist for the Rockefeller Foundation, and scientific writer for both professional and popular publications. Correspondence, journals, manuscripts of writings, and class materials, including papers detailing his work with the United Fruit Company in Central America, 1928-1931, his later activities with the International Health Division of the Rockefeller Foundation, especially his interest in mosquito research and malaria control programs during the 1930's and 1940's, and his demographic studies of the people of the Ifalik Atoll in the South Pacific in 1953; and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851144 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -80,94 +80,94 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50006342">Bates, Marston, 1906-1974.</persname>
-        <geogname source="lcsh" encodinganalog="651">Central America.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50017138">Cranbrook Institute of Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/n91127240">Darwin Centennial Celebration (1959 : University of Chicago)</corpname>
-        <geogname source="lcsh" encodinganalog="651">Ifalik Atoll (Micronesia)</geogname>
-        <subject source="lcsh" encodinganalog="650">Malaria.</subject>
-        <subject source="lcsh" encodinganalog="650">Mosquitoes--Control.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81032749">Rockefeller Foundation. International Health Division.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006852">United Fruit Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Zoology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <subject source="lcsh" encodinganalog="650">Zoology.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50006342" ref="/agents/people/2443">Bates, Marston, 1906-1974.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1010">Central America.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50017138" ref="/agents/corporate_entities/1897">Cranbrook Institute of Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/n91127240" ref="/agents/corporate_entities/4738">Darwin Centennial Celebration (1959 : University of Chicago)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1011">Ifalik Atoll (Micronesia)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6156">Malaria.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6157">Mosquitoes--Control.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81032749" ref="/agents/corporate_entities/2973">Rockefeller Foundation. International Health Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006852" ref="/agents/corporate_entities/2798">United Fruit Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1909">University of Michigan. Dept. of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6158">Zoology.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <geogname source="lcsh" encodinganalog="651">Albania.</geogname>
-        <subject source="lctgm" encodinganalog="650">Animals.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50006342">Bates, Marston, 1906-1974.</persname>
-        <subject source="lctgm" encodinganalog="650">Birds.</subject>
-        <geogname source="lcsh" encodinganalog="651">Central America.</geogname>
-        <subject source="lctgm" encodinganalog="650">Classrooms--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651">Colombia.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Ifalik Atoll (Micronesia)</geogname>
-        <subject source="lctgm" encodinganalog="650">Mosquitoes.</subject>
-        <subject source="lctgm" encodinganalog="650">Teaching methods.</subject>
-        <subject source="lcsh" encodinganalog="650">Television in education.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006852">United Fruit Company.</corpname>
-        <subject source="lctgm" encodinganalog="650">Zoology.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1012">Albania.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3811">Animals.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50006342" ref="/agents/people/2443">Bates, Marston, 1906-1974.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3812">Birds.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1010">Central America.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3591">Classrooms--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1013">Colombia.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1011">Ifalik Atoll (Micronesia)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3813">Mosquitoes.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3814">Teaching methods.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6159">Television in education.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006852" ref="/agents/corporate_entities/2798">United Fruit Company.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3815">Zoology.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81042314">Abbott, Donald Putnam.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88682582">Benítez, Jaime, 1908-2001</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81063208">Boulding, Kenneth E. (Kenneth Ewart), 1910-1993</persname>
-        <persname source="lcnaf" encodinganalog="700">Brown, Dugald E. S., 1901-</persname>
-        <persname source="lcnaf" encodinganalog="700">Bugher, John Clifford, 1901-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83148797">Burrows, Edwin G. (Edwin Grant), 1891-1958.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032847">Cain, Stanley A. (Stanley Adair), 1902-1995</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79120914">Childe, V. Gordon (Vere Gordon), 1892-1957.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87851606">Crist, Raymond E.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79138634">Darlington, Philip Jackson, 1904-1983.</persname>
-        <persname source="lcnaf" encodinganalog="700">DeVinney, Leland Collins, 1906-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50040421">De Voto, Bernard Augustine, 1897-1955.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2015027529">Dice, Lee Raymond, 1887-1977.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50027506">Douglas, Paul H. (Paul Howard), 1892-1976</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010068034">Dunn, Emmett Reid, 1894-1956.</persname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79095265">Ecological Society of America.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85335475">Fairchild, David, 1869-1954.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82232653">Fairchild, G. B.</persname>
-        <persname source="lcnaf" encodinganalog="700">Fairchild, Marian H.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no89013050">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
-        <persname source="lcnaf" encodinganalog="700">Gaige, Frederick M.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93011642">Gerlach, Lee.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025505">Grosvenor, Gilbert Hovey, 1875-1966.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032967">Grosvenor, Melville Bell, 1901-1982.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr90022702">Haber, William, 1899-1988.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hackett, Lewis Wendell, 1884-1962.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50033375">Hatcher, Harlan, 1898-1998.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hicks, Welmer K., 1909-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039433">Hubbell, Theodore Huntington, 1897-1989.</persname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50082525">John Simon Guggenheim Memorial Foundation.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010204545">Just, Theodor Karl, 1904-1960.</persname>
-        <persname source="lcnaf" encodinganalog="700">Kennedy, John S.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79065235">Kinsey, Alfred C. (Alfred Charles), 1894-1956.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr99034098">Kumm, Henry William, 1901-</persname>
-        <persname source="lcnaf" encodinganalog="700">Logan, John A.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78093416">Mead, Margaret, 1901-1978.</persname>
-        <persname source="lcnaf" encodinganalog="700">Muñoz Marín, Luis, 1898-1980.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94057548">Pollock, James K. (James Kerr), 1898-1968</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n92038725">Popenoe, Wilson, 1892-1975</persname>
-        <persname source="lcnaf" encodinganalog="700">Rahn, Sheldon Lloyd, 1918-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86825319">Rockefeller, David, 1915-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039450">Rogers, J. Speed (James Speed), 1892-1955</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80013000">Rusk, Dean, 1909-1994</persname>
-        <persname source="lcnaf" encodinganalog="700">Russell, Diarmuid.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80002532">Sauer, Carl Ortwin, 1889-1975</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85814346">Sawyer, Ralph A. (Ralph Alanson), 1895-1978.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82013184">Scribner, Charles, Jr., 1921-1995</persname>
-        <persname source="lcnaf" encodinganalog="700">Soop, Everett J., 1901-</persname>
-        <persname source="lcnaf" encodinganalog="700">Trapido, Harold.</persname>
-        <persname source="lcnaf" encodinganalog="700">Twente, John W.</persname>
-        <persname source="lcnaf" encodinganalog="700">Wagman, Frederick H.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50017308">Wilgus, A. Curtis (Alva Curtis), 1897-1981.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81042314" ref="/agents/people/2376">Abbott, Donald Putnam.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88682582" ref="/agents/people/1445">Benítez, Jaime, 1908-2001</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81063208" ref="/agents/people/7935">Boulding, Kenneth E. (Kenneth Ewart), 1910-1993</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1245">Brown, Dugald E. S., 1901-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8102">Bugher, John Clifford, 1901-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83148797" ref="/agents/people/1160">Burrows, Edwin G. (Edwin Grant), 1891-1958.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032847" ref="/agents/people/7564">Cain, Stanley A. (Stanley Adair), 1902-1995</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79120914" ref="/agents/people/4816">Childe, V. Gordon (Vere Gordon), 1892-1957.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87851606" ref="/agents/people/6947">Crist, Raymond E.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79138634" ref="/agents/people/572">Darlington, Philip Jackson, 1904-1983.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8026">DeVinney, Leland Collins, 1906-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50040421" ref="/agents/people/8909">De Voto, Bernard Augustine, 1897-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2015027529" ref="/agents/people/5676">Dice, Lee Raymond, 1887-1977.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50027506" ref="/agents/people/1045">Douglas, Paul H. (Paul Howard), 1892-1976</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010068034" ref="/agents/people/2382">Dunn, Emmett Reid, 1894-1956.</persname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79095265" ref="/agents/corporate_entities/2932">Ecological Society of America.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85335475" ref="/agents/people/3779">Fairchild, David, 1869-1954.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82232653" ref="/agents/people/4392">Fairchild, G. B.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5492">Fairchild, Marian H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no89013050" ref="/agents/people/1273">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8906">Gaige, Frederick M.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93011642" ref="/agents/people/8264">Gerlach, Lee.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025505" ref="/agents/people/5853">Grosvenor, Gilbert Hovey, 1875-1966.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032967" ref="/agents/people/985">Grosvenor, Melville Bell, 1901-1982.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr90022702" ref="/agents/people/1679">Haber, William, 1899-1988.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7064">Hackett, Lewis Wendell, 1884-1962.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50033375" ref="/agents/people/2154">Hatcher, Harlan, 1898-1998.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5805">Hicks, Welmer K., 1909-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039433" ref="/agents/people/7798">Hubbell, Theodore Huntington, 1897-1989.</persname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50082525" ref="/agents/corporate_entities/1231">John Simon Guggenheim Memorial Foundation.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010204545" ref="/agents/people/5678">Just, Theodor Karl, 1904-1960.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7376">Kennedy, John S.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79065235" ref="/agents/people/1300">Kinsey, Alfred C. (Alfred Charles), 1894-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr99034098" ref="/agents/people/4660">Kumm, Henry William, 1901-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5172">Logan, John A.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78093416" ref="/agents/people/7182">Mead, Margaret, 1901-1978.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4478">Muñoz Marín, Luis, 1898-1980.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94057548" ref="/agents/people/3856">Pollock, James K. (James Kerr), 1898-1968</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n92038725" ref="/agents/people/7533">Popenoe, Wilson, 1892-1975</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4679">Rahn, Sheldon Lloyd, 1918-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86825319" ref="/agents/people/510">Rockefeller, David, 1915-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039450" ref="/agents/people/5740">Rogers, J. Speed (James Speed), 1892-1955</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80013000" ref="/agents/people/277">Rusk, Dean, 1909-1994</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6694">Russell, Diarmuid.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80002532" ref="/agents/people/870">Sauer, Carl Ortwin, 1889-1975</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85814346" ref="/agents/people/7003">Sawyer, Ralph A. (Ralph Alanson), 1895-1978.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82013184" ref="/agents/people/2469">Scribner, Charles, Jr., 1921-1995</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1522">Soop, Everett J., 1901-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8629">Trapido, Harold.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3557">Twente, John W.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6941">Wagman, Frederick H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50017308" ref="/agents/people/561">Wilgus, A. Curtis (Alva Curtis), 1897-1981.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Drawings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3462">Drawings.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -180,15 +180,11 @@
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle>Chronological <unitdate type="inclusive" normal="1913/1949">1913-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Chronological</unittitle><unitdate type="inclusive" normal="1913/1949">1913-1949</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1913/1922">1913-1922</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1913/1922">1913-1922</unitdate></did>
             <odd>
               <p>(1-1)</p>
             </odd>
@@ -196,10 +192,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1923">1923</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1923">1923</unitdate></did>
             <odd>
               <p>(1-2)</p>
             </odd>
@@ -207,10 +200,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1924-01/1924-04">January-April 1924</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1924-01/1924-04">January-April 1924</unitdate></did>
             <odd>
               <p>(1-3)</p>
             </odd>
@@ -218,10 +208,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1924-05/1924-07">May-July 1924</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1924-05/1924-07">May-July 1924</unitdate></did>
             <odd>
               <p>(1-4)</p>
             </odd>
@@ -229,10 +216,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1924-08/1924-12">August-December 1924</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1924-08/1924-12">August-December 1924</unitdate></did>
             <odd>
               <p>(1-5)</p>
             </odd>
@@ -240,10 +224,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1925">1925</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1925">1925</unitdate></did>
             <odd>
               <p>(1-6)</p>
             </odd>
@@ -251,10 +232,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1926">1926</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1926">1926</unitdate></did>
             <odd>
               <p>(1-7)</p>
             </odd>
@@ -262,10 +240,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate></did>
             <odd>
               <p>(1-8)</p>
             </odd>
@@ -273,10 +248,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1929-01/1929-07">January-July 1929</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1929-01/1929-07">January-July 1929</unitdate></did>
             <odd>
               <p>(1-9)</p>
             </odd>
@@ -284,10 +256,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1929-08/1929-12">August-December 1929</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1929-08/1929-12">August-December 1929</unitdate></did>
             <odd>
               <p>(1-10)</p>
             </odd>
@@ -295,10 +264,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1930">1930</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1930">1930</unitdate></did>
             <odd>
               <p>(1-11)</p>
             </odd>
@@ -306,10 +272,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931-01/1931-05">January-May 1931</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1931-01/1931-05">January-May 1931</unitdate></did>
             <odd>
               <p>(1-12)</p>
             </odd>
@@ -317,10 +280,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931-06/1931-08">June-August 1931</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1931-06/1931-08">June-August 1931</unitdate></did>
             <odd>
               <p>(l-13)</p>
             </odd>
@@ -328,10 +288,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931-09/1931-10">September-October 1931</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1931-09/1931-10">September-October 1931</unitdate></did>
             <odd>
               <p>(1-14)</p>
             </odd>
@@ -339,10 +296,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931-11">November 1931</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1931-11">November 1931</unitdate></did>
             <odd>
               <p>(1-15)</p>
             </odd>
@@ -350,10 +304,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931-12">December 1931</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1931-12">December 1931</unitdate></did>
             <odd>
               <p>(1-16)</p>
             </odd>
@@ -361,10 +312,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1932-01">January 1932</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1932-01">January 1932</unitdate></did>
             <odd>
               <p>(1-17)</p>
             </odd>
@@ -372,10 +320,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1932-02">February 1932</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1932-02">February 1932</unitdate></did>
             <odd>
               <p>(1-18)</p>
             </odd>
@@ -383,10 +328,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1932-03/1932-04">March-April 1932</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1932-03/1932-04">March-April 1932</unitdate></did>
             <odd>
               <p>(1-19)</p>
             </odd>
@@ -394,10 +336,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1932-05">May 1932</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1932-05">May 1932</unitdate></did>
             <odd>
               <p>(1-20)</p>
             </odd>
@@ -405,10 +344,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1932-06">June 1932</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1932-06">June 1932</unitdate></did>
             <odd>
               <p>(1-21)</p>
             </odd>
@@ -416,10 +352,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1932-07/1932-08">July-August 1932</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1932-07/1932-08">July-August 1932</unitdate></did>
             <odd>
               <p>(1-22)</p>
             </odd>
@@ -427,10 +360,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1932-09/1932-10">September-October 1932</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1932-09/1932-10">September-October 1932</unitdate></did>
             <odd>
               <p>(1-23)</p>
             </odd>
@@ -438,10 +368,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1932-11/1932-12">November-December 1932</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1932-11/1932-12">November-December 1932</unitdate></did>
             <odd>
               <p>(1-24)</p>
             </odd>
@@ -449,10 +376,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933-01">January 1933</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1933-01">January 1933</unitdate></did>
             <odd>
               <p>(1-25)</p>
             </odd>
@@ -460,10 +384,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933-02">February 1933</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1933-02">February 1933</unitdate></did>
             <odd>
               <p>(1-26)</p>
             </odd>
@@ -471,10 +392,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933-03">March 1933</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1933-03">March 1933</unitdate></did>
             <odd>
               <p>(1-27)</p>
             </odd>
@@ -482,10 +400,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933-04/1933-05">April-May 1933</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1933-04/1933-05">April-May 1933</unitdate></did>
             <odd>
               <p>(1-28)</p>
             </odd>
@@ -493,10 +408,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933-06">June 1933</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1933-06">June 1933</unitdate></did>
             <odd>
               <p>(1-29)</p>
             </odd>
@@ -504,10 +416,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933-07/1933-08">July-August 1933</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1933-07/1933-08">July-August 1933</unitdate></did>
             <odd>
               <p>(1-30)</p>
             </odd>
@@ -515,10 +424,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933-09">September 1933</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1933-09">September 1933</unitdate></did>
             <odd>
               <p>(1-31)</p>
             </odd>
@@ -526,10 +432,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933-10">October 1933</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1933-10">October 1933</unitdate></did>
             <odd>
               <p>(1-32)</p>
             </odd>
@@ -537,10 +440,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933-11">November 1933</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1933-11">November 1933</unitdate></did>
             <odd>
               <p>(1-33)</p>
             </odd>
@@ -548,10 +448,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933-12">December 1933</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1933-12">December 1933</unitdate></did>
             <odd>
               <p>(1-34)</p>
             </odd>
@@ -559,10 +456,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934-01">January 1934</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1934-01">January 1934</unitdate></did>
             <odd>
               <p>(1-35)</p>
             </odd>
@@ -570,10 +464,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934-02">February 1934</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1934-02">February 1934</unitdate></did>
             <odd>
               <p>(1-36)</p>
             </odd>
@@ -581,10 +472,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934-03/1934-04">March-April 1934</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1934-03/1934-04">March-April 1934</unitdate></did>
             <odd>
               <p>(1-37)</p>
             </odd>
@@ -592,10 +480,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934-05">May 1934</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1934-05">May 1934</unitdate></did>
             <odd>
               <p>(1-38)</p>
             </odd>
@@ -603,10 +488,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934-06">June 1934</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1934-06">June 1934</unitdate></did>
             <odd>
               <p>(1-39)</p>
             </odd>
@@ -614,10 +496,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934-07/1934-08">July-August 1934</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1934-07/1934-08">July-August 1934</unitdate></did>
             <odd>
               <p>(1-40)</p>
             </odd>
@@ -625,10 +504,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934-09/1934-10">September-October 1934</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1934-09/1934-10">September-October 1934</unitdate></did>
             <odd>
               <p>(1-41)</p>
             </odd>
@@ -636,10 +512,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934-11">November 1934</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1934-11">November 1934</unitdate></did>
             <odd>
               <p>(1-42)</p>
             </odd>
@@ -647,10 +520,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [24208168144775925981412296]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934-12">December 1934</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1934-12">December 1934</unitdate></did>
             <odd>
               <p>(1-43)</p>
             </odd>
@@ -658,10 +528,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935-01">January 1935</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1935-01">January 1935</unitdate></did>
             <odd>
               <p>(2-1)</p>
             </odd>
@@ -669,10 +536,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935-02/1935-03">February-March 1935</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1935-02/1935-03">February-March 1935</unitdate></did>
             <odd>
               <p>(2-2)</p>
             </odd>
@@ -680,10 +544,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935-04/1935-05">April-May 1935</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1935-04/1935-05">April-May 1935</unitdate></did>
             <odd>
               <p>(2-3)</p>
             </odd>
@@ -691,10 +552,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935-06">June 1935</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1935-06">June 1935</unitdate></did>
             <odd>
               <p>(2-4)</p>
             </odd>
@@ -702,10 +560,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935-07">July 1935</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1935-07">July 1935</unitdate></did>
             <odd>
               <p>(2-5)</p>
             </odd>
@@ -713,10 +568,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935-08/1935-09">August-September 1935</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1935-08/1935-09">August-September 1935</unitdate></did>
             <odd>
               <p>(2-6)</p>
             </odd>
@@ -724,10 +576,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935-10">October 1935</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1935-10">October 1935</unitdate></did>
             <odd>
               <p>(2-7)</p>
             </odd>
@@ -735,10 +584,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935-11/1935-12">November-December 1935</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1935-11/1935-12">November-December 1935</unitdate></did>
             <odd>
               <p>(2-8)</p>
             </odd>
@@ -746,10 +592,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1936">1936</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1936">1936</unitdate></did>
             <odd>
               <p>(2-9)</p>
             </odd>
@@ -757,10 +600,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1937">1937</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1937">1937</unitdate></did>
             <odd>
               <p>(2-10)</p>
             </odd>
@@ -768,10 +608,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1938">1938</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1938">1938</unitdate></did>
             <odd>
               <p>(2-11)</p>
             </odd>
@@ -779,10 +616,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1939">1939</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1939">1939</unitdate></did>
             <odd>
               <p>(2-12)</p>
             </odd>
@@ -790,10 +624,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1940-01/1940-07">January-July 1940</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1940-01/1940-07">January-July 1940</unitdate></did>
             <odd>
               <p>(2-13)</p>
             </odd>
@@ -801,10 +632,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1940-08/1940-12">August-December 1940</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1940-08/1940-12">August-December 1940</unitdate></did>
             <odd>
               <p>(2-14)</p>
             </odd>
@@ -812,10 +640,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1941-01/1941-02">January-February 1941</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1941-01/1941-02">January-February 1941</unitdate></did>
             <odd>
               <p>(2-15)</p>
             </odd>
@@ -823,10 +648,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1941-03/1941-04">March-April 1941</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1941-03/1941-04">March-April 1941</unitdate></did>
             <odd>
               <p>(2-16)</p>
             </odd>
@@ -834,10 +656,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1941-05/1941-06">May-June 1941</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1941-05/1941-06">May-June 1941</unitdate></did>
             <odd>
               <p>(2-17)</p>
             </odd>
@@ -845,10 +664,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1941-07/1941-08">July-August 1941</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1941-07/1941-08">July-August 1941</unitdate></did>
             <odd>
               <p>(2-18)</p>
             </odd>
@@ -865,10 +681,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1941-11/1941-12">November-December 1941</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1941-11/1941-12">November-December 1941</unitdate></did>
             <odd>
               <p>(2-20)</p>
             </odd>
@@ -876,10 +689,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942-01">January 1942</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1942-01">January 1942</unitdate></did>
             <odd>
               <p>(2-21)</p>
             </odd>
@@ -887,10 +697,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942-02/1942-03">February-March 1942</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1942-02/1942-03">February-March 1942</unitdate></did>
             <odd>
               <p>(2-22)</p>
             </odd>
@@ -898,10 +705,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942-04">April 1942</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1942-04">April 1942</unitdate></did>
             <odd>
               <p>(2-23)</p>
             </odd>
@@ -909,10 +713,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942-05">May 1942</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1942-05">May 1942</unitdate></did>
             <odd>
               <p>(2-24)</p>
             </odd>
@@ -920,10 +721,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942-06">June 1942</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1942-06">June 1942</unitdate></did>
             <odd>
               <p>(2-25)</p>
             </odd>
@@ -931,10 +729,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942-07">July 1942</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1942-07">July 1942</unitdate></did>
             <odd>
               <p>(2-26)</p>
             </odd>
@@ -942,10 +737,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942-08/1942-09">August-September 1942</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1942-08/1942-09">August-September 1942</unitdate></did>
             <odd>
               <p>(2-27)</p>
             </odd>
@@ -953,10 +745,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942-10/1942-11">October-November 1942</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1942-10/1942-11">October-November 1942</unitdate></did>
             <odd>
               <p>(2-28)</p>
             </odd>
@@ -964,10 +753,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942-12">December 1942</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1942-12">December 1942</unitdate></did>
             <odd>
               <p>(2-29)</p>
             </odd>
@@ -975,10 +761,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-01">January 1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943-01">January 1943</unitdate></did>
             <odd>
               <p>(2-30)</p>
             </odd>
@@ -986,10 +769,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-02">February 1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943-02">February 1943</unitdate></did>
             <odd>
               <p>(2-31)</p>
             </odd>
@@ -997,10 +777,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-03">March 1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943-03">March 1943</unitdate></did>
             <odd>
               <p>(2-32)</p>
             </odd>
@@ -1008,10 +785,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-04">April 1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943-04">April 1943</unitdate></did>
             <odd>
               <p>(2-33)</p>
             </odd>
@@ -1019,10 +793,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-05">May 1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943-05">May 1943</unitdate></did>
             <odd>
               <p>(2-34)</p>
             </odd>
@@ -1030,10 +801,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-06">June 1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943-06">June 1943</unitdate></did>
             <odd>
               <p>(2-35)</p>
             </odd>
@@ -1041,10 +809,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-07">July 1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943-07">July 1943</unitdate></did>
             <odd>
               <p>(2-36)</p>
             </odd>
@@ -1052,10 +817,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-08">August 1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943-08">August 1943</unitdate></did>
             <odd>
               <p>(2-37)</p>
             </odd>
@@ -1063,10 +825,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-09">September 1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943-09">September 1943</unitdate></did>
             <odd>
               <p>(2-38)</p>
             </odd>
@@ -1074,10 +833,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-10">October 1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943-10">October 1943</unitdate></did>
             <odd>
               <p>(2-39)</p>
             </odd>
@@ -1085,10 +841,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-11">November 1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943-11">November 1943</unitdate></did>
             <odd>
               <p>(2-40)</p>
             </odd>
@@ -1096,10 +849,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9179046394419315114812154]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-12">December 1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943-12">December 1943</unitdate></did>
             <odd>
               <p>(2-41)</p>
             </odd>
@@ -1107,10 +857,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944-01/1944-03">January-March 1944</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1944-01/1944-03">January-March 1944</unitdate></did>
             <odd>
               <p>(3-1)</p>
             </odd>
@@ -1118,10 +865,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944-04">April 1944</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1944-04">April 1944</unitdate></did>
             <odd>
               <p>(3-2)</p>
             </odd>
@@ -1129,10 +873,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944-05">May 1944</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1944-05">May 1944</unitdate></did>
             <odd>
               <p>(3-3)</p>
             </odd>
@@ -1140,10 +881,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944-06">June 1944</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1944-06">June 1944</unitdate></did>
             <odd>
               <p>(3-4)</p>
             </odd>
@@ -1151,10 +889,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944-07">July 1944</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1944-07">July 1944</unitdate></did>
             <odd>
               <p>(3-5)</p>
             </odd>
@@ -1162,10 +897,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944-08">August 1944</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1944-08">August 1944</unitdate></did>
             <odd>
               <p>(3-6)</p>
             </odd>
@@ -1173,10 +905,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944-09">September 1944</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1944-09">September 1944</unitdate></did>
             <odd>
               <p>(3-7)</p>
             </odd>
@@ -1184,10 +913,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944-10">October 1944</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1944-10">October 1944</unitdate></did>
             <odd>
               <p>(3-8)</p>
             </odd>
@@ -1195,10 +921,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944-11">November 1944</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1944-11">November 1944</unitdate></did>
             <odd>
               <p>(3-9)</p>
             </odd>
@@ -1206,10 +929,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944-12">December 1944</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1944-12">December 1944</unitdate></did>
             <odd>
               <p>(3-10)</p>
             </odd>
@@ -1217,10 +937,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945-01">January 1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945-01">January 1945</unitdate></did>
             <odd>
               <p>(3-11)</p>
             </odd>
@@ -1228,10 +945,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945-02">February 1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945-02">February 1945</unitdate></did>
             <odd>
               <p>(3-12)</p>
             </odd>
@@ -1239,10 +953,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945-03">March 1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945-03">March 1945</unitdate></did>
             <odd>
               <p>(3-13)</p>
             </odd>
@@ -1250,10 +961,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945-04">April 1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945-04">April 1945</unitdate></did>
             <odd>
               <p>(3-14)</p>
             </odd>
@@ -1261,10 +969,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945-05">May 1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945-05">May 1945</unitdate></did>
             <odd>
               <p>(3-15)</p>
             </odd>
@@ -1272,10 +977,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945-06">June 1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945-06">June 1945</unitdate></did>
             <odd>
               <p>(3-16)</p>
             </odd>
@@ -1283,10 +985,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945-07">July 1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945-07">July 1945</unitdate></did>
             <odd>
               <p>(3-17)</p>
             </odd>
@@ -1294,10 +993,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945-08">August 1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945-08">August 1945</unitdate></did>
             <odd>
               <p>(3-18)</p>
             </odd>
@@ -1305,10 +1001,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945-09">September 1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945-09">September 1945</unitdate></did>
             <odd>
               <p>(3-19)</p>
             </odd>
@@ -1316,10 +1009,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945-10">October 1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945-10">October 1945</unitdate></did>
             <odd>
               <p>(3-20)</p>
             </odd>
@@ -1327,10 +1017,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945-11">November 1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945-11">November 1945</unitdate></did>
             <odd>
               <p>(3-21)</p>
             </odd>
@@ -1338,10 +1025,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945-12">December 1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945-12">December 1945</unitdate></did>
             <odd>
               <p>(3-22)</p>
             </odd>
@@ -1349,10 +1033,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946-01">January 1946</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1946-01">January 1946</unitdate></did>
             <odd>
               <p>(3-23)</p>
             </odd>
@@ -1360,10 +1041,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946-02">February 1946</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1946-02">February 1946</unitdate></did>
             <odd>
               <p>(3-24)</p>
             </odd>
@@ -1371,10 +1049,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946-03/1946-04">March-April 1946</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1946-03/1946-04">March-April 1946</unitdate></did>
             <odd>
               <p>(3-25)</p>
             </odd>
@@ -1382,10 +1057,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946-05/1946-06">May-June 1946</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1946-05/1946-06">May-June 1946</unitdate></did>
             <odd>
               <p>(3-26)</p>
             </odd>
@@ -1393,10 +1065,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946-07/1946-08">July-August 1946</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1946-07/1946-08">July-August 1946</unitdate></did>
             <odd>
               <p>(3-27)</p>
             </odd>
@@ -1404,10 +1073,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946-09/1946-10">September-October 1946</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1946-09/1946-10">September-October 1946</unitdate></did>
             <odd>
               <p>(3-28)</p>
             </odd>
@@ -1415,10 +1081,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946-11/1946-12">November-December 1946</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1946-11/1946-12">November-December 1946</unitdate></did>
             <odd>
               <p>(3-29)</p>
             </odd>
@@ -1426,10 +1089,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947-01">January 1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947-01">January 1947</unitdate></did>
             <odd>
               <p>(3-30)</p>
             </odd>
@@ -1437,10 +1097,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947-02">February 1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947-02">February 1947</unitdate></did>
             <odd>
               <p>(3-31)</p>
             </odd>
@@ -1448,10 +1105,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947-03">March 1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947-03">March 1947</unitdate></did>
             <odd>
               <p>(3-32)</p>
             </odd>
@@ -1459,10 +1113,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947-04/1947-05">April-May 1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947-04/1947-05">April-May 1947</unitdate></did>
             <odd>
               <p>(3-33)</p>
             </odd>
@@ -1470,10 +1121,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947-06/1947-07">June-July 1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947-06/1947-07">June-July 1947</unitdate></did>
             <odd>
               <p>(3-34)</p>
             </odd>
@@ -1481,10 +1129,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947-08/1947-09">August-September 1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947-08/1947-09">August-September 1947</unitdate></did>
             <odd>
               <p>(3-35)</p>
             </odd>
@@ -1492,10 +1137,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947-10">October 1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947-10">October 1947</unitdate></did>
             <odd>
               <p>(3-36)</p>
             </odd>
@@ -1503,10 +1145,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947-11">November 1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947-11">November 1947</unitdate></did>
             <odd>
               <p>(3-37)</p>
             </odd>
@@ -1514,10 +1153,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947-12">December 1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947-12">December 1947</unitdate></did>
             <odd>
               <p>(3-38)</p>
             </odd>
@@ -1525,10 +1161,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948-01">January 1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948-01">January 1948</unitdate></did>
             <odd>
               <p>(3-39)</p>
             </odd>
@@ -1536,10 +1169,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948-02">February 1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948-02">February 1948</unitdate></did>
             <odd>
               <p>(3-40)</p>
             </odd>
@@ -1547,10 +1177,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948-03">March 1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948-03">March 1948</unitdate></did>
             <odd>
               <p>(3-41)</p>
             </odd>
@@ -1558,10 +1185,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948-04">April 1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948-04">April 1948</unitdate></did>
             <odd>
               <p>(3-42)</p>
             </odd>
@@ -1569,10 +1193,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948-05">May 1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948-05">May 1948</unitdate></did>
             <odd>
               <p>(3-43)</p>
             </odd>
@@ -1580,10 +1201,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [71663061249139425824076]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948-06">June 1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948-06">June 1948</unitdate></did>
             <odd>
               <p>(3-44)</p>
             </odd>
@@ -1591,10 +1209,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948-07">July 1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948-07">July 1948</unitdate></did>
             <odd>
               <p>(4-1)</p>
             </odd>
@@ -1602,10 +1217,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948-08">August 1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948-08">August 1948</unitdate></did>
             <odd>
               <p>(4-2)</p>
             </odd>
@@ -1613,10 +1225,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948-09">September 1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948-09">September 1948</unitdate></did>
             <odd>
               <p>(4-3)</p>
             </odd>
@@ -1624,10 +1233,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948-10">October 1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948-10">October 1948</unitdate></did>
             <odd>
               <p>(4-4)</p>
             </odd>
@@ -1635,10 +1241,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948-11/1948-12">November-December 1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948-11/1948-12">November-December 1948</unitdate></did>
             <odd>
               <p>(4-5)</p>
             </odd>
@@ -1646,10 +1249,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949-01">January 1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949-01">January 1949</unitdate></did>
             <odd>
               <p>(4-6)</p>
             </odd>
@@ -1657,10 +1257,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949-02">February 1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949-02">February 1949</unitdate></did>
             <odd>
               <p>(4-7)</p>
             </odd>
@@ -1668,10 +1265,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949-03">March 1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949-03">March 1949</unitdate></did>
             <odd>
               <p>(4-8)</p>
             </odd>
@@ -1679,10 +1273,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949-04">April 1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949-04">April 1949</unitdate></did>
             <odd>
               <p>(4-9)</p>
             </odd>
@@ -1690,10 +1281,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949-05">May 1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949-05">May 1949</unitdate></did>
             <odd>
               <p>(4-10)</p>
             </odd>
@@ -1701,10 +1289,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949-06">June 1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949-06">June 1949</unitdate></did>
             <odd>
               <p>(4-11)</p>
             </odd>
@@ -1712,10 +1297,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949-07">July 1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949-07">July 1949</unitdate></did>
             <odd>
               <p>(4-12)</p>
             </odd>
@@ -1723,10 +1305,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949-08">August 1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949-08">August 1949</unitdate></did>
             <odd>
               <p>(4-13)</p>
             </odd>
@@ -1734,10 +1313,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949-09">September 1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949-09">September 1949</unitdate></did>
             <odd>
               <p>(4-14)</p>
             </odd>
@@ -1745,10 +1321,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949-10/1949-11">October-November 1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949-10/1949-11">October-November 1949</unitdate></did>
             <odd>
               <p>(4-15)</p>
             </odd>
@@ -1756,10 +1329,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949-12">December 1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949-12">December 1949</unitdate></did>
             <odd>
               <p>(4-16)</p>
             </odd>
@@ -1767,8 +1337,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>Correspondence <unitdate>undated</unitdate>, <unitdate type="inclusive" normal="1920/1940">1920-1940</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate>undated</unitdate><unitdate type="inclusive" normal="1920/1940">1920-1940</unitdate></did>
             <odd>
               <p>(4-17)</p>
             </odd>
@@ -1776,8 +1345,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>Correspondence <unitdate>undated</unitdate>, <unitdate type="inclusive" normal="1940/1950">1940-1950</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate>undated</unitdate><unitdate type="inclusive" normal="1940/1950">1940-1950</unitdate></did>
             <odd>
               <p>(4-18)</p>
             </odd>
@@ -1785,8 +1353,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle>Income Tax Returns <unitdate type="inclusive" normal="1948/1954">1948-1954</unitdate></unittitle>
-            </did>
+              <unittitle>Income Tax Returns</unittitle><unitdate type="inclusive" normal="1948/1954">1948-1954</unitdate></did>
             <odd>
               <p>(4-19)</p>
             </odd>
@@ -1794,8 +1361,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Alphabetical <unitdate type="inclusive" normal="1949/1954">1949-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Alphabetical</unittitle><unitdate type="inclusive" normal="1949/1954">1949-1954</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
@@ -1925,8 +1491,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57722191434890807018387]">4</container>
-              <unittitle><genreform source="aat" normal="Diaries">Diary</genreform> of Marston Bates, <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
-            </did>
+              <unittitle><genreform source="aat" normal="Diaries">Diary</genreform> of Marston Bates</unittitle><unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></did>
             <odd>
               <p>(4-34)</p>
             </odd>
@@ -2015,8 +1580,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6544661614062296105764]">5</container>
-              <unittitle>Hopkins Lectures <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            </did>
+              <unittitle>Hopkins Lectures</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
             <odd>
               <p>(5-6)</p>
             </odd>
@@ -2353,8 +1917,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Alphabetical <unitdate type="inclusive" normal="1954/1958">1954-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Alphabetical</unittitle><unitdate type="inclusive" normal="1954/1958">1954-1958</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [145587824370960002050863]">6</container>
@@ -2457,8 +2020,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [145587824370960002050863]">6</container>
-              <unittitle>Conference in Tropics <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            </did>
+              <unittitle>Conference in Tropics</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
             <odd>
               <p>(6-19)</p>
             </odd>
@@ -2520,8 +2082,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [145587824370960002050863]">6</container>
-              <unittitle>Evolution of Behavior, Conference on <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <unittitle>Evolution of Behavior, Conference on</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
             <odd>
               <p>(6-26)</p>
             </odd>
@@ -2763,8 +2324,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [14260922446993151358]">8</container>
-              <unittitle>Puerto Rico <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-            </did>
+              <unittitle>Puerto Rico</unittitle><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
             <odd>
               <p>(8-1)</p>
             </odd>
@@ -2772,8 +2332,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [14260922446993151358]">8</container>
-              <unittitle>Puerto Rico <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-            </did>
+              <unittitle>Puerto Rico</unittitle><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
             <odd>
               <p>(8-2)</p>
             </odd>
@@ -2781,8 +2340,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [14260922446993151358]">8</container>
-              <unittitle>Puerto Rico <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-            </did>
+              <unittitle>Puerto Rico</unittitle><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
             <odd>
               <p>(8-3)</p>
             </odd>
@@ -2790,8 +2348,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [14260922446993151358]">8</container>
-              <unittitle>Puerto Rico <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-            </did>
+              <unittitle>Puerto Rico</unittitle><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
             <odd>
               <p>(8-4)</p>
             </odd>
@@ -2976,8 +2533,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Alphabetical <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></unittitle>
-          </did>
+            <unittitle>Alphabetical</unittitle><unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [14260922446993151358]">8</container>
@@ -3434,8 +2990,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Alphabetical <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate></unittitle>
-          </did>
+            <unittitle>Alphabetical</unittitle><unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [39492161407903074711255]">10</container>
@@ -4011,8 +3566,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Alphabetical <unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate></unittitle>
-          </did>
+            <unittitle>Alphabetical</unittitle><unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [92821874111962859619]">12</container>
@@ -4543,8 +4097,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [02529374643801366039592]">14</container>
-              <unittitle>Bates Job Appointments <unitdate type="inclusive" normal="1935/1971">1935-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Bates Job Appointments</unittitle><unitdate type="inclusive" normal="1935/1971">1935-1971</unitdate></did>
             <odd>
               <p>(14-14)</p>
             </odd>
@@ -4749,8 +4302,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02529374643801366039592]">14</container>
-                <unittitle>Lecture Notes <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-              </did>
+                <unittitle>Lecture Notes</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
               <odd>
                 <p>(14-35)</p>
               </odd>
@@ -4758,8 +4310,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02529374643801366039592]">14</container>
-                <unittitle>Lecture Notes <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
-              </did>
+                <unittitle>Lecture Notes</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
               <odd>
                 <p>(14-36)</p>
               </odd>
@@ -4767,8 +4318,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02529374643801366039592]">14</container>
-                <unittitle>Lecture Notes <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></unittitle>
-              </did>
+                <unittitle>Lecture Notes</unittitle><unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></did>
               <odd>
                 <p>(14-37)</p>
               </odd>
@@ -4776,8 +4326,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02529374643801366039592]">14</container>
-                <unittitle>Lecture Notes <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-              </did>
+                <unittitle>Lecture Notes</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
               <odd>
                 <p>(14-38)</p>
               </odd>
@@ -4813,140 +4362,117 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0213485974057117015]">15</container>
-            <unittitle>Diary and reading records <unitdate type="inclusive" normal="1924/1928">1924-1928</unitdate></unittitle>
-          </did>
+            <unittitle>Diary and reading records</unittitle><unitdate type="inclusive" normal="1924/1928">1924-1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0213485974057117015]">15</container>
-            <unittitle>Journal, Letters and Reading Record <unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate></unittitle>
-          </did>
+            <unittitle>Journal, Letters and Reading Record</unittitle><unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0213485974057117015]">15</container>
-            <unittitle>Journal, Popol Vul <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></unittitle>
-          </did>
+            <unittitle>Journal, Popol Vul</unittitle><unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0213485974057117015]">15</container>
-            <unittitle>Journal and Letters <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></unittitle>
-          </did>
+            <unittitle>Journal and Letters</unittitle><unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0213485974057117015]">15</container>
-            <unittitle>Journal <unitdate type="inclusive" normal="1935/1937">1935-1937</unitdate></unittitle>
-          </did>
+            <unittitle>Journal</unittitle><unitdate type="inclusive" normal="1935/1937">1935-1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0213485974057117015]">15</container>
-            <unittitle>Bates-Hackett Letters <unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Bates-Hackett Letters</unittitle><unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0213485974057117015]">15</container>
-            <unittitle>Research Reports, Albania <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <unittitle>Research Reports, Albania</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0213485974057117015]">15</container>
-            <unittitle>Research Reports, Albania <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-          </did>
+            <unittitle>Research Reports, Albania</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [078213247995344872]">16</container>
-            <unittitle>Research Reports, Albania <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-          </did>
+            <unittitle>Research Reports, Albania</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [078213247995344872]">16</container>
-            <unittitle>Research Reports on Larval Experiments <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></unittitle>
-          </did>
+            <unittitle>Research Reports on Larval Experiments</unittitle><unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [078213247995344872]">16</container>
-            <unittitle>Research Reports on Mosquitoes, Albania &amp; Egypt <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Research Reports on Mosquitoes, Albania &amp; Egypt</unittitle><unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [078213247995344872]">16</container>
-            <unittitle>Bates-Hackett Letters <unitdate type="inclusive" normal="1939/1943">1939-1943</unitdate></unittitle>
-          </did>
+            <unittitle>Bates-Hackett Letters</unittitle><unitdate type="inclusive" normal="1939/1943">1939-1943</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [078213247995344872]">16</container>
-            <unittitle>Journal &amp; Research Reports, Colombia <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
-          </did>
+            <unittitle>Journal &amp; Research Reports, Colombia</unittitle><unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [078213247995344872]">16</container>
-            <unittitle>Diary &amp; Reports, Colombia <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-          </did>
+            <unittitle>Diary &amp; Reports, Colombia</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [078213247995344872]">16</container>
-            <unittitle>Diary &amp; Reports, Colombia <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-          </did>
+            <unittitle>Diary &amp; Reports, Colombia</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [078213247995344872]">16</container>
-            <unittitle>Diary &amp; Reports, Colombia <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
-          </did>
+            <unittitle>Diary &amp; Reports, Colombia</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [078213247995344872]">16</container>
-            <unittitle>Diary &amp; Reports, Colombia <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-          </did>
+            <unittitle>Diary &amp; Reports, Colombia</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [078213247995344872]">16</container>
-            <unittitle>Diary &amp; Reports, Colombia <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-          </did>
+            <unittitle>Diary &amp; Reports, Colombia</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [078213247995344872]">16</container>
-            <unittitle>Diary &amp; Reports, Colombia <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
-          </did>
+            <unittitle>Diary &amp; Reports, Colombia</unittitle><unitdate type="inclusive" normal="1947">1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [69021064473840794030]">17</container>
-            <unittitle>Diary &amp; Reports, Colombia <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-          </did>
+            <unittitle>Diary &amp; Reports, Colombia</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [69021064473840794030]">17</container>
-            <unittitle>Diary &amp; Reports, Colombia <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Diary &amp; Reports, Colombia</unittitle><unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [69021064473840794030]">17</container>
-            <unittitle>Diary &amp; Reports, Colombia <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <unittitle>Diary &amp; Reports, Colombia</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [69021064473840794030]">17</container>
-            <unittitle>Diary, Ifalik <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Diary, Ifalik</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
@@ -4954,8 +4480,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [69021064473840794030]">17</container>
-            <unittitle>Field Reports, Ifalik <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Field Reports, Ifalik</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>
@@ -4969,14 +4494,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [69021064473840794030]">17</container>
-            <unittitle>Diary, Puerto Rico <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-          </did>
+            <unittitle>Diary, Puerto Rico</unittitle><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [69021064473840794030]">17</container>
-            <unittitle>Diary, Jungle in the House, Ann Arbor <unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate></unittitle>
-          </did>
+            <unittitle>Diary, Jungle in the House, Ann Arbor</unittitle><unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -4990,44 +4513,37 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15584025472608137]">18</container>
-              <unittitle>Nature of Natural History <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-            </did>
+              <unittitle>Nature of Natural History</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [15584025472608137]">18</container>
-              <unittitle>Prevalence of People <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <unittitle>Prevalence of People</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [15584025472608137]">18</container>
-              <unittitle>Ifaluk, Portrait of an Atoll <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <unittitle>Ifaluk, Portrait of an Atoll</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [15584025472608137]">18</container>
-              <unittitle>The Forest and the Sea <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-            </did>
+              <unittitle>The Forest and the Sea</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [15584025472608137]">18</container>
-              <unittitle>Man in Nature <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
+              <unittitle>Man in Nature</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [15584025472608137]">18</container>
-              <unittitle>Gluttons and Libertines <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Gluttons and Libertines</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [15584025472608137]">18</container>
-              <unittitle>Jungle in the House <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Jungle in the House</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -5037,10 +4553,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15584025472608137]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934/1972">1934-1972</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1934/1972">1934-1972</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
@@ -5353,8 +4866,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [8403954342906594187]">20</container>
-              <unittitle>Miscellaneous topical files, including projected books, article ideas, TV scripts <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <unittitle>Miscellaneous topical files, including projected books, article ideas, TV scripts</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -5365,8 +4877,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [904662404494835095481]">21</container>
-            <unittitle>Entomological and other scientific notes <unitdate type="inclusive" normal="1919/1932">1919-1932</unitdate></unittitle>
-          </did>
+            <unittitle>Entomological and other scientific notes</unittitle><unitdate type="inclusive" normal="1919/1932">1919-1932</unitdate></did>
           <odd>
             <p>(Colombia; Ifalik Atoll)</p>
           </odd>
@@ -5401,8 +4912,7 @@
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle>Numbered photographs <unitdate type="inclusive" normal="1929/1948">1929-1948</unitdate></unittitle>
-          </did>
+            <unittitle>Numbered photographs</unittitle><unitdate type="inclusive" normal="1929/1948">1929-1948</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [653921408632505738]">22</container>
@@ -5418,8 +4928,7 @@
             </did>
             <c04 level="file">
               <did>
-                <unittitle>Albania <unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate></unittitle>
-              </did>
+                <unittitle>Albania</unittitle><unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [653921408632505738]">22</container>
@@ -5464,8 +4973,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Colombia <unitdate type="inclusive" normal="1940/1948">1940-1948</unitdate></unittitle>
-              </did>
+                <unittitle>Colombia</unittitle><unitdate type="inclusive" normal="1940/1948">1940-1948</unitdate></did>
               <c05 level="file">
                 <did>
                   <unittitle>General</unittitle>
@@ -5567,25 +5075,21 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [653921408632505738]">22</container>
-                <unittitle>Cuba <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-              </did>
+                <unittitle>Cuba</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [653921408632505738]">22</container>
-                <unittitle>Egypt: Larval habitat <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></unittitle>
-              </did>
+                <unittitle>Egypt: Larval habitat</unittitle><unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [653921408632505738]">22</container>
-                <unittitle>Greece: Larval habitat <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-              </did>
+                <unittitle>Greece: Larval habitat</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Guatemala <unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate></unittitle>
-              </did>
+                <unittitle>Guatemala</unittitle><unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate></did>
               <odd>
                 <p>(also includes Honduras)</p>
               </odd>
@@ -5629,8 +5133,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [653921408632505738]">22</container>
-                <unittitle>Guatemala <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
-              </did>
+                <unittitle>Guatemala</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate></did>
               <odd>
                 <p>(also includes Honduras)</p>
               </odd>
@@ -5638,14 +5141,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [653921408632505738]">22</container>
-                <unittitle>Haiti <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-              </did>
+                <unittitle>Haiti</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [653921408632505738]">22</container>
-                <unittitle>Honduras <unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate></unittitle>
-              </did>
+                <unittitle>Honduras</unittitle><unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate></did>
               <odd>
                 <p>(also includes Honduras)</p>
               </odd>
@@ -5653,8 +5154,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [653921408632505738]">22</container>
-                <unittitle>Honduras <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
-              </did>
+                <unittitle>Honduras</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate></did>
               <odd>
                 <p>(See also Guatemala)</p>
               </odd>
@@ -5662,20 +5162,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [653921408632505738]">22</container>
-                <unittitle>Hungary: Larval habitat <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-              </did>
+                <unittitle>Hungary: Larval habitat</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [653921408632505738]">22</container>
-                <unittitle>Massachusetts <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-              </did>
+                <unittitle>Massachusetts</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [653921408632505738]">22</container>
-                <unittitle>Panama <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
-              </did>
+                <unittitle>Panama</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -5716,8 +5213,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Numbered photographs, Ifalik <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-          </did>
+            <unittitle>Numbered photographs, Ifalik</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           <c03 level="file">
             <did>
               <unittitle>General</unittitle>
@@ -5869,8 +5365,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Numbered photographs <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <unittitle>Numbered photographs</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [259854485998201]">23</container>
@@ -6038,8 +5533,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [259854485998201]">23</container>
-                <unittitle>Florida <unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate></unittitle>
-              </did>
+                <unittitle>Florida</unittitle><unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate></did>
             </c04>
             <c04 level="file">
               <did>

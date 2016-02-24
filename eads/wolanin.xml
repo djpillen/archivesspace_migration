@@ -24,7 +24,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Wolanin, Thomas R., 1942-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4254">Wolanin, Thomas R., 1942-</persname>
       </origination>
-      <unittitle encodinganalog="245">Thomas R. Wolanin papers <unitdate type="inclusive" encodinganalog="245$f" normal="1989/1997">1989-1997</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">06104 Aa 2</unitid>
+      <unittitle encodinganalog="245">Thomas R. Wolanin papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1989/1997">1989-1997</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">06104 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Thomas Wolanin was staff director for the US House Subcommittee on Postsecondary Education within the Education and Labor Committee. He later became assistant secretary for legislation and congressional affairs for the US Department of Education. The Wolanin Papers document the passage and implementation of the William D. Ford Federal Direct Loan Program from 1989-1997.</abstract>
       <physdesc altrender="whole">
@@ -75,12 +75,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Wolanin, Thomas R., 1942-</persname>
-        <persname source="lcnaf" encodinganalog="600">Ford, William D.</persname>
-        <subject source="lcsh" encodinganalog="650">Student financial aid administration--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Student loans--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79049133">United States. Congress. House. Committee on Education and Labor.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96003689">William D. Ford Federal Direct Loan Program.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4254">Wolanin, Thomas R., 1942-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3254">Ford, William D.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10808">Student financial aid administration--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6619">Student loans--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79049133" ref="/agents/corporate_entities/5068">United States. Congress. House. Committee on Education and Labor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96003689" ref="/agents/corporate_entities/1056">William D. Ford Federal Direct Loan Program.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -212,8 +212,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [8532153764304886192]">1</container>
-              <unittitle><unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate> Audits</unittitle>
-            </did>
+              <unittitle>Audits</unittitle><unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -278,8 +277,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [46073341536137335]">2</container>
-              <unittitle>Dissertation: "The Direct Loan Demonstration Program; An Analysis of the Legislative Process Involving Federal Student Loan Policy" by Joe Lew McCormick <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Dissertation: "The Direct Loan Demonstration Program; An Analysis of the Legislative Process Involving Federal Student Loan Policy" by Joe Lew McCormick</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -296,13 +294,11 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [46073341536137335]">2</container>
-            <unittitle>Higher Education Act Amendment of <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-          </did>
+            <unittitle>Higher Education Act Amendment of</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Direct Loan Authorization of <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <unittitle>Direct Loan Authorization of</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           <c03 level="file">
             <did>
               <unittitle>Amendments</unittitle>
@@ -404,8 +400,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Fiscal Year <unitdate type="inclusive" normal="1996">1996</unitdate> Budget Reconciliation</unittitle>
-          </did>
+            <unittitle>Fiscal Year  Budget Reconciliation</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [46073341536137335]">2</container>

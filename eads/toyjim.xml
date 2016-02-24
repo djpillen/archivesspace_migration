@@ -43,7 +43,8 @@
         <item>-Original encoding in EAD Vers. 1.0 from Word 6.0 file using Word macros and some hand tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,10 +55,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Toy, James W., 1930-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/235">Toy, James W., 1930-</persname>
       </origination>
-      <unittitle encodinganalog="245$a">James W. Toy Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1963/2009">1963-2009</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1971/1994">1971-1994</unitdate></unittitle>
-      <abstract>The collection is a combination of the personal papers of James W. Toy and the records of the university office (originally named Human Sexuality Office, then Lesbian-Gay Male Programs Office, and later Lesbian-Gay Male-Bisexual Programs Office) where he worked for twenty-three years.</abstract>
+      <unittitle encodinganalog="245$a">James W. Toy Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1963/2009">1963-2009</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1971/1994">1971-1994</unitdate><abstract>The collection is a combination of the personal papers of James W. Toy and the records of the university office (originally named Human Sexuality Office, then Lesbian-Gay Male Programs Office, and later Lesbian-Gay Male-Bisexual Programs Office) where he worked for twenty-three years.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9744 Aa 2 Ac</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -114,59 +114,56 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Toy, James W., 1930-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Gay Liberation Front.</corpname>
-        <subject source="lcsh" encodinganalog="650">AIDS (Disease)</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Coming out (Sexual orientation)--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85813454">Episcopal Church. Diocese of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan.</corpname>
-        <subject source="lcsh" encodinganalog="650">Gay college students--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Gay liberation movement--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Gay men--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Gays--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Homosexuality--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Homosexuality--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Homosexuality--Religious aspects--Episcopal Church.</subject>
-        <subject source="lcsh" encodinganalog="650">Lesbians--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91006418">Michigan Organization for Human Rights.</corpname>
-        <subject source="lcsh" encodinganalog="650">Sexual orientation--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Human Sexuality Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Lesbian-Gay Male Programs Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91034577">University of Michigan. Study Committee on the Status of Lesbians and Gay Men.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Task Force on Sexual Orientation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/235">Toy, James W., 1930-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1047">Ann Arbor Gay Liberation Front.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10415">AIDS (Disease)</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8793">Coming out (Sexual orientation)--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85813454" ref="/agents/corporate_entities/2433">Episcopal Church. Diocese of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/805">Episcopal Church--Michigan.<term type="geographic">Michigan.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6385">Gay college students--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5931">Gay liberation movement--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5749">Gay men--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5751">Gays--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9413">Homosexuality--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6386">Homosexuality--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10416">Homosexuality--Religious aspects--Episcopal Church.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5750">Lesbians--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91006418" ref="/agents/corporate_entities/2078">Michigan Organization for Human Rights.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7400">Sexual orientation--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2447">University of Michigan. Human Sexuality Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/352">University of Michigan. Lesbian-Gay Male Programs Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91034577" ref="/agents/corporate_entities/1375">University of Michigan. Study Committee on the Status of Lesbians and Gay Men.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4800">University of Michigan. Task Force on Sexual Orientation.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Toy, James W., 1930-</persname>
-        <subject source="lctgm" encodinganalog="650">Gay rights--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Gays--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Demonstrations--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/235">Toy, James W., 1930-</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4698">Gay rights--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4699">Gays--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3639">Demonstrations--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Lesbian-Gay Male-Bisexual Programs Office (and predecessor units) <unitdate type="inclusive" normal="1971/1995">1971-1995</unitdate></unittitle>
-        </did>
+          <unittitle>Lesbian-Gay Male-Bisexual Programs Office (and predecessor units)</unittitle><unitdate type="inclusive" normal="1971/1995">1971-1995</unitdate></did>
         <scopecontent>
           <p>The Lesbian Gay Male Bisexual Programs Office series (boxes 1-9; 8.7 linear feet) consists of records generated by Jim Toy (with some records of the lesbian advocate) in his capacity as gay male advocate within the Human Sexuality Office (and successor units) of the University of Michigan. These records relate to the administration of the office, its programs, and to its relationship with the larger university community. As Toy held this position for twenty-three years while the position of lesbian advocate was filled by a number of different individuals, the files reflect more the work of the gay male advocate and less the activities of the lesbian advocate. Of special note are those files pertaining to the effort to revise the U-M Regental Bylaw 14.06 and thus provide protection against discrimination on the basis of sexual orientation, the work of the Task Force on Sexual Orientation, and the drafting of the two policy statements on discrimination and discriminatory harassment (for students, and for faculty and staff).</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>Advisory Committee to Lesbian and Gay Male Advocates <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></unittitle>
-          </did>
+            <unittitle>Advisory Committee to Lesbian and Gay Male Advocates</unittitle><unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>AIDS (training and informational material) <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>AIDS (training and informational material)</unittitle><unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -180,8 +177,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>Annual (and Program) reports <unitdate type="inclusive" normal="1971/1989">1971-1989 (scattered)</unitdate></unittitle>
-          </did>
+            <unittitle>Annual (and Program) reports</unittitle><unitdate type="inclusive" normal="1971/1989">1971-1989 (scattered)</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -192,44 +188,37 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>Berea College (visit from) <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></unittitle>
-          </did>
+            <unittitle>Berea College (visit from)</unittitle><unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>Budgets <unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></unittitle>
-          </did>
+            <unittitle>Budgets</unittitle><unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>Budget for <unitdate type="inclusive" normal="1987/1988">1987/88</unitdate></unittitle>
-          </did>
+            <unittitle>Budget for</unittitle><unitdate type="inclusive" normal="1987/1988">1987/88</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>Budget for <unitdate type="inclusive" normal="1988/1989">1988/89</unitdate></unittitle>
-          </did>
+            <unittitle>Budget for</unittitle><unitdate type="inclusive" normal="1988/1989">1988/89</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>Budget for <unitdate type="inclusive" normal="1989/1990">1989/90</unitdate></unittitle>
-          </did>
+            <unittitle>Budget for</unittitle><unitdate type="inclusive" normal="1989/1990">1989/90</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>Budget for <unitdate type="inclusive" normal="1990/1991">1990/91</unitdate></unittitle>
-          </did>
+            <unittitle>Budget for</unittitle><unitdate type="inclusive" normal="1990/1991">1990/91</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>Budget for <unitdate type="inclusive" normal="1993/1994">1993/94</unitdate></unittitle>
-          </did>
+            <unittitle>Budget for</unittitle><unitdate type="inclusive" normal="1993/1994">1993/94</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -240,8 +229,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>Calendars of events <unitdate type="inclusive" normal="1978/1994">1978-1994</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Calendars of events</unittitle><unitdate type="inclusive" normal="1978/1994">1978-1994</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -249,8 +237,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>Chronological papers <unitdate type="inclusive" normal="1971/1994">1971-1994</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Chronological papers</unittitle><unitdate type="inclusive" normal="1971/1994">1971-1994</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
@@ -258,8 +245,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>Contact with other colleges <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
-          </did>
+            <unittitle>Contact with other colleges</unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -270,8 +256,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329132149932557026]">1</container>
-            <unittitle>Directory <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <unittitle>Directory</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -286,8 +271,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [26253955746404777]">2</container>
-              <unittitle>Revision of bylaw 14.06 to include sexual orientation <unitdate type="inclusive" normal="1989/1994">1989-1994</unitdate></unittitle>
-            </did>
+              <unittitle>Revision of bylaw 14.06 to include sexual orientation</unittitle><unitdate type="inclusive" normal="1989/1994">1989-1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -309,8 +293,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [26253955746404777]">2</container>
-              <unittitle>General <unitdate type="inclusive" normal="1987/1990">1987-1990</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1987/1990">1987-1990</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -319,8 +302,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [26253955746404777]">2</container>
-            <unittitle>Discrimination and discriminatory harassment (by faculty and staff), U-M policy on <unitdate type="inclusive" normal="1988/1991">1988-1991</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Discrimination and discriminatory harassment (by faculty and staff), U-M policy on</unittitle><unitdate type="inclusive" normal="1988/1991">1988-1991</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -341,8 +323,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [26253955746404777]">2</container>
-              <unittitle>General <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -350,8 +331,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [26253955746404777]">2</container>
-              <unittitle>"Combating homophobia through education" publication <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>"Combating homophobia through education" publication</unittitle><unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -359,20 +339,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [26253955746404777]">2</container>
-              <unittitle>Coordinator's position opening, 1987-88 and <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <unittitle>Coordinator's position opening, 1987-88</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [26253955746404777]">2</container>
-              <unittitle>Facilitator's applications and self-evaluations <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <unittitle>Facilitator's applications and self-evaluations</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [26253955746404777]">2</container>
-              <unittitle>Facilitator training information (and related) <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Facilitator training information (and related)</unittitle><unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
@@ -384,39 +361,33 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [65138433541656]">3</container>
-                <unittitle><unitdate type="inclusive" normal="1991">1991</unitdate> Lansing Community College</unittitle>
-              </did>
+                <unittitle>Lansing Community College</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [65138433541656]">3</container>
-                <unittitle><unitdate type="inclusive" normal="1993">1993</unitdate> Oakdale Recovery Center</unittitle>
-              </did>
+                <unittitle>Oakdale Recovery Center</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [65138433541656]">3</container>
-                <unittitle><unitdate type="inclusive" normal="1993">1993</unitdate> SW 657, Multicultural, multilingual organizations</unittitle>
-              </did>
+                <unittitle>SW 657, Multicultural, multilingual organizations</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [65138433541656]">3</container>
-                <unittitle><unitdate type="inclusive" normal="1994">1994</unitdate> Hospice of Lenawee County</unittitle>
-              </did>
+                <unittitle>Hospice of Lenawee County</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [65138433541656]">3</container>
-              <unittitle>Resident staff training <unitdate type="inclusive" normal="1991">1991</unitdate>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <unittitle>Resident staff training</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [65138433541656]">3</container>
-              <unittitle>Summer orientation training <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <unittitle>Summer orientation training</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -462,14 +433,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [314330694218548314047]">6</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1977/1990">1977-1990 (scattered)</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1977/1990">1977-1990 (scattered)</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [314330694218548314047]">6</container>
-              <unittitle>Edwards (Billie) letter of resignation <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <unittitle>Edwards (Billie) letter of resignation</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -480,8 +449,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [314330694218548314047]">6</container>
-              <unittitle>Program and project reports <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></unittitle>
-            </did>
+              <unittitle>Program and project reports</unittitle><unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -502,8 +470,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [314330694218548314047]">6</container>
-            <unittitle>Miscellaneous (include <unitdate type="inclusive">undated</unitdate> and fragmentary)</unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Miscellaneous (include  and fragmentary)</unittitle><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -517,14 +484,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [314330694218548314047]">6</container>
-            <unittitle>Program and project report <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-          </did>
+            <unittitle>Program and project report</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [314330694218548314047]">6</container>
-            <unittitle>Program proposals <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <unittitle>Program proposals</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -539,10 +504,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [314330694218548314047]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994">1994</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1994">1994</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -557,8 +519,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [039734832027075]">7</container>
-            <unittitle>Reorganization <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Reorganization</unittitle><unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -566,8 +527,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [039734832027075]">7</container>
-            <unittitle>Resource Center Proposal <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
-          </did>
+            <unittitle>Resource Center Proposal</unittitle><unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -576,14 +536,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [039734832027075]">7</container>
-              <unittitle>Published by LGMPO <unitdate type="inclusive" normal="1977">1977</unitdate>, <unitdate type="inclusive" normal="1988/1994">1988-1994</unitdate></unittitle>
-            </did>
+              <unittitle>Published by LGMPO</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate><unitdate type="inclusive" normal="1988/1994">1988-1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [039734832027075]">7</container>
-              <unittitle>Mimeographed by LGMPO <unitdate type="inclusive" normal="1970/1989" certainty="approximate">1970s-1980s</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Mimeographed by LGMPO</unittitle><unitdate type="inclusive" normal="1970/1989" certainty="approximate">1970s-1980s</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -602,8 +560,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [039734832027075]">7</container>
-              <unittitle>Employee evaluations <unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate></unittitle>
-            </did>
+              <unittitle>Employee evaluations</unittitle><unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -614,8 +571,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [039734832027075]">7</container>
-              <unittitle>Job descriptions <unitdate type="inclusive" normal="1986/1990" certainty="approximate">circa 1986-1990</unitdate></unittitle>
-            </did>
+              <unittitle>Job descriptions</unittitle><unitdate type="inclusive" normal="1986/1990" certainty="approximate">circa 1986-1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -666,8 +622,7 @@
             <c04 level="file">
               <did>
                 <physloc>Vault</physloc>
-                <unittitle><unitdate type="inclusive" normal="1987" certainty="approximate">1987</unitdate> Administrative Assistant</unittitle>
-              </did>
+                <unittitle>Administrative Assistant</unittitle><unitdate type="inclusive" normal="1987" certainty="approximate">1987</unitdate></did>
               <accessrestrict>
                 <p>[CLOSED until <date type="restriction" normal="2017-07-01">2017</date>]</p>
               </accessrestrict>
@@ -686,26 +641,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [039734832027075]">7</container>
-            <unittitle>Staff meeting <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <unittitle>Staff meeting</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [039734832027075]">7</container>
-            <unittitle>Staff meetings <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></unittitle>
-          </did>
+            <unittitle>Staff meetings</unittitle><unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [039734832027075]">7</container>
-            <unittitle>Staff meetings <unitdate type="inclusive" normal="1991/1993">1991-1993</unitdate></unittitle>
-          </did>
+            <unittitle>Staff meetings</unittitle><unitdate type="inclusive" normal="1991/1993">1991-1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [039734832027075]">7</container>
-            <unittitle>Staff meetings and correspondence <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
-          </did>
+            <unittitle>Staff meetings and correspondence</unittitle><unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -716,20 +667,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [039734832027075]">7</container>
-            <unittitle>Staff miscellanea <unitdate type="inclusive" normal="1991/1993">1991-1993</unitdate></unittitle>
-          </did>
+            <unittitle>Staff miscellanea</unittitle><unitdate type="inclusive" normal="1991/1993">1991-1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [039734832027075]">7</container>
-            <unittitle>Statistics and statistical reports <unitdate type="inclusive" normal="1981/1987">1981-1987 (scattered)</unitdate></unittitle>
-          </did>
+            <unittitle>Statistics and statistical reports</unittitle><unitdate type="inclusive" normal="1981/1987">1981-1987 (scattered)</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [039734832027075]">7</container>
-            <unittitle>Student Task Force on Lesbian, Gay, Bisexual Issues Survey Report <unitdate type="inclusive" normal="1993-05">May 1993</unitdate></unittitle>
-          </did>
+            <unittitle>Student Task Force on Lesbian, Gay, Bisexual Issues Survey Report</unittitle><unitdate type="inclusive" normal="1993-05">May 1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -742,14 +690,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [039734832027075]">7</container>
-                <unittitle><unitdate type="inclusive" normal="1980/1993">1980-1993</unitdate> (includes general counseling information)</unittitle>
-              </did>
+                <unittitle>(includes general counseling information)</unittitle><unitdate type="inclusive" normal="1980/1993">1980-1993</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [039734832027075]">7</container>
-                <unittitle>Staff in-service training: working with gay/lesbian/bisexual clients <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-              </did>
+                <unittitle>Staff in-service training: working with gay/lesbian/bisexual clients</unittitle><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -759,8 +705,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [039734832027075]">7</container>
-                <unittitle>General <unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
@@ -768,15 +713,13 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [039734832027075]">7</container>
-                <unittitle>Proposed ombudsperson <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-              </did>
+                <unittitle>Proposed ombudsperson</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [039734832027075]">7</container>
-              <unittitle>Office of Student Services Policy Board (OSSPB) <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Office of Student Services Policy Board (OSSPB)</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -785,8 +728,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [039734832027075]">7</container>
-                <unittitle>Staff meeting minutes <unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Staff meeting minutes</unittitle><unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -814,20 +756,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [54017162044929844056247]">8</container>
-            <unittitle>University of Michigan Study Committee on the Status of Lesbians and Gay Men <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <unittitle>University of Michigan Study Committee on the Status of Lesbians and Gay Men</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [54017162044929844056247]">8</container>
-            <unittitle>University of Michigan Task Force on Campus Safety and Security <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
-          </did>
+            <unittitle>University of Michigan Task Force on Campus Safety and Security</unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [54017162044929844056247]">8</container>
-            <unittitle>University of Michigan Task Force on Sex Education <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></unittitle>
-          </did>
+            <unittitle>University of Michigan Task Force on Sex Education</unittitle><unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -842,16 +781,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [54017162044929844056247]">8</container>
-              <unittitle><unitdate type="inclusive">Undated</unitdate> and pre-1984 background information</unittitle>
-            </did>
+              <unittitle>And pre-1984 background information</unittitle><unitdate type="inclusive">Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [54017162044929844056247]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1984/1991">1984-1991</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1984/1991">1984-1991</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">15 folders</extent>
               </physdesc>
             </did>
@@ -859,10 +794,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [758854895873751345]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -890,50 +822,42 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [758854895873751345]">9</container>
-              <unittitle>Action Against AIDS/Ann Arbor (later AIDS Action Alliance, Ann Arbor) <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
-            </did>
+              <unittitle>Action Against AIDS/Ann Arbor (later AIDS Action Alliance, Ann Arbor)</unittitle><unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [758854895873751345]">9</container>
-              <unittitle>AIDS-related Communication Coalition <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-            </did>
+              <unittitle>AIDS-related Communication Coalition</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [758854895873751345]">9</container>
-              <unittitle>AIDS 101: A University of Michigan Health Services Peer Education Program <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-            </did>
+              <unittitle>AIDS 101: A University of Michigan Health Services Peer Education Program</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [758854895873751345]">9</container>
-              <unittitle>AIDS: Implications for Social Service Professionals conference <unitdate type="inclusive" normal="1985-12">December 1985</unitdate>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-            </did>
+              <unittitle>AIDS: Implications for Social Service Professionals conference</unittitle><unitdate type="inclusive" normal="1985-12">December 1985</unitdate><unitdate type="inclusive" normal="1986">1986</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [758854895873751345]">9</container>
-              <unittitle>Coping with AIDS conference <unitdate type="inclusive" normal="1985-12">December 1985</unitdate></unittitle>
-            </did>
+              <unittitle>Coping with AIDS conference</unittitle><unitdate type="inclusive" normal="1985-12">December 1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [758854895873751345]">9</container>
-              <unittitle>Course: AIDS: The Challenge to Society <unitdate type="inclusive" normal="1990/1994">1990-1994</unitdate></unittitle>
-            </did>
+              <unittitle>Course: AIDS: The Challenge to Society</unittitle><unitdate type="inclusive" normal="1990/1994">1990-1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [758854895873751345]">9</container>
-              <unittitle>Course papers <unitdate type="inclusive" normal="1981">1981</unitdate>, <unitdate type="inclusive" normal="1986">1986</unitdate>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <unittitle>Course papers</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate><unitdate type="inclusive" normal="1986">1986</unitdate><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [758854895873751345]">9</container>
-              <unittitle>Healing AIDS conference <unitdate type="inclusive" normal="1993-12">December 1993</unitdate></unittitle>
-            </did>
+              <unittitle>Healing AIDS conference</unittitle><unitdate type="inclusive" normal="1993-12">December 1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -944,8 +868,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [758854895873751345]">9</container>
-              <unittitle>U-M AIDS Task Force/U-M-related <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>U-M AIDS Task Force/U-M-related</unittitle><unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -960,8 +883,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [758854895873751345]">9</container>
-            <unittitle>American Civil Liberties Union of Michigan <unitdate type="inclusive" normal="1973/1986">1973-1986</unitdate> (mainly pertaining to Committee on Lesbian Women and Gay Men</unittitle>
-            <physdesc altrender="whole">
+            <unittitle>American Civil Liberties Union of Michigan  (mainly pertaining to Committee on Lesbian Women and Gay Men</unittitle><unitdate type="inclusive" normal="1973/1986">1973-1986</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -969,14 +891,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [758854895873751345]">9</container>
-            <unittitle>American Psychiatric Association <unitdate type="inclusive" normal="1974">1974</unitdate> (position regarding homosexuality)</unittitle>
-          </did>
+            <unittitle>American Psychiatric Association  (position regarding homosexuality)</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [758854895873751345]">9</container>
-            <unittitle>Ann Arbor Area Association for Civil Concerns (formerly Ann Arbor Gay/Lesbian Organization) <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Ann Arbor Area Association for Civil Concerns (formerly Ann Arbor Gay/Lesbian Organization)</unittitle><unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -984,20 +904,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [758854895873751345]">9</container>
-            <unittitle>Ann Arbor Gay Community Services <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate> (see also Gay Community Services, a separate organization)</unittitle>
-          </did>
+            <unittitle>Ann Arbor Gay Community Services  (see also Gay Community Services, a separate organization)</unittitle><unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [758854895873751345]">9</container>
-            <unittitle>Ann Arbor Gay Discussion Group <unitdate type="inclusive" normal="1980/1982">1980-1982</unitdate></unittitle>
-          </did>
+            <unittitle>Ann Arbor Gay Discussion Group</unittitle><unitdate type="inclusive" normal="1980/1982">1980-1982</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [758854895873751345]">9</container>
-            <unittitle>Ann Arbor Gay Programs Collective <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-          </did>
+            <unittitle>Ann Arbor Gay Programs Collective</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1070,14 +987,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [33467174843951058079]">10</container>
-            <unittitle>Anti-Violence and Discrimination Task Force <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Anti-Violence and Discrimination Task Force</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [33467174843951058079]">10</container>
-            <unittitle>Association of Suburban People <unitdate type="inclusive" normal="1978/1982">1978-1982</unitdate></unittitle>
-          </did>
+            <unittitle>Association of Suburban People</unittitle><unitdate type="inclusive" normal="1978/1982">1978-1982</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1103,8 +1018,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [33467174843951058079]">10</container>
-            <unittitle>Bisexuality <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
-          </did>
+            <unittitle>Bisexuality</unittitle><unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1115,8 +1029,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [33467174843951058079]">10</container>
-            <unittitle>Campus security (complaints directed toward) <unitdate type="inclusive" normal="1981/1984">1981-1984</unitdate></unittitle>
-          </did>
+            <unittitle>Campus security (complaints directed toward)</unittitle><unitdate type="inclusive" normal="1981/1984">1981-1984</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1131,8 +1044,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [33467174843951058079]">10</container>
-              <unittitle>Gay Issues in Social Work (later Lesbian and Gay Issues in Social Work <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-              <physdesc altrender="part">
+              <unittitle>Gay Issues in Social Work (later Lesbian and Gay Issues in Social Work</unittitle><unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate><unitdate type="inclusive" normal="1984">1984</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -1143,20 +1055,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [33467174843951058079]">10</container>
-              <unittitle>Human Sexuality (INTEFLEX class) <unitdate type="inclusive" normal="1986/1991">1986-1991</unitdate></unittitle>
-            </did>
+              <unittitle>Human Sexuality (INTEFLEX class)</unittitle><unitdate type="inclusive" normal="1986/1991">1986-1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [33467174843951058079]">10</container>
-              <unittitle>Lesbian-child custody <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <unittitle>Lesbian-child custody</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [33467174843951058079]">10</container>
-              <unittitle>Women and the community (internship program) <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-            </did>
+              <unittitle>Women and the community (internship program)</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1180,8 +1089,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [174003755471872488131]">11</container>
-            <unittitle>Clippings, undated <unitdate type="inclusive" normal="1962">1962</unitdate>, <unitdate type="inclusive" normal="1970/1994">1970-1994</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Clippings, undated</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate><unitdate type="inclusive" normal="1970/1994">1970-1994</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">19 folders</extent>
             </physdesc>
           </did>
@@ -1189,14 +1097,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [174003755471872488131]">11</container>
-            <unittitle>Colorado boycott <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <unittitle>Colorado boycott</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [174003755471872488131]">11</container>
-            <unittitle>Coming-out <unitdate type="inclusive" normal="1978/1992">1978-1992</unitdate></unittitle>
-          </did>
+            <unittitle>Coming-out</unittitle><unitdate type="inclusive" normal="1978/1992">1978-1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1211,8 +1117,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [174003755471872488131]">11</container>
-              <unittitle><unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate> general</unittitle>
-            </did>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1223,8 +1128,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [174003755471872488131]">11</container>
-              <unittitle><unitdate type="inclusive" normal="1973">1973</unitdate> (June). Human Sexuality</unittitle>
-            </did>
+              <unittitle>(June). Human Sexuality</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1247,8 +1151,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [174003755471872488131]">11</container>
-              <unittitle><unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate> general</unittitle>
-            </did>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1322,8 +1225,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [174003755471872488131]">11</container>
-              <unittitle><unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate> general</unittitle>
-            </did>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1347,32 +1249,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [664593420288924382]">12</container>
-            <unittitle>Cornerstone Christian Fellowship <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
-          </did>
+            <unittitle>Cornerstone Christian Fellowship</unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [664593420288924382]">12</container>
-            <unittitle>Crisis intervention (crisis theory) <unitdate type="inclusive" normal="1984/1987">1984-1987</unitdate></unittitle>
-          </did>
+            <unittitle>Crisis intervention (crisis theory)</unittitle><unitdate type="inclusive" normal="1984/1987">1984-1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [664593420288924382]">12</container>
-            <unittitle>Detroit Gay Liberation <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>Detroit Gay Liberation</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [664593420288924382]">12</container>
-            <unittitle>Detroit. Task Force on Sexuality Discrimination <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-          </did>
+            <unittitle>Detroit. Task Force on Sexuality Discrimination</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [664593420288924382]">12</container>
-            <unittitle>Dressel, James (Michigan H.B. 5000 prohibiting discrimination based on sexual orientation), <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-          </did>
+            <unittitle>Dressel, James (Michigan H.B. 5000 prohibiting discrimination based on sexual orientation)</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1391,8 +1288,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [664593420288924382]">12</container>
-                <unittitle>Remembrance and Hope service <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-              </did>
+                <unittitle>Remembrance and Hope service</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1417,8 +1313,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [664593420288924382]">12</container>
-                <unittitle>Canons <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></unittitle>
-              </did>
+                <unittitle>Canons</unittitle><unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1433,14 +1328,12 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [664593420288924382]">12</container>
-                  <unittitle><unitdate type="inclusive" normal="1997">1997</unitdate> General Convention Resolutions Follow-Up, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-                </did>
+                  <unittitle>1997 General Convention Resolutions Follow-Up, 1999</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate><unitdate type="inclusive" normal="1999">1999</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [664593420288924382]">12</container>
-                  <unittitle>Conscientious Objector (to War) <unitdate type="inclusive" normal="2001/2003">2001-2003</unitdate></unittitle>
-                </did>
+                  <unittitle>Conscientious Objector (to War)</unittitle><unitdate type="inclusive" normal="2001/2003">2001-2003</unitdate></did>
                 <odd>
                   <p>(includes several related issues of <title render="italic">The Link</title>)</p>
                 </odd>
@@ -1452,36 +1345,22 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [664593420288924382]">12</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1982/1987">1982-1987</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1982/1987">1982-1987</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [664593420288924382]">12</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1995">1995</unitdate>
-                      <unitdate type="inclusive" normal="1997/2000">1997-2000</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1995">1995</unitdate><unitdate type="inclusive" normal="1997/2000">1997-2000</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [664593420288924382]">12</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [664593420288924382]">12</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate>
-                      <unitdate type="inclusive" normal="2006">2006</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate><unitdate type="inclusive" normal="2006">2006</unitdate></did>
                 </c06>
               </c05>
               <c05 level="file">
@@ -1493,14 +1372,12 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [664593420288924382]">12</container>
-                  <unittitle>Financial <unitdate type="inclusive" normal="1977" certainty="approximate">circa 1977</unitdate>, <unitdate type="inclusive" normal="1995/2000">1995-2000</unitdate></unittitle>
-                </did>
+                  <unittitle>Financial</unittitle><unitdate type="inclusive" normal="1977" certainty="approximate">circa 1977</unitdate><unitdate type="inclusive" normal="1995/2000">1995-2000</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [664593420288924382]">12</container>
-                  <unittitle><title render="italic">The Link</title>, <unitdate type="inclusive" normal="1997/2002">1997-2002 (scattered)</unitdate></unittitle>
-                </did>
+                  <unittitle><title render="italic">The Link</title></unittitle><unitdate type="inclusive" normal="1997/2002">1997-2002 (scattered)</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -1509,27 +1386,17 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [664593420288924382]">12</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1976">1976</unitdate>
-                      <unitdate type="inclusive" normal="1981/1985">1981-1985</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1976">1976</unitdate><unitdate type="inclusive" normal="1981/1985">1981-1985</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [664593420288924382]">12</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1997/2000">1997-2000</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1997/2000">1997-2000</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [664593420288924382]">12</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="2001/2004">2001-2004</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="2001/2004">2001-2004</unitdate></did>
                 </c06>
               </c05>
               <c05 level="file">
@@ -1539,14 +1406,12 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [664593420288924382]">12</container>
-                    <unittitle>General <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate>, <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate></unittitle>
-                  </did>
+                    <unittitle>General</unittitle><unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate><unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [664593420288924382]">12</container>
-                    <unittitle>Racist Mascots <unitdate type="inclusive" normal="1999/2002">1999-2002</unitdate></unittitle>
-                  </did>
+                    <unittitle>Racist Mascots</unittitle><unitdate type="inclusive" normal="1999/2002">1999-2002</unitdate></did>
                 </c06>
               </c05>
               <c05 level="file">
@@ -1558,14 +1423,12 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [664593420288924382]">12</container>
-                  <unittitle>September 11th <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></unittitle>
-                </did>
+                  <unittitle>September 11th</unittitle><unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [664593420288924382]">12</container>
-                  <unittitle>Should Physician-Assisted Suicide Be Legalized in Michigan?-A Conference to Explore Issues and Concerns <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-                </did>
+                  <unittitle>Should Physician-Assisted Suicide Be Legalized in Michigan?-A Conference to Explore Issues and Concerns</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
                 <odd>
                   <p>(co-sponsored by the Committee on Affirmative Aging)</p>
                 </odd>
@@ -1573,20 +1436,17 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [664593420288924382]">12</container>
-                  <unittitle>Triangle Foundation Certificate of Appreciation <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-                </did>
+                  <unittitle>Triangle Foundation Certificate of Appreciation</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [664593420288924382]">12</container>
-                  <unittitle>Various Issues <unitdate type="inclusive" normal="1996/2002">1996-2002</unitdate></unittitle>
-                </did>
+                  <unittitle>Various Issues</unittitle><unitdate type="inclusive" normal="1996/2002">1996-2002</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [664593420288924382]">12</container>
-                  <unittitle>Website <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-                </did>
+                  <unittitle>Website</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -1597,8 +1457,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [115874931438811160763]">29</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1977/1982">1977-1982</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1977/1982">1977-1982</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
@@ -1618,8 +1477,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [115874931438811160763]">29</container>
-                  <unittitle>Minutes <unitdate type="inclusive" normal="1977/1982">1977-1982</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1977/1982">1977-1982</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
@@ -1627,8 +1485,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [115874931438811160763]">29</container>
-                  <unittitle>Questionnaire <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-                </did>
+                  <unittitle>Questionnaire</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -1643,14 +1500,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [664593420288924382]">12</container>
-                <unittitle>Commission on Homosexuality <unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate></unittitle>
-              </did>
+                <unittitle>Commission on Homosexuality</unittitle><unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [664593420288924382]">12</container>
-                <unittitle>Commission on Human Sexuality <unitdate type="inclusive" normal="1977">1977</unitdate>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-              </did>
+                <unittitle>Commission on Human Sexuality</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate><unitdate type="inclusive" normal="1989">1989</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1662,8 +1517,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Assignment of Allocations <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-                </did>
+                  <unittitle>Assignment of Allocations</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -1672,45 +1526,33 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [1167846664246832334922]">27</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1995/1999">1995-1999</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="1995/1999">1995-1999</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [1167846664246832334922]">27</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="2000">2000</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="2000">2000</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [1167846664246832334922]">27</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="2001">2001</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="2001">2001</unitdate></did>
                 </c06>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Meetings and Correspondence <unitdate type="inclusive" normal="1999/2002">1999-2002 (scattered)</unitdate></unittitle>
-                </did>
+                  <unittitle>Meetings and Correspondence</unittitle><unitdate type="inclusive" normal="1999/2002">1999-2002 (scattered)</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Ministry Fair <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-                </did>
+                  <unittitle>Ministry Fair</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Resolutions <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></unittitle>
-                </did>
+                  <unittitle>Resolutions</unittitle><unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -1720,8 +1562,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>General <unitdate type="inclusive" normal="2001/2009">2001-2009</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>General</unittitle><unitdate type="inclusive" normal="2001/2009">2001-2009</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">8 folders</extent>
                   </physdesc>
                 </did>
@@ -1733,68 +1574,52 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [1167846664246832334922]">27</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="2003">2003</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="2003">2003</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [1167846664246832334922]">27</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="2005">2005</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="2005">2005</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [1167846664246832334922]">27</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="2008">2008</unitdate>
-                    </unittitle>
-                  </did>
+                    <unitdate type="inclusive" normal="2008">2008</unitdate></did>
                 </c06>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Charter Application -- Specialized Ministry Initiative <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-                </did>
+                  <unittitle>Charter Application -- Specialized Ministry Initiative</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Extended Ministries Fund (EMF) Task Force II <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-                </did>
+                  <unittitle>Extended Ministries Fund (EMF) Task Force II</unittitle><unitdate type="inclusive" normal="2008">2008</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Funding Applications <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
-                </did>
+                  <unittitle>Funding Applications</unittitle><unitdate type="inclusive" normal="2009">2009</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Homosexuality and Same-Sex Unions <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-                </did>
+                  <unittitle>Homosexuality and Same-Sex Unions</unittitle><unitdate type="inclusive" normal="1999">1999</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Meetings <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-                </did>
+                  <unittitle>Meetings</unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Millennium Development Goals (MDGs) Workshop <unitdate type="inclusive" normal="2007-11-10">November 10, 2007</unitdate></unittitle>
-                </did>
+                  <unittitle>Millennium Development Goals (MDGs) Workshop</unittitle><unitdate type="inclusive" normal="2007-11-10">November 10, 2007</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <unittitle>Ministry Fair <unitdate type="inclusive" normal="2007-05-05">May 5, 2007</unitdate></unittitle>
-                </did>
+                  <unittitle>Ministry Fair</unittitle><unitdate type="inclusive" normal="2007-05-05">May 5, 2007</unitdate></did>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [1167846664246832334922]">27</container>
@@ -1817,20 +1642,17 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Resolutions <unitdate type="inclusive" normal="2001/2008">2001-2008</unitdate></unittitle>
-                </did>
+                  <unittitle>Resolutions</unittitle><unitdate type="inclusive" normal="2001/2008">2001-2008</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Retreat <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-                </did>
+                  <unittitle>Retreat</unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>The Role of the Church in Public Policy <unitdate type="inclusive" normal="2003" certainty="approximate">circa 2003</unitdate></unittitle>
-                </did>
+                  <unittitle>The Role of the Church in Public Policy</unittitle><unitdate type="inclusive" normal="2003" certainty="approximate">circa 2003</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -1852,14 +1674,12 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Correspondence and memoranda <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence and memoranda</unittitle><unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1167846664246832334922]">27</container>
-                  <unittitle>Curriculum materials <unitdate type="inclusive" normal="1991/1993">1991-1993</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>Curriculum materials</unittitle><unitdate type="inclusive" normal="1991/1993">1991-1993</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
                 </did>
@@ -1879,8 +1699,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle>Review of Sexuality Curriculum <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-                </did>
+                  <unittitle>Review of Sexuality Curriculum</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -1934,8 +1753,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [37484924060399585742972]">28</container>
-                <unittitle>Death Penalty, Concealed Weapons Laws <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-              </did>
+                <unittitle>Death Penalty, Concealed Weapons Laws</unittitle><unitdate type="inclusive" normal="1999">1999</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1944,62 +1762,52 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle>164th-166th <unitdate type="inclusive" normal="1998/2000">1998-2000</unitdate></unittitle>
-                </did>
+                  <unittitle>164th-166th</unittitle><unitdate type="inclusive" normal="1998/2000">1998-2000</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle>167th <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-                </did>
+                  <unittitle>167th</unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle>168th <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-                </did>
+                  <unittitle>168th</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle>169th <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-                </did>
+                  <unittitle>169th</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle>170th <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
-                </did>
+                  <unittitle>170th</unittitle><unitdate type="inclusive" normal="2004">2004</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle>171st <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-                </did>
+                  <unittitle>171st</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle>172nd <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-                </did>
+                  <unittitle>172nd</unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle>173rd <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
-                </did>
+                  <unittitle>173rd</unittitle><unitdate type="inclusive" normal="2007">2007</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle>174th <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-                </did>
+                  <unittitle>174th</unittitle><unitdate type="inclusive" normal="2008">2008</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle>Resolutions Follow-Up <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-                </did>
+                  <unittitle>Resolutions Follow-Up</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
                 <odd>
                   <p>(regarding tracking of resolutions)</p>
                 </odd>
@@ -2008,8 +1816,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [37484924060399585742972]">28</container>
-                <unittitle>Economic Justice Commission <unitdate type="inclusive" normal="1999/2001">1999-2001</unitdate></unittitle>
-              </did>
+                <unittitle>Economic Justice Commission</unittitle><unitdate type="inclusive" normal="1999/2001">1999-2001</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -2020,8 +1827,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [37484924060399585742972]">28</container>
-                <unittitle>McMath Lectures <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate></unittitle>
-              </did>
+                <unittitle>McMath Lectures</unittitle><unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -2030,8 +1836,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle><title render="italic">Checkpoint: A Newsletter for Clergy and Laity of the Episcopal Diocese of Michigan</title>, <unitdate type="inclusive" normal="1997">1997</unitdate>, <unitdate type="inclusive" normal="1999/2003">1999-2003</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle><title render="italic">Checkpoint: A Newsletter for Clergy and Laity of the Episcopal Diocese of Michigan</title></unittitle><unitdate type="inclusive" normal="1997">1997</unitdate><unitdate type="inclusive" normal="1999/2003">1999-2003</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
                 </did>
@@ -2039,8 +1844,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle><title render="italic">The Record</title>, <unitdate type="inclusive" normal="1974/2008">1974-2008 (scattered)</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle><title render="italic">The Record</title></unittitle><unitdate type="inclusive" normal="1974/2008">1974-2008 (scattered)</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
@@ -2053,8 +1857,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle>Budget <unitdate type="inclusive" normal="2000/2003">2000-2003</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>Budget</unittitle><unitdate type="inclusive" normal="2000/2003">2000-2003</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
@@ -2062,8 +1865,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [37484924060399585742972]">28</container>
-                  <unittitle>General <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></unittitle>
-                </did>
+                  <unittitle>General</unittitle><unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -2085,8 +1887,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [34469555401296317226]">13</container>
-                  <unittitle>General <unitdate type="inclusive" normal="1989/1992">1989-1992</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>General</unittitle><unitdate type="inclusive" normal="1989/1992">1989-1992</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
@@ -2094,14 +1895,12 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [34469555401296317226]">13</container>
-                  <unittitle>Convention resolutions, etc. <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-                </did>
+                  <unittitle>Convention resolutions, etc.</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [34469555401296317226]">13</container>
-                  <unittitle>Workshop <unitdate type="inclusive" normal="1992">1992</unitdate> "Sharing the Journey: a skills workshop for clergy and other church counselors"</unittitle>
-                </did>
+                  <unittitle>Workshop  "Sharing the Journey: a skills workshop for clergy and other church counselors"</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -2114,8 +1913,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [34469555401296317226]">13</container>
-              <unittitle>General Convention (75th) <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-            </did>
+              <unittitle>General Convention (75th)</unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
             <odd>
               <p>(includes material from 1996)</p>
             </odd>
@@ -2139,8 +1937,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [34469555401296317226]">13</container>
-                <unittitle>Conventions/conferences <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></unittitle>
-              </did>
+                <unittitle>Conventions/conferences</unittitle><unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -2175,8 +1972,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [34469555401296317226]">13</container>
-                <unittitle>A Statement of Integrity Regarding Safe and/or Welcoming Congregations <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-              </did>
+                <unittitle>A Statement of Integrity Regarding Safe and/or Welcoming Congregations</unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -2187,14 +1983,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [115874931438811160763]">29</container>
-                <unittitle>Convention/conference material <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></unittitle>
-              </did>
+                <unittitle>Convention/conference material</unittitle><unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [115874931438811160763]">29</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">7 folders</extent>
                 </physdesc>
               </did>
@@ -2202,8 +1996,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [115874931438811160763]">29</container>
-                <unittitle>Meeting minutes <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Meeting minutes</unittitle><unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
@@ -2211,8 +2004,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [115874931438811160763]">29</container>
-                <unittitle>Newsletters and other mailings <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Newsletters and other mailings</unittitle><unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">7 folders</extent>
                 </physdesc>
               </did>
@@ -2229,8 +2021,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [115874931438811160763]">29</container>
-                <unittitle>Reports <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></unittitle>
-              </did>
+                <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -2248,8 +2039,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [34469555401296317226]">13</container>
-              <unittitle>Ordination of gays <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-            </did>
+              <unittitle>Ordination of gays</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2258,14 +2048,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [34469555401296317226]">13</container>
-                <unittitle>General <unitdate type="inclusive" normal="1984/2005">1984-2005 (scattered)</unitdate></unittitle>
-              </did>
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1984/2005">1984-2005 (scattered)</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [34469555401296317226]">13</container>
-                <unittitle><title render="italic">The Witness</title>, <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-              </did>
+                <unittitle><title render="italic">The Witness</title></unittitle><unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate><unitdate type="inclusive" normal="1997">1997</unitdate></did>
               <odd>
                 <p>(includes letters to the editor from John L. Kavanaugh)</p>
               </odd>
@@ -2281,8 +2069,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [34469555401296317226]">13</container>
-            <unittitle>Galen smoker (complaint of homophobic content) <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <unittitle>Galen smoker (complaint of homophobic content)</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2293,20 +2080,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [34469555401296317226]">13</container>
-            <unittitle>GAWK (Gay Awareness Women's Kollective) <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></unittitle>
-          </did>
+            <unittitle>GAWK (Gay Awareness Women's Kollective)</unittitle><unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [34469555401296317226]">13</container>
-            <unittitle>Gay Academic Union <unitdate type="inclusive" normal="1973/1978">1973-1978 (scattered)</unitdate></unittitle>
-          </did>
+            <unittitle>Gay Academic Union</unittitle><unitdate type="inclusive" normal="1973/1978">1973-1978 (scattered)</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [34469555401296317226]">13</container>
-            <unittitle>Gay Blue Jean Day <unitdate type="inclusive" normal="1978">1978</unitdate>, <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <unittitle>Gay Blue Jean Day</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2327,14 +2111,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [34469555401296317226]">13</container>
-              <unittitle>Establishment <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <unittitle>Establishment</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [34469555401296317226]">13</container>
-              <unittitle>Financial <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
-            </did>
+              <unittitle>Financial</unittitle><unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2357,8 +2139,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [442592060486888419662202]">14</container>
-              <unittitle>Log books of Center <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
-            </did>
+              <unittitle>Log books of Center</unittitle><unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2369,8 +2150,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [442592060486888419662202]">14</container>
-              <unittitle>Minutes <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2455,8 +2235,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [442592060486888419662202]">14</container>
-              <unittitle>Feelings about meeting, <unitdate type="inclusive" normal="1975">Fall 1975</unitdate></unittitle>
-            </did>
+              <unittitle>Feelings about meeting</unittitle><unitdate type="inclusive" normal="1975">Fall 1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2477,30 +2256,22 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [442592060486888419662202]">14</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1976">1976</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1976">1976</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [442592060486888419662202]">14</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1977">1977</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1977">1977</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [442592060486888419662202]">14</container>
-                <unittitle><unitdate type="inclusive" normal="1978">1978</unitdate> (feedback, etc.)</unittitle>
-              </did>
+                <unittitle>(feedback, etc.)</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [442592060486888419662202]">14</container>
-                <unittitle><unitdate type="inclusive" normal="1979">1979</unitdate> (applications and feedback)</unittitle>
-              </did>
+                <unittitle>(applications and feedback)</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -2512,8 +2283,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [442592060486888419662202]">14</container>
-              <unittitle>Statistics <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></unittitle>
-            </did>
+              <unittitle>Statistics</unittitle><unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2524,8 +2294,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [442592060486888419662202]">14</container>
-              <unittitle>Workshops <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Workshops</unittitle><unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -2541,8 +2310,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [92821637400306593528]">15</container>
-              <unittitle>Agenda <title render="italic">CRD</title> (newsletter); include calendars and news items, <unitdate type="inclusive" normal="1986/1994">1986-1994</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Agenda <title render="italic">CRD</title> (newsletter); include calendars and news items</unittitle><unitdate type="inclusive" normal="1986/1994">1986-1994</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -2556,8 +2324,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [92821637400306593528]">15</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1970/1982">1970-1982</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1970/1982">1970-1982</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -2571,8 +2338,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [92821637400306593528]">15</container>
-              <unittitle>Grant proposal for lecture series on homosexuality <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-            </did>
+              <unittitle>Grant proposal for lecture series on homosexuality</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2583,14 +2349,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [92821637400306593528]">15</container>
-              <unittitle>Meeting agendas <unitdate type="inclusive" normal="1972/1976">1972-1976</unitdate></unittitle>
-            </did>
+              <unittitle>Meeting agendas</unittitle><unitdate type="inclusive" normal="1972/1976">1972-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [92821637400306593528]">15</container>
-              <unittitle>Meeting minutes (various) <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Meeting minutes (various)</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2630,11 +2394,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [92821637400306593528]">15</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-                <unitdate type="inclusive" normal="1972/1994">1972-1994</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1972/1994">1972-1994</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">11 folders</extent>
               </physdesc>
             </did>
@@ -2649,20 +2409,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [92821637400306593528]">15</container>
-            <unittitle>GLOHRYA2 (Gay/Lesbian Organization for Human Rights-Ypsilanti/Ann Arbor) <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
-          </did>
+            <unittitle>GLOHRYA2 (Gay/Lesbian Organization for Human Rights-Ypsilanti/Ann Arbor)</unittitle><unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [92821637400306593528]">15</container>
-            <unittitle>Homosexuality and the draft <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate> (includes Jim Toy speech)</unittitle>
-          </did>
+            <unittitle>Homosexuality and the draft  (includes Jim Toy speech)</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [92821637400306593528]">15</container>
-            <unittitle>Human Rights Party <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>, <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <unittitle>Human Rights Party</unittitle><unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2671,8 +2428,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [92821637400306593528]">15</container>
-              <unittitle>Lectures on gay-related topics <unitdate type="inclusive" normal="1986" certainty="approximate">1986 undated</unitdate></unittitle>
-            </did>
+              <unittitle>Lectures on gay-related topics</unittitle><unitdate type="inclusive" normal="1986" certainty="approximate">1986 undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2703,20 +2459,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5092544048595687714]">16</container>
-              <unittitle>"AIDS and You" conference <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-            </did>
+              <unittitle>"AIDS and You" conference</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5092544048595687714]">16</container>
-              <unittitle>Constitution/bylaws <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate></unittitle>
-            </did>
+              <unittitle>Constitution/bylaws</unittitle><unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5092544048595687714]">16</container>
-              <unittitle>Minutes/meeting materials <unitdate type="inclusive" normal="1982/1986">1982-1986</unitdate></unittitle>
-            </did>
+              <unittitle>Minutes/meeting materials</unittitle><unitdate type="inclusive" normal="1982/1986">1982-1986</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2734,8 +2487,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5092544048595687714]">16</container>
-            <unittitle>Lesbian and Gay Law Students <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <unittitle>Lesbian and Gay Law Students</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2756,14 +2508,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5092544048595687714]">16</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1983/1988">1983-1988</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1983/1988">1983-1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5092544048595687714]">16</container>
-              <unittitle>Meeting minutes <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate>, <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Meeting minutes</unittitle><unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate><unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2777,14 +2527,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5092544048595687714]">16</container>
-              <unittitle>Scrapbook compiled by Carol Wayman <unitdate type="inclusive" normal="1984/1988">1984-1988</unitdate></unittitle>
-            </did>
+              <unittitle>Scrapbook compiled by Carol Wayman</unittitle><unitdate type="inclusive" normal="1984/1988">1984-1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5092544048595687714]">16</container>
-              <unittitle>University of Michigan bylaws (proposed amendment to guarantee non-discrimination on the basis of sexual orientation) <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate>, <unitdate type="inclusive" normal="1987/1990">1987-1990</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>University of Michigan bylaws (proposed amendment to guarantee non-discrimination on the basis of sexual orientation)</unittitle><unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate><unitdate type="inclusive" normal="1987/1990">1987-1990</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2793,20 +2541,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5092544048595687714]">16</container>
-            <unittitle>Lesbian-Gay Male Community Forum <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-          </did>
+            <unittitle>Lesbian-Gay Male Community Forum</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5092544048595687714]">16</container>
-            <unittitle>Lesbian-Gay Male Community Action Committee <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-          </did>
+            <unittitle>Lesbian-Gay Male Community Action Committee</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5092544048595687714]">16</container>
-            <unittitle>Lesbian/Gay Political Caucus of Washtenaw County <unitdate type="inclusive" normal="1980/1987">1980-1987</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Lesbian/Gay Political Caucus of Washtenaw County</unittitle><unitdate type="inclusive" normal="1980/1987">1980-1987</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -2814,8 +2559,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5092544048595687714]">16</container>
-            <unittitle>Lesbian battering <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
-          </did>
+            <unittitle>Lesbian battering</unittitle><unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2824,8 +2568,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5092544048595687714]">16</container>
-              <unittitle>Ann Arbor Lesbian Mothers' Collective <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
-            </did>
+              <unittitle>Ann Arbor Lesbian Mothers' Collective</unittitle><unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2852,28 +2595,24 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5092544048595687714]">16</container>
-                <unittitle>Social Work 509 class materials <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-              </did>
+                <unittitle>Social Work 509 class materials</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
             </c04>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5092544048595687714]">16</container>
-            <unittitle>Lesbian Mothers National Defense Fund <unitdate type="inclusive" normal="1975/1984">1975-1984</unitdate></unittitle>
-          </did>
+            <unittitle>Lesbian Mothers National Defense Fund</unittitle><unitdate type="inclusive" normal="1975/1984">1975-1984</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5092544048595687714]">16</container>
-            <unittitle>Lesbian Network <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
-          </did>
+            <unittitle>Lesbian Network</unittitle><unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5092544048595687714]">16</container>
-            <unittitle>Lesbian Relationship program <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-          </did>
+            <unittitle>Lesbian Relationship program</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2896,14 +2635,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5092544048595687714]">16</container>
-            <unittitle>Little Lambda (gay youth group) <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></unittitle>
-          </did>
+            <unittitle>Little Lambda (gay youth group)</unittitle><unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5092544048595687714]">16</container>
-            <unittitle>Loulan, JoAnn, program <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-          </did>
+            <unittitle>Loulan, JoAnn, program</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2920,20 +2657,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5092544048595687714]">16</container>
-            <unittitle>March on Washington for Lesbian and Gay Rights <unitdate type="inclusive" normal="1979/1993">1979-1993 (scattered)</unitdate></unittitle>
-          </did>
+            <unittitle>March on Washington for Lesbian and Gay Rights</unittitle><unitdate type="inclusive" normal="1979/1993">1979-1993 (scattered)</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8874354083689306679]">17</container>
-            <unittitle>Mesler, Ray <unitdate type="inclusive" normal="1979/1983">1979-1983</unitdate></unittitle>
-          </did>
+            <unittitle>Mesler, Ray</unittitle><unitdate type="inclusive" normal="1979/1983">1979-1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8874354083689306679]">17</container>
-            <unittitle>Michigan Campaign for Human Dignity <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Michigan Campaign for Human Dignity</unittitle><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -2941,20 +2675,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [8874354083689306679]">17</container>
-            <unittitle>Michigan Counseling Center for Sexual Identity (proposal) <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Counseling Center for Sexual Identity (proposal)</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8874354083689306679]">17</container>
-            <unittitle>Michigan Gay Confederation <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Gay Confederation</unittitle><unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8874354083689306679]">17</container>
-            <unittitle>Michigan Gay Undergraduates <unitdate type="inclusive" normal="1982/1987">1982-1987</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Gay Undergraduates</unittitle><unitdate type="inclusive" normal="1982/1987">1982-1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2965,8 +2696,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [8874354083689306679]">17</container>
-            <unittitle>Michigan Organization for Human Rights <unitdate type="inclusive" normal="1974/1991">1974-1991</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Michigan Organization for Human Rights</unittitle><unitdate type="inclusive" normal="1974/1991">1974-1991</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
             </physdesc>
           </did>
@@ -2974,8 +2704,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [8874354083689306679]">17</container>
-            <unittitle>Minuth, John (student who wrote anti-gay article for high school paper) <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <unittitle>Minuth, John (student who wrote anti-gay article for high school paper)</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2989,8 +2718,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [8874354083689306679]">17</container>
-            <unittitle>Moonrise (women’s group) <unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate></unittitle>
-          </did>
+            <unittitle>Moonrise (women’s group)</unittitle><unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3001,8 +2729,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [8874354083689306679]">17</container>
-            <unittitle>National Coalition of Gay STD Services <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <unittitle>National Coalition of Gay STD Services</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3028,14 +2755,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [8874354083689306679]">17</container>
-            <unittitle>Peer counseling <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></unittitle>
-          </did>
+            <unittitle>Peer counseling</unittitle><unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8874354083689306679]">17</container>
-            <unittitle>Peoples Action Coalition <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></unittitle>
-          </did>
+            <unittitle>Peoples Action Coalition</unittitle><unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3049,8 +2774,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [8874354083689306679]">17</container>
-            <unittitle>Pink Triangle Housing Specialists <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
-          </did>
+            <unittitle>Pink Triangle Housing Specialists</unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3076,8 +2800,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [94016034049535765550]">18</container>
-            <unittitle>Queers Action Committee (QUAC) <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-          </did>
+            <unittitle>Queers Action Committee (QUAC)</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3128,8 +2851,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [94016034049535765550]">18</container>
-                <unittitle><title render="italic">Bead Reader</title>, publication, <unitdate type="inclusive" normal="1973/1991">1973-1991</unitdate></unittitle>
-              </did>
+                <unittitle><title render="italic">Bead Reader</title>, publication</unittitle><unitdate type="inclusive" normal="1973/1991">1973-1991</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -3147,8 +2869,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [94016034049535765550]">18</container>
-              <unittitle>Conference <unitdate type="inclusive" normal="1976">1976</unitdate> Gayness and Christianity</unittitle>
-            </did>
+              <unittitle>Conference  Gayness and Christianity</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3181,8 +2902,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [94016034049535765550]">18</container>
-                <unittitle>Meeting minutes <unitdate type="inclusive" normal="1986/1991">1986-1991</unitdate></unittitle>
-              </did>
+                <unittitle>Meeting minutes</unittitle><unitdate type="inclusive" normal="1986/1991">1986-1991</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -3289,32 +3009,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3959867449199692579]">19</container>
-            <unittitle>ROTC (protest of sexual-orientation discrimination policies) <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
-          </did>
+            <unittitle>ROTC (protest of sexual-orientation discrimination policies)</unittitle><unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3959867449199692579]">19</container>
-            <unittitle>Sexual Orientation and Affectional Preference, Michigan House Subcommittee on <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></unittitle>
-          </did>
+            <unittitle>Sexual Orientation and Affectional Preference, Michigan House Subcommittee on</unittitle><unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3959867449199692579]">19</container>
-            <unittitle>Sexually Transmitted Disease (STD) Clinic <unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate></unittitle>
-          </did>
+            <unittitle>Sexually Transmitted Disease (STD) Clinic</unittitle><unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3959867449199692579]">19</container>
-            <unittitle>Stonewall commemoration <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <unittitle>Stonewall commemoration</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3959867449199692579]">19</container>
-            <unittitle>Student Program Assistant in the Area of Sexuality and Homosexuality (SPLASH) <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-          </did>
+            <unittitle>Student Program Assistant in the Area of Sexuality and Homosexuality (SPLASH)</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3325,8 +3040,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3959867449199692579]">19</container>
-            <unittitle>Thursday Night Coalition <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <unittitle>Thursday Night Coalition</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3335,8 +3049,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3959867449199692579]">19</container>
-              <unittitle>Appointment calendar <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-            </did>
+              <unittitle>Appointment calendar</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3347,20 +3060,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3959867449199692579]">19</container>
-              <unittitle>Conference paper <unitdate type="inclusive" normal="1973">1973</unitdate> Gay Advocacy</unittitle>
-            </did>
+              <unittitle>Conference paper  Gay Advocacy</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3959867449199692579]">19</container>
-              <unittitle>Conference paper <unitdate type="inclusive" normal="1979">1979</unitdate> Gay Mental Health Issues</unittitle>
-            </did>
+              <unittitle>Conference paper  Gay Mental Health Issues</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3959867449199692579]">19</container>
-              <unittitle>Conference paper <unitdate type="inclusive" normal="1994">1994</unitdate>"'Desired under the Elms'..." re Lesbigay agenda for American colleges and universities</unittitle>
-            </did>
+              <unittitle>Conference paper "'Desired under the Elms'..." re Lesbigay agenda for American colleges and universities</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3399,8 +3109,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3959867449199692579]">19</container>
-            <unittitle>Triangle Foundation <unitdate type="inclusive" normal="1991/1995">1991-1995</unitdate> (mailings)</unittitle>
-          </did>
+            <unittitle>Triangle Foundation  (mailings)</unittitle><unitdate type="inclusive" normal="1991/1995">1991-1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3409,14 +3118,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3959867449199692579]">19</container>
-              <unittitle>Gay and Lesbian Alumni Association (GALA) <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
-            </did>
+              <unittitle>Gay and Lesbian Alumni Association (GALA)</unittitle><unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3959867449199692579]">19</container>
-              <unittitle>Gay Rights Action Group <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <unittitle>Gay Rights Action Group</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3432,8 +3139,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3959867449199692579]">19</container>
-              <unittitle>Minutes, correspondence, etc. <unitdate type="inclusive" normal="1986/1990">1986-1990</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Minutes, correspondence, etc.</unittitle><unitdate type="inclusive" normal="1986/1990">1986-1990</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -3441,8 +3147,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3959867449199692579]">19</container>
-              <unittitle>Volunteer training manual <unitdate type="inclusive" normal="1984">1984</unitdate>, <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Volunteer training manual</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate><unitdate type="inclusive" normal="1985">1985</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -3450,20 +3155,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3959867449199692579]">19</container>
-              <unittitle>Volunteer training <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
-            </did>
+              <unittitle>Volunteer training</unittitle><unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3959867449199692579]">19</container>
-              <unittitle>Volunteer training <unitdate type="inclusive" normal="1990-06">June 1990</unitdate></unittitle>
-            </did>
+              <unittitle>Volunteer training</unittitle><unitdate type="inclusive" normal="1990-06">June 1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3959867449199692579]">19</container>
-              <unittitle>Volunteer training <unitdate type="inclusive" normal="1990-11">November 1990</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Volunteer training</unittitle><unitdate type="inclusive" normal="1990-11">November 1990</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -3471,14 +3173,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3959867449199692579]">19</container>
-              <unittitle>Volunteer training <unitdate type="inclusive" normal="1991-02">February 1991</unitdate></unittitle>
-            </did>
+              <unittitle>Volunteer training</unittitle><unitdate type="inclusive" normal="1991-02">February 1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3959867449199692579]">19</container>
-              <unittitle>Volunteer training <unitdate type="inclusive" normal="1991-06">June 1991</unitdate></unittitle>
-            </did>
+              <unittitle>Volunteer training</unittitle><unitdate type="inclusive" normal="1991-06">June 1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3496,8 +3196,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3959867449199692579]">19</container>
-            <unittitle>Wolff, Eric. Essay: "Being gay in the Ann Arbor Public School," <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-          </did>
+            <unittitle>Wolff, Eric. Essay: "Being gay in the Ann Arbor Public School,"</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3524,20 +3223,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [115874931438811160763]">29</container>
-              <unittitle>Goals and objectives evaluation sheet <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-            </did>
+              <unittitle>Goals and objectives evaluation sheet</unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [115874931438811160763]">29</container>
-              <unittitle>Integrity (national organization publication) <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></unittitle>
-            </did>
+              <unittitle>Integrity (national organization publication)</unittitle><unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [115874931438811160763]">29</container>
-              <unittitle>Minutes and correspondence <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Minutes and correspondence</unittitle><unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
@@ -3545,8 +3241,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0940654921970425371]">30</container>
-              <unittitle>Minutes and correspondence <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Minutes and correspondence</unittitle><unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate><unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -3554,8 +3249,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0940654921970425371]">30</container>
-              <unittitle>Newsletters <unitdate type="inclusive" normal="2000/2002">2000-2002</unitdate>, <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate> (scattered)</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Newsletters 2000-2002, 2004-2005 (scattered)</unittitle><unitdate type="inclusive" normal="2000/2002">2000-2002</unitdate><unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -3563,8 +3257,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0940654921970425371]">30</container>
-              <unittitle>Programming <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></unittitle>
-            </did>
+              <unittitle>Programming</unittitle><unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -3597,8 +3290,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0940654921970425371]">30</container>
-              <unittitle>Correspondence and minutes <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence and minutes</unittitle><unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3607,16 +3299,14 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0940654921970425371]">30</container>
-                <unittitle>Correspondence and minutes <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></unittitle>
-              </did>
+                <unittitle>Correspondence and minutes</unittitle><unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></did>
             </c04>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1963/1995">1963-1995</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1963/1995">1963-1995</unitdate></did>
         <accessrestrict>
           <p>[The Correspondence series (boxes 20-21) is closed until <date normal="2021-01-01">January 1, 2021</date>, except with the written permission of James Toy.]</p>
         </accessrestrict>
@@ -3626,8 +3316,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [75049424826212425]">20</container>
-            <unittitle>General <unitdate type="inclusive" normal="1963/1995">1963-1995</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>General</unittitle><unitdate type="inclusive" normal="1963/1995">1963-1995</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">25 folders</extent>
             </physdesc>
           </did>
@@ -3635,8 +3324,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [75049424826212425]">20</container>
-            <unittitle>E-mail communications <unitdate type="inclusive" normal="1989/1995">1989-1995</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>E-mail communications</unittitle><unitdate type="inclusive" normal="1989/1995">1989-1995</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -3644,26 +3332,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5042044490665112]">21</container>
-            <unittitle>With Gretta Locke <unitdate type="inclusive" normal="1975/1995">1975-1995</unitdate></unittitle>
-          </did>
+            <unittitle>With Gretta Locke</unittitle><unitdate type="inclusive" normal="1975/1995">1975-1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5042044490665112]">21</container>
-            <unittitle>With JT's mother <unitdate type="inclusive" normal="1975/1991">1975-1991</unitdate></unittitle>
-          </did>
+            <unittitle>With JT's mother</unittitle><unitdate type="inclusive" normal="1975/1991">1975-1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5042044490665112]">21</container>
-            <unittitle>With gay males in prison <unitdate type="inclusive" normal="1973/1993">1973-1993</unitdate></unittitle>
-          </did>
+            <unittitle>With gay males in prison</unittitle><unitdate type="inclusive" normal="1973/1993">1973-1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5042044490665112]">21</container>
-            <unittitle>Christmas greetings <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-          </did>
+            <unittitle>Christmas greetings</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3674,16 +3358,14 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5042044490665112]">21</container>
-            <unittitle>Greeting cards <unitdate type="inclusive" normal="1960/1994">1960-1994</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Greeting cards</unittitle><unitdate type="inclusive" normal="1960/1994">1960-1994</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Post cards <unitdate type="inclusive" normal="1970/1995">1970-1995</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Post cards</unittitle><unitdate type="inclusive" normal="1970/1995">1970-1995</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3697,8 +3379,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Spectrum Center <unitdate type="inclusive" normal="1998/2004">1998-2004</unitdate></unittitle>
-        </did>
+          <unittitle>Spectrum Center</unittitle><unitdate type="inclusive" normal="1998/2004">1998-2004</unitdate></did>
         <scopecontent>
           <p>Spectrum Center 1998-2004 continues the documentation of the Lesbian-Gay Male Bisexual Office and its predecessor units. It mainly covers the Gender Identity Working Group task force, strategic planning for the office, and transgender issues and policies.</p>
         </scopecontent>
@@ -3709,15 +3390,11 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57990718751248590410797]">23</container>
-              <unittitle><unitdate type="inclusive" normal="2001">2001</unitdate> Miscellaneous</unittitle>
-            </did>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="2002">2002</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="2002">2002</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [57990718751248590410797]">23</container>
@@ -3739,10 +3416,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="2003">2003</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="2003">2003</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [57990718751248590410797]">23</container>
@@ -3790,15 +3464,11 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="2005">2005</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="2005">2005</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66044919341233056033]">24</container>
-                <unittitle>Introductory Meeting <unitdate type="inclusive" normal="2005-07-16">July 16, 2005</unitdate></unittitle>
-              </did>
+                <unittitle>Introductory Meeting</unittitle><unitdate type="inclusive" normal="2005-07-16">July 16, 2005</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -3846,8 +3516,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [66044919341233056033]">24</container>
-              <unittitle><unitdate type="inclusive" normal="2006">2006</unitdate> Miscellaneous</unittitle>
-            </did>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -3861,26 +3530,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66044919341233056033]">24</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66044919341233056033]">24</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2000">2000</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="2000">2000</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [906973264400487971163]">25</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2001">2001</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="2001">2001</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -3888,17 +3548,13 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [906973264400487971163]">25</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2002">2002</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="2002">2002</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [906973264400487971163]">25</container>
-              <unittitle>Bathrooms (Unisex) <unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Bathrooms (Unisex)</unittitle><unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate><physdesc>
                 <physfacet>blueprints</physfacet>
               </physdesc>
             </did>
@@ -3912,20 +3568,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [906973264400487971163]">25</container>
-              <unittitle>OSA Working Group <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-            </did>
+              <unittitle>OSA Working Group</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [906973264400487971163]">25</container>
-              <unittitle>Report to ECAC at Michigan State University <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-            </did>
+              <unittitle>Report to ECAC at Michigan State University</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [906973264400487971163]">25</container>
-              <unittitle>University of Michigan Policies <unitdate type="inclusive" normal="1993/2004">1993-2004</unitdate></unittitle>
-            </did>
+              <unittitle>University of Michigan Policies</unittitle><unitdate type="inclusive" normal="1993/2004">1993-2004</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -3939,15 +3592,11 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [906973264400487971163]">25</container>
-            <unittitle><unitdate type="inclusive" normal="2005">2005</unitdate> Miscellaneous</unittitle>
-          </did>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="2006">2006</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2006">2006</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [906973264400487971163]">25</container>
@@ -3984,10 +3633,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="2007">2007</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2007">2007</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [505723486624325858255]">26</container>

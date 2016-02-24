@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Radical Education Project (Ann Arbor, Mich.).</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3460">Radical Education Project (Ann Arbor, Mich.).</corpname>
       </origination>
-      <unittitle encodinganalog="245">Radical Education Project publications <unitdate type="inclusive" encodinganalog="245$f" normal="1961/1969">1961-1969</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">[744] DA 2; R129; P976</unitid>
+      <unittitle encodinganalog="245">Radical Education Project publications</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1961/1969">1961-1969</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">[744] DA 2; R129; P976</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">1 boxes</extent>
@@ -77,8 +77,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Radicalism--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n90614011">Radical Education Project (Detroit, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8173">Radicalism--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n90614011" ref="/agents/corporate_entities/52">Radical Education Project (Detroit, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -89,38 +89,32 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The academic quagmire. Stu Dowty <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <unittitle>The academic quagmire. Stu Dowty</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>African studies in America: The extended family. Africa research group. <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <unittitle>African studies in America: The extended family. Africa research group.</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>America the beautiful: an essay on Daniel Boorstin and Louis Hartz. James O'Brien. <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>America the beautiful: an essay on Daniel Boorstin and Louis Hartz. James O'Brien.</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>American economic imperialism. William Caspary. <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>American economic imperialism. William Caspary.</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Anthropology and imperialism. Kathleen Gough Aberle. <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Anthropology and imperialism. Kathleen Gough Aberle.</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The argument of Latin America. Carlos Fuentes. <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>The argument of Latin America. Carlos Fuentes.</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -155,8 +149,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The common market, international capitalism and "supra-nationality." Ernest Mandel. <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>The common market, international capitalism and "supra-nationality." Ernest Mandel.</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -167,8 +160,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Contemptuous hairdressers: ceremonies of humiliation in school. Edgar Z. Friedenberg <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Contemptuous hairdressers: ceremonies of humiliation in school. Edgar Z. Friedenberg</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -179,14 +171,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The cultural revolution in China-a socialist analysis. Leo Huberman and Paul Sweezy. <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>The cultural revolution in China-a socialist analysis. Leo Huberman and Paul Sweezy.</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>A divorce trial in China. Felix Greene <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>A divorce trial in China. Felix Greene</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -197,8 +187,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Economic aspects of U.S. imperialism. Harry Magdoff <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Economic aspects of U.S. imperialism. Harry Magdoff</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -209,38 +198,32 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Exploitation or aid? US-Brazil economic relations. Andre Gunder Frank <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Exploitation or aid? US-Brazil economic relations. Andre Gunder Frank</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The first street school. George Dennison <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>The first street school. George Dennison</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>G.E. Profile of a corporation. Jerry De Muth <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>G.E. Profile of a corporation. Jerry De Muth</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>A Galbraith reappraisal: the ideologue as gadfly. Robert Fitch <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <unittitle>A Galbraith reappraisal: the ideologue as gadfly. Robert Fitch</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The great Flint sit-down strike against G.M. 1936-37. Walter Linder <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>The great Flint sit-down strike against G.M. 1936-37. Walter Linder</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Guevara, Debray and the CIA. report from Bolivia. Richard Gott <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Guevara, Debray and the CIA. report from Bolivia. Richard Gott</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -257,14 +240,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Imperialism: an exchange. Robert Wolfe and Ronald Aronson <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Imperialism: an exchange. Robert Wolfe and Ronald Aronson</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Imperialism old and new. Hamza Alavi <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <unittitle>Imperialism old and new. Hamza Alavi</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -281,26 +262,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Labor and the south. Black workers set against white-strike broken. Robert Analavage <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Labor and the south. Black workers set against white-strike broken. Robert Analavage</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Latin America. Decrepit capitalist castle with a feudal-seeming facade. Andre Gunder Frank <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Latin America. Decrepit capitalist castle with a feudal-seeming facade. Andre Gunder Frank</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The law &amp; monopoly. The case of Tetracyclene. Richard Goodman <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>The law &amp; monopoly. The case of Tetracyclene. Richard Goodman</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The long March in Latin America. Guerrilla movements: Theory and practice. Regis Debray <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <unittitle>The long March in Latin America. Guerrilla movements: Theory and practice. Regis Debray</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -311,8 +288,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>On the mechanisms of imperialism. The case of Brazil. Andre Gunder Frank <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <unittitle>On the mechanisms of imperialism. The case of Brazil. Andre Gunder Frank</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -335,26 +311,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>N.A.C.L.A. research methodology guide. North American Congress on Latin America <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <unittitle>N.A.C.L.A. research methodology guide. North American Congress on Latin America</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The new left. Greg Calvert &amp; Carol Neiman <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <unittitle>The new left. Greg Calvert &amp; Carol Neiman</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Peasants &amp; revolution. Hamza Alavi <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <unittitle>Peasants &amp; revolution. Hamza Alavi</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The political economy of women's liberation. Margaret Benston <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>The political economy of women's liberation. Margaret Benston</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -365,8 +337,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The position and progress of black America. Some pertinent statistics. Thomas F. Mayer <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>The position and progress of black America. Some pertinent statistics. Thomas F. Mayer</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -377,8 +348,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The power of the poor. Warren C. Haggstrom <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>The power of the poor. Warren C. Haggstrom</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -389,8 +359,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Problems of United States capitalism. Harry Magdoff <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <unittitle>Problems of United States capitalism. Harry Magdoff</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -407,14 +376,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Radical education project. articles. <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Radical education project. articles.</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Radicals in professions. Selected papers. Radical Education Project. <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Radicals in professions. Selected papers. Radical Education Project.</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -449,8 +416,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Stock ownership and the control of corporations. Don Villarejo <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Stock ownership and the control of corporations. Don Villarejo</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -461,32 +427,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The third world--its emergence and contours. Keith Buchanan <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>The third world--its emergence and contours. Keith Buchanan</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Thoughts on the movement. Who does the movement move? John McDermott <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Thoughts on the movement. Who does the movement move? John McDermott</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>To the point of production. An interview with John Watson <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <unittitle>To the point of production. An interview with John Watson</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Towards a democratic history. Jesse Lemisch <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Towards a democratic history. Jesse Lemisch</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Trapped in a system. Carl Oglesby <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Trapped in a system. Carl Oglesby</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -497,14 +458,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>USA-the labor revolt. Stanley Weir <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>USA-the labor revolt. Stanley Weir</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>The university. Allen Krebs <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>The university. Allen Krebs</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -515,14 +474,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Vietnam. A thousand years of struggle. Terry Cannon <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <unittitle>Vietnam. A thousand years of struggle. Terry Cannon</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Vietnam &amp; the third world. Che Guevara <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Vietnam &amp; the third world. Che Guevara</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -539,14 +496,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>What is guerrilla theatre, anyway? Wisconsin Draft Resistance Union <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <unittitle>What is guerrilla theatre, anyway? Wisconsin Draft Resistance Union</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Where it's at. A research guide for community organizing. Jill Hamberg with Paul Booth, Mimi Feingold, and Carl Wittman <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Where it's at. A research guide for community organizing. Jill Hamberg with Paul Booth, Mimi Feingold, and Carl Wittman</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -569,8 +524,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [146684286263370727]">1</container>
-            <unittitle>Statement of Carl Oglesby, President of Students for a Democratic Society. March on Washington <unitdate type="inclusive" normal="1965-11-27">November 27, 1965</unitdate></unittitle>
-          </did>
+            <unittitle>Statement of Carl Oglesby, President of Students for a Democratic Society. March on Washington</unittitle><unitdate type="inclusive" normal="1965-11-27">November 27, 1965</unitdate></did>
         </c02>
       </c01>
     </dsc>

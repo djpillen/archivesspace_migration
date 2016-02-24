@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Maynard, Bernice G.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3522">Maynard, Bernice G.</persname>
       </origination>
-      <unittitle encodinganalog="245">Bernice G. Maynard photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1890/1910" certainty="approximate">circa 1890-1910</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92631 Aa 2</unitid>
+      <unittitle encodinganalog="245">Bernice G. Maynard photographs</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1890/1910" certainty="approximate">circa 1890-1910</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92631 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Mrs. Frank Maynard, Ypsilanti, Michigan resident. Glass negatives and prints of photographs of unidentified family groups and other people, of Palmer's Drugstore in Ann Arbor, Michigan, of people with bicycles, of a military unit and band, and of the Homoeopathic Hospital at the University of Michigan.</abstract>
       <physdesc altrender="whole">
@@ -78,22 +78,22 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Business enterprises.</geogname>
-        <subject source="lctgm" encodinganalog="650">Bicycles and tricycles.</subject>
-        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Children.</subject>
-        <subject source="lctgm" encodinganalog="650">Families.</subject>
-        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
-        <subject source="lctgm" encodinganalog="650">Military bands.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Palmer's Drugstore (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Pharmacies.</subject>
-        <subject source="lctgm" encodinganalog="650">Soldiers--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Homoeopathic Hospital.</corpname>
-        <subject source="lctgm" encodinganalog="650">Women.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/206">Ann Arbor (Mich.)--Business enterprises.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3740">Bicycles and tricycles.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3587">Business enterprises--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Children.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3921">Families.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3687">Interiors.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4747">Military bands.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2007">Palmer's Drugstore (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4748">Pharmacies.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4749">Soldiers--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4366">University of Michigan. Homoeopathic Hospital.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3617">Women.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -109,8 +109,7 @@
             <did>
               <container type="box" label="Box [1118260441949623516465]">1</container>
               <unitid>1</unitid>
-              <unittitle>Palmer's Drugstore, S. State Street, Ann Arbor, Michigan between <unitdate normal="1896/1898" type="inclusive">1896-1898</unitdate>. Sign for A.H. Holmes (Livery) in foreground.</unittitle>
-            </did>
+              <unittitle>Palmer's Drugstore, S. State Street, Ann Arbor, Michigan between . Sign for A.H. Holmes (Livery) in foreground.</unittitle><unitdate normal="1896/1898" type="inclusive">1896-1898</unitdate></did>
             <odd>
               <p>also include copy negative and print</p>
             </odd>
@@ -126,15 +125,13 @@
             <did>
               <container type="box" label="Box [1118260441949623516465]">1</container>
               <unitid>3</unitid>
-              <unittitle>Palmer's Drugstore, S. State Street (No. 46) <unitdate type="inclusive" normal="1896">1896</unitdate> or <unitdate type="inclusive" normal="1897">1897</unitdate>. Window display with large bottle of "Pabst Malt Extract."</unittitle>
-            </did>
+              <unittitle>Palmer's Drugstore, S. State Street (No. 46) 1896 or 1897. Window display with large bottle of "Pabst Malt Extract."</unittitle><unitdate type="inclusive" normal="1896">1896</unitdate><unitdate type="inclusive" normal="1897">1897</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1118260441949623516465]">1</container>
               <unitid>4</unitid>
-              <unittitle>Palmer's Pharmacy, 46 S. State Street <unitdate type="inclusive" normal="1896/1897">1896-1897</unitdate>. Window display with large bottle of "Pabst Malt Extract"</unittitle>
-            </did>
+              <unittitle>Palmer's Pharmacy, 46 S. State Street . Window display with large bottle of "Pabst Malt Extract"</unittitle><unitdate type="inclusive" normal="1896/1897">1896-1897</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -274,8 +271,7 @@
             <did>
               <container type="box" label="Box [1118260441949623516465]">1</container>
               <unitid>23</unitid>
-              <unittitle>Woman reading to her daughter <unitdate type="inclusive" normal="1890/1899" certainty="approximate">circa 1890s</unitdate></unittitle>
-            </did>
+              <unittitle>Woman reading to her daughter</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">circa 1890s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -382,8 +378,7 @@
             <did>
               <container type="box" label="Box [1118260441949623516465]">1</container>
               <unitid>37</unitid>
-              <unittitle>Two young men peering out from a bedroom. An Ann Arbor calendar is on the wall, dated <unitdate type="inclusive" normal="1891" certainty="approximate">1891</unitdate></unittitle>
-            </did>
+              <unittitle>Two young men peering out from a bedroom. An Ann Arbor calendar is on the wall, dated</unittitle><unitdate type="inclusive" normal="1891" certainty="approximate">1891</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -525,8 +520,7 @@
             <did>
               <container type="box" label="Box [1118260441949623516465]">1</container>
               <unitid>57</unitid>
-              <unittitle>"Khozzy Rhoost"-picnickers in front on tents <unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></unittitle>
-            </did>
+              <unittitle>"Khozzy Rhoost"-picnickers in front on tents</unittitle><unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></did>
             <odd>
               <p>also include copy negative and print</p>
             </odd>

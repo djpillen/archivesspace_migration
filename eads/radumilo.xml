@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n96060693">Radulovich, Milo, 1926-2007.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n96060693" ref="/agents/people/8604">Radulovich, Milo, 1926-2007.</persname>
       </origination>
-      <unittitle encodinganalog="245">Milo Radulovich papers <unitdate type="inclusive" encodinganalog="245$f" normal="1945/2008">1945-2008</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008173 Aa 2; Ac</unitid>
+      <unittitle encodinganalog="245">Milo Radulovich papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1945/2008">1945-2008</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008173 Aa 2; Ac</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language> with some material in <language langcode="scc" encodinganalog="041">Montenegrin</language> and <language langcode="ger" encodinganalog="041">German</language></langmaterial>
       <abstract>Air Force Lieutenant accused of being a security risk during the era of Senator Joseph McCarthy; records include biographical information, correspondence, scrapbooks, audio-visual materials, and other documents pertaining to the case and to the movie "Good Night, and Good Luck."</abstract>
       <physdesc altrender="part">
@@ -94,27 +94,27 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Anti-communist movements--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no96040669">Clooney, George.</persname>
-        <subject source="lcsh" encodinganalog="630">Good night, and good luck (Motion picture)</subject>
-        <subject source="lcsh" encodinganalog="650">Internal security--United States--History--20th century.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043290">McCarthy, Joseph, 1908-1957--Influence.</persname>
-        <subject source="lcsh" encodinganalog="650">Montenegrin Americans--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50026550">Murrow, Edward R.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96060693">Radulovich, Milo, 1926-2007.</persname>
-        <subject source="lcsh" encodinganalog="630">See it now (Television program)</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8711">Anti-communist movements--United States.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no96040669" ref="/agents/people/3168">Clooney, George.</persname>
+        <subject source="lcsh" encodinganalog="630" ref="/subjects/9852">Good night, and good luck (Motion picture)</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9853">Internal security--United States--History--20th century.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043290" ref="/agents/people/763">McCarthy, Joseph, 1908-1957--Influence.<term type="topical">Influence.</term></persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9854">Montenegrin Americans--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50026550" ref="/agents/people/1321">Murrow, Edward R.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96060693" ref="/agents/people/8604">Radulovich, Milo, 1926-2007.</persname>
+        <subject source="lcsh" encodinganalog="630" ref="/subjects/9855">See it now (Television program)</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lcsh" encodinganalog="650">Internal security--United States--20th century.</subject>
-        <famname source="lcnaf" encodinganalog="600">Radulovich family.</famname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96060693">Radulovich, Milo, 1926-2007.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9856">Internal security--United States--20th century.</subject>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/401">Radulovich family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96060693" ref="/agents/people/8604">Radulovich, Milo, 1926-2007.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
-        <genreform source="aat" encodinganalog="655">DVDs.</genreform>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3134">Videotapes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3155">DVDs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -147,21 +147,18 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [43350967146690706254953]">1</container>
-              <unittitle>Weather Squadron <unitdate type="inclusive" normal="1946/1952">1946-1952</unitdate></unittitle>
-            </did>
+              <unittitle>Weather Squadron</unittitle><unitdate type="inclusive" normal="1946/1952">1946-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [43350967146690706254953]">1</container>
-              <unittitle>General <unitdate type="inclusive" normal="1945/1961">1945-1961</unitdate></unittitle>
-            </did>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1945/1961">1945-1961</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [43350967146690706254953]">1</container>
-            <unittitle>Awards and Honors <unitdate type="inclusive" normal="1996/2006">1996-2006</unitdate></unittitle>
-          </did>
+            <unittitle>Awards and Honors</unittitle><unitdate type="inclusive" normal="1996/2006">1996-2006</unitdate></did>
           <odd>
             <p>(includes <genreform normal="Photographs">photographs</genreform>; see also oversized folder)</p>
           </odd>
@@ -179,10 +176,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [43350967146690706254953]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></did>
             <odd>
               <p>(includes letters by Fred Friendly)</p>
             </odd>
@@ -190,53 +184,38 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [43350967146690706254953]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [43350967146690706254953]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970/1989" certainty="approximate">1970s-1980s</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970/1989" certainty="approximate">1970s-1980s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [43350967146690706254953]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1990/2009" certainty="approximate">1990s-2000s</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1990/2009" certainty="approximate">1990s-2000s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [43350967146690706254953]">1</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive">Undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [43350967146690706254953]">1</container>
-            <unittitle>Illness <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
-          </did>
+            <unittitle>Illness</unittitle><unitdate type="inclusive" normal="2007">2007</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [43350967146690706254953]">1</container>
-            <unittitle>Obituaries <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
-          </did>
+            <unittitle>Obituaries</unittitle><unitdate type="inclusive" normal="2007">2007</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1433088645958545340]">3</container>
-            <unittitle>Obituaries <unitdate type="inclusive" normal="2007">2007</unitdate> (oversized)</unittitle>
-          </did>
+            <unittitle>Obituaries  (oversized)</unittitle><unitdate type="inclusive" normal="2007">2007</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -247,14 +226,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [43350967146690706254953]">1</container>
-            <unittitle>Clippings <unitdate type="inclusive" normal="1953/2006">1953-2006</unitdate></unittitle>
-          </did>
+            <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1953/2006">1953-2006</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [43350967146690706254953]">1</container>
-            <unittitle>Honorary Degree (University of Michigan) <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-          </did>
+            <unittitle>Honorary Degree (University of Michigan)</unittitle><unitdate type="inclusive" normal="2008">2008</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -280,39 +257,28 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [43350967146690706254953]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1953-06/1953-09">June-September 1953</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1953-06/1953-09">June-September 1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [43350967146690706254953]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1953-10">October 1953</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1953-10">October 1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [43350967146690706254953]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1953-11/1954-01">November 1953-January 1954</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1953-11/1954-01">November 1953-January 1954</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [43350967146690706254953]">1</container>
-            <unittitle>Correspondence of others to the government about the case <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence of others to the government about the case</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [43350967146690706254953]">1</container>
-            <unittitle>Transcript of the hearing <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-          </did>
+            <unittitle>Transcript of the hearing</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           <odd>
             <p>(includes supplemental brief of respondent on review of the board findings)</p>
           </odd>
@@ -328,18 +294,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [15130440838819862189]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [15130440838819862189]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1990/1997">1990-1997</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1990/1997">1990-1997</unitdate></did>
               <odd>
                 <p>(see also Box 3 for oversized material)</p>
               </odd>
@@ -348,21 +308,18 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>Clippings <unitdate type="inclusive" normal="1944">1944</unitdate>, <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate>, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-            </did>
+              <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate><unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle><title render="italic">To Strike at a King</title> (book by Michael Ranville), <unitdate type="inclusive" normal="1996">1996</unitdate>, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-            </did>
+              <unittitle><title render="italic">To Strike at a King</title> (book by Michael Ranville)</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate><unitdate type="inclusive" normal="2006">2006</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [15130440838819862189]">2</container>
-            <unittitle>McCarthyism (clippings only) <unitdate type="inclusive" normal="1953">1953</unitdate>, <unitdate type="inclusive" normal="1983">1983</unitdate>, <unitdate type="inclusive" normal="2002/2006">2002-2006</unitdate></unittitle>
-          </did>
+            <unittitle>McCarthyism (clippings only)</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate><unitdate type="inclusive" normal="1983">1983</unitdate><unitdate type="inclusive" normal="2002/2006">2002-2006</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -371,8 +328,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="2005-03/2005-11">March-November 2005</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="2005-03/2005-11">March-November 2005</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -408,8 +364,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>Cinema for Peace <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-            </did>
+              <unittitle>Cinema for Peace</unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
             <odd>
               <p>(some material in German)</p>
             </odd>
@@ -426,8 +381,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>World Wide Web <unitdate type="inclusive" normal="2005/2008">2005-2008</unitdate></unittitle>
-            </did>
+              <unittitle>World Wide Web</unittitle><unitdate type="inclusive" normal="2005/2008">2005-2008</unitdate></did>
             <odd>
               <p>(includes the George Clooney network and blogs written by Milo)</p>
             </odd>
@@ -482,8 +436,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15130440838819862189]">2</container>
-            <unittitle>Nada <unitdate type="inclusive" normal="1983">1983</unitdate>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <unittitle>Nada</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -513,8 +466,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>Ikonija (Milo's mother) <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
-            </did>
+              <unittitle>Ikonija (Milo's mother)</unittitle><unitdate type="inclusive" normal="1982">1982</unitdate></did>
             <odd>
               <p>(includes <genreform normal="Photographs">photographs</genreform>)</p>
             </odd>
@@ -522,8 +474,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle><unitdate type="inclusive" normal="1998">1998</unitdate>, <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate></unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1998">1998</unitdate><unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate></did>
             <odd>
               <p>(includes <genreform normal="Photographs">photographs</genreform>)</p>
             </odd>
@@ -593,8 +544,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>Interview with Eric Hoffer <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Interview with Eric Hoffer</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             <odd>
               <p>(rebroadcast of the Eric Sevareid interviewing the American social writer)</p>
             </odd>
@@ -602,8 +552,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>Edward R. Murrow <unitdate type="inclusive" normal="1977-02-11">February 11, 1977</unitdate></unittitle>
-            </did>
+              <unittitle>Edward R. Murrow</unittitle><unitdate type="inclusive" normal="1977-02-11">February 11, 1977</unitdate></did>
             <odd>
               <p>(radio show remembering Murrow's journalistic contributions)</p>
             </odd>
@@ -611,8 +560,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>Milo-Ranville <unitdate type="inclusive" normal="1993-03">March 1993</unitdate></unittitle>
-            </did>
+              <unittitle>Milo-Ranville</unittitle><unitdate type="inclusive" normal="1993-03">March 1993</unitdate></did>
             <odd>
               <p>(gathering information for his book; includes Milo's sister)</p>
             </odd>
@@ -620,8 +568,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>Fred and Ruth Friendly/Ranville <unitdate type="inclusive" normal="1993-04">April 1993</unitdate></unittitle>
-            </did>
+              <unittitle>Fred and Ruth Friendly/Ranville</unittitle><unitdate type="inclusive" normal="1993-04">April 1993</unitdate></did>
             <odd>
               <p>(gathering information for his book)</p>
             </odd>
@@ -629,14 +576,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>Ann Arbor NPR, Todd Mundt Show, Interview with Milo and M. Ranville <unitdate type="inclusive" normal="1998-03-27">March 27, 1998</unitdate></unittitle>
-            </did>
+              <unittitle>Ann Arbor NPR, Todd Mundt Show, Interview with Milo and M. Ranville</unittitle><unitdate type="inclusive" normal="1998-03-27">March 27, 1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>NPR interview Grant/Milo from Mark Steiner, Baltimore <unitdate type="inclusive" normal="2005-10-26">October 26, 2005</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>NPR interview Grant/Milo from Mark Steiner, Baltimore</unittitle><unitdate type="inclusive" normal="2005-10-26">October 26, 2005</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 tapes</extent>
               </physdesc>
             </did>
@@ -654,8 +599,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>"An Evening with Milo Radulovich and Mike Ranville <unitdate type="inclusive" normal="1997-12-01">December 1, 1997</unitdate>"</unittitle>
-            </did>
+              <unittitle>"An Evening with Milo Radulovich and Mike Ranville "</unittitle><unitdate type="inclusive" normal="1997-12-01">December 1, 1997</unitdate></did>
             <odd>
               <p>(Ranville recounts the story with video clips; 100 minutes)</p>
             </odd>
@@ -663,8 +607,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>"John F. Faulk Conference <unitdate type="inclusive" normal="1997-04-17">April 17, 1997</unitdate>"</unittitle>
-            </did>
+              <unittitle>"John F. Faulk Conference "</unittitle><unitdate type="inclusive" normal="1997-04-17">April 17, 1997</unitdate></did>
             <odd>
               <p>(Part I: intro, inventing TV news, pioneering broadcast news; Part II: <title render="italic">To Strike a King</title>, Murrow and Radulovich case, full panel discussion)</p>
             </odd>
@@ -681,8 +624,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>"26th Michigan Legal Milestone <unitdate type="inclusive" normal="1998-09-02">September 2, 1998</unitdate>"</unittitle>
-            </did>
+              <unittitle>"26th Michigan Legal Milestone "</unittitle><unitdate type="inclusive" normal="1998-09-02">September 2, 1998</unitdate></did>
             <odd>
               <p>(Dedication speeches for unveiling of monument at MSU College of Law; 2 hours)</p>
             </odd>
@@ -690,8 +632,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>"An Evening with Milo Radulovich at Wayne State University <unitdate type="inclusive" normal="2001-11-27">November 27, 2001</unitdate>"</unittitle>
-            </did>
+              <unittitle>"An Evening with Milo Radulovich at Wayne State University "</unittitle><unitdate type="inclusive" normal="2001-11-27">November 27, 2001</unitdate></did>
             <odd>
               <p>(hosted by Jack Lessenberry, panel, students, family and friends conversation; 2 hours)</p>
             </odd>
@@ -699,8 +640,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>"Michigan Senate Chambers <unitdate type="inclusive" normal="2003-11-13">November 13, 2003</unitdate>"</unittitle>
-            </did>
+              <unittitle>"Michigan Senate Chambers "</unittitle><unitdate type="inclusive" normal="2003-11-13">November 13, 2003</unitdate></did>
             <odd>
               <p>(Presentation of Senate Resolution 198 to Radulovich and Judge Sanborn)</p>
             </odd>
@@ -708,14 +648,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>"Good Night, and Good Luck" <unitdate normal="2005">2005</unitdate></unittitle>
-            </did>
+              <unittitle>"Good Night, and Good Luck"</unittitle><unitdate normal="2005">2005</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [15130440838819862189]">2</container>
-              <unittitle>"Milo Memorial Detroit <unitdate type="inclusive" normal="2008-01-27">January 27, 2008</unitdate>"</unittitle>
-            </did>
+              <unittitle>"Milo Memorial Detroit "</unittitle><unitdate type="inclusive" normal="2008-01-27">January 27, 2008</unitdate></did>
             <odd>
               <p>(audio only)</p>
             </odd>
@@ -744,42 +682,32 @@
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [798648788190502646]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [84111696084894239924]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954/1994">1954-1994</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1954/1994">1954-1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [5683153841939785843]">3</container>
-            <unittitle><unitdate type="inclusive" normal="1992/2005">1992-2005</unitdate> "The Book (<title render="italic">To Strike a King</title>) and the Movie ('Good Night, and Good Luck')"</unittitle>
-          </did>
+            <unittitle>"The Book (<title render="italic">To Strike a King</title>) and the Movie ('Good Night, and Good Luck')"</unittitle><unitdate type="inclusive" normal="1992/2005">1992-2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [701664224679201281]">4</container>
-            <unittitle><unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate> "The Reviews, the Awards, the Companion Book"</unittitle>
-          </did>
+            <unittitle>"The Reviews, the Awards, the Companion Book"</unittitle><unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [02891778440090935046]">5</container>
-            <unittitle><unitdate type="inclusive" normal="2006">2006</unitdate> "Movie Awards, Macomb Bar Association, and More"</unittitle>
-          </did>
+            <unittitle>"Movie Awards, Macomb Bar Association, and More"</unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [863677664099271234586011]">6</container>
-            <unittitle><unitdate type="inclusive" normal="2007">2007</unitdate> "Born October 28, 1926, Died November 19, 2007"</unittitle>
-          </did>
+            <unittitle>"Born October 28, 1926, Died November 19, 2007"</unittitle><unitdate type="inclusive" normal="2007">2007</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -801,8 +729,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [968337127449388837443844]">4</container>
-            <unittitle><genreform normal="Photographs">Photographs</genreform> of celebration at the Bentley Library prior to the University of Michigan degree ceremony, <unitdate type="inclusive" normal="2008-12-12">December 12, 2008</unitdate></unittitle>
-          </did>
+            <unittitle><genreform normal="Photographs">Photographs</genreform> of celebration at the Bentley Library prior to the University of Michigan degree ceremony</unittitle><unitdate type="inclusive" normal="2008-12-12">December 12, 2008</unitdate></did>
         </c02>
       </c01>
     </dsc>

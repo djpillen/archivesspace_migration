@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n84104469">McNitt, William H.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n84104469" ref="/agents/people/2012">McNitt, William H.</persname>
       </origination>
-      <unittitle encodinganalog="245">William H. McNitt papers <unitdate type="inclusive" encodinganalog="245$f" normal="1968/1976">1968-1976</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851794 Aa 2</unitid>
+      <unittitle encodinganalog="245">William H. McNitt papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1968/1976">1968-1976</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851794 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Michigan, archivist; collected materials relating to local Democratic Party politics; student papers; and photographs.</abstract>
       <physdesc altrender="whole">
@@ -80,71 +80,71 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
-        <subject source="lcsh" encodinganalog="650">Mayors--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Education--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1968.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1970.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1972.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1974.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055385">Ford, Henry, 1863-1947.</persname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151">Grand Rapids (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Human Rights Party (Ann Arbor, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Journalists--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Libraries--Michigan--Grand Rapids.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80002307">McCarthy, Eugene J., 1916-2005.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80039703">McGovern, George S. (George Stanley), 1922-2012</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84104469">McNitt, William H.</persname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1961-1970.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1971-1980.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Republican Newspaper Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">New Democratic Coalition of Michigan.</corpname>
-        <subject source="lcsh" encodinganalog="650">Peace--Societies, etc.</subject>
-        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1968.</subject>
-        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1972.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90722215">Shelley, Rebecca, 1887-1984.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1974.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1963-1969.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1969-1974.</geogname>
-        <persname source="lcnaf" encodinganalog="600">VanderVeen, Richard Franklin, 1922-</persname>
-        <geogname source="lcsh" encodinganalog="651">Washtenaw County (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="lcsh" encodinganalog="650">Public schools--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/39">Ann Arbor (Mich.). Common Council.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6247">Mayors--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/3762">Democratic Party (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5734">Education--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7198">Elections--Michigan--1968.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7199">Elections--Michigan--1970.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6889">Elections--Michigan--1972.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7200">Elections--Michigan--1974.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055385" ref="/agents/people/1857">Ford, Henry, 1863-1947.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151" ref="/subjects/1098">Grand Rapids (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2418">Human Rights Party (Ann Arbor, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6964">Journalists--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9018">Libraries--Michigan--Grand Rapids.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80002307" ref="/agents/people/1704">McCarthy, Eugene J., 1916-2005.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80039703" ref="/agents/people/2600">McGovern, George S. (George Stanley), 1922-2012</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84104469" ref="/agents/people/2012">McNitt, William H.</persname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/806">Michigan--Politics and government--1961-1970.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/797">Michigan--Politics and government--1971-1980.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1921">Michigan Republican Newspaper Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4279">New Democratic Coalition of Michigan.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5758">Peace--Societies, etc.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6621">Presidents--United States--Election--1968.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9019">Presidents--United States--Election--1972.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4055">Republican Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90722215" ref="/agents/people/8169">Shelley, Rebecca, 1887-1984.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2414">United States. Congress--Elections, 1974.<term type="topical">Elections, 1974.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/938">United States--Politics and government--1963-1969.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/908">United States--Politics and government--1969-1974.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6336">VanderVeen, Richard Franklin, 1922-</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/843">Washtenaw County (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5699">Public schools--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/906">Michigan--Politics and government--1951-</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Airplanes.</subject>
-        <subject source="lctgm" encodinganalog="650">Airports.</subject>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Archives.</geogname>
-        <subject source="lctgm" encodinganalog="650">Archives--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50007422">Bentley Historical Library.</corpname>
-        <subject source="lctgm" encodinganalog="650">Building dedications.</subject>
-        <subject source="lctgm" encodinganalog="650">Children.</subject>
-        <subject source="lctgm" encodinganalog="650">Clothing and dress--1971-1980.</subject>
-        <subject source="lctgm" encodinganalog="650">Construction industry.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022087">Ford, Gerald R., 1913-2006.</persname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151">Grand Rapids (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Holland (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Historical Collections.</corpname>
-        <subject source="lctgm" encodinganalog="650">Moving and storage trade.</subject>
-        <subject source="lctgm" encodinganalog="650">Parking.</subject>
-        <subject source="lctgm" encodinganalog="650">Parties.</subject>
-        <subject source="lctgm" encodinganalog="650">Political elections--1976.</subject>
-        <subject source="lctgm" encodinganalog="650">Political parades and rallies.</subject>
-        <subject source="lctgm" encodinganalog="650">Offices.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroad stations.</subject>
-        <subject source="lctgm" encodinganalog="650">Recreation.</subject>
-        <subject source="lctgm" encodinganalog="650">Rites and ceremonies.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Buildings.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79018774">Washington (D.C.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4174">Airplanes.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4771">Airports.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/559">Ann Arbor (Mich.)--Archives.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3891">Archives--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50007422" ref="/agents/corporate_entities/3388">Bentley Historical Library.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4723">Building dedications.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Children.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4016">Clothing and dress--1971-1980.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3689">Construction industry.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022087" ref="/agents/people/4120">Ford, Gerald R., 1913-2006.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151" ref="/subjects/1098">Grand Rapids (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1115">Holland (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5644">Michigan Historical Collections.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4772">Moving and storage trade.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3981">Parking.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3626">Parties.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3675">Political elections--1976.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3596">Political parades and rallies.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3808">Offices.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4593">Railroad stations.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3627">Recreation.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3696">Rites and ceremonies.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Buildings.<term type="topical">Buildings.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79018774" ref="/subjects/1449">Washington (D.C.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -154,8 +154,7 @@
         </did>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1968">1968</unitdate> File</unittitle>
-          </did>
+            <unittitle>File</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [93512302241832811483597]">1</container>
@@ -180,8 +179,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1969">1969</unitdate> File</unittitle>
-          </did>
+            <unittitle>File</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [93512302241832811483597]">1</container>
@@ -206,8 +204,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1970">1970</unitdate> File</unittitle>
-          </did>
+            <unittitle>File</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [93512302241832811483597]">1</container>
@@ -250,8 +247,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1971">1971</unitdate> File</unittitle>
-          </did>
+            <unittitle>File</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [93512302241832811483597]">1</container>
@@ -303,8 +299,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> File</unittitle>
-          </did>
+            <unittitle>File</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [93512302241832811483597]">1</container>
@@ -427,8 +422,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1973">1973</unitdate> File</unittitle>
-          </did>
+            <unittitle>File</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [931582252411282695150]">2</container>
@@ -496,8 +490,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1974">1974</unitdate> File</unittitle>
-          </did>
+            <unittitle>File</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [41931842744758037363883]">3</container>
@@ -645,8 +638,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [52415441958448839455702]">4</container>
-            <unittitle>Research notecards compiled on Ann Arbor history <unitdate type="inclusive" normal="1880/1899">1880-1899</unitdate> used in preparation of chapter in <title render="italic">Pictorial History of Ann Arbor</title></unittitle>
-          </did>
+            <unittitle>Research notecards compiled on Ann Arbor history  used in preparation of chapter in <title render="italic">Pictorial History of Ann Arbor</title></unittitle><unitdate type="inclusive" normal="1880/1899">1880-1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -654,10 +646,7 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969">1969</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1969">1969</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52415441958448839455702]">4</container>
@@ -667,21 +656,16 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52415441958448839455702]">4</container>
-                <unittitle>"The Michigan Presidential Preference Primary <unitdate type="inclusive" normal="1912/1931">1912-1931</unitdate>"</unittitle>
-              </did>
+                <unittitle>"The Michigan Presidential Preference Primary "</unittitle><unitdate type="inclusive" normal="1912/1931">1912-1931</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970">1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970">1970</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52415441958448839455702]">4</container>
-                <unittitle>"Journalism and the Republican Party of Michigan <unitdate type="inclusive" normal="1890/1920">1890-1920</unitdate> A Study of the Michigan Republican Newspaper Association"</unittitle>
-              </did>
+                <unittitle>"Journalism and the Republican Party of Michigan  A Study of the Michigan Republican Newspaper Association"</unittitle><unitdate type="inclusive" normal="1890/1920">1890-1920</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -707,8 +691,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [82232574295098026]">5</container>
-            <unittitle>Photographs <unitdate type="inclusive" normal="1973-08/1976-12">August 1973-December 1976</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Photographs</unittitle><unitdate type="inclusive" normal="1973-08/1976-12">August 1973-December 1976</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1400 photographs</extent>
               <physfacet>approximate</physfacet>
             </physdesc>

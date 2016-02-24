@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Creal, Cecil O., 1899-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1654">Creal, Cecil O., 1899-</persname>
       </origination>
-      <unittitle encodinganalog="245">Cecil O. Creal papers <unitdate type="inclusive" encodinganalog="245$f" normal="1958/1968">1958-1968</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851008 Aa 2</unitid>
+      <unittitle encodinganalog="245">Cecil O. Creal papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1958/1968">1958-1968</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851008 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Republican mayor of Ann Arbor, Michigan. Correspondence, reports, newspaper clippings, and photographs, concerning the work of city departments and such issues as tax assessments, highway construction, the building of a new city hall, the fair housing ordinance and urban renewal.</abstract>
       <repository>
@@ -86,43 +86,42 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Mayors--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">City planning--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Discrimination in housing--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Housing--Michigan--Ann Arbor.</subject>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1961-1970.</geogname>
-        <subject source="lcsh" encodinganalog="650">Municipal government--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Roads--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Taxation--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Urban renewal--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6247">Mayors--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5692">City planning--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">Discrimination in housing--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5679">Housing--Michigan--Ann Arbor.</subject>
+        <geogname source="local" encodinganalog="691" ref="/subjects/806">Michigan--Politics and government--1961-1970.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5664">Municipal government--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4055">Republican Party (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6453">Roads--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7051">Taxation--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7052">Urban renewal--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/906">Michigan--Politics and government--1951-</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Mayors--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Streets--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">City and town halls--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">City planning--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Creal, Cecil O., 1899-</persname>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Mayors--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Municipal officials.</subject>
-        <subject source="lctgm" encodinganalog="650">Residential streets--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Knight's Market (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3570">Dwellings--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6247">Mayors--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7053">Streets--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3590">City and town halls--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4112">City planning--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1654">Creal, Cecil O., 1899-</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3570">Dwellings--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4113">Mayors--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4114">Municipal officials.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3600">Residential streets--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4438">Knight's Market (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Topical File <unitdate type="inclusive" normal="1959/1965">1959-1965</unitdate></unittitle>
-        </did>
+          <unittitle>Topical File</unittitle><unitdate type="inclusive" normal="1959/1965">1959-1965</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0171744980213974]">1</container>
@@ -456,8 +455,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [046624808866303793]">3</container>
-            <unittitle>Census <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <unittitle>Census</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -798,8 +796,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [387037969455231670989]">5</container>
-            <unittitle>Mayors - <unitdate type="inclusive" normal="1960">1960</unitdate> Conference</unittitle>
-          </did>
+            <unittitle>Mayors -  Conference</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1121,8 +1118,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1126907364639981974]">8</container>
-            <unittitle>Scrapbook concerning city government <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbook concerning city government</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1201,8 +1197,7 @@
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [1942111144095824223527]">1</container>
-            <unittitle>Pre-mayoralty scrapbook <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Pre-mayoralty scrapbook</unittitle><unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1211,55 +1206,38 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [79334289649867519839]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959">1959</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959">1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [7755748449842167911031]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960">1960</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [01068840052938033]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961">1961</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [82432664989909861953]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962">1962</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [472610476174856033]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963">1963</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [72973263499927223211]">7</container>
-              <unittitle><unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate>, <unitdate type="bulk" normal="1964/1965">1964-1965</unitdate></unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate><unitdate type="bulk" normal="1964/1965">1964-1965</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [501630445908301211]">8</container>
-            <unittitle>A Decade in the Life and Times of Cecil O. Creal <unitdate type="inclusive" normal="1958/1968">1958-1968</unitdate></unittitle>
-          </did>
+            <unittitle>A Decade in the Life and Times of Cecil O. Creal</unittitle><unitdate type="inclusive" normal="1958/1968">1958-1968</unitdate></did>
         </c02>
       </c01>
     </dsc>

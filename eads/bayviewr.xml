@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Bay View Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3939">Bay View Association.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Bay View Association records <unitdate type="inclusive" encodinganalog="245$f" normal="1875/1997">1875-1997</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8571 Bp 2</unitid>
+      <unittitle encodinganalog="245">Bay View Association records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1875/1997">1875-1997</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8571 Bp 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Leases, lot books, and assessment rolls; annual reports, minutes of trustees' meetings, published material, and transcripts of interviews with residents.</abstract>
       <physdesc altrender="part">
@@ -81,29 +81,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Bay View Association.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no89002733">Bay View (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Chautauquas--Michigan--Bay View.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United Methodist Church (U.S.)--Michigan--Bay View.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3939">Bay View Association.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no89002733" ref="/subjects/1020">Bay View (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6183">Chautauquas--Michigan--Bay View.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1679">United Methodist Church (U.S.)--Michigan--Bay View.<term type="geographic">Michigan</term><term type="geographic">Bay View.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no89002733">Bay View (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Bay View Association.</corpname>
-        <subject source="lctgm" encodinganalog="650">Beaches--Michigan--Bay View.</subject>
-        <subject source="lctgm" encodinganalog="650">Campmeetings--Michigan--Bay View.</subject>
-        <subject source="lctgm" encodinganalog="650">Chautauquas--Michigan--Bay View.</subject>
-        <subject source="lctgm" encodinganalog="650">Clothing and dress.</subject>
-        <subject source="lctgm" encodinganalog="650">Historic buildings--Michigan--Bay View.</subject>
-        <subject source="lctgm" encodinganalog="650">Historic sites--Michigan--Bay View.</subject>
-        <geogname source="lcsh" encodinganalog="651">Little Traverse Bay (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Resorts--Michigan--Bay View.</subject>
-        <subject source="lctgm" encodinganalog="650">Swimming.</subject>
-        <title source="aacr2" encodinganalog="740">In celebration of Bay View, a national historic landmark.</title>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no89002733" ref="/subjects/1020">Bay View (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3939">Bay View Association.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3816">Beaches--Michigan--Bay View.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3817">Campmeetings--Michigan--Bay View.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3818">Chautauquas--Michigan--Bay View.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3622">Clothing and dress.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3819">Historic buildings--Michigan--Bay View.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3820">Historic sites--Michigan--Bay View.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1021">Little Traverse Bay (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3821">Resorts--Michigan--Bay View.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3727">Swimming.</subject>
+        <title source="aacr2" encodinganalog="740" ref="/subjects/7">In celebration of Bay View, a national historic landmark.</title>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Oral histories.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3156">Oral histories.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -169,8 +169,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Current leases <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <unittitle>Current leases</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [357755624442594021]" id="6874d05c-d8b9-4583-8903-322ad8c62b2e">1</container>
@@ -188,8 +187,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Leases <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <unittitle>Leases</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [357755624442594021]" id="5d20adc1-8faf-4b40-9949-581a58b06cfe">1</container>
@@ -214,8 +212,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Leases <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
-          </did>
+            <unittitle>Leases</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [357755624442594021]" id="1e9e5ac4-cbe1-4942-af5a-9712b9d7edd2">1</container>
@@ -247,20 +244,17 @@
           <did>
             <container type="box" label="Box [357755624442594021]" id="5b7f8a6d-5432-4121-91c9-e35edaa72328">1</container>
             <container type="reel" label="Roll" parent="5b7f8a6d-5432-4121-91c9-e35edaa72328">10</container>
-            <unittitle>Annual reports <unitdate type="inclusive" normal="1894/1956">1894-1956</unitdate></unittitle>
-          </did>
+            <unittitle>Annual reports</unittitle><unitdate type="inclusive" normal="1894/1956">1894-1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="2f9a5563-58b9-4cc2-9c51-1a3be1b28e7f">1</container>
             <container type="reel" label="Roll" parent="2f9a5563-58b9-4cc2-9c51-1a3be1b28e7f">11</container>
-            <unittitle>Annual reports <unitdate type="inclusive" normal="1957/1975">1957-1975</unitdate></unittitle>
-          </did>
+            <unittitle>Annual reports</unittitle><unitdate type="inclusive" normal="1957/1975">1957-1975</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Proceedings of annual meetings <unitdate type="inclusive" normal="1876/1976">1876-1976</unitdate></unittitle>
-          </did>
+            <unittitle>Proceedings of annual meetings</unittitle><unitdate type="inclusive" normal="1876/1976">1876-1976</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [357755624442594021]" id="854a0384-9a71-48f2-b9ab-6db266fe76ce">1</container>
@@ -279,65 +273,56 @@
             <did>
               <container type="box" label="Box [357755624442594021]" id="bcd9eae3-cece-41a6-b43d-61d2ab07a883">1</container>
               <container type="reel" label="Roll" parent="bcd9eae3-cece-41a6-b43d-61d2ab07a883">12</container>
-              <unittitle>Bay View Association <unitdate type="inclusive" normal="1876/1976">1876-1976</unitdate></unittitle>
-            </did>
+              <unittitle>Bay View Association</unittitle><unitdate type="inclusive" normal="1876/1976">1876-1976</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="080663dd-c39d-48c9-84e7-4c2a1de8ba71">1</container>
             <container type="reel" label="Roll" parent="080663dd-c39d-48c9-84e7-4c2a1de8ba71">13</container>
-            <unittitle>Reports of Audits <unitdate type="inclusive" normal="1957/1961">1957-1961</unitdate>, <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>, <unitdate type="inclusive" normal="1968/1973">1968-1973</unitdate></unittitle>
-          </did>
+            <unittitle>Reports of Audits</unittitle><unitdate type="inclusive" normal="1957/1961">1957-1961</unitdate><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate><unitdate type="inclusive" normal="1968/1973">1968-1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="f72dc528-d045-4d0b-81a7-5b9c477c40b8">1</container>
             <container type="reel" label="Roll" parent="f72dc528-d045-4d0b-81a7-5b9c477c40b8">13</container>
-            <unittitle>Miscellaneous contracts <unitdate type="inclusive" normal="1902/1929">1902-1929</unitdate> (including street numbering)</unittitle>
-          </did>
+            <unittitle>Miscellaneous contracts  (including street numbering)</unittitle><unitdate type="inclusive" normal="1902/1929">1902-1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="01fbe4d3-5cf3-441a-bcef-9b9d7763af48">1</container>
             <container type="reel" label="Roll" parent="01fbe4d3-5cf3-441a-bcef-9b9d7763af48">13</container>
-            <unittitle>Bay View Assembly <unitdate type="inclusive" normal="1888/1904">1888-1904</unitdate></unittitle>
-          </did>
+            <unittitle>Bay View Assembly</unittitle><unitdate type="inclusive" normal="1888/1904">1888-1904</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="b89b4d61-6f3d-4177-9ec6-351d3ef6e931">1</container>
             <container type="reel" label="Roll" parent="b89b4d61-6f3d-4177-9ec6-351d3ef6e931">14</container>
-            <unittitle>Minutes of Trustees' meetings <unitdate type="inclusive" normal="1875/1886">1875-1886</unitdate>, <unitdate type="inclusive" normal="1887/1894">1887-1894</unitdate>, <unitdate type="inclusive" normal="1895/1905-08-17">1895-August 17, 1905</unitdate></unittitle>
-          </did>
+            <unittitle>Minutes of Trustees' meetings</unittitle><unitdate type="inclusive" normal="1875/1886">1875-1886</unitdate><unitdate type="inclusive" normal="1887/1894">1887-1894</unitdate><unitdate type="inclusive" normal="1895/1905-08-17">1895-August 17, 1905</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="dac9857d-75e5-433b-beab-b9e5313c27a3">1</container>
             <container type="reel" label="Roll" parent="dac9857d-75e5-433b-beab-b9e5313c27a3">15</container>
-            <unittitle>Court records <unitdate type="inclusive" normal="1895/1915">1895-1915</unitdate></unittitle>
-          </did>
+            <unittitle>Court records</unittitle><unitdate type="inclusive" normal="1895/1915">1895-1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="75e3c296-f399-4c38-bad2-64aea0b1e83f">1</container>
             <container type="reel" label="Roll" parent="75e3c296-f399-4c38-bad2-64aea0b1e83f">15</container>
-            <unittitle>Miscellaneous information compiled by W. J. DeVol <unitdate type="inclusive" normal="1915/1927">1915-1927</unitdate></unittitle>
-          </did>
+            <unittitle>Miscellaneous information compiled by W. J. DeVol</unittitle><unitdate type="inclusive" normal="1915/1927">1915-1927</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="f8c6c939-f03d-48e0-84a2-ce297a9e4cee">1</container>
             <container type="reel" label="Roll" parent="f8c6c939-f03d-48e0-84a2-ce297a9e4cee">15</container>
-            <unittitle>Minutes of Trustees' meetings <unitdate type="inclusive" normal="1905/1921">1905-1921</unitdate></unittitle>
-          </did>
+            <unittitle>Minutes of Trustees' meetings</unittitle><unitdate type="inclusive" normal="1905/1921">1905-1921</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="178d01f1-c7b6-45ed-a0e0-78d84313db2c">1</container>
             <container type="reel" label="Roll" parent="178d01f1-c7b6-45ed-a0e0-78d84313db2c">16</container>
-            <unittitle>Minutes of Trustees' meetings <unitdate type="inclusive" normal="1921/1933">1921-1933</unitdate></unittitle>
-          </did>
+            <unittitle>Minutes of Trustees' meetings</unittitle><unitdate type="inclusive" normal="1921/1933">1921-1933</unitdate></did>
           <odd>
             <p>(include by-laws and DeVol's index to by-laws)</p>
           </odd>
@@ -346,50 +331,43 @@
           <did>
             <container type="box" label="Box [357755624442594021]" id="25ed1db7-d8b9-4b77-87c9-24b2e9cd79df">1</container>
             <container type="reel" label="Roll" parent="25ed1db7-d8b9-4b77-87c9-24b2e9cd79df">16</container>
-            <unittitle>Minutes of Trustees' meetings <unitdate type="inclusive" normal="1933/1935">1933-1935</unitdate>, <unitdate type="inclusive" normal="1936/1971-08">1936-August 1971</unitdate></unittitle>
-          </did>
+            <unittitle>Minutes of Trustees' meetings</unittitle><unitdate type="inclusive" normal="1933/1935">1933-1935</unitdate><unitdate type="inclusive" normal="1936/1971-08">1936-August 1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="ecafc8f3-5d8d-4db7-8bea-0703970af7e3">1</container>
             <container type="reel" label="Roll" parent="ecafc8f3-5d8d-4db7-8bea-0703970af7e3">23</container>
-            <unittitle>Minutes of Trustees' meetings <unitdate type="inclusive" normal="1971/1976-09-23">1971-September 23, 1976</unitdate></unittitle>
-          </did>
+            <unittitle>Minutes of Trustees' meetings</unittitle><unitdate type="inclusive" normal="1971/1976-09-23">1971-September 23, 1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="0abce111-6584-4640-9c8c-549a7a075207">1</container>
             <container type="reel" label="Roll" parent="0abce111-6584-4640-9c8c-549a7a075207">38</container>
-            <unittitle>Proceedings of annual meetings <unitdate type="inclusive" normal="1977/1983">1977-1983</unitdate></unittitle>
-          </did>
+            <unittitle>Proceedings of annual meetings</unittitle><unitdate type="inclusive" normal="1977/1983">1977-1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="a2f526ae-0edd-41e7-98cc-218e7627f70e">1</container>
             <container type="reel" label="Roll" parent="a2f526ae-0edd-41e7-98cc-218e7627f70e">38</container>
-            <unittitle>Minutes of Trustee's Meetings <unitdate type="inclusive" normal="1977-06-17/1983-09-10">June 17, 1977-September 10, 1983</unitdate></unittitle>
-          </did>
+            <unittitle>Minutes of Trustee's Meetings</unittitle><unitdate type="inclusive" normal="1977-06-17/1983-09-10">June 17, 1977-September 10, 1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="b86cb9ce-63fe-4e94-8f69-a04364aa99f4">1</container>
             <container type="reel" label="Roll" parent="b86cb9ce-63fe-4e94-8f69-a04364aa99f4">41</container>
-            <unittitle>Minutes of Trustee's Meetings <unitdate type="inclusive" normal="1984-06/1992-08">June 1984-August 1992</unitdate></unittitle>
-          </did>
+            <unittitle>Minutes of Trustee's Meetings</unittitle><unitdate type="inclusive" normal="1984-06/1992-08">June 1984-August 1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="8c59b345-5baa-4778-a8fa-799014601c01">1</container>
             <container type="reel" label="Roll" parent="8c59b345-5baa-4778-a8fa-799014601c01">42</container>
-            <unittitle>Minutes of Trustee's Meetings <unitdate type="inclusive" normal="1992-08/1996-07-03">August 1992-July 3, 1996</unitdate></unittitle>
-          </did>
+            <unittitle>Minutes of Trustee's Meetings</unittitle><unitdate type="inclusive" normal="1992-08/1996-07-03">August 1992-July 3, 1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="4392b5db-85c7-4bc8-bbdf-b9ddce9b6f23">1</container>
             <container type="reel" label="Roll" parent="4392b5db-85c7-4bc8-bbdf-b9ddce9b6f23">43</container>
-            <unittitle>Minutes of Trustee's Meetings <unitdate type="inclusive" normal="1996-07-05/1997-11-12">July 5, 1996-November 12, 1997</unitdate></unittitle>
-          </did>
+            <unittitle>Minutes of Trustee's Meetings</unittitle><unitdate type="inclusive" normal="1996-07-05/1997-11-12">July 5, 1996-November 12, 1997</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -400,225 +378,193 @@
           <did>
             <container type="box" label="Box [357755624442594021]" id="e66115cc-c873-437a-b290-bb14e9d31645">1</container>
             <container type="reel" label="Roll" parent="e66115cc-c873-437a-b290-bb14e9d31645">17</container>
-            <unittitle>Lot Book 1 <unitdate type="inclusive" normal="1876/1890">1876-1890</unitdate></unittitle>
-          </did>
+            <unittitle>Lot Book 1</unittitle><unitdate type="inclusive" normal="1876/1890">1876-1890</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="5b0b5ca4-1a81-47c3-aa66-b090915dc883">1</container>
             <container type="reel" label="Roll" parent="5b0b5ca4-1a81-47c3-aa66-b090915dc883">17</container>
-            <unittitle>Lot Book <unitdate type="inclusive" normal="1887/1891">1887-1891</unitdate> (Est.)</unittitle>
-          </did>
+            <unittitle>Lot Book  (Est.)</unittitle><unitdate type="inclusive" normal="1887/1891">1887-1891</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="9ec16a1c-9dae-4dd6-802f-376b0974177f">1</container>
             <container type="reel" label="Roll" parent="9ec16a1c-9dae-4dd6-802f-376b0974177f">17</container>
-            <unittitle>Lot Book 2 <unitdate type="inclusive" normal="1890/1904">1890-1904</unitdate></unittitle>
-          </did>
+            <unittitle>Lot Book 2</unittitle><unitdate type="inclusive" normal="1890/1904">1890-1904</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="9c5d2bbe-fdc9-4aa9-aa26-cb0986973a2e">1</container>
             <container type="reel" label="Roll" parent="9c5d2bbe-fdc9-4aa9-aa26-cb0986973a2e">17</container>
-            <unittitle>Lot Book (copy) <unitdate type="inclusive" normal="1890/1905">1890-1905</unitdate></unittitle>
-          </did>
+            <unittitle>Lot Book (copy)</unittitle><unitdate type="inclusive" normal="1890/1905">1890-1905</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="aacd6430-3b1a-4247-862b-b07c83de8c25">1</container>
             <container type="reel" label="Roll" parent="aacd6430-3b1a-4247-862b-b07c83de8c25">18</container>
-            <unittitle>Lot Book (copy) <unitdate type="inclusive" normal="1890/1905">1890-1905</unitdate> (cont)</unittitle>
-          </did>
+            <unittitle>Lot Book (copy)  (cont)</unittitle><unitdate type="inclusive" normal="1890/1905">1890-1905</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="587de1bc-0e58-441a-be35-8ae07332c659">1</container>
             <container type="reel" label="Roll" parent="587de1bc-0e58-441a-be35-8ae07332c659">18</container>
-            <unittitle>Lot Cash Book <unitdate type="inclusive" normal="1889/1892">1889-1892</unitdate></unittitle>
-          </did>
+            <unittitle>Lot Cash Book</unittitle><unitdate type="inclusive" normal="1889/1892">1889-1892</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="1439debe-d74b-415b-806b-6f3290233191">1</container>
             <container type="reel" label="Roll" parent="1439debe-d74b-415b-806b-6f3290233191">18</container>
-            <unittitle>Assessment Roll <unitdate type="inclusive" normal="1902">1902</unitdate></unittitle>
-          </did>
+            <unittitle>Assessment Roll</unittitle><unitdate type="inclusive" normal="1902">1902</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="1f8831d0-784b-4db9-a8ee-0bbd1bf53408">1</container>
             <container type="reel" label="Roll" parent="1f8831d0-784b-4db9-a8ee-0bbd1bf53408">18</container>
-            <unittitle>Tax roll and assessor's reports <unitdate type="inclusive" normal="1902/1904">1902-1904</unitdate></unittitle>
-          </did>
+            <unittitle>Tax roll and assessor's reports</unittitle><unitdate type="inclusive" normal="1902/1904">1902-1904</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="f9a42f5c-3e12-48dd-867c-f9e3a612c18b">1</container>
             <container type="reel" label="Roll" parent="f9a42f5c-3e12-48dd-867c-f9e3a612c18b">18</container>
-            <unittitle>Lot Book <unitdate type="inclusive" normal="1905/1911">1905-1911</unitdate></unittitle>
-          </did>
+            <unittitle>Lot Book</unittitle><unitdate type="inclusive" normal="1905/1911">1905-1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="e9f80885-25a2-4801-a532-6b5f56d42240">1</container>
             <container type="reel" label="Roll" parent="e9f80885-25a2-4801-a532-6b5f56d42240">18</container>
-            <unittitle>Tax Assessments <unitdate type="inclusive" normal="1905/1911">1905-1911</unitdate></unittitle>
-          </did>
+            <unittitle>Tax Assessments</unittitle><unitdate type="inclusive" normal="1905/1911">1905-1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="1e95fb0e-84bb-47da-aa56-b771a42048a2">1</container>
             <container type="reel" label="Roll" parent="1e95fb0e-84bb-47da-aa56-b771a42048a2">18</container>
-            <unittitle>Lot Book <unitdate type="inclusive" normal="1906/1910">1906-1910</unitdate></unittitle>
-          </did>
+            <unittitle>Lot Book</unittitle><unitdate type="inclusive" normal="1906/1910">1906-1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="67d56408-9df6-4f40-a79b-a091486085ba">1</container>
             <container type="reel" label="Roll" parent="67d56408-9df6-4f40-a79b-a091486085ba">18</container>
-            <unittitle>Tax Book <unitdate type="inclusive" normal="1908/1909">1908-1909</unitdate></unittitle>
-          </did>
+            <unittitle>Tax Book</unittitle><unitdate type="inclusive" normal="1908/1909">1908-1909</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="71d17b0c-8d8a-4413-aad7-82dad79718c8">1</container>
             <container type="reel" label="Roll" parent="71d17b0c-8d8a-4413-aad7-82dad79718c8">18</container>
-            <unittitle>Tax Book <unitdate type="inclusive" normal="1910/1911">1910-1911</unitdate></unittitle>
-          </did>
+            <unittitle>Tax Book</unittitle><unitdate type="inclusive" normal="1910/1911">1910-1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="7e7bacf4-7f07-45b1-b134-c05b5151dabc">1</container>
             <container type="reel" label="Roll" parent="7e7bacf4-7f07-45b1-b134-c05b5151dabc">19</container>
-            <unittitle>Tax Book <unitdate type="inclusive" normal="1910/1911">1910-1911</unitdate> (cont.)</unittitle>
-          </did>
+            <unittitle>Tax Book  (cont.)</unittitle><unitdate type="inclusive" normal="1910/1911">1910-1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="12ca2882-73b5-4c1f-88d4-b59cb9bc9623">1</container>
             <container type="reel" label="Roll" parent="12ca2882-73b5-4c1f-88d4-b59cb9bc9623">19</container>
-            <unittitle>Tax Assessment <unitdate type="inclusive" normal="1911/1914">1911-1914</unitdate></unittitle>
-          </did>
+            <unittitle>Tax Assessment</unittitle><unitdate type="inclusive" normal="1911/1914">1911-1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="0df59863-dbde-43e0-9c90-a2137a2f58d9">1</container>
             <container type="reel" label="Roll" parent="0df59863-dbde-43e0-9c90-a2137a2f58d9">19</container>
-            <unittitle>Lot Book <unitdate type="inclusive" normal="1912/1915">1912-1915</unitdate></unittitle>
-          </did>
+            <unittitle>Lot Book</unittitle><unitdate type="inclusive" normal="1912/1915">1912-1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="96b20bb1-d5a2-4031-870f-57b27a436e56">1</container>
             <container type="reel" label="Roll" parent="96b20bb1-d5a2-4031-870f-57b27a436e56">19</container>
-            <unittitle>Survey by Swift <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
-          </did>
+            <unittitle>Survey by Swift</unittitle><unitdate type="inclusive" normal="1914">1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="aa87c3cb-479f-48b9-a022-6ed85e0ac590">1</container>
             <container type="reel" label="Roll" parent="aa87c3cb-479f-48b9-a022-6ed85e0ac590">19</container>
-            <unittitle>Tax Book <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
-          </did>
+            <unittitle>Tax Book</unittitle><unitdate type="inclusive" normal="1915">1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="e8680779-6d93-4747-989f-0ba0d5666cb9">1</container>
             <container type="reel" label="Roll" parent="e8680779-6d93-4747-989f-0ba0d5666cb9">19</container>
-            <unittitle><unitdate type="inclusive" normal="1915">1915</unitdate> Survey, Vol. 1 and 2</unittitle>
-          </did>
+            <unittitle>Survey, Vol. 1 and 2</unittitle><unitdate type="inclusive" normal="1915">1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="d0e83373-5988-44ed-8b54-9fe1fe4e2ff3">1</container>
             <container type="reel" label="Roll" parent="d0e83373-5988-44ed-8b54-9fe1fe4e2ff3">19</container>
-            <unittitle>Lot Book <unitdate type="inclusive" normal="1915/1919">1915-1919</unitdate></unittitle>
-          </did>
+            <unittitle>Lot Book</unittitle><unitdate type="inclusive" normal="1915/1919">1915-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="4e175453-a0ac-4ab2-8168-c014e431275c">1</container>
             <container type="reel" label="Roll" parent="4e175453-a0ac-4ab2-8168-c014e431275c">20</container>
-            <unittitle>Lot-Tax Book <unitdate type="inclusive" normal="1916/1927">1916-1927</unitdate></unittitle>
-          </did>
+            <unittitle>Lot-Tax Book</unittitle><unitdate type="inclusive" normal="1916/1927">1916-1927</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="b31b541f-35fb-4651-afff-f05c35b2abb7">1</container>
             <container type="reel" label="Roll" parent="b31b541f-35fb-4651-afff-f05c35b2abb7">20</container>
-            <unittitle>Bear Creek Tax and Assessment Book <unitdate type="inclusive" normal="1920">1920</unitdate>, <unitdate type="inclusive" normal="1923">1923</unitdate>, <unitdate type="inclusive" normal="1924">1924</unitdate>, <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
-          </did>
+            <unittitle>Bear Creek Tax and Assessment Book</unittitle><unitdate type="inclusive" normal="1920">1920</unitdate><unitdate type="inclusive" normal="1923">1923</unitdate><unitdate type="inclusive" normal="1924">1924</unitdate><unitdate type="inclusive" normal="1926">1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="3cca2f50-f01a-4114-b551-24280fc4ebc8">1</container>
             <container type="reel" label="Roll" parent="3cca2f50-f01a-4114-b551-24280fc4ebc8">20</container>
-            <unittitle>Lot Book <unitdate type="inclusive" normal="1920/1950">1920-1950</unitdate></unittitle>
-          </did>
+            <unittitle>Lot Book</unittitle><unitdate type="inclusive" normal="1920/1950">1920-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="a97bee7f-0a82-4887-86ac-6667bf19c7a2">1</container>
             <container type="reel" label="Roll" parent="a97bee7f-0a82-4887-86ac-6667bf19c7a2">20</container>
-            <unittitle>Lot and Tax Book <unitdate type="inclusive" normal="1921/1925">1921-1925</unitdate></unittitle>
-          </did>
+            <unittitle>Lot and Tax Book</unittitle><unitdate type="inclusive" normal="1921/1925">1921-1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="d33bfebb-02fd-4665-98f4-cf66d1ea1808">1</container>
             <container type="reel" label="Roll" parent="d33bfebb-02fd-4665-98f4-cf66d1ea1808">20</container>
-            <unittitle>Tax Book <unitdate type="inclusive" normal="1926/1944">1926-1944</unitdate></unittitle>
-          </did>
+            <unittitle>Tax Book</unittitle><unitdate type="inclusive" normal="1926/1944">1926-1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="b972e2ca-dd8a-46e3-8ef8-a20dd83b694c">1</container>
             <container type="reel" label="Roll" parent="b972e2ca-dd8a-46e3-8ef8-a20dd83b694c">21</container>
-            <unittitle>Tax Book <unitdate type="inclusive" normal="1926/1944">1926-1944</unitdate> (cont.)</unittitle>
-          </did>
+            <unittitle>Tax Book  (cont.)</unittitle><unitdate type="inclusive" normal="1926/1944">1926-1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="6439e9f1-47cc-412a-bbe1-3d9c8b8340c5">1</container>
             <container type="reel" label="Roll" parent="6439e9f1-47cc-412a-bbe1-3d9c8b8340c5">21</container>
-            <unittitle>Tax Book <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
-          </did>
+            <unittitle>Tax Book</unittitle><unitdate type="inclusive" normal="1933">1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="613564cb-cdaa-44ab-b593-4981e6193540">1</container>
             <container type="reel" label="Roll" parent="613564cb-cdaa-44ab-b593-4981e6193540">21</container>
-            <unittitle>Tax Book <unitdate type="inclusive" normal="1928/1935">1928-1935</unitdate></unittitle>
-          </did>
+            <unittitle>Tax Book</unittitle><unitdate type="inclusive" normal="1928/1935">1928-1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="37f87160-023e-4bf5-b749-b483b9568aab">1</container>
             <container type="reel" label="Roll" parent="37f87160-023e-4bf5-b749-b483b9568aab">21</container>
-            <unittitle>Lot Book and Tax Book <unitdate type="inclusive" normal="1944/1965">1944-1965</unitdate></unittitle>
-          </did>
+            <unittitle>Lot Book and Tax Book</unittitle><unitdate type="inclusive" normal="1944/1965">1944-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="63f14e10-e37f-4992-bc11-d7d7a1246a66">1</container>
             <container type="reel" label="Roll" parent="63f14e10-e37f-4992-bc11-d7d7a1246a66">22</container>
-            <unittitle>Lot Book and Tax Book <unitdate type="inclusive" normal="1944/1965">1944-1965</unitdate> (cont)</unittitle>
-          </did>
+            <unittitle>Lot Book and Tax Book  (cont)</unittitle><unitdate type="inclusive" normal="1944/1965">1944-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="cfdf8625-631a-44c3-8664-39329f19f723">1</container>
             <container type="reel" label="Roll" parent="cfdf8625-631a-44c3-8664-39329f19f723">22</container>
-            <unittitle>Membership List <unitdate type="inclusive" normal="1890/1944">1890-1944</unitdate></unittitle>
-          </did>
+            <unittitle>Membership List</unittitle><unitdate type="inclusive" normal="1890/1944">1890-1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="ad577913-a253-498d-9dfc-7f658116bfed">1</container>
             <container type="reel" label="Roll" parent="ad577913-a253-498d-9dfc-7f658116bfed">22</container>
-            <unittitle>Transfer of Leases <unitdate type="inclusive" normal="1905/1945">1905-1945</unitdate></unittitle>
-          </did>
+            <unittitle>Transfer of Leases</unittitle><unitdate type="inclusive" normal="1905/1945">1905-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -631,43 +577,37 @@
           <did>
             <container type="box" label="Box [357755624442594021]" id="7d3edd45-7133-4864-b8a5-af6c547a017f">1</container>
             <container type="reel" label="Roll" parent="7d3edd45-7133-4864-b8a5-af6c547a017f">22</container>
-            <unittitle>Evangelistic Association <unitdate type="inclusive" normal="1896/1918">1896-1918</unitdate></unittitle>
-          </did>
+            <unittitle>Evangelistic Association</unittitle><unitdate type="inclusive" normal="1896/1918">1896-1918</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="5227501a-51ee-4a34-86fb-e35f9d9b4726">1</container>
             <container type="reel" label="Roll" parent="5227501a-51ee-4a34-86fb-e35f9d9b4726">22</container>
-            <unittitle>Booth-Dale Park <unitdate type="inclusive" normal="1904/1958">1904-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Booth-Dale Park</unittitle><unitdate type="inclusive" normal="1904/1958">1904-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="439d337b-6baa-4fc5-bb03-ecbfb6cd61c2">1</container>
             <container type="reel" label="Roll" parent="439d337b-6baa-4fc5-bb03-ecbfb6cd61c2">22</container>
-            <unittitle>WCTU <unitdate type="inclusive" normal="1900/1902">1900-1902</unitdate></unittitle>
-          </did>
+            <unittitle>WCTU</unittitle><unitdate type="inclusive" normal="1900/1902">1900-1902</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="1a0db667-76b7-47d3-9e9c-b6c6cc1762fd">1</container>
             <container type="reel" label="Roll" parent="1a0db667-76b7-47d3-9e9c-b6c6cc1762fd">23</container>
-            <unittitle>Tax Book, 1 <unitdate type="inclusive" normal="1965/1977">1965-1977</unitdate> B1-B22</unittitle>
-          </did>
+            <unittitle>Tax Book, 1  B1-B22</unittitle><unitdate type="inclusive" normal="1965/1977">1965-1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="d27ccb41-c745-43c3-9244-04bf1d2c419e">1</container>
             <container type="reel" label="Roll" parent="d27ccb41-c745-43c3-9244-04bf1d2c419e">23</container>
-            <unittitle>Tax Book, 2 <unitdate type="inclusive" normal="1965/1977">1965-1977</unitdate> B23-B45</unittitle>
-          </did>
+            <unittitle>Tax Book, 2  B23-B45</unittitle><unitdate type="inclusive" normal="1965/1977">1965-1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="68220ca5-274a-45da-8497-3ca3e348a626">1</container>
             <container type="reel" label="Roll" parent="68220ca5-274a-45da-8497-3ca3e348a626">23</container>
-            <unittitle>Minutes of Trustees' meetings <unitdate type="inclusive" normal="1971/1976-09-23">1971-September 23, 1976</unitdate></unittitle>
-          </did>
+            <unittitle>Minutes of Trustees' meetings</unittitle><unitdate type="inclusive" normal="1971/1976-09-23">1971-September 23, 1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -680,15 +620,13 @@
           <did>
             <container type="box" label="Box [357755624442594021]" id="fcdcae15-da10-4db5-9fb5-4291ade5f2df">1</container>
             <container type="reel" label="Roll" parent="fcdcae15-da10-4db5-9fb5-4291ade5f2df">34</container>
-            <unittitle>Lot and Tax Book <unitdate type="inclusive" normal="1923/1935">1923-1935</unitdate></unittitle>
-          </did>
+            <unittitle>Lot and Tax Book</unittitle><unitdate type="inclusive" normal="1923/1935">1923-1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="e50a616b-84bd-4d7a-9af5-52d5446eaf3f">1</container>
             <container type="reel" label="Roll" parent="e50a616b-84bd-4d7a-9af5-52d5446eaf3f">35</container>
-            <unittitle>Lot and Tax Book <unitdate type="inclusive" normal="1944/1967">1944-1967</unitdate></unittitle>
-          </did>
+            <unittitle>Lot and Tax Book</unittitle><unitdate type="inclusive" normal="1944/1967">1944-1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -698,27 +636,20 @@
             <did>
               <container type="box" label="Box [357755624442594021]" id="8b1c1a38-083e-4425-9608-015a7ca77b80">1</container>
               <container type="reel" label="Roll" parent="8b1c1a38-083e-4425-9608-015a7ca77b80">36</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962/1979">1962-1979</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1962/1979">1962-1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [357755624442594021]" id="e064ae9a-1b7d-460b-b000-45966ed5d70d">1</container>
               <container type="reel" label="Roll" parent="e064ae9a-1b7d-460b-b000-45966ed5d70d">36</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="e655fde2-a32d-41b9-a067-b6c100c3233c">1</container>
             <container type="reel" label="Roll" parent="e655fde2-a32d-41b9-a067-b6c100c3233c">37</container>
-            <unittitle>Tax Records <unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate></unittitle>
-          </did>
+            <unittitle>Tax Records</unittitle><unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -731,15 +662,13 @@
           <did>
             <container type="box" label="Box [357755624442594021]" id="b5befd70-bae4-4583-aa5f-9c818184f159">1</container>
             <container type="reel" label="Roll" parent="b5befd70-bae4-4583-aa5f-9c818184f159">29</container>
-            <unittitle>Tax assessments <unitdate type="inclusive" normal="1962/1979">1962-1979</unitdate></unittitle>
-          </did>
+            <unittitle>Tax assessments</unittitle><unitdate type="inclusive" normal="1962/1979">1962-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="8c128cd4-cfe4-40c1-9b17-44efa6520eeb">1</container>
             <container type="reel" label="Roll" parent="8c128cd4-cfe4-40c1-9b17-44efa6520eeb">39</container>
-            <unittitle><unitdate type="inclusive" normal="1950">1950</unitdate> Membership and Lot Record</unittitle>
-            <physdesc>
+            <unittitle>Membership and Lot Record</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate><physdesc>
               <physfacet>positive microfilm only</physfacet>
             </physdesc>
           </did>
@@ -753,22 +682,19 @@
           <did>
             <container type="box" label="Box [357755624442594021]" id="359b1c86-42ae-45e7-8b33-ab7e88c1da4d">1</container>
             <container type="reel" label="Roll" parent="359b1c86-42ae-45e7-8b33-ab7e88c1da4d">24</container>
-            <unittitle><title render="italic">Bay View Assembly Record</title>, <unitdate type="inclusive" normal="1895">1895</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Bay View Assembly Record</title></unittitle><unitdate type="inclusive" normal="1895">1895</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="51471879-4c6d-4073-a7ec-f1377eb6a584">1</container>
             <container type="reel" label="Roll" parent="51471879-4c6d-4073-a7ec-f1377eb6a584">24</container>
-            <unittitle><title render="italic">Bay View Assembly Herald</title>, <unitdate type="inclusive" normal="1886/1889">1886-1889</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Bay View Assembly Herald</title></unittitle><unitdate type="inclusive" normal="1886/1889">1886-1889</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="ed80b927-ae96-49e5-a18e-a42915e0349c">1</container>
             <container type="reel" label="Roll" parent="ed80b927-ae96-49e5-a18e-a42915e0349c">24</container>
-            <unittitle><title render="italic">Bay View, The Summer City</title>, <unitdate type="inclusive" normal="1894">1894</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Bay View, The Summer City</title></unittitle><unitdate type="inclusive" normal="1894">1894</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -783,15 +709,13 @@
           <did>
             <container type="box" label="Box [357755624442594021]" id="15c36347-f0bc-4589-ac40-bbde821e035b">1</container>
             <container type="reel" label="Roll" parent="15c36347-f0bc-4589-ac40-bbde821e035b">24</container>
-            <unittitle><title render="italic">Golden Jubilee</title>, <unitdate type="inclusive" normal="1875/1925">1875-1925</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Golden Jubilee</title></unittitle><unitdate type="inclusive" normal="1875/1925">1875-1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="627db234-9c9f-47c8-81eb-3a183ca42548">1</container>
             <container type="reel" label="Roll" parent="627db234-9c9f-47c8-81eb-3a183ca42548">24</container>
-            <unittitle><title render="italic">Bay View</title>, <unitdate type="inclusive" normal="1875/1950">1875-1950</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Bay View</title></unittitle><unitdate type="inclusive" normal="1875/1950">1875-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -811,43 +735,37 @@
           <did>
             <container type="box" label="Box [357755624442594021]" id="874e6790-18ee-4928-a4f3-bb8460729dcb">1</container>
             <container type="reel" label="Roll" parent="874e6790-18ee-4928-a4f3-bb8460729dcb">24</container>
-            <unittitle><title render="italic">Bay View Herald</title>, <unitdate type="inclusive" normal="1885">1885</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Bay View Herald</title></unittitle><unitdate type="inclusive" normal="1885">1885</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="f162cd2a-34f8-4c78-a476-7758201aaf54">1</container>
             <container type="reel" label="Roll" parent="f162cd2a-34f8-4c78-a476-7758201aaf54">24</container>
-            <unittitle><title render="italic">Souvenir</title> 25th Anniversary, <unitdate type="inclusive" normal="1900">1900</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Souvenir</title> 25th Anniversary</unittitle><unitdate type="inclusive" normal="1900">1900</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="0e7ce687-9f74-4341-a3a3-5a85e041f493">1</container>
             <container type="reel" label="Roll" parent="0e7ce687-9f74-4341-a3a3-5a85e041f493">24</container>
-            <unittitle>Department of Conservation-Woods <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
-          </did>
+            <unittitle>Department of Conservation-Woods</unittitle><unitdate type="inclusive" normal="1927">1927</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="9d51bbae-131d-4bc2-ba8d-23c7137b7f50">1</container>
             <container type="reel" label="Roll" parent="9d51bbae-131d-4bc2-ba8d-23c7137b7f50">24</container>
-            <unittitle>Bishop Bowman Portrait and Library Gifts, Barclay <unitdate type="inclusive" normal="1895">1895</unitdate></unittitle>
-          </did>
+            <unittitle>Bishop Bowman Portrait and Library Gifts, Barclay</unittitle><unitdate type="inclusive" normal="1895">1895</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="f7d0ad03-3d3a-4af3-8ebd-39e8c21c687a">1</container>
             <container type="reel" label="Roll" parent="f7d0ad03-3d3a-4af3-8ebd-39e8c21c687a">24</container>
-            <unittitle>William B. Conely letters <unitdate type="inclusive" normal="1895">1895</unitdate></unittitle>
-          </did>
+            <unittitle>William B. Conely letters</unittitle><unitdate type="inclusive" normal="1895">1895</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="f4260c9c-a496-487f-9dea-e3f900e61732">1</container>
             <container type="reel" label="Roll" parent="f4260c9c-a496-487f-9dea-e3f900e61732">24</container>
-            <unittitle>Hall-Gordon Contract <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
-          </did>
+            <unittitle>Hall-Gordon Contract</unittitle><unitdate type="inclusive" normal="1908">1908</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -860,8 +778,7 @@
           <did>
             <container type="box" label="Box [357755624442594021]" id="02e70f1c-afe2-4eb6-8c99-1951a452f04c">1</container>
             <container type="reel" label="Roll" parent="02e70f1c-afe2-4eb6-8c99-1951a452f04c">24</container>
-            <unittitle>Poundmaster letter <unitdate type="inclusive" normal="1891">1891</unitdate></unittitle>
-          </did>
+            <unittitle>Poundmaster letter</unittitle><unitdate type="inclusive" normal="1891">1891</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -874,8 +791,7 @@
           <did>
             <container type="box" label="Box [357755624442594021]" id="ee595ff5-44c3-4cf3-8c70-d7c8118cd732">1</container>
             <container type="reel" label="Roll" parent="ee595ff5-44c3-4cf3-8c70-d7c8118cd732">24</container>
-            <unittitle>Sunday School Congress <unitdate type="inclusive" normal="1877">1877</unitdate></unittitle>
-          </did>
+            <unittitle>Sunday School Congress</unittitle><unitdate type="inclusive" normal="1877">1877</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -888,22 +804,19 @@
           <did>
             <container type="box" label="Box [357755624442594021]" id="cfcf84fe-5ee9-4a34-9c73-f77fa779730f">1</container>
             <container type="reel" label="Roll" parent="cfcf84fe-5ee9-4a34-9c73-f77fa779730f">24</container>
-            <unittitle>Bay View Camp Ground <unitdate type="inclusive" normal="1878">1878</unitdate></unittitle>
-          </did>
+            <unittitle>Bay View Camp Ground</unittitle><unitdate type="inclusive" normal="1878">1878</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="a6fb3983-c1e9-4125-833f-faa7ad648cf7">1</container>
             <container type="reel" label="Roll" parent="a6fb3983-c1e9-4125-833f-faa7ad648cf7">24</container>
-            <unittitle>Bay View Camp Grounds Association. By-laws <unitdate type="inclusive" normal="1899">1899</unitdate></unittitle>
-          </did>
+            <unittitle>Bay View Camp Grounds Association. By-laws</unittitle><unitdate type="inclusive" normal="1899">1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="03bef7c8-c2ec-4ba0-9530-2103d3e3c5ac">1</container>
             <container type="reel" label="Roll" parent="03bef7c8-c2ec-4ba0-9530-2103d3e3c5ac">24</container>
-            <unittitle>"Beautiful Bay View" from The Detroit Conference <unitdate type="inclusive" normal="1888-09-15">September 15, 1888</unitdate></unittitle>
-          </did>
+            <unittitle>"Beautiful Bay View" from The Detroit Conference</unittitle><unitdate type="inclusive" normal="1888-09-15">September 15, 1888</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -916,36 +829,31 @@
           <did>
             <container type="box" label="Box [357755624442594021]" id="f430b75b-47e3-43f0-b387-e5c7f7a1fe69">1</container>
             <container type="reel" label="Roll" parent="f430b75b-47e3-43f0-b387-e5c7f7a1fe69">25</container>
-            <unittitle><title render="italic">Bay View Bulletins</title>, <unitdate type="inclusive" normal="1884/1929">1884-1929</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Bay View Bulletins</title></unittitle><unitdate type="inclusive" normal="1884/1929">1884-1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="0d88a54d-6674-4ab2-9c40-9e1c5194fd72">1</container>
             <container type="reel" label="Roll" parent="0d88a54d-6674-4ab2-9c40-9e1c5194fd72">26</container>
-            <unittitle><title render="italic">Bay View Bulletins</title>, <unitdate type="inclusive" normal="1929/1965">1929-1965</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Bay View Bulletins</title></unittitle><unitdate type="inclusive" normal="1929/1965">1929-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="3952f5dd-e150-4333-991e-b55f2d0a3114">1</container>
             <container type="reel" label="Roll" parent="3952f5dd-e150-4333-991e-b55f2d0a3114">27</container>
-            <unittitle><title render="italic">Bay View Bulletins</title>, <unitdate type="inclusive" normal="1966/1977">1966-1977</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Bay View Bulletins</title></unittitle><unitdate type="inclusive" normal="1966/1977">1966-1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="43b10017-6bb4-4efe-bae6-cd9010da262e">1</container>
             <container type="reel" label="Roll" parent="43b10017-6bb4-4efe-bae6-cd9010da262e">27</container>
-            <unittitle>M. Louise Jones' letter to trustees <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>M. Louise Jones' letter to trustees</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]" id="d38237d7-59b1-47d1-a9b5-d3d5769e9ce2">1</container>
             <container type="reel" label="Roll" parent="d38237d7-59b1-47d1-a9b5-d3d5769e9ce2">27</container>
-            <unittitle><title render="italic">Bay View Notes</title>-Mrs. G. J. Barnes from <title render="italic">Michigan Advocate</title>, <unitdate type="inclusive" normal="1888/1902">1888-1902</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Bay View Notes</title>-Mrs. G. J. Barnes from <title render="italic">Michigan Advocate</title></unittitle><unitdate type="inclusive" normal="1888/1902">1888-1902</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -966,8 +874,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [357755624442594021]">1</container>
-            <unittitle>Videotape (VHS): "In Celebration of Bay View, A National Historic Landmark," <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Videotape (VHS): "In Celebration of Bay View, A National Historic Landmark,"</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 copies</extent>
             </physdesc>
           </did>

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Magnaghi, Russell M.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/539">Magnaghi, Russell M.</persname>
       </origination>
-      <unittitle encodinganalog="245">Russell M. Magnaghi collection <unitdate type="inclusive" encodinganalog="245$f" normal="1890/2009" certainty="approximate">1890s-2009</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1977/2009">1977-2009</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">95103 Aa 2 UAm</unitid>
+      <unittitle encodinganalog="245">Russell M. Magnaghi collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1890/2009" certainty="approximate">1890s-2009</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1977/2009">1977-2009</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">95103 Aa 2 UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Russell M. Magnaghi is professor of history at Northern Michigan University. The collection consists of oral history recordings and transcripts and photographs, developed as part of Magnaghi's work in documenting history and ethnicity of the Upper Peninsula and Michigan in general.</abstract>
       <physdesc altrender="part">
@@ -85,31 +85,31 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Italian Americans--Michigan--Upper Peninsula.</subject>
-        <geogname source="lcsh" encodinganalog="651">Presque Isle County (Mich.)--Ethnic relations.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Presque Isle County (Mich.)--History.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Upper Peninsula (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8943">Italian Americans--Michigan--Upper Peninsula.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2281">Presque Isle County (Mich.)--Ethnic relations.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2282">Presque Isle County (Mich.)--History.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/934">Upper Peninsula (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lcsh" encodinganalog="650">Italian Americans--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Music ensembles--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Serbian Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6575">Italian Americans--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4734">Music ensembles--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8944">Serbian Americans--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <subject source="lcsh" encodinganalog="650">Italian Americans--Michigan--Upper Peninsula.</subject>
-        <geogname source="lcsh" encodinganalog="651">Presque Isle County (Mich.)--Ethnic relations.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Presque Isle County (Mich.)--History.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Upper Peninsula (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8943">Italian Americans--Michigan--Upper Peninsula.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2281">Presque Isle County (Mich.)--Ethnic relations.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2282">Presque Isle County (Mich.)--History.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/934">Upper Peninsula (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">CD-ROMs.</genreform>
-        <genreform source="aat" encodinganalog="655">Compact discs.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
-        <genreform source="aat" encodinganalog="655">Oral histories.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3146">CD-ROMs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3165">Compact discs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3156">Oral histories.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -1211,8 +1211,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3092369348387341001095]">3</container>
-            <unittitle>Interview with Edward G. Voss <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
-          </did>
+            <unittitle>Interview with Edward G. Voss</unittitle><unitdate type="inclusive" normal="2009">2009</unitdate></did>
         </c02>
       </c01>
     </dsc>

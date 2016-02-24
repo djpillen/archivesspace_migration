@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87915082">Lemmer, Victor F.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87915082" ref="/agents/people/8155">Lemmer, Victor F.</persname>
       </origination>
-      <unittitle encodinganalog="245">Victor F. Lemmer Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1974" certainty="approximate">1860s-1974</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1922/1974">1922-1974</unitdate></unittitle>
-      <abstract>Ironwood, Michigan businessman and local historian; include correspondence, research notes and writings largely concerning the history of Gogebic County and Upper Peninsula iron mining; also papers concerning his work with the Gogebic Industrial Bureau.</abstract>
+      <unittitle encodinganalog="245">Victor F. Lemmer Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1860/1974" certainty="approximate">1860s-1974</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1922/1974">1922-1974</unitdate><abstract>Ironwood, Michigan businessman and local historian; include correspondence, research notes and writings largely concerning the history of Gogebic County and Upper Peninsula iron mining; also papers concerning his work with the Gogebic Industrial Bureau.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851713 Aa 2; UAm; UAl</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -83,66 +83,66 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">American newspapers--Michigan--Gogebic County.</subject>
-        <subject source="lcsh" encodinganalog="650">Business records.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n2008042994">Champion (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80126308">Edison, Thomas A. (Thomas Alva), 1847-1931.</persname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n2001059746">Fayette (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n77013438">Frederic (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Gillen, Martin James, 1872-1943.</persname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091930">Gogebic County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Gogebic Industrial Bureau.</corpname>
-        <subject source="lcsh" encodinganalog="650">Indians of North America--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Iron mines and mining--Michigan--Upper Peninsula.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85064191">Ironwood (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Langford, Richard, 1826-1909.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87915082">Lemmer, Victor F.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88671461">Longyear, John Munro, 1850-1922.</persname>
-        <geogname source="lcsh" encodinganalog="651">Marenisco (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Merritt, D. H.</persname>
-        <persname source="lcnaf" encodinganalog="600">Norrie, A. Lanfear, 1858-1910.</persname>
-        <geogname source="lcsh" encodinganalog="651">Ontonagan (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Ottawa National Forest (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Upper Peninsula (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155115">Wakefield (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8770">American newspapers--Michigan--Gogebic County.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5789">Business records.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n2008042994" ref="/subjects/2191">Champion (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80126308" ref="/agents/people/2247">Edison, Thomas A. (Thomas Alva), 1847-1931.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n2001059746" ref="/subjects/1720">Fayette (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n77013438" ref="/subjects/2192">Frederic (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3553">Gillen, Martin James, 1872-1943.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091930" ref="/subjects/1926">Gogebic County (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1328">Gogebic Industrial Bureau.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6077">Indians of North America--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8771">Iron mines and mining--Michigan--Upper Peninsula.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85064191" ref="/subjects/991">Ironwood (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2440">Langford, Richard, 1826-1909.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87915082" ref="/agents/people/8155">Lemmer, Victor F.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88671461" ref="/agents/people/3925">Longyear, John Munro, 1850-1922.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2193">Marenisco (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7504">Merritt, D. H.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5168">Norrie, A. Lanfear, 1858-1910.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2194">Ontonagan (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1670">Ottawa National Forest (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/934">Upper Peninsula (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155115" ref="/subjects/2195">Wakefield (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Abbott, Bud.</persname>
-        <subject source="lctgm" encodinganalog="650">Banks.</subject>
-        <subject source="lctgm" encodinganalog="650">Buildings--Michigan--Ironwood.</subject>
-        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Ironwood.</subject>
-        <subject source="lctgm" encodinganalog="650">Children.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50018158">Costello, Lou.</persname>
-        <subject source="lctgm" encodinganalog="650">Dwellings.</subject>
-        <subject source="lctgm" encodinganalog="650">Fires.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091930">Gogebic County (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Hotels and taverns.</subject>
-        <subject source="lcsh" encodinganalog="650">Indians of North America.</subject>
-        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
-        <geogname source="lctgm" encodinganalog="651">Ironwood (Mich.)--Buildings.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ironwood (Mich.)--Business enterprises.</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85064191">Ironwood (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Iron mining.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Kalos (Ship)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Langford, Richard, 1826-1909.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87915082">Lemmer, Victor F.</persname>
-        <famname source="lcnaf" encodinganalog="600">Lemmer family.</famname>
-        <subject source="lctgm" encodinganalog="650">Lumber industry.</subject>
-        <geogname source="lcsh" encodinganalog="651">Marquette County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587">Michigan. National Guard.</corpname>
-        <subject source="lctgm" encodinganalog="650">Mining.</subject>
-        <subject source="lctgm" encodinganalog="650">Music--Michigan--Ironwood.</subject>
-        <subject source="lctgm" encodinganalog="650">Soda fountains.</subject>
-        <subject source="lcsh" encodinganalog="650">Spanish-American War, 1898.</subject>
-        <geogname source="lcsh" encodinganalog="651">Upper Peninsula (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Women.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2156">Abbott, Bud.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4679">Banks.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4680">Buildings--Michigan--Ironwood.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4681">Business enterprises--Michigan--Ironwood.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Children.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50018158" ref="/agents/people/1753">Costello, Lou.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3995">Dwellings.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3659">Fires.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091930" ref="/subjects/1926">Gogebic County (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3789">Hotels and taverns.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6751">Indians of North America.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3687">Interiors.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/370">Ironwood (Mich.)--Buildings.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/371">Ironwood (Mich.)--Business enterprises.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85064191" ref="/subjects/991">Ironwood (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4582">Iron mining.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3692">Kalos (Ship)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2440">Langford, Richard, 1826-1909.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87915082" ref="/agents/people/8155">Lemmer, Victor F.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/230">Lemmer family.</famname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3664">Lumber industry.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1930">Marquette County (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587" ref="/agents/corporate_entities/2373">Michigan. National Guard.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4185">Mining.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4682">Music--Michigan--Ironwood.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4683">Soda fountains.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6016">Spanish-American War, 1898.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/934">Upper Peninsula (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3617">Women.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -156,8 +156,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>Letters from Charles Berrigan and Rev. Erasmus Dooley, both in service during World War I <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></unittitle>
-          </did>
+            <unittitle>Letters from Charles Berrigan and Rev. Erasmus Dooley, both in service during World War I</unittitle><unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></did>
           <odd>
             <p>include some photos</p>
           </odd>
@@ -165,10 +164,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1922/1939">1922-1939</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1922/1939">1922-1939</unitdate></did>
           <odd>
             <p>(1-1)</p>
           </odd>
@@ -176,10 +172,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1940">1940</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1940">1940</unitdate></did>
           <odd>
             <p>(1-2)</p>
           </odd>
@@ -187,10 +180,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1941">1941</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1941">1941</unitdate></did>
           <odd>
             <p>(1-3)</p>
           </odd>
@@ -198,10 +188,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1942">1942</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1942">1942</unitdate></did>
           <odd>
             <p>(1-4)</p>
           </odd>
@@ -209,10 +196,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1943-01/1943-04">January-April 1943</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1943-01/1943-04">January-April 1943</unitdate></did>
           <odd>
             <p>(1-5)</p>
           </odd>
@@ -220,10 +204,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1943-05/1943-07">May-July 1943</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1943-05/1943-07">May-July 1943</unitdate></did>
           <odd>
             <p>(1-6)</p>
           </odd>
@@ -231,10 +212,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1943-08/1943-12">August-December 1943</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1943-08/1943-12">August-December 1943</unitdate></did>
           <odd>
             <p>(1-7)</p>
           </odd>
@@ -242,10 +220,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1944">1944</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1944">1944</unitdate></did>
           <odd>
             <p>(1-8)</p>
           </odd>
@@ -253,10 +228,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1945-01/1945-08">January-August 1945</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1945-01/1945-08">January-August 1945</unitdate></did>
           <odd>
             <p>(1-9)</p>
           </odd>
@@ -264,8 +236,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>World War II <unitdate>undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>World War II</unittitle><unitdate>undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -276,10 +247,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1946">1946</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1946">1946</unitdate></did>
           <odd>
             <p>(1-12)</p>
           </odd>
@@ -287,10 +255,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1947">1947</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1947">1947</unitdate></did>
           <odd>
             <p>(1-13)</p>
           </odd>
@@ -298,10 +263,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1948">1948</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1948">1948</unitdate></did>
           <odd>
             <p>(1-14)</p>
           </odd>
@@ -309,10 +271,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1949">1949</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1949">1949</unitdate></did>
           <odd>
             <p>(1-15)</p>
           </odd>
@@ -320,10 +279,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950">1950</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1950">1950</unitdate></did>
           <odd>
             <p>(1-16)</p>
           </odd>
@@ -331,10 +287,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951">1951</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1951">1951</unitdate></did>
           <odd>
             <p>(1-17)</p>
           </odd>
@@ -342,10 +295,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1952">1952</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1952">1952</unitdate></did>
           <odd>
             <p>(1-18)</p>
           </odd>
@@ -353,10 +303,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953">1953</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1953">1953</unitdate></did>
           <odd>
             <p>(1-19)</p>
           </odd>
@@ -364,10 +311,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954-01/1954-08">January-August 1954</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1954-01/1954-08">January-August 1954</unitdate></did>
           <odd>
             <p>(1-20)</p>
           </odd>
@@ -375,10 +319,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954-09/1954-12">September-December 1954</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1954-09/1954-12">September-December 1954</unitdate></did>
           <odd>
             <p>(1-21)</p>
           </odd>
@@ -386,10 +327,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1955">1955</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1955">1955</unitdate></did>
           <odd>
             <p>(1-22)</p>
           </odd>
@@ -397,10 +335,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956-01/1956-06">January-June 1956</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1956-01/1956-06">January-June 1956</unitdate></did>
           <odd>
             <p>(1-23)</p>
           </odd>
@@ -408,10 +343,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956-07/1956-12">July-December 1956</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1956-07/1956-12">July-December 1956</unitdate></did>
           <odd>
             <p>(1-24)</p>
           </odd>
@@ -419,10 +351,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957-01/1957-04">January-April 1957</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1957-01/1957-04">January-April 1957</unitdate></did>
           <odd>
             <p>(1-25)</p>
           </odd>
@@ -430,10 +359,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957-05/1957-08">May-August 1957</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1957-05/1957-08">May-August 1957</unitdate></did>
           <odd>
             <p>(1-26)</p>
           </odd>
@@ -441,10 +367,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957-09/1957-12">September-December 1957</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1957-09/1957-12">September-December 1957</unitdate></did>
           <odd>
             <p>(1-27)</p>
           </odd>
@@ -452,10 +375,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1959-01/1959-06">January-June 1959</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1959-01/1959-06">January-June 1959</unitdate></did>
           <odd>
             <p>(1-29)</p>
           </odd>
@@ -463,10 +383,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1959-07/1959-12">July-December 1959</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1959-07/1959-12">July-December 1959</unitdate></did>
           <odd>
             <p>(1-30)</p>
           </odd>
@@ -474,10 +391,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1960-01/1960-04">January-April 1960</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1960-01/1960-04">January-April 1960</unitdate></did>
           <odd>
             <p>(1-31)</p>
           </odd>
@@ -485,10 +399,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1960-05/1960-12">May-December 1960</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1960-05/1960-12">May-December 1960</unitdate></did>
           <odd>
             <p>(1-32)</p>
           </odd>
@@ -496,10 +407,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1961-01/1961-06">January-June 1961</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1961-01/1961-06">January-June 1961</unitdate></did>
           <odd>
             <p>(1-33)</p>
           </odd>
@@ -507,10 +415,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1961-07/1961-12">July-December 1961</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1961-07/1961-12">July-December 1961</unitdate></did>
           <odd>
             <p>(1-34)</p>
           </odd>
@@ -518,10 +423,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1962-01/1962-04">January-April 1962</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1962-01/1962-04">January-April 1962</unitdate></did>
           <odd>
             <p>(1-35)</p>
           </odd>
@@ -529,10 +431,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1962-05/1962-09">May-September 1962</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1962-05/1962-09">May-September 1962</unitdate></did>
           <odd>
             <p>(1-36)</p>
           </odd>
@@ -540,10 +439,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1962-10/1962-12">October-December 1962</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1962-10/1962-12">October-December 1962</unitdate></did>
           <odd>
             <p>(1-37)</p>
           </odd>
@@ -551,10 +447,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963-01/1963-03">January-March 1963</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1963-01/1963-03">January-March 1963</unitdate></did>
           <odd>
             <p>(1-38)</p>
           </odd>
@@ -562,10 +455,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963-04/1963-09">April-September 1963</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1963-04/1963-09">April-September 1963</unitdate></did>
           <odd>
             <p>(1-39)</p>
           </odd>
@@ -573,10 +463,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963-10/1963-12">October-December 1963</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1963-10/1963-12">October-December 1963</unitdate></did>
           <odd>
             <p>(1-40)</p>
           </odd>
@@ -584,10 +471,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1964-01/1964-03">January-March 1964</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1964-01/1964-03">January-March 1964</unitdate></did>
           <odd>
             <p>(1-41)</p>
           </odd>
@@ -595,10 +479,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1964-04/1964-07">April-July 1964</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1964-04/1964-07">April-July 1964</unitdate></did>
           <odd>
             <p>(1-42)</p>
           </odd>
@@ -606,10 +487,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1964-08/1964-12">August-December 1964</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1964-08/1964-12">August-December 1964</unitdate></did>
           <odd>
             <p>(1-43)</p>
           </odd>
@@ -617,10 +495,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1965">1965</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1965">1965</unitdate></did>
           <odd>
             <p>(1-44)</p>
           </odd>
@@ -628,10 +503,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966">1966</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1966">1966</unitdate></did>
           <odd>
             <p>(1-45)</p>
           </odd>
@@ -639,10 +511,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0881054074469462196075]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1967">1967</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1967">1967</unitdate></did>
           <odd>
             <p>(1-46)</p>
           </odd>
@@ -650,10 +519,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968-01/1968-03">January-March 1968</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1968-01/1968-03">January-March 1968</unitdate></did>
           <odd>
             <p>(2-1)</p>
           </odd>
@@ -661,10 +527,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968-04">April 1968</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1968-04">April 1968</unitdate></did>
           <odd>
             <p>(2-2)</p>
           </odd>
@@ -672,10 +535,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968-05/1968-06">May-June 1968</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1968-05/1968-06">May-June 1968</unitdate></did>
           <odd>
             <p>(2-3)</p>
           </odd>
@@ -683,10 +543,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968-07/1968-08">July-August 1968</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1968-07/1968-08">July-August 1968</unitdate></did>
           <odd>
             <p>(2-4)</p>
           </odd>
@@ -694,10 +551,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968-09/1968-12">September-December 1968</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1968-09/1968-12">September-December 1968</unitdate></did>
           <odd>
             <p>(2-5)</p>
           </odd>
@@ -705,10 +559,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969-01/1969-03">January-March 1969</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1969-01/1969-03">January-March 1969</unitdate></did>
           <odd>
             <p>(2-6)</p>
           </odd>
@@ -716,10 +567,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969-04">April 1969</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1969-04">April 1969</unitdate></did>
           <odd>
             <p>(2-7)</p>
           </odd>
@@ -727,10 +575,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969-05/1969-07">May-July 1969</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1969-05/1969-07">May-July 1969</unitdate></did>
           <odd>
             <p>(2-8)</p>
           </odd>
@@ -738,10 +583,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969-08/1969-09">August-September 1969</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1969-08/1969-09">August-September 1969</unitdate></did>
           <odd>
             <p>(2-9)</p>
           </odd>
@@ -749,10 +591,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969-10/1969-11">October-November 1969</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1969-10/1969-11">October-November 1969</unitdate></did>
           <odd>
             <p>(2-10)</p>
           </odd>
@@ -760,10 +599,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969-12">December 1969</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1969-12">December 1969</unitdate></did>
           <odd>
             <p>(2-11)</p>
           </odd>
@@ -771,10 +607,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970-01/1970-08">January-August 1970</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1970-01/1970-08">January-August 1970</unitdate></did>
           <odd>
             <p>(2-12)</p>
           </odd>
@@ -782,10 +615,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970-09/1970-12">September-December 1970</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1970-09/1970-12">September-December 1970</unitdate></did>
           <odd>
             <p>(2-13)</p>
           </odd>
@@ -793,10 +623,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1971">1971</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1971">1971</unitdate></did>
           <odd>
             <p>(2-14)</p>
           </odd>
@@ -804,10 +631,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1972">1972</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1972">1972</unitdate></did>
           <odd>
             <p>(2-15)</p>
           </odd>
@@ -815,10 +639,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></did>
           <odd>
             <p>(2-16)</p>
           </odd>
@@ -826,10 +647,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>
-              <unitdate>Undated</unitdate>
-            </unittitle>
-          </did>
+            <unitdate>Undated</unitdate></did>
           <odd>
             <p>(2-17)</p>
           </odd>
@@ -859,14 +677,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>Cave-ins, Ironwood area <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-          </did>
+            <unittitle>Cave-ins, Ironwood area</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>Fire in Ironwood business section <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-          </did>
+            <unittitle>Fire in Ironwood business section</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -916,8 +732,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>Iron ore booklet revision ideas <unitdate type="inclusive" normal="1961-07-14">July 14, 1961</unitdate></unittitle>
-          </did>
+            <unittitle>Iron ore booklet revision ideas</unittitle><unitdate type="inclusive" normal="1961-07-14">July 14, 1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1000,8 +815,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [264017744155211504065]">2</container>
-            <unittitle>Mining-General, including exploration <unitdate type="inclusive" normal="1863">1863</unitdate>, <unitdate type="inclusive" normal="1866">1866</unitdate></unittitle>
-          </did>
+            <unittitle>Mining-General, including exploration</unittitle><unitdate type="inclusive" normal="1863">1863</unitdate><unitdate type="inclusive" normal="1866">1866</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1086,14 +900,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [24365442768870838285]">3</container>
-            <unittitle>Miscellanea re service in part as county auditor and with the state welfare commission <unitdate type="inclusive" normal="1934/1940">1934-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Miscellanea re service in part as county auditor and with the state welfare commission</unittitle><unitdate type="inclusive" normal="1934/1940">1934-1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [24365442768870838285]">3</container>
-            <unittitle>Testimony given the matter of the Petition for the Removal of R. B. Wortley, Roderick McDonald and Hjalmer Turpeinen, as members of the Gogebic County Road Commission <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-          </did>
+            <unittitle>Testimony given the matter of the Petition for the Removal of R. B. Wortley, Roderick McDonald and Hjalmer Turpeinen, as members of the Gogebic County Road Commission</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
           <odd>
             <p>(Lemmer testified as county auditor)</p>
           </odd>
@@ -1125,10 +937,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [843152438800169]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958">1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1958">1958</unitdate></did>
             <odd>
               <p>(4-7)</p>
             </odd>
@@ -1136,10 +945,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [843152438800169]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959">1959</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959">1959</unitdate></did>
             <odd>
               <p>(4-8)</p>
             </odd>
@@ -1147,10 +953,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [843152438800169]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960">1960</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960">1960</unitdate></did>
             <odd>
               <p>(4-9)</p>
             </odd>
@@ -1158,10 +961,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [843152438800169]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961">1961</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961">1961</unitdate></did>
             <odd>
               <p>(4-10)</p>
             </odd>
@@ -1169,10 +969,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [843152438800169]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962">1962</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1962">1962</unitdate></did>
             <odd>
               <p>(4-11)</p>
             </odd>
@@ -1185,10 +982,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [843152438800169]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1957">1957</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1957">1957</unitdate></did>
             <odd>
               <p>(4-12)</p>
             </odd>
@@ -1196,10 +990,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [843152438800169]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958">1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1958">1958</unitdate></did>
             <odd>
               <p>(4-13)</p>
             </odd>
@@ -1207,10 +998,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [843152438800169]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959">1959</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959">1959</unitdate></did>
             <odd>
               <p>(4-14)</p>
             </odd>
@@ -1223,10 +1011,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [843152438800169]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1940/1970">1940-1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1940/1970">1940-1970</unitdate></did>
             <odd>
               <p>(4-15)</p>
             </odd>
@@ -1234,8 +1019,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [843152438800169]">4</container>
-              <unittitle><unitdate type="inclusive" normal="1950">1950</unitdate> census</unittitle>
-              <physdesc>
+              <unittitle>Census</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate><physdesc>
                 <physfacet>in black binder</physfacet>
               </physdesc>
             </did>
@@ -1243,8 +1027,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [843152438800169]">4</container>
-              <unittitle><unitdate type="inclusive" normal="1960">1960</unitdate> census</unittitle>
-            </did>
+              <unittitle>Census</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
             <odd>
               <p>(4-16)</p>
             </odd>
@@ -1252,8 +1035,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [843152438800169]">4</container>
-              <unittitle><unitdate type="inclusive" normal="1960">1960</unitdate> study</unittitle>
-              <physdesc>
+              <unittitle>Study</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate><physdesc>
                 <physfacet>in brown binder</physfacet>
               </physdesc>
             </did>
@@ -1271,8 +1053,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [843152438800169]">4</container>
-            <unittitle>Gogebic School Finances <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic School Finances</unittitle><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
           <odd>
             <p>(4-18)</p>
           </odd>
@@ -1280,8 +1061,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [843152438800169]">4</container>
-            <unittitle>Gogebic Planning Commission, Mineral Committee <unitdate type="inclusive" normal="1962-03-21">March 21, 1962</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic Planning Commission, Mineral Committee</unittitle><unitdate type="inclusive" normal="1962-03-21">March 21, 1962</unitdate></did>
           <odd>
             <p>(4-18a)</p>
           </odd>
@@ -1289,8 +1069,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [843152438800169]">4</container>
-            <unittitle>Gogebic County School Finances <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County School Finances</unittitle><unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
           <odd>
             <p>(4-19)</p>
           </odd>
@@ -1298,8 +1077,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [843152438800169]">4</container>
-            <unittitle>Gogebic County School Finances, Miscellaneous <unitdate type="inclusive" normal="1950/1965">1950-1965</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County School Finances, Miscellaneous</unittitle><unitdate type="inclusive" normal="1950/1965">1950-1965</unitdate></did>
           <odd>
             <p>(4-20)</p>
           </odd>
@@ -1316,8 +1094,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [843152438800169]">4</container>
-            <unittitle>Freedom Forum XVIII <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Freedom Forum XVIII</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1328,8 +1105,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Gogebic County Schools, Miscellaneous <unitdate type="inclusive" normal="1955/1969" certainty="approximate">1955-1960s</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County Schools, Miscellaneous</unittitle><unitdate type="inclusive" normal="1955/1969" certainty="approximate">1955-1960s</unitdate></did>
           <odd>
             <p>(5-1)</p>
           </odd>
@@ -1346,8 +1122,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Final Tax Valuations for Gogebic &amp; Iron Counties <unitdate type="inclusive" normal="1940/1954">1940-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Final Tax Valuations for Gogebic &amp; Iron Counties</unittitle><unitdate type="inclusive" normal="1940/1954">1940-1954</unitdate></did>
           <odd>
             <p>(5-3)</p>
           </odd>
@@ -1355,8 +1130,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Gogebic County Equalization Study <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County Equalization Study</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
           <odd>
             <p>(5-4)</p>
           </odd>
@@ -1364,8 +1138,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Gogebic County, Reports of Committee on Apportionment <unitdate type="inclusive" normal="1954/1972">1954-1972</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County, Reports of Committee on Apportionment</unittitle><unitdate type="inclusive" normal="1954/1972">1954-1972</unitdate></did>
           <odd>
             <p>(5-5)</p>
           </odd>
@@ -1373,8 +1146,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Gogebic County, Miscellaneous Revenue &amp; Tax Data <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County, Miscellaneous Revenue &amp; Tax Data</unittitle><unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></did>
           <odd>
             <p>(5-6)</p>
           </odd>
@@ -1382,8 +1154,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Gogebic County Tax Treatise <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County Tax Treatise</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           <odd>
             <p>(5-7)</p>
           </odd>
@@ -1391,8 +1162,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Gogebic County Tax Treatise <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County Tax Treatise</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
           <odd>
             <p>(5-8)</p>
           </odd>
@@ -1400,8 +1170,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>All Michigan Counties, Valuations <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <unittitle>All Michigan Counties, Valuations</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
           <odd>
             <p>(5-9)</p>
           </odd>
@@ -1409,8 +1178,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Gogebic County, Tax Treatise <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County, Tax Treatise</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
           <odd>
             <p>(5-10)</p>
           </odd>
@@ -1418,8 +1186,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Gogebic County Tax Compilation <unitdate type="inclusive" normal="1950/1959">1950-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County Tax Compilation</unittitle><unitdate type="inclusive" normal="1950/1959">1950-1959</unitdate></did>
           <odd>
             <p>(5-11)</p>
           </odd>
@@ -1427,8 +1194,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Gogebic County, Twenty Year Tax Treatise <unitdate type="inclusive" normal="1940/1959">1940-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County, Twenty Year Tax Treatise</unittitle><unitdate type="inclusive" normal="1940/1959">1940-1959</unitdate></did>
           <odd>
             <p>(5-12)</p>
           </odd>
@@ -1436,8 +1202,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Gogebic County Budgets <unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County Budgets</unittitle><unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></did>
           <odd>
             <p>(5-13)</p>
           </odd>
@@ -1445,8 +1210,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Miscellaneous Tax Data <unitdate type="inclusive" normal="1950/1962">1950-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Miscellaneous Tax Data</unittitle><unitdate type="inclusive" normal="1950/1962">1950-1962</unitdate></did>
           <odd>
             <p>(5-14)</p>
           </odd>
@@ -1454,8 +1218,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Valuation of All Mines in Gogebic County <unitdate type="inclusive" normal="1940/1954">1940-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Valuation of All Mines in Gogebic County</unittitle><unitdate type="inclusive" normal="1940/1954">1940-1954</unitdate></did>
           <odd>
             <p>(5-15)</p>
           </odd>
@@ -1463,8 +1226,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Pickands Mather &amp; Co. Taxes <unitdate type="inclusive" normal="1958/1962">1958-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Pickands Mather &amp; Co. Taxes</unittitle><unitdate type="inclusive" normal="1958/1962">1958-1962</unitdate></did>
           <odd>
             <p>(5-16)</p>
           </odd>
@@ -1472,8 +1234,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Review of Taxation of Michigan Mines <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-          </did>
+            <unittitle>Review of Taxation of Michigan Mines</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           <odd>
             <p>(5-17)</p>
           </odd>
@@ -1481,8 +1242,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Gogebic County, Taxes on Mining &amp; Non-mining Property <unitdate type="inclusive" normal="1953/1959">1953-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County, Taxes on Mining &amp; Non-mining Property</unittitle><unitdate type="inclusive" normal="1953/1959">1953-1959</unitdate></did>
           <odd>
             <p>(5-18)</p>
           </odd>
@@ -1490,8 +1250,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Michigan Iron &amp; Copper Mine Valuations <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Iron &amp; Copper Mine Valuations</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
           <odd>
             <p>(5-19)</p>
           </odd>
@@ -1499,8 +1258,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Michigan Iron &amp; Copper Mine Valuations <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Iron &amp; Copper Mine Valuations</unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
           <odd>
             <p>(5-20)</p>
           </odd>
@@ -1508,8 +1266,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Miscellaneous Mining Tax Data <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></unittitle>
-          </did>
+            <unittitle>Miscellaneous Mining Tax Data</unittitle><unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></did>
           <odd>
             <p>(5-21)</p>
           </odd>
@@ -1517,8 +1274,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Cost &amp; Production of Michigan Iron Mines <unitdate type="inclusive" normal="1944/1952">1944-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Cost &amp; Production of Michigan Iron Mines</unittitle><unitdate type="inclusive" normal="1944/1952">1944-1952</unitdate></did>
           <odd>
             <p>(5-22)</p>
           </odd>
@@ -1526,8 +1282,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Cost &amp; Production of Michigan Iron Mines <unitdate type="inclusive" normal="1953/1958">1953-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Cost &amp; Production of Michigan Iron Mines</unittitle><unitdate type="inclusive" normal="1953/1958">1953-1958</unitdate></did>
           <odd>
             <p>(5-23)</p>
           </odd>
@@ -1535,8 +1290,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Cost &amp; Production of Michigan Iron Mines <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Cost &amp; Production of Michigan Iron Mines</unittitle><unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate></did>
           <odd>
             <p>(5-24)</p>
           </odd>
@@ -1544,8 +1298,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Cost &amp; Production of Michigan Iron Mines <unitdate type="inclusive" normal="1963/1968">1963-1968</unitdate></unittitle>
-          </did>
+            <unittitle>Cost &amp; Production of Michigan Iron Mines</unittitle><unitdate type="inclusive" normal="1963/1968">1963-1968</unitdate></did>
           <odd>
             <p>(5-25)</p>
           </odd>
@@ -1553,8 +1306,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Iron Ore Shipments <unitdate type="inclusive" normal="1854/1968">1854-1968</unitdate></unittitle>
-          </did>
+            <unittitle>Iron Ore Shipments</unittitle><unitdate type="inclusive" normal="1854/1968">1854-1968</unitdate></did>
           <odd>
             <p>(5-26)</p>
           </odd>
@@ -1562,8 +1314,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [422576064518056986892]">5</container>
-            <unittitle>Two Mining Leases <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Two Mining Leases</unittitle><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
           <odd>
             <p>(5-27)</p>
           </odd>
@@ -1571,8 +1322,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7051576431269547]">6</container>
-            <unittitle>Mineral Resources of Michigan <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-          </did>
+            <unittitle>Mineral Resources of Michigan</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
           <odd>
             <p>(6-1)</p>
           </odd>
@@ -1580,8 +1330,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7051576431269547]">6</container>
-            <unittitle>Michigan's Mineral Industry <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan's Mineral Industry</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           <odd>
             <p>(6-2)</p>
           </odd>
@@ -1589,8 +1338,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7051576431269547]">6</container>
-            <unittitle>Michigan's Mineral Industry <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan's Mineral Industry</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           <odd>
             <p>(6-3)</p>
           </odd>
@@ -1598,8 +1346,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7051576431269547]">6</container>
-            <unittitle>Michigan's Mineral Industry <unitdate type="inclusive" normal="1964">1964</unitdate>, <unitdate type="inclusive" normal="1965">1965</unitdate>, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan's Mineral Industry</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate><unitdate type="inclusive" normal="1965">1965</unitdate><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           <odd>
             <p>(6-4)</p>
           </odd>
@@ -1607,8 +1354,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7051576431269547]">6</container>
-            <unittitle>Gogebic County Economic and Physical Planning <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County Economic and Physical Planning</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           <odd>
             <p>(6-5)</p>
           </odd>
@@ -1625,8 +1371,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7051576431269547]">6</container>
-            <unittitle>Report on Iron Mining ... Gogebic Iron Range <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Report on Iron Mining ... Gogebic Iron Range</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           <odd>
             <p>(6-7)</p>
           </odd>
@@ -1634,8 +1379,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7051576431269547]">6</container>
-            <unittitle>Competitive Position of Lake Superior Iron Ore <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <unittitle>Competitive Position of Lake Superior Iron Ore</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
           <odd>
             <p>(6-8)</p>
           </odd>
@@ -1643,8 +1387,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7051576431269547]">6</container>
-            <unittitle>Operation Gladstone <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Operation Gladstone</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           <odd>
             <p>(6-9)</p>
           </odd>
@@ -1682,8 +1425,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7051576431269547]">6</container>
-            <unittitle>Summer Conference of the Michigan Historical Commission <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-          </did>
+            <unittitle>Summer Conference of the Michigan Historical Commission</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
           <odd>
             <p>(6-16)</p>
           </odd>
@@ -2054,8 +1796,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [114169479984636917]">7</container>
-            <unittitle>Ironwood, History of the School District ... <unitdate type="inclusive" normal="1885/1926">1885-1926</unitdate> by J.S. Monroe</unittitle>
-          </did>
+            <unittitle>Ironwood, History of the School District ...  by J.S. Monroe</unittitle><unitdate type="inclusive" normal="1885/1926">1885-1926</unitdate></did>
           <odd>
             <p>(7-35)</p>
           </odd>
@@ -2267,8 +2008,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [39566006421633622943]">8</container>
-            <unittitle>Ottawa National Forest, Fact Sheets <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-          </did>
+            <unittitle>Ottawa National Forest, Fact Sheets</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           <odd>
             <p>(8-13)</p>
           </odd>
@@ -2408,8 +2148,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>Gogebic County, Grand Jury Investigation of County Government <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County, Grand Jury Investigation of County Government</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
           <odd>
             <p>(9-1)</p>
           </odd>
@@ -2417,8 +2156,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>Gogebic County, Township Boundaries <unitdate type="inclusive" normal="1864/1885">1864-1885</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County, Township Boundaries</unittitle><unitdate type="inclusive" normal="1864/1885">1864-1885</unitdate></did>
           <odd>
             <p>(9-2)</p>
           </odd>
@@ -2426,8 +2164,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>Gogebic County, Miscellaneous Government Finance <unitdate type="inclusive" normal="1902/1936">1902-1936</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County, Miscellaneous Government Finance</unittitle><unitdate type="inclusive" normal="1902/1936">1902-1936</unitdate></did>
           <odd>
             <p>(9-3)</p>
           </odd>
@@ -2435,8 +2172,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>Gogebic County, Miscellaneous Government Correspondence &amp; Legal Documents <unitdate type="inclusive" normal="1873/1917">1873-1917</unitdate></unittitle>
-          </did>
+            <unittitle>Gogebic County, Miscellaneous Government Correspondence &amp; Legal Documents</unittitle><unitdate type="inclusive" normal="1873/1917">1873-1917</unitdate></did>
           <odd>
             <p>(9-4)</p>
           </odd>
@@ -2444,8 +2180,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>Iron Mining Analysis of Steel &amp; Tube Company of America <unitdate type="inclusive" normal="1911/1920">1911-1920</unitdate></unittitle>
-          </did>
+            <unittitle>Iron Mining Analysis of Steel &amp; Tube Company of America</unittitle><unitdate type="inclusive" normal="1911/1920">1911-1920</unitdate></did>
           <odd>
             <p>(9-5)</p>
           </odd>
@@ -2453,8 +2188,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>Iron Mining, Miscellaneous <unitdate type="inclusive" normal="1890/1921">1890-1921</unitdate></unittitle>
-          </did>
+            <unittitle>Iron Mining, Miscellaneous</unittitle><unitdate type="inclusive" normal="1890/1921">1890-1921</unitdate></did>
           <odd>
             <p>(9-6)</p>
           </odd>
@@ -2462,8 +2196,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>Lands, Miscellaneous <unitdate type="inclusive" normal="1862/1938">1862-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Lands, Miscellaneous</unittitle><unitdate type="inclusive" normal="1862/1938">1862-1938</unitdate></did>
           <odd>
             <p>(9-7)</p>
           </odd>
@@ -2471,8 +2204,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>Lubben Estate, Appraisal of <unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate></unittitle>
-          </did>
+            <unittitle>Lubben Estate, Appraisal of</unittitle><unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate></did>
           <odd>
             <p>(9-8)</p>
           </odd>
@@ -2480,8 +2212,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>D.H. Merritt, Property Records <unitdate type="inclusive" normal="1885/1894">1885-1894</unitdate></unittitle>
-          </did>
+            <unittitle>D.H. Merritt, Property Records</unittitle><unitdate type="inclusive" normal="1885/1894">1885-1894</unitdate></did>
           <odd>
             <p>(9-9)</p>
           </odd>
@@ -2489,8 +2220,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>D.H. Merritt, Property Records <unitdate type="inclusive" normal="1895/1915">1895-1915</unitdate></unittitle>
-          </did>
+            <unittitle>D.H. Merritt, Property Records</unittitle><unitdate type="inclusive" normal="1895/1915">1895-1915</unitdate></did>
           <odd>
             <p>(9-10)</p>
           </odd>
@@ -2498,8 +2228,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>D.H. Merritt, and C.H. Call, Bessemer Lots <unitdate type="inclusive" normal="1898">1898</unitdate></unittitle>
-          </did>
+            <unittitle>D.H. Merritt, and C.H. Call, Bessemer Lots</unittitle><unitdate type="inclusive" normal="1898">1898</unitdate></did>
           <odd>
             <p>(9-11)</p>
           </odd>
@@ -2507,8 +2236,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>Military Road, Petition for Route Change <unitdate type="inclusive" normal="1867">1867</unitdate></unittitle>
-          </did>
+            <unittitle>Military Road, Petition for Route Change</unittitle><unitdate type="inclusive" normal="1867">1867</unitdate></did>
           <odd>
             <p>(9-12)</p>
           </odd>
@@ -2516,8 +2244,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>Social Welfare, Analysis of State Department of <unitdate type="inclusive" normal="1940" certainty="approximate">circa 1940</unitdate></unittitle>
-          </did>
+            <unittitle>Social Welfare, Analysis of State Department of</unittitle><unitdate type="inclusive" normal="1940" certainty="approximate">circa 1940</unitdate></did>
           <odd>
             <p>(9-13)</p>
           </odd>
@@ -2531,8 +2258,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42813174149574543051]">9</container>
-            <unittitle>Scrapbooks re Michigan Week activities <unitdate type="inclusive" normal="1955">1955</unitdate>, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Scrapbooks re Michigan Week activities</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate><unitdate type="inclusive" normal="1957">1957</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
@@ -2548,8 +2274,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7317789643946367125977]">10</container>
-            <unittitle>AB thesis from Notre Dame University re proposed child labor amendment <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
-          </did>
+            <unittitle>AB thesis from Notre Dame University re proposed child labor amendment</unittitle><unitdate type="inclusive" normal="1926">1926</unitdate></did>
           <odd>
             <p>(10-1)</p>
           </odd>
@@ -2660,8 +2385,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7317789643946367125977]">10</container>
-              <unittitle>Historical Facts for Gogebic County: Michigan Week <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <unittitle>Historical Facts for Gogebic County: Michigan Week</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
             <odd>
               <p>(10-13)</p>
             </odd>
@@ -3011,8 +2735,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7317789643946367125977]">10</container>
-              <unittitle>Iron Industry (untitled) <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Iron Industry (untitled)</unittitle><unitdate>undated</unitdate></did>
             <odd>
               <p>(10-52)</p>
             </odd>
@@ -3025,10 +2748,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7317789643946367125977]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1929/1947">1929-1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1929/1947">1929-1947</unitdate></did>
             <odd>
               <p>(10-53)</p>
             </odd>
@@ -3036,10 +2756,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7317789643946367125977]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate></did>
             <odd>
               <p>(10-54)</p>
             </odd>
@@ -3047,10 +2764,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7317789643946367125977]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></did>
             <odd>
               <p>(10-55)</p>
             </odd>
@@ -3058,10 +2772,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7317789643946367125977]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958">1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1958">1958</unitdate></did>
             <odd>
               <p>(10-56)</p>
             </odd>
@@ -3069,10 +2780,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7317789643946367125977]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959-01/1959-06">January-June 1959</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959-01/1959-06">January-June 1959</unitdate></did>
             <odd>
               <p>(10-57)</p>
             </odd>
@@ -3080,10 +2788,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7317789643946367125977]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959-07/1959-12">July-December 1959</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959-07/1959-12">July-December 1959</unitdate></did>
             <odd>
               <p>(10-58)</p>
             </odd>
@@ -3091,10 +2796,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7317789643946367125977]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
             <odd>
               <p>(10-59)</p>
             </odd>
@@ -3102,10 +2804,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7317789643946367125977]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></did>
             <odd>
               <p>(10-60)</p>
             </odd>
@@ -3113,10 +2812,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7317789643946367125977]">10</container>
-              <unittitle>
-                <unitdate>Undated</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate>Undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>

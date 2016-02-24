@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80045123">Cleage, Albert B.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80045123" ref="/agents/people/2901">Cleage, Albert B.</persname>
       </origination>
-      <unittitle encodinganalog="245">Albert B. Cleage Jr. papers [microform] <unitdate type="inclusive" encodinganalog="245$f" normal="1949/2005">1949-2005</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07107 mf 544c – mf 562c</unitid>
+      <unittitle encodinganalog="245">Albert B. Cleage Jr. papers [microform]</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1949/2005">1949-2005</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07107 mf 544c – mf 562c</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Detroit, Michigan clergyman, pastor at St. Mark's Presbyterian Church, which later became Central Congregational Church. In the 1960s, Cleage and his congregation began restructuring the church's rituals, programs, and theology to conform to the Black Christian Nationalist philosophy. In 1970, the church was renamed the Shrine of the Black Madonna. The collection contains correspondence, sermons, and writings of Albert B. Cleage, Jr. (his name would later be changed to Jaramogi Abebe Agyeman); records of the shrine of the Black Madonna; papers of individuals within the church who assisted Cleage; and records of the National Office of the Shrine.</abstract>
       <physdesc altrender="whole">
@@ -91,23 +91,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">African American clergy--Michigan--Detroit.</subject>
-        <subject source="lcsh" encodinganalog="650">African Americans--Michigan--Detroit.</subject>
-        <subject source="lcsh" encodinganalog="650">African Americans--Race identity.</subject>
-        <subject source="lcsh" encodinganalog="650">Black nationalism--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Black theology.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Central Congregational Church (Detroit, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80045123">Cleage, Albert B.</persname>
-        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Church history.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Jesus Christ--African American interpretations.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n00088148">Pan African Orthodox Christian Church.</corpname>
-        <subject source="lcsh" encodinganalog="650">Race relations--Religious aspects--Christianity--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Shrine of the Black Madonna (Detroit, Mich.)</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. Mark's Congregational Church (Detroit, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6851">African American clergy--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5915">African Americans--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6852">African Americans--Race identity.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6853">Black nationalism--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6854">Black theology.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/144">Central Congregational Church (Detroit, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80045123" ref="/agents/people/2901">Cleage, Albert B.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/948">Detroit (Mich.)--Church history.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6437">Jesus Christ--African American interpretations.<term type="topical">African American interpretations.</term></persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n00088148" ref="/agents/corporate_entities/4296">Pan African Orthodox Christian Church.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6855">Race relations--Religious aspects--Christianity--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6856">Shrine of the Black Madonna (Detroit, Mich.)</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3913">St. Mark's Congregational Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -125,58 +125,37 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963">1963</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966">1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967">1967</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968">1968</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1968">1968</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -184,10 +163,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969">1969</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1969">1969</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -195,42 +171,27 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970">1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1971">1971</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1978">1978</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1978">1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive">Undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -240,408 +201,331 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>Biographical Data <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Biographical Data</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>Memorials, obituaries, tributes to Jaramogi Abebe Agyeman <unitdate type="inclusive" normal="2000-02">February 2000</unitdate></unittitle>
-            </did>
+              <unittitle>Memorials, obituaries, tributes to Jaramogi Abebe Agyeman</unittitle><unitdate type="inclusive" normal="2000-02">February 2000</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>Articles about Cleage and his church <unitdate type="inclusive" normal="1950/2004">1950-2004</unitdate></unittitle>
-            </did>
+              <unittitle>Articles about Cleage and his church</unittitle><unitdate type="inclusive" normal="1950/2004">1950-2004</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [33556801745936393334]">1</container>
-              <unittitle>Detroit Board of Education candidacy <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Detroit Board of Education candidacy</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [058279246296511164367]">2</container>
-              <unittitle>Detroit City Council candidacy <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Detroit City Council candidacy</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [058279246296511164367]">2</container>
-              <unittitle>Congressional candidacy <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Congressional candidacy</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [058279246296511164367]">2</container>
-              <unittitle>Cartoon with image of Cleague confronting a Detroit businessman/politician <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Cartoon with image of Cleague confronting a Detroit businessman/politician</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [058279246296511164367]">2</container>
-              <unittitle>St John's Congregational Church, Springfield, Massachusetts <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
-            </did>
+              <unittitle>St John's Congregational Church, Springfield, Massachusetts</unittitle><unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Sermons <unitdate type="inclusive" normal="1970/1990">1970-1990</unitdate> (mimeographed)</unittitle>
-          </did>
+            <unittitle>Sermons  (mimeographed)</unittitle><unitdate type="inclusive" normal="1970/1990">1970-1990</unitdate></did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970">1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970">1970</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Harlem Message <unitdate type="inclusive" normal="1970-08-11">August 11, 1970</unitdate></unittitle>
-              </did>
+                <unittitle>Harlem Message</unittitle><unitdate type="inclusive" normal="1970-08-11">August 11, 1970</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1977">1977</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1977">1977</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Two Worlds <unitdate type="inclusive" normal="1977-08-04">August 4, 1977</unitdate></unittitle>
-              </did>
+                <unittitle>Two Worlds</unittitle><unitdate type="inclusive" normal="1977-08-04">August 4, 1977</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Two Worlds <unitdate type="inclusive" normal="1977-08-11">August 11, 1977</unitdate></unittitle>
-              </did>
+                <unittitle>Two Worlds</unittitle><unitdate type="inclusive" normal="1977-08-11">August 11, 1977</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>A New Heaven and a New Earth <unitdate type="inclusive" normal="1977-12-11">December 11, 1977</unitdate></unittitle>
-              </did>
+                <unittitle>A New Heaven and a New Earth</unittitle><unitdate type="inclusive" normal="1977-12-11">December 11, 1977</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>End of an Era: We Are the Messianic Hope of the Twentieth Century <unitdate type="inclusive" normal="1977-12-25">December 25, 1977</unitdate></unittitle>
-              </did>
+                <unittitle>End of an Era: We Are the Messianic Hope of the Twentieth Century</unittitle><unitdate type="inclusive" normal="1977-12-25">December 25, 1977</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1978">1978</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1978">1978</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>A New Era: <unitdate type="inclusive" normal="1978-01-08">January 8, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>A New Era:</unittitle><unitdate type="inclusive" normal="1978-01-08">January 8, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>New Church for a New Era <unitdate type="inclusive" normal="1978-01-15">January 15, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>New Church for a New Era</unittitle><unitdate type="inclusive" normal="1978-01-15">January 15, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Acting for God <unitdate type="inclusive" normal="1978-01-22">January 22, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Acting for God</unittitle><unitdate type="inclusive" normal="1978-01-22">January 22, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>The Community of Jesus...Today's Messianic Hope <unitdate type="inclusive" normal="1978-01-29">January 29, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>The Community of Jesus...Today's Messianic Hope</unittitle><unitdate type="inclusive" normal="1978-01-29">January 29, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Fruits of the Spirit <unitdate type="inclusive" normal="1978-02-05">February 5, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Fruits of the Spirit</unittitle><unitdate type="inclusive" normal="1978-02-05">February 5, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Sign of Jonah in This Day <unitdate type="inclusive" normal="1978-02-12">February 12, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Sign of Jonah in This Day</unittitle><unitdate type="inclusive" normal="1978-02-12">February 12, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Fragmentary <unitdate type="inclusive" normal="1978-04-02">April 2, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Fragmentary</unittitle><unitdate type="inclusive" normal="1978-04-02">April 2, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Discipline: Second in Series <unitdate type="inclusive" normal="1978-05-14">May 14, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Discipline: Second in Series</unittitle><unitdate type="inclusive" normal="1978-05-14">May 14, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Discipline: Third in Series <unitdate type="inclusive" normal="1978-05-21">May 21, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Discipline: Third in Series</unittitle><unitdate type="inclusive" normal="1978-05-21">May 21, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Prelude to a New Era: Between God and the Devil <unitdate type="inclusive" normal="1978-06-23">June 23, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Prelude to a New Era: Between God and the Devil</unittitle><unitdate type="inclusive" normal="1978-06-23">June 23, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Prelude to a New Era: The New Fantasy <unitdate type="inclusive" normal="1978-06-25">June 25, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Prelude to a New Era: The New Fantasy</unittitle><unitdate type="inclusive" normal="1978-06-25">June 25, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Prelude to a New Era: No Options: Third in Series <unitdate type="inclusive" normal="1978-07-02">July 2, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Prelude to a New Era: No Options: Third in Series</unittitle><unitdate type="inclusive" normal="1978-07-02">July 2, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Prelude to a New Era: Discipline: Fourth in Series <unitdate type="inclusive" normal="1978-07-09">July 9, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Prelude to a New Era: Discipline: Fourth in Series</unittitle><unitdate type="inclusive" normal="1978-07-09">July 9, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Prelude to a New Era: KUA: Fifth in Series <unitdate type="inclusive" normal="1978-07-16">July 16, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Prelude to a New Era: KUA: Fifth in Series</unittitle><unitdate type="inclusive" normal="1978-07-16">July 16, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Climbing Jacob's Ladder <unitdate type="inclusive" normal="1978-08-13">August 13, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Climbing Jacob's Ladder</unittitle><unitdate type="inclusive" normal="1978-08-13">August 13, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Theology of the Group Experience <unitdate type="inclusive" normal="1978-09-24">September 24, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Theology of the Group Experience</unittitle><unitdate type="inclusive" normal="1978-09-24">September 24, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>The Revolutionary Mysticism of Jesus <unitdate type="inclusive" normal="1978-10-01">October 1, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>The Revolutionary Mysticism of Jesus</unittitle><unitdate type="inclusive" normal="1978-10-01">October 1, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Anniversary Month <unitdate type="inclusive" normal="1978-10-22">October 22, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Anniversary Month</unittitle><unitdate type="inclusive" normal="1978-10-22">October 22, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>The Church as a Transforming Community: Conversion #2 <unitdate type="inclusive" normal="1978-11-05">November 5, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>The Church as a Transforming Community: Conversion #2</unittitle><unitdate type="inclusive" normal="1978-11-05">November 5, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>The Church as a Transforming Community: Response to the Holy Spirit <unitdate type="inclusive" normal="1978-11-12">November 12, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>The Church as a Transforming Community: Response to the Holy Spirit</unittitle><unitdate type="inclusive" normal="1978-11-12">November 12, 1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Christianity and the Consciousness Revolution <unitdate type="inclusive" normal="1978-11-19">November 19, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>Christianity and the Consciousness Revolution</unittitle><unitdate type="inclusive" normal="1978-11-19">November 19, 1978</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1979">1979</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1979">1979</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>The Black Dilemma: Drifting <unitdate type="inclusive" normal="1979-03-11">March 11, 1979</unitdate></unittitle>
-              </did>
+                <unittitle>The Black Dilemma: Drifting</unittitle><unitdate type="inclusive" normal="1979-03-11">March 11, 1979</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>The Black Dilemma: You Can't Lie to God <unitdate type="inclusive" normal="1979-03-18">March 18, 1979</unitdate></unittitle>
-              </did>
+                <unittitle>The Black Dilemma: You Can't Lie to God</unittitle><unitdate type="inclusive" normal="1979-03-18">March 18, 1979</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>The Black Dilemma: KUA <unitdate type="inclusive" normal="1979-03-25">March 25, 1979</unitdate></unittitle>
-              </did>
+                <unittitle>The Black Dilemma: KUA</unittitle><unitdate type="inclusive" normal="1979-03-25">March 25, 1979</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>The Black Dilemma: A New Perspective for the Black Struggle <unitdate type="inclusive" normal="1979-04-01">April 1, 1979</unitdate></unittitle>
-              </did>
+                <unittitle>The Black Dilemma: A New Perspective for the Black Struggle</unittitle><unitdate type="inclusive" normal="1979-04-01">April 1, 1979</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>The Black Dilemma: The Triumphal Entry <unitdate type="inclusive" normal="1979-04-08">April 8, 1979</unitdate></unittitle>
-              </did>
+                <unittitle>The Black Dilemma: The Triumphal Entry</unittitle><unitdate type="inclusive" normal="1979-04-08">April 8, 1979</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>The Black Dilemma: And They Believed Them Not <unitdate type="inclusive" normal="1979-04-15">April 15, 1979</unitdate></unittitle>
-              </did>
+                <unittitle>The Black Dilemma: And They Believed Them Not</unittitle><unitdate type="inclusive" normal="1979-04-15">April 15, 1979</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>The Fall of Man <unitdate type="inclusive" normal="1979-06-03">June 3, 1979</unitdate></unittitle>
-              </did>
+                <unittitle>The Fall of Man</unittitle><unitdate type="inclusive" normal="1979-06-03">June 3, 1979</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Orientation Lecture <unitdate type="inclusive" normal="1979-06-04">June 4, 1979</unitdate></unittitle>
-              </did>
+                <unittitle>Orientation Lecture</unittitle><unitdate type="inclusive" normal="1979-06-04">June 4, 1979</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Beyond Rational Consciousness: You Need to Study KUA <unitdate type="inclusive" normal="1979-06-10">June 10, 1979</unitdate></unittitle>
-              </did>
+                <unittitle>Beyond Rational Consciousness: You Need to Study KUA</unittitle><unitdate type="inclusive" normal="1979-06-10">June 10, 1979</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Orientation Lecture <unitdate type="inclusive" normal="1979-06-11">June 11, 1979</unitdate></unittitle>
-              </did>
+                <unittitle>Orientation Lecture</unittitle><unitdate type="inclusive" normal="1979-06-11">June 11, 1979</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Beyond Rational Consciousness: Spiritual Encounters-You Need to Study KUA <unitdate type="inclusive" normal="1979-06-17">June 17, 1979</unitdate></unittitle>
-              </did>
+                <unittitle>Beyond Rational Consciousness: Spiritual Encounters-You Need to Study KUA</unittitle><unitdate type="inclusive" normal="1979-06-17">June 17, 1979</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Beyond Rational Consciousness: The Group Experience <unitdate type="inclusive" normal="1979-06-24">June 24, 1979</unitdate></unittitle>
-              </did>
+                <unittitle>Beyond Rational Consciousness: The Group Experience</unittitle><unitdate type="inclusive" normal="1979-06-24">June 24, 1979</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1981/1990">1981-1990</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1981/1990">1981-1990</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Surviving the 80's Through Christian Service: The Unity of Believers <unitdate type="inclusive" normal="1981-11-19">November 19, 1981</unitdate></unittitle>
-              </did>
+                <unittitle>Surviving the 80's Through Christian Service: The Unity of Believers</unittitle><unitdate type="inclusive" normal="1981-11-19">November 19, 1981</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Transcendence &amp; Transformation Through the Experience of God: Is There No Balm In Gilead? <unitdate type="inclusive" normal="1982-04-22">April 22, 1982</unitdate></unittitle>
-              </did>
+                <unittitle>Transcendence &amp; Transformation Through the Experience of God: Is There No Balm In Gilead?</unittitle><unitdate type="inclusive" normal="1982-04-22">April 22, 1982</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>The Abundant Life: The Art of Living <unitdate type="inclusive" normal="1982-05-25">May 25, 1982</unitdate></unittitle>
-              </did>
+                <unittitle>The Abundant Life: The Art of Living</unittitle><unitdate type="inclusive" normal="1982-05-25">May 25, 1982</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>God Is Power <unitdate type="inclusive" normal="1983-11-13">November 13, 1983</unitdate></unittitle>
-              </did>
+                <unittitle>God Is Power</unittitle><unitdate type="inclusive" normal="1983-11-13">November 13, 1983</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Transforming Community: Struggle for Change #2 <unitdate type="inclusive" normal="1984-03-01">March 1, 1984</unitdate></unittitle>
-              </did>
+                <unittitle>Transforming Community: Struggle for Change #2</unittitle><unitdate type="inclusive" normal="1984-03-01">March 1, 1984</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>Transforming Community: Genesis II -- The Recreation of Man <unitdate type="inclusive" normal="1984-05-06">May 6, 1984</unitdate></unittitle>
-              </did>
+                <unittitle>Transforming Community: Genesis II -- The Recreation of Man</unittitle><unitdate type="inclusive" normal="1984-05-06">May 6, 1984</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>An Introduction to BCN Theology: Personal Change: The Key To Black Liberation <unitdate type="inclusive" normal="1984-08-05">August 5, 1984</unitdate></unittitle>
-              </did>
+                <unittitle>An Introduction to BCN Theology: Personal Change: The Key To Black Liberation</unittitle><unitdate type="inclusive" normal="1984-08-05">August 5, 1984</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>An Introduction to BCN Theology: 2nd in a Series <unitdate type="inclusive" normal="1984-08-12">August 12, 1984</unitdate></unittitle>
-              </did>
+                <unittitle>An Introduction to BCN Theology: 2nd in a Series</unittitle><unitdate type="inclusive" normal="1984-08-12">August 12, 1984</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [058279246296511164367]">2</container>
-                <unittitle>An Introduction to BCN Theology: The Black Man's Inner Conflicts, 3rd in A Series <unitdate type="inclusive" normal="1984-08-19">August 19, 1984</unitdate></unittitle>
-              </did>
+                <unittitle>An Introduction to BCN Theology: The Black Man's Inner Conflicts, 3rd in A Series</unittitle><unitdate type="inclusive" normal="1984-08-19">August 19, 1984</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [14394026748489199408840]">3</container>
-                <unittitle>The Black Nation Israel, Pt. 1 <unitdate type="inclusive" normal="1990-12-02">December 2, 1990</unitdate></unittitle>
-              </did>
+                <unittitle>The Black Nation Israel, Pt. 1</unittitle><unitdate type="inclusive" normal="1990-12-02">December 2, 1990</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [14394026748489199408840]">3</container>
-                <unittitle>Advent Sermon Series: The Messianic Expectations <unitdate type="inclusive" normal="1990-12-09">December 9, 1990</unitdate></unittitle>
-              </did>
+                <unittitle>Advent Sermon Series: The Messianic Expectations</unittitle><unitdate type="inclusive" normal="1990-12-09">December 9, 1990</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [14394026748489199408840]">3</container>
-                <unittitle>Advent Sermon Series: The Ministry of Jesus <unitdate type="inclusive" normal="1990-12-16">December 16, 1990</unitdate></unittitle>
-              </did>
+                <unittitle>Advent Sermon Series: The Ministry of Jesus</unittitle><unitdate type="inclusive" normal="1990-12-16">December 16, 1990</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [14394026748489199408840]">3</container>
-                <unittitle>Advent Sermon Series: The Celebration of Christmas <unitdate type="inclusive" normal="1990-12-23">December 23, 1990</unitdate></unittitle>
-              </did>
+                <unittitle>Advent Sermon Series: The Celebration of Christmas</unittitle><unitdate type="inclusive" normal="1990-12-23">December 23, 1990</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [14394026748489199408840]">3</container>
-              <unittitle><unitdate type="inclusive" normal="1995/1997">1995-1997</unitdate> miscellaneous</unittitle>
-            </did>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1995/1997">1995-1997</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Sermons -- drafts and notes <unitdate type="inclusive" normal="1951/1979">1951-1979</unitdate></unittitle>
-          </did>
+            <unittitle>Sermons -- drafts and notes</unittitle><unitdate type="inclusive" normal="1951/1979">1951-1979</unitdate></did>
           <c03 level="file">
             <did>
               <unittitle>Drafts</unittitle>
@@ -649,33 +533,23 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [14394026748489199408840]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [14394026748489199408840]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [14394026748489199408840]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive">Undated</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [14394026748489199408840]">3</container>
-              <unittitle>Notes <unitdate type="inclusive" normal="1970/1983">1970-1983</unitdate></unittitle>
-            </did>
+              <unittitle>Notes</unittitle><unitdate type="inclusive" normal="1970/1983">1970-1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -684,26 +558,17 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [14394026748489199408840]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1967">1967</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [14394026748489199408840]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968">1968</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [14394026748489199408840]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -711,26 +576,17 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [14394026748489199408840]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1970" certainty="approximate">circa 1970</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1970" certainty="approximate">circa 1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [14394026748489199408840]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1979">1979</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1979">1979</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [14394026748489199408840]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive">Undated</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -765,15 +621,13 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [5118493489572690623102]">4</container>
-              <unittitle>Poetry: Holy Crusade <unitdate type="inclusive" normal="1984">1984</unitdate> Words of Inspiration: Poems of Jaramogi</unittitle>
-            </did>
+              <unittitle>Poetry: Holy Crusade  Words of Inspiration: Poems of Jaramogi</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Shrine of the Black Madonna -- Detroit <unitdate type="inclusive" normal="1953/2000">1953-2000</unitdate>, <unitdate type="bulk" normal="1960/1979" certainty="approximate">1960s-1970s</unitdate></unittitle>
-        </did>
+          <unittitle>Shrine of the Black Madonna -- Detroit</unittitle><unitdate type="inclusive" normal="1953/2000">1953-2000</unitdate><unitdate type="bulk" normal="1960/1979" certainty="approximate">1960s-1970s</unitdate></did>
         <odd>
           <p>(also records of its predecessor Central Congregational Church)</p>
         </odd>
@@ -784,46 +638,30 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Bulletins of church services <unitdate type="inclusive" normal="1953/2007">1953-2007</unitdate> (many gaps)</unittitle>
-          </did>
+            <unittitle>Bulletins of church services  (many gaps)</unittitle><unitdate type="inclusive" normal="1953/2007">1953-2007</unitdate></did>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [5118493489572690623102]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1953/1969">1953-1969</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1953/1969">1953-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [5118493489572690623102]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [5118493489572690623102]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1974/1976-04">1974-April 1976</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1974/1976-04">1974-April 1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [93606807647039081418515]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1976-05/1978-05">May 1976-May 1978</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1976-05/1978-05">May 1976-May 1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1982">1982</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1982">1982</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">12 folders</extent>
               </physdesc>
             </did>
@@ -831,27 +669,17 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [93606807647039081418515]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [65615428547086834]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [65615428547086834]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2000/2009" certainty="approximate">2000s</unitdate>
-                <unitdate type="inclusive" normal="2000/2007">2000-2007</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="2000/2009" certainty="approximate">2000s</unitdate><unitdate type="inclusive" normal="2000/2007">2000-2007</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -868,14 +696,12 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [893930744795036219]">7</container>
-              <unittitle>Articles of Association <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <unittitle>Articles of Association</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [893930744795036219]">7</container>
-              <unittitle>Calendars <unitdate type="inclusive" normal="1960">1960</unitdate>, <unitdate type="inclusive" normal="1961">1961</unitdate>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Calendars</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate><unitdate type="inclusive" normal="1961">1961</unitdate><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -884,26 +710,17 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [893930744795036219]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [893930744795036219]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1957/1961">1957-1961</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1957/1961">1957-1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [893930744795036219]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -913,31 +730,23 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [893930744795036219]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1957/1962">1957-1962</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1957/1962">1957-1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [893930744795036219]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1963/1970">1963-1970</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1963/1970">1963-1970</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [893930744795036219]">7</container>
-              <unittitle>Trustees James C. Trimble and John W. Estes, Jr. (complaint against Cleage to the Congregational Association of Detroit) <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Trustees James C. Trimble and John W. Estes, Jr. (complaint against Cleage to the Congregational Association of Detroit)</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [893930744795036219]">7</container>
-              <unittitle>Monthly Narrative Reports <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></unittitle>
-            </did>
+              <unittitle>Monthly Narrative Reports</unittitle><unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -959,19 +768,16 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [893930744795036219]">7</container>
-              <unittitle>Accord, Inc. (Common Housing Corporation) <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Accord, Inc. (Common Housing Corporation)</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [893930744795036219]">7</container>
-              <unittitle>Action Council <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Action Council</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Action Groups <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>Action Groups</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [893930744795036219]">7</container>
@@ -988,8 +794,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [893930744795036219]">7</container>
-              <unittitle>Activity Regulations <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Activity Regulations</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1005,18 +810,12 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1972">1972</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1972">1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1973">1973</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1973">1973</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1026,103 +825,68 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1953">1953</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1953">1953</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1959">1959</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1959">1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1960">1960</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1960">1960</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1964">1964</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1964">1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1966">1966</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1966">1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1967">1967</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968">1968</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1969">1969</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1969">1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1970">1970</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1970">1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1971">1971</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1971">1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1972">1972</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1972">1972</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [61516980479024006]">8</container>
-              <unittitle>Articles of Association: Pan African Orthodox Christian Church <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-            </did>
+              <unittitle>Articles of Association: Pan African Orthodox Christian Church</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [61516980479024006]">8</container>
-              <unittitle>Ashanti Co-op/Black Star Co-op Supermarket <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Ashanti Co-op/Black Star Co-op Supermarket</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1141,18 +905,12 @@
               <c05 level="file">
                 <did>
                   <container type="reel" label="Roll [61516980479024006]">8</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1976">1976</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1976">1976</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="reel" label="Roll [61516980479024006]">8</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1997/2000">1997-2000</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1997/2000">1997-2000</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -1164,32 +922,27 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>College Cadre <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-              </did>
+                <unittitle>College Cadre</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>First Annual Convention <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-              </did>
+                <unittitle>First Annual Convention</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>Second Annual Convention <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-              </did>
+                <unittitle>Second Annual Convention</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>BCN Report to the Nation <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-              </did>
+                <unittitle>BCN Report to the Nation</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>Third Biennial Convention <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-              </did>
+                <unittitle>Third Biennial Convention</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1200,20 +953,17 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>Information Packet <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-              </did>
+                <unittitle>Information Packet</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>Jubilee <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-              </did>
+                <unittitle>Jubilee</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>Office and Cultural Center Management <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-              </did>
+                <unittitle>Office and Cultural Center Management</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1224,8 +974,7 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>Players <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-              </did>
+                <unittitle>Players</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1236,8 +985,7 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>Relationship with Christian Churches <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-              </did>
+                <unittitle>Relationship with Christian Churches</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1246,8 +994,7 @@
               <c05 level="file">
                 <did>
                   <container type="reel" label="Roll [61516980479024006]">8</container>
-                  <unittitle>Communalism Rituals <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
-                </did>
+                  <unittitle>Communalism Rituals</unittitle><unitdate type="inclusive" normal="1982">1982</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -1259,33 +1006,28 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>Shrine Newsletter <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-              </did>
+                <unittitle>Shrine Newsletter</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>Student Movement <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-              </did>
+                <unittitle>Student Movement</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [61516980479024006]">8</container>
-                <unittitle>Training Center and Residence Hall <unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate></unittitle>
-              </did>
+                <unittitle>Training Center and Residence Hall</unittitle><unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [61516980479024006]">8</container>
-              <unittitle>Black Ecumenical Council <unitdate type="inclusive" normal="1967">1967</unitdate>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Black Ecumenical Council</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [61516980479024006]">8</container>
-              <unittitle>Black Messiah Reviews <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Black Messiah Reviews</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1296,8 +1038,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [476477314889402634120793]">9</container>
-              <unittitle>Black Nation News <unitdate type="inclusive" normal="1969/1977">1969-1977</unitdate></unittitle>
-            </did>
+              <unittitle>Black Nation News</unittitle><unitdate type="inclusive" normal="1969/1977">1969-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1314,20 +1055,17 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [476477314889402634120793]">9</container>
-              <unittitle>Building Fund and Relocation Committee <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <unittitle>Building Fund and Relocation Committee</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [476477314889402634120793]">9</container>
-              <unittitle>Camp Talahi <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            </did>
+              <unittitle>Camp Talahi</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [476477314889402634120793]">9</container>
-              <unittitle>Catholic Clergy Conference on the Interracial Apostolate <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Catholic Clergy Conference on the Interracial Apostolate</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1344,26 +1082,22 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [476477314889402634120793]">9</container>
-              <unittitle>Citywide Citizen's Action Committee <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-            </did>
+              <unittitle>Citywide Citizen's Action Committee</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [476477314889402634120793]">9</container>
-              <unittitle>Commission for Racial Justice (United Church of Christ) <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Commission for Racial Justice (United Church of Christ)</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [476477314889402634120793]">9</container>
-              <unittitle>Committees <unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></unittitle>
-            </did>
+              <unittitle>Committees</unittitle><unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [476477314889402634120793]">9</container>
-              <unittitle>Congregational Association of Detroit <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-            </did>
+              <unittitle>Congregational Association of Detroit</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1374,8 +1108,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [476477314889402634120793]">9</container>
-              <unittitle>"Crockett Incident," <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>"Crockett Incident,"</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1386,26 +1119,22 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [476477314889402634120793]">9</container>
-              <unittitle>Detroit Public Library <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Detroit Public Library</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [476477314889402634120793]">9</container>
-              <unittitle>Economic Development Corporation <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Economic Development Corporation</unittitle><unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [476477314889402634120793]">9</container>
-              <unittitle>Education <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Education</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [476477314889402634120793]">9</container>
-              <unittitle>Federation for Self Determination <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-            </did>
+              <unittitle>Federation for Self Determination</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1414,66 +1143,41 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [476477314889402634120793]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate>
-                  <unitdate type="inclusive">undated</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate><unitdate type="inclusive">undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [476477314889402634120793]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1957/1961">1957-1961</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1957/1961">1957-1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [476477314889402634120793]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [476477314889402634120793]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [476477314889402634120793]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1975">1975</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1975">1975</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [32087153495769378266]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1976">1976</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1976">1976</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [32087153495769378266]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1977">1977</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1977">1977</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1978">1978</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1978">1978</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="reel" label="Roll [32087153495769378266]">10</container>
@@ -1490,10 +1194,7 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [32087153495769378266]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1979-01/1979-10">January-October 1979</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1979-01/1979-10">January-October 1979</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">10 folders</extent>
                 </physdesc>
               </did>
@@ -1501,16 +1202,12 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [32087153495769378266]">10</container>
-                <unittitle><unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate> miscellaneous</unittitle>
-              </did>
+                <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [32087153495769378266]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1980-04/1980-12">April-December 1980</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1980-04/1980-12">April-December 1980</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">9 folders</extent>
                 </physdesc>
               </did>
@@ -1518,10 +1215,7 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [32087153495769378266]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1981">1981</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1981">1981</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">12 folders</extent>
                 </physdesc>
               </did>
@@ -1529,10 +1223,7 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [32087153495769378266]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1982">1982</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1982">1982</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">12 folders</extent>
                 </physdesc>
               </did>
@@ -1540,8 +1231,7 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [32087153495769378266]">10</container>
-                <unittitle><unitdate type="inclusive" normal="1983">1983</unitdate> (quarterly)</unittitle>
-                <physdesc altrender="whole">
+                <unittitle>(quarterly)</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
@@ -1549,8 +1239,7 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [32087153495769378266]">10</container>
-                <unittitle><unitdate type="inclusive" normal="1984">1984</unitdate> (quarterly)</unittitle>
-                <physdesc altrender="whole">
+                <unittitle>(quarterly)</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
@@ -1558,18 +1247,12 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [32087153495769378266]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1985/2006">1985-2006</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1985/2006">1985-2006</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-                <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive">Undated</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
@@ -1578,8 +1261,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>Freedom Now Party <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Freedom Now Party</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1590,14 +1272,12 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>History, Draft <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>History, Draft</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>Illustrated News <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Illustrated News</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1608,20 +1288,17 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>Inner City Mutual Insurance Company <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Inner City Mutual Insurance Company</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>Inner City Organizing Committee <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-            </did>
+              <unittitle>Inner City Organizing Committee</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>Inner City Parent's Council <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Inner City Parent's Council</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1632,50 +1309,42 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>Interreligious Foundation for Community Organization (IFCO) <unitdate type="inclusive" normal="1969">1969</unitdate>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Interreligious Foundation for Community Organization (IFCO)</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>KUA Small Group Devotionals <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <unittitle>KUA Small Group Devotionals</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>Layout <unitdate type="inclusive" normal="1972">1972</unitdate> Booklet</unittitle>
-            </did>
+              <unittitle>Layout  Booklet</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>Locke -- The Detroit Riots of <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Locke -- The Detroit Riots of</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>Maccabee Training Materials <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Maccabee Training Materials</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>Marriage Rituals <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate></unittitle>
-            </did>
+              <unittitle>Marriage Rituals</unittitle><unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>Mass Media Study Committee <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Mass Media Study Committee</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [162839968445884596920582811]">11</container>
-              <unittitle>Ministers for Racial and Social Justice <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Ministers for Racial and Social Justice</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1689,8 +1358,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [90554188989006281]">12</container>
-              <unittitle>Miss Black America Beauty Pageant <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Miss Black America Beauty Pageant</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1701,8 +1369,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [90554188989006281]">12</container>
-              <unittitle>Operation Connection <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Operation Connection</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1721,8 +1388,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [90554188989006281]">12</container>
-              <unittitle>Preliminary Self Study #2 <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
+              <unittitle>Preliminary Self Study #2</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1733,8 +1399,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [90554188989006281]">12</container>
-              <unittitle>St Mark's Presbyterian/Independent/Congregational Church <unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></unittitle>
-            </did>
+              <unittitle>St Mark's Presbyterian/Independent/Congregational Church</unittitle><unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1751,38 +1416,32 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [90554188989006281]">12</container>
-              <unittitle>Sudan Club <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <unittitle>Sudan Club</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [90554188989006281]">12</container>
-              <unittitle>Synod <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-            </did>
+              <unittitle>Synod</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [90554188989006281]">12</container>
-              <unittitle>Training Group # 11 <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-            </did>
+              <unittitle>Training Group # 11</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [90554188989006281]">12</container>
-              <unittitle>Westminster <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            </did>
+              <unittitle>Westminster</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [90554188989006281]">12</container>
-              <unittitle>Webster, John, Forum Committee <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Webster, John, Forum Committee</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [90554188989006281]">12</container>
-              <unittitle>White Critiques <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>White Critiques</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1795,26 +1454,17 @@
               <c05 level="file">
                 <did>
                   <container type="reel" label="Roll [90554188989006281]">12</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="reel" label="Roll [90554188989006281]">12</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1956">1956</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1956">1956</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="reel" label="Roll [90554188989006281]">12</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1961">1961</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1961">1961</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -1839,8 +1489,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Saint Mark's Community Church Membership Information Flyers <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate></unittitle>
-            </did>
+              <unittitle>Saint Mark's Community Church Membership Information Flyers</unittitle><unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate></did>
             <odd>
               <p>(Includes family information)</p>
             </odd>
@@ -1848,80 +1497,67 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Every Member Canvass <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <unittitle>Every Member Canvass</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Every Member Canvass <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-            </did>
+              <unittitle>Every Member Canvass</unittitle><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Members and Guests of Central Church <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></unittitle>
-            </did>
+              <unittitle>Members and Guests of Central Church</unittitle><unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Members, Miscellaneous <unitdate type="inclusive" normal="1951/1961">1951-1961</unitdate></unittitle>
-            </did>
+              <unittitle>Members, Miscellaneous</unittitle><unitdate type="inclusive" normal="1951/1961">1951-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Members, Miscellaneous <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Members, Miscellaneous</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Canvass <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <unittitle>Canvass</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Membership list <unitdate type="inclusive">pre-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Membership list</unittitle><unitdate type="inclusive">pre-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Membership list <unitdate type="inclusive" normal="1972-06">June 1972</unitdate></unittitle>
-            </did>
+              <unittitle>Membership list</unittitle><unitdate type="inclusive" normal="1972-06">June 1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Members by Geographic Location <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-            </did>
+              <unittitle>Members by Geographic Location</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Book of Prospective Members <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Book of Prospective Members</unittitle><unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Names -- From Files of Kokayi Enharo <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Names -- From Files of Kokayi Enharo</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Pledge Cards <unitdate type="inclusive" normal="1967">1967</unitdate> Special Building Fund</unittitle>
-            </did>
+              <unittitle>Pledge Cards  Special Building Fund</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Application for Membership <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></unittitle>
-            </did>
+              <unittitle>Application for Membership</unittitle><unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
             <odd>
               <p>These records were not microfilmed.</p>
             </odd>
@@ -1929,8 +1565,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2729882976499684554965]">13</container>
-              <unittitle>Application for Membership <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></unittitle>
-            </did>
+              <unittitle>Application for Membership</unittitle><unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></did>
             <odd>
               <p>These records were not microfilmed.</p>
             </odd>
@@ -1942,48 +1577,32 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [2729882976499684554965]">13</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1957-09/1959-01">September 1957-January 1959</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1957-09/1959-01">September 1957-January 1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [2729882976499684554965]">13</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1959-03/1967-10">March 1959-October 1967</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1959-03/1967-10">March 1959-October 1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [2729882976499684554965]">13</container>
-                <unittitle><unitdate type="inclusive" normal="1969-06">June 1969</unitdate>, <unitdate type="inclusive" normal="1970-04">April 1970</unitdate>, <unitdate type="inclusive" normal="1972-05/1972-11">May-November 1972</unitdate>, <unitdate type="inclusive" normal="1973-01">January 1973</unitdate></unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1969-06">June 1969</unitdate><unitdate type="inclusive" normal="1970-04">April 1970</unitdate><unitdate type="inclusive" normal="1972-05/1972-11">May-November 1972</unitdate><unitdate type="inclusive" normal="1973-01">January 1973</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [1127603634434943628815]">14</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1973-05/1973-10">May-October 1973</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1973-05/1973-10">May-October 1973</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [1127603634434943628815]">14</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1973-10/1974-05">October 1973-May 1974</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1973-10/1974-05">October 1973-May 1974</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [1127603634434943628815]">14</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1974-05/1975-01">May 1974-January 1975</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1974-05/1975-01">May 1974-January 1975</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -2011,26 +1630,22 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [1127603634434943628815]">14</container>
-              <unittitle>Bible Study <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-            </did>
+              <unittitle>Bible Study</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [1127603634434943628815]">14</container>
-              <unittitle>Roots of African History <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <unittitle>Roots of African History</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [1127603634434943628815]">14</container>
-              <unittitle>Sermons, Shrine #9 <unitdate type="inclusive" normal="1989/1995">1989-1995</unitdate></unittitle>
-            </did>
+              <unittitle>Sermons, Shrine #9</unittitle><unitdate type="inclusive" normal="1989/1995">1989-1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [1127603634434943628815]">14</container>
-              <unittitle>"The African Orthodox Church and Garveyism," <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>"The African Orthodox Church and Garveyism,"</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -2055,8 +1670,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [1127603634434943628815]">14</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1986/2003">1986-2003</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1986/2003">1986-2003</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2123,49 +1737,35 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [679144889311469591]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964">1964</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [679144889311469591]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966">1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [679144889311469591]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969">1969</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Shrine of the Black Madonna – National Office (Detroit) <unitdate type="inclusive" normal="1968/2000">1968-2000</unitdate></unittitle>
-        </did>
+          <unittitle>Shrine of the Black Madonna – National Office (Detroit)</unittitle><unitdate type="inclusive" normal="1968/2000">1968-2000</unitdate></did>
         <scopecontent>
           <p>The Shrine of the Black Madonna National Office series consists of two separately maintained topical files, covering the period of 1968 to 1973 and 1977 to 1979. These files provide a glimpse into how the Shrines worked on a day-to-day basis, and how the Council of Cardinals exerted its influence over the direction of the movement on both a national and regional level, as well as on the personal lives of BCN members. This series also includes publications of the Shrines organization relating to the Black Christian Nationalist movement. In addition to programs from their annual conventions, this set of files includes policies and procedures, basic doctrinal statements, information for new members, a Bible study workbook, and history background of the church.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Topical files <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></unittitle>
-          </did>
+            <unittitle>Topical files</unittitle><unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></did>
           <odd>
             <p>(Includes some earlier material)</p>
           </odd>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1977">1977</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1977">1977</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [679144889311469591]">15</container>
@@ -2181,10 +1781,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1978">1978</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1978">1978</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [679144889311469591]">15</container>
@@ -2371,10 +1968,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1979">1979</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1979">1979</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [679144889311469591]">15</container>
@@ -2490,25 +2084,21 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Topical File <unitdate type="inclusive" normal="1968/1973">1968-1973</unitdate></unittitle>
-          </did>
+            <unittitle>Topical File</unittitle><unitdate type="inclusive" normal="1968/1973">1968-1973</unitdate></did>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Accord, Inc. <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Accord, Inc.</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Action Council Organizing Committee <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Action Council Organizing Committee</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Action Group Meetings (Monthly) <unitdate type="inclusive" normal="1968">1968</unitdate>, <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Action Group Meetings (Monthly)</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2519,86 +2109,72 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>African World Bookshelf <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>African World Bookshelf</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Afro-America, Inc. (Yale University) <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Afro-America, Inc. (Yale University)</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Alice Strauther Memorial Committee <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Alice Strauther Memorial Committee</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>American Civil Liberties Union <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-            </did>
+              <unittitle>American Civil Liberties Union</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>American Orthopsychiatric Association, Inc. <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>American Orthopsychiatric Association, Inc.</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Archdiocese of Detroit <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Archdiocese of Detroit</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>BCN Leadership Cadre <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>BCN Leadership Cadre</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Benevolent and Protective Order Constitution <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Benevolent and Protective Order Constitution</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Black Action Movement (University of Michigan) <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Black Action Movement (University of Michigan)</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Black Action Training, Irv Joiner <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Black Action Training, Irv Joiner</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Black Affairs Council <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Black Affairs Council</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Black Christian Nationalist Convention <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Black Christian Nationalist Convention</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Black Christian Nationalist Convention (Second) <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>Black Christian Nationalist Convention (Second)</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Black Christian Nationalist Convention Correspondence <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Black Christian Nationalist Convention Correspondence</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2609,14 +2185,12 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Black Christian Nationalist Student Movement (High School Level) <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Black Christian Nationalist Student Movement (High School Level)</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Black Heritage Tea <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Black Heritage Tea</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2627,8 +2201,7 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Black Messiah <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Black Messiah</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2639,32 +2212,27 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Black Star Market <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Black Star Market</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Black Studies -- Graduate Studies <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>Black Studies -- Graduate Studies</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Black Teacher's Caucus <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Black Teacher's Caucus</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Board of National Missions <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Board of National Missions</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Board of Education <unitdate type="inclusive" normal="1968/1973">1968-1973</unitdate></unittitle>
-            </did>
+              <unittitle>Board of Education</unittitle><unitdate type="inclusive" normal="1968/1973">1968-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2675,14 +2243,12 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Book -- Quest for a Black Theology <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Book -- Quest for a Black Theology</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Campaign Literature <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Campaign Literature</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2693,170 +2259,142 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Chicago Theological Seminary <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Chicago Theological Seminary</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Choir <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Choir</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Christian Century -- Dean Peerman <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>Christian Century -- Dean Peerman</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Colgate Divinity School -- Rochester, New York <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Colgate Divinity School -- Rochester, New York</unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Columbia Radio and Television <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Columbia Radio and Television</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Commission for Racial Justice -- Cobb <unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Commission for Racial Justice -- Cobb</unittitle><unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Commission on Religion and Race -- United Methodist Church <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Commission on Religion and Race -- United Methodist Church</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Commitment Campaign <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Commitment Campaign</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Communications <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>Communications</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Congress of African People <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>Congress of African People</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Co-op Buying <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>Co-op Buying</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Core <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Core</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Cornell University <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Cornell University</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [6170814675965550579]">16</container>
-              <unittitle>Contracts on Books <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Contracts on Books</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Detroit Free Press -- Hiley Ward <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Detroit Free Press -- Hiley Ward</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Detroit Industrial Mission <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Detroit Industrial Mission</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Detroit Metropolitan Association of the United Church of Christ <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Detroit Metropolitan Association of the United Church of Christ</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Detroit Metropolitan Association <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate></unittitle>
-            </did>
+              <unittitle>Detroit Metropolitan Association</unittitle><unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Draft Information -- Selective Service, etc. <unitdate type="inclusive" normal="1969/1975">1969-1975</unitdate></unittitle>
-            </did>
+              <unittitle>Draft Information -- Selective Service, etc.</unittitle><unitdate type="inclusive" normal="1969/1975">1969-1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Duke University <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate></unittitle>
-            </did>
+              <unittitle>Duke University</unittitle><unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Economic Development Corporation <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Economic Development Corporation</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Elmhurst College <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Elmhurst College</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Federation <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Federation</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Fisk University <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Fisk University</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Fites Bottom Improvement Campaign <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Fites Bottom Improvement Campaign</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Garrett Theological Seminary -- Rev. Hycel Taylor <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>Garrett Theological Seminary -- Rev. Hycel Taylor</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Graymoor Ecumenical Institute <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Graymoor Ecumenical Institute</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Heidelberg College <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Heidelberg College</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2867,85 +2405,71 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Inner City Organizing Committee <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Inner City Organizing Committee</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>IFCO <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
-            </did>
+              <unittitle>IFCO</unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>In-Service Ministerial Training Program <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>In-Service Ministerial Training Program</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Joint Strategy and Action Committee <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Joint Strategy and Action Committee</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Legal Aid <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-            </did>
+              <unittitle>Legal Aid</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Letters from Inmates <unitdate type="inclusive" normal="1967/1972">1967-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Letters from Inmates</unittitle><unitdate type="inclusive" normal="1967/1972">1967-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Macomb County Community College <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Macomb County Community College</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Martin Luther King, Jr. Memorial Library and Center <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Martin Luther King, Jr. Memorial Library and Center</unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Men's Club <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Men's Club</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Methodist Grants -- Bishop Loder <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Methodist Grants -- Bishop Loder</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Michigan Conference -- Duane Vore <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Conference -- Duane Vore</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Michigan Conference of the United Church of Christ <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Conference of the United Church of Christ</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Michigan State University <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan State University</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Mini Shopping Centers <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Mini Shopping Centers</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [2814841402386962866]">17</container>
@@ -2968,37 +2492,31 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Ministers for Racial and Social Justice (Rev. Edmonds) <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Ministers for Racial and Social Justice (Rev. Edmonds)</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Minutes of Meetings <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Minutes of Meetings</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Miscellaneous Handouts and Literature <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Miscellaneous Handouts and Literature</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Miss Black America Beauty Pageant <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Miss Black America Beauty Pageant</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Morris, Ronald -- Norfolk State College <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>Morris, Ronald -- Norfolk State College</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Morrow and Company, Inc. Publishers <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Morrow and Company, Inc. Publishers</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [2814841402386962866]">17</container>
@@ -3015,32 +2533,27 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>National Association of Black Students <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>National Association of Black Students</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>National Conference of Friends <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <unittitle>National Conference of Friends</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>National Committee of Black Churchmen <unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></unittitle>
-            </did>
+              <unittitle>National Committee of Black Churchmen</unittitle><unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>National Council of the Churches of Christ -- Delta Ministry <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-            </did>
+              <unittitle>National Council of the Churches of Christ -- Delta Ministry</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>National Staff Requests <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-            </did>
+              <unittitle>National Staff Requests</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3051,104 +2564,87 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>NCC (Charles Spivey) Department of Social Justice <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-            </did>
+              <unittitle>NCC (Charles Spivey) Department of Social Justice</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>News Media <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>News Media</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Newsome, Dr. Moses <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Newsome, Dr. Moses</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Norfolk Committee for the Improvement of Education, Inc. <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Norfolk Committee for the Improvement of Education, Inc.</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>North Carolina Central University <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-            </did>
+              <unittitle>North Carolina Central University</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Oakland Community College <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Oakland Community College</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Oberlin College <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Oberlin College</unittitle><unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Ohio State University <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Ohio State University</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Ohio Wesleyan University <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Ohio Wesleyan University</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Order of Chaka <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Order of Chaka</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>PAC (Pan-African Congress, USA) <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-            </did>
+              <unittitle>PAC (Pan-African Congress, USA)</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Panther's Den Youth Organization <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Panther's Den Youth Organization</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Parsons, Donald <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>Parsons, Donald</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Permission for Publication <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Permission for Publication</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Plymouth Congregational Church (Kalamazoo-Grand Rapids) <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Plymouth Congregational Church (Kalamazoo-Grand Rapids)</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Political <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Political</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Princeton Theological Seminary <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Princeton Theological Seminary</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3159,86 +2655,72 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Rand McNally and Company <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Rand McNally and Company</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Random House <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Random House</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Republic of New Africa <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Republic of New Africa</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Reviews <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-            </did>
+              <unittitle>Reviews</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Ripon College <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Ripon College</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Second Book Correspondence <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Second Book Correspondence</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Saint John's Congregational Church, Massachusetts <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Saint John's Congregational Church, Massachusetts</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Saint John's United Church of Christ <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Saint John's United Church of Christ</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Sanford, Warner <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Sanford, Warner</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Sarah Lawrence College <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Sarah Lawrence College</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>School of Black Studies <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>School of Black Studies</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Security and Safety for Nation Proposal <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Security and Safety for Nation Proposal</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Seminary Students <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Seminary Students</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [2814841402386962866]">17</container>
-              <unittitle>Sheed and Ward, Inc. <unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Sheed and Ward, Inc.</unittitle><unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3253,8 +2735,7 @@
         <c02 level="file">
           <did>
             <container type="reel" label="Roll [7318187408900050703]">18</container>
-            <unittitle>Financial Drives <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-          </did>
+            <unittitle>Financial Drives</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7318187408900050703]">18</container>
@@ -3295,8 +2776,7 @@
         <c02 level="file">
           <did>
             <container type="reel" label="Roll [7318187408900050703]">18</container>
-            <unittitle>BCN Interdepartmental Communications <unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate></unittitle>
-          </did>
+            <unittitle>BCN Interdepartmental Communications</unittitle><unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3306,13 +2786,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>2nd Annual "Spring Forum Series" <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>2nd Annual "Spring Forum Series"</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7318187408900050703]">18</container>
-              <unittitle>Basics of BCN <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-            </did>
+              <unittitle>Basics of BCN</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
             <odd>
               <p>(include policies, Creed, regulations)</p>
             </odd>
@@ -3320,26 +2798,22 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7318187408900050703]">18</container>
-              <unittitle>Basics of BCN for Membership <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <unittitle>Basics of BCN for Membership</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7318187408900050703]">18</container>
-              <unittitle>BCN Catalogue <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></unittitle>
-            </did>
+              <unittitle>BCN Catalogue</unittitle><unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7318187408900050703]">18</container>
-              <unittitle>Bible Study Student Workbook no. 4, The Pre-Christian Era <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-            </did>
+              <unittitle>Bible Study Student Workbook no. 4, The Pre-Christian Era</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7318187408900050703]">18</container>
-              <unittitle>Books of prayers <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate> &amp; <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Books of prayers  &amp;</unittitle><unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3350,14 +2824,12 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7318187408900050703]">18</container>
-              <unittitle>Church History Presentation <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <unittitle>Church History Presentation</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7318187408900050703]">18</container>
-              <unittitle>Closer: Weekly Accountability Report <unitdate type="inclusive" normal="1997-09">September 1997</unitdate>, <unitdate type="inclusive" normal="1997-11">November 1997</unitdate></unittitle>
-            </did>
+              <unittitle>Closer: Weekly Accountability Report</unittitle><unitdate type="inclusive" normal="1997-09">September 1997</unitdate><unitdate type="inclusive" normal="1997-11">November 1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3366,25 +2838,18 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7318187408900050703]">18</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1972">1972</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1972">1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7318187408900050703]">18</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1975">1975</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1975">1975</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7318187408900050703]">18</container>
-              <unittitle>Honoring Rev. Albert B. Cleage, Jr. <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <unittitle>Honoring Rev. Albert B. Cleage, Jr.</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3399,39 +2864,28 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7318187408900050703]">18</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1993">1993</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1993">1993</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7318187408900050703]">18</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1996">1996</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1996">1996</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7956026043821190632]">19</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2000">2000</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="2000">2000</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7956026043821190632]">19</container>
-              <unittitle>Shrine #10 (Houston), 10th Anniversary <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-            </did>
+              <unittitle>Shrine #10 (Houston), 10th Anniversary</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7956026043821190632]">19</container>
-              <unittitle>Shrine #10 (Houston), 15th Anniversary <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <unittitle>Shrine #10 (Houston), 15th Anniversary</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3440,20 +2894,17 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7956026043821190632]">19</container>
-                <unittitle>30th Anniversary calendar <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-              </did>
+                <unittitle>30th Anniversary calendar</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7956026043821190632]">19</container>
-                <unittitle>40th Anniversary Program <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-              </did>
+                <unittitle>40th Anniversary Program</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7956026043821190632]">19</container>
-                <unittitle>50th Anniversary Jubilee <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-              </did>
+                <unittitle>50th Anniversary Jubilee</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -3463,31 +2914,23 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7956026043821190632]">19</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1992-12">December 1992</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1992-12">December 1992</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7956026043821190632]">19</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1995-08">August 1995</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1995-08">August 1995</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7956026043821190632]">19</container>
-              <unittitle>Signs and Symbols guides <unitdate type="inclusive" normal="1994">1994</unitdate>, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-            </did>
+              <unittitle>Signs and Symbols guides</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate><unitdate type="inclusive" normal="2002">2002</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7956026043821190632]">19</container>
-              <unittitle>Spiritual Retreat Handbooks <unitdate type="inclusive" normal="1994">1994</unitdate>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-            </did>
+              <unittitle>Spiritual Retreat Handbooks</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           </c03>
         </c02>
       </c01>

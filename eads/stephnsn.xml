@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Stephenson, James E., 1926-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2845">Stephenson, James E., 1926-</persname>
       </origination>
-      <unittitle encodinganalog="245">James E. Stephenson Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1973/1975">1973-1975</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85417 Aa 2</unitid>
+      <unittitle encodinganalog="245">James E. Stephenson Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1973/1975">1973-1975</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85417 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">7 linear feet</extent>
@@ -73,20 +73,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Mayors--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Marijuana.</subject>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1971-1980.</geogname>
-        <subject source="lcsh" encodinganalog="650">Municipal government--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Rent control--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Revenue sharing.</subject>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6247">Mayors--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9141">Marijuana.</subject>
+        <geogname source="local" encodinganalog="691" ref="/subjects/797">Michigan--Politics and government--1971-1980.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5664">Municipal government--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10253">Rent control--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10254">Revenue sharing.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/906">Michigan--Politics and government--1951-</geogname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Mayoralty Files <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></unittitle>
-        </did>
+          <unittitle>Mayoralty Files</unittitle><unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3366157467260313]">1</container>

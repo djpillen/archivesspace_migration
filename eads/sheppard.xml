@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n92082117">Sheppard, Glen, 1936-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n92082117" ref="/agents/people/2916">Sheppard, Glen, 1936-</persname>
       </origination>
-      <unittitle encodinganalog="245">Glen Sheppard Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1940/2010" certainty="approximate">1940s-2010</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1990/2008">1990-2008</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013030 Aa 2</unitid>
+      <unittitle encodinganalog="245">Glen Sheppard Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1940/2010" certainty="approximate">1940s-2010</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1990/2008">1990-2008</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013030 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The Glen Sheppard Papers document the research and writing undertaken by Sheppard during his 40-year tenure as editor, publisher, and writer for the <title render="italic">North Woods Call</title>, a small conservation newspaper dedicated to the stewardship and protection of Northern Michigan's natural resources. The collection's three series contain Sheppard's articles and writings, press releases and newspaper articles written by others, government reports and publications, audio and visual materials.</abstract>
       <physdesc altrender="whole">
@@ -84,35 +84,35 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92082117">Sheppard, Glen, 1936-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91103937">Engler, John, 1948-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2005059175">Granholm, Jennifer.</persname>
-        <subject source="lcsh" encodinganalog="630">Northern Woods Call.</subject>
-        <subject source="lcsh" encodinganalog="650">Conservation of natural resources--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Environmental legislation--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Environmental protection--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Fisheries--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Hunting--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Pollution--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">State parks and reserves--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Au Sable River (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Dept. of Natural Resources.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92082117" ref="/agents/people/2916">Sheppard, Glen, 1936-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91103937" ref="/agents/people/4384">Engler, John, 1948-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2005059175" ref="/agents/people/5307">Granholm, Jennifer.</persname>
+        <subject source="lcsh" encodinganalog="630" ref="/subjects/10069">Northern Woods Call.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6195">Conservation of natural resources--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10070">Environmental legislation--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6632">Environmental protection--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10071">Fisheries--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7373">Hunting--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10072">Pollution--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10073">State parks and reserves--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1829">Au Sable River (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1990">Michigan. Dept. of Natural Resources.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Animals--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Birds--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Fishing--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Hunting--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Landscape photographs.</subject>
-        <subject source="lctgm" encodinganalog="650">Natural parks and reserves--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3823">Animals--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3731">Birds--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3935">Fishing--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3662">Hunting--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5296">Landscape photographs.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5297">Natural parks and reserves--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Black-and-white negatives.</genreform>
-        <genreform source="aat" encodinganalog="655">Black-and-white prints (prints on paper)</genreform>
-        <genreform source="aat" encodinganalog="655">Maps (documents)</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3142">Black-and-white negatives.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3361">Black-and-white prints (prints on paper)</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3277">Maps (documents)</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

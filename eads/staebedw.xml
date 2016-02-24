@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Staebler, Edward William, 1872-1946.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2072">Staebler, Edward William, 1872-1946.</persname>
       </origination>
-      <unittitle encodinganalog="245">Edward William Staebler papers <unitdate type="inclusive" encodinganalog="245$f" normal="1870/1952">1870-1952</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1922/1944">1922-1944</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8643 Aa 2</unitid>
+      <unittitle encodinganalog="245">Edward William Staebler papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1870/1952">1870-1952</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1922/1944">1922-1944</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8643 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Michigan businessman and Democratic mayor of the city, 1927-1931. Mayoralty files; papers, 1922-1926, concerning the Ann Arbor Board of Education; also papers, 1922-1952, of Staebler and Son, automobile dealership.</abstract>
       <physdesc altrender="whole">
@@ -78,36 +78,35 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86851070">Ann Arbor (Mich.). Board of Education.</corpname>
-        <subject source="lcsh" encodinganalog="650">Mayors--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Automobile industry and trade--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Depressions--1929--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Education--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Municipal government--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Staebler, Edward William, 1872-1946.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Staebler and Sons (Ann Arbor, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86851070" ref="/agents/corporate_entities/1466">Ann Arbor (Mich.). Board of Education.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6247">Mayors--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6513">Automobile industry and trade--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/3762">Democratic Party (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10214">Depressions--1929--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5682">Education--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5664">Municipal government--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2072">Staebler, Edward William, 1872-1946.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4699">Staebler and Sons (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Automobiles--1901-1910.</subject>
-        <subject source="lctgm" encodinganalog="650">Children.</subject>
-        <persname source="lcnaf" encodinganalog="600">Staebler, Edward William, 1872-1946.</persname>
-        <famname source="lcnaf" encodinganalog="600">Staebler family.</famname>
-        <subject source="lctgm" encodinganalog="650">Women.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5375">Automobiles--1901-1910.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Children.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2072">Staebler, Edward William, 1872-1946.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/224">Staebler family.</famname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3617">Women.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Tintypes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3453">Tintypes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Mayoralty Files <unitdate type="inclusive" normal="1927/1931">1927-1931</unitdate></unittitle>
-        </did>
+          <unittitle>Mayoralty Files</unittitle><unitdate type="inclusive" normal="1927/1931">1927-1931</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Correspondence</unittitle>
@@ -115,128 +114,82 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1927-04/1927-09">April-September 1927</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1927-04/1927-09">April-September 1927</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1927-10/1927-12">October-December 1927</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1927-10/1927-12">October-December 1927</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1928-01/1928-03">January-March 1928</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1928-01/1928-03">January-March 1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1928-04/1928-06">April-June 1928</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1928-04/1928-06">April-June 1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1928-07/1928-09">July-September 1928</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1928-07/1928-09">July-September 1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1928-10/1928-12">October-December 1928</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1928-10/1928-12">October-December 1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1929-01/1929-03">January-March 1929</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1929-01/1929-03">January-March 1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1929-04/1929-06">April-June 1929</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1929-04/1929-06">April-June 1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1929-07/1929-09">July-September 1929</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1929-07/1929-09">July-September 1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1929-10/1929-12">October-December 1929</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1929-10/1929-12">October-December 1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1930-01/1930-03">January-March 1930</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1930-01/1930-03">January-March 1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1930-04/1930-06">April-June 1930</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1930-04/1930-06">April-June 1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1930-07/1930-08">July-August 1930</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1930-07/1930-08">July-August 1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1930-09/1930-12">September-December 1930</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1930-09/1930-12">September-December 1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931-01/1931-04">January-April 1931</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1931-01/1931-04">January-April 1931</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Topical File <unitdate type="inclusive" normal="1927/1932">1927-1932</unitdate></unittitle>
-          </did>
+            <unittitle>Topical File</unittitle><unitdate type="inclusive" normal="1927/1932">1927-1932</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
@@ -252,8 +205,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>Air Tour <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-            </did>
+              <unittitle>Air Tour</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -288,14 +240,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>Board of Public Works <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
-            </did>
+              <unittitle>Board of Public Works</unittitle><unitdate type="inclusive" normal="1927">1927</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [650635474439695791222]">1</container>
-              <unittitle>Board of Public Works <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-            </did>
+              <unittitle>Board of Public Works</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -354,14 +304,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3300774888725014176]">2</container>
-              <unittitle>Election registration <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
-            </did>
+              <unittitle>Election registration</unittitle><unitdate type="inclusive" normal="1928">1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3300774888725014176]">2</container>
-              <unittitle>Election of <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-            </did>
+              <unittitle>Election of</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -510,8 +458,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3300774888725014176]">2</container>
-              <unittitle>Precincts [new] <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-            </did>
+              <unittitle>Precincts [new]</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -618,8 +565,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [552623598429588552942877]">3</container>
-              <unittitle>University of Michigan Fraternity Raid <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-            </did>
+              <unittitle>University of Michigan Fraternity Raid</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -681,16 +627,14 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [910384114158808777]">4</container>
-            <unittitle>Ann Arbor Board of Education <unitdate type="inclusive" normal="1922/1926">1922-1926</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Ann Arbor Board of Education</unittitle><unitdate type="inclusive" normal="1922/1926">1922-1926</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Staebler and Son automobile dealership <unitdate type="inclusive" normal="1922/1952">1922-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Staebler and Son automobile dealership</unittitle><unitdate type="inclusive" normal="1922/1952">1922-1952</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [910384114158808777]">4</container>
@@ -760,8 +704,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [910384114158808777]">4</container>
-              <unittitle>Financial statements <unitdate type="inclusive" normal="1931/1952">1931-1952</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Financial statements</unittitle><unitdate type="inclusive" normal="1931/1952">1931-1952</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
@@ -770,20 +713,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [910384114158808777]">4</container>
-            <unittitle>Order of the Eastern Star <unitdate type="inclusive" normal="1932/1944">1932-1944</unitdate></unittitle>
-          </did>
+            <unittitle>Order of the Eastern Star</unittitle><unitdate type="inclusive" normal="1932/1944">1932-1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [910384114158808777]">4</container>
-            <unittitle>Rotary International Service Committee <unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Rotary International Service Committee</unittitle><unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><genreform normal="Photographs">Photographs</genreform>, <unitdate type="inclusive" normal="1870/1906">1870-1906</unitdate></unittitle>
-        </did>
+          <unittitle><genreform normal="Photographs">Photographs</genreform></unittitle><unitdate type="inclusive" normal="1870/1906">1870-1906</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [910384114158808777]">4</container>

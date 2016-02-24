@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Construction Innovation Forum.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1418">Construction Innovation Forum.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Construction Innovation Forum records <unitdate type="inclusive" encodinganalog="245$f" normal="1987/2006">1987-2006</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9934 Bw 2</unitid>
+      <unittitle encodinganalog="245">Construction Innovation Forum records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1987/2006">1987-2006</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9934 Bw 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>International non-profit organization established in 1987 to recognize innovations in the construction industry that improve the quality, efficiency and cost effectiveness of construction. Administrative records, including minutes and reports; planning documents; nomination files for the NOVA Award; and visual material relating to award ceremonies.</abstract>
       <physdesc altrender="whole">
@@ -82,10 +82,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Construction Innovation Forum.</corpname>
-        <subject source="lcsh" encodinganalog="650">Building--Technological innovations--Awards.</subject>
-        <subject source="lcsh" encodinganalog="650">Construction industry--Technological innovations.</subject>
-        <subject source="lcsh" encodinganalog="650">Civil engineering--Technological innovations.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1418">Construction Innovation Forum.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6808">Building--Technological innovations--Awards.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6809">Construction industry--Technological innovations.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6810">Civil engineering--Technological innovations.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -105,8 +105,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [410938984299229257205]">1</container>
-            <unittitle>Board of Directors <unitdate type="inclusive" normal="1987/1996">1987-1996</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Board of Directors</unittitle><unitdate type="inclusive" normal="1987/1996">1987-1996</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
             </physdesc>
           </did>
@@ -114,8 +113,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [410938984299229257205]">1</container>
-            <unittitle>Executive Committee <unitdate type="inclusive" normal="1988/1996">1988-1996</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Executive Committee</unittitle><unitdate type="inclusive" normal="1988/1996">1988-1996</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -133,8 +131,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [410938984299229257205]">1</container>
-              <unittitle>Meeting minutes and notes <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Meeting minutes and notes</unittitle><unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
@@ -142,8 +139,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [52817912415889091775101]">2</container>
-              <unittitle>Meeting minutes and notes <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Meeting minutes and notes</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
@@ -160,20 +156,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [52817912415889091775101]">2</container>
-            <unittitle>Major Sponsor Binder <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <unittitle>Major Sponsor Binder</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52817912415889091775101]">2</container>
-            <unittitle>Major Sponsor Binder <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-          </did>
+            <unittitle>Major Sponsor Binder</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52817912415889091775101]">2</container>
-            <unittitle>Membership <unitdate type="inclusive" normal="1990/1996">1990-1996</unitdate></unittitle>
-          </did>
+            <unittitle>Membership</unittitle><unitdate type="inclusive" normal="1990/1996">1990-1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -184,14 +177,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [52817912415889091775101]">2</container>
-            <unittitle>Strategic Planning <unitdate type="inclusive" normal="1987/1991" certainty="approximate">circa 1987-1991</unitdate></unittitle>
-          </did>
+            <unittitle>Strategic Planning</unittitle><unitdate type="inclusive" normal="1987/1991" certainty="approximate">circa 1987-1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52817912415889091775101]">2</container>
-            <unittitle>Support/Endorsement <unitdate type="inclusive" normal="1987/1991">1987-1991</unitdate>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-          </did>
+            <unittitle>Support/Endorsement</unittitle><unitdate type="inclusive" normal="1987/1991">1987-1991</unitdate><unitdate type="inclusive" normal="1996">1996</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -214,8 +205,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [52817912415889091775101]">2</container>
-              <unittitle>Planning; <unitdate type="inclusive" normal="1989">1989</unitdate>, <unitdate type="inclusive" normal="1991/1997">1991-1997</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Planning;</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate><unitdate type="inclusive" normal="1991/1997">1991-1997</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 folders</extent>
               </physdesc>
             </did>
@@ -228,10 +218,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [52817912415889091775101]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1990">1990</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1990">1990</unitdate></did>
             <odd>
               <p>(see also Visual Materials, CDs)</p>
             </odd>
@@ -239,10 +226,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [52817912415889091775101]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1991">1991</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1991">1991</unitdate></did>
             <odd>
               <p>(see also Visual Materials, CDs)</p>
             </odd>
@@ -250,10 +234,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [52817912415889091775101]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1992">1992</unitdate>
-              </unittitle>
-              <physdesc altrender="part">
+              <unitdate type="inclusive" normal="1992">1992</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -267,10 +248,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [52817912415889091775101]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1993">1993</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1993">1993</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -281,10 +259,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [52817912415889091775101]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994">1994</unitdate>
-              </unittitle>
-              <physdesc altrender="part">
+              <unitdate type="inclusive" normal="1994">1994</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -298,10 +273,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [52817912415889091775101]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1995">1995</unitdate>
-              </unittitle>
-              <physdesc altrender="part">
+              <unitdate type="inclusive" normal="1995">1995</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -315,10 +287,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0950888431851093648317]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1996">1996</unitdate>
-              </unittitle>
-              <physdesc altrender="part">
+              <unitdate type="inclusive" normal="1996">1996</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -332,10 +301,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0950888431851093648317]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1997">1997</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1997">1997</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
@@ -346,10 +312,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0950888431851093648317]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1998">1998</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1998">1998</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
@@ -360,10 +323,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0950888431851093648317]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1999">1999</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1999">1999</unitdate></did>
             <odd>
               <p>(see Visual Materials, CDs)</p>
             </odd>
@@ -371,10 +331,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0950888431851093648317]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2000">2000</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="2000">2000</unitdate></did>
             <odd>
               <p>(see also Visual Materials, CDs)</p>
             </odd>
@@ -382,10 +339,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0950888431851093648317]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2001">2001</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="2001">2001</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
@@ -396,10 +350,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0950888431851093648317]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2002">2002</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="2002">2002</unitdate></did>
             <odd>
               <p>(see also Visual Materials, CDs)</p>
             </odd>
@@ -407,10 +358,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0950888431851093648317]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2003">2003</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="2003">2003</unitdate></did>
             <odd>
               <p>(see Visual Materials, CDs)</p>
             </odd>
@@ -418,10 +366,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0950888431851093648317]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2004">2004</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="2004">2004</unitdate></did>
             <odd>
               <p>(see also Visual Materials, CDs)</p>
             </odd>
@@ -429,10 +374,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0950888431851093648317]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2005">2005</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="2005">2005</unitdate></did>
             <odd>
               <p>(see Visual Materials, CDs)</p>
             </odd>
@@ -440,10 +382,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0950888431851093648317]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2006">2006</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="2006">2006</unitdate></did>
             <odd>
               <p>(see also Visual Materials, CDs)</p>
             </odd>
@@ -451,8 +390,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1990">1990</unitdate> Investigation</unittitle>
-          </did>
+            <unittitle>Investigation</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [056721178483892243706]">4</container>
@@ -492,8 +430,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1991">1991</unitdate> Investigation</unittitle>
-          </did>
+            <unittitle>Investigation</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [056721178483892243706]">4</container>
@@ -527,8 +464,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1992">1992</unitdate> Investigation</unittitle>
-          </did>
+            <unittitle>Investigation</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [056721178483892243706]">4</container>
@@ -586,8 +522,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1993">1993</unitdate> Investigation</unittitle>
-          </did>
+            <unittitle>Investigation</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           <odd>
             <p>(see also Visual Materials, CDs)</p>
           </odd>
@@ -630,8 +565,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1994">1994</unitdate> Investigation</unittitle>
-          </did>
+            <unittitle>Investigation</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           <odd>
             <p>(see also Visual Materials, CDs)</p>
           </odd>
@@ -692,8 +626,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1995">1995</unitdate> Investigation</unittitle>
-          </did>
+            <unittitle>Investigation</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           <odd>
             <p>(see also Visual Materials, CDs)</p>
           </odd>
@@ -748,8 +681,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1996">1996</unitdate> Investigation</unittitle>
-          </did>
+            <unittitle>Investigation</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           <odd>
             <p>(see also Visual Materials, CDs)</p>
           </odd>
@@ -816,8 +748,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1997">1997</unitdate> Investigation</unittitle>
-          </did>
+            <unittitle>Investigation</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           <odd>
             <p>(see also Visual Materials, CDs)</p>
           </odd>
@@ -860,8 +791,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="2003">2003</unitdate> Investigation</unittitle>
-          </did>
+            <unittitle>Investigation</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7997342844927967510]">5</container>
@@ -907,8 +837,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="2004">2004</unitdate> Investigation</unittitle>
-          </did>
+            <unittitle>Investigation</unittitle><unitdate type="inclusive" normal="2004">2004</unitdate></did>
           <odd>
             <p>(see also Visual Materials, CDs)</p>
           </odd>
@@ -963,8 +892,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="2005">2005</unitdate> Investigation</unittitle>
-          </did>
+            <unittitle>Investigation</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
           <odd>
             <p>(see also Visual Materials, CDs)</p>
           </odd>
@@ -1025,8 +953,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="2006">2006</unitdate> Investigation</unittitle>
-          </did>
+            <unittitle>Investigation</unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
           <odd>
             <p>(see also Visual Materials, CDs)</p>
           </odd>
@@ -1094,8 +1021,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7997342844927967510]">5</container>
-              <unittitle><unitdate type="inclusive" normal="1997">1997</unitdate> NOVA PowerPoint and <unitdate type="inclusive" normal="1997-03">March 1997</unitdate> CIF Web Site</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>1997 NOVA PowerPoint and March 1997 CIF Web Site</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate><unitdate type="inclusive" normal="1997-03">March 1997</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
                 <physfacet>CD-Rs</physfacet>
               </physdesc>
@@ -1104,8 +1030,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7997342844927967510]">5</container>
-              <unittitle>Nominations <unitdate type="inclusive" normal="1990/2006">1990-2006</unitdate> and Reports, <unitdate type="inclusive" normal="1993/1997">1993-1997</unitdate>, <unitdate type="inclusive" normal="2004/2006">2004-2006</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Nominations 1990-2006 and Reports, 1993-1997, 2004-2006</unittitle><unitdate type="inclusive" normal="1990/2006">1990-2006</unitdate><unitdate type="inclusive" normal="1993/1997">1993-1997</unitdate><unitdate type="inclusive" normal="2004/2006">2004-2006</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
                 <physfacet>CD-Rs</physfacet>
               </physdesc>
@@ -1121,32 +1046,27 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7997342844927967510]">5</container>
-              <unittitle><unitdate type="inclusive" normal="1989">1989</unitdate> Innovation Celebration</unittitle>
-            </did>
+              <unittitle>Innovation Celebration</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7997342844927967510]">5</container>
-              <unittitle><unitdate type="inclusive" normal="1990">1990</unitdate> Innovation Celebration</unittitle>
-            </did>
+              <unittitle>Innovation Celebration</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7997342844927967510]">5</container>
-              <unittitle><unitdate type="inclusive" normal="1991">1991</unitdate> Innovation Celebration</unittitle>
-            </did>
+              <unittitle>Innovation Celebration</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7997342844927967510]">5</container>
-              <unittitle><unitdate type="inclusive" normal="1992">1992</unitdate> Innovation Celebration</unittitle>
-            </did>
+              <unittitle>Innovation Celebration</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7997342844927967510]">5</container>
-              <unittitle><unitdate type="inclusive" normal="1993">1993</unitdate> Innovation Celebration</unittitle>
-            </did>
+              <unittitle>Innovation Celebration</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1156,8 +1076,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7997342844927967510]">5</container>
-              <unittitle><unitdate type="inclusive" normal="1990">1990</unitdate> Construction Innovation Forum and NOVA Awards</unittitle>
-            </did>
+              <unittitle>Construction Innovation Forum and NOVA Awards</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1169,8 +1088,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7997342844927967510]">5</container>
-              <unittitle><unitdate type="inclusive" normal="1990">1990</unitdate> Construction Innovation Forum and NOVA Awards</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Construction Innovation Forum and NOVA Awards</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 videotapes</extent>
                 <physfacet>VHS (TM)</physfacet>
               </physdesc>
@@ -1179,8 +1097,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7997342844927967510]">5</container>
-              <unittitle><unitdate type="inclusive" normal="1993">1993</unitdate> NOVA Awards</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>NOVA Awards</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 videotapes</extent>
                 <physfacet>VHS (TM)</physfacet>
               </physdesc>
@@ -1189,8 +1106,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7997342844927967510]">5</container>
-              <unittitle><unitdate type="inclusive" normal="1995">1995</unitdate> Innovation Celebration program</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Innovation Celebration program</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 videotapes</extent>
                 <physfacet>VHS (TM)</physfacet>
               </physdesc>
@@ -1208,14 +1124,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [48761965247728182445]">6</container>
-            <unittitle>Articles <unitdate type="inclusive" normal="1988/1996">1988-1996</unitdate></unittitle>
-          </did>
+            <unittitle>Articles</unittitle><unitdate type="inclusive" normal="1988/1996">1988-1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [48761965247728182445]">6</container>
-            <unittitle>Press Releases <unitdate type="inclusive" normal="1989/1998">1989-1998</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Press Releases</unittitle><unitdate type="inclusive" normal="1989/1998">1989-1998</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1223,14 +1137,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [48761965247728182445]">6</container>
-            <unittitle>Print Materials <unitdate type="inclusive" normal="1991/1997">1991-1997</unitdate></unittitle>
-          </did>
+            <unittitle>Print Materials</unittitle><unitdate type="inclusive" normal="1991/1997">1991-1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [48761965247728182445]">6</container>
-            <unittitle><title render="italic">Innovator</title>, <unitdate type="inclusive" normal="1989/1997">1989-1997</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Innovator</title></unittitle><unitdate type="inclusive" normal="1989/1997">1989-1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1241,14 +1153,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [48761965247728182445]">6</container>
-            <unittitle>Talks <unitdate type="inclusive" normal="1987">1987</unitdate>, <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
-          </did>
+            <unittitle>Talks</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate><unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [48761965247728182445]">6</container>
-            <unittitle>Publicity <unitdate type="inclusive" normal="1989/1997">1989-1997</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Publicity</unittitle><unitdate type="inclusive" normal="1989/1997">1989-1997</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -1256,8 +1166,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [48761965247728182445]">6</container>
-            <unittitle>Winners press announcements <unitdate type="inclusive" normal="1990/1995">1990-1995</unitdate>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Winners press announcements</unittitle><unitdate type="inclusive" normal="1990/1995">1990-1995</unitdate><unitdate type="inclusive" normal="1997">1997</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
             </physdesc>
           </did>

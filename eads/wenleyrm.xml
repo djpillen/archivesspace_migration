@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr00017036">Wenley, R. M. (Robert Mark), 1861-1929.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr00017036" ref="/agents/people/2680">Wenley, R. M. (Robert Mark), 1861-1929.</persname>
       </origination>
-      <unittitle encodinganalog="245">R. M. Wenley Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1879/1931">1879-1931</unitdate></unittitle>
-      <abstract>Professor of philosophy at Glasgow University and University of Michigan. Extensive correspondence, scrapbooks, lecture notes, addresses, newspaper clippings and other papers relating to questions of philosophy and to his activities at University of Michigan; diaries, 1896-1927, relating to his European travels and career at the University; and photographs.</abstract>
+      <unittitle encodinganalog="245">R. M. Wenley Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1879/1931">1879-1931</unitdate><abstract>Professor of philosophy at Glasgow University and University of Michigan. Extensive correspondence, scrapbooks, lecture notes, addresses, newspaper clippings and other papers relating to questions of philosophy and to his activities at University of Michigan; diaries, 1896-1927, relating to his European travels and career at the University; and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86359 Aa 2; Ac</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -83,72 +83,72 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Europe--Description and travel.</geogname>
-        <subject source="lcsh" encodinganalog="650">Philosophy.</subject>
-        <subject source="lcsh" encodinganalog="650">Voyages and travels.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79129619">University of Glasgow.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Philosophy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr00024638">Wenley, A. G. (Archibald Gibson), 1898-1962</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr00017036">Wenley, R. M. (Robert Mark), 1861-1929.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/968">Europe--Description and travel.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6445">Philosophy.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6014">Voyages and travels.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79129619" ref="/agents/corporate_entities/2652">University of Glasgow.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/704">University of Michigan. Dept. of Philosophy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr00024638" ref="/agents/people/7898">Wenley, A. G. (Archibald Gibson), 1898-1962</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr00017036" ref="/agents/people/2680">Wenley, R. M. (Robert Mark), 1861-1929.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Dwellings.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Club (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Living rooms.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Quadrangle Club (University of Michigan)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr00017036">Wenley, R. M. (Robert Mark), 1861-1929.</persname>
-        <famname source="lcnaf" encodinganalog="600">Wenley family.</famname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/203">Ann Arbor (Mich.)--Dwellings.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2028">Club (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3570">Dwellings--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4169">Living rooms.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5372">Quadrangle Club (University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr00017036" ref="/agents/people/2680">Wenley, R. M. (Robert Mark), 1861-1929.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/360">Wenley family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82253251">Adams, George Plimpton, 1882-1961.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065">Angell, James Burrill, 1829-1916.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97001042">Angell, James Rowland, 1869-1949.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79110535">Baldwin, James Mark, 1861-1934.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85809443">Barbour, Levi L. (Levi Lewis), 1840-1925.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186663">Beal, Junius E. (Junius Emery), 1860-1942.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93084315">Bishop, William Warner, 1871-1955.</persname>
-        <persname source="lcnaf" encodinganalog="700">Britton, Frederic H.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032600">Butler, Nicholas Murray, 1862-1947.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032854">Caird, Edward, 1835-1908.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87100438">Carhart, Henry S. (Henry Smith), 1844-1920.</persname>
-        <persname source="lcnaf" encodinganalog="700">Chang, Wyszie Shionyu.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr94018515">Clements, William L. (William Lawrence), 1861-1934.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80056984">Cooley, Charles Horton, 1864-1929.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804477">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060532">Dewey, John, 1859-1952.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88680196">Donaldson, James, Sir, 1831-1915.</persname>
-        <persname source="lcnaf" encodinganalog="700">Duff, Robert A.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no92017771">Flint, Robert, 1838-1910.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79095473">Fraser, Alexander Campbell, 1819-1914.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79005644">Frost, Robert, 1874-1963.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87891315">Fuller, George N. (George Newman), 1873-1957.</persname>
-        <persname source="lcnaf" encodinganalog="700">Gallagher, Michael James, 1866-1937.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50034593">Goldman, Emma, 1869-1940.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86869592">Hobbs, William Herbert, 1864-1952.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88002366">Hutchins, Harry B. (Harry Burns), 1847-1930.</persname>
-        <persname source="lcnaf" encodinganalog="700">Kelsey, Francis W. (Francis Willey), b. 1858.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82091891">Ladd, George Trumbull, 1842-1921.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87126725">Lloyd, Alfred H. (Alfred Henry), 1864-1927.</persname>
-        <persname source="lcnaf" encodinganalog="700">Masson, David.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80036702">Mencken, H. L. (Henry Louis), 1880-1956.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82136725">Murray, John Clark, 1836-1917.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83825051">Romanes, George John, 1848-1894.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79056054">Russell, Bertrand, 1872-1970.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79127862">Sinclair, Upton, 1878-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2012149921">Ten Hoor, Marten, 1890-</persname>
-        <persname source="lcnaf" encodinganalog="700">Vibbert, Charles Bruce, 1877-1950.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85808766">Woodward, Robert Simpson, 1849-1924.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82253251" ref="/agents/people/2320">Adams, George Plimpton, 1882-1961.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065" ref="/agents/people/2745">Angell, James Burrill, 1829-1916.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97001042" ref="/agents/people/3878">Angell, James Rowland, 1869-1949.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79110535" ref="/agents/people/4617">Baldwin, James Mark, 1861-1934.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85809443" ref="/agents/people/5922">Barbour, Levi L. (Levi Lewis), 1840-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186663" ref="/agents/people/7820">Beal, Junius E. (Junius Emery), 1860-1942.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93084315" ref="/agents/people/5632">Bishop, William Warner, 1871-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3150">Britton, Frederic H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032600" ref="/agents/people/5000">Butler, Nicholas Murray, 1862-1947.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032854" ref="/agents/people/7125">Caird, Edward, 1835-1908.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87100438" ref="/agents/people/8584">Carhart, Henry S. (Henry Smith), 1844-1920.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7583">Chang, Wyszie Shionyu.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr94018515" ref="/agents/people/5523">Clements, William L. (William Lawrence), 1861-1934.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80056984" ref="/agents/people/1767">Cooley, Charles Horton, 1864-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804477" ref="/agents/people/8819">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060532" ref="/agents/people/7972">Dewey, John, 1859-1952.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88680196" ref="/agents/people/8901">Donaldson, James, Sir, 1831-1915.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5612">Duff, Robert A.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no92017771" ref="/agents/people/4582">Flint, Robert, 1838-1910.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79095473" ref="/agents/people/7816">Fraser, Alexander Campbell, 1819-1914.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79005644" ref="/agents/people/4683">Frost, Robert, 1874-1963.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87891315" ref="/agents/people/6611">Fuller, George N. (George Newman), 1873-1957.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5814">Gallagher, Michael James, 1866-1937.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50034593" ref="/agents/people/6401">Goldman, Emma, 1869-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86869592" ref="/agents/people/3062">Hobbs, William Herbert, 1864-1952.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88002366" ref="/agents/people/1560">Hutchins, Harry B. (Harry Burns), 1847-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/429">Kelsey, Francis W. (Francis Willey), b. 1858.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82091891" ref="/agents/people/8095">Ladd, George Trumbull, 1842-1921.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87126725" ref="/agents/people/4255">Lloyd, Alfred H. (Alfred Henry), 1864-1927.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2718">Masson, David.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80036702" ref="/agents/people/5469">Mencken, H. L. (Henry Louis), 1880-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82136725" ref="/agents/people/7013">Murray, John Clark, 1836-1917.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2456">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83825051" ref="/agents/people/8333">Romanes, George John, 1848-1894.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79056054" ref="/agents/people/8183">Russell, Bertrand, 1872-1970.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79127862" ref="/agents/people/5394">Sinclair, Upton, 1878-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2012149921" ref="/agents/people/5512">Ten Hoor, Marten, 1890-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5185">Vibbert, Charles Bruce, 1877-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85808766" ref="/agents/people/2437">Woodward, Robert Simpson, 1849-1924.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -160,307 +160,205 @@
           <did>
             <container type="box" label="Box [59739466869271386419]" id="f5cae764-ba7c-4940-8da3-0e1084bb411e">1</container>
             <container type="folder" label="Folder" parent="f5cae764-ba7c-4940-8da3-0e1084bb411e">1</container>
-            <unittitle>
-              <unitdate>Undated</unitdate>
-            </unittitle>
-          </did>
+            <unitdate>Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="84ff7e2a-4826-4536-905e-bde4f044237c">1</container>
             <container type="folder" label="Folder" parent="84ff7e2a-4826-4536-905e-bde4f044237c">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1879/1884">1879-1884</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1879/1884">1879-1884</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="1c20411f-8503-4290-9f82-fb44449ca6c0">1</container>
             <container type="folder" label="Folder" parent="1c20411f-8503-4290-9f82-fb44449ca6c0">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1885">1885</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1885">1885</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="28a58e7a-8fcf-4f38-9614-5dd9efd04ecc">1</container>
             <container type="folder" label="Folder" parent="28a58e7a-8fcf-4f38-9614-5dd9efd04ecc">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1886">1886</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1886">1886</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="1f504b5d-dcd8-40ec-9b2f-59f8d8acc3e7">1</container>
             <container type="folder" label="Folder" parent="1f504b5d-dcd8-40ec-9b2f-59f8d8acc3e7">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1887">1887</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1887">1887</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="0fc37929-009d-4e31-992a-2160d0b30000">1</container>
             <container type="folder" label="Folder" parent="0fc37929-009d-4e31-992a-2160d0b30000">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1891">1891</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1891">1891</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="88625731-ade2-4e82-8b44-eb79fc4c2233">1</container>
             <container type="folder" label="Folder" parent="88625731-ade2-4e82-8b44-eb79fc4c2233">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1892/1893">1892-1893</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1892/1893">1892-1893</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="b0146589-cedb-4e07-8afa-ff45269d96e5">1</container>
             <container type="folder" label="Folder" parent="b0146589-cedb-4e07-8afa-ff45269d96e5">8</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1894">1894</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1894">1894</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="8b094e26-db4a-4a52-b70a-6f10d126706d">1</container>
             <container type="folder" label="Folder" parent="8b094e26-db4a-4a52-b70a-6f10d126706d">9</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1895-01/1895-06">January-June 1895</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1895-01/1895-06">January-June 1895</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="3ab2c351-3049-4bed-9082-6ecc50cefa00">1</container>
             <container type="folder" label="Folder" parent="3ab2c351-3049-4bed-9082-6ecc50cefa00">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1895-07/1895-12">July-December 1895</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1895-07/1895-12">July-December 1895</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="c9756d1e-c9ae-4b18-b37a-701a8d1868c6">1</container>
             <container type="folder" label="Folder" parent="c9756d1e-c9ae-4b18-b37a-701a8d1868c6">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1896">1896</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1896">1896</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="d10f92f0-4525-47cf-8de9-a9ddf7a44727">1</container>
             <container type="folder" label="Folder" parent="d10f92f0-4525-47cf-8de9-a9ddf7a44727">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1897">1897</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1897">1897</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="1dd97d78-ca79-4c99-a0cf-85c94838df4d">1</container>
             <container type="folder" label="Folder" parent="1dd97d78-ca79-4c99-a0cf-85c94838df4d">13</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1898/1900">1898-1900</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1898/1900">1898-1900</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="5944ff32-3032-432d-bf41-d6c9dc8836e2">1</container>
             <container type="folder" label="Folder" parent="5944ff32-3032-432d-bf41-d6c9dc8836e2">14</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1901/1905">1901-1905</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1901/1905">1901-1905</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="9a5cf200-00e2-4555-9d33-bb940718b687">1</container>
             <container type="folder" label="Folder" parent="9a5cf200-00e2-4555-9d33-bb940718b687">15</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1906">1906</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1906">1906</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="2e76f420-729b-4462-b8b6-6fe1d4d072df">1</container>
             <container type="folder" label="Folder" parent="2e76f420-729b-4462-b8b6-6fe1d4d072df">16</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1907/1908">1907-1908</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1907/1908">1907-1908</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="7220be5e-4bfb-40fc-9415-cf6b02ad85fd">1</container>
             <container type="folder" label="Folder" parent="7220be5e-4bfb-40fc-9415-cf6b02ad85fd">17</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1909">1909</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1909">1909</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="519ce8d5-e0f8-44de-9141-8a5e5f1aa8cf">1</container>
             <container type="folder" label="Folder" parent="519ce8d5-e0f8-44de-9141-8a5e5f1aa8cf">18</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1910">1910</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1910">1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="142e76aa-e5ec-4c21-8505-64f0c514d49f">1</container>
             <container type="folder" label="Folder" parent="142e76aa-e5ec-4c21-8505-64f0c514d49f">19</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1911">1911</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1911">1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="961384bf-7b3f-4f61-8d68-2200f68934a0">1</container>
             <container type="folder" label="Folder" parent="961384bf-7b3f-4f61-8d68-2200f68934a0">20</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="4cbe70da-fb6a-4b58-9e4d-a9950a9b22a8">1</container>
             <container type="folder" label="Folder" parent="4cbe70da-fb6a-4b58-9e4d-a9950a9b22a8">21</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1914">1914</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1914">1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="ce38e56b-1b35-43c1-be3a-1da9ea8cf1bb">1</container>
             <container type="folder" label="Folder" parent="ce38e56b-1b35-43c1-be3a-1da9ea8cf1bb">22</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1915/1916">1915-1916</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1915/1916">1915-1916</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="312eed98-dc22-4ebf-b808-c50d032f8c11">1</container>
             <container type="folder" label="Folder" parent="312eed98-dc22-4ebf-b808-c50d032f8c11">23</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1917">1917</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1917">1917</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="ae87bd1f-eab5-4252-b734-82eb7f516f38">1</container>
             <container type="folder" label="Folder" parent="ae87bd1f-eab5-4252-b734-82eb7f516f38">24</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1918">1918</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1918">1918</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="ccd436ba-97f7-4f10-bd47-9081ba3ddbba">1</container>
             <container type="folder" label="Folder" parent="ccd436ba-97f7-4f10-bd47-9081ba3ddbba">25</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1919">1919</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1919">1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="1d082ee0-9164-4ea7-80dc-728ccc312eb4">1</container>
             <container type="folder" label="Folder" parent="1d082ee0-9164-4ea7-80dc-728ccc312eb4">26</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1920">1920</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1920">1920</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="f1a172dd-273b-4076-adaa-0b99983b0796">1</container>
             <container type="folder" label="Folder" parent="f1a172dd-273b-4076-adaa-0b99983b0796">27</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1921">1921</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1921">1921</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="0cd84e70-13b8-4e5c-a4c9-ff91d3b930f7">1</container>
             <container type="folder" label="Folder" parent="0cd84e70-13b8-4e5c-a4c9-ff91d3b930f7">28</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1922/1923">1922-1923</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1922/1923">1922-1923</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="0a61ff49-59d3-41db-b930-3d60c2d4e75a">1</container>
             <container type="folder" label="Folder" parent="0a61ff49-59d3-41db-b930-3d60c2d4e75a">29</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1924">1924</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1924">1924</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="3014053d-d4dc-42fd-8107-bd06977b77a2">1</container>
             <container type="folder" label="Folder" parent="3014053d-d4dc-42fd-8107-bd06977b77a2">30</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1925">1925</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1925">1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="08c79a6a-066d-4408-afe1-03dbe3c0f5a8">1</container>
             <container type="folder" label="Folder" parent="08c79a6a-066d-4408-afe1-03dbe3c0f5a8">31</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1926">1926</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1926">1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="73297d3f-3104-4a69-98e9-db77d429d819">1</container>
             <container type="folder" label="Folder" parent="73297d3f-3104-4a69-98e9-db77d429d819">32</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1927">1927</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1927">1927</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="be9d23e5-0d3a-4760-99ab-eb681df79bf9">1</container>
             <container type="folder" label="Folder" parent="be9d23e5-0d3a-4760-99ab-eb681df79bf9">33</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1928">1928</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1928">1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59739466869271386419]" id="28a6ad87-0cc5-4524-8929-92716b956a2d">1</container>
             <container type="folder" label="Folder" parent="28a6ad87-0cc5-4524-8929-92716b956a2d">34</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -474,8 +372,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [49010422822397994975]">11</container>
-              <unittitle>RMW notes as student <unitdate type="inclusive" normal="1880/1884">1880-1884</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>RMW notes as student</unittitle><unitdate type="inclusive" normal="1880/1884">1880-1884</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">9 volumes</extent>
               </physdesc>
             </did>
@@ -513,8 +410,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [49010422822397994975]">11</container>
-            <unittitle>Edinburgh Summer School <unitdate type="inclusive" normal="1895/1896">1895-1896</unitdate></unittitle>
-          </did>
+            <unittitle>Edinburgh Summer School</unittitle><unitdate type="inclusive" normal="1895/1896">1895-1896</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -524,7 +420,7 @@
             <did>
               <container type="box" label="Box [905594864248872234634]" id="2f54d0bd-dcbd-4109-aaae-013ba70295ba">2</container>
               <container type="folder" label="Folder" parent="2f54d0bd-dcbd-4109-aaae-013ba70295ba">35</container>
-              <unittitle>re. Edward Caird</unittitle>
+              <unittitle>Re. Edward Caird</unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -603,8 +499,7 @@
           <did>
             <container type="box" label="Box [905594864248872234634]" id="d554ae40-b5e0-4f85-812c-850cffbe70b8">2</container>
             <container type="folder" label="Folder" parent="d554ae40-b5e0-4f85-812c-850cffbe70b8">47</container>
-            <unittitle>Obituaries of Robert Mark Wenley <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-          </did>
+            <unittitle>Obituaries of Robert Mark Wenley</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -624,8 +519,7 @@
           <did>
             <container type="box" label="Box [905594864248872234634]" id="d06e7e04-f37c-42aa-8ec3-6ee742da134f">2</container>
             <container type="folder" label="Folder" parent="d06e7e04-f37c-42aa-8ec3-6ee742da134f">50-52</container>
-            <unittitle>"Recollections, reflections and impressions of a vagrant Scot: an essay in informal autobiography" <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>"Recollections, reflections and impressions of a vagrant Scot: an essay in informal autobiography"</unittitle><unitdate type="inclusive" normal="1916">1916</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -634,8 +528,7 @@
           <did>
             <container type="box" label="Box [905594864248872234634]" id="d153bca4-e39e-4a0a-8488-f2ed1e77e4db">2</container>
             <container type="folder" label="Folder" parent="d153bca4-e39e-4a0a-8488-f2ed1e77e4db">53</container>
-            <unittitle>University of Glasgow honorary degree <unitdate type="inclusive" normal="1901">1901</unitdate></unittitle>
-          </did>
+            <unittitle>University of Glasgow honorary degree</unittitle><unitdate type="inclusive" normal="1901">1901</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -743,7 +636,7 @@
           <did>
             <container type="box" label="Box [52927781458446528194753]" id="9ac50695-6d34-4d22-9080-5869e685e3e7">3</container>
             <container type="folder" label="Folder" parent="9ac50695-6d34-4d22-9080-5869e685e3e7">82</container>
-            <unittitle>re "synthesis of knowledge, skepticism, egotism, etc."</unittitle>
+            <unittitle>Re "synthesis of knowledge, skepticism, egotism, etc."</unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -848,8 +741,7 @@
           <did>
             <container type="box" label="Box [52927781458446528194753]" id="0dd610ae-abc0-44d7-a437-90a49b8f96df">3</container>
             <container type="folder" label="Folder" parent="0dd610ae-abc0-44d7-a437-90a49b8f96df">102</container>
-            <unittitle>Bible class and "The Western World Wonder-Child" <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
-          </did>
+            <unittitle>Bible class and "The Western World Wonder-Child"</unittitle><unitdate type="inclusive" normal="1908">1908</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -876,8 +768,7 @@
           <did>
             <container type="box" label="Box [52927781458446528194753]" id="231dd570-fc0a-4257-a33b-676bc917f379">3</container>
             <container type="folder" label="Folder" parent="231dd570-fc0a-4257-a33b-676bc917f379">106</container>
-            <unittitle>Hegel <unitdate type="inclusive" normal="1896/1897">1896-1897</unitdate></unittitle>
-          </did>
+            <unittitle>Hegel</unittitle><unitdate type="inclusive" normal="1896/1897">1896-1897</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -890,29 +781,25 @@
           <did>
             <container type="box" label="Box [52927781458446528194753]" id="f1ecb29d-22b8-45b8-bf27-b0c6c7f4500a">3</container>
             <container type="folder" label="Folder" parent="f1ecb29d-22b8-45b8-bf27-b0c6c7f4500a">108</container>
-            <unittitle>"Philosophical Introduction" <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
-          </did>
+            <unittitle>"Philosophical Introduction"</unittitle><unitdate type="inclusive" normal="1910">1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52927781458446528194753]" id="4e5e9a2e-1afa-4c5e-afd8-025041d95bbb">3</container>
             <container type="folder" label="Folder" parent="4e5e9a2e-1afa-4c5e-afd8-025041d95bbb">109</container>
-            <unittitle>Novelists of the nineteenth century <unitdate type="inclusive" normal="1896/1897">1896-1897</unitdate></unittitle>
-          </did>
+            <unittitle>Novelists of the nineteenth century</unittitle><unitdate type="inclusive" normal="1896/1897">1896-1897</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52927781458446528194753]" id="9132e718-bca2-462b-8825-9d9f15e5e85c">3</container>
             <container type="folder" label="Folder" parent="9132e718-bca2-462b-8825-9d9f15e5e85c">110</container>
-            <unittitle>Evolution and religion <unitdate type="inclusive" normal="1885" certainty="approximate">circa 1885</unitdate></unittitle>
-          </did>
+            <unittitle>Evolution and religion</unittitle><unitdate type="inclusive" normal="1885" certainty="approximate">circa 1885</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52927781458446528194753]" id="89a61c57-a7b7-4085-9677-2543b1492cfc">3</container>
             <container type="folder" label="Folder" parent="89a61c57-a7b7-4085-9677-2543b1492cfc">111</container>
-            <unittitle>Smollett <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-          </did>
+            <unittitle>Smollett</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -934,8 +821,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [52927781458446528194753]">3</container>
-            <unittitle>Introductory class <unitdate type="inclusive" normal="1896-09">September 1896</unitdate></unittitle>
-          </did>
+            <unittitle>Introductory class</unittitle><unitdate type="inclusive" normal="1896-09">September 1896</unitdate></did>
           <odd>
             <p>(also used in succeeding years)</p>
           </odd>
@@ -943,8 +829,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [52927781458446528194753]">3</container>
-            <unittitle>Course I: Philosophy Introduction <unitdate type="inclusive" normal="1905/1907">1905-1907</unitdate></unittitle>
-          </did>
+            <unittitle>Course I: Philosophy Introduction</unittitle><unitdate type="inclusive" normal="1905/1907">1905-1907</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1105,8 +990,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3344720445139144310]">6</container>
-            <unittitle><genreform source="aat" normal="Diaries">Diaries</genreform>, <unitdate type="inclusive" normal="1896/1927">1896-1927</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle><genreform source="aat" normal="Diaries">Diaries</genreform></unittitle><unitdate type="inclusive" normal="1896/1927">1896-1927</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>
@@ -1117,8 +1001,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3344720445139144310]">6</container>
-            <unittitle>American University Union, London, notebooks <unitdate type="inclusive" normal="1925/1927">1925-1927</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>American University Union, London, notebooks</unittitle><unitdate type="inclusive" normal="1925/1927">1925-1927</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 volumes</extent>
             </physdesc>
           </did>
@@ -1151,90 +1034,57 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [687188499308053318]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1889/1919">1889-1919</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1889/1919">1889-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [687188499308053318]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1884/1914">1884-1914</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1884/1914">1884-1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [687188499308053318]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1914/1915">1914-1915</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1914/1915">1914-1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7197042907215978]">8</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1915-12/1918-03">December 1915-March 1918</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1915-12/1918-03">December 1915-March 1918</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7197042907215978]">8</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1918-03/1919-12">March 1918-December 1919</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1918-03/1919-12">March 1918-December 1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [34344604088627115]">9</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1919-12/1923-09">December 1919-September 1923</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1919-12/1923-09">December 1919-September 1923</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [34344604088627115]">9</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1923-10/1925">October 1923-1925</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1923-10/1925">October 1923-1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [16043198040690473337994]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1889-04/1889-11">April-November 1889</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1889-04/1889-11">April-November 1889</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [16043198040690473337994]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1902/1910">1902-1910</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1902/1910">1902-1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [16043198040690473337994]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1925-08/1926-04">August 1925-April 1926</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1925-08/1926-04">August 1925-April 1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [16043198040690473337994]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1926-12/1927-07">December 1926-July 1927</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1926-12/1927-07">December 1926-July 1927</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

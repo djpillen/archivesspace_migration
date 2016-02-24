@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Gabler, Cornelius L. T., 1902-1988.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6237">Gabler, Cornelius L. T., 1902-1988.</persname>
       </origination>
-      <unittitle encodinganalog="245">Cornelius L. T. Gabler papers <unitdate type="inclusive" encodinganalog="245$f" normal="1939/1988">1939-1988</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">921112 Aa 2</unitid>
+      <unittitle encodinganalog="245">Cornelius L. T. Gabler papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1939/1988">1939-1988</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">921112 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Detroit, Michigan, architect; 1934 graduate of the University of Michigan. Biographical material and descriptions of his architectural work, including photographs; also photographs taken during World War II and report of U.S. Strategic Bombing Survey on Wake Island, Marshall Islands, and Rabaul, New Britain.</abstract>
       <physdesc altrender="whole">
@@ -83,35 +83,35 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Architects.</subject>
-        <persname source="lcnaf" encodinganalog="600">Gabler, Cornelius L. T., 1902-1988.</persname>
-        <corpname encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80090279" source="lcnaf">United States Strategic Bombing Survey.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6271">Architects.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6237">Gabler, Cornelius L. T., 1902-1988.</persname>
+        <corpname encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80090279" source="lcnaf" ref="/agents/corporate_entities/2733">United States Strategic Bombing Survey.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Buildings--Michigan--Detroit.</subject>
-        <subject source="lctgm" encodinganalog="650">Campaigns and battles--Oceania.</subject>
-        <geogname source="lctgm" encodinganalog="651">Detroit (Mich.)--Buildings, structures, etc.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Hawaii.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Jaluit Atoll (Marshall Islands)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Majuro Atoll (Marshall Islands)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84055147">Michigan Memorial Phoenix Project.</corpname>
-        <geogname source="lcsh" encodinganalog="651">New Britain Island (Papua New Guinea)</geogname>
-        <subject source="lctgm" encodinganalog="650">Nuclear reactors.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Phoenix Memorial Laboratory.</corpname>
-        <subject source="lctgm" encodinganalog="650">Recruiting and enlistment.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78095328">United States. Marine Corps.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Wake Island.</geogname>
-        <subject source="lctgm" encodinganalog="650">War casualties.</subject>
-        <subject source="lctgm" encodinganalog="650">War damage--Oceania.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
-        <geogname source="lcsh" encodinganalog="651">Wotje Atoll (Marshall Islands)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4030">Buildings--Michigan--Detroit.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4361">Campaigns and battles--Oceania.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/300">Detroit (Mich.)--Buildings, structures, etc.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1255">Hawaii.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1886">Jaluit Atoll (Marshall Islands)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1887">Majuro Atoll (Marshall Islands)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84055147" ref="/agents/corporate_entities/5312">Michigan Memorial Phoenix Project.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1888">New Britain Island (Papua New Guinea)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4362">Nuclear reactors.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4618">Phoenix Memorial Laboratory.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4363">Recruiting and enlistment.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78095328" ref="/agents/corporate_entities/5774">United States. Marine Corps.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1889">Wake Island.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4220">War casualties.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4364">War damage--Oceania.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1890">Wotje Atoll (Marshall Islands)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Slides.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3139">Slides.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -165,8 +165,7 @@
         </did>
         <c02 level="file">
           <did>
-            <unittitle>Code C-color slides taken during Strategic Bombing Survey <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate></unittitle>
-          </did>
+            <unittitle>Code C-color slides taken during Strategic Bombing Survey</unittitle><unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [977999015466470242948]">1</container>
@@ -292,8 +291,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [977999015466470242948]">1</container>
-            <unittitle>Code CP-Cherry Point, N.C <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Code CP-Cherry Point, N.C</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">29 slides</extent>
               <extent altrender="carrier">in folder</extent>
               <physfacet>color</physfacet>
@@ -336,8 +334,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [977999015466470242948]">1</container>
-            <unittitle>Code H-of Hawaii <unitdate type="inclusive" normal="1945" certainty="approximate">circa 1945</unitdate></unittitle>
-            <physdesc altrender="part">
+            <unittitle>Code H-of Hawaii</unittitle><unitdate type="inclusive" normal="1945" certainty="approximate">circa 1945</unitdate><physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">18 slides</extent>
               <extent altrender="carrier">in folder</extent>
               <physfacet>color</physfacet>
@@ -384,7 +381,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [977999015466470242948]">1</container>
-            <unittitle>code NP-river</unittitle>
+            <unittitle>Code NP-river</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 slides</extent>
               <extent altrender="carrier">in folder</extent>
@@ -464,8 +461,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [977999015466470242948]">1</container>
-            <unittitle>Marine recruiting-construction of Detroit Marine recruiting station <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Marine recruiting-construction of Detroit Marine recruiting station</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">29 slides</extent>
               <extent altrender="carrier">in folder</extent>
               <physfacet>color and black and white</physfacet>
@@ -481,10 +477,7 @@
           <did>
             <container type="box" label="Box [977999015466470242948]">1</container>
             <unittitle>
-              <title render="italic">The Allied Campaigns Against Wake Island, the Marshall Islands and Rabaul, New Britain: A Photographic Record</title>
-              <unitdate type="inclusive" normal="1946">1946</unitdate>
-            </unittitle>
-          </did>
+              <title render="italic">The Allied Campaigns Against Wake Island, the Marshall Islands and Rabaul, New Britain: A Photographic Record</title></unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
         </c02>
       </c01>
     </dsc>

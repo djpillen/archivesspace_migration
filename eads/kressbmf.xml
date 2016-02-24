@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79140999">Kresge, Sebastian Spering, 1867-1966.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79140999" ref="/agents/people/8488">Kresge, Sebastian Spering, 1867-1966.</persname>
       </origination>
-      <unittitle encodinganalog="245">Sebastian Spering Kresge papers (microfilm) <unitdate type="inclusive" encodinganalog="245$f" normal="1923/1966">1923-1966</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9565 Aa 2</unitid>
+      <unittitle encodinganalog="245">Sebastian Spering Kresge papers (microfilm)</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1923/1966">1923-1966</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9565 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Founder of the S.S. Kresge Company. Business and personal files relating to his financial dealings and to his involvement with various churches and educational institutions; also photographs.</abstract>
       <physdesc altrender="whole">
@@ -89,32 +89,32 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79140999">Kresge, Sebastian Spering, 1867-1966.</persname>
-        <subject source="lcsh" encodinganalog="650">Business records.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79140970">Kresge Foundation.</corpname>
-        <subject source="lcsh" encodinganalog="650">Philanthropists--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Retail trade.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79140976">S.S. Kresge Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79140999" ref="/agents/people/8488">Kresge, Sebastian Spering, 1867-1966.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5789">Business records.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79140970" ref="/agents/corporate_entities/478">Kresge Foundation.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6787">Philanthropists--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8716">Retail trade.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79140976" ref="/agents/corporate_entities/5340">S.S. Kresge Company.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2012028367">Bronson Methodist Hospital (Kalamazoo, Mich)</corpname>
-        <subject source="lctgm" encodinganalog="650">Buildings--Michigan--Detroit.</subject>
-        <subject source="lctgm" encodinganalog="650">Business enterprises.</subject>
-        <geogname source="lctgm" encodinganalog="651">Chelsea (Mich.)--Rest homes.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Chelsea Methodist Home.</corpname>
-        <geogname source="lctgm" encodinganalog="651">Detroit (Mich.)--Buildings.</geogname>
-        <subject source="lctgm" encodinganalog="650">Hospitals--Michigan--Kalamazoo.</subject>
-        <geogname source="lctgm" encodinganalog="651">Kalamazoo (Mich.)--Hospitals.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79140999">Kresge, Sebastian Spering, 1867-1966.</persname>
-        <famname source="lcnaf" encodinganalog="600">Kresge family.</famname>
-        <subject source="lctgm" encodinganalog="650">Offices--1921-1930.</subject>
-        <subject source="lctgm" encodinganalog="650">Rest homes--Michigan--Chelsea.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79140976">S.S. Kresge Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2012028367" ref="/agents/corporate_entities/2497">Bronson Methodist Hospital (Kalamazoo, Mich)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4030">Buildings--Michigan--Detroit.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4507">Business enterprises.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/364">Chelsea (Mich.)--Rest homes.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4225">Chelsea Methodist Home.</corpname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/235">Detroit (Mich.)--Buildings.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4642">Hospitals--Michigan--Kalamazoo.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/365">Kalamazoo (Mich.)--Hospitals.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79140999" ref="/agents/people/8488">Kresge, Sebastian Spering, 1867-1966.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/342">Kresge family.</famname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4643">Offices--1921-1930.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4644">Rest homes--Michigan--Chelsea.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79140976" ref="/agents/corporate_entities/5340">S.S. Kresge Company.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -134,15 +134,11 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1937">1937</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1937">1937</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5000264243471392798056]">1</container>
-                <unittitle>Baker Land Company: Stockholders Reports, and correspondence concerning company land sales, dividends, and dividend related taxes <unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate></unittitle>
-              </did>
+                <unittitle>Baker Land Company: Stockholders Reports, and correspondence concerning company land sales, dividends, and dividend related taxes</unittitle><unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -156,26 +152,22 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5000264243471392798056]">1</container>
-                <unittitle>Banker's Trust Company: materials related to loans; includes <unitdate type="inclusive" normal="1935">1935</unitdate>, <unitdate type="inclusive" normal="1936">1936</unitdate> correspondence</unittitle>
-              </did>
+                <unittitle>Banker's Trust Company: materials related to loans; includes 1935, 1936 correspondence</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate><unitdate type="inclusive" normal="1936">1936</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5000264243471392798056]">1</container>
-                <unittitle>Chambers of Commerce: re: Kresge's memberships, includes <unitdate type="inclusive" normal="1936">1936</unitdate> materials</unittitle>
-              </did>
+                <unittitle>Chambers of Commerce: re: Kresge's memberships, includes  materials</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5000264243471392798056]">1</container>
-                <unittitle>Chase National Bank (mostly regarding loans) <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></unittitle>
-              </did>
+                <unittitle>Chase National Bank (mostly regarding loans)</unittitle><unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5000264243471392798056]">1</container>
-                <unittitle>Fair, The (quarterly and annual stockholders reports and correspondence with President D.F. Kelly) <unitdate type="inclusive" normal="1935/1937">1935-1937</unitdate></unittitle>
-              </did>
+                <unittitle>Fair, The (quarterly and annual stockholders reports and correspondence with President D.F. Kelly)</unittitle><unitdate type="inclusive" normal="1935/1937">1935-1937</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -190,8 +182,7 @@
               <c05 level="file">
                 <did>
                   <container type="reel" label="Roll [5000264243471392798056]">1</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -202,39 +193,33 @@
               <c05 level="file">
                 <did>
                   <container type="reel" label="Roll [5000264243471392798056]">1</container>
-                  <unittitle>Refusals (of invitations and requests) <unitdate type="inclusive" normal="1934/1938">1934-1938</unitdate></unittitle>
-                </did>
+                  <unittitle>Refusals (of invitations and requests)</unittitle><unitdate type="inclusive" normal="1934/1938">1934-1938</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5000264243471392798056]">1</container>
-                <unittitle>Kresge Company, S.S. General (<unitdate type="inclusive" normal="1936">1936</unitdate> annual report)</unittitle>
-              </did>
+                <unittitle>Kresge Company, S.S. General ( annual report)</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5000264243471392798056]">1</container>
-                <unittitle>Tuttle, C.B., Treasurer (re: dividends, loans, and certificates of indebtedness, stock information, one letter from <unitdate type="inclusive" normal="1938">1938</unitdate>)</unittitle>
-              </did>
+                <unittitle>Tuttle, C.B., Treasurer (re: dividends, loans, and certificates of indebtedness, stock information, one letter from )</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5000264243471392798056]">1</container>
-                <unittitle>Richmond, Virginia (re: rent payments, lease from <unitdate type="inclusive" normal="1917">1917</unitdate>)</unittitle>
-              </did>
+                <unittitle>Richmond, Virginia (re: rent payments, lease from )</unittitle><unitdate type="inclusive" normal="1917">1917</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5000264243471392798056]">1</container>
-                <unittitle>Securities and Exchange Commission (reports and correspondence) <unitdate type="inclusive" normal="1934/1938">1934-1938</unitdate></unittitle>
-              </did>
+                <unittitle>Securities and Exchange Commission (reports and correspondence)</unittitle><unitdate type="inclusive" normal="1934/1938">1934-1938</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5000264243471392798056]">1</container>
-                <unittitle>Slatington, Pennsylvania (re: occupancy by Kresge's relatives, real estate parcels) <unitdate type="inclusive" normal="1931/1937">1931-1937</unitdate></unittitle>
-              </did>
+                <unittitle>Slatington, Pennsylvania (re: occupancy by Kresge's relatives, real estate parcels)</unittitle><unitdate type="inclusive" normal="1931/1937">1931-1937</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -245,16 +230,12 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5000264243471392798056]">1</container>
-                <unittitle>Van Deusen, C.B. (brief notes to/from Gregory) <unitdate type="inclusive" normal="1932/1936">1932-1936</unitdate></unittitle>
-              </did>
+                <unittitle>Van Deusen, C.B. (brief notes to/from Gregory)</unittitle><unitdate type="inclusive" normal="1932/1936">1932-1936</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1938">1938</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1938">1938</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5000264243471392798056]">1</container>
@@ -283,14 +264,12 @@
               <c05 level="file">
                 <did>
                   <container type="reel" label="Roll [97485214968574768703]">2</container>
-                  <unittitle>5625 Pine Tree Drive (appraisal, maintenance records, rental and sale <unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate>)</unittitle>
-                </did>
+                  <unittitle>5625 Pine Tree Drive (appraisal, maintenance records, rental and sale )</unittitle><unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="reel" label="Roll [97485214968574768703]">2</container>
-                  <unittitle>Real Estate (assessment and taxes for Miami Beach property <unitdate type="inclusive" normal="1923">1923</unitdate> sale of Detroit property)</unittitle>
-                </did>
+                  <unittitle>Real Estate (assessment and taxes for Miami Beach property  sale of Detroit property)</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -314,10 +293,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1939">1939</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1939">1939</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [97485214968574768703]">2</container>
@@ -345,22 +321,17 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [97485214968574768703]">2</container>
-                <unittitle>Springfield, Massachusetts (rental/real estate transactions) <unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate></unittitle>
-              </did>
+                <unittitle>Springfield, Massachusetts (rental/real estate transactions)</unittitle><unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [97485214968574768703]">2</container>
-                <unittitle>Steiger, Albert (re: Springfield, Mass.) <unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate></unittitle>
-              </did>
+                <unittitle>Steiger, Albert (re: Springfield, Mass.)</unittitle><unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1940">1940</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1940">1940</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [97485214968574768703]">2</container>
@@ -382,10 +353,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1941">1941</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1941">1941</unitdate></did>
             <c04 level="file">
               <did>
                 <unittitle>Kresge, Sebastian S.</unittitle>
@@ -399,8 +367,7 @@
               <c05 level="file">
                 <did>
                   <container type="reel" label="Roll [97485214968574768703]">2</container>
-                  <unittitle>Real Estate (sale of property, taxes) <unitdate type="inclusive" normal="1939/1942">1939-1942</unitdate></unittitle>
-                </did>
+                  <unittitle>Real Estate (sale of property, taxes)</unittitle><unitdate type="inclusive" normal="1939/1942">1939-1942</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -430,10 +397,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942">1942</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1942">1942</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [97485214968574768703]">2</container>
@@ -461,10 +425,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943">1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943">1943</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [721401692740447039170]">3</container>
@@ -510,10 +471,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944">1944</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1944">1944</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [721401692740447039170]">3</container>
@@ -546,16 +504,12 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [721401692740447039170]">3</container>
-                <unittitle>Voorhies, Long, Ryan and McNair (re: The Fair capitalization and stock transfer; reincorporation of Kresge, Newark; the Kresge Foundation; and dissolution of Kresge Department Stores Inc. <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate>)</unittitle>
-              </did>
+                <unittitle>Voorhies, Long, Ryan and McNair (re: The Fair capitalization and stock transfer; reincorporation of Kresge, Newark; the Kresge Foundation; and dissolution of Kresge Department Stores Inc. )</unittitle><unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945">1945</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945">1945</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [721401692740447039170]">3</container>
@@ -607,10 +561,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946">1946</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1946">1946</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [721401692740447039170]">3</container>
@@ -662,10 +613,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947">1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947">1947</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [721401692740447039170]">3</container>
@@ -693,8 +641,7 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [414158614897086533]">4</container>
-                <unittitle>Kresge-Newark, Inc. (formerly Kresge Department Store, Newark; re: The Fair stock, agreement re: corporate changes to facilitate the issuance of common and preferred stock <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>)</unittitle>
-              </did>
+                <unittitle>Kresge-Newark, Inc. (formerly Kresge Department Store, Newark; re: The Fair stock, agreement re: corporate changes to facilitate the issuance of common and preferred stock )</unittitle><unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -711,10 +658,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948">1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948">1948</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [414158614897086533]">4</container>
@@ -730,8 +674,7 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [414158614897086533]">4</container>
-                <unittitle>Fair, The (re: Kresge Foundation holdings of stock <unitdate type="inclusive" normal="1948-12-27">December 27, 1948</unitdate> market transaction of stock)</unittitle>
-              </did>
+                <unittitle>Fair, The (re: Kresge Foundation holdings of stock  market transaction of stock)</unittitle><unitdate type="inclusive" normal="1948-12-27">December 27, 1948</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -760,15 +703,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949">1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949">1949</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [414158614897086533]">4</container>
-                <unittitle>Contributions (to Red Cross and Community Chest <unitdate type="inclusive" normal="1945/1949">1945-1949</unitdate>)</unittitle>
-              </did>
+                <unittitle>Contributions (to Red Cross and Community Chest )</unittitle><unitdate type="inclusive" normal="1945/1949">1945-1949</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -791,15 +730,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1950">1950</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1950">1950</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [414158614897086533]">4</container>
-                <unittitle>Baldwin, Howard C. (correspondence) <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
-              </did>
+                <unittitle>Baldwin, Howard C. (correspondence)</unittitle><unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -822,10 +757,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951">1951</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1951">1951</unitdate></did>
             <c04 level="file">
               <did>
                 <unittitle>Kresge, Sebastian S.</unittitle>
@@ -858,10 +790,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952">1952</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1952">1952</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [414158614897086533]">4</container>
@@ -883,10 +812,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1953">1953</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1953">1953</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5644747747596476944657]">5</container>
@@ -908,10 +834,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954">1954</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1954">1954</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5644747747596476944657]">5</container>
@@ -945,15 +868,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1955">1955</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1955">1955</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5644747747596476944657]">5</container>
-                <unittitle>Babson, Roger W. <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></unittitle>
-              </did>
+                <unittitle>Babson, Roger W.</unittitle><unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -987,10 +906,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956">1956</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1956">1956</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5644747747596476944657]">5</container>
@@ -1012,10 +928,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1957">1957</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1957">1957</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5644747747596476944657]">5</container>
@@ -1025,8 +938,7 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [5644747747596476944657]">5</container>
-                <unittitle>Hansen, J.P. ("The Fair", Chicago). <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></unittitle>
-              </did>
+                <unittitle>Hansen, J.P. ("The Fair", Chicago).</unittitle><unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1037,10 +949,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958">1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1958">1958</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [678194459223897951]">6</container>
@@ -1050,10 +959,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959">1959</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959">1959</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [678194459223897951]">6</container>
@@ -1069,10 +975,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960">1960</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960">1960</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [678194459223897951]">6</container>
@@ -1094,10 +997,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961">1961</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961">1961</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [678194459223897951]">6</container>
@@ -1113,10 +1013,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962">1962</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1962">1962</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [678194459223897951]">6</container>
@@ -1132,10 +1029,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963">1963</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1963">1963</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [678194459223897951]">6</container>
@@ -1157,10 +1051,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964">1964</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1964">1964</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [678194459223897951]">6</container>
@@ -1170,10 +1061,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965">1965</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1965">1965</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [678194459223897951]">6</container>
@@ -1183,10 +1071,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966">1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966">1966</unitdate></did>
             <c04 level="file">
               <did>
                 <unittitle>Kresge, Sebastian S.: Correspondence</unittitle>
@@ -1248,14 +1133,12 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7110401744382556201623]">7</container>
-              <unittitle>Personal (The Fair, Kresge Department Stores, Inc., Annual Reports <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate> S.S. Kresge Statement of Assets and Liabilities, <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate>)</unittitle>
-            </did>
+              <unittitle>Personal (The Fair, Kresge Department Stores, Inc., Annual Reports 1932-1933 S.S. Kresge Statement of Assets and Liabilities, 1932-1933)</unittitle><unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="reel" label="Roll [7110401744382556201623]">7</container>
-              <unittitle>Portrait (<unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate> correspondence re: portrait of Kresge by Marris &amp; Ewing of Washington D.C.)</unittitle>
-            </did>
+              <unittitle>Portrait ( correspondence re: portrait of Kresge by Marris &amp; Ewing of Washington D.C.)</unittitle><unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -1275,19 +1158,16 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <unittitle>1st Subseries, A-Z (largely <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate>)</unittitle>
-            </did>
+              <unittitle>1st Subseries, A-Z (largely )</unittitle><unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7110401744382556201623]">7</container>
-                <unittitle>A-C <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-              </did>
+                <unittitle>A-C</unittitle><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7110401744382556201623]">7</container>
-                <unittitle>D-E <unitdate type="inclusive" normal="1957">1957</unitdate>, F <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-              </did>
+                <unittitle>D-E , F</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1298,50 +1178,42 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7110401744382556201623]">7</container>
-                <unittitle>Foundation, The First 30 Years <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></unittitle>
-              </did>
+                <unittitle>Foundation, The First 30 Years</unittitle><unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7110401744382556201623]">7</container>
-                <unittitle>G-H <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-              </did>
+                <unittitle>G-H</unittitle><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7110401744382556201623]">7</container>
-                <unittitle>Howell, Mary <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-              </did>
+                <unittitle>Howell, Mary</unittitle><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7110401744382556201623]">7</container>
-                <unittitle>I-J <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>, K <unitdate type="inclusive" normal="1953/1957">1953-1957</unitdate>, L <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-              </did>
+                <unittitle>I-J , K , L</unittitle><unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate><unitdate type="inclusive" normal="1953/1957">1953-1957</unitdate><unitdate type="inclusive" normal="1955">1955</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7110401744382556201623]">7</container>
-                <unittitle>M-O <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-              </did>
+                <unittitle>M-O</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7110401744382556201623]">7</container>
-                <unittitle>P-Q <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate>, R <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-              </did>
+                <unittitle>P-Q , R</unittitle><unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate><unitdate type="inclusive" normal="1957">1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7110401744382556201623]">7</container>
-                <unittitle>S <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>, T <unitdate type="inclusive" normal="1952/1957">1952-1957</unitdate></unittitle>
-              </did>
+                <unittitle>S , T</unittitle><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate><unitdate type="inclusive" normal="1952/1957">1952-1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [7110401744382556201623]">7</container>
-                <unittitle>U-W <unitdate type="inclusive" normal="1957">1957</unitdate>, X-Z <unitdate type="inclusive" normal="1948/1957">1948-1957</unitdate></unittitle>
-              </did>
+                <unittitle>U-W , X-Z</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate><unitdate type="inclusive" normal="1948/1957">1948-1957</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -1365,44 +1237,37 @@
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [336936438978298707548]">8</container>
-                <unittitle>B <unitdate type="inclusive" normal="1952/1958">1952-1958</unitdate>, C <unitdate type="inclusive" normal="1955/1958">1955-1958</unitdate></unittitle>
-              </did>
+                <unittitle>B , C</unittitle><unitdate type="inclusive" normal="1952/1958">1952-1958</unitdate><unitdate type="inclusive" normal="1955/1958">1955-1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [336936438978298707548]">8</container>
-                <unittitle>D-F <unitdate type="inclusive" normal="1958">1958</unitdate>, G <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-              </did>
+                <unittitle>D-F , G</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [336936438978298707548]">8</container>
-                <unittitle>H <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate>, I-J <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-              </did>
+                <unittitle>H , I-J</unittitle><unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [336936438978298707548]">8</container>
-                <unittitle>K <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>, L <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></unittitle>
-              </did>
+                <unittitle>K , L</unittitle><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate><unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [336936438978298707548]">8</container>
-                <unittitle>M <unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate>, N-O <unitdate type="inclusive" normal="1958">1958</unitdate>, P-Q <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-              </did>
+                <unittitle>M , N-O , P-Q</unittitle><unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate><unitdate type="inclusive" normal="1958">1958</unitdate><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [336936438978298707548]">8</container>
-                <unittitle>R-S <unitdate type="inclusive" normal="1958">1958</unitdate>, T <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-              </did>
+                <unittitle>R-S , T</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="reel" label="Roll [336936438978298707548]">8</container>
-                <unittitle>U-V <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>, W <unitdate type="inclusive" normal="1958">1958</unitdate>, X-Z <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-              </did>
+                <unittitle>U-V , W , X-Z</unittitle><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate><unitdate type="inclusive" normal="1958">1958</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -1503,8 +1368,7 @@
               <c05 level="file">
                 <did>
                   <container type="reel" label="Roll [336936438978298707548]">8</container>
-                  <unittitle>Kresge-Wilson Store, Toledo, Ohio <unitdate type="inclusive" normal="1906" certainty="approximate">circa 1906</unitdate></unittitle>
-                </did>
+                  <unittitle>Kresge-Wilson Store, Toledo, Ohio</unittitle><unitdate type="inclusive" normal="1906" certainty="approximate">circa 1906</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>

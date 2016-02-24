@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n2001061674">Michigan. Circuit Court (Wayne County)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n2001061674" ref="/agents/corporate_entities/3253">Michigan. Circuit Court (Wayne County)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Wayne County Circuit Court records <unitdate type="inclusive" encodinganalog="245$f" normal="1822/1851">1822-1851</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86216 Cb 2</unitid>
+      <unittitle encodinganalog="245">Wayne County Circuit Court records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1822/1851">1822-1851</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86216 Cb 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Microfilm of court journals, calendars, and case files; photocopy of court agenda, 1838; and miscellaneous case listings and indices; also selective photostatic copies of the microfilm.</abstract>
       <physdesc altrender="whole">
@@ -80,9 +80,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Court records.</subject>
-        <subject source="lcsh" encodinganalog="650">Courts--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2001061674">Michigan. Circuit Court (Wayne County)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6383">Court records.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6384">Courts--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2001061674" ref="/agents/corporate_entities/3253">Michigan. Circuit Court (Wayne County)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -93,8 +93,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [321030543949094029138]">1</container>
-            <unittitle>Microfilm of circuit court records, including Journals A and B, Calendars A and B, and Case Files <unitdate type="inclusive" normal="1822/1851">1822-1851</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Microfilm of circuit court records, including Journals A and B, Calendars A and B, and Case Files</unittitle><unitdate type="inclusive" normal="1822/1851">1822-1851</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">34 microfilms</extent>
               <physfacet>positive microfilm ?</physfacet>
             </physdesc>
@@ -133,8 +132,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [321030543949094029138]">1</container>
-            <unittitle>Agenda <unitdate type="inclusive" normal="1838">1838</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Agenda</unittitle><unitdate type="inclusive" normal="1838">1838</unitdate><physdesc>
               <physfacet>photocopy</physfacet>
             </physdesc>
           </did>

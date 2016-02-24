@@ -35,7 +35,8 @@
         <item>Encoded finding aid from Word 6.0 file with some hand tagging</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Henry B. Joy Historical Research (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/404">Henry B. Joy Historical Research (Organization)</corpname>
       </origination>
-      <unittitle encodinganalog="245$a">Henry B. Joy Historical Research Records <unitdate type="inclusive" encodinganalog="245$f" normal="1812/1937" certainty="approximate">circa 1812-1937</unitdate></unittitle>
-      <abstract>The Henry B. Joy Historical Research (HBJHR) was an office established and funded by Detroit businessman Henry B. Joy in 1928 to do original research into the life and career of James F. Joy; the series in the collection are James F. Joy Papers, Railroad Enterprises, John W. Brooks Papers, Abraham Lincoln Research, and Office Correspondence.</abstract>
+      <unittitle encodinganalog="245$a">Henry B. Joy Historical Research Records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1812/1937" certainty="approximate">circa 1812-1937</unitdate><abstract>The Henry B. Joy Historical Research (HBJHR) was an office established and funded by Detroit businessman Henry B. Joy in 1928 to do original research into the life and career of James F. Joy; the series in the collection are James F. Joy Papers, Railroad Enterprises, John W. Brooks Papers, Abraham Lincoln Research, and Office Correspondence.</abstract>
       <unitid repositorycode="MiU-H" encodinganalog="099" type="call number">851609, Bp/2, UBPm</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -96,30 +96,30 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Chicago, Burlington &amp; Quincy Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50000516">Illinois Central Railroad Company.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807">Joy, James F. (James Frederick), 1810-1896.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79006779">Lincoln, Abraham, 1809-1865.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86134555">Michigan Central Railroad Company.</corpname>
-        <subject source="lcsh" encodinganalog="650">Railroads--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4175">Chicago, Burlington &amp; Quincy Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50000516" ref="/agents/corporate_entities/346">Illinois Central Railroad Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807" ref="/agents/people/609">Joy, James F. (James Frederick), 1810-1896.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79006779" ref="/agents/people/6309">Lincoln, Abraham, 1809-1865.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86134555" ref="/agents/corporate_entities/2942">Michigan Central Railroad Company.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7317">Railroads--United States.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807">Joy, James F. (James Frederick), 1810-1896.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807" ref="/agents/people/609">Joy, James F. (James Frederick), 1810-1896.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf">Brooks, John W.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr90009135">Chandler, Zachariah, 1813-1879.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50029300">Fillmore, Millard, 1800-1874.</persname>
-        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807">Joy, James F. (James Frederick), 1810-1896.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr92043399">Ledyard, Henry, 1812-1880.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50010851">Story, Joseph, 1779-1845.</persname>
+        <persname source="lcnaf" ref="/agents/people/705">Brooks, John W.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr90009135" ref="/agents/people/3838">Chandler, Zachariah, 1813-1879.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50029300" ref="/agents/people/718">Fillmore, Millard, 1800-1874.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807" ref="/agents/people/609">Joy, James F. (James Frederick), 1810-1896.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr92043399" ref="/agents/people/2737">Ledyard, Henry, 1812-1880.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50010851" ref="/agents/people/5022">Story, Joseph, 1779-1845.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="gmgpc" encodinganalog="655">Prints.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3459">Prints.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -177,10 +177,7 @@
             <c04 level="file">
               <did>
                 <container label="Box [16284040440294040]" type="box">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1829/1864">1829-1864</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1829/1864">1829-1864</unitdate></did>
               <odd>
                 <p>(positive photostatic copies)</p>
               </odd>
@@ -188,10 +185,7 @@
             <c04 level="file">
               <did>
                 <container label="Box [7539435246864695429]" type="box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1865/1868">1865-1868</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1865/1868">1865-1868</unitdate></did>
               <odd>
                 <p>(positive photostatic copies)</p>
               </odd>
@@ -1157,27 +1151,17 @@
             <c04 level="file">
               <did>
                 <container label="Box [6233755401246133]" type="box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1849/1854">1849-1854</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1849/1854">1849-1854</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container label="Box [270444484628984241687]" type="box">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1855/1866">1855-1866</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1855/1866">1855-1866</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container label="Box [919102745087586818]" type="box">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1867/1868">1867-1868</unitdate>
-                  <unitdate type="inclusive" normal="1874/1894">1874-1894</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1867/1868">1867-1868</unitdate><unitdate type="inclusive" normal="1874/1894">1874-1894</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -1198,18 +1182,12 @@
             <c04 level="file">
               <did>
                 <container label="Box [919102745087586818]" type="box">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1810/1851">1810-1851</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1810/1851">1810-1851</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container label="Box [472244445011635500111]" type="box">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1852/1896">1852-1896</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1852/1896">1852-1896</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1219,10 +1197,7 @@
             <c04 level="file">
               <did>
                 <container label="Box [773653455471719334]" type="box">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1836/1896">1836-1896</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1836/1896">1836-1896</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1355,10 +1330,7 @@
           <c03 level="file">
             <did>
               <container label="Box [4675447688045651678]" type="box">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1837/1906">1837-1906</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1837/1906">1837-1906</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1374,14 +1346,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4675447688045651678]">9</container>
-              <unittitle>By date <unitdate type="inclusive" normal="1850/1852">1850-1852</unitdate></unittitle>
-            </did>
+              <unittitle>By date</unittitle><unitdate type="inclusive" normal="1850/1852">1850-1852</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container label="Box [368692666747959596249934]" type="box">10</container>
-              <unittitle>By date <unitdate type="inclusive" normal="1852/1876">1852-1876</unitdate></unittitle>
-            </did>
+              <unittitle>By date</unittitle><unitdate type="inclusive" normal="1852/1876">1852-1876</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1436,8 +1406,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7824019549839039467098]">12</container>
-              <unittitle>By date <unitdate type="inclusive" normal="1852/1902">1852-1902</unitdate></unittitle>
-            </did>
+              <unittitle>By date</unittitle><unitdate type="inclusive" normal="1852/1902">1852-1902</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1460,14 +1429,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7824019549839039467098]">12</container>
-              <unittitle>Aurora Branch <unitdate type="inclusive" normal="1849/1852">1849-1852</unitdate></unittitle>
-            </did>
+              <unittitle>Aurora Branch</unittitle><unitdate type="inclusive" normal="1849/1852">1849-1852</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7824019549839039467098]">12</container>
-              <unittitle>Chicago and Aurora <unitdate type="inclusive" normal="1849/1856">1849-1856</unitdate></unittitle>
-            </did>
+              <unittitle>Chicago and Aurora</unittitle><unitdate type="inclusive" normal="1849/1856">1849-1856</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1478,8 +1445,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [14264694588161245]">1</container>
-              <unittitle>Minutes of meetings <unitdate type="inclusive" normal="1854/1877">1854-1877</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Minutes of meetings</unittitle><unitdate type="inclusive" normal="1854/1877">1854-1877</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
@@ -1495,8 +1461,7 @@
           <c03 level="file">
             <did>
               <container label="Box [7824019549839039467098]" type="box">12</container>
-              <unittitle>By date <unitdate type="inclusive" normal="1835/1881">1835-1881</unitdate></unittitle>
-            </did>
+              <unittitle>By date</unittitle><unitdate type="inclusive" normal="1835/1881">1835-1881</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1512,8 +1477,7 @@
           <c03 level="file">
             <did>
               <container label="Box [303933408556622372]" type="box">13</container>
-              <unittitle>By date <unitdate type="inclusive" normal="1851/1890">1851-1890</unitdate></unittitle>
-            </did>
+              <unittitle>By date</unittitle><unitdate type="inclusive" normal="1851/1890">1851-1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1529,8 +1493,7 @@
           <c03 level="file">
             <did>
               <container label="Box [303933408556622372]" type="box">13</container>
-              <unittitle>By date <unitdate type="inclusive" normal="1857/1976">1857-1976</unitdate></unittitle>
-            </did>
+              <unittitle>By date</unittitle><unitdate type="inclusive" normal="1857/1976">1857-1976</unitdate></did>
             <odd>
               <p>(scattered dates)</p>
             </odd>
@@ -1692,18 +1655,12 @@
           <c03 level="file">
             <did>
               <container label="Box [303933408556622372]" type="box">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1856/1874">1856-1874</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1856/1874">1856-1874</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container label="Box [6129495489197536]" type="box">14</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1875/1877">1875-1877</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1875/1877">1875-1877</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2064,8 +2021,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [786424253498986303]">15</container>
-              <unittitle>Joy and Porter (law firm) <unitdate type="inclusive" normal="1838/1861">1838-1861</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Joy and Porter (law firm)</unittitle><unitdate type="inclusive" normal="1838/1861">1838-1861</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -2143,10 +2099,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [23471749657418061276]">16</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1836/1889">1836-1889</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1836/1889">1836-1889</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -2154,8 +2107,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [23471749657418061276]">16</container>
-                <unittitle>Johnstone vs. Jones <unitdate type="inclusive" normal="1860">1860</unitdate></unittitle>
-              </did>
+                <unittitle>Johnstone vs. Jones</unittitle><unitdate type="inclusive" normal="1860">1860</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -2230,8 +2182,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [23471749657418061276]">16</container>
-              <unittitle>Neutral lands <unitdate type="inclusive" normal="1867/1878">1867-1878</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Neutral lands</unittitle><unitdate type="inclusive" normal="1867/1878">1867-1878</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">11 folders</extent>
               </physdesc>
             </did>
@@ -2263,14 +2214,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [23471749657418061276]">16</container>
-              <unittitle>Panics <unitdate type="inclusive" normal="1857">1857</unitdate></unittitle>
-            </did>
+              <unittitle>Panics</unittitle><unitdate type="inclusive" normal="1857">1857</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [23471749657418061276]">16</container>
-              <unittitle>Patriots War <unitdate type="inclusive" normal="1837/1838">1837-1838</unitdate></unittitle>
-            </did>
+              <unittitle>Patriots War</unittitle><unitdate type="inclusive" normal="1837/1838">1837-1838</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2503,10 +2452,7 @@
           <c03 level="file">
             <did>
               <container label="Box [7871306305488700944633]" type="box">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1843/1868">1843-1868</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="1843/1868">1843-1868</unitdate><physdesc>
                 <physfacet>negative photostats</physfacet>
               </physdesc>
             </did>
@@ -2514,10 +2460,7 @@
           <c03 level="file">
             <did>
               <container label="Box [0852839445093374061247]" type="box">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1843/1877">1843-1877</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="1843/1877">1843-1877</unitdate><physdesc>
                 <physfacet>typescripts</physfacet>
               </physdesc>
             </did>

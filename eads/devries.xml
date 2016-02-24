@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50036797">De Vries, Walter.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50036797" ref="/agents/people/5750">De Vries, Walter.</persname>
       </origination>
-      <unittitle encodinganalog="245">Walter De Vries Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2012">1960-2012</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1972">1960-1972</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85147 Aa 2</unitid>
+      <unittitle encodinganalog="245">Walter De Vries Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1960/2012">1960-2012</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1960/1972">1960-1972</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85147 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Public opinion research pollster, aide to Michigan governor George Romney. Polling materials prepared for various Republican campaigns, notably the gubernatorial campaigns of George Romney in 1962 and 1966, Romney's campaign for president, 1967-1968, and the gubernatorial campaign of William Milliken, 1970; and polls conducted on state issues including detailed demographic information on the views of ethnic, religious, and racial minorities; also survey done for Senator Robert Griffin in 1971, and on attitude of state voters towards abortion in 1972. A small collection of material donated in 2013 is related to George Romney's son and the 2012 Republican presidential candidate, Mitt Romney.</abstract>
       <repository>
@@ -82,26 +82,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Abortion.</subject>
-        <subject source="lcsh" encodinganalog="650">Demography.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1962.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1966.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50036797">De Vries, Walter.</persname>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1970.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87870687">Griffin, Robert P. (Robert Paul), 1923-2015</persname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1961-1970.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1971-1980.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387">Milliken, William G., 1922-</persname>
-        <subject source="lcsh" encodinganalog="650">Minorities--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1968.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr95017857">Romney, Mitt.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
-        <subject source="lcsh" encodinganalog="650">Social surveys--Research.</subject>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1963-1969.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1969-1974.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1961-1963.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7239">Abortion.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7240">Demography.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6897">Elections--Michigan--1962.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6529">Elections--Michigan--1966.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50036797" ref="/agents/people/5750">De Vries, Walter.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7199">Elections--Michigan--1970.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87870687" ref="/agents/people/251">Griffin, Robert P. (Robert Paul), 1923-2015</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/906">Michigan--Politics and government--1951-</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/806">Michigan--Politics and government--1961-1970.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/797">Michigan--Politics and government--1971-1980.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387" ref="/agents/people/1448">Milliken, William G., 1922-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7241">Minorities--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6621">Presidents--United States--Election--1968.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4055">Republican Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr95017857" ref="/agents/people/5354">Romney, Mitt.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290" ref="/agents/people/4407">Romney, George W., 1907-1995.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6648">Social surveys--Research.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/938">United States--Politics and government--1963-1969.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/908">United States--Politics and government--1969-1974.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1696">United States--Politics and government--1961-1963.</geogname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -126,20 +126,15 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [972462482826335903]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1960">1960</unitdate> De Vries, Walter, "The Michigan Lobbyist: A Study in the Bases and Perceptions of Effectiveness" Ph.D. Thesis Michigan State University</unittitle>
-          </did>
+            <unittitle>De Vries, Walter, "The Michigan Lobbyist: A Study in the Bases and Perceptions of Effectiveness" Ph.D. Thesis Michigan State University</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1962">1962</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1962">1962</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [972462482826335903]">1</container>
-              <unittitle>Dempsey, John T., "Romney for Governor: the <unitdate type="inclusive" normal="1962">1962</unitdate> Michigan Election Campaign" unpublished manuscript</unittitle>
-            </did>
+              <unittitle>Dempsey, John T., "Romney for Governor: the  Michigan Election Campaign" unpublished manuscript</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -156,10 +151,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963">1963</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1963">1963</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [972462482826335903]">1</container>
@@ -175,10 +167,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1964">1964</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1964">1964</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [972462482826335903]">1</container>
@@ -207,15 +196,11 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [972462482826335903]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1965">1965</unitdate> Romney, George: memos</unittitle>
-          </did>
+            <unittitle>Romney, George: memos</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966">1966</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1966">1966</unitdate></did>
           <c03 level="file">
             <did>
               <unittitle>De Vries Walter</unittitle>
@@ -254,10 +239,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1967">1967</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1967">1967</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [972462482826335903]">1</container>
@@ -285,10 +267,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968">1968</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1968">1968</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [972462482826335903]">1</container>
@@ -313,10 +292,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969">1969</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1969">1969</unitdate></did>
           <c03 level="file">
             <did>
               <unittitle>Market Opinion Research</unittitle>
@@ -343,10 +319,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970">1970</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1970">1970</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [972462482826335903]">1</container>
@@ -383,15 +356,11 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [972462482826335903]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1971">1971</unitdate> Milliken, William: special messages</unittitle>
-          </did>
+            <unittitle>Milliken, William: special messages</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1972">1972</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1972">1972</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [972462482826335903]">1</container>
@@ -431,38 +400,27 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [43645734085655624538]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1956-01">January 1956</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1956-01">January 1956</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [43645734085655624538]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958">1958</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1958">1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [43645734085655624538]">2</container>
-                <unittitle>Swainson-Hare poll <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-              </did>
+                <unittitle>Swainson-Hare poll</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [43645734085655624538]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1960">1960</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1960">1960</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [43645734085655624538]">2</container>
-                <unittitle>Analysis of <unitdate type="inclusive" normal="1961">1961</unitdate> spring elections</unittitle>
-              </did>
+                <unittitle>Analysis of  spring elections</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -472,8 +430,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [43645734085655624538]">2</container>
-                <unittitle>Election statistics <unitdate type="inclusive" normal="1954/1961">1954-1961</unitdate></unittitle>
-              </did>
+                <unittitle>Election statistics</unittitle><unitdate type="inclusive" normal="1954/1961">1954-1961</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -483,8 +440,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [43645734085655624538]">2</container>
-                <unittitle>Market Area Research project: Detroit and Wayne County <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-              </did>
+                <unittitle>Market Area Research project: Detroit and Wayne County</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -494,8 +450,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [43645734085655624538]">2</container>
-                <unittitle>County project: all Michigan counties <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-              </did>
+                <unittitle>County project: all Michigan counties</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -505,8 +460,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [43645734085655624538]">2</container>
-                <unittitle>Campaign schedules: Mr. and Mrs. Romney <unitdate type="inclusive" normal="1962-05-28/1962-11-06">May 28-November 6, 1962</unitdate></unittitle>
-              </did>
+                <unittitle>Campaign schedules: Mr. and Mrs. Romney</unittitle><unitdate type="inclusive" normal="1962-05-28/1962-11-06">May 28-November 6, 1962</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -516,8 +470,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [43645734085655624538]">2</container>
-                <unittitle>Issues <unitdate type="inclusive" normal="1962">1962</unitdate> including aging, agriculture, civil rights, conservation, constitutional convention</unittitle>
-              </did>
+                <unittitle>Issues  including aging, agriculture, civil rights, conservation, constitutional convention</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -527,8 +480,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [579657412834133938]">3</container>
-                <unittitle>Issues <unitdate type="inclusive" normal="1962">1962</unitdate> including fiscal structure, health and mental health, international trade</unittitle>
-              </did>
+                <unittitle>Issues  including fiscal structure, health and mental health, international trade</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -538,8 +490,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [579657412834133938]">3</container>
-                <unittitle>Issues <unitdate type="inclusive" normal="1962">1962</unitdate> including crime and juvenile delinquency, economic growth, education</unittitle>
-              </did>
+                <unittitle>Issues  including crime and juvenile delinquency, economic growth, education</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -549,8 +500,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [579657412834133938]">3</container>
-                <unittitle>Issues <unitdate type="inclusive" normal="1962">1962</unitdate> including labor and management, unemployment, upper peninsula, urban renewal</unittitle>
-              </did>
+                <unittitle>Issues  including labor and management, unemployment, upper peninsula, urban renewal</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -560,8 +510,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [579657412834133938]">3</container>
-                <unittitle>"Romney on the Record:" position of Romney re. various issues of <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-              </did>
+                <unittitle>"Romney on the Record:" position of Romney re. various issues of</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -583,14 +532,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [579657412834133938]">3</container>
-                <unittitle><unitdate type="inclusive" normal="1962-04">April 1962</unitdate> poll</unittitle>
-              </did>
+                <unittitle>Poll</unittitle><unitdate type="inclusive" normal="1962-04">April 1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [579657412834133938]">3</container>
-                <unittitle><unitdate type="inclusive" normal="1962-04">April 1962</unitdate> semantics</unittitle>
-              </did>
+                <unittitle>Semantics</unittitle><unitdate type="inclusive" normal="1962-04">April 1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -613,8 +560,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Binder 12 <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <unittitle>Binder 12</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [579657412834133938]">3</container>
@@ -648,8 +594,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Binder 13 <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <unittitle>Binder 13</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [614905469792092053]">4</container>
@@ -707,8 +652,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [614905469792092053]">4</container>
-                <unittitle><unitdate type="inclusive" normal="1962-08">August 1962</unitdate> In-Depth study</unittitle>
-              </did>
+                <unittitle>In-Depth study</unittitle><unitdate type="inclusive" normal="1962-08">August 1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -725,8 +669,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Binder 14 <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <unittitle>Binder 14</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [614905469792092053]">4</container>
@@ -772,8 +715,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Binder 15 <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <unittitle>Binder 15</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [614905469792092053]">4</container>
@@ -789,8 +731,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [614905469792092053]">4</container>
-                <unittitle>Detroit News polls <unitdate type="inclusive" normal="1962-01/1962-11">January-November 1962</unitdate></unittitle>
-              </did>
+                <unittitle>Detroit News polls</unittitle><unitdate type="inclusive" normal="1962-01/1962-11">January-November 1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -813,13 +754,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Binder 16 <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <unittitle>Binder 16</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [614905469792092053]">4</container>
-                <unittitle>Con-Con <unitdate type="inclusive" normal="1962">1962</unitdate> after election study</unittitle>
-              </did>
+                <unittitle>Con-Con  after election study</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -836,8 +775,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [614905469792092053]">4</container>
-                <unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate> Polling budget</unittitle>
-              </did>
+                <unittitle>Polling budget</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -860,8 +798,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [614905469792092053]">4</container>
-                <unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate> Semantics</unittitle>
-              </did>
+                <unittitle>Semantics</unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -872,13 +809,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Binder 17 <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Binder 17</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [614905469792092053]">4</container>
-                <unittitle>Detroit Weathervane Precincts, analysis of <unitdate type="inclusive" normal="1962">1962</unitdate> gubernatorial vote</unittitle>
-              </did>
+                <unittitle>Detroit Weathervane Precincts, analysis of  gubernatorial vote</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -888,14 +823,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5567774489888216667464]">5</container>
-                <unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate> Voter Profile</unittitle>
-              </did>
+                <unittitle>Voter Profile</unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5567774489888216667464]">5</container>
-                <unittitle><unitdate type="inclusive" normal="1964-02">February 1964</unitdate> In-depth study</unittitle>
-              </did>
+                <unittitle>In-depth study</unittitle><unitdate type="inclusive" normal="1964-02">February 1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -911,8 +844,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5567774489888216667464]">5</container>
-                <unittitle><unitdate type="inclusive" normal="1964-05">May 1964</unitdate> In-depth study</unittitle>
-              </did>
+                <unittitle>In-depth study</unittitle><unitdate type="inclusive" normal="1964-05">May 1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -923,8 +855,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Binder 20 <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Binder 20</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5567774489888216667464]">5</container>
@@ -940,8 +871,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5567774489888216667464]">5</container>
-                <unittitle>Ticket splitting since <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-              </did>
+                <unittitle>Ticket splitting since</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -976,8 +906,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Binder 21 <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Binder 21</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5567774489888216667464]">5</container>
@@ -1047,8 +976,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5567774489888216667464]">5</container>
-                <unittitle><unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate> Switch voters</unittitle>
-              </did>
+                <unittitle>Switch voters</unittitle><unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1071,8 +999,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Binder 22 <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Binder 22</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5567774489888216667464]">5</container>
@@ -1106,8 +1033,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Binder 23 <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Binder 23</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [23628133459537201757]">6</container>
@@ -1117,8 +1043,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Binder 24 <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Binder 24</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [23628133459537201757]">6</container>
@@ -1140,8 +1065,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Binder 25 <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Binder 25</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [23628133459537201757]">6</container>
@@ -1189,8 +1113,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [23628133459537201757]">6</container>
-                <unittitle>Election Weathervanes <unitdate type="inclusive" normal="1962">1962</unitdate>, <unitdate type="inclusive" normal="1964">1964</unitdate>, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-              </did>
+                <unittitle>Election Weathervanes</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate><unitdate type="inclusive" normal="1964">1964</unitdate><unitdate type="inclusive" normal="1966">1966</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1200,14 +1123,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [23628133459537201757]">6</container>
-                <unittitle><unitdate type="inclusive" normal="1966">1966</unitdate> Election night activities</unittitle>
-              </did>
+                <unittitle>Election night activities</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [23628133459537201757]">6</container>
-                <unittitle><unitdate type="inclusive" normal="1966">1966</unitdate> Election analyses</unittitle>
-              </did>
+                <unittitle>Election analyses</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1282,26 +1203,22 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25462988984091941]">7</container>
-                <unittitle><unitdate type="inclusive" normal="1967">1967</unitdate> In-depth poll</unittitle>
-              </did>
+                <unittitle>In-depth poll</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25462988984091941]">7</container>
-                <unittitle><unitdate type="inclusive" normal="1967">1967</unitdate> In-depth analysis</unittitle>
-              </did>
+                <unittitle>In-depth analysis</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25462988984091941]">7</container>
-                <unittitle><unitdate type="inclusive" normal="1967">1967</unitdate> Regional breaks data</unittitle>
-              </did>
+                <unittitle>Regional breaks data</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25462988984091941]">7</container>
-                <unittitle><unitdate type="inclusive" normal="1967">1967</unitdate> Selected cross-runs/ballots</unittitle>
-              </did>
+                <unittitle>Selected cross-runs/ballots</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1311,26 +1228,22 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25462988984091941]">7</container>
-                <unittitle><unitdate type="inclusive" normal="1967">1967</unitdate> In-depth semantic differentials</unittitle>
-              </did>
+                <unittitle>In-depth semantic differentials</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25462988984091941]">7</container>
-                <unittitle><unitdate type="inclusive" normal="1967">1967</unitdate> In-depth semantics analysis</unittitle>
-              </did>
+                <unittitle>In-depth semantics analysis</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25462988984091941]">7</container>
-                <unittitle><unitdate type="inclusive" normal="1967">1967</unitdate> County chairmen study</unittitle>
-              </did>
+                <unittitle>County chairmen study</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25462988984091941]">7</container>
-                <unittitle><unitdate type="inclusive" normal="1967">1967</unitdate> New Hampshire in-depth summary</unittitle>
-              </did>
+                <unittitle>New Hampshire in-depth summary</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1346,8 +1259,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [25462988984091941]">7</container>
-                <unittitle><unitdate type="inclusive" normal="1968">1968</unitdate> Presidential primaries</unittitle>
-              </did>
+                <unittitle>Presidential primaries</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1434,10 +1346,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [005836534344060571]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968-01">January 1968</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1968-01">January 1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1447,22 +1356,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [005836534344060571]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968-03">March 1968</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1968-03">March 1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [496904144381116961564]">9</container>
-              <unittitle>Detroit area study for Michigan Association of Non-Public Schools <unitdate type="inclusive" normal="1969-05">May 1969</unitdate></unittitle>
-            </did>
+              <unittitle>Detroit area study for Michigan Association of Non-Public Schools</unittitle><unitdate type="inclusive" normal="1969-05">May 1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Milliken <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Milliken</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 volumes</extent>
               </physdesc>
             </did>
@@ -1488,20 +1392,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [496904144381116961564]">9</container>
-              <unittitle>Television spot protests <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Television spot protests</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [66321516448815411788187]">10</container>
-              <unittitle>Griffin <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <unittitle>Griffin</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [66321516448815411788187]">10</container>
-              <unittitle>Abortion attitude study <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-            </did>
+              <unittitle>Abortion attitude study</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1510,43 +1411,36 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>Book 1 <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Book 1</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Maine, First congressional district <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Maine, First congressional district</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Massachusetts, Seventh congressional district <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Massachusetts, Seventh congressional district</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Georgia, Fifth congressional district <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Georgia, Fifth congressional district</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Minnesota statewide <unitdate type="inclusive" normal="1968">1968</unitdate>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-              </did>
+                <unittitle>Minnesota statewide</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate><unitdate type="inclusive" normal="1969">1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Ohio, Twenty-third congressional district <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Ohio, Twenty-third congressional district</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Wisconsin, First congressional district <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Wisconsin, First congressional district</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1556,44 +1450,37 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Illinois, Third congressional district <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Illinois, Third congressional district</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Illinois, Constitutional convention call <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Illinois, Constitutional convention call</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Illinois, Republican state central committee <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Illinois, Republican state central committee</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Illinois, Post <unitdate type="inclusive" normal="1968">1968</unitdate> election study, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-              </did>
+                <unittitle>Illinois, Post 1968 election study, 1969</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate><unitdate type="inclusive" normal="1969">1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Indiana, Seventh congressional district <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Indiana, Seventh congressional district</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Indiana, Third congressional district <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Indiana, Third congressional district</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Indiana statewide <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Indiana statewide</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1603,45 +1490,38 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>National study of republican county chairmen <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-              </did>
+                <unittitle>National study of republican county chairmen</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Jamaica discussion-simulation/reapportionment <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Jamaica discussion-simulation/reapportionment</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>West Virginia, First congressional district <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>West Virginia, First congressional district</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>Pennsylvania, Sixth congressional district <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>Pennsylvania, Sixth congressional district</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [66321516448815411788187]">10</container>
-                <unittitle>New Jersey, Ninth congressional district <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <unittitle>New Jersey, Ninth congressional district</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [66321516448815411788187]">10</container>
-              <unittitle>Pennsylvania gubernatorial campaign <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Pennsylvania gubernatorial campaign</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [66321516448815411788187]">10</container>
-              <unittitle>Louisiana gubernatorial campaign <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Louisiana gubernatorial campaign</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
@@ -1656,45 +1536,38 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5825054547586226849563]">11</container>
-                <unittitle>Voting behavior analysis <unitdate type="inclusive" normal="1960/1968">1960-1968</unitdate></unittitle>
-              </did>
+                <unittitle>Voting behavior analysis</unittitle><unitdate type="inclusive" normal="1960/1968">1960-1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5825054547586226849563]">11</container>
-                <unittitle>Survey of statewide political attitudes <unitdate type="inclusive" normal="1971-08">August 1971</unitdate></unittitle>
-              </did>
+                <unittitle>Survey of statewide political attitudes</unittitle><unitdate type="inclusive" normal="1971-08">August 1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5825054547586226849563]">11</container>
-                <unittitle>Issues notebook Bowles gubernatorial campaign <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-              </did>
+                <unittitle>Issues notebook Bowles gubernatorial campaign</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5825054547586226849563]">11</container>
-                <unittitle>Voter attitudes statewide <unitdate type="inclusive" normal="1972-02">February 1972</unitdate></unittitle>
-              </did>
+                <unittitle>Voter attitudes statewide</unittitle><unitdate type="inclusive" normal="1972-02">February 1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5825054547586226849563]">11</container>
-                <unittitle>Post election analysis, Bowles campaign <unitdate type="inclusive" normal="1972-05">May 1972</unitdate></unittitle>
-              </did>
+                <unittitle>Post election analysis, Bowles campaign</unittitle><unitdate type="inclusive" normal="1972-05">May 1972</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5825054547586226849563]">11</container>
-              <unittitle>National survey for national committee for a human life amendment <unitdate type="inclusive" normal="1975-01">January 1975</unitdate></unittitle>
-            </did>
+              <unittitle>National survey for national committee for a human life amendment</unittitle><unitdate type="inclusive" normal="1975-01">January 1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5825054547586226849563]">11</container>
-              <unittitle>Special analysis of Catholic respondents <unitdate type="inclusive" normal="1975-02">February 1975</unitdate></unittitle>
-            </did>
+              <unittitle>Special analysis of Catholic respondents</unittitle><unitdate type="inclusive" normal="1975-02">February 1975</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -1708,20 +1581,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5825054547586226849563]">11</container>
-            <unittitle>Collected articles <unitdate type="inclusive" normal="2010/2012">2010, 2012</unitdate></unittitle>
-          </did>
+            <unittitle>Collected articles</unittitle><unitdate type="inclusive" normal="2010/2012">2010, 2012</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5825054547586226849563]">11</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="2006/2012">2006, 2012</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="2006/2012">2006, 2012</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5825054547586226849563]">11</container>
-            <unittitle>Writings <unitdate type="inclusive" normal="2007/2012">2007, 2012</unitdate></unittitle>
-          </did>
+            <unittitle>Writings</unittitle><unitdate type="inclusive" normal="2007/2012">2007, 2012</unitdate></did>
         </c02>
       </c01>
     </dsc>

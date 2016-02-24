@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85274911">Lowe, Berenice Bryant.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85274911" ref="/agents/people/1375">Lowe, Berenice Bryant.</persname>
       </origination>
-      <unittitle encodinganalog="245">Berenice Bryant Lowe Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1989" certainty="approximate">1880s-1980s</unitdate></unittitle>
-      <abstract>Local historian and collector of historical manuscripts. Materials concerning Sojourner Truth, Black abolitionist who settled in Battle Creek, Michigan in 1857; miscellaneous letters of John G. Whittier, George W. Cable; correspondence of Lowe with writer Gerald Carson; diaries of 1963 trip to Europe; and miscellanea and photographs.</abstract>
+      <unittitle encodinganalog="245">Berenice Bryant Lowe Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1880/1989" certainty="approximate">1880s-1980s</unitdate><abstract>Local historian and collector of historical manuscripts. Materials concerning Sojourner Truth, Black abolitionist who settled in Battle Creek, Michigan in 1857; miscellaneous letters of John G. Whittier, George W. Cable; correspondence of Lowe with writer Gerald Carson; diaries of 1963 trip to Europe; and miscellanea and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851770 Aa 2 Ac</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -89,36 +89,36 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Abolitionists--Michigan--Battle Creek.</subject>
-        <subject source="lcsh" encodinganalog="650">African Americans--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Antislavery movements--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Authors, American--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Battle Creek (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85274911">Lowe, Berenice Bryant.</persname>
-        <persname source="lcnaf" encodinganalog="600">Truth, Sojourner, d. 1883.</persname>
-        <subject source="lcsh" encodinganalog="650">Women abolitionists--Michigan--Battle Creek.</subject>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Battle Creek.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8871">Abolitionists--Michigan--Battle Creek.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5763">African Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5786">Antislavery movements--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6076">Authors, American--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/930">Battle Creek (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85274911" ref="/agents/people/1375">Lowe, Berenice Bryant.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8500">Truth, Sojourner, d. 1883.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8872">Women abolitionists--Michigan--Battle Creek.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8043">Women--Michigan--Battle Creek.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Delta Chi Fraternity. University of Michigan Chapter.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Phi Kappa Psi. Michigan Alpha Chapter (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Triangles (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Junior Hop.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1911-1920.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Student housing.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Truth, Sojourner, d. 1883.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2380">Delta Chi Fraternity. University of Michigan Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4079">Phi Kappa Psi. Michigan Alpha Chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4563">Triangles (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5186">University of Michigan. Junior Hop.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1911-1920.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1911-1920.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Student housing.<term type="topical">Student housing.</term></corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8500">Truth, Sojourner, d. 1883.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79076138">Cable, George Washington, 1844-1925.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007026295">Carson, Gerald.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80034928">Whittier, John Greenleaf, 1807-1892.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79076138" ref="/agents/people/1644">Cable, George Washington, 1844-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007026295" ref="/agents/people/7889">Carson, Gerald.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80034928" ref="/agents/people/179">Whittier, John Greenleaf, 1807-1892.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -180,22 +180,19 @@
             <did>
               <container type="box" label="Box [554846803738567]" id="807a2eaa-7f2a-4e29-8bf1-f924c5bdc878">1</container>
               <container type="folder" label="Folder" parent="807a2eaa-7f2a-4e29-8bf1-f924c5bdc878">3</container>
-              <unittitle>"Truth about Sojourner Truth" written by Berenice Lowe for the Battle Creek Enquirer and News <unitdate type="inclusive" normal="1956-07-21">July 21, 1956</unitdate></unittitle>
-            </did>
+              <unittitle>"Truth about Sojourner Truth" written by Berenice Lowe for the Battle Creek Enquirer and News</unittitle><unitdate type="inclusive" normal="1956-07-21">July 21, 1956</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
               <container type="box" label="Box [554846803738567]" id="01a9c8ef-3b4c-42f4-b42c-432d94ea5349">1</container>
               <container type="folder" label="Folder" parent="01a9c8ef-3b4c-42f4-b42c-432d94ea5349">3</container>
-              <unittitle>"Biographers of Sojourner Truth" written by Berenice Lowe for the <title render="italic">Battle Enquirer and News</title>, <unitdate type="inclusive" normal="1962-04-22">April 22, 1962</unitdate></unittitle>
-            </did>
+              <unittitle>"Biographers of Sojourner Truth" written by Berenice Lowe for the <title render="italic">Battle Enquirer and News</title></unittitle><unitdate type="inclusive" normal="1962-04-22">April 22, 1962</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
               <container type="box" label="Box [554846803738567]" id="06d16cfd-ea9b-46a9-a651-9979c78087b1">1</container>
               <container type="folder" label="Folder" parent="06d16cfd-ea9b-46a9-a651-9979c78087b1">3</container>
-              <unittitle>"Sojourner Truth, Apostle of Freedom for her Race" article by Forest G. Sweet written for the <title render="italic">Battle Creek Sunday Enquirer</title>, Part 1, <unitdate type="inclusive" normal="1910-07-10">July 10, 1910</unitdate></unittitle>
-            </did>
+              <unittitle>"Sojourner Truth, Apostle of Freedom for her Race" article by Forest G. Sweet written for the <title render="italic">Battle Creek Sunday Enquirer</title>, Part 1</unittitle><unitdate type="inclusive" normal="1910-07-10">July 10, 1910</unitdate></did>
             <odd>
               <p>(Part 2; July 17, 1910 is available on microfilm as part of the Willard Library collection)</p>
             </odd>
@@ -204,22 +201,19 @@
             <did>
               <container type="box" label="Box [554846803738567]" id="56e30115-f730-4d89-921e-a542171b7c6f">1</container>
               <container type="folder" label="Folder" parent="56e30115-f730-4d89-921e-a542171b7c6f">3</container>
-              <unittitle>"Sojourner Truth" written by J. H. Brown for the Battle Creek Moon-Journal <unitdate type="inclusive" normal="1929-04-26">April 26, 1929</unitdate></unittitle>
-            </did>
+              <unittitle>"Sojourner Truth" written by J. H. Brown for the Battle Creek Moon-Journal</unittitle><unitdate type="inclusive" normal="1929-04-26">April 26, 1929</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
               <container type="box" label="Box [554846803738567]" id="b3380070-6c29-4ec9-bf7f-58c10ea5431d">1</container>
               <container type="folder" label="Folder" parent="b3380070-6c29-4ec9-bf7f-58c10ea5431d">3</container>
-              <unittitle>"Lincoln and Sojourner Truth" written by J. H. Brown for the <title render="italic">Battle Creek Moon-Journal</title>, <unitdate type="inclusive" normal="1929-05-03">May 3, 1929</unitdate></unittitle>
-            </did>
+              <unittitle>"Lincoln and Sojourner Truth" written by J. H. Brown for the <title render="italic">Battle Creek Moon-Journal</title></unittitle><unitdate type="inclusive" normal="1929-05-03">May 3, 1929</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
               <container type="box" label="Box [554846803738567]" id="c75131c0-3676-47ae-b499-f7ec438624fd">1</container>
               <container type="folder" label="Folder" parent="c75131c0-3676-47ae-b499-f7ec438624fd">3</container>
-              <unittitle>"Sojourner Truth" by George B. Dolliver, written in the "Mainly About Folks" column of the <title render="italic">Battle Creek Enquirer and News</title>, <unitdate type="inclusive" normal="1942-03-22">March 22, 1942</unitdate></unittitle>
-            </did>
+              <unittitle>"Sojourner Truth" by George B. Dolliver, written in the "Mainly About Folks" column of the <title render="italic">Battle Creek Enquirer and News</title></unittitle><unitdate type="inclusive" normal="1942-03-22">March 22, 1942</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -267,8 +261,7 @@
             <did>
               <container type="box" label="Box [554846803738567]" id="6c350d19-157e-48ca-8fd2-a6af9b8eb3e1">1</container>
               <container type="folder" label="Folder" parent="6c350d19-157e-48ca-8fd2-a6af9b8eb3e1">4</container>
-              <unittitle>"Sojourner Truth and Her Birthplace" from <title render="italic">The Illustrated American</title>, <unitdate type="inclusive" normal="1896">1896</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>"Sojourner Truth and Her Birthplace" from <title render="italic">The Illustrated American</title></unittitle><unitdate type="inclusive" normal="1896">1896</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 pages</extent>
               </physdesc>
             </did>
@@ -284,8 +277,7 @@
             <did>
               <container type="box" label="Box [554846803738567]" id="f9afb6b8-f2d6-40b9-82a2-b73b681bd706">1</container>
               <container type="folder" label="Folder" parent="f9afb6b8-f2d6-40b9-82a2-b73b681bd706">4</container>
-              <unittitle>News clippings from <title render="italic">Detroit Free Press</title>, <unitdate type="inclusive" normal="1940">1940</unitdate>, <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-            </did>
+              <unittitle>News clippings from <title render="italic">Detroit Free Press</title></unittitle><unitdate type="inclusive" normal="1940">1940</unitdate><unitdate type="inclusive" normal="1942">1942</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -366,8 +358,7 @@
             <did>
               <container type="box" label="Box [554846803738567]" id="fd8a9316-96da-4317-86f3-9295983d7d92">1</container>
               <container type="folder" label="Folder" parent="fd8a9316-96da-4317-86f3-9295983d7d92">8</container>
-              <unittitle>Lincoln and Sojourner Truth from a painting by Frank Courter <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
-            </did>
+              <unittitle>Lincoln and Sojourner Truth from a painting by Frank Courter</unittitle><unitdate type="inclusive" normal="1893">1893</unitdate></did>
             <odd>
               <p>(na 3023)</p>
             </odd>
@@ -499,8 +490,7 @@
             <did>
               <container type="box" label="Box [554846803738567]" id="7fe0d764-7361-420c-b1a4-11a358b90ea6">1</container>
               <container type="folder" label="Folder" parent="7fe0d764-7361-420c-b1a4-11a358b90ea6">9</container>
-              <unittitle>Message to religious journal from Sojourner Truth <unitdate type="inclusive" normal="1884">1884</unitdate></unittitle>
-            </did>
+              <unittitle>Message to religious journal from Sojourner Truth</unittitle><unitdate type="inclusive" normal="1884">1884</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -563,8 +553,7 @@
             <did>
               <container type="box" label="Box [554846803738567]" id="2853dcb2-25e5-4fd3-a6fe-98697d4e2832">1</container>
               <container type="folder" label="Folder" parent="2853dcb2-25e5-4fd3-a6fe-98697d4e2832">12</container>
-              <unittitle>"Narrative of Sojourner Truth" by Olive Gilbert <unitdate type="inclusive" normal="1850">1850</unitdate></unittitle>
-            </did>
+              <unittitle>"Narrative of Sojourner Truth" by Olive Gilbert</unittitle><unitdate type="inclusive" normal="1850">1850</unitdate></did>
             <odd>
               <p>(title page and p. 144 containing testimonials; also introduction by Harriet Beecher Stowe)</p>
             </odd>
@@ -588,8 +577,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [554846803738567]">1</container>
-            <unittitle>European diaries <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>European diaries</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 volumes</extent>
             </physdesc>
           </did>
@@ -597,8 +585,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [554846803738567]">1</container>
-            <unittitle>"Looking Back-Battle Creek" <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <unittitle>"Looking Back-Battle Creek"</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           <odd>
             <p>(articles written about Battle Creek history)</p>
           </odd>
@@ -606,8 +593,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [08181444082950279188647]">2</container>
-            <unittitle>Gerald Carson, correspondence of BL with <unitdate type="inclusive" normal="1955/1972">1955-1972</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Gerald Carson, correspondence of BL with</unittitle><unitdate type="inclusive" normal="1955/1972">1955-1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
@@ -615,8 +601,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [08181444082950279188647]">2</container>
-            <unittitle>Letters from D. J. Van Schnell to Oldfield family members <unitdate type="inclusive" normal="1930/1949" certainty="approximate">1930s-1940s</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Letters from D. J. Van Schnell to Oldfield family members</unittitle><unitdate type="inclusive" normal="1930/1949" certainty="approximate">1930s-1940s</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -633,7 +618,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [08181444082950279188647]">2</container>
-            <unittitle>re autograph collecting</unittitle>
+            <unittitle>Re autograph collecting</unittitle>
           </did>
           <odd>
             <p>(include signed letters from George W. Cable and John G. Whittier)</p>
@@ -665,8 +650,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [08181444082950279188647]">2</container>
-            <unittitle>Autograph/sentiment book of Susan A. Lapham in which friends contributed poems and sentiments <unitdate type="inclusive" certainty="approximate" normal="1830/1839">1830s</unitdate></unittitle>
-          </did>
+            <unittitle>Autograph/sentiment book of Susan A. Lapham in which friends contributed poems and sentiments</unittitle><unitdate type="inclusive" certainty="approximate" normal="1830/1839">1830s</unitdate></did>
         </c02>
       </c01>
     </dsc>

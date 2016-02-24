@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Harriman, John, collector.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6964">Harriman, John, collector.</persname>
       </origination>
-      <unittitle encodinganalog="245">John Harriman Poster Collection <unitdate type="inclusive" encodinganalog="245$f" normal="1985/2005" certainty="approximate">circa 1985-2005</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0557 Aa 2</unitid>
+      <unittitle encodinganalog="245">John Harriman Poster Collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1985/2005" certainty="approximate">circa 1985-2005</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0557 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>William L. Clements Library staff member, collector of posters; event posters and announcements flyers advertising University of Michigan and Ann Arbor and other Michigan community events and activities.</abstract>
       <physdesc altrender="part">
@@ -83,14 +83,14 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lcsh" encodinganalog="651">Ann Arbor (Mich.)--Social life and customs.</geogname>
-        <subject source="lctgm" encodinganalog="650">Manners and customs--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Posters.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/969">Ann Arbor (Mich.)--Social life and customs.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4477">Manners and customs--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Posters.<term type="genre_form">Posters.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students.<term type="topical">Students.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Posters.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3138">Posters.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -104,18 +104,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [871654569228182997131]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1991-01/1992-03">January 1991-March 1992</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1991-01/1992-03">January 1991-March 1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [417622442896406913614]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1991/2000" certainty="approximate">circa 1991-2000</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1991/2000" certainty="approximate">circa 1991-2000</unitdate></did>
           <odd>
             <p>(mainly U-M events)</p>
           </odd>

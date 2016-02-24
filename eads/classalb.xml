@@ -39,7 +39,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -52,8 +53,7 @@
       <origination>
         <title source="aacr2" encodinganalog="130">[University of Michigan Class Albums]</title>
       </origination>
-      <unittitle encodinganalog="245">University of Michigan Class Albums <unitdate type="inclusive" encodinganalog="245$f" normal="1861/1887">1861-1887</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9248 Bimu F99 2</unitid>
+      <unittitle encodinganalog="245">University of Michigan Class Albums</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1861/1887">1861-1887</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9248 Bimu F99 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The Class Albums collection consists of photograph albums compiled by University of Michigan students. The albums include individual and group portraits of class members, faculty portraits, and views of university buildings, the campus, and Ann Arbor scenes.</abstract>
       <physdesc altrender="whole">
@@ -141,17 +141,17 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Campus.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Classes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Buildings.<term type="topical">Buildings.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Campus.<term type="topical">Campus.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Classes.<term type="topical">Classes.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students.<term type="topical">Students.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="655">Albums.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3458">Albums.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -204,8 +204,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [75724724956008402768]">1</container>
-              <unittitle>Tappan, Henry Phillip <unitdate type="inclusive" normal="1805/1881">1805-1881</unitdate></unittitle>
-            </did>
+              <unittitle>Tappan, Henry Phillip</unittitle><unitdate type="inclusive" normal="1805/1881">1805-1881</unitdate></did>
             <odd>
               <p>[4]</p>
             </odd>
@@ -213,8 +212,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [75724724956008402768]">1</container>
-              <unittitle>Williams, George Palmer <unitdate type="inclusive" normal="1802/1881">1802-1881</unitdate></unittitle>
-            </did>
+              <unittitle>Williams, George Palmer</unittitle><unitdate type="inclusive" normal="1802/1881">1802-1881</unitdate></did>
             <odd>
               <p>[5]</p>
             </odd>
@@ -231,8 +229,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [75724724956008402768]">1</container>
-              <unittitle>Douglas, Silas Hamilton <unitdate type="inclusive" normal="1816/1890">1816-1890</unitdate></unittitle>
-            </did>
+              <unittitle>Douglas, Silas Hamilton</unittitle><unitdate type="inclusive" normal="1816/1890">1816-1890</unitdate></did>
             <odd>
               <p>[7]</p>
             </odd>
@@ -270,8 +267,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [75724724956008402768]">1</container>
-              <unittitle>Palmer, Alonzo Benjamin <unitdate type="inclusive" normal="1815/1887">1815-1887</unitdate></unittitle>
-            </did>
+              <unittitle>Palmer, Alonzo Benjamin</unittitle><unitdate type="inclusive" normal="1815/1887">1815-1887</unitdate></did>
             <odd>
               <p>[11]</p>
             </odd>
@@ -306,8 +302,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [75724724956008402768]">1</container>
-              <unittitle>Ford, Corydon La <unitdate type="inclusive" normal="1813/1894">1813-1894</unitdate></unittitle>
-            </did>
+              <unittitle>Ford, Corydon La</unittitle><unitdate type="inclusive" normal="1813/1894">1813-1894</unitdate></did>
             <odd>
               <p>[15]</p>
             </odd>
@@ -369,8 +364,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [75724724956008402768]">1</container>
-              <unittitle>Cooley, Thomas McIntyre <unitdate type="inclusive" normal="1824/1898">1824-1898</unitdate></unittitle>
-            </did>
+              <unittitle>Cooley, Thomas McIntyre</unittitle><unitdate type="inclusive" normal="1824/1898">1824-1898</unitdate></did>
             <odd>
               <p>[22]</p>
             </odd>
@@ -378,8 +372,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [75724724956008402768]">1</container>
-              <unittitle>Wood, DeVolson <unitdate type="inclusive" normal="1832/1897">1832-1897</unitdate></unittitle>
-            </did>
+              <unittitle>Wood, DeVolson</unittitle><unitdate type="inclusive" normal="1832/1897">1832-1897</unitdate></did>
             <odd>
               <p>[23]</p>
             </odd>
@@ -387,8 +380,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [75724724956008402768]">1</container>
-              <unittitle>Watson, James Craig <unitdate type="inclusive" normal="1838/1880">1838-1880</unitdate></unittitle>
-            </did>
+              <unittitle>Watson, James Craig</unittitle><unitdate type="inclusive" normal="1838/1880">1838-1880</unitdate></did>
             <odd>
               <p>[24]</p>
             </odd>
@@ -1290,8 +1282,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1862">1862</unitdate> Class Album (Law)</unittitle>
-        </did>
+          <unittitle>Class Album (Law)</unittitle><unitdate type="inclusive" normal="1862">1862</unitdate></did>
         <odd>
           <p>(Mrs. O.B. Evans [Mae Chubb] was donor of book)</p>
         </odd>
@@ -2558,8 +2549,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1867">1867</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1867">1867</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [618273408760226194]">6</container>
@@ -2572,8 +2562,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1868">1868</unitdate> Class Album (Medical)</unittitle>
-        </did>
+          <unittitle>Class Album (Medical)</unittitle><unitdate type="inclusive" normal="1868">1868</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>President of the United States</unittitle>
@@ -2934,7 +2923,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>woman</unittitle>
+              <unittitle>Woman</unittitle>
             </did>
             <odd>
               <p>[20]</p>
@@ -2961,7 +2950,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[23]</p>
@@ -2979,7 +2968,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>bas relief</unittitle>
+              <unittitle>Bas relief</unittitle>
             </did>
             <odd>
               <p>[25]</p>
@@ -3024,7 +3013,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[30]</p>
@@ -3051,7 +3040,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[33]</p>
@@ -3087,7 +3076,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[37]</p>
@@ -3096,7 +3085,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[38]</p>
@@ -3105,7 +3094,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified man + woman</unittitle>
+              <unittitle>Unidentified man + woman</unittitle>
             </did>
             <odd>
               <p>[39]</p>
@@ -3141,7 +3130,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>woman</unittitle>
+              <unittitle>Woman</unittitle>
             </did>
             <odd>
               <p>[43]</p>
@@ -3159,7 +3148,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>man-unidentified</unittitle>
+              <unittitle>Man-unidentified</unittitle>
             </did>
             <odd>
               <p>[45]</p>
@@ -3186,7 +3175,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>man, unidentified</unittitle>
+              <unittitle>Man, unidentified</unittitle>
             </did>
             <odd>
               <p>[48]</p>
@@ -3204,7 +3193,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>man, unidentified</unittitle>
+              <unittitle>Man, unidentified</unittitle>
             </did>
             <odd>
               <p>[50]</p>
@@ -3213,7 +3202,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>group of men, The Owls?</unittitle>
+              <unittitle>Group of men, The Owls?</unittitle>
             </did>
             <odd>
               <p>[51]</p>
@@ -3249,7 +3238,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[55]</p>
@@ -3312,7 +3301,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[62]</p>
@@ -3330,7 +3319,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified woman</unittitle>
+              <unittitle>Unidentified woman</unittitle>
             </did>
             <odd>
               <p>[64]</p>
@@ -3375,7 +3364,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[69]</p>
@@ -3393,7 +3382,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[71]</p>
@@ -3411,7 +3400,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[73]</p>
@@ -3465,7 +3454,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[79]</p>
@@ -3492,7 +3481,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[82]</p>
@@ -3528,7 +3517,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[86]</p>
@@ -3537,7 +3526,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[87]</p>
@@ -3582,7 +3571,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[92]</p>
@@ -3591,7 +3580,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[93]</p>
@@ -3636,7 +3625,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[98]</p>
@@ -3699,7 +3688,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[107-109]</p>
@@ -3753,7 +3742,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[115-116]</p>
@@ -3792,7 +3781,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[121]</p>
@@ -3810,7 +3799,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[123-124]</p>
@@ -3837,7 +3826,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[127]</p>
@@ -3855,7 +3844,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[129]</p>
@@ -3891,7 +3880,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[138]</p>
@@ -3900,7 +3889,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[142-146]</p>
@@ -3927,7 +3916,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[149]</p>
@@ -3936,7 +3925,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[153]</p>
@@ -3954,7 +3943,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[155]</p>
@@ -3963,7 +3952,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[157]</p>
@@ -3972,7 +3961,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[159]</p>
@@ -3990,7 +3979,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[161-162]</p>
@@ -4008,7 +3997,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[164]</p>
@@ -4026,7 +4015,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[167-172]</p>
@@ -4035,7 +4024,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[175-176]</p>
@@ -4044,7 +4033,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[179-180]</p>
@@ -4053,7 +4042,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[183]</p>
@@ -4071,7 +4060,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[186]</p>
@@ -4089,7 +4078,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[188-191]</p>
@@ -4107,7 +4096,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[193-194]</p>
@@ -4125,7 +4114,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[196]</p>
@@ -4152,7 +4141,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [708556144699027136499]">8</container>
-              <unittitle>unidentified</unittitle>
+              <unittitle>Unidentified</unittitle>
             </did>
             <odd>
               <p>[199]</p>
@@ -4171,8 +4160,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1868">1868</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1868">1868</unitdate></did>
         <odd>
           <p>(Album of Demmon, J.N.)</p>
         </odd>
@@ -4360,7 +4348,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [7588806544790724766]">9</container>
-              <unittitle>several unidentified photos</unittitle>
+              <unittitle>Several unidentified photos</unittitle>
             </did>
           </c03>
         </c02>
@@ -5222,7 +5210,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [7588806544790724766]">9</container>
-              <unittitle>a number of photos of individuals are not identified</unittitle>
+              <unittitle>A number of photos of individuals are not identified</unittitle>
             </did>
           </c03>
         </c02>
@@ -6317,16 +6305,14 @@
       <c01 level="series">
         <did>
           <container type="box" label="Box [080627314341609546970872]">10</container>
-          <unittitle><unitdate type="inclusive" normal="1868">1868</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1868">1868</unitdate></did>
         <odd>
           <p>(Daniel Webster Crouse album)</p>
         </odd>
         <c02 level="file">
           <did>
             <container type="box" label="Box [379020432282242134630]">10A</container>
-            <unittitle>Class Album <unitdate type="inclusive" normal="1868">1868</unitdate></unittitle>
-          </did>
+            <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1868">1868</unitdate></did>
           <odd>
             <p>(with exception of pictures of Crouse and some family members, photos are not identified)</p>
           </odd>
@@ -6335,8 +6321,7 @@
       <c01 level="series">
         <did>
           <container type="box" label="Box [379020432282242134630]">10A</container>
-          <unittitle><unitdate type="inclusive" normal="1869">1869</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1869">1869</unitdate></did>
         <odd>
           <p>(William Corwin Johns album)</p>
         </odd>
@@ -7342,8 +7327,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [18936758445573482217]">12</container>
-            <unittitle><unitdate type="inclusive" normal="1869">1869</unitdate> Class Album</unittitle>
-          </did>
+            <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1869">1869</unitdate></did>
           <odd>
             <p>(Most photographs are unidentified, though identification May be on the back of the photographs.)</p>
           </odd>
@@ -7351,8 +7335,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1870">1870</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1870">1870</unitdate></did>
         <odd>
           <p>(Album of Aaron Perry)</p>
         </odd>
@@ -8196,8 +8179,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [17466724724219785887589]">13</container>
-              <unittitle>Benjamin Franklin statue, gift of clss of <unitdate type="inclusive" normal="1870">1870</unitdate></unittitle>
-            </did>
+              <unittitle>Benjamin Franklin statue, gift of clss of</unittitle><unitdate type="inclusive" normal="1870">1870</unitdate></did>
             <odd>
               <p>[97]</p>
             </odd>
@@ -8897,8 +8879,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Class Album <unitdate type="inclusive" normal="1871">1871</unitdate> College of Literature and Arts</unittitle>
-        </did>
+          <unittitle>Class Album  College of Literature and Arts</unittitle><unitdate type="inclusive" normal="1871">1871</unitdate></did>
         <odd>
           <p>(Album of P.R. Flitcraft)</p>
         </odd>
@@ -9238,8 +9219,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [05026533458299275038501]">14</container>
-              <unittitle>E Jones, Affing Professor of Greek in <unitdate type="inclusive" normal="1870">1870</unitdate></unittitle>
-            </did>
+              <unittitle>E Jones, Affing Professor of Greek in</unittitle><unitdate type="inclusive" normal="1870">1870</unitdate></did>
             <odd>
               <p>[35]</p>
             </odd>
@@ -9880,16 +9860,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1871">1871</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1871">1871</unitdate></did>
         <odd>
           <p>(Album of A.J. Parshall)</p>
         </odd>
         <c02 level="file">
           <did>
             <container type="box" label="Box [76439011849439403183802]">15</container>
-            <unittitle><unitdate type="inclusive" normal="1871">1871</unitdate> Class Album</unittitle>
-          </did>
+            <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1871">1871</unitdate></did>
           <odd>
             <p>(Photos are not identified, 84 photos. Includes many of the photos in the album in box 17 though not in the same order)</p>
           </odd>
@@ -9897,8 +9875,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1871">1871</unitdate> Class Album (Literary and Engineering)</unittitle>
-        </did>
+          <unittitle>Class Album (Literary and Engineering)</unittitle><unitdate type="inclusive" normal="1871">1871</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Buildings and Miscellaneous</unittitle>
@@ -12855,8 +12832,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1872">1872</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1872">1872</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Buildings and Miscellaneous</unittitle>
@@ -13865,8 +13841,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1872">1872</unitdate> Class Albumn</unittitle>
-        </did>
+          <unittitle>Class Albumn</unittitle><unitdate type="inclusive" normal="1872">1872</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Miscellaneous</unittitle>
@@ -17209,8 +17184,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Adams, Charles Kendall, Member of Faculty <unitdate type="inclusive" normal="1862/1885">1862-1885</unitdate></unittitle>
-            </did>
+              <unittitle>Adams, Charles Kendall, Member of Faculty</unittitle><unitdate type="inclusive" normal="1862/1885">1862-1885</unitdate></did>
             <odd>
               <p>[99]</p>
             </odd>
@@ -17236,8 +17210,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Bennett, Henry D., Secretary of University <unitdate type="inclusive" normal="1869/1883">1869-1883</unitdate></unittitle>
-            </did>
+              <unittitle>Bennett, Henry D., Secretary of University</unittitle><unitdate type="inclusive" normal="1869/1883">1869-1883</unitdate></did>
             <odd>
               <p>[13A]</p>
             </odd>
@@ -17254,8 +17227,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Campbell, James Valentine, Member of Faculty <unitdate type="inclusive" normal="1859/1885">1859-1885</unitdate></unittitle>
-            </did>
+              <unittitle>Campbell, James Valentine, Member of Faculty</unittitle><unitdate type="inclusive" normal="1859/1885">1859-1885</unitdate></did>
             <odd>
               <p>[104]</p>
             </odd>
@@ -17299,8 +17271,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1873">1873</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1873">1873</unitdate></did>
             <odd>
               <p>[113B]</p>
             </odd>
@@ -17308,8 +17279,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1874">1874</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1874">1874</unitdate></did>
             <odd>
               <p>[114]</p>
             </odd>
@@ -17317,8 +17287,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1875">1875</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
             <odd>
               <p>[115]</p>
             </odd>
@@ -17326,8 +17295,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1876">1876</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1876">1876</unitdate></did>
             <odd>
               <p>[116]</p>
             </odd>
@@ -17367,8 +17335,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>DePont, Paul R., Member of Faculty <unitdate type="inclusive" normal="1871">1871</unitdate></unittitle>
-            </did>
+              <unittitle>DePont, Paul R., Member of Faculty</unittitle><unitdate type="inclusive" normal="1871">1871</unitdate></did>
             <odd>
               <p>[100]</p>
             </odd>
@@ -17376,8 +17343,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>D'Ooge, Martin Luther, Member of Faculty <unitdate type="inclusive" normal="1867">1867</unitdate></unittitle>
-            </did>
+              <unittitle>D'Ooge, Martin Luther, Member of Faculty</unittitle><unitdate type="inclusive" normal="1867">1867</unitdate></did>
             <odd>
               <p>[94]</p>
             </odd>
@@ -17385,8 +17351,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Doolittle, Charles L., Graduate of Literary Department, Class of <unitdate type="inclusive" normal="1874">1874</unitdate></unittitle>
-            </did>
+              <unittitle>Doolittle, Charles L., Graduate of Literary Department, Class of</unittitle><unitdate type="inclusive" normal="1874">1874</unitdate></did>
             <odd>
               <p>[16]</p>
             </odd>
@@ -17394,8 +17359,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Douglas, Silas H., Member of Faculty <unitdate type="inclusive" normal="1844/1877">1844-1877</unitdate></unittitle>
-            </did>
+              <unittitle>Douglas, Silas H., Member of Faculty</unittitle><unitdate type="inclusive" normal="1844/1877">1844-1877</unitdate></did>
             <odd>
               <p>[108]</p>
             </odd>
@@ -17412,8 +17376,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Frieze, Henry Simmons, Acting President, <unitdate type="inclusive" normal="1869/1871">1869-71</unitdate>, <unitdate type="inclusive" normal="1880/1882">1880-82</unitdate></unittitle>
-            </did>
+              <unittitle>Frieze, Henry Simmons, Acting President</unittitle><unitdate type="inclusive" normal="1869/1871">1869-71</unitdate><unitdate type="inclusive" normal="1880/1882">1880-82</unitdate></did>
             <odd>
               <p>[87]</p>
             </odd>
@@ -17421,8 +17384,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Frothingham, George E., Member of Faculty <unitdate type="inclusive" normal="1867/1869">1867-1869</unitdate></unittitle>
-            </did>
+              <unittitle>Frothingham, George E., Member of Faculty</unittitle><unitdate type="inclusive" normal="1867/1869">1867-1869</unitdate></did>
             <odd>
               <p>[136]</p>
             </odd>
@@ -17439,8 +17401,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Harbison, Robert, Member of Faculty <unitdate type="inclusive" normal="1871/1873">1871-1873</unitdate></unittitle>
-            </did>
+              <unittitle>Harbison, Robert, Member of Faculty</unittitle><unitdate type="inclusive" normal="1871/1873">1871-1873</unitdate></did>
             <odd>
               <p>[101]</p>
             </odd>
@@ -17457,8 +17418,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Hayman, Frank C., Graduate of the Univ. of Michigan, Class of <unitdate type="inclusive" normal="1874">1874</unitdate></unittitle>
-            </did>
+              <unittitle>Hayman, Frank C., Graduate of the Univ. of Michigan, Class of</unittitle><unitdate type="inclusive" normal="1874">1874</unitdate></did>
             <odd>
               <p>[135]</p>
             </odd>
@@ -17466,8 +17426,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Hayman, Wayne, Graduate of Law Dept., Class of <unitdate type="inclusive" normal="1875">1875</unitdate></unittitle>
-            </did>
+              <unittitle>Hayman, Wayne, Graduate of Law Dept., Class of</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
             <odd>
               <p>[134]</p>
             </odd>
@@ -17502,8 +17461,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Kent, Charles Artemas, Member of Faculty <unitdate type="inclusive" normal="1868/1886">1868-1886</unitdate></unittitle>
-            </did>
+              <unittitle>Kent, Charles Artemas, Member of Faculty</unittitle><unitdate type="inclusive" normal="1868/1886">1868-1886</unitdate></did>
             <odd>
               <p>[107]</p>
             </odd>
@@ -17571,8 +17529,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Morris, George Sylvester, Member of Faculty <unitdate type="inclusive" normal="1870/1889">1870-1889</unitdate></unittitle>
-            </did>
+              <unittitle>Morris, George Sylvester, Member of Faculty</unittitle><unitdate type="inclusive" normal="1870/1889">1870-1889</unitdate></did>
             <odd>
               <p>[95]</p>
             </odd>
@@ -17616,8 +17573,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>"Poultry Raising Association" of <unitdate type="inclusive" normal="1872">1872</unitdate></unittitle>
-            </did>
+              <unittitle>"Poultry Raising Association" of</unittitle><unitdate type="inclusive" normal="1872">1872</unitdate></did>
             <odd>
               <p>[131]</p>
             </odd>
@@ -17742,8 +17698,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [5711099945858058103735]">23</container>
-              <unittitle>Wilson, Orrin S., Graduate of Literary Dept. <unitdate type="inclusive" normal="1874">1874</unitdate></unittitle>
-            </did>
+              <unittitle>Wilson, Orrin S., Graduate of Literary Dept.</unittitle><unitdate type="inclusive" normal="1874">1874</unitdate></did>
             <odd>
               <p>[76]</p>
             </odd>
@@ -18849,8 +18804,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [1201954272570327149]">24</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1873">1873</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1873">1873</unitdate></did>
             <odd>
               <p>[118]</p>
             </odd>
@@ -19351,8 +19305,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [307930145759273927717]">25</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1873">1873</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1873">1873</unitdate></did>
             <odd>
               <p>[5]</p>
             </odd>
@@ -19360,8 +19313,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [307930145759273927717]">25</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1874">1874</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1874">1874</unitdate></did>
             <odd>
               <p>[6]</p>
             </odd>
@@ -19369,8 +19321,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [307930145759273927717]">25</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1875">1875</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
             <odd>
               <p>[7]</p>
             </odd>
@@ -19378,8 +19329,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [307930145759273927717]">25</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1876">1876</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1876">1876</unitdate></did>
             <odd>
               <p>[8]</p>
             </odd>
@@ -20131,8 +20081,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1873">1873</unitdate> Class Album (J. G. Pattengill)</unittitle>
-        </did>
+          <unittitle>Class Album (J. G. Pattengill)</unittitle><unitdate type="inclusive" normal="1873">1873</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>University Presidents</unittitle>
@@ -21479,8 +21428,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1874">1874</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1874">1874</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Faculty</unittitle>
@@ -22584,8 +22532,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [2084264818425506125]">27</container>
-              <unittitle>Class Stone of <unitdate type="inclusive" normal="1862">1862</unitdate></unittitle>
-            </did>
+              <unittitle>Class Stone of</unittitle><unitdate type="inclusive" normal="1862">1862</unitdate></did>
             <odd>
               <p>[129]</p>
             </odd>
@@ -22805,8 +22752,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [2084264818425506125]">27</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1873">1873</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1873">1873</unitdate></did>
             <odd>
               <p>[149]</p>
             </odd>
@@ -22814,8 +22760,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [2084264818425506125]">27</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1874">1874</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1874">1874</unitdate></did>
             <odd>
               <p>[150]</p>
             </odd>
@@ -22823,8 +22768,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [2084264818425506125]">27</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1875">1875</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
             <odd>
               <p>[151]</p>
             </odd>
@@ -22832,8 +22776,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [2084264818425506125]">27</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1876">1876</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1876">1876</unitdate></did>
             <odd>
               <p>[152]</p>
             </odd>
@@ -22841,8 +22784,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [2084264818425506125]">27</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1877">1877</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1877">1877</unitdate></did>
             <odd>
               <p>[153]</p>
             </odd>
@@ -22956,8 +22898,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1874">1874</unitdate> Class Album (copy 2)</unittitle>
-          <container type="box" label="Box [665520429978847612]">28</container>
+          <unittitle>Class Album (copy 2)</unittitle><unitdate type="inclusive" normal="1874">1874</unitdate><container type="box" label="Box [665520429978847612]">28</container>
         </did>
         <odd>
           <p>[The album is in poor repair, and many pictures are missing.]</p>
@@ -22965,8 +22906,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1875">1875</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Faculty</unittitle>
@@ -24494,8 +24434,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [54473316437810472957]">29</container>
-              <unittitle>Engineering Class of <unitdate type="inclusive" normal="1875">1875</unitdate></unittitle>
-            </did>
+              <unittitle>Engineering Class of</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
             <odd>
               <p>[176]</p>
             </odd>
@@ -24503,14 +24442,12 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [54473316437810472957]">29</container>
-              <unittitle>Engineering Class of <unitdate type="inclusive" normal="1876">1876</unitdate></unittitle>
-            </did>
+              <unittitle>Engineering Class of</unittitle><unitdate type="inclusive" normal="1876">1876</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
               <container type="box" label="Box [54473316437810472957]">29</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1877">1877</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1877">1877</unitdate></did>
             <odd>
               <p>[169]</p>
             </odd>
@@ -24518,8 +24455,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [54473316437810472957]">29</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1876">1876</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1876">1876</unitdate></did>
             <odd>
               <p>[168]</p>
             </odd>
@@ -24527,8 +24463,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [54473316437810472957]">29</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1875">1875</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
             <odd>
               <p>[167]</p>
             </odd>
@@ -24536,8 +24471,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [54473316437810472957]">29</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1874">1874</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1874">1874</unitdate></did>
             <odd>
               <p>[166]</p>
             </odd>
@@ -24554,8 +24488,7 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [54473316437810472957]">29</container>
-              <unittitle>Baseball Club <unitdate type="inclusive" normal="1875">1875</unitdate></unittitle>
-            </did>
+              <unittitle>Baseball Club</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
             <odd>
               <p>[164]</p>
             </odd>
@@ -24564,8 +24497,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1875">1875</unitdate> Class Album (Literary)</unittitle>
-        </did>
+          <unittitle>Class Album (Literary)</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Professors</unittitle>
@@ -26065,13 +25997,11 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1875">1875</unitdate> Class Album (partial)</unittitle>
-        </did>
+          <unittitle>Class Album (partial)</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2095748438298575297167309]">30-a</container>
-            <unittitle><unitdate type="inclusive" normal="1875">1875</unitdate> Class Album (partial)</unittitle>
-          </did>
+            <unittitle>Class Album (partial)</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -27157,8 +27087,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1876">1876</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1876">1876</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Faculty</unittitle>
@@ -27528,8 +27457,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1876">1876</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1876">1876</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Professors</unittitle>
@@ -27903,8 +27831,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1878">1878</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1878">1878</unitdate></did>
         <odd>
           <p>(Annie Peck Album)</p>
         </odd>
@@ -29627,8 +29554,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1882">1882</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1882">1882</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Faculty</unittitle>
@@ -30010,8 +29936,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1882">1882</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1882">1882</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [58057507147478690]">40</container>
@@ -30021,8 +29946,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1883">1883</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1883">1883</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Faculty</unittitle>
@@ -30920,26 +30844,22 @@
           <c03 level="item">
             <did>
               <container type="box" label="Box [130737140206727288633]">41</container>
-              <unittitle>Class of <unitdate type="inclusive" normal="1883">1883</unitdate></unittitle>
-            </did>
+              <unittitle>Class of</unittitle><unitdate type="inclusive" normal="1883">1883</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
               <container type="box" label="Box [130737140206727288633]">41</container>
-              <unittitle>Class Reunion <unitdate type="inclusive" normal="1933-06-16">June 16, 1933</unitdate></unittitle>
-            </did>
+              <unittitle>Class Reunion</unittitle><unitdate type="inclusive" normal="1933-06-16">June 16, 1933</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1885">1885</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1885">1885</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [37304343289936170]">42</container>
-            <unittitle><unitdate type="inclusive" normal="1885">1885</unitdate> Class Album</unittitle>
-          </did>
+            <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1885">1885</unitdate></did>
           <odd>
             <p>(This album is in poor condition. The vast majority of photographs are unidentified on the pages, however, some May be identified on their backsides. Their removal from the pages of the album is often difficult.)</p>
           </odd>
@@ -30947,13 +30867,11 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><unitdate type="inclusive" normal="1887">1887</unitdate> Class Album</unittitle>
-        </did>
+          <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1887">1887</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [775872448994012205038]">43</container>
-            <unittitle><unitdate type="inclusive" normal="1887">1887</unitdate> Class Album</unittitle>
-          </did>
+            <unittitle>Class Album</unittitle><unitdate type="inclusive" normal="1887">1887</unitdate></did>
           <odd>
             <p>(The vast majority of photographs are unidentified on the pages, however, some May be identified on their backsides. Their removal from the pages of the album is often difficult.)</p>
           </odd>

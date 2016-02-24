@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Jones, Volney Hurt, 1903-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3644">Jones, Volney Hurt, 1903-</persname>
       </origination>
-      <unittitle encodinganalog="245">Volney H. Jones papers <unitdate type="inclusive" encodinganalog="245$f" normal="1909/1979">1909-1979</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1930/1979">1930-1979</unitdate></unittitle>
-      <abstract>Volney H. Jones was a leading ethnobotanist and served as Curator of Ethnology at the University of Michigan Museum of Anthropology from 1945 to 1969. The papers include correspondence with ethnobotanists and anthropologists, including Edward F. Castetter and Leslie A. White, administrative files, biographical information on anthropologists, teaching files for Jones' courses within the Department of Anthropology, and notes for unpublished textbooks on ethnobotany. The papers also include correspondence with Chase S. Osborn, Stellanova B. Osborn, and Milo M. Quaife concerning a project to establish a Friends of the Michigan Indian organization, and correspondence and reports from Ted Bank concerning the University of Michigan expeditions to the Aleutian Islands.</abstract>
+      <unittitle encodinganalog="245">Volney H. Jones papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1909/1979">1909-1979</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1930/1979">1930-1979</unitdate><abstract>Volney H. Jones was a leading ethnobotanist and served as Curator of Ethnology at the University of Michigan Museum of Anthropology from 1945 to 1969. The papers include correspondence with ethnobotanists and anthropologists, including Edward F. Castetter and Leslie A. White, administrative files, biographical information on anthropologists, teaching files for Jones' courses within the Department of Anthropology, and notes for unpublished textbooks on ethnobotany. The papers also include correspondence with Chase S. Osborn, Stellanova B. Osborn, and Milo M. Quaife concerning a project to establish a Friends of the Michigan Indian organization, and correspondence and reports from Ted Bank concerning the University of Michigan expeditions to the Aleutian Islands.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851542 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <note>
@@ -98,33 +98,33 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n95031387">Jones, Volney H. (Volney Hurt), 1903-1982</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Anthropology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899">University of Michigan. Museum of Anthropology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2007011798">University of Michigan. Ethnobotanical Laboratory.</corpname>
-        <subject source="lcsh" encodinganalog="650">Ethnobotany.</subject>
-        <subject source="lcsh" encodinganalog="650">Paleoethnobotany.</subject>
-        <subject source="lcsh" encodinganalog="650">Anthropology--Bio-bibliography.</subject>
-        <subject source="lcsh" encodinganalog="650">Anthropology--Study and teaching.</subject>
-        <subject source="lcsh" encodinganalog="650">Indians of North America--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Indians of North America--Ethnobotany.</subject>
-        <geogname source="lcsh" encodinganalog="651">Aleutian Islands (Alaska)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n95031387" ref="/agents/people/9016">Jones, Volney H. (Volney Hurt), 1903-1982</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4481">University of Michigan. Dept. of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899" ref="/agents/corporate_entities/2842">University of Michigan. Museum of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2007011798" ref="/agents/corporate_entities/1703">University of Michigan. Ethnobotanical Laboratory.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7808">Ethnobotany.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7812">Paleoethnobotany.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8507">Anthropology--Bio-bibliography.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7213">Anthropology--Study and teaching.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6077">Indians of North America--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7810">Indians of North America--Ethnobotany.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2136">Aleutian Islands (Alaska)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928">Murphy, Frank, 1890-1949.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n92118551">Osborn, Stellanova, 1894-1988.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79093112">Quaife, Milo Milton, 1880-1959.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85186040">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87932009">Bank, Ted.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80112951">Castetter, Edward Franklin, 1896-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50020232">White, Leslie A., 1900-1975.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928" ref="/agents/people/5322">Murphy, Frank, 1890-1949.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2456">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n92118551" ref="/agents/people/3014">Osborn, Stellanova, 1894-1988.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79093112" ref="/agents/people/4448">Quaife, Milo Milton, 1880-1959.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85186040" ref="/agents/people/1513">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87932009" ref="/agents/people/1781">Bank, Ted.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80112951" ref="/agents/people/1211">Castetter, Edward Franklin, 1896-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50020232" ref="/agents/people/4489">White, Leslie A., 1900-1975.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Field notes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3186">Field notes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -139,38 +139,32 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Agogino, George <unitdate type="inclusive" normal="1953/1959">1953-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Agogino, George</unittitle><unitdate type="inclusive" normal="1953/1959">1953-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>American Museum of Natural History <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-          </did>
+            <unittitle>American Museum of Natural History</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Amerind Foundation <unitdate type="inclusive" normal="1945/1952">1945-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Amerind Foundation</unittitle><unitdate type="inclusive" normal="1945/1952">1945-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Anderson, Edgar <unitdate type="inclusive" normal="1941/1954">1941-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Anderson, Edgar</unittitle><unitdate type="inclusive" normal="1941/1954">1941-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Anderson, Robert <unitdate type="inclusive" normal="1942/1958">1942-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Anderson, Robert</unittitle><unitdate type="inclusive" normal="1942/1958">1942-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Aveleyra A. de Anda, Luis <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Aveleyra A. de Anda, Luis</unittitle><unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -181,14 +175,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Bailey, L.H. <unitdate type="inclusive" normal="1935/1940">1935-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Bailey, L.H.</unittitle><unitdate type="inclusive" normal="1935/1940">1935-1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Bank, Theodore (Ted) <unitdate type="inclusive" normal="1948/1975">1948-1975</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Bank, Theodore (Ted)</unittitle><unitdate type="inclusive" normal="1948/1975">1948-1975</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -196,56 +188,47 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Bartoo, Harriette <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
-          </did>
+            <unittitle>Bartoo, Harriette</unittitle><unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Beaudoin, Kenneth L. <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-          </did>
+            <unittitle>Beaudoin, Kenneth L.</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Blake, S.F. <unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate></unittitle>
-          </did>
+            <unittitle>Blake, S.F.</unittitle><unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Bohrer, Vorsila L. <unitdate type="inclusive" normal="1953/1970">1953-1970</unitdate></unittitle>
-          </did>
+            <unittitle>Bohrer, Vorsila L.</unittitle><unitdate type="inclusive" normal="1953/1970">1953-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Braidwood, Robert <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <unittitle>Braidwood, Robert</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Brew, J.O. <unitdate type="inclusive" normal="1936/1951">1936-1951</unitdate></unittitle>
-          </did>
+            <unittitle>Brew, J.O.</unittitle><unitdate type="inclusive" normal="1936/1951">1936-1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Brigham, Edward M. <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-          </did>
+            <unittitle>Brigham, Edward M.</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Brown, William L. <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></unittitle>
-          </did>
+            <unittitle>Brown, William L.</unittitle><unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Bureau of American Ethnology <unitdate type="inclusive" normal="1940/1960">1940-1960</unitdate></unittitle>
-          </did>
+            <unittitle>Bureau of American Ethnology</unittitle><unitdate type="inclusive" normal="1940/1960">1940-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -256,68 +239,57 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>California, University of <unitdate type="inclusive" normal="1937/1952">1937-1952</unitdate></unittitle>
-          </did>
+            <unittitle>California, University of</unittitle><unitdate type="inclusive" normal="1937/1952">1937-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Carter, George F. <unitdate type="inclusive" normal="1945/1950">1945-1950</unitdate></unittitle>
-          </did>
+            <unittitle>Carter, George F.</unittitle><unitdate type="inclusive" normal="1945/1950">1945-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Castetter, Edward F. <unitdate type="inclusive" normal="1933/1975">1933-1975</unitdate></unittitle>
-          </did>
+            <unittitle>Castetter, Edward F.</unittitle><unitdate type="inclusive" normal="1933/1975">1933-1975</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Chase, Agnes <unitdate type="inclusive" normal="1930/1939">1930-1939</unitdate></unittitle>
-          </did>
+            <unittitle>Chase, Agnes</unittitle><unitdate type="inclusive" normal="1930/1939">1930-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Chicago Natural History Museum <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-          </did>
+            <unittitle>Chicago Natural History Museum</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Clements Library <unitdate type="inclusive" normal="1947/1949">1947-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Clements Library</unittitle><unitdate type="inclusive" normal="1947/1949">1947-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Colley, Charles C. <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-          </did>
+            <unittitle>Colley, Charles C.</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Colton, Harold S. <unitdate type="inclusive" normal="1934/1950">1934-1950</unitdate></unittitle>
-          </did>
+            <unittitle>Colton, Harold S.</unittitle><unitdate type="inclusive" normal="1934/1950">1934-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Conklin, Harold C. <unitdate type="inclusive" normal="1955/1961">1955-1961</unitdate></unittitle>
-          </did>
+            <unittitle>Conklin, Harold C.</unittitle><unitdate type="inclusive" normal="1955/1961">1955-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Cranbrook Institute of Science <unitdate type="inclusive" normal="1940/1969">1940-1969</unitdate></unittitle>
-          </did>
+            <unittitle>Cranbrook Institute of Science</unittitle><unitdate type="inclusive" normal="1940/1969">1940-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Cutler, Hugh C. <unitdate type="inclusive" normal="1948/1971">1948-1971</unitdate></unittitle>
-          </did>
+            <unittitle>Cutler, Hugh C.</unittitle><unitdate type="inclusive" normal="1948/1971">1948-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -328,62 +300,52 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Densmore, Frances <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-          </did>
+            <unittitle>Densmore, Frances</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Denver Art Museum <unitdate type="inclusive" normal="1936/1944">1936-1944</unitdate></unittitle>
-          </did>
+            <unittitle>Denver Art Museum</unittitle><unitdate type="inclusive" normal="1936/1944">1936-1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Detroit Children's Museum <unitdate type="inclusive" normal="1940/1949">1940-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Detroit Children's Museum</unittitle><unitdate type="inclusive" normal="1940/1949">1940-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Detroit Historical Museum <unitdate type="inclusive" normal="1945/1957">1945-1957</unitdate></unittitle>
-          </did>
+            <unittitle>Detroit Historical Museum</unittitle><unitdate type="inclusive" normal="1945/1957">1945-1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Deuel, Thorne <unitdate type="inclusive" normal="1939/1950">1939-1950</unitdate></unittitle>
-          </did>
+            <unittitle>Deuel, Thorne</unittitle><unitdate type="inclusive" normal="1939/1950">1939-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Di Peso, Charles C. <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></unittitle>
-          </did>
+            <unittitle>Di Peso, Charles C.</unittitle><unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Dockstader, Frederick J. <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Dockstader, Frederick J.</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Dodge, Ernest <unitdate type="inclusive" normal="1947/1949">1947-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Dodge, Ernest</unittitle><unitdate type="inclusive" normal="1947/1949">1947-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Dragoo, Don W. <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Dragoo, Don W.</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Dutton, Bertha P. <unitdate type="inclusive" normal="1939/1967">1939-1967</unitdate></unittitle>
-          </did>
+            <unittitle>Dutton, Bertha P.</unittitle><unitdate type="inclusive" normal="1939/1967">1939-1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -394,20 +356,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Elmore, Francis <unitdate type="inclusive" normal="1936/1947">1936-1947</unitdate></unittitle>
-          </did>
+            <unittitle>Elmore, Francis</unittitle><unitdate type="inclusive" normal="1936/1947">1936-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Euler, Robert C. <unitdate type="inclusive" normal="1953/1976">1953-1976</unitdate></unittitle>
-          </did>
+            <unittitle>Euler, Robert C.</unittitle><unitdate type="inclusive" normal="1953/1976">1953-1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Ewing, George H. <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Ewing, George H.</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -418,32 +377,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Fenton, William N. <unitdate type="inclusive" normal="1933/1966">1933-1966</unitdate></unittitle>
-          </did>
+            <unittitle>Fenton, William N.</unittitle><unitdate type="inclusive" normal="1933/1966">1933-1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Fonner, Robert L. <unitdate type="inclusive" normal="1950/1962">1950-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Fonner, Robert L.</unittitle><unitdate type="inclusive" normal="1950/1962">1950-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Ford, Richard I. <unitdate type="inclusive" normal="1969/1979">1969-1979</unitdate></unittitle>
-          </did>
+            <unittitle>Ford, Richard I.</unittitle><unitdate type="inclusive" normal="1969/1979">1969-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Fosberg, F.R. <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Fosberg, F.R.</unittitle><unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Fowler, Melvin L. <unitdate type="inclusive" normal="1952/1961">1952-1961</unitdate></unittitle>
-          </did>
+            <unittitle>Fowler, Melvin L.</unittitle><unitdate type="inclusive" normal="1952/1961">1952-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -454,38 +408,32 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Galinat, Wilton C. <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <unittitle>Galinat, Wilton C.</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Gallup Indian Community Center <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Gallup Indian Community Center</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Gibbons, Thomas A. <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate></unittitle>
-          </did>
+            <unittitle>Gibbons, Thomas A.</unittitle><unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Gilmore, Melvin R. <unitdate type="inclusive" normal="1934/1942">1934-1942</unitdate></unittitle>
-          </did>
+            <unittitle>Gilmore, Melvin R.</unittitle><unitdate type="inclusive" normal="1934/1942">1934-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Goodwin Collection <unitdate type="inclusive" normal="1956/1964">1956-1964</unitdate></unittitle>
-          </did>
+            <unittitle>Goodwin Collection</unittitle><unitdate type="inclusive" normal="1956/1964">1956-1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Guthe, Carl E. <unitdate type="inclusive" normal="1940/1943">1940-1943</unitdate></unittitle>
-          </did>
+            <unittitle>Guthe, Carl E.</unittitle><unitdate type="inclusive" normal="1940/1943">1940-1943</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -496,56 +444,47 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9409614651405351]">1</container>
-            <unittitle>Haag, William G. <unitdate type="inclusive" normal="1940/1976">1940-1976</unitdate></unittitle>
-          </did>
+            <unittitle>Haag, William G.</unittitle><unitdate type="inclusive" normal="1940/1976">1940-1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Hack, John T. <unitdate type="inclusive" normal="1938/1944">1938-1944</unitdate></unittitle>
-          </did>
+            <unittitle>Hack, John T.</unittitle><unitdate type="inclusive" normal="1938/1944">1938-1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Hargrave, Lyndon L. <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <unittitle>Hargrave, Lyndon L.</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Harrington, M.R. <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></unittitle>
-          </did>
+            <unittitle>Harrington, M.R.</unittitle><unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Haury, Emil W. <unitdate type="inclusive" normal="1936/1948">1936-1948</unitdate></unittitle>
-          </did>
+            <unittitle>Haury, Emil W.</unittitle><unitdate type="inclusive" normal="1936/1948">1936-1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Heizer, Robert F. <unitdate type="inclusive" normal="1941/1952">1941-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Heizer, Robert F.</unittitle><unitdate type="inclusive" normal="1941/1952">1941-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Hibben, Frank C. <unitdate type="inclusive" normal="1953/1963">1953-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Hibben, Frank C.</unittitle><unitdate type="inclusive" normal="1953/1963">1953-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Hodge, F.W. <unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate></unittitle>
-          </did>
+            <unittitle>Hodge, F.W.</unittitle><unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Howard, James H. <unitdate type="inclusive" normal="1954/1957">1954-1957</unitdate></unittitle>
-          </did>
+            <unittitle>Howard, James H.</unittitle><unitdate type="inclusive" normal="1954/1957">1954-1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -556,26 +495,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Irvine, Frederick Robert <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Irvine, Frederick Robert</unittitle><unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Jackson, Henry <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <unittitle>Jackson, Henry</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Jennings, Jesse D. <unitdate type="inclusive" normal="1938/1954">1938-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Jennings, Jesse D.</unittitle><unitdate type="inclusive" normal="1938/1954">1938-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Judd, Neil M. <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <unittitle>Judd, Neil M.</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -586,26 +521,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Kaplan, Lawrence <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Kaplan, Lawrence</unittitle><unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Kent, Barry C. <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
-          </did>
+            <unittitle>Kent, Barry C.</unittitle><unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Kidder, Alfred V. <unitdate type="inclusive" normal="1937/1947">1937-1947</unitdate></unittitle>
-          </did>
+            <unittitle>Kidder, Alfred V.</unittitle><unitdate type="inclusive" normal="1937/1947">1937-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Krieger, Alex <unitdate type="inclusive" normal="1946/1955">1946-1955</unitdate></unittitle>
-          </did>
+            <unittitle>Krieger, Alex</unittitle><unitdate type="inclusive" normal="1946/1955">1946-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -616,26 +547,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Lambert, Robert J. <unitdate type="inclusive" normal="1952/1956">1952-1956</unitdate></unittitle>
-          </did>
+            <unittitle>Lambert, Robert J.</unittitle><unitdate type="inclusive" normal="1952/1956">1952-1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Leechman, Douglas <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Leechman, Douglas</unittitle><unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Lieberman, Leonard <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Lieberman, Leonard</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Lippincott, Sallie <unitdate>undated</unitdate></unittitle>
-          </did>
+            <unittitle>Lippincott, Sallie</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -646,62 +573,52 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Malkin, Borys <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Malkin, Borys</unittitle><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Martin, Paul S. <unitdate type="inclusive" normal="1941/1960">1941-1960</unitdate></unittitle>
-          </did>
+            <unittitle>Martin, Paul S.</unittitle><unitdate type="inclusive" normal="1941/1960">1941-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Mason, Carol Irwin <unitdate>undated</unitdate></unittitle>
-          </did>
+            <unittitle>Mason, Carol Irwin</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Masters, William M. <unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate></unittitle>
-          </did>
+            <unittitle>Masters, William M.</unittitle><unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>McKern, W.C. <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <unittitle>McKern, W.C.</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Mera, H.P. <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-          </did>
+            <unittitle>Mera, H.P.</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Merrill, William L. <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-          </did>
+            <unittitle>Merrill, William L.</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Michigan State College <unitdate type="inclusive" normal="1947/1950">1947-1950</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan State College</unittitle><unitdate type="inclusive" normal="1947/1950">1947-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Morris, Earl H. <unitdate type="inclusive" normal="1949/1954">1949-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Morris, Earl H.</unittitle><unitdate type="inclusive" normal="1949/1954">1949-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Murchie, W. R. <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Murchie, W. R.</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           <odd>
             <p>(Flint lectures)</p>
           </odd>
@@ -709,14 +626,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Museum of Northern Arizona <unitdate type="inclusive" normal="1932/1975">1932-1975</unitdate></unittitle>
-          </did>
+            <unittitle>Museum of Northern Arizona</unittitle><unitdate type="inclusive" normal="1932/1975">1932-1975</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Museum of the American Indian <unitdate type="inclusive" normal="1936/1961">1936-1961</unitdate></unittitle>
-          </did>
+            <unittitle>Museum of the American Indian</unittitle><unitdate type="inclusive" normal="1936/1961">1936-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -727,14 +642,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Nabhan, Gary <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></unittitle>
-          </did>
+            <unittitle>Nabhan, Gary</unittitle><unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>National Park Service <unitdate type="inclusive" normal="1937/1960">1937-1960</unitdate></unittitle>
-          </did>
+            <unittitle>National Park Service</unittitle><unitdate type="inclusive" normal="1937/1960">1937-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -743,21 +656,18 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6685759644129795833555]">2</container>
-              <unittitle>General <unitdate type="inclusive" normal="1953/1964">1953-1964</unitdate></unittitle>
-            </did>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1953/1964">1953-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6685759644129795833555]">2</container>
-              <unittitle>Final Report on GS-659 <unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Final Report on GS-659</unittitle><unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>New Mexico, Museum of <unitdate type="inclusive" normal="1937/1959">1937-1959</unitdate></unittitle>
-          </did>
+            <unittitle>New Mexico, Museum of</unittitle><unitdate type="inclusive" normal="1937/1959">1937-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -768,14 +678,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Orchard, W.C. <unitdate type="inclusive" normal="1933/1936">1933-1936</unitdate></unittitle>
-          </did>
+            <unittitle>Orchard, W.C.</unittitle><unitdate type="inclusive" normal="1933/1936">1933-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Osborn, Stellanova <unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate></unittitle>
-          </did>
+            <unittitle>Osborn, Stellanova</unittitle><unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate></did>
           <odd>
             <p>(re: project to establish a Friends of the Michigan Indian organization)</p>
           </odd>
@@ -789,26 +697,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Peebles, R.H. <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-          </did>
+            <unittitle>Peebles, R.H.</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Philadelphia Museum of Art <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <unittitle>Philadelphia Museum of Art</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Pohrt, Richard A. <unitdate type="inclusive" normal="1960/1979">1960-1979</unitdate></unittitle>
-          </did>
+            <unittitle>Pohrt, Richard A.</unittitle><unitdate type="inclusive" normal="1960/1979">1960-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Pratt, Peter P. <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <unittitle>Pratt, Peter P.</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -819,62 +723,52 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Quaife, Milo M. <unitdate type="inclusive" normal="1941/1948">1941-1948</unitdate></unittitle>
-          </did>
+            <unittitle>Quaife, Milo M.</unittitle><unitdate type="inclusive" normal="1941/1948">1941-1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Quimby, George I. <unitdate type="inclusive" normal="1935/1949">1935-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Quimby, George I.</unittitle><unitdate type="inclusive" normal="1935/1949">1935-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Reagan, A.B. <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
-          </did>
+            <unittitle>Reagan, A.B.</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Reed, Erik K. <unitdate type="inclusive" normal="1949/1955">1949-1955</unitdate></unittitle>
-          </did>
+            <unittitle>Reed, Erik K.</unittitle><unitdate type="inclusive" normal="1949/1955">1949-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Reeves, R.G. <unitdate type="inclusive" normal="1935/1953">1935-1953</unitdate></unittitle>
-          </did>
+            <unittitle>Reeves, R.G.</unittitle><unitdate type="inclusive" normal="1935/1953">1935-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Reid, Russell <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-          </did>
+            <unittitle>Reid, Russell</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Reiter, Paul and Winifred <unitdate type="inclusive" normal="1936/1953">1936-1953</unitdate></unittitle>
-          </did>
+            <unittitle>Reiter, Paul and Winifred</unittitle><unitdate type="inclusive" normal="1936/1953">1936-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Roberts, Wilmer C. <unitdate type="inclusive" normal="1939/1952">1939-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Roberts, Wilmer C.</unittitle><unitdate type="inclusive" normal="1939/1952">1939-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Rouse, Irving <unitdate type="inclusive" normal="1942/1949">1942-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Rouse, Irving</unittitle><unitdate type="inclusive" normal="1942/1949">1942-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Rousseau, Jacques <unitdate type="inclusive" normal="1932/1962">1932-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Rousseau, Jacques</unittitle><unitdate type="inclusive" normal="1932/1962">1932-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -885,86 +779,72 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Saginaw Museum <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-          </did>
+            <unittitle>Saginaw Museum</unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Sauer, Jonathan <unitdate type="inclusive" normal="1947/1953">1947-1953</unitdate></unittitle>
-          </did>
+            <unittitle>Sauer, Jonathan</unittitle><unitdate type="inclusive" normal="1947/1953">1947-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Sayles, E.B. <unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate></unittitle>
-          </did>
+            <unittitle>Sayles, E.B.</unittitle><unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Schneider, Mary Jane <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-          </did>
+            <unittitle>Schneider, Mary Jane</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Schultes, Richard E. <unitdate type="inclusive" normal="1937/1978">1937-1978</unitdate></unittitle>
-          </did>
+            <unittitle>Schultes, Richard E.</unittitle><unitdate type="inclusive" normal="1937/1978">1937-1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Scott, Donald <unitdate type="inclusive" normal="1937/1946">1937-1946</unitdate></unittitle>
-          </did>
+            <unittitle>Scott, Donald</unittitle><unitdate type="inclusive" normal="1937/1946">1937-1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Shacklette, Hansford T. <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Shacklette, Hansford T.</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Shetrone, H.C. <unitdate type="inclusive" normal="1934/1942">1934-1942</unitdate></unittitle>
-          </did>
+            <unittitle>Shetrone, H.C.</unittitle><unitdate type="inclusive" normal="1934/1942">1934-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Sirrine, Emma F. <unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Sirrine, Emma F.</unittitle><unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Smith, Hale G. <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
-          </did>
+            <unittitle>Smith, Hale G.</unittitle><unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Smith, Preston <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Smith, Preston</unittitle><unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Southwest Museum <unitdate type="inclusive" normal="1935/1958">1935-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Southwest Museum</unittitle><unitdate type="inclusive" normal="1935/1958">1935-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Speck, F.G. <unitdate type="inclusive" normal="1934/1949">1934-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Speck, F.G.</unittitle><unitdate type="inclusive" normal="1934/1949">1934-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Stubbs, Stanley <unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Stubbs, Stanley</unittitle><unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -975,14 +855,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Tantaquidgeon, Gladys and Harold <unitdate type="inclusive" normal="1934/1937">1934-1937</unitdate></unittitle>
-          </did>
+            <unittitle>Tantaquidgeon, Gladys and Harold</unittitle><unitdate type="inclusive" normal="1934/1937">1934-1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Toulouse, Joseph H. <unitdate type="inclusive" normal="1942/1950">1942-1950</unitdate></unittitle>
-          </did>
+            <unittitle>Toulouse, Joseph H.</unittitle><unitdate type="inclusive" normal="1942/1950">1942-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -993,26 +871,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>United States Department of Agriculture <unitdate type="inclusive" normal="1934/1936">1934-1936</unitdate></unittitle>
-          </did>
+            <unittitle>United States Department of Agriculture</unittitle><unitdate type="inclusive" normal="1934/1936">1934-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>United States Government Printing Office Superintendent of Documents <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <unittitle>United States Government Printing Office Superintendent of Documents</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Vestal, Paul A. <unitdate type="inclusive" normal="1938/1945">1938-1945</unitdate></unittitle>
-          </did>
+            <unittitle>Vestal, Paul A.</unittitle><unitdate type="inclusive" normal="1938/1945">1938-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Voegelin, Carl and Erminie <unitdate type="inclusive" normal="1938/1948">1938-1948</unitdate></unittitle>
-          </did>
+            <unittitle>Voegelin, Carl and Erminie</unittitle><unitdate type="inclusive" normal="1938/1948">1938-1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1023,86 +897,72 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Washington, University of <unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Washington, University of</unittitle><unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Webb, Malcolm C. <unitdate>undated</unitdate></unittitle>
-          </did>
+            <unittitle>Webb, Malcolm C.</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Webb, William S. <unitdate type="inclusive" normal="1934/1939">1934-1939</unitdate></unittitle>
-          </did>
+            <unittitle>Webb, William S.</unittitle><unitdate type="inclusive" normal="1934/1939">1934-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Wedel, Waldo R. <unitdate type="inclusive" normal="1946/1979">1946-1979</unitdate></unittitle>
-          </did>
+            <unittitle>Wedel, Waldo R.</unittitle><unitdate type="inclusive" normal="1946/1979">1946-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Whitaker, Thomas A. <unitdate type="inclusive" normal="1947/1952">1947-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Whitaker, Thomas A.</unittitle><unitdate type="inclusive" normal="1947/1952">1947-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>White, Leslie, A. <unitdate type="inclusive" normal="1937/1971">1937-1971</unitdate></unittitle>
-          </did>
+            <unittitle>White, Leslie, A.</unittitle><unitdate type="inclusive" normal="1937/1971">1937-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Whiting, Alfred F. <unitdate type="inclusive" normal="1935/1965">1935-1965</unitdate></unittitle>
-          </did>
+            <unittitle>Whiting, Alfred F.</unittitle><unitdate type="inclusive" normal="1935/1965">1935-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Wilder, Charles G. <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <unittitle>Wilder, Charles G.</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Will, George F. <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
-          </did>
+            <unittitle>Will, George F.</unittitle><unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Williams, U.H. <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
-          </did>
+            <unittitle>Williams, U.H.</unittitle><unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Wissler, Clark <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <unittitle>Wissler, Clark</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Witthoft, John <unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate>, <unitdate>undated</unitdate></unittitle>
-          </did>
+            <unittitle>Witthoft, John</unittitle><unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Wittrock, G.L. <unitdate type="inclusive" normal="1938/1942">1938-1942</unitdate></unittitle>
-          </did>
+            <unittitle>Wittrock, G.L.</unittitle><unitdate type="inclusive" normal="1938/1942">1938-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Wright, Ross Pier <unitdate type="inclusive" normal="1942/1947">1942-1947</unitdate></unittitle>
-          </did>
+            <unittitle>Wright, Ross Pier</unittitle><unitdate type="inclusive" normal="1942/1947">1942-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1113,14 +973,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Yanovsky, E. <unitdate type="inclusive" normal="1933/1939">1933-1939</unitdate></unittitle>
-          </did>
+            <unittitle>Yanovsky, E.</unittitle><unitdate type="inclusive" normal="1933/1939">1933-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6685759644129795833555]">2</container>
-            <unittitle>Yarnell, Richard A. <unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate></unittitle>
-          </did>
+            <unittitle>Yarnell, Richard A.</unittitle><unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1139,8 +997,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [317826864406300093]">3</container>
-            <unittitle>Hunt Botanical Library <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <unittitle>Hunt Botanical Library</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           <odd>
             <p>(includes photo)</p>
           </odd>
@@ -1148,14 +1005,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [317826864406300093]">3</container>
-            <unittitle>Memorial to the American Indian Foundation <unitdate type="inclusive" normal="1953" certainty="approximate">circa 1953</unitdate></unittitle>
-          </did>
+            <unittitle>Memorial to the American Indian Foundation</unittitle><unitdate type="inclusive" normal="1953" certainty="approximate">circa 1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [317826864406300093]">3</container>
-            <unittitle>Prospectus on Moving, Reorganization and Rehabilitation of the Museum of Anthropology <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Prospectus on Moving, Reorganization and Rehabilitation of the Museum of Anthropology</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1164,20 +1019,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [317826864406300093]">3</container>
-              <unittitle>Budget and Accounting <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate></unittitle>
-            </did>
+              <unittitle>Budget and Accounting</unittitle><unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [317826864406300093]">3</container>
-              <unittitle>Correspondence with NSF <unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence with NSF</unittitle><unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [317826864406300093]">3</container>
-              <unittitle>Karen Ford <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-            </did>
+              <unittitle>Karen Ford</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1186,8 +1038,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [317826864406300093]">3</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -1195,34 +1046,29 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [317826864406300093]">3</container>
-                <unittitle>Field Notes <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-              </did>
+                <unittitle>Field Notes</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [317826864406300093]">3</container>
-              <unittitle>Marjorie Lambert-Correspondence <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Marjorie Lambert-Correspondence</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [317826864406300093]">3</container>
-              <unittitle>Proposal <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Proposal</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [317826864406300093]">3</container>
-              <unittitle>Report on Excavation of Jemez Cave <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Report on Excavation of Jemez Cave</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [317826864406300093]">3</container>
-            <unittitle>Reviews of Grant Proposals <unitdate type="inclusive" normal="1960/1976">1960-1976</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Reviews of Grant Proposals</unittitle><unitdate type="inclusive" normal="1960/1976">1960-1976</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1230,20 +1076,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [317826864406300093]">3</container>
-            <unittitle>Schepp Foundation <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Schepp Foundation</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [317826864406300093]">3</container>
-            <unittitle>Society for American Archaeology <unitdate>undated</unitdate></unittitle>
-          </did>
+            <unittitle>Society for American Archaeology</unittitle><unitdate>undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Biographies and Bibliographies, bulk compiled <unitdate type="inclusive" normal="1950/1979" certainty="approximate">1950s-1970s</unitdate></unittitle>
-        </did>
+          <unittitle>Biographies and Bibliographies, bulk compiled</unittitle><unitdate type="inclusive" normal="1950/1979" certainty="approximate">1950s-1970s</unitdate></did>
         <scopecontent>
           <p>The Biographies and Bibliographies series, bulk 1950s-1970s (1.25 linear feet), contains research materials, bibliographies, and biographical sketches for prominent anthropologists, with particular focus on ethnographers. While Jones compiled much of the supporting research himself from the 1950s to 1970s, many of the brief biographical sketches were written by students in Jones' Department of Anthropology course, Anthropology 557: Aboriginal Cultures of North America. The contents of the files range from a single citation to an obituary or published biography to a full biographical sketch. The most comprehensive of the sketches is one of James B. Griffin, written by Jones with handwritten amendments by Griffin. A few of the files include correspondence concerning Jones' research into a particular biographical subject.</p>
         </scopecontent>
@@ -2707,8 +2550,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Teaching Files <unitdate type="inclusive" normal="1940/1969" certainty="approximate">circa 1940s-1960s</unitdate></unittitle>
-        </did>
+          <unittitle>Teaching Files</unittitle><unitdate type="inclusive" normal="1940/1969" certainty="approximate">circa 1940s-1960s</unitdate></did>
         <scopecontent>
           <p>The Teaching Files series, bulk 1940s-1960s (1 linear foot), contains Jones' notes for his popular Aboriginal Cultures of North America course. The files includes Jones' course outlines, lecture notes, resource lists, and information compiled from secondary sources.</p>
         </scopecontent>
@@ -2723,18 +2565,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [491173058241968454537]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1962">1962</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [491173058241968454537]">4</container>
-                <unittitle>
-                  <unitdate>undated</unitdate>
-                </unittitle>
-              </did>
+                <unitdate>undated</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -3157,8 +2993,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Culture Areas, compiled <unitdate type="bulk" normal="1930/1969" certainty="approximate">1930s-1960s</unitdate></unittitle>
-        </did>
+          <unittitle>Culture Areas, compiled</unittitle><unitdate type="bulk" normal="1930/1969" certainty="approximate">1930s-1960s</unitdate></did>
         <scopecontent>
           <p>The Culture Areas series, bulk 1930s-1960s (1 linear foot), includes correspondence, notes, reports and citations related to various culture areas, with particular emphasis on plants. Much of the material is undated. While these were primarily reference files, they may have also been compiled in anticipation of authoring a textbook; Jones' order and arrangement of the files has been preserved. In addition to Jones' notes, drafts and outlines, the files include materials written or compiled by others, most notably Jones' mentor at Michigan, Melvin Gilmore. The section on the Plains Region, in particular, includes a number of Gilmore manuscripts and research materials. Jones' thesis on <title render="italic">The Ethnobotany of the Isleta Indians</title> can also be found within this series.</p>
         </scopecontent>
@@ -3169,62 +3004,52 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Arrowweed Gum <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></unittitle>
-            </did>
+              <unittitle>Arrowweed Gum</unittitle><unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Uniola palmeri <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Uniola palmeri</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Food Plants <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Food Plants</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Hemenway Expedition-Bibliography <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-            </did>
+              <unittitle>Hemenway Expedition-Bibliography</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Narcotics and Intoxicants <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Narcotics and Intoxicants</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Environment <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Environment</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Anthropology <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Anthropology</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Agriculture <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Agriculture</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Basin and Plateau Lecture Notes <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Basin and Plateau Lecture Notes</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Southwest Lecture Notes <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Southwest Lecture Notes</unittitle><unitdate>undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -3257,8 +3082,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Eskimo <unitdate type="inclusive" normal="1940/1962">1940-1962</unitdate></unittitle>
-            </did>
+              <unittitle>Eskimo</unittitle><unitdate type="inclusive" normal="1940/1962">1940-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3269,8 +3093,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Subarctic Lecture Notes <unitdate type="inclusive" normal="1944">1944</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Subarctic Lecture Notes</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3292,20 +3115,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Lincoln Totem Pole <unitdate type="inclusive" normal="1943/1954">1943-1954</unitdate></unittitle>
-            </did>
+              <unittitle>Lincoln Totem Pole</unittitle><unitdate type="inclusive" normal="1943/1954">1943-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>West Coast Forest ("Chap. 8") <unitdate type="inclusive" normal="1934">1934</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>West Coast Forest ("Chap. 8")</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Lecture Notes <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
-            </did>
+              <unittitle>Lecture Notes</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -3321,14 +3141,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Chippewa <unitdate type="inclusive" normal="1934/1946">1934-1946</unitdate></unittitle>
-            </did>
+              <unittitle>Chippewa</unittitle><unitdate type="inclusive" normal="1934/1946">1934-1946</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Chippewa <unitdate type="inclusive" normal="1929/1933">1929-1933</unitdate></unittitle>
-            </did>
+              <unittitle>Chippewa</unittitle><unitdate type="inclusive" normal="1929/1933">1929-1933</unitdate></did>
             <odd>
               <p>(notes from Melvin R. Gilmore)</p>
             </odd>
@@ -3336,14 +3154,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Basketry <unitdate type="inclusive" normal="1948/1969">1948-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Basketry</unittitle><unitdate type="inclusive" normal="1948/1969">1948-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Basketry-Classification <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Basketry-Classification</unittitle><unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate><unitdate>undated</unitdate></did>
             <odd>
               <p>(includes photos)</p>
             </odd>
@@ -3357,14 +3173,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Indians of Michigan Bibliography <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Indians of Michigan Bibliography</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Plant Materials from Sites in Canada <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-            </did>
+              <unittitle>Plant Materials from Sites in Canada</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
             <odd>
               <p>(by Harlan I. Smith)</p>
             </odd>
@@ -3384,14 +3198,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Textiles (report of field work) <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
-            </did>
+              <unittitle>Textiles (report of field work)</unittitle><unitdate type="inclusive" normal="1933">1933</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Pottawattami Indians <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
-            </did>
+              <unittitle>Pottawattami Indians</unittitle><unitdate type="inclusive" normal="1926">1926</unitdate></did>
             <odd>
               <p>(notes from Gilmore)</p>
             </odd>
@@ -3408,14 +3220,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Iroquois Basketry <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-            </did>
+              <unittitle>Iroquois Basketry</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60831641325372795852]">5</container>
-              <unittitle>Textile Arts <unitdate type="inclusive" normal="1933/1963">1933-1963</unitdate></unittitle>
-            </did>
+              <unittitle>Textile Arts</unittitle><unitdate type="inclusive" normal="1933/1963">1933-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3464,8 +3274,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Osage Information <unitdate type="inclusive" normal="1925/1954">1925-1954</unitdate></unittitle>
-            </did>
+              <unittitle>Osage Information</unittitle><unitdate type="inclusive" normal="1925/1954">1925-1954</unitdate></did>
             <odd>
               <p>(from Gilmore)</p>
             </odd>
@@ -3473,8 +3282,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Pawnee Data <unitdate type="inclusive" normal="1914/1926">1914-1926</unitdate></unittitle>
-            </did>
+              <unittitle>Pawnee Data</unittitle><unitdate type="inclusive" normal="1914/1926">1914-1926</unitdate></did>
             <odd>
               <p>(from Gilmore)</p>
             </odd>
@@ -3482,8 +3290,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Silphium <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-            </did>
+              <unittitle>Silphium</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
             <odd>
               <p>(from Gilmore)</p>
             </odd>
@@ -3497,8 +3304,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Plant Specimens from Montana <unitdate type="inclusive" normal="1925">1925</unitdate></unittitle>
-            </did>
+              <unittitle>Plant Specimens from Montana</unittitle><unitdate type="inclusive" normal="1925">1925</unitdate></did>
             <odd>
               <p>(from Gilmore)</p>
             </odd>
@@ -3530,8 +3336,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Medicinal Plants of Nebraska <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
-            </did>
+              <unittitle>Medicinal Plants of Nebraska</unittitle><unitdate type="inclusive" normal="1909">1909</unitdate></did>
             <odd>
               <p>(from Gilmore)</p>
             </odd>
@@ -3566,8 +3371,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Polystictus Versicolor as a Food Plant <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
-            </did>
+              <unittitle>Polystictus Versicolor as a Food Plant</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
             <odd>
               <p>(from Gilmore)</p>
             </odd>
@@ -3581,8 +3385,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Ethnobotany of the Chippewa <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-            </did>
+              <unittitle>Ethnobotany of the Chippewa</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
             <odd>
               <p>(by Gretchen Beardsley)</p>
             </odd>
@@ -3595,8 +3398,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Cherokee Alphabet <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
-            </did>
+              <unittitle>Cherokee Alphabet</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3610,14 +3412,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Deciduous Forest <unitdate type="inclusive" normal="1927">1927</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Deciduous Forest</unittitle><unitdate type="inclusive" normal="1927">1927</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Southeast <unitdate type="inclusive" normal="1933">1933</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <unittitle>Southeast</unittitle><unitdate type="inclusive" normal="1933">1933</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3631,14 +3431,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Sassafras <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-            </did>
+              <unittitle>Sassafras</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Adena and Hopewell Carbon 14 Dates <unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></unittitle>
-            </did>
+              <unittitle>Adena and Hopewell Carbon 14 Dates</unittitle><unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></did>
             <odd>
               <p>(by James B. Griffin)</p>
             </odd>
@@ -3646,8 +3444,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Prehistoric Pottery of the Eastern United States <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></unittitle>
-            </did>
+              <unittitle>Prehistoric Pottery of the Eastern United States</unittitle><unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3675,8 +3472,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Mescalbeans <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Mescalbeans</unittitle><unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -3684,8 +3480,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>The Vegetable World of the Ancient Peruvians <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-            </did>
+              <unittitle>The Vegetable World of the Ancient Peruvians</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
             <odd>
               <p>(translation of article by Yakovleff and Herrera)</p>
             </odd>
@@ -3693,14 +3488,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Chihuahua Textiles <unitdate type="inclusive" normal="1940/1949">1940-1949</unitdate></unittitle>
-            </did>
+              <unittitle>Chihuahua Textiles</unittitle><unitdate type="inclusive" normal="1940/1949">1940-1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Cultural Evolution as a Guide to Conquest Situations in South America <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <unittitle>Cultural Evolution as a Guide to Conquest Situations in South America</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
             <odd>
               <p>(by Sam Vinocur)</p>
             </odd>
@@ -3719,8 +3512,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>General <unitdate type="inclusive" normal="1931/1933">1931-1933</unitdate></unittitle>
-            </did>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1931/1933">1931-1933</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3731,14 +3523,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Navajo Dyes <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <unittitle>Navajo Dyes</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Garryowen <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            </did>
+              <unittitle>Garryowen</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
             <odd>
               <p>(includes photos)</p>
             </odd>
@@ -3746,8 +3536,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Alfalfa <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-            </did>
+              <unittitle>Alfalfa</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3770,14 +3559,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Fauna and Flora of New Mexico Bibliography <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></unittitle>
-            </did>
+              <unittitle>Fauna and Flora of New Mexico Bibliography</unittitle><unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle><title>The Ethnobotany of the Islet Indians</title>, <unitdate type="inclusive" normal="1931">1931</unitdate> (Thesis)</unittitle>
-            </did>
+              <unittitle><title>The Ethnobotany of the Islet Indians</title>,  (Thesis)</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3788,15 +3575,13 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7714203453000628904]">6</container>
-              <unittitle>Fibers from Montezuma Castle <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></unittitle>
-            </did>
+              <unittitle>Fibers from Montezuma Castle</unittitle><unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Ethnobotany Textbook Files, compiled <unitdate type="inclusive" normal="1945/1978" certainty="approximate">circa 1945-1978</unitdate></unittitle>
-        </did>
+          <unittitle>Ethnobotany Textbook Files, compiled</unittitle><unitdate type="inclusive" normal="1945/1978" certainty="approximate">circa 1945-1978</unitdate></did>
         <scopecontent>
           <p>The Ethnobotany Textbook Files series, ca. 1945-1978 (0.75 linear feet), includes outlines, notes, drafts, and correspondence Jones compiled for a planned textbook on ethnobotany that he worked on from approximately 1945 to 1978 but never completed. Much of the material is undated. While a complete outline for the book is not found in the papers, Jones' order and arrangement of the files has been preserved to give a sense of the book's intended organization. As with the Culture Areas series, the files include material written or compiled by others, as well as by Jones.</p>
         </scopecontent>
@@ -4269,8 +4054,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0642804178980976138]">7</container>
-              <unittitle>"Industrial Revolutions: Plants, Animals and Metals" (talk for WUOM radio) <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-            </did>
+              <unittitle>"Industrial Revolutions: Plants, Animals and Metals" (talk for WUOM radio)</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -4332,8 +4116,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0642804178980976138]">7</container>
-            <unittitle>Tusayan; History of the Hopi Reservation <unitdate type="inclusive" normal="1850/1868">1850-1868</unitdate>, <unitdate type="inclusive" normal="1973" certainty="approximate">circa 1973</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Tusayan; History of the Hopi Reservation</unittitle><unitdate type="inclusive" normal="1850/1868">1850-1868</unitdate><unitdate type="inclusive" normal="1973" certainty="approximate">circa 1973</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -4341,32 +4124,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0642804178980976138]">7</container>
-            <unittitle>Tusayan; History of the Hopi Reservation <unitdate type="inclusive" normal="1869/1881">1869-1881</unitdate>, <unitdate type="inclusive" normal="1973" certainty="approximate">circa 1973</unitdate></unittitle>
-          </did>
+            <unittitle>Tusayan; History of the Hopi Reservation</unittitle><unitdate type="inclusive" normal="1869/1881">1869-1881</unitdate><unitdate type="inclusive" normal="1973" certainty="approximate">circa 1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0642804178980976138]">7</container>
-            <unittitle>Tusayan; History of the Hopi Reservation <unitdate type="inclusive" normal="1882/1890">1882-1890</unitdate>, <unitdate type="inclusive" normal="1973" certainty="approximate">circa 1973</unitdate></unittitle>
-          </did>
+            <unittitle>Tusayan; History of the Hopi Reservation</unittitle><unitdate type="inclusive" normal="1882/1890">1882-1890</unitdate><unitdate type="inclusive" normal="1973" certainty="approximate">circa 1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0642804178980976138]">7</container>
-            <unittitle>Tusayan; Outline for the History of. <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Tusayan; Outline for the History of.</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0642804178980976138]">7</container>
-            <unittitle>The Hopi Reservation After <unitdate type="inclusive" normal="1860" certainty="approximate">1860 undated</unitdate></unittitle>
-          </did>
+            <unittitle>The Hopi Reservation After</unittitle><unitdate type="inclusive" normal="1860" certainty="approximate">1860 undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0642804178980976138]">7</container>
-            <unittitle>Colyer and Palmer expedition to the Hopi Indians <unitdate type="inclusive" normal="1869">1869</unitdate>, <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Colyer and Palmer expedition to the Hopi Indians</unittitle><unitdate type="inclusive" normal="1869">1869</unitdate><unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -4374,26 +4152,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0642804178980976138]">7</container>
-            <unittitle>The Shimono Indians <unitdate type="inclusive" normal="1969" certainty="approximate">circa 1969</unitdate></unittitle>
-          </did>
+            <unittitle>The Shimono Indians</unittitle><unitdate type="inclusive" normal="1969" certainty="approximate">circa 1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0642804178980976138]">7</container>
-            <unittitle>Asa Gray's Journey into the GrandCanyon in <unitdate type="inclusive" normal="1885">1885</unitdate>, <unitdate type="inclusive" normal="1971" certainty="approximate">circa 1971</unitdate></unittitle>
-          </did>
+            <unittitle>Asa Gray's Journey into the GrandCanyon in</unittitle><unitdate type="inclusive" normal="1885">1885</unitdate><unitdate type="inclusive" normal="1971" certainty="approximate">circa 1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0642804178980976138]">7</container>
-            <unittitle>Thomas Keam; Government Agent to the Hopi Indians <unitdate type="inclusive" normal="1946/1950" certainty="approximate">circa 1946-1950</unitdate> (includes photos)</unittitle>
-          </did>
+            <unittitle>Thomas Keam; Government Agent to the Hopi Indians  (includes photos)</unittitle><unitdate type="inclusive" normal="1946/1950" certainty="approximate">circa 1946-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0642804178980976138]">7</container>
-            <unittitle>Hopi Snake Dance <unitdate type="inclusive" normal="1879/1891">1879-1891</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Hopi Snake Dance</unittitle><unitdate type="inclusive" normal="1879/1891">1879-1891</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -4422,8 +4196,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [36119484398826042868]">8</container>
-              <unittitle>Mangelsdorf and Reeves collaboration <unitdate type="inclusive" normal="1927/1959">1927-1959</unitdate></unittitle>
-            </did>
+              <unittitle>Mangelsdorf and Reeves collaboration</unittitle><unitdate type="inclusive" normal="1927/1959">1927-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -4555,8 +4328,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Teaching Files <unitdate type="inclusive" normal="1940/1969" certainty="approximate">circa 1940s-1960s</unitdate> (cont.)</unittitle>
-        </did>
+          <unittitle>Teaching Files  (cont.)</unittitle><unitdate type="inclusive" normal="1940/1969" certainty="approximate">circa 1940s-1960s</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Anthropology 101 Files</unittitle>

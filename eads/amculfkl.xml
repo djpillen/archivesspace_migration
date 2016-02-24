@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Program in American Culture.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5398">University of Michigan. Program in American Culture.</corpname>
       </origination>
-      <unittitle encodinganalog="245">American Culture Folklore and Oral History Archives <unitdate type="inclusive" encodinganalog="245$f" normal="2005/2009">2005-2009</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011021 Bimu 2</unitid>
+      <unittitle encodinganalog="245">American Culture Folklore and Oral History Archives</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="2005/2009">2005-2009</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011021 Bimu 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Archives of folklore collected by students in the course "Survey of American Folklore" offered by the University of Michigan Program in American Culture and first taught by Bruce Conforth in 2005. Collected folklore reports compiled by students in American Folklore course based on oral interviews with informants. (Interviews are included on a variety of physical formats--cassettes, microcassettes, CDs, VHS tapes). Reports include essays, transcripts on topics ranging from popular folklore to campus legends and traditions.</abstract>
       <physdesc altrender="whole">
@@ -146,17 +146,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Folklore.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Program in American Culture.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--2001-2010.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Harrah-Conforth, Bruce Michael, 1950-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Folklore.<term type="topical">Folklore.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5398">University of Michigan. Program in American Culture.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--2001-2010.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">2001-2010.</term></corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6163">Harrah-Conforth, Bruce Michael, 1950-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Compact discs.</genreform>
-        <genreform source="aat" encodinganalog="655">Oral histories.</genreform>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
-        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3165">Compact discs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3156">Oral histories.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3134">Videotapes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

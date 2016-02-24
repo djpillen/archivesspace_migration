@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. News and Information Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1593">University of Michigan. News and Information Services.</corpname>
       </origination>
-      <unittitle encodinganalog="245">News and Information Services (University of Michigan) Faculty and Staff Files <unitdate type="inclusive" encodinganalog="245$f" normal="1944/2005">1944-2005</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1995">1960-1995</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009097 Bimu C475 2</unitid>
+      <unittitle encodinganalog="245">News and Information Services (University of Michigan) Faculty and Staff Files</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1944/2005">1944-2005</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1960/1995">1960-1995</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009097 Bimu C475 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The Faculty and Staff files contain biographical and background information created and collected by the University of Michigan News and Information Services. News and Information Services is the media relations office of the university. The files represent more than 6,000 individual faculty and staff members. Some files contain photographs.</abstract>
       <physdesc altrender="whole">
@@ -88,15 +88,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform encodinganalog="655" source="aat">Photographs.</genreform>
+        <genreform encodinganalog="655" source="aat" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McCauley, Dorothy.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/5594">McCauley, Dorothy.</persname>
       </origination>
-      <unittitle encodinganalog="245">Dorothy McCauley papers <unitdate type="inclusive" encodinganalog="245$f" normal="1961/1989">1961-1989</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89498 Aa 2</unitid>
+      <unittitle encodinganalog="245">Dorothy McCauley papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1961/1989">1961-1989</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89498 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Newsletters and minutes of executive committee of the Dav-Joy-Lin-Dex Community Council; newsletters of area block clubs; files relating to her community and organizational involvement; published materials; and photographs.</abstract>
       <physdesc altrender="whole">
@@ -80,23 +80,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">African Americans--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Citizens' associations--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Dav-Joy-Lin-Dex Community Council (Detroit, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">McCauley, Dorothy.</persname>
-        <subject source="lcsh" encodinganalog="650">African Americans--Michigan--Detroit.</subject>
-        <subject source="lctgm" encodinganalog="650">Children.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5763">African Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6020">Citizens' associations--Michigan--Detroit.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5590">Dav-Joy-Lin-Dex Community Council (Detroit, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539" ref="/subjects/929">Detroit (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5594">McCauley, Dorothy.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5915">African Americans--Michigan--Detroit.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Children.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects-Visual Material:</head>
-        <subject source="lcsh" encodinganalog="650">African Americans--Michigan--Detroit.</subject>
-        <subject source="lctgm" encodinganalog="650">Children.</subject>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5915">African Americans--Michigan--Detroit.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Children.</subject>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -134,34 +134,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [644404634330893682593394]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960/1969">1960-1969</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960/1969">1960-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [644404634330893682593394]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [644404634330893682593394]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [644404634330893682593394]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1980/1989">1980-1989</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1980/1989">1980-1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -183,26 +171,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [644404634330893682593394]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961/1969">1961-1969</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961/1969">1961-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [644404634330893682593394]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970/1979">1970-1979</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970/1979">1970-1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [644404634330893682593394]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1980/1989">1980-1989</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1980/1989">1980-1989</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -254,8 +233,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [644404634330893682593394]">1</container>
-                <unittitle>Minutes <unitdate type="inclusive" normal="1978/1989">1978-1989</unitdate></unittitle>
-              </did>
+                <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1978/1989">1978-1989</unitdate></did>
             </c04>
             <c04 level="file">
               <did>

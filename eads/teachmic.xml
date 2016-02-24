@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">TEACH Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21">TEACH Michigan.</corpname>
       </origination>
-      <unittitle encodinganalog="245">TEACH Michigan and TEACH Michigan Education Fund records, <unitdate type="inclusive" encodinganalog="245$f" normal="1989/1996">1989-1996</unitdate></unittitle>
-      <abstract>Organization established in 1989 by Paul N. DeWeese and others to lobby for changes in state law and the state constitution to allow parents to choose between competing schools. The record group also contains records of the Michigan Center for Charter Schools, sister organization to TEACH Michigan, established to promote the development of charter schools in the state. The record group includes Informational materials detailing mission and goals of the TEACH Michigan organization; organizational files; topical files; correspondence; speeches and articles about school choice and the state charter school movement; and audio and video cassettes of TM presentations and appearances of Paul DeWeese on radio and television programs. Also included are the organizational records of the Michigan Center for Charter Schools.</abstract>
+      <unittitle encodinganalog="245">TEACH Michigan and TEACH Michigan Education Fund records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1989/1996">1989-1996</unitdate><abstract>Organization established in 1989 by Paul N. DeWeese and others to lobby for changes in state law and the state constitution to allow parents to choose between competing schools. The record group also contains records of the Michigan Center for Charter Schools, sister organization to TEACH Michigan, established to promote the development of charter schools in the state. The record group includes Informational materials detailing mission and goals of the TEACH Michigan organization; organizational files; topical files; correspondence; speeches and articles about school choice and the state charter school movement; and audio and video cassettes of TM presentations and appearances of Paul DeWeese on radio and television programs. Also included are the organizational records of the Michigan Center for Charter Schools.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">014 Bj 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Offsite storage; prior notification required for access</physloc>
@@ -86,35 +86,35 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Charter schools--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">DeWeese, Paul N.</persname>
-        <subject source="lcsh" encodinganalog="650">Education--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Center for Charter Schools.</corpname>
-        <subject source="lcsh" encodinganalog="650">Public schools--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">School choice--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">TEACH Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">TEACH Michigan Education Fund.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9007">Charter schools--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8343">DeWeese, Paul N.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5734">Education--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3323">Michigan Center for Charter Schools.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9723">Public schools--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9008">School choice--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21">TEACH Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2279">TEACH Michigan Education Fund.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <subject source="lcsh" encodinganalog="650">Charter schools--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Debates.</subject>
-        <persname source="lcnaf" encodinganalog="700">DeWeese, Paul N.</persname>
-        <subject source="lctgm" encodinganalog="650">Discussion.</subject>
-        <subject source="lctgm" encodinganalog="650">Public affairs television programs.</subject>
-        <subject source="lcsh" encodinganalog="650">School choice--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">TEACH Michigan.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9007">Charter schools--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5441">Debates.</subject>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8343">DeWeese, Paul N.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5442">Discussion.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5443">Public affairs television programs.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9008">School choice--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21">TEACH Michigan.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">DeWeese, Paul N.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8343">DeWeese, Paul N.</persname>
       </controlaccess>
-      <corpname source="lcnaf" encodinganalog="710">Michigan Center for Charter Schools.</corpname>
-      <corpname source="lcnaf" encodinganalog="710">TEACH Michigan Education Fund.</corpname>
+      <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/3323">Michigan Center for Charter Schools.</corpname>
+      <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/2279">TEACH Michigan Education Fund.</corpname>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
-        <genreform source="aat" encodinganalog="655">Videocassettes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3140">Videocassettes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -135,8 +135,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [02079764433503545631]">1</container>
-              <unittitle>Journal of TM activities maintained by Paul DeWeese <unitdate type="inclusive" normal="1989/1993">1989-1993</unitdate></unittitle>
-            </did>
+              <unittitle>Journal of TM activities maintained by Paul DeWeese</unittitle><unitdate type="inclusive" normal="1989/1993">1989-1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -174,14 +173,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02079764433503545631]">1</container>
-                <unittitle>Name change <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-              </did>
+                <unittitle>Name change</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02079764433503545631]">1</container>
-                <unittitle>Task force meeting and list of task force members <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-              </did>
+                <unittitle>Task force meeting and list of task force members</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -193,8 +190,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [02079764433503545631]">1</container>
-              <unittitle>TEACH Michigan reorganization memorandum <unitdate type="inclusive" normal="1993-10">October 1993</unitdate></unittitle>
-            </did>
+              <unittitle>TEACH Michigan reorganization memorandum</unittitle><unitdate type="inclusive" normal="1993-10">October 1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -203,26 +199,22 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02079764433503545631]">1</container>
-                <unittitle>TMEF board of directors meetings (agenda and minutes) <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-              </did>
+                <unittitle>TMEF board of directors meetings (agenda and minutes)</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02079764433503545631]">1</container>
-                <unittitle>Ad hoc Committee <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-              </did>
+                <unittitle>Ad hoc Committee</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02079764433503545631]">1</container>
-                <unittitle>Strategic Planning Meetings (kitchen cabinet) <unitdate type="inclusive" normal="1993">1993</unitdate>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-              </did>
+                <unittitle>Strategic Planning Meetings (kitchen cabinet)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate><unitdate type="inclusive" normal="1995">1995</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02079764433503545631]">1</container>
-                <unittitle>Coalition (Coalition for Better Schools) meetings <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Coalition (Coalition for Better Schools) meetings</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">8 folders</extent>
                 </physdesc>
               </did>
@@ -230,14 +222,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02079764433503545631]">1</container>
-                <unittitle>Private School Input session <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-              </did>
+                <unittitle>Private School Input session</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02079764433503545631]">1</container>
-                <unittitle>Steering Committee <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-              </did>
+                <unittitle>Steering Committee</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -247,20 +237,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02079764433503545631]">1</container>
-                <unittitle>Chairman's Report <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-              </did>
+                <unittitle>Chairman's Report</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02079764433503545631]">1</container>
-                <unittitle>Executive Memorandum: "As I See It" <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-              </did>
+                <unittitle>Executive Memorandum: "As I See It"</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02079764433503545631]">1</container>
-                <unittitle>Communication Plan for TMEF (prepared by Tom Berriman) <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-              </did>
+                <unittitle>Communication Plan for TMEF (prepared by Tom Berriman)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -296,8 +283,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [02079764433503545631]">1</container>
-              <unittitle>Clippings <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -317,8 +303,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [02079764433503545631]">1</container>
-              <unittitle>Memorandum regarding working relations between TMEF and Michigan Center for Charter Schools <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <unittitle>Memorandum regarding working relations between TMEF and Michigan Center for Charter Schools</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
         </c02>
         <c02 level="series">
@@ -377,8 +362,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [02079764433503545631]">1</container>
-                <unittitle>Leadership Training Seminar <unitdate type="inclusive" normal="1992-11-07">November 7, 1992</unitdate></unittitle>
-              </did>
+                <unittitle>Leadership Training Seminar</unittitle><unitdate type="inclusive" normal="1992-11-07">November 7, 1992</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -494,8 +478,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [792148474914405916979]">3</container>
-              <unittitle>Herrick Foundation proposal <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <unittitle>Herrick Foundation proposal</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -506,8 +489,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [792148474914405916979]">3</container>
-              <unittitle>Legal Strategy Planning Group <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <unittitle>Legal Strategy Planning Group</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -584,8 +566,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [792148474914405916979]">3</container>
-                <unittitle>Legislative candidates questionnaire <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-              </did>
+                <unittitle>Legislative candidates questionnaire</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -607,8 +588,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [792148474914405916979]">3</container>
-                <unittitle>Noah Webster Academy suit <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-              </did>
+                <unittitle>Noah Webster Academy suit</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -633,8 +613,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [792148474914405916979]">3</container>
-                <unittitle>Board meetings <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Board meetings</unittitle><unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
@@ -886,18 +865,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [85255434699870140327]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1989-12/1992-12">December 1989-December 1992</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1989-12/1992-12">December 1989-December 1992</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [75455866347499704603563]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate></did>
             </c04>
           </c03>
           <c03 level="subseries">
@@ -907,10 +880,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [47209202480217817391]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1991/1994-07">1991-July 1994</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1991/1994-07">1991-July 1994</unitdate></did>
             </c04>
           </c03>
           <c03 level="subseries">
@@ -951,8 +921,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [517474324465876938753]">9</container>
-                <unittitle><unitdate>Undated</unitdate>, <unitdate type="inclusive" normal="1991/1995">1991-1995</unitdate></unittitle>
-              </did>
+                <unitdate>Undated</unitdate><unitdate type="inclusive" normal="1991/1995">1991-1995</unitdate></did>
             </c04>
           </c03>
           <c03 level="subseries">
@@ -1388,10 +1357,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [046144822723242260]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">15 folders</extent>
               </physdesc>
             </did>
@@ -1404,10 +1370,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [046144822723242260]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 folders</extent>
               </physdesc>
             </did>
@@ -1780,8 +1743,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [680564984173327708956]">13</container>
-              <unittitle>Plan <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <unittitle>Plan</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>

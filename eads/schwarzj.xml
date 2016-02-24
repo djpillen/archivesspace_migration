@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Schwarz, John J. H.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4170">Schwarz, John J. H.</persname>
       </origination>
-      <unittitle encodinganalog="245">John J. H. Schwarz Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1987/2002">1987-2002</unitdate>, <unitdate type="bulk" normal="1999/2002">1999-2002</unitdate></unittitle>
-      <abstract>Republican state senator from Battle Creek, Michigan, 1987-2002; legislative files documenting issues of higher education appropriations, state health concerns, and expenditure of monies received from lawsuit against the tobacco companies.</abstract>
+      <unittitle encodinganalog="245">John J. H. Schwarz Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1987/2002">1987-2002</unitdate><unitdate type="bulk" normal="1999/2002">1999-2002</unitdate><abstract>Republican state senator from Battle Creek, Michigan, 1987-2002; legislative files documenting issues of higher education appropriations, state health concerns, and expenditure of monies received from lawsuit against the tobacco companies.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">035 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -81,21 +81,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Schwarz, John J. H.</persname>
-        <subject source="lcsh" encodinganalog="650">Higher education and state--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Legislators--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. Senate.</corpname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1991-2000.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--2001-2010.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
-        <corpname source="lcnaf" encodinganalog="610">People Protecting Kids and the Constitution.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Tobacco industry--Law and legislation--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4170">Schwarz, John J. H.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10029">Higher education and state--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6224">Legislators--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/724">Michigan. Legislature. Senate.</corpname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/812">Michigan--Politics and government--1991-2000.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/813">Michigan--Politics and government--2001-2010.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/906">Michigan--Politics and government--1951-</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4026">People Protecting Kids and the Constitution.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4055">Republican Party (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10030">Tobacco industry--Law and legislation--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Websites.</genreform>
-        <genreform source="aat" encodinganalog="655">CD-ROMs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Websites.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3146">CD-ROMs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -105,8 +105,7 @@
         </did>
         <c02 level="subseries">
           <did>
-            <unittitle>Colleges and universities <unitdate type="inclusive" normal="1994/2002">1994-2002</unitdate></unittitle>
-          </did>
+            <unittitle>Colleges and universities</unittitle><unitdate type="inclusive" normal="1994/2002">1994-2002</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [63345232249817443223]">1</container>
@@ -401,8 +400,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1100201394994040915724]">7</container>
-            <unittitle>People Protecting Kids and the Constitution (PPKC) <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-          </did>
+            <unittitle>People Protecting Kids and the Constitution (PPKC)</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
           <odd>
             <p>(re use of tobacco settlement monies)</p>
           </odd>
@@ -410,8 +408,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [61050732194706179682384]">8</container>
-            <unittitle>People Protecting Kids and the Constitution (PPKC) <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-          </did>
+            <unittitle>People Protecting Kids and the Constitution (PPKC)</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
           <odd>
             <p>(re use of tobacco settlement monies)</p>
           </odd>
@@ -451,20 +448,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [61050732194706179682384]">8</container>
-            <unittitle>Alpha/Chron file <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-          </did>
+            <unittitle>Alpha/Chron file</unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [61050732194706179682384]">8</container>
-            <unittitle>Alpha/Chron file <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-          </did>
+            <unittitle>Alpha/Chron file</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [61050732194706179682384]">8</container>
-            <unittitle>Clippings and press releases, pre- <unitdate type="inclusive" normal="1987/1991">1987-1991</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Clippings and press releases, pre-</unittitle><unitdate type="inclusive" normal="1987/1991">1987-1991</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -491,21 +485,18 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [61050732194706179682384]">8</container>
-              <unittitle>Meeting date <unitdate type="inclusive" normal="1997-09-24">September 24, 1997</unitdate></unittitle>
-            </did>
+              <unittitle>Meeting date</unittitle><unitdate type="inclusive" normal="1997-09-24">September 24, 1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [61050732194706179682384]">8</container>
-              <unittitle>Meeting date <unitdate type="inclusive" normal="2001-03-28">March 28, 2001</unitdate></unittitle>
-            </did>
+              <unittitle>Meeting date</unittitle><unitdate type="inclusive" normal="2001-03-28">March 28, 2001</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [61050732194706179682384]">8</container>
-            <unittitle><genreform>Office web site</genreform>, <unitdate type="inclusive" normal="2002-12-20">December 20, 2002</unitdate></unittitle>
-          </did>
+            <unittitle><genreform>Office web site</genreform></unittitle><unitdate type="inclusive" normal="2002-12-20">December 20, 2002</unitdate></did>
           <odd>
             <p>(on CD-ROM; located in CD storage)</p>
           </odd>

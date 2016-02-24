@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n82221228">Davis, Kenneth P. (Kenneth Pickett), 1906-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n82221228" ref="/agents/people/441">Davis, Kenneth P. (Kenneth Pickett), 1906-</persname>
       </origination>
-      <unittitle encodinganalog="245">Kenneth P. Davis papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1974">1930-1974</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85543 Aa 2</unitid>
+      <unittitle encodinganalog="245">Kenneth P. Davis papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1930/1974">1930-1974</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85543 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Educator and forester; correspondence, articles, reports, consulting files, and printed material concerning interests in forest management, forest fire control, use planning, forestry education, and participation in several land use lawsuits, including suit on the multiple use plan for Sylvania area, Ottawa National Forest; and photographs.</abstract>
       <repository>
@@ -81,33 +81,33 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Forest fires--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Forests and forestry--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Land use--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. State Board of Registration for Foresters.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Ottawa National Forest (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79066180">Society of American Foresters.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Sylvania Recreation Area (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054932">United States. Forest Service.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Forestry.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043367">Yale University.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7156">Forest fires--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5817">Forests and forestry--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7157">Land use--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1957">Michigan. State Board of Registration for Foresters.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1670">Ottawa National Forest (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79066180" ref="/agents/corporate_entities/3973">Society of American Foresters.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1671">Sylvania Recreation Area (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054932" ref="/agents/corporate_entities/3791">United States. Forest Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/406">University of Michigan. Dept. of Forestry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/1961">University of Michigan. School of Natural Resources.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043367" ref="/agents/corporate_entities/5405">Yale University.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Camping.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82221228">Davis, Kenneth P. (Kenneth Pickett), 1906-</persname>
-        <subject source="lctgm" encodinganalog="650">Forest fires--United States.</subject>
-        <subject source="lctgm" encodinganalog="650">Forestry.</subject>
-        <geogname source="lcsh" encodinganalog="651">Idaho.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Sylvania Recreation Area (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
-        <subject source="lctgm" encodinganalog="650">Winter.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3650">Camping.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82221228" ref="/agents/people/441">Davis, Kenneth P. (Kenneth Pickett), 1906-</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4161">Forest fires--United States.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3842">Forestry.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1672">Idaho.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1671">Sylvania Recreation Area (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/1961">University of Michigan. School of Natural Resources.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3940">Winter.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -139,8 +139,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>Diary <unitdate type="inclusive" normal="1941/1959">1941-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Diary</unittitle><unitdate type="inclusive" normal="1941/1959">1941-1959</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -150,238 +149,157 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1930/1934">1930-1934</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1930/1934">1930-1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1935">1935</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1935">1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1936">1936</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1937">1937</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1937">1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1938">1938</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1938">1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1939">1939</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1939">1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1940">1940</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1940">1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1940/1943">1940-1943</unitdate> (re. publication of his thesis)</unittitle>
-          </did>
+            <unittitle>(re. publication of his thesis)</unittitle><unitdate type="inclusive" normal="1940/1943">1940-1943</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1941">1941</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1941">1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1942">1942</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1943/1944">1943-1944</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1943/1944">1943-1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1945">1945</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1945">1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1945">1945</unitdate> (re. University of Montana)</unittitle>
-          </did>
+            <unittitle>(re. University of Montana)</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1949">1949</unitdate> (re. University of Michigan)</unittitle>
-          </did>
+            <unittitle>(re. University of Michigan)</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950/1957">1950-1957</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1950/1957">1950-1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1958/1963">1958-1963</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1958/1963">1958-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1966">1966</unitdate> (re. U.N. Food and Agriculture Organization)</unittitle>
-          </did>
+            <unittitle>(re. U.N. Food and Agriculture Organization)</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1966">1966</unitdate> (re. Yale University)</unittitle>
-          </did>
+            <unittitle>(re. Yale University)</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1967">1967</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate> (re. Ann Arbor)</unittitle>
-          </did>
+            <unittitle>(re. Ann Arbor)</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968-01/1968-06">January-June 1968</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1968-01/1968-06">January-June 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968-07/1968-12">July-December 1968</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1968-07/1968-12">July-December 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969-06/1969-09">June-September 1969</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1969-06/1969-09">June-September 1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [35574980014391136334713]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969-10/1970-08">October 1969-August 1970</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1969-10/1970-08">October 1969-August 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7290759804169423289029]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970-09/1971-06">September 1970-June 1971</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1970-09/1971-06">September 1970-June 1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7290759804169423289029]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1971-07/1971-12">July-December 1971</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1971-07/1971-12">July-December 1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7290759804169423289029]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1972-01/1973-03">January 1972-March 1973</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1972-01/1973-03">January 1972-March 1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7290759804169423289029]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1973-04/1974-05">April 1973-May 1974</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1973-04/1974-05">April 1973-May 1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -404,8 +322,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7290759804169423289029]">2</container>
-            <unittitle>Requests and Reviews <unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate></unittitle>
-          </did>
+            <unittitle>Requests and Reviews</unittitle><unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -434,82 +351,52 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [563327545399934977759]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935/1938">1935-1938</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1935/1938">1935-1938</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [563327545399934977759]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1939/1942">1939-1942</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1939/1942">1939-1942</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [563327545399934977759]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943/1946">1943-1946</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943/1946">1943-1946</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [563327545399934977759]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947/1950">1947-1950</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947/1950">1947-1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [563327545399934977759]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [563327545399934977759]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1955/1958">1955-1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1955/1958">1955-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [563327545399934977759]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [563327545399934977759]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [563327545399934977759]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [563327545399934977759]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -519,14 +406,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4738489504123056495]">4</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1949/1961">1949-1961</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1949/1961">1949-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4738489504123056495]">4</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1961/1967">1961-1967</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1961/1967">1961-1967</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -540,18 +425,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4738489504123056495]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1955/1959">1955-1959</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1955/1959">1955-1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [4738489504123056495]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1959/1965">1959-1965</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1959/1965">1959-1965</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -612,8 +491,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>University of Michigan Student <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate></unittitle>
-        </did>
+          <unittitle>University of Michigan Student</unittitle><unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Term papers</unittitle>
@@ -667,8 +545,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>University of Michigan Faculty <unitdate type="inclusive" normal="1949/1966">1949-1966</unitdate></unittitle>
-        </did>
+          <unittitle>University of Michigan Faculty</unittitle><unitdate type="inclusive" normal="1949/1966">1949-1966</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9671674400837568191697]">5</container>
@@ -752,8 +629,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0152895548206569311]">7</container>
-            <unittitle>Lectures given at University of Helsinki <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Lectures given at University of Helsinki</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -761,8 +637,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Yale University Faculty <unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate></unittitle>
-        </did>
+          <unittitle>Yale University Faculty</unittitle><unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0152895548206569311]">7</container>
@@ -873,29 +748,24 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Society of American Foresters, <unitdate normal="1939/1971">1939-1971</unitdate></unittitle>
-        </did>
+          <unittitle>Society of American Foresters</unittitle><unitdate normal="1939/1971">1939-1971</unitdate></did>
         <c02 level="subseries">
           <did>
-            <unittitle>General <unitdate type="inclusive" normal="1939/1970">1939-1970</unitdate></unittitle>
-          </did>
+            <unittitle>General</unittitle><unitdate type="inclusive" normal="1939/1970">1939-1970</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9657404814118187598]">8</container>
-              <unittitle>Papers <unitdate type="inclusive" normal="1951/1966">1951-1966</unitdate></unittitle>
-            </did>
+              <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1951/1966">1951-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9657404814118187598]">8</container>
-              <unittitle>Davis Candidacy for President <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
-            </did>
+              <unittitle>Davis Candidacy for President</unittitle><unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9657404814118187598]">8</container>
-              <unittitle>Davis Candidacy for Vice-President <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Davis Candidacy for Vice-President</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -904,65 +774,43 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9657404814118187598]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9657404814118187598]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1959">1959</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1959">1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9657404814118187598]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1960">1960</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1960">1960</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9657404814118187598]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1961">1961</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1961">1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9657404814118187598]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9657404814118187598]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1967">1967</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1734494689982180]">9</container>
-              <unittitle>Annual Meeting <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Annual Meeting</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -971,42 +819,27 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1966-09">September 1966</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1966-09">September 1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1967-05">May 1967</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1967-05">May 1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1967-10">October 1967</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1967-10">October 1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968-03">March 1968</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1968-03">March 1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968-09/1968-10">September-October 1968</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1968-09/1968-10">September-October 1968</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -1014,18 +847,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1969-04">April 1969</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1969-04">April 1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1969-10">October 1969</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1969-10">October 1969</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1035,34 +862,27 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>, General</unittitle>
-              </did>
+                <unittitle>, General</unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle><unitdate type="inclusive" normal="1966">1966</unitdate>, Committee papers</unittitle>
-              </did>
+                <unittitle>, Committee papers</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle><unitdate type="inclusive" normal="1966">1966</unitdate>, Dues increase</unittitle>
-              </did>
+                <unittitle>, Dues increase</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>,</unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1969">1969</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1969">1969</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1072,10 +892,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1734494689982180]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -1083,33 +900,23 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0272980042389386]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968">1968</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0272980042389386]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0272980042389386]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1969">1969</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1969">1969</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0272980042389386]">10</container>
-              <unittitle>Silviculture Division <unitdate type="inclusive" normal="1946/1952">1946-1952</unitdate></unittitle>
-            </did>
+              <unittitle>Silviculture Division</unittitle><unitdate type="inclusive" normal="1946/1952">1946-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1118,69 +925,53 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0272980042389386]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1946">1946</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1946">1946</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0272980042389386]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0272980042389386]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0272980042389386]">10</container>
-              <unittitle>Forest Fire division (proposed) <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-            </did>
+              <unittitle>Forest Fire division (proposed)</unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0272980042389386]">10</container>
-              <unittitle>Forest Terminology subcommittee <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
-            </did>
+              <unittitle>Forest Terminology subcommittee</unittitle><unitdate type="inclusive" normal="1939">1939</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0272980042389386]">10</container>
-              <unittitle>Committee on Objectives <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-            </did>
+              <unittitle>Committee on Objectives</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0272980042389386]">10</container>
-              <unittitle>Interview and Personnel Records committee <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-            </did>
+              <unittitle>Interview and Personnel Records committee</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0272980042389386]">10</container>
-              <unittitle>Biologist Award <unitdate type="inclusive" normal="1957/1960">1957-1960</unitdate></unittitle>
-            </did>
+              <unittitle>Biologist Award</unittitle><unitdate type="inclusive" normal="1957/1960">1957-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0272980042389386]">10</container>
-              <unittitle>Cubic Foot Standardization committee <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
-            </did>
+              <unittitle>Cubic Foot Standardization committee</unittitle><unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0272980042389386]">10</container>
-              <unittitle>Policy Committee <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
+              <unittitle>Policy Committee</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1189,34 +980,22 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0272980042389386]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0272980042389386]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1962/1966">1962-1966</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1962/1966">1962-1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0272980042389386]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0272980042389386]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1226,51 +1005,43 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0272980042389386]">10</container>
-                <unittitle><unitdate type="inclusive" normal="1958/1966">1958-1966</unitdate>, General</unittitle>
-              </did>
+                <unittitle>, General</unittitle><unitdate type="inclusive" normal="1958/1966">1958-1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0272980042389386]">10</container>
-                <unittitle><unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate>, Chairman file</unittitle>
-              </did>
+                <unittitle>, Chairman file</unittitle><unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0272980042389386]">10</container>
-              <unittitle>Central States Section <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></unittitle>
-            </did>
+              <unittitle>Central States Section</unittitle><unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0272980042389386]">10</container>
-              <unittitle>Miscellaneous Sections <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Miscellaneous Sections</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0272980042389386]">10</container>
-              <unittitle>New England Section <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
-            </did>
+              <unittitle>New England Section</unittitle><unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0272980042389386]">10</container>
-              <unittitle>Lower Michigan Chapter <unitdate type="inclusive" normal="1954/1966">1954-1966</unitdate></unittitle>
-            </did>
+              <unittitle>Lower Michigan Chapter</unittitle><unitdate type="inclusive" normal="1954/1966">1954-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0272980042389386]">10</container>
-              <unittitle>Lower Michigan Chapter, Forest Practices committee <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-            </did>
+              <unittitle>Lower Michigan Chapter, Forest Practices committee</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Kenneth Davis Presidency <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-          </did>
+            <unittitle>Kenneth Davis Presidency</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [484000234566905817932]">11</container>
@@ -1298,14 +1069,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [484000234566905817932]">11</container>
-              <unittitle>Council minutes <unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Council minutes</unittitle><unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [484000234566905817932]">11</container>
-              <unittitle>Davis candidacy for president <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Davis candidacy for president</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1335,8 +1104,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [484000234566905817932]">11</container>
-                <unittitle>Correspondence and memos <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Correspondence and memos</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -1344,8 +1112,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [484000234566905817932]">11</container>
-                <unittitle>Correspondence and memos <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Correspondence and memos</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -1354,8 +1121,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9916944495008132]">12</container>
-              <unittitle>SAF Council Affairs <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>SAF Council Affairs</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1364,18 +1130,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9916944495008132]">12</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1970-04">April 1970</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1970-04">April 1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9916944495008132]">12</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1970-10">October 1970</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1970-10">October 1970</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -1383,42 +1143,27 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9916944495008132]">12</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1971-04">April 1971</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1971-04">April 1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9916944495008132]">12</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1971-07">July 1971</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1971-07">July 1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9916944495008132]">12</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1971-09">September 1971</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1971-09">September 1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9916944495008132]">12</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1971-11">November 1971</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1971-11">November 1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9916944495008132]">12</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1973">1973</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1973">1973</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -1573,20 +1318,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3211835440600197]">13</container>
-              <unittitle>New England Section <unitdate type="inclusive" normal="1969/1974">1969-1974</unitdate></unittitle>
-            </did>
+              <unittitle>New England Section</unittitle><unitdate type="inclusive" normal="1969/1974">1969-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3211835440600197]">13</container>
-              <unittitle>Section meetings <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Section meetings</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3211835440600197]">13</container>
-              <unittitle>Michigan State Board of Registration for Foresters <unitdate type="inclusive" normal="1956/1962">1956-1962</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan State Board of Registration for Foresters</unittitle><unitdate type="inclusive" normal="1956/1962">1956-1962</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -1601,89 +1343,68 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3211835440600197]">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3211835440600197]">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1945/1951">1945-1951</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1945/1951">1945-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [563200354348875547682]">14</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [563200354348875547682]">14</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Joint Investigative Council <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-          </did>
+            <unittitle>Joint Investigative Council</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>American Forestry Association <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <unittitle>American Forestry Association</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>American Forestry Congress <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-          </did>
+            <unittitle>American Forestry Congress</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Forestry School Deans <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-          </did>
+            <unittitle>Forestry School Deans</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Southern States Fire Control Conference <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-          </did>
+            <unittitle>Southern States Fire Control Conference</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>American Pulpwood Association <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-          </did>
+            <unittitle>American Pulpwood Association</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Growth and Cut Symposium <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <unittitle>Growth and Cut Symposium</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Forestry School Deans <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <unittitle>Forestry School Deans</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Michigan Conference on International Development <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Michigan Conference on International Development</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1691,26 +1412,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Southern Pulpwood Conservation Association <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Southern Pulpwood Conservation Association</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Lake States Forest Fire Research conference <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Lake States Forest Fire Research conference</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Fire Research Committee <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Fire Research Committee</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Lake States Council of Industrial Foresters <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <unittitle>Lake States Council of Industrial Foresters</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1721,104 +1438,87 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Recreation <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <unittitle>Recreation</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Continuous Forest Inventory <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <unittitle>Continuous Forest Inventory</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Conference on Education in Renewable Natural Resources <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Conference on Education in Renewable Natural Resources</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Western trip <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Western trip</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Washington, D.C. trips <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-          </did>
+            <unittitle>Washington, D.C. trips</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Chamber of Commerce of Quebec <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <unittitle>Chamber of Commerce of Quebec</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Milwaukee trip <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <unittitle>Milwaukee trip</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>International Paper Co., Southlands Experimental Forest <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <unittitle>International Paper Co., Southlands Experimental Forest</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Conference on Multiple Use of Southern Forests <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <unittitle>Conference on Multiple Use of Southern Forests</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>National Association of State Foresters <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>National Association of State Foresters</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [563200354348875547682]">14</container>
-            <unittitle>Washington, D.C. trip <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>Washington, D.C. trip</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [55645645141359419717]">15</container>
-            <unittitle>U.S. Timber Supply National Policy Conference <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>U.S. Timber Supply National Policy Conference</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [55645645141359419717]">15</container>
-            <unittitle>U.S. Forest Service Supervisors Meeting <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>U.S. Forest Service Supervisors Meeting</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [55645645141359419717]">15</container>
-            <unittitle>University of Toronto, Weyerhauser Lecture <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <unittitle>University of Toronto, Weyerhauser Lecture</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [55645645141359419717]">15</container>
-            <unittitle>Upper Mississippi Valley Section, SAF <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <unittitle>Upper Mississippi Valley Section, SAF</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [55645645141359419717]">15</container>
-            <unittitle>Northern Rocky Mountain Section, SAF <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>Northern Rocky Mountain Section, SAF</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [55645645141359419717]">15</container>
-            <unittitle>Auburn Forestry Forum <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>Auburn Forestry Forum</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1829,8 +1529,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [55645645141359419717]">15</container>
-            <unittitle>Alumni <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>Alumni</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1839,42 +1538,27 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [55645645141359419717]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1940/1951">1940-1951</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1940/1951">1940-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [55645645141359419717]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [55645645141359419717]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [55645645141359419717]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [55645645141359419717]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -1885,16 +1569,14 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [55645645141359419717]">15</container>
-            <unittitle>General <unitdate type="inclusive" normal="1951/1971">1951-1971</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>General</unittitle><unitdate type="inclusive" normal="1951/1971">1951-1971</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Fifth World Forestry Congress <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <unittitle>Fifth World Forestry Congress</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2103754498849269086]">16</container>
@@ -1916,8 +1598,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Tenth Pacific Science Congress <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Tenth Pacific Science Congress</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2103754498849269086]">16</container>
@@ -1942,8 +1623,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Trip to Europe <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Trip to Europe</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2103754498849269086]">16</container>
@@ -1974,8 +1654,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Sixth World Forestry Congress <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Sixth World Forestry Congress</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [40506542298388125893]">17</container>
@@ -2028,14 +1707,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [40506542298388125893]">17</container>
-            <unittitle>International Union of Societies of Foresters Papers <unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></unittitle>
-          </did>
+            <unittitle>International Union of Societies of Foresters Papers</unittitle><unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [40506542298388125893]">17</container>
-            <unittitle>International Forestry Committee Correspondence <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>International Forestry Committee Correspondence</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2044,14 +1721,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [40506542298388125893]">17</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [40506542298388125893]">17</container>
-              <unittitle>Fifteenth Congress <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Fifteenth Congress</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2060,8 +1735,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [40506542298388125893]">17</container>
-            <unittitle>United Nations Conference on the Environment Papers <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>United Nations Conference on the Environment Papers</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -2071,19 +1745,16 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [78689174599352474]">18</container>
-            <unittitle>Miscellaneous correspondence <unitdate type="inclusive" normal="1957/1971">1957-1971</unitdate></unittitle>
-          </did>
+            <unittitle>Miscellaneous correspondence</unittitle><unitdate type="inclusive" normal="1957/1971">1957-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [78689174599352474]">18</container>
-            <unittitle>National Science Foundation-University of Washington proposal <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <unittitle>National Science Foundation-University of Washington proposal</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>U.S. Office of Science and Technology study <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-          </did>
+            <unittitle>U.S. Office of Science and Technology study</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [78689174599352474]">18</container>
@@ -2100,13 +1771,11 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [78689174599352474]">18</container>
-            <unittitle>McGraw Hill Encyclopedia of Science and Technology <unitdate type="inclusive" normal="1961/1971">1961-1971</unitdate></unittitle>
-          </did>
+            <unittitle>McGraw Hill Encyclopedia of Science and Technology</unittitle><unitdate type="inclusive" normal="1961/1971">1961-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>U.S. Forest Service Timber Management Review Board <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <unittitle>U.S. Forest Service Timber Management Review Board</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [78689174599352474]">18</container>
@@ -2131,8 +1800,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Union Bag-Camp Paper Corporation <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Union Bag-Camp Paper Corporation</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [78689174599352474]">18</container>
@@ -2167,13 +1835,11 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [250441494452894982]">19</container>
-            <unittitle>Southern Forest Industry <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>Southern Forest Industry</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Georgia Forestry Commission <unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Georgia Forestry Commission</unittitle><unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [250441494452894982]">19</container>
@@ -2193,8 +1859,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [250441494452894982]">19</container>
-            <unittitle>University of Georgia Forestry School <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>University of Georgia Forestry School</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -2202,32 +1867,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [250441494452894982]">19</container>
-            <unittitle>Kirby Lumber Company <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></unittitle>
-          </did>
+            <unittitle>Kirby Lumber Company</unittitle><unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [250441494452894982]">19</container>
-            <unittitle>Celotex Corporation <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Celotex Corporation</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [250441494452894982]">19</container>
-            <unittitle>Owens-Illinois <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <unittitle>Owens-Illinois</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [250441494452894982]">19</container>
-            <unittitle>Battelle Memorial Institute <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-          </did>
+            <unittitle>Battelle Memorial Institute</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [250441494452894982]">19</container>
-            <unittitle>Kimberly Clark <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>Kimberly Clark</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -2237,8 +1897,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [250441494452894982]">19</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1947/1967">1947-1967</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1947/1967">1947-1967</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -2246,8 +1905,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [250441494452894982]">19</container>
-            <unittitle>Miscellaneous reports, notes, and newsletters <unitdate type="inclusive" normal="1950/1972">1950-1972</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Miscellaneous reports, notes, and newsletters</unittitle><unitdate type="inclusive" normal="1950/1972">1950-1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
@@ -2255,8 +1913,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [014110136143539290114]">20</container>
-            <unittitle>Miscellaneous reports, notes, and newsletters <unitdate type="inclusive" normal="1950/1972">1950-1972</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Miscellaneous reports, notes, and newsletters</unittitle><unitdate type="inclusive" normal="1950/1972">1950-1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -2264,8 +1921,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [014110136143539290114]">20</container>
-            <unittitle>U.S. Forest Service Management Manuals <unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>U.S. Forest Service Management Manuals</unittitle><unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
             </physdesc>
           </did>
@@ -2273,8 +1929,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [014110136143539290114]">20</container>
-            <unittitle>Allowable cut <unitdate type="inclusive" normal="1949/1970">1949-1970</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Allowable cut</unittitle><unitdate type="inclusive" normal="1949/1970">1949-1970</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -2282,26 +1937,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [014110136143539290114]">20</container>
-            <unittitle>Silviculture <unitdate type="inclusive" normal="1934/1959">1934-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Silviculture</unittitle><unitdate type="inclusive" normal="1934/1959">1934-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [014110136143539290114]">20</container>
-            <unittitle>Timber Sale contracts <unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate></unittitle>
-          </did>
+            <unittitle>Timber Sale contracts</unittitle><unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [014110136143539290114]">20</container>
-            <unittitle>Social legislation and forestry <unitdate type="inclusive" normal="1950/1958">1950-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Social legislation and forestry</unittitle><unitdate type="inclusive" normal="1950/1958">1950-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [014110136143539290114]">20</container>
-            <unittitle>Coop Sustained Yield Units <unitdate type="inclusive" normal="1949/1964">1949-1964</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Coop Sustained Yield Units</unittitle><unitdate type="inclusive" normal="1949/1964">1949-1964</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -2309,50 +1960,42 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3914374470514808]">21</container>
-            <unittitle>Unit Area Control <unitdate type="inclusive" normal="1956/1963">1956-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Unit Area Control</unittitle><unitdate type="inclusive" normal="1956/1963">1956-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3914374470514808]">21</container>
-            <unittitle>Logging and Milling <unitdate type="inclusive" normal="1946/1952">1946-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Logging and Milling</unittitle><unitdate type="inclusive" normal="1946/1952">1946-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3914374470514808]">21</container>
-            <unittitle>Spacing <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
-          </did>
+            <unittitle>Spacing</unittitle><unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3914374470514808]">21</container>
-            <unittitle>Blister Rust Control <unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate></unittitle>
-          </did>
+            <unittitle>Blister Rust Control</unittitle><unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3914374470514808]">21</container>
-            <unittitle>Puerto Rico <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <unittitle>Puerto Rico</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3914374470514808]">21</container>
-            <unittitle>Michigan <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan</unittitle><unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3914374470514808]">21</container>
-            <unittitle>West Virginia Pulp and Paper Co- <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
-          </did>
+            <unittitle>West Virginia Pulp and Paper Co-</unittitle><unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Forest Cutting Practices Study <unitdate type="inclusive" normal="1944/1957">1944-1957</unitdate></unittitle>
-        </did>
+          <unittitle>Forest Cutting Practices Study</unittitle><unitdate type="inclusive" normal="1944/1957">1944-1957</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3914374470514808]">21</container>
@@ -2364,8 +2007,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>U.S. Forest Service Forest Practice Committee <unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate> General</unittitle>
-          </did>
+            <unittitle>U.S. Forest Service Forest Practice Committee  General</unittitle><unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3914374470514808]">21</container>
@@ -2423,8 +2065,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Society of American Foresters Forest Practice Committee <unitdate type="inclusive" normal="1945/1957">1945-1957</unitdate></unittitle>
-          </did>
+            <unittitle>Society of American Foresters Forest Practice Committee</unittitle><unitdate type="inclusive" normal="1945/1957">1945-1957</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3914374470514808]">21</container>
@@ -2441,26 +2082,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3914374470514808]">21</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3914374470514808]">21</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1947">1947</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1947">1947</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3914374470514808]">21</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1950/1957">1950-1957</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1950/1957">1950-1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -2691,8 +2323,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Continuous Forest Inventory Study <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
-        </did>
+          <unittitle>Continuous Forest Inventory Study</unittitle><unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59866584477620791560]">23</container>
@@ -2773,8 +2404,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [59866584477620791560]">23</container>
-            <unittitle>Short course, University of Georgia <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Short course, University of Georgia</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -2782,8 +2412,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [59866584477620791560]">23</container>
-            <unittitle>Conference, Purdue University <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Conference, Purdue University</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -2797,14 +2426,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [59866584477620791560]">23</container>
-            <unittitle>Conference, Milwaukee <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-          </did>
+            <unittitle>Conference, Milwaukee</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [59866584477620791560]">23</container>
-            <unittitle>Conference, Houghton <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <unittitle>Conference, Houghton</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3054,8 +2681,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Nashwaak Pulp and Paper Company Case, New Brunswick <unitdate type="inclusive" normal="1967/1972">1967-1972</unitdate></unittitle>
-        </did>
+          <unittitle>Nashwaak Pulp and Paper Company Case, New Brunswick</unittitle><unitdate type="inclusive" normal="1967/1972">1967-1972</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Correspondence</unittitle>
@@ -3063,26 +2689,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7961793422548751934790]">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967-03/1969-04">March 1967-April 1969</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1967-03/1969-04">March 1967-April 1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7961793422548751934790]">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969-05/1969-12">May 1969-December 1969</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1969-05/1969-12">May 1969-December 1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7961793422548751934790]">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970-01/1972-07">January 1970-July 1972</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970-01/1972-07">January 1970-July 1972</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -3216,16 +2833,14 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [56271434054643265162532]">28</container>
-            <unittitle>Small Owner Forestry <unitdate type="inclusive" normal="1949/1964">1949-1964</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Small Owner Forestry</unittitle><unitdate type="inclusive" normal="1949/1964">1949-1964</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Land Use Planning <unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate></unittitle>
-          </did>
+            <unittitle>Land Use Planning</unittitle><unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [56271434054643265162532]">28</container>
@@ -3284,20 +2899,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [039169545332574946]">29</container>
-            <unittitle>Absaroka Beartooth Wilderness Proposal (Mont.) <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <unittitle>Absaroka Beartooth Wilderness Proposal (Mont.)</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [039169545332574946]">29</container>
-            <unittitle>Recreation Carrying Capacity <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>Recreation Carrying Capacity</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [039169545332574946]">29</container>
-            <unittitle>U.S. Forest Service Multiple Use Planning <unitdate type="inclusive" normal="1960/1973">1960-1973</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>U.S. Forest Service Multiple Use Planning</unittitle><unitdate type="inclusive" normal="1960/1973">1960-1973</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -3305,8 +2917,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0161514168850878474]">30</container>
-            <unittitle>U.S. Forest Service Multiple Use Planning <unitdate type="inclusive" normal="1960/1973">1960-1973</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>U.S. Forest Service Multiple Use Planning</unittitle><unitdate type="inclusive" normal="1960/1973">1960-1973</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -3314,16 +2925,14 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0161514168850878474]">30</container>
-            <unittitle>Bureau of Land Management Multiple Use Planning <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Bureau of Land Management Multiple Use Planning</unittitle><unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>U.S. Forest Service Magruder Corridor Study Committee.(Idaho) <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-          </did>
+            <unittitle>U.S. Forest Service Magruder Corridor Study Committee.(Idaho)</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0161514168850878474]">30</container>
@@ -3394,8 +3003,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0129907842605405949]">31</container>
-            <unittitle>U.S. Forest Service Sylvania Case (Mich.) <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>U.S. Forest Service Sylvania Case (Mich.)</unittitle><unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -3403,8 +3011,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0129907842605405949]">31</container>
-            <unittitle>U.S. Forest Service East Meadow Creek Case (Colo.) <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>U.S. Forest Service East Meadow Creek Case (Colo.)</unittitle><unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -3412,8 +3019,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0129907842605405949]">31</container>
-            <unittitle>U.S. Forest Service Clearcutting controversy <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>U.S. Forest Service Clearcutting controversy</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 folders</extent>
             </physdesc>
           </did>
@@ -3421,8 +3027,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [8291504149307287127]">32</container>
-            <unittitle>Public Land Law Review Commission <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Public Land Law Review Commission</unittitle><unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -3430,8 +3035,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [8291504149307287127]">32</container>
-            <unittitle>Lake Tahoe Regional Plan study <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Lake Tahoe Regional Plan study</unittitle><unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -3439,8 +3043,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3103526305401942804350497]">33</container>
-            <unittitle>Forest Taxation <unitdate type="inclusive" normal="1955/1966">1955-1966</unitdate></unittitle>
-          </did>
+            <unittitle>Forest Taxation</unittitle><unitdate type="inclusive" normal="1955/1966">1955-1966</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3103526305401942804350497]">33</container>
@@ -3471,8 +3074,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Forest Financial management <unitdate type="inclusive" normal="1940/1973">1940-1973</unitdate></unittitle>
-          </did>
+            <unittitle>Forest Financial management</unittitle><unitdate type="inclusive" normal="1940/1973">1940-1973</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3103526305401942804350497]">33</container>
@@ -3501,14 +3103,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [00467934787997919563]">34</container>
-            <unittitle>Forest Statistics Course materials <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <unittitle>Forest Statistics Course materials</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [00467934787997919563]">34</container>
-            <unittitle>Forest Economics and National Policy <unitdate type="inclusive" normal="1938/1952">1938-1952</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Forest Economics and National Policy</unittitle><unitdate type="inclusive" normal="1938/1952">1938-1952</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
@@ -3516,8 +3116,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [00467934787997919563]">34</container>
-            <unittitle>Administrative Management <unitdate type="inclusive" normal="1939/1958">1939-1958</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Administrative Management</unittitle><unitdate type="inclusive" normal="1939/1958">1939-1958</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
@@ -3525,8 +3124,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [00467934787997919563]">34</container>
-            <unittitle>Forestry Publicity, Radio-T.V. <unitdate type="inclusive" normal="1947/1964">1947-1964</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Forestry Publicity, Radio-T.V.</unittitle><unitdate type="inclusive" normal="1947/1964">1947-1964</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -3534,32 +3132,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [00467934787997919563]">34</container>
-            <unittitle>Forest Fire Equipment <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <unittitle>Forest Fire Equipment</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [00467934787997919563]">34</container>
-            <unittitle>Trail Riders of the Wilderness-Quetico Superior Region <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Trail Riders of the Wilderness-Quetico Superior Region</unittitle><unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [00467934787997919563]">34</container>
-            <unittitle>Winter Snowshoe trip <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <unittitle>Winter Snowshoe trip</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [00467934787997919563]">34</container>
-            <unittitle>U.S. Forest Service Training Guides <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
-          </did>
+            <unittitle>U.S. Forest Service Training Guides</unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [00467934787997919563]">34</container>
-            <unittitle>Planning-Programming-Budgeting System <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Planning-Programming-Budgeting System</unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -3717,8 +3310,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [84478191408167251420]">35</container>
-            <unittitle>Georgia Forestry Commission Headquarters <unitdate type="inclusive" normal="1958">1958</unitdate> Visit</unittitle>
-          </did>
+            <unittitle>Georgia Forestry Commission Headquarters  Visit</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3733,8 +3325,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [84478191408167251420]">35</container>
-              <unittitle>Magruder Corridor-National Forest Area <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Magruder Corridor-National Forest Area</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3800,8 +3391,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [84478191408167251420]">35</container>
-            <unittitle>Snowshoe Trip, Thunder Bay River, Michigan, <unitdate type="inclusive" normal="1962">Winter 1962</unitdate></unittitle>
-          </did>
+            <unittitle>Snowshoe Trip, Thunder Bay River, Michigan</unittitle><unitdate type="inclusive" normal="1962">Winter 1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3812,8 +3402,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [84478191408167251420]">35</container>
-            <unittitle>Society of American Foresters, Detroit meeting <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <unittitle>Society of American Foresters, Detroit meeting</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3822,26 +3411,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [84478191408167251420]">35</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [84478191408167251420]">35</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1957">1957</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1957">1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [84478191408167251420]">35</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive">Undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -3853,8 +3433,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [84478191408167251420]">35</container>
-            <unittitle>Sylvania Recreation Area Dedication <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Sylvania Recreation Area Dedication</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3900,8 +3479,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [84478191408167251420]">35</container>
-            <unittitle>Western trip <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Western trip</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
       </c01>
     </dsc>

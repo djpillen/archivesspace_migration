@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Elmwood Cemetery (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/383">Elmwood Cemetery (Detroit, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Elmwood Cemetery (Detroit, Mich.) photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1980" certainty="approximate">circa 1980</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91116 UBB.2 2</unitid>
+      <unittitle encodinganalog="245">Elmwood Cemetery (Detroit, Mich.) photographs</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1980" certainty="approximate">circa 1980</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91116 UBB.2 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Photographs relating to Detroit and to Elmwood Cemetery in Detroit.</abstract>
       <physdesc altrender="whole">
@@ -79,18 +79,18 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Cemeteries--Michigan--Detroit.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Elmwood Cemetery (Detroit, Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Tombs and sepulchral monuments--Michigan--Detroit.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4257">Cemeteries--Michigan--Detroit.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539" ref="/subjects/929">Detroit (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1751">Elmwood Cemetery (Detroit, Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4258">Tombs and sepulchral monuments--Michigan--Detroit.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Stevens, Mark Chancellor.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8228">Stevens, Mark Chancellor.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -268,15 +268,13 @@
           <did>
             <container type="folder" label="Folder [222183547587188432896]">2</container>
             <unitid>[22]</unitid>
-            <unittitle>Chapel as restored after <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <unittitle>Chapel as restored after</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
             <container type="folder" label="Folder [222183547587188432896]">2</container>
             <unitid>[23]</unitid>
-            <unittitle>Chapel, vandalized, distant view <unitdate type="inclusive" normal="1976-11-17">November 17, 1976</unitdate></unittitle>
-          </did>
+            <unittitle>Chapel, vandalized, distant view</unittitle><unitdate type="inclusive" normal="1976-11-17">November 17, 1976</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
@@ -303,8 +301,7 @@
           <did>
             <container type="folder" label="Folder [222183547587188432896]">2</container>
             <unitid>[27]</unitid>
-            <unittitle>Restored outer wall with plaque <unitdate type="inclusive" normal="1856">1856</unitdate></unittitle>
-          </did>
+            <unittitle>Restored outer wall with plaque</unittitle><unitdate type="inclusive" normal="1856">1856</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
@@ -814,8 +811,7 @@
           <did>
             <container type="folder" label="Folder [147225584399546848369]">3</container>
             <unitid>[100]</unitid>
-            <unittitle>Marker of Johanna E. Fritsche Hornbogen <unitdate type="inclusive" normal="1821/1883">1821-1883</unitdate></unittitle>
-          </did>
+            <unittitle>Marker of Johanna E. Fritsche Hornbogen</unittitle><unitdate type="inclusive" normal="1821/1883">1821-1883</unitdate></did>
         </c02>
         <c02 level="item">
           <did>

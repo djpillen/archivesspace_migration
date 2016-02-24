@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Burns, Leo A., 1894-1982.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/8491">Burns, Leo A., 1894-1982.</persname>
       </origination>
-      <unittitle encodinganalog="245">Leo A. Burns photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1890/1915" certainty="approximate">circa 1890-circa 1915</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92429 UA 2</unitid>
+      <unittitle encodinganalog="245">Leo A. Burns photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1890/1915" certainty="approximate">circa 1890-circa 1915</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92429 UA 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Battle Creek, Michigan, resident; glass negatives of houses and house interiors, of children, women, boating scenes, and a railroad car, possibly taken in the Battle Creek, Michigan area.</abstract>
       <physdesc altrender="whole">
@@ -78,18 +78,18 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Boats.</subject>
-        <subject source="lctgm" encodinganalog="650">Children.</subject>
-        <subject source="lctgm" encodinganalog="650">Clothing and dress--1890-1915.</subject>
-        <subject source="lctgm" encodinganalog="650">Dwellings.</subject>
-        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroads--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Women.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3741">Boats.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Children.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3994">Clothing and dress--1890-1915.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3995">Dwellings.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3687">Interiors.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3837">Railroads--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3617">Women.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="lctgm" encodinganalog="655">Glass photonegatives.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="lctgm" encodinganalog="655" ref="/subjects/3401">Glass photonegatives.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

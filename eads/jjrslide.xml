@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">JJR Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/2379">JJR Inc.</corpname>
       </origination>
-      <unittitle encodinganalog="245">JJR Inc. photographic slides <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1999" certainty="approximate">1960s-1990s</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011155 Bb 2</unitid>
+      <unittitle encodinganalog="245">JJR Inc. photographic slides</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1960/1999" certainty="approximate">1960s-1990s</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011155 Bb 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">35 linear feet</extent>
@@ -78,23 +78,23 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lcsh" encodinganalog="650">Architectural firms--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Business districts--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Campus planning--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">City planning--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396">Flint (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151">Grand Rapids (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Saginaw (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Campus.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Planning.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8472">Architectural firms--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4579">Business districts--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8473">Campus planning--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4580">City planning--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539" ref="/subjects/929">Detroit (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396" ref="/subjects/889">Flint (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151" ref="/subjects/1098">Grand Rapids (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1213">Saginaw (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Buildings.<term type="topical">Buildings.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Campus.<term type="topical">Campus.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Planning.<term type="topical">Planning.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Slides (photography)</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3184">Slides (photography)</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -240,8 +240,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2575659548299650368]">1</container>
-            <unittitle>Ann Arbor S. Main St. <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></unittitle>
-          </did>
+            <unittitle>Ann Arbor S. Main St.</unittitle><unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -894,8 +893,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3231730924995093425436]">7</container>
-            <unittitle>Detroit Metro-Wayne County Air Show <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-          </did>
+            <unittitle>Detroit Metro-Wayne County Air Show</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1323,8 +1321,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [281815234272907828725]">12</container>
-            <unittitle>Gerson Residence <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-          </did>
+            <unittitle>Gerson Residence</unittitle><unitdate type="inclusive" normal="1999">1999</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1963,8 +1960,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [70182782444591378310]">16</container>
-            <unittitle>Johnson, Carl-Graphic Class <unitdate type="inclusive" normal="1992-07">7/1992</unitdate></unittitle>
-          </did>
+            <unittitle>Johnson, Carl-Graphic Class</unittitle><unitdate type="inclusive" normal="1992-07">7/1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2572,8 +2568,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0801234114967810503]">21</container>
-            <unittitle>Northville Hills PUD <unitdate type="inclusive" normal="1997/1998">1997/1998</unitdate> Toll Brothers</unittitle>
-          </did>
+            <unittitle>Northville Hills PUD  Toll Brothers</unittitle><unitdate type="inclusive" normal="1997/1998">1997/1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3633,8 +3628,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [2135324519541149309132]">30</container>
-              <unittitle>Campus Model <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-            </did>
+              <unittitle>Campus Model</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3913,8 +3907,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [31723990444744819972683839]">32</container>
-              <unittitle>North Campus Images <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-            </did>
+              <unittitle>North Campus Images</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>

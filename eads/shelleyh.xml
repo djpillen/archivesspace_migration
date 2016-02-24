@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Shelley, Howard, 1909-2003.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/8467">Shelley, Howard, 1909-2003.</persname>
       </origination>
-      <unittitle encodinganalog="245">Howard Shelley motion pictures <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1979" certainty="approximate">circa 1960s-1970s</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009175 Aa 2</unitid>
+      <unittitle encodinganalog="245">Howard Shelley motion pictures</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1960/1979" certainty="approximate">circa 1960s-1970s</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009175 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">4 linear feet</extent>
@@ -80,17 +80,17 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lcsh" encodinganalog="651">Agawa Canyon (Ont.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Fishing.</subject>
-        <subject source="lctgm" encodinganalog="650">Hunting--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Shelley, Howard, 1909-2003.</persname>
-        <geogname source="lcsh" encodinganalog="651">Tahquamenon Falls State Park (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Tittabawassee River (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2789">Agawa Canyon (Ont.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4084">Fishing.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3662">Hunting--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8467">Shelley, Howard, 1909-2003.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1735">Tahquamenon Falls State Park (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2790">Tittabawassee River (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Motion pictures.</genreform>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3162">Motion pictures.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -676,8 +676,7 @@
             <did>
               <physloc>Oversize</physloc>
               <unitid>24</unitid>
-              <unittitle>Algoma Outdoors <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            </did>
+              <unittitle>Algoma Outdoors</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -728,8 +727,7 @@
             <did>
               <physloc>Oversize</physloc>
               <unitid>22</unitid>
-              <unittitle>Magpie Trails <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <unittitle>Magpie Trails</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -891,8 +889,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0081391304136183766706]">4</container>
-            <unittitle>Big Red <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <unittitle>Big Red</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
           <odd>
             <p>film no. 1</p>
           </odd>

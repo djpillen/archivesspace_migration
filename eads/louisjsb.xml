@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80024557">Louis, Joe, 1914-1981.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80024557" ref="/agents/people/7424">Louis, Joe, 1914-1981.</persname>
       </origination>
-      <unittitle encodinganalog="245">Joe Louis scrapbooks and papers <unitdate type="inclusive" encodinganalog="245$f" normal="1935/1941">1935-1941</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1948/1951">1948-1951</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851698 AA, Aa 2, UAm</unitid>
+      <unittitle encodinganalog="245">Joe Louis scrapbooks and papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1935/1941">1935-1941</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1948/1951">1948-1951</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851698 AA, Aa 2, UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Champion prize fighter of Detroit, Michigan. Scrapbooks, 1935-1941 (arranged chronologically by bout), and clippings, articles, and fan letters, 1948-1951, relating to his career as a boxer.</abstract>
       <physdesc altrender="part">
@@ -84,26 +84,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">African Americans--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Athletics--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Boxing.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80024557">Louis, Joe, 1914-1981.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5763">African Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8869">Athletics--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6567">Boxing.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539" ref="/subjects/929">Detroit (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80024557" ref="/agents/people/7424">Louis, Joe, 1914-1981.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Boxing.</subject>
-        <persname source="lcnaf" encodinganalog="600">Braddock, Jim.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50041744">La Guardia, Fiorello H. (Fiorello Henry), 1882-1947.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80024557">Louis, Joe, 1914-1981.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50019256">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4706">Boxing.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8809">Braddock, Jim.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50041744" ref="/agents/people/5189">La Guardia, Fiorello H. (Fiorello Henry), 1882-1947.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80024557" ref="/agents/people/7424">Louis, Joe, 1914-1981.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50019256" ref="/agents/people/6549">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="655">Cartoons.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Paintings.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3455">Cartoons.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3463">Paintings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -113,10 +113,7 @@
         </did>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1935">1935</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1935">1935</unitdate></did>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [04413524830430580]">1</container>
@@ -192,10 +189,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1936">1936</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1936">1936</unitdate></did>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [7034483331659]">13</container>
@@ -295,10 +289,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1937">1937</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1937">1937</unitdate></did>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [6258608848699914301853]">29</container>
@@ -410,10 +401,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1938">1938</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1938">1938</unitdate></did>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [162542595657374]">47</container>
@@ -486,10 +474,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1939">1939</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1939">1939</unitdate></did>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [868460255148200326382]">58</container>
@@ -565,10 +550,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1940">1940</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1940">1940</unitdate></did>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [9089220784692671143054]">70</container>
@@ -644,10 +626,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1941">1941</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1941">1941</unitdate></did>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [48927742380097582491587]">82</container>

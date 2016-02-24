@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Goodspeed, Robert</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6515">Goodspeed, Robert</persname>
       </origination>
-      <unittitle encodinganalog="245">Robert Goodspeed papers <unitdate type="inclusive" encodinganalog="245$f" normal="2000/2004">2000-2004</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05125 Aa2</unitid>
+      <unittitle encodinganalog="245">Robert Goodspeed papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="2000/2004">2000-2004</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05125 Aa2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>History honors student and reporter for the Michigan Daily, student newspaper for the University of Michigan. Includes history honors thesis (and background material) "Urban Renewal in Postwar Detroit: The Gratiot Area Redevelopment Plan," material for a mini-course on student activism at Michigan, and material collected for newspaper stories relating to campus issues, especially affirmative action, and the related group, By Any Means Necessary (BAMN). Also material on Michigamua and Vulcans.</abstract>
       <physdesc altrender="whole">
@@ -76,13 +76,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--2001-2010.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1991-2000.</corpname>
-        <subject source="lcsh" encodinganalog="630">Michigan daily.</subject>
-        <subject source="lcsh" encodinganalog="650">Urban renewal--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigamua.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Vulcans (University of Michigan)</corpname>
-        <subject source="lcsh" encodinganalog="650">Affirmative action programs--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--2001-2010.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">2001-2010.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1991-2000.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1991-2000.</term></corpname>
+        <subject source="lcsh" encodinganalog="630" ref="/subjects/6190">Michigan daily.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8012">Urban renewal--Michigan--Detroit.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1503">Michigamua.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/249">Vulcans (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5658">Affirmative action programs--Michigan--Ann Arbor.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -108,8 +108,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2900154354999592657583]">1</container>
-            <unittitle>"Student Activism and Social Change"-Course Taught in <unitdate type="inclusive" normal="2004">Winter 2004</unitdate></unittitle>
-          </did>
+            <unittitle>"Student Activism and Social Change"-Course Taught in</unittitle><unitdate type="inclusive" normal="2004">Winter 2004</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">

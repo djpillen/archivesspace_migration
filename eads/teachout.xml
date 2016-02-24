@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Teachout, John.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4273">Teachout, John.</persname>
       </origination>
-      <unittitle encodinganalog="245">John Teachout phonograph record collection <unitdate type="inclusive" encodinganalog="245$f" normal="1950/1964">1950-1964</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010076 Aa 2</unitid>
+      <unittitle encodinganalog="245">John Teachout phonograph record collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1950/1964">1950-1964</unitdate><unitdate type="inclusive" encodinganalog="245$f">undated</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010076 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">67 phonograph records</extent>
@@ -78,17 +78,17 @@
       </p>
       <controlaccess>
         <head>Subjects: Sound Recordings</head>
-        <corpname source="lcnaf" encodinganalog="610">Idiom Recording Company.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Teachout, John.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1597">Idiom Recording Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4273">Teachout, John.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50028320">Warren, Austin, 1899-1986.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50028320" ref="/agents/people/3943">Warren, Austin, 1899-1986.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
-        <genreform source="aat" encodinganalog="655">Phonograph records.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3160">Phonograph records.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -170,8 +170,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [138354308114063213554]">1</container>
-            <unittitle>Side A: Petrouchka, University Symphony, Wayne Dunlap <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-          </did>
+            <unittitle>Side A: Petrouchka, University Symphony, Wayne Dunlap</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -182,8 +181,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [138354308114063213554]">1</container>
-            <unittitle>Side A: Our Hour <unitdate type="inclusive" normal="1957-02-13">02/13/1957</unitdate></unittitle>
-          </did>
+            <unittitle>Side A: Our Hour</unittitle><unitdate type="inclusive" normal="1957-02-13">02/13/1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -218,8 +216,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [138354308114063213554]">1</container>
-            <unittitle>Side A: Austin Warren <unitdate type="inclusive" normal="1950">1950</unitdate> Humorous Verse; Side B: Edward Reeves parodies</unittitle>
-          </did>
+            <unittitle>Side A: Austin Warren  Humorous Verse; Side B: Edward Reeves parodies</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -254,8 +251,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [049199093418973137]">2</container>
-            <unittitle>Side A: U of M <unitdate type="inclusive" normal="1958">1958</unitdate> I.F.C. Sing; Side B: U of M <unitdate type="inclusive" normal="1958">1958</unitdate> I.F.C. Sing; includes Fraternity All Stars in the Lord's Prayer</unittitle>
-          </did>
+            <unittitle>Side A: U of M 1958 I.F.C. Sing; Side B: U of M 1958 I.F.C. Sing; includes Fraternity All Stars in the Lord's Prayer</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -278,26 +274,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [049199093418973137]">2</container>
-            <unittitle>Side A: Hospital insurance for the aged under social security prepared by Michigan Democratic Party, national legislation action program (operation support); Side B: Discussion of current issues by U.S. Senator Philip A. Hart and Congressman-at-large Neil Staebler at Wayne County's Democratic Women's Day <unitdate type="inclusive" normal="1964-01-25">January 25, 1964</unitdate></unittitle>
-          </did>
+            <unittitle>Side A: Hospital insurance for the aged under social security prepared by Michigan Democratic Party, national legislation action program (operation support); Side B: Discussion of current issues by U.S. Senator Philip A. Hart and Congressman-at-large Neil Staebler at Wayne County's Democratic Women's Day</unittitle><unitdate type="inclusive" normal="1964-01-25">January 25, 1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [049199093418973137]">2</container>
-            <unittitle><unitdate type="inclusive" normal="1955">1955</unitdate> Interfraternity Council Sing; Side A: Theta Chi, Lambda Chi Alpha, Sigma Phi Epsilon, Phi Gamma Delta, Theta Chi, Sigma Chi; Side B: Chi Psi, Beta Theta Pi, Delta Tau Delta, Phi Kappa Tau</unittitle>
-          </did>
+            <unittitle>Interfraternity Council Sing; Side A: Theta Chi, Lambda Chi Alpha, Sigma Phi Epsilon, Phi Gamma Delta, Theta Chi, Sigma Chi; Side B: Chi Psi, Beta Theta Pi, Delta Tau Delta, Phi Kappa Tau</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [049199093418973137]">2</container>
-            <unittitle>University of Michigan Symphony Band <unitdate type="inclusive" normal="1952/1953">1952-53</unitdate> Side A; Persichetti: Divertimento for Band; Side B: Jacob: Music for a Festival</unittitle>
-          </did>
+            <unittitle>University of Michigan Symphony Band  Side A; Persichetti: Divertimento for Band; Side B: Jacob: Music for a Festival</unittitle><unitdate type="inclusive" normal="1952/1953">1952-53</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [049199093418973137]">2</container>
-            <unittitle><unitdate type="inclusive" normal="1954">1954</unitdate> Interfraternity Council Sing; Side A: Sigma Phi Epsilon, Sigma Nu, Phi Gamma Delta, Phi Delta Theta, Theta Xi, Lambda Chi Alpha; Side B: Delta Tau Delta, Beta Theta Pi, Alpha Phi Alpha, Acacia, Award Ceremony</unittitle>
-          </did>
+            <unittitle>Interfraternity Council Sing; Side A: Sigma Phi Epsilon, Sigma Nu, Phi Gamma Delta, Phi Delta Theta, Theta Xi, Lambda Chi Alpha; Side B: Delta Tau Delta, Beta Theta Pi, Alpha Phi Alpha, Acacia, Award Ceremony</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -392,8 +384,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [421039549814675122]">3</container>
-            <unittitle>Side A: <unitdate type="inclusive" normal="1951">1951</unitdate> I.F.C. Sing, Chi Psi, Persian Kitten (78 rpm); Side B: <unitdate type="inclusive" normal="1951">1951</unitdate> I.F.C. Sing, Blue Room</unittitle>
-          </did>
+            <unittitle>Side A: 1951 I.F.C. Sing, Chi Psi, Persian Kitten (78 rpm); Side B: 1951 I.F.C. Sing, Blue Room</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

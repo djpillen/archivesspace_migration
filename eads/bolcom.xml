@@ -55,7 +55,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -66,10 +67,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n81080002">Bolcom, William.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n81080002" ref="/agents/people/3345">Bolcom, William.</persname>
       </origination>
-      <unittitle encodinganalog="245">William Bolcom and Joan Morris papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2012">1960-2012</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0074 Aa 2; UAl</unitid>
+      <unittitle encodinganalog="245">William Bolcom and Joan Morris papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1960/2012">1960-2012</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0074 Aa 2; UAl</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>William Bolcom is a composer and pianist. Joan Morris is a mezzo-soprano. They are both members of the University of Michigan School of Music faculty. Bolcom and Morris have given numerous performances since 1971. They have also recorded albums of classical and popular songs. Performance files include programs, itineraries, newspaper articles and reviews of each performance, and contracts. There are also files relating to University of Michigan student production of Mina &amp; Colossus; original scores to Bolcom's compositions, including McTeague, Casino Paradise, and A View from the Bridge; and topical files relating to awards, competitions, and other activities and interests.</abstract>
       <physdesc altrender="part">
@@ -120,29 +120,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080002">Bolcom, William.</persname>
-        <subject source="lcsh" encodinganalog="650">Composers--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Mezzo-sopranos--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82099779">Morris, Joan, 1943-</persname>
-        <subject source="lcsh" encodinganalog="650">Music--Performance.</subject>
-        <subject source="lcsh" encodinganalog="650">Pianists--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080002" ref="/agents/people/3345">Bolcom, William.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6153">Composers--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6392">Mezzo-sopranos--United States.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82099779" ref="/agents/people/5223">Morris, Joan, 1943-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6393">Music--Performance.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6394">Pianists--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/1001">University of Michigan. School of Music.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080002">Bolcom, William.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82099779">Morris, Joan, 1943-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080002" ref="/agents/people/3345">Bolcom, William.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82099779" ref="/agents/people/5223">Morris, Joan, 1943-</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82099779">Morris, Joan, 1943-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82099779" ref="/agents/people/5223">Morris, Joan, 1943-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
-        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3134">Videotapes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -156,210 +156,132 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [267647980430712113]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1971/1976">1971-1976</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1971/1976">1971-1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [630044989215256011]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1977/1980-08-07">1977-August 7, 1980</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1977/1980-08-07">1977-August 7, 1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5640279954996498304310]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1980-08-08/1983">August 8/9, 1980-1983</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1980-08-08/1983">August 8/9, 1980-1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2572577424806214405]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8595898453843130149691]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1987/1988-02-16">1987-February 16, 1988</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1987/1988-02-16">1987-February 16, 1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [13695434398712566]">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1988-02-18/1989-02-05">February 18/19/20, 1988-February 5, 1989</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1988-02-18/1989-02-05">February 18/19/20, 1988-February 5, 1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9678226214888781682322879]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1989-02-10/1990-05-09">February 10/11, 1989-May 9, 1990</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1989-02-10/1990-05-09">February 10/11, 1989-May 9, 1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [632421540098038062935]">8</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1990-05-10/1991-09-15">May 10, 1990-September 15, 1991</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1990-05-10/1991-09-15">May 10, 1990-September 15, 1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [145352649496794796727]">9</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1991-09-20/1992-08-14">September 20, 1991-August 14/15, 1992</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1991-09-20/1992-08-14">September 20, 1991-August 14/15, 1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [33984898625838304]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1992-09-12/1993-11-13">September 12, 1992-November 13, 1993</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1992-09-12/1993-11-13">September 12, 1992-November 13, 1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [47104308479210389]">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1993-11-19/1994-07-14">November 19, 1993-July 14, 1994</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1993-11-19/1994-07-14">November 19, 1993-July 14, 1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [89491364244862140]">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1994-08-19/1995-03-22">August 19/20, 1994-May 22, 1995</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1994-08-19/1995-03-22">August 19/20, 1994-May 22, 1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [498646395110450]">13</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1995-05-26/1996-03-26">May 26, 1995-March 26, 1996</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1995-05-26/1996-03-26">May 26, 1995-March 26, 1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [526897464950717013516]">14</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1996-04-14/1996-12">April 14, 1996-December 1996</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1996-04-14/1996-12">April 14, 1996-December 1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [62221397714926716854153]">15</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1997/1998-02-10">1997-February 10, 1998</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1997/1998-02-10">1997-February 10, 1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3336485748501835]">16</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1998-02-12/1998-12-13">February 12, 1998-December 13, 1998</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1998-02-12/1998-12-13">February 12, 1998-December 13, 1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [337644504034788334]">37</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1999-01/2000-02">January 1999-February 2000</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1999-01/2000-02">January 1999-February 2000</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [450096446887003403]">38</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2000-03/2000-11">March 2000-November 2000</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2000-03/2000-11">March 2000-November 2000</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3086823004763095010502587]">39</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2000-11/2001-10">November 2000-October 2001</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2000-11/2001-10">November 2000-October 2001</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [44113787745892583701194]">40</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2001-11/2002-10">November 2001-October 2002</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2001-11/2002-10">November 2001-October 2002</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3744664524747070]">48</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2002-10/2003-06">October 2002-June 2003</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2002-10/2003-06">October 2002-June 2003</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0655647979125187]">49</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2003-07/2004-05">July 2003-May 2004</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2003-07/2004-05">July 2003-May 2004</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [146301934457908490775]">50</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2004-05/2005-03">May 2004-March 2005</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2004-05/2005-03">May 2004-March 2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [435402294382822753]">51</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2005-04/2005-10">April-October 2005</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2005-04/2005-10">April-October 2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [053874483956714]">52</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2005-11/2006-10">November 2005-October 2006</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2005-11/2006-10">November 2005-October 2006</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [196669592424873164]">53</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2006-11/2007-05">November 2006-May 2007</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2006-11/2007-05">November 2006-May 2007</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -370,34 +292,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1779778446055280636]">61</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2007-05/2008-04">May 2007-April 2008</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2007-05/2008-04">May 2007-April 2008</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [065039480872222630]">62</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2008-05/2009-02">May 2008-February 2009</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2008-05/2009-02">May 2008-February 2009</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [42904243023041]">63</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2009-03/2009-12">March 2009-December 2009</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2009-03/2009-12">March 2009-December 2009</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [4264270642427575774451631]">64</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2010-01/2011-03">January 2010-March 2011</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2010-01/2011-03">January 2010-March 2011</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -407,21 +317,18 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Financial <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-          </did>
+            <unittitle>Financial</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
           <odd>
             <p>(prior to 1998 financial materials were interspersed with the Performance files)</p>
           </odd>
           <c03 level="file">
             <did>
-              <unittitle>Financial <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-              <container type="box" label="Box [3336485748501835]">16</container>
+              <unittitle>Financial</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate><container type="box" label="Box [3336485748501835]">16</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Financial <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-              <container type="box" label="Box [38339748495575928355]">17</container>
+              <unittitle>Financial</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate><container type="box" label="Box [38339748495575928355]">17</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -431,8 +338,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1156454779224763]">73</container>
-            <unittitle>Outsize performance posters, promotional photographs, citations <unitdate type="inclusive" normal="1966/2012">1966-2012</unitdate></unittitle>
-          </did>
+            <unittitle>Outsize performance posters, promotional photographs, citations</unittitle><unitdate type="inclusive" normal="1966/2012">1966-2012</unitdate></did>
           <odd>
             <p>(see also oversize folder UAl)</p>
           </odd>
@@ -545,38 +451,32 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [52538751424985223487]">18</container>
-            <unittitle>The Brooklyn Dodge <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>The Brooklyn Dodge</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52538751424985223487]">18</container>
-            <unittitle>The Canarsie Venus <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-          </did>
+            <unittitle>The Canarsie Venus</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52538751424985223487]">18</container>
-            <unittitle>Conversations with Andre <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
-          </did>
+            <unittitle>Conversations with Andre</unittitle><unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52538751424985223487]">18</container>
-            <unittitle>Dedicace <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-          </did>
+            <unittitle>Dedicace</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52538751424985223487]">18</container>
-            <unittitle>Epithalamium <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>Epithalamium</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52538751424985223487]">18</container>
-            <unittitle>Fields of Flowers <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <unittitle>Fields of Flowers</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -587,8 +487,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [52538751424985223487]">18</container>
-            <unittitle>Fuga a Tre Voci <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <unittitle>Fuga a Tre Voci</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -599,20 +498,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [52538751424985223487]">18</container>
-            <unittitle>Night Pieces <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <unittitle>Night Pieces</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52538751424985223487]">18</container>
-            <unittitle>Nine Bagatelles <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-          </did>
+            <unittitle>Nine Bagatelles</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52538751424985223487]">18</container>
-            <unittitle>Philippics <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-          </did>
+            <unittitle>Philippics</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -938,8 +834,7 @@
         <c02 level="file">
           <did>
             <container type="bundle" label="Bundle [320551429829409229]">24</container>
-            <unittitle>Delicias; a suite of dances ... <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Delicias; a suite of dances ...</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 bundles</extent>
             </physdesc>
           </did>
@@ -992,8 +887,7 @@
         <c02 level="file">
           <did>
             <container type="bundle" label="Bundle [46206644769298825538]">31</container>
-            <unittitle>Seattle Overture for orchestra <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Seattle Overture for orchestra</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 bundles</extent>
             </physdesc>
           </did>
@@ -1016,8 +910,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6664432498440628210]">54</container>
-            <unittitle>Fantasia Concertante for Viola ... in one movement <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate></unittitle>
-          </did>
+            <unittitle>Fantasia Concertante for Viola ... in one movement</unittitle><unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1214,14 +1107,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [14431448924974675807]">29</container>
-            <unittitle>Early compositions and sketches <unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></unittitle>
-          </did>
+            <unittitle>Early compositions and sketches</unittitle><unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [724323973495715853380072]">30</container>
-            <unittitle>Fantasy-Sonata for piano <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Fantasy-Sonata for piano</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1346,8 +1237,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [355678154482399482]">32</container>
-            <unittitle>Lyric Concerto for Flute and Orchestra <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
-          </did>
+            <unittitle>Lyric Concerto for Flute and Orchestra</unittitle><unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1361,20 +1251,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [355678154482399482]">32</container>
-            <unittitle>Capriccio (in four movements) <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-          </did>
+            <unittitle>Capriccio (in four movements)</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [355678154482399482]">32</container>
-            <unittitle>Spring Trio; a Bouquet of Traditional Flower Rags <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-          </did>
+            <unittitle>Spring Trio; a Bouquet of Traditional Flower Rags</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [355678154482399482]">32</container>
-            <unittitle>Medusa <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-          </did>
+            <unittitle>Medusa</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1424,56 +1311,47 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3857780894768221429]">41</container>
-            <unittitle>Ancient Cabaret <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-          </did>
+            <unittitle>Ancient Cabaret</unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3857780894768221429]">41</container>
-            <unittitle>Black Host <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Black Host</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3857780894768221429]">41</container>
-            <unittitle>Celestial Dinner Music <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-          </did>
+            <unittitle>Celestial Dinner Music</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3857780894768221429]">41</container>
-            <unittitle>Concerto-Serenade <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <unittitle>Concerto-Serenade</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3857780894768221429]">41</container>
-            <unittitle>Convergin on the Mountain <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <unittitle>Convergin on the Mountain</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3857780894768221429]">41</container>
-            <unittitle>Décalage <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Décalage</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3857780894768221429]">41</container>
-            <unittitle>Fairytales <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></unittitle>
-          </did>
+            <unittitle>Fairytales</unittitle><unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [01909555044067927460]">42</container>
-            <unittitle>FiveFoldFive <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></unittitle>
-          </did>
+            <unittitle>FiveFoldFive</unittitle><unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [01909555044067927460]">42</container>
-            <unittitle>Four Preludes on Jewish Melodies <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-          </did>
+            <unittitle>Four Preludes on Jewish Melodies</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1490,74 +1368,62 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0220583940098740171429]">43</container>
-            <unittitle>The Graceful Ghost <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-          </did>
+            <unittitle>The Graceful Ghost</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0220583940098740171429]">43</container>
-            <unittitle>Hydraulis <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <unittitle>Hydraulis</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0220583940098740171429]">43</container>
-            <unittitle>Le fantome du Clavecin <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-          </did>
+            <unittitle>Le fantome du Clavecin</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0220583940098740171429]">43</container>
-            <unittitle>Lilith <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-          </did>
+            <unittitle>Lilith</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0220583940098740171429]">43</container>
-            <unittitle>May-Day <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-          </did>
+            <unittitle>May-Day</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0220583940098740171429]">43</container>
-            <unittitle>Mysteries <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <unittitle>Mysteries</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0220583940098740171429]">43</container>
-            <unittitle>Nine New Bagatelles <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-          </did>
+            <unittitle>Nine New Bagatelles</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9192429676489345304920792]">44</container>
-            <unittitle>The Rhodora <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-          </did>
+            <unittitle>The Rhodora</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9192429676489345304920792]">44</container>
-            <unittitle>Serenata Notturna <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-          </did>
+            <unittitle>Serenata Notturna</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9192429676489345304920792]">44</container>
-            <unittitle>Sextet <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <unittitle>Sextet</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9192429676489345304920792]">44</container>
-            <unittitle>Spring Trio <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-          </did>
+            <unittitle>Spring Trio</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9192429676489345304920792]">44</container>
-            <unittitle>Suite No. 1 in C minor <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
-          </did>
+            <unittitle>Suite No. 1 in C minor</unittitle><unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1568,31 +1434,26 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9192429676489345304920792]">44</container>
-            <unittitle>Terminaison de "Navarra" d'Isaac Albeniz <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <unittitle>Terminaison de "Navarra" d'Isaac Albeniz</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9192429676489345304920792]">44</container>
-            <unittitle>Two Meditations on Poems of George Herbert <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-          </did>
+            <unittitle>Two Meditations on Poems of George Herbert</unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [64946843913811976058]">45</container>
-            <unittitle>Eighth Symphony <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+            <unittitle>Eighth Symphony</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Canciones de Lorca</unittitle><unitdate type="inclusive" normal="2006">2006</unitdate><container type="box" label="Box [457404723421166304]">46</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Canciones de Lorca <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-            <container type="box" label="Box [457404723421166304]">46</container>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Canciones de Lorca <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-            <container type="box" label="Box [67867469262191903]">47</container>
+            <unittitle>Canciones de Lorca</unittitle><unitdate type="inclusive" normal="2006">2006</unitdate><container type="box" label="Box [67867469262191903]">47</container>
           </did>
           <odd>
             <p>(continued)</p>
@@ -1766,8 +1627,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5838375449415061964]">60</container>
-            <unittitle>Seattle Slew sketches <unitdate normal="1986" certainty="approximate">circa 1986</unitdate></unittitle>
-          </did>
+            <unittitle>Seattle Slew sketches</unittitle><unitdate normal="1986" certainty="approximate">circa 1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1811,44 +1671,37 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [71297658443873073047]">68</container>
-            <unittitle>Billi in the Darbies <unitdate normal="2009">2009</unitdate></unittitle>
-          </did>
+            <unittitle>Billi in the Darbies</unittitle><unitdate normal="2009">2009</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [71297658443873073047]">68</container>
-            <unittitle>Broadside for Band <unitdate normal="1983">1983</unitdate></unittitle>
-          </did>
+            <unittitle>Broadside for</unittitle><unitdate normal="1983">1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [71297658443873073047]">68</container>
-            <unittitle>Eleventh String Quartet <unitdate normal="2002">2002</unitdate></unittitle>
-          </did>
+            <unittitle>Eleventh String Quartet</unittitle><unitdate normal="2002">2002</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [71297658443873073047]">68</container>
-            <unittitle>Fourth Violin Sonata <unitdate normal="1994">1994</unitdate></unittitle>
-          </did>
+            <unittitle>Fourth Violin Sonata</unittitle><unitdate normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5616141470542851145034]">70</container>
-            <unittitle>Fourth Violin Sonata <unitdate normal="1996">1996</unitdate></unittitle>
-          </did>
+            <unittitle>Fourth Violin Sonata</unittitle><unitdate normal="1996">1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [71297658443873073047]">68</container>
-            <unittitle>Hawthorne Tree <unitdate normal="2009">2009</unitdate></unittitle>
-          </did>
+            <unittitle>Hawthorne Tree</unittitle><unitdate normal="2009">2009</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [71297658443873073047]">68</container>
-            <unittitle>Orphée-Sérénade <unitdate normal="2009">2009</unitdate></unittitle>
-          </did>
+            <unittitle>Orphée-Sérénade</unittitle><unitdate normal="2009">2009</unitdate></did>
           <odd>
             <p>(see also Box 59)</p>
           </odd>
@@ -1856,38 +1709,32 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [184249416393805146435994]">69</container>
-            <unittitle>Second Piano Quintet <unitdate normal="2010/2011">2010-2011</unitdate></unittitle>
-          </did>
+            <unittitle>Second Piano Quintet</unittitle><unitdate normal="2010/2011">2010-2011</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [184249416393805146435994]">69</container>
-            <unittitle>Sonata for Violoncello and Piano <unitdate normal="1989">1989</unitdate></unittitle>
-          </did>
+            <unittitle>Sonata for Violoncello and Piano</unittitle><unitdate normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [184249416393805146435994]">69</container>
-            <unittitle>Tenth String Quartet <unitdate normal="1988">1988</unitdate></unittitle>
-          </did>
+            <unittitle>Tenth String Quartet</unittitle><unitdate normal="1988">1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [184249416393805146435994]">69</container>
-            <unittitle>Third Sonata for Violin and Piano (Sonata Stramba) <unitdate normal="1992">1992</unitdate></unittitle>
-          </did>
+            <unittitle>Third Sonata for Violin and Piano (Sonata Stramba)</unittitle><unitdate normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [184249416393805146435994]">69</container>
-            <unittitle>Trio for Clarinet, Violin and Piano <unitdate normal="1993">1993</unitdate></unittitle>
-          </did>
+            <unittitle>Trio for Clarinet, Violin and Piano</unittitle><unitdate normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5616141470542851145034]">70</container>
-            <unittitle>Concerto for Clarinet and Orchestra <unitdate normal="1988">1988</unitdate></unittitle>
-          </did>
+            <unittitle>Concerto for Clarinet and Orchestra</unittitle><unitdate normal="1988">1988</unitdate></did>
           <odd>
             <p>(See also Box 56)</p>
           </odd>
@@ -1895,8 +1742,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5616141470542851145034]">70</container>
-            <unittitle>Gaea <unitdate normal="1995">1995</unitdate></unittitle>
-          </did>
+            <unittitle>Gaea</unittitle><unitdate normal="1995">1995</unitdate></did>
           <odd>
             <p>(See also Box 32 and oversize bundle no. 22)</p>
           </odd>
@@ -1904,8 +1750,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5616141470542851145034]">70</container>
-            <unittitle>Lyric Concerto <unitdate normal="1992/1993">1992-1993</unitdate></unittitle>
-          </did>
+            <unittitle>Lyric Concerto</unittitle><unitdate normal="1992/1993">1992-1993</unitdate></did>
           <odd>
             <p>(See also Box 58)</p>
           </odd>
@@ -1916,14 +1761,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9788461846591743152]">71</container>
-            <unittitle>Ninth Symphony <unitdate normal="2011">2011</unitdate></unittitle>
-          </did>
+            <unittitle>Ninth Symphony</unittitle><unitdate normal="2011">2011</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0068746344897554808888]">72</container>
-            <unittitle>Seventh Symphony <unitdate normal="2002">2002</unitdate></unittitle>
-          </did>
+            <unittitle>Seventh Symphony</unittitle><unitdate normal="2002">2002</unitdate></did>
           <odd>
             <p>(See also Box 60)</p>
           </odd>
@@ -1931,8 +1774,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0068746344897554808888]">72</container>
-            <unittitle>Spring Concerto <unitdate normal="1986/1987">1986-1987</unitdate></unittitle>
-          </did>
+            <unittitle>Spring Concerto</unittitle><unitdate normal="1986/1987">1986-1987</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1945,32 +1787,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0237894147390825402]">23</container>
-            <unittitle>Accounting statements <unitdate type="inclusive" normal="1986/1994">1986-1994</unitdate></unittitle>
-          </did>
+            <unittitle>Accounting statements</unittitle><unitdate type="inclusive" normal="1986/1994">1986-1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0237894147390825402]">23</container>
-            <unittitle>Albion College Honorary Degree Convocation <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-          </did>
+            <unittitle>Albion College Honorary Degree Convocation</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0237894147390825402]">23</container>
-            <unittitle>CBC Union Boycott <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <unittitle>CBC Union Boycott</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0237894147390825402]">23</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1977/1997">1977-1997</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1977/1997">1977-1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0237894147390825402]">23</container>
-            <unittitle>Elektra/Asylum/Nonesuch <unitdate type="inclusive" normal="1982/1992">1982-1992</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Elektra/Asylum/Nonesuch</unittitle><unitdate type="inclusive" normal="1982/1992">1982-1992</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
@@ -1978,20 +1815,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0237894147390825402]">23</container>
-            <unittitle>Gerald R. Ford commemorative dedication program <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <unittitle>Gerald R. Ford commemorative dedication program</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0237894147390825402]">23</container>
-            <unittitle>ICM Artists <unitdate type="inclusive" normal="1990/2008">1990-2008</unitdate></unittitle>
-          </did>
+            <unittitle>ICM Artists</unittitle><unitdate type="inclusive" normal="1990/2008">1990-2008</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0237894147390825402]">23</container>
-            <unittitle>Michigan Theatre Budget Information <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Theatre Budget Information</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2002,32 +1836,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0237894147390825402]">23</container>
-            <unittitle><title render="italic">Music Lovers' Calendar</title>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Music Lovers' Calendar</title></unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0237894147390825402]">23</container>
-            <unittitle>San Francisco Conservatory of Music Honorary Degree Commencement Exercises <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <unittitle>San Francisco Conservatory of Music Honorary Degree Commencement Exercises</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0237894147390825402]">23</container>
-            <unittitle>Seminar Series for Women of Michigan <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <unittitle>Seminar Series for Women of Michigan</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0237894147390825402]">23</container>
-            <unittitle>Sonidas de las Americas Festival <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <unittitle>Sonidas de las Americas Festival</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [0237894147390825402]">23</container>
-            <unittitle>Van Cliburn International Piano Competition <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-          </did>
+            <unittitle>Van Cliburn International Piano Competition</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2045,26 +1874,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [577276414275560186019]">65</container>
-            <unittitle>Bolcom &amp; Morris, Sorg Opera House, Middletown, OH <unitdate type="inclusive" normal="1985-09-14">September 14, 1985</unitdate></unittitle>
-          </did>
+            <unittitle>Bolcom &amp; Morris, Sorg Opera House, Middletown, OH</unittitle><unitdate type="inclusive" normal="1985-09-14">September 14, 1985</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [577276414275560186019]">65</container>
-            <unittitle>William Bolcom at the Scott Joplin Ragtime Festival <unitdate type="inclusive" normal="1993-06">June 1993</unitdate></unittitle>
-          </did>
+            <unittitle>William Bolcom at the Scott Joplin Ragtime Festival</unittitle><unitdate type="inclusive" normal="1993-06">June 1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [577276414275560186019]">65</container>
-            <unittitle>Hazen and Rusty 40th Anniversary Party <unitdate type="inclusive" normal="1994-09-25">September 25, 1994</unitdate></unittitle>
-          </did>
+            <unittitle>Hazen and Rusty 40th Anniversary Party</unittitle><unitdate type="inclusive" normal="1994-09-25">September 25, 1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [577276414275560186019]">65</container>
-            <unittitle>Bolcom &amp; Morris OBIE Awards <unitdate type="inclusive" normal="1995-05-22">May 22, 1995</unitdate></unittitle>
-            <physdesc altrender="part">
+            <unittitle>Bolcom &amp; Morris OBIE Awards</unittitle><unitdate type="inclusive" normal="1995-05-22">May 22, 1995</unitdate><physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">1 videotapes</extent>
               <physfacet>VHS (TM)</physfacet>
             </physdesc>
@@ -2077,8 +1902,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [577276414275560186019]">65</container>
-            <unittitle>Bolcom &amp; Morris at the Gilmore, Kalamazoo Civic Auditorium <unitdate type="inclusive" normal="1998-04-28">April 28, 1998</unitdate></unittitle>
-            <physdesc altrender="part">
+            <unittitle>Bolcom &amp; Morris at the Gilmore, Kalamazoo Civic Auditorium</unittitle><unitdate type="inclusive" normal="1998-04-28">April 28, 1998</unitdate><physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">1 videotapes</extent>
               <physfacet>VHS (TM)</physfacet>
             </physdesc>
@@ -2097,8 +1921,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [577276414275560186019]">65</container>
-            <unittitle>Beverley J. Pooley Memorial Service, Lydia Mendelssohn Theatre <unitdate type="inclusive" normal="2001-10-21">October 21, 2001</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Beverley J. Pooley Memorial Service, Lydia Mendelssohn Theatre</unittitle><unitdate type="inclusive" normal="2001-10-21">October 21, 2001</unitdate><physdesc>
               <dimensions>1 hour 24 minutes</dimensions>
             </physdesc>
           </did>
@@ -2106,8 +1929,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [577276414275560186019]">65</container>
-            <unittitle>Bolcom &amp; Morris perform cabaret songs at the Flea Theater <unitdate type="inclusive" normal="2003-09-07">September 7, 2003</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Bolcom &amp; Morris perform cabaret songs at the Flea Theater</unittitle><unitdate type="inclusive" normal="2003-09-07">September 7, 2003</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 videotapes</extent>
             </physdesc>
           </did>
@@ -2118,8 +1940,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [577276414275560186019]">65</container>
-            <unittitle>Bolcom &amp; Morris at the Flea Theater <unitdate type="inclusive" normal="2003-09-14">September 14, 2003</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Bolcom &amp; Morris at the Flea Theater</unittitle><unitdate type="inclusive" normal="2003-09-14">September 14, 2003</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 videotapes</extent>
             </physdesc>
           </did>
@@ -2130,8 +1951,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [577276414275560186019]">65</container>
-            <unittitle>Bolcom &amp; Morris at the Flea Theater <unitdate type="inclusive" normal="2003-09-21">September 21, 2003</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Bolcom &amp; Morris at the Flea Theater</unittitle><unitdate type="inclusive" normal="2003-09-21">September 21, 2003</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 videotapes</extent>
             </physdesc>
           </did>
@@ -2142,8 +1962,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [577276414275560186019]">65</container>
-            <unittitle>Kerrytown Concert House 20th Anniversary Concert <unitdate type="inclusive" normal="2004-10">October 2004</unitdate></unittitle>
-            <physdesc altrender="part">
+            <unittitle>Kerrytown Concert House 20th Anniversary Concert</unittitle><unitdate type="inclusive" normal="2004-10">October 2004</unitdate><physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">1 videotapes</extent>
               <physfacet>VHS (TM)</physfacet>
             </physdesc>
@@ -2168,371 +1987,318 @@
             <did>
               <container type="box" label="Box [3822382457153134167]" id="54bde781-5660-4645-9ef3-9e59ef141900">66</container>
               <container type="item" label="Item" parent="54bde781-5660-4645-9ef3-9e59ef141900">1</container>
-              <unittitle>With Clifford Jackson, Hollins College in VA, I-A <unitdate type="inclusive" normal="1973-11">November 1973</unitdate></unittitle>
-            </did>
+              <unittitle>With Clifford Jackson, Hollins College in VA, I-A</unittitle><unitdate type="inclusive" normal="1973-11">November 1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="e4146958-f003-40d1-9d12-9b540097d243">66</container>
               <container type="item" label="Item" parent="e4146958-f003-40d1-9d12-9b540097d243">1</container>
-              <unittitle>With Clifford Jackson, Hollins College in VA, II-A <unitdate type="inclusive" normal="1973-11">November 1973</unitdate></unittitle>
-            </did>
+              <unittitle>With Clifford Jackson, Hollins College in VA, II-A</unittitle><unitdate type="inclusive" normal="1973-11">November 1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="40fe253c-58f6-4217-925b-25b66fd4bc71">66</container>
               <container type="item" label="Item" parent="40fe253c-58f6-4217-925b-25b66fd4bc71">1</container>
-              <unittitle>Gershwin Songs, Ann Arbor <unitdate type="inclusive" normal="1975-09-15/1975-09-17">September 15-17, 1975</unitdate></unittitle>
-            </did>
+              <unittitle>Gershwin Songs, Ann Arbor</unittitle><unitdate type="inclusive" normal="1975-09-15/1975-09-17">September 15-17, 1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="37540495-230d-4f0d-aecb-e197c2cfe083">66</container>
               <container type="item" label="Item" parent="37540495-230d-4f0d-aecb-e197c2cfe083">1</container>
-              <unittitle>Gershwin, George: 16 songs, Nonesuch <unitdate type="inclusive" normal="1978-07">July 1978</unitdate></unittitle>
-            </did>
+              <unittitle>Gershwin, George: 16 songs, Nonesuch</unittitle><unitdate type="inclusive" normal="1978-07">July 1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="b015634a-622b-404e-93a9-818b58bcc8a0">66</container>
               <container type="item" label="Item" parent="b015634a-622b-404e-93a9-818b58bcc8a0">1</container>
-              <unittitle>The Italian Lesson <unitdate type="inclusive" normal="1980-07-06">July 6, 1980</unitdate></unittitle>
-            </did>
+              <unittitle>The Italian Lesson</unittitle><unitdate type="inclusive" normal="1980-07-06">July 6, 1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="7ae207b5-e4f0-47c0-8dfe-40603c694e71">66</container>
               <container type="item" label="Item" parent="7ae207b5-e4f0-47c0-8dfe-40603c694e71">1</container>
-              <unittitle>American Brass Quintet, B &amp; M II <unitdate type="inclusive" normal="1980-07-06">July 6, 1980</unitdate>, <unitdate type="inclusive" normal="1980-07-07">July 7, 1980</unitdate></unittitle>
-            </did>
+              <unittitle>American Brass Quintet, B &amp; M II</unittitle><unitdate type="inclusive" normal="1980-07-06">July 6, 1980</unitdate><unitdate type="inclusive" normal="1980-07-07">July 7, 1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="76c89ed8-8036-42f7-84ae-91f59965f502">66</container>
               <container type="item" label="Item" parent="76c89ed8-8036-42f7-84ae-91f59965f502">1</container>
-              <unittitle>Fort Worth <unitdate type="inclusive" normal="1981-10-29/1981-10-30">October 29-30, 1981</unitdate></unittitle>
-            </did>
+              <unittitle>Fort Worth</unittitle><unitdate type="inclusive" normal="1981-10-29/1981-10-30">October 29-30, 1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="2683463a-d24e-4806-8e96-fc671096f19d">66</container>
               <container type="item" label="Item" parent="2683463a-d24e-4806-8e96-fc671096f19d">1</container>
-              <unittitle>Music in America, Gershwin Salute <unitdate type="inclusive" normal="1983-10">October 1983</unitdate></unittitle>
-            </did>
+              <unittitle>Music in America, Gershwin Salute</unittitle><unitdate type="inclusive" normal="1983-10">October 1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="f64e6349-5ea8-4ceb-b2da-a798acfe6a83">66</container>
               <container type="item" label="Item" parent="f64e6349-5ea8-4ceb-b2da-a798acfe6a83">1</container>
-              <unittitle>Paul Jacobs Concert <unitdate type="inclusive" normal="1984-02-24">February 24, 1984</unitdate></unittitle>
-            </did>
+              <unittitle>Paul Jacobs Concert</unittitle><unitdate type="inclusive" normal="1984-02-24">February 24, 1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="f8ed9c4e-b9e2-4185-a11b-6c1506a30beb">66</container>
               <container type="item" label="Item" parent="f8ed9c4e-b9e2-4185-a11b-6c1506a30beb">1</container>
-              <unittitle>Cleveland Concert, Museum of Art <unitdate type="inclusive" normal="1984-09-19">September 19, 1984</unitdate></unittitle>
-            </did>
+              <unittitle>Cleveland Concert, Museum of Art</unittitle><unitdate type="inclusive" normal="1984-09-19">September 19, 1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="909bf07f-08e6-4c0c-8877-ed3ef8ef11fa">66</container>
               <container type="item" label="Item" parent="909bf07f-08e6-4c0c-8877-ed3ef8ef11fa">1</container>
-              <unittitle>Irving Berlin Songs <unitdate type="inclusive" normal="1985-06">June 1985</unitdate></unittitle>
-            </did>
+              <unittitle>Irving Berlin Songs</unittitle><unitdate type="inclusive" normal="1985-06">June 1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="852e5897-f87a-4921-a4fc-c3d321adf8cb">66</container>
               <container type="item" label="Item" parent="852e5897-f87a-4921-a4fc-c3d321adf8cb">1</container>
-              <unittitle>Irving Berlin Songs <unitdate type="inclusive" normal="1985-07-31">July 31, 1985</unitdate></unittitle>
-            </did>
+              <unittitle>Irving Berlin Songs</unittitle><unitdate type="inclusive" normal="1985-07-31">July 31, 1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="4c059f86-c270-4c38-8c09-29f1e921b30f">66</container>
               <container type="item" label="Item" parent="4c059f86-c270-4c38-8c09-29f1e921b30f">1</container>
-              <unittitle>Cabrillo, Prelude Concert <unitdate type="inclusive" normal="1986-07">July 1986</unitdate></unittitle>
-            </did>
+              <unittitle>Cabrillo, Prelude Concert</unittitle><unitdate type="inclusive" normal="1986-07">July 1986</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="5491c0b6-b3f2-45dc-98c5-ce8d539f8cfb">66</container>
               <container type="item" label="Item" parent="5491c0b6-b3f2-45dc-98c5-ce8d539f8cfb">1</container>
-              <unittitle>Lime Jello, Levittown, PA <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-            </did>
+              <unittitle>Lime Jello, Levittown, PA</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [225771314298105394]">66-1</container>
-              <unittitle>Kennedy Center, Gershwin, I <unitdate type="inclusive" normal="1987-09-30">September 30, 1987</unitdate></unittitle>
-            </did>
+              <unittitle>Kennedy Center, Gershwin, I</unittitle><unitdate type="inclusive" normal="1987-09-30">September 30, 1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="d4716086-8e2b-483f-8fa7-94a50101583a">66</container>
               <container type="item" label="Item" parent="d4716086-8e2b-483f-8fa7-94a50101583a">1</container>
-              <unittitle>Kennedy Center, Gershwin, II <unitdate type="inclusive" normal="1987-09-30">September 30, 1987</unitdate></unittitle>
-            </did>
+              <unittitle>Kennedy Center, Gershwin, II</unittitle><unitdate type="inclusive" normal="1987-09-30">September 30, 1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="5a2f9274-e4c5-4d23-8426-3cfd7730cfcd">66</container>
               <container type="item" label="Item" parent="5a2f9274-e4c5-4d23-8426-3cfd7730cfcd">1</container>
-              <unittitle>Kennedy Center <unitdate type="inclusive" normal="1987-09-30">September 30, 1987</unitdate></unittitle>
-            </did>
+              <unittitle>Kennedy Center</unittitle><unitdate type="inclusive" normal="1987-09-30">September 30, 1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="d5cebaa9-1ef3-436b-b198-afc18abacfdf">66</container>
               <container type="item" label="Item" parent="d5cebaa9-1ef3-436b-b198-afc18abacfdf">2</container>
-              <unittitle>Town Hall, NYC presents I <unitdate type="inclusive" normal="1987-10-12">October 12, 1987</unitdate></unittitle>
-            </did>
+              <unittitle>Town Hall, NYC presents I</unittitle><unitdate type="inclusive" normal="1987-10-12">October 12, 1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="f564800c-b1d0-45c5-b9ac-d9d90830d12a">66</container>
               <container type="item" label="Item" parent="f564800c-b1d0-45c5-b9ac-d9d90830d12a">2</container>
-              <unittitle>Town Hall, NYC presents II <unitdate type="inclusive" normal="1987-10-12">October 12, 1987</unitdate></unittitle>
-            </did>
+              <unittitle>Town Hall, NYC presents II</unittitle><unitdate type="inclusive" normal="1987-10-12">October 12, 1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="af538bdf-4146-4fc0-9ee0-dc7c26d2f042">66</container>
               <container type="item" label="Item" parent="af538bdf-4146-4fc0-9ee0-dc7c26d2f042">2</container>
-              <unittitle>Weill Hall, #3 <unitdate type="inclusive" normal="1987-10-16">October 16, 1987</unitdate></unittitle>
-            </did>
+              <unittitle>Weill Hall, #3</unittitle><unitdate type="inclusive" normal="1987-10-16">October 16, 1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="0cfcddb5-4a99-444c-bb8e-5f46ba008889">66</container>
               <container type="item" label="Item" parent="0cfcddb5-4a99-444c-bb8e-5f46ba008889">2</container>
-              <unittitle>Spring Break Spots (2) <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-            </did>
+              <unittitle>Spring Break Spots (2)</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="aef681e9-922a-4eb0-8257-978a0938f6cc">66</container>
               <container type="item" label="Item" parent="aef681e9-922a-4eb0-8257-978a0938f6cc">2</container>
-              <unittitle>Tribute to Berlin, High Performance <unitdate type="inclusive" normal="1988-02-10">February 10, 1988</unitdate></unittitle>
-            </did>
+              <unittitle>Tribute to Berlin, High Performance</unittitle><unitdate type="inclusive" normal="1988-02-10">February 10, 1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="fdb64335-3f5d-4da2-a71e-5e7d644a4638">66</container>
               <container type="item" label="Item" parent="fdb64335-3f5d-4da2-a71e-5e7d644a4638">2</container>
-              <unittitle>UMASS #1 <unitdate type="inclusive" normal="1988-05-05">May 5, 1988</unitdate></unittitle>
-            </did>
+              <unittitle>UMASS #1</unittitle><unitdate type="inclusive" normal="1988-05-05">May 5, 1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="3a97be6d-dc3d-46bb-81db-c859307c4ba3">66</container>
               <container type="item" label="Item" parent="3a97be6d-dc3d-46bb-81db-c859307c4ba3">2</container>
-              <unittitle>UMASS #2 <unitdate type="inclusive" normal="1988-05-05">May 5, 1988</unitdate></unittitle>
-            </did>
+              <unittitle>UMASS #2</unittitle><unitdate type="inclusive" normal="1988-05-05">May 5, 1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="1270909e-1150-4805-a545-d79b5ace8607">66</container>
               <container type="item" label="Item" parent="1270909e-1150-4805-a545-d79b5ace8607">2</container>
-              <unittitle>Cole Porter, Revised <unitdate type="inclusive" normal="1988-07-03">July 3, 1988</unitdate></unittitle>
-            </did>
+              <unittitle>Cole Porter, Revised</unittitle><unitdate type="inclusive" normal="1988-07-03">July 3, 1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="7dd13a1f-59af-4d9c-a58a-bd6e622f2e29">66</container>
               <container type="item" label="Item" parent="7dd13a1f-59af-4d9c-a58a-bd6e622f2e29">2</container>
-              <unittitle>University of North Texas <unitdate type="inclusive" normal="1988-10-08">October 8, 1988</unitdate></unittitle>
-            </did>
+              <unittitle>University of North Texas</unittitle><unitdate type="inclusive" normal="1988-10-08">October 8, 1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="81754bad-65d4-43cd-847d-65ee3970a5df">66</container>
               <container type="item" label="Item" parent="81754bad-65d4-43cd-847d-65ee3970a5df">2</container>
-              <unittitle>Mohawk Trail Series <unitdate type="inclusive" normal="1989-07-01">July 1, 1989</unitdate></unittitle>
-            </did>
+              <unittitle>Mohawk Trail Series</unittitle><unitdate type="inclusive" normal="1989-07-01">July 1, 1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="8a7b2209-4776-4af3-a443-d9355495c1cd">66</container>
               <container type="item" label="Item" parent="8a7b2209-4776-4af3-a443-d9355495c1cd">2</container>
-              <unittitle>Aspen Music Festival <unitdate type="inclusive" normal="1989-07-22">July 22, 1989</unitdate></unittitle>
-            </did>
+              <unittitle>Aspen Music Festival</unittitle><unitdate type="inclusive" normal="1989-07-22">July 22, 1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="6e0b60a8-2b3f-46e0-8ea4-462889709ba4">66</container>
               <container type="item" label="Item" parent="6e0b60a8-2b3f-46e0-8ea4-462889709ba4">2</container>
-              <unittitle>Aspen Music Festival <unitdate type="inclusive" normal="1989-08-11/1989-08-12">August 11-12, 1989</unitdate></unittitle>
-            </did>
+              <unittitle>Aspen Music Festival</unittitle><unitdate type="inclusive" normal="1989-08-11/1989-08-12">August 11-12, 1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="d2c9394c-4696-4a6a-b092-ee79f7b3d292">66</container>
               <container type="item" label="Item" parent="d2c9394c-4696-4a6a-b092-ee79f7b3d292">2</container>
-              <unittitle>Madison <unitdate type="inclusive" normal="1989-10-07">October 7, 1989</unitdate></unittitle>
-            </did>
+              <unittitle>Madison</unittitle><unitdate type="inclusive" normal="1989-10-07">October 7, 1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="e9a7b32c-e243-46ed-83b9-1a5fa2eeaa1e">66</container>
               <container type="item" label="Item" parent="e9a7b32c-e243-46ed-83b9-1a5fa2eeaa1e">2</container>
-              <unittitle>Let's Do It, Aspen <unitdate type="inclusive" normal="1989-11-14">November 14, 1989</unitdate></unittitle>
-            </did>
+              <unittitle>Let's Do It, Aspen</unittitle><unitdate type="inclusive" normal="1989-11-14">November 14, 1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="ab948979-4cb5-42eb-80a1-016ef0092507">66</container>
               <container type="item" label="Item" parent="ab948979-4cb5-42eb-80a1-016ef0092507">2</container>
-              <unittitle>Carleton College <unitdate type="inclusive" normal="1990-01-19">January 19, 1990</unitdate></unittitle>
-            </did>
+              <unittitle>Carleton College</unittitle><unitdate type="inclusive" normal="1990-01-19">January 19, 1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="596a09e8-e2cb-4abf-a4be-6af289be329e">66</container>
               <container type="item" label="Item" parent="596a09e8-e2cb-4abf-a4be-6af289be329e">2</container>
-              <unittitle>Columbia, MD <unitdate type="inclusive" normal="1990-06-23">June 23, 1990</unitdate></unittitle>
-            </did>
+              <unittitle>Columbia, MD</unittitle><unitdate type="inclusive" normal="1990-06-23">June 23, 1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="73b33ee1-4142-4148-bfe7-be8a7cd4d761">66</container>
               <container type="item" label="Item" parent="73b33ee1-4142-4148-bfe7-be8a7cd4d761">2</container>
-              <unittitle>Fascinatin' Rhythm Series <unitdate type="inclusive" normal="1990-11-10">November 10, 1990</unitdate></unittitle>
-            </did>
+              <unittitle>Fascinatin' Rhythm Series</unittitle><unitdate type="inclusive" normal="1990-11-10">November 10, 1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="7fa3e6fe-b14a-49e1-8c73-7dab480a4791">66</container>
               <container type="item" label="Item" parent="7fa3e6fe-b14a-49e1-8c73-7dab480a4791">2</container>
-              <unittitle>Desert Island Discs <unitdate type="inclusive" normal="1990-12-15">December 15, 1990</unitdate></unittitle>
-            </did>
+              <unittitle>Desert Island Discs</unittitle><unitdate type="inclusive" normal="1990-12-15">December 15, 1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="02982ac1-1816-4a3f-8727-1578d290b391">66</container>
               <container type="item" label="Item" parent="02982ac1-1816-4a3f-8727-1578d290b391">3</container>
-              <unittitle>Memphis State University, New Music Festival <unitdate type="inclusive" normal="1991-02-16">February 16, 1991</unitdate></unittitle>
-            </did>
+              <unittitle>Memphis State University, New Music Festival</unittitle><unitdate type="inclusive" normal="1991-02-16">February 16, 1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="fe5b90b5-65b8-40bb-9aa9-7510b76ec776">66</container>
               <container type="item" label="Item" parent="fe5b90b5-65b8-40bb-9aa9-7510b76ec776">3</container>
-              <unittitle>WCW <unitdate type="inclusive" normal="1991-03-02">March 2, 1991</unitdate></unittitle>
-            </did>
+              <unittitle>WCW</unittitle><unitdate type="inclusive" normal="1991-03-02">March 2, 1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="578da68d-ab2c-4492-8c39-e3d2ddcf5c83">66</container>
               <container type="item" label="Item" parent="578da68d-ab2c-4492-8c39-e3d2ddcf5c83">3</container>
-              <unittitle>Composer's Union Hall, Moscow <unitdate type="inclusive" normal="1991-06-06">June 6, 1991</unitdate></unittitle>
-            </did>
+              <unittitle>Composer's Union Hall, Moscow</unittitle><unitdate type="inclusive" normal="1991-06-06">June 6, 1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="5498413b-844a-44ad-aa1b-bae1a0bdc107">66</container>
               <container type="item" label="Item" parent="5498413b-844a-44ad-aa1b-bae1a0bdc107">3</container>
-              <unittitle>Cole Porter 100th, Carnegie Hall, I <unitdate type="inclusive" normal="1991-06-09">June 9, 1991</unitdate></unittitle>
-            </did>
+              <unittitle>Cole Porter 100th, Carnegie Hall, I</unittitle><unitdate type="inclusive" normal="1991-06-09">June 9, 1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="0ec5db03-cf2f-4e4e-870e-e6b8d0c59b6e">66</container>
               <container type="item" label="Item" parent="0ec5db03-cf2f-4e4e-870e-e6b8d0c59b6e">3</container>
-              <unittitle>Cole Porter 100th, Carnegie Hall, II <unitdate type="inclusive" normal="1991-06-09">June 9, 1991</unitdate></unittitle>
-            </did>
+              <unittitle>Cole Porter 100th, Carnegie Hall, II</unittitle><unitdate type="inclusive" normal="1991-06-09">June 9, 1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="8c931a19-d607-488b-9b7f-c1ef0a0c9faa">66</container>
               <container type="item" label="Item" parent="8c931a19-d607-488b-9b7f-c1ef0a0c9faa">3</container>
-              <unittitle>Phoenix Symphony Orchestra <unitdate type="inclusive" normal="1991-11-15">November 15, 1991</unitdate></unittitle>
-            </did>
+              <unittitle>Phoenix Symphony Orchestra</unittitle><unitdate type="inclusive" normal="1991-11-15">November 15, 1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="15352a46-7b4b-4cc8-aac7-7ece7a352cb5">66</container>
               <container type="item" label="Item" parent="15352a46-7b4b-4cc8-aac7-7ece7a352cb5">3</container>
-              <unittitle>Coming to America, I, AASO <unitdate type="inclusive" normal="1992-01-18">January 18, 1992</unitdate></unittitle>
-            </did>
+              <unittitle>Coming to America, I, AASO</unittitle><unitdate type="inclusive" normal="1992-01-18">January 18, 1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="a596d3b9-82c3-4f46-b29f-7c5820935034">66</container>
               <container type="item" label="Item" parent="a596d3b9-82c3-4f46-b29f-7c5820935034">3</container>
-              <unittitle>Coming to America, II, AASO <unitdate type="inclusive" normal="1992-01-18">January 18, 1992</unitdate></unittitle>
-            </did>
+              <unittitle>Coming to America, II, AASO</unittitle><unitdate type="inclusive" normal="1992-01-18">January 18, 1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="9239f49f-4801-4f68-a531-4c6b73589c02">66</container>
               <container type="item" label="Item" parent="9239f49f-4801-4f68-a531-4c6b73589c02">3</container>
-              <unittitle>Mohawk Trail Concerts <unitdate type="inclusive" normal="1992-08-15">August 15, 1992</unitdate></unittitle>
-            </did>
+              <unittitle>Mohawk Trail Concerts</unittitle><unitdate type="inclusive" normal="1992-08-15">August 15, 1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="2e8d62e3-85d1-4a11-a082-878c6f7aca37">66</container>
               <container type="item" label="Item" parent="2e8d62e3-85d1-4a11-a082-878c6f7aca37">3</container>
-              <unittitle>Terrace, Kennedy Center, Washington DC <unitdate type="inclusive" normal="1993-01-27">January 27, 1993</unitdate></unittitle>
-            </did>
+              <unittitle>Terrace, Kennedy Center, Washington DC</unittitle><unitdate type="inclusive" normal="1993-01-27">January 27, 1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="c86d6b3d-b740-47ea-b093-a0a05eaafbf5">66</container>
               <container type="item" label="Item" parent="c86d6b3d-b740-47ea-b093-a0a05eaafbf5">3</container>
-              <unittitle>Sedalia, MO <unitdate type="inclusive" normal="1993-06-04/1993-06-05">June 4-5, 1993</unitdate></unittitle>
-            </did>
+              <unittitle>Sedalia, MO</unittitle><unitdate type="inclusive" normal="1993-06-04/1993-06-05">June 4-5, 1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="d82bd3d2-c880-4cf0-9413-abde31a94fb2">66</container>
               <container type="item" label="Item" parent="d82bd3d2-c880-4cf0-9413-abde31a94fb2">3</container>
-              <unittitle>Aspen Tent, 8 p.m. <unitdate type="inclusive" normal="1993-07-07">July 7, 1993</unitdate></unittitle>
-            </did>
+              <unittitle>Aspen Tent, 8 p.m.</unittitle><unitdate type="inclusive" normal="1993-07-07">July 7, 1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="d051a1d2-f37d-431f-8b3d-f9f5d342c480">66</container>
               <container type="item" label="Item" parent="d051a1d2-f37d-431f-8b3d-f9f5d342c480">3</container>
-              <unittitle>With Dick Hyman, Kerrytown <unitdate type="inclusive" normal="1993-11-06">November 6, 1993</unitdate></unittitle>
-            </did>
+              <unittitle>With Dick Hyman, Kerrytown</unittitle><unitdate type="inclusive" normal="1993-11-06">November 6, 1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="d9e08611-181a-4fe7-a4f9-ac44564cfe0c">66</container>
               <container type="item" label="Item" parent="d9e08611-181a-4fe7-a4f9-ac44564cfe0c">3</container>
-              <unittitle>Wigmore Hall, I <unitdate type="inclusive" normal="1994-03-04">March 4, 1994</unitdate></unittitle>
-            </did>
+              <unittitle>Wigmore Hall, I</unittitle><unitdate type="inclusive" normal="1994-03-04">March 4, 1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="4770f42e-871f-49e8-a237-52505d79aa4f">66</container>
               <container type="item" label="Item" parent="4770f42e-871f-49e8-a237-52505d79aa4f">3</container>
-              <unittitle>Wigmore Hall, II <unitdate type="inclusive" normal="1994-03-04">March 4, 1994</unitdate></unittitle>
-            </did>
+              <unittitle>Wigmore Hall, II</unittitle><unitdate type="inclusive" normal="1994-03-04">March 4, 1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="910b3476-d4be-41c6-8153-b2ee3c5ed951">66</container>
               <container type="item" label="Item" parent="910b3476-d4be-41c6-8153-b2ee3c5ed951">3</container>
-              <unittitle>Wigmore Hall, London <unitdate type="inclusive" normal="1994-03-04">March 4, 1994</unitdate></unittitle>
-            </did>
+              <unittitle>Wigmore Hall, London</unittitle><unitdate type="inclusive" normal="1994-03-04">March 4, 1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="66386973-3916-4c30-bded-19c86a757f4a">66</container>
               <container type="item" label="Item" parent="66386973-3916-4c30-bded-19c86a757f4a">3</container>
-              <unittitle>Wall to Wall Berlin Interview <unitdate type="inclusive" normal="1994-03-19">March 19, 1994</unitdate></unittitle>
-            </did>
+              <unittitle>Wall to Wall Berlin Interview</unittitle><unitdate type="inclusive" normal="1994-03-19">March 19, 1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="1ca65f07-bb5e-4e49-bcc0-51f0d28eff96">66</container>
               <container type="item" label="Item" parent="1ca65f07-bb5e-4e49-bcc0-51f0d28eff96">4</container>
-              <unittitle>Mohawk Trail, Robert White/Joan Morris <unitdate type="inclusive" normal="1994-08-20">August 20, 1994</unitdate> Part I</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Mohawk Trail, Robert White/Joan Morris  Part I</unittitle><unitdate type="inclusive" normal="1994-08-20">August 20, 1994</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 audiocassettes</extent>
               </physdesc>
             </did>
@@ -2541,8 +2307,7 @@
             <did>
               <container type="box" label="Box [3822382457153134167]" id="80b1aba0-df4a-4789-a97f-3e7acb368301">66</container>
               <container type="item" label="Item" parent="80b1aba0-df4a-4789-a97f-3e7acb368301">4</container>
-              <unittitle>Mohawk Trail, Robert White/Joan Morris <unitdate type="inclusive" normal="1994-08-20">August 20, 1994</unitdate> Part II</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Mohawk Trail, Robert White/Joan Morris  Part II</unittitle><unitdate type="inclusive" normal="1994-08-20">August 20, 1994</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 audiocassettes</extent>
               </physdesc>
             </did>
@@ -2551,15 +2316,13 @@
             <did>
               <container type="box" label="Box [3822382457153134167]" id="fab8edc7-d7ab-49dc-8e72-26cd1bdde80f">66</container>
               <container type="item" label="Item" parent="fab8edc7-d7ab-49dc-8e72-26cd1bdde80f">4</container>
-              <unittitle>Mohawk Trail, Robert White/Joan Morris <unitdate type="inclusive" normal="1994-08-20">August 20, 1994</unitdate></unittitle>
-            </did>
+              <unittitle>Mohawk Trail, Robert White/Joan Morris</unittitle><unitdate type="inclusive" normal="1994-08-20">August 20, 1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="2a923ea0-df57-4c1c-bece-f2bd23679a91">66</container>
               <container type="item" label="Item" parent="2a923ea0-df57-4c1c-bece-f2bd23679a91">4</container>
-              <unittitle>Ann Arbor Symphony Orchestra <unitdate type="inclusive" normal="1994-09-10">September 10, 1994</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Ann Arbor Symphony Orchestra</unittitle><unitdate type="inclusive" normal="1994-09-10">September 10, 1994</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 audiocassettes</extent>
               </physdesc>
             </did>
@@ -2568,8 +2331,7 @@
             <did>
               <container type="box" label="Box [3822382457153134167]" id="020f4f88-a617-4baa-99b6-9553f3836377">66</container>
               <container type="item" label="Item" parent="020f4f88-a617-4baa-99b6-9553f3836377">4</container>
-              <unittitle>The Cleveland Institute of Music, Darius Milhaud Society Presents, Madame Bovary <unitdate type="inclusive" normal="1995-03-19">March 19, 1995</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>The Cleveland Institute of Music, Darius Milhaud Society Presents, Madame Bovary</unittitle><unitdate type="inclusive" normal="1995-03-19">March 19, 1995</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 audiocassettes</extent>
               </physdesc>
             </did>
@@ -2578,15 +2340,13 @@
             <did>
               <container type="box" label="Box [3822382457153134167]" id="40c97d82-532d-48ea-bc86-ea1f53ac1af2">66</container>
               <container type="item" label="Item" parent="40c97d82-532d-48ea-bc86-ea1f53ac1af2">4</container>
-              <unittitle>Youmans <unitdate type="inclusive" normal="1995-08-15">August 15, 1995</unitdate></unittitle>
-            </did>
+              <unittitle>Youmans</unittitle><unitdate type="inclusive" normal="1995-08-15">August 15, 1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="cac23b07-b6a0-4e56-a9b9-1d302eac0b88">66</container>
               <container type="item" label="Item" parent="cac23b07-b6a0-4e56-a9b9-1d302eac0b88">4</container>
-              <unittitle>Chicago, Marriage and Love in the Songs of Irving Berlin <unitdate type="inclusive" normal="1995-11-11">November 11, 1995</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Chicago, Marriage and Love in the Songs of Irving Berlin</unittitle><unitdate type="inclusive" normal="1995-11-11">November 11, 1995</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 audiocassettes</extent>
               </physdesc>
             </did>
@@ -2595,15 +2355,13 @@
             <did>
               <container type="box" label="Box [3822382457153134167]" id="7aeca27a-b298-4db4-bb3d-260e814453b4">66</container>
               <container type="item" label="Item" parent="7aeca27a-b298-4db4-bb3d-260e814453b4">4</container>
-              <unittitle>Toledo, Peristyle <unitdate type="inclusive" normal="1995-11-18">November 18, 1995</unitdate></unittitle>
-            </did>
+              <unittitle>Toledo, Peristyle</unittitle><unitdate type="inclusive" normal="1995-11-18">November 18, 1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3822382457153134167]" id="80d0e28c-ae03-43eb-b3ba-558c7529ad6c">66</container>
               <container type="item" label="Item" parent="80d0e28c-ae03-43eb-b3ba-558c7529ad6c">4</container>
-              <unittitle>Cabaret, 92nd St. y, New York <unitdate type="inclusive" normal="1996-01-20">January 20, 1996</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Cabaret, 92nd St. y, New York</unittitle><unitdate type="inclusive" normal="1996-01-20">January 20, 1996</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 audiocassettes</extent>
               </physdesc>
             </did>
@@ -2612,71 +2370,61 @@
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="8e7b1523-aeb1-4ebb-9fa3-3821dfaabe09">67</container>
               <container type="item" label="Item" parent="8e7b1523-aeb1-4ebb-9fa3-3821dfaabe09">1</container>
-              <unittitle>Cabaret Production, Side 1 &amp; 2 <unitdate type="inclusive" normal="1996-02-25">February 25, 1996</unitdate></unittitle>
-            </did>
+              <unittitle>Cabaret Production, Side 1 &amp; 2</unittitle><unitdate type="inclusive" normal="1996-02-25">February 25, 1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="6b97fbd3-1943-4c04-ab25-9e7c62eb3b3f">67</container>
               <container type="item" label="Item" parent="6b97fbd3-1943-4c04-ab25-9e7c62eb3b3f">1</container>
-              <unittitle>Cabaret Production, Side 3 <unitdate type="inclusive" normal="1996-02-25">February 25, 1996</unitdate></unittitle>
-            </did>
+              <unittitle>Cabaret Production, Side 3</unittitle><unitdate type="inclusive" normal="1996-02-25">February 25, 1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="38d81f08-62a6-4234-bde4-33aacc268c1d">67</container>
               <container type="item" label="Item" parent="38d81f08-62a6-4234-bde4-33aacc268c1d">1</container>
-              <unittitle>Dancing Bear Music Series, Red, White &amp; Blue, Side A&amp;B <unitdate type="inclusive" normal="1996-05-18">May 18, 1996</unitdate></unittitle>
-            </did>
+              <unittitle>Dancing Bear Music Series, Red, White &amp; Blue, Side A&amp;B</unittitle><unitdate type="inclusive" normal="1996-05-18">May 18, 1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="92019671-d5f9-40b1-94ba-10205a70224a">67</container>
               <container type="item" label="Item" parent="92019671-d5f9-40b1-94ba-10205a70224a">1</container>
-              <unittitle>Dancing Bear Music Series, Red, White &amp; Blue, Side C <unitdate type="inclusive" normal="1996-05-18">May 18, 1996</unitdate></unittitle>
-            </did>
+              <unittitle>Dancing Bear Music Series, Red, White &amp; Blue, Side C</unittitle><unitdate type="inclusive" normal="1996-05-18">May 18, 1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="e445aecd-be07-436e-9d5a-415a622e4516">67</container>
               <container type="item" label="Item" parent="e445aecd-be07-436e-9d5a-415a622e4516">1</container>
-              <unittitle>Bolcom &amp; Morris <unitdate type="inclusive" normal="1996-07-03">July 3, 1996</unitdate></unittitle>
-            </did>
+              <unittitle>Bolcom &amp; Morris</unittitle><unitdate type="inclusive" normal="1996-07-03">July 3, 1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="88e911b1-13d3-46e6-974b-f6a90ab9b416">67</container>
               <container type="item" label="Item" parent="88e911b1-13d3-46e6-974b-f6a90ab9b416">1</container>
-              <unittitle>WHRO Benefit Concert, Norfolk, VA <unitdate type="inclusive" normal="1996-10-27">October 27, 1996</unitdate></unittitle>
-            </did>
+              <unittitle>WHRO Benefit Concert, Norfolk, VA</unittitle><unitdate type="inclusive" normal="1996-10-27">October 27, 1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="512507b8-15b3-4518-b5cf-b3686d7bb251">67</container>
               <container type="item" label="Item" parent="512507b8-15b3-4518-b5cf-b3686d7bb251">1</container>
-              <unittitle>Mohawk <unitdate type="inclusive" normal="1997-08">August 1997</unitdate></unittitle>
-            </did>
+              <unittitle>Mohawk</unittitle><unitdate type="inclusive" normal="1997-08">August 1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="da5aa486-4829-451a-ba01-8936c2f81c15">67</container>
               <container type="item" label="Item" parent="da5aa486-4829-451a-ba01-8936c2f81c15">1</container>
-              <unittitle>Mohawk <unitdate type="inclusive" normal="1997">1997</unitdate> Weinstein, August 1 &amp; 2, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <unittitle>Mohawk 1997 Weinstein, August 1 &amp; 2, 1997</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="01dde6e4-e739-4fc6-8442-cb73cf0f9a22">67</container>
               <container type="item" label="Item" parent="01dde6e4-e739-4fc6-8442-cb73cf0f9a22">1</container>
-              <unittitle>92nd St. Y, New York City <unitdate type="inclusive" normal="1997-12-02">December 2, 1997</unitdate></unittitle>
-            </did>
+              <unittitle>92nd St. Y, New York City</unittitle><unitdate type="inclusive" normal="1997-12-02">December 2, 1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="4d8ded8e-4bab-4a95-8c20-95abdbb474c8">67</container>
               <container type="item" label="Item" parent="4d8ded8e-4bab-4a95-8c20-95abdbb474c8">1</container>
-              <unittitle>NMC Music Department Presents <unitdate type="inclusive" normal="1998-05-02">May 2, 1998</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>NMC Music Department Presents</unittitle><unitdate type="inclusive" normal="1998-05-02">May 2, 1998</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 audiocassettes</extent>
               </physdesc>
             </did>
@@ -2685,22 +2433,19 @@
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="304792db-231e-4811-8e03-981d70d2fe98">67</container>
               <container type="item" label="Item" parent="304792db-231e-4811-8e03-981d70d2fe98">1</container>
-              <unittitle>Ravinia Festival, Martin Theatre <unitdate type="inclusive" normal="1998-06-15">June 15, 1998</unitdate></unittitle>
-            </did>
+              <unittitle>Ravinia Festival, Martin Theatre</unittitle><unitdate type="inclusive" normal="1998-06-15">June 15, 1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="40a6f011-1ccb-4c69-a41b-7eff72970ace">67</container>
               <container type="item" label="Item" parent="40a6f011-1ccb-4c69-a41b-7eff72970ace">1</container>
-              <unittitle>Tannery Pond Concerts <unitdate type="inclusive" normal="2001-07">July 2001</unitdate></unittitle>
-            </did>
+              <unittitle>Tannery Pond Concerts</unittitle><unitdate type="inclusive" normal="2001-07">July 2001</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="6c4045c6-ea87-42ac-bf58-86977d74de74">67</container>
               <container type="item" label="Item" parent="6c4045c6-ea87-42ac-bf58-86977d74de74">1</container>
-              <unittitle>U-C Berkeley <unitdate type="inclusive" normal="2005-04-18">April 18, 2005</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>U-C Berkeley</unittitle><unitdate type="inclusive" normal="2005-04-18">April 18, 2005</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 audiocassettes</extent>
               </physdesc>
             </did>
@@ -2709,8 +2454,7 @@
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="fb625e73-c7e2-4fe5-be72-df94d017a166">67</container>
               <container type="item" label="Item" parent="fb625e73-c7e2-4fe5-be72-df94d017a166">2</container>
-              <unittitle>Berlin Tribute, High Performance <unitdate type="inclusive">undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Berlin Tribute, High Performance</unittitle><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 audiocassettes</extent>
               </physdesc>
             </did>
@@ -2719,43 +2463,37 @@
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="782ead82-9e70-4e1d-b1cd-edd71a308d03">67</container>
               <container type="item" label="Item" parent="782ead82-9e70-4e1d-b1cd-edd71a308d03">2</container>
-              <unittitle>Coca Cola <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Coca Cola</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="0311b66b-0305-4703-8879-dfa02fb0675a">67</container>
               <container type="item" label="Item" parent="0311b66b-0305-4703-8879-dfa02fb0675a">2</container>
-              <unittitle>Don't Give the Name a Bad Place <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Don't Give the Name a Bad Place</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="93f06328-ada3-4b28-9ae6-48326f6f5527">67</container>
               <container type="item" label="Item" parent="93f06328-ada3-4b28-9ae6-48326f6f5527">2</container>
-              <unittitle>Rodgers &amp; Hart, CD <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Rodgers &amp; Hart, CD</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="863de49a-b865-4fd2-ab7d-cc8894374b10">67</container>
               <container type="item" label="Item" parent="863de49a-b865-4fd2-ab7d-cc8894374b10">2</container>
-              <unittitle>Session Takes <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Session Takes</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="354e6f38-cbc6-4fef-be95-e299d927c282">67</container>
               <container type="item" label="Item" parent="354e6f38-cbc6-4fef-be95-e299d927c282">2</container>
-              <unittitle>What'll I Do, etc. <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>What'll I Do, etc.</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="408ed71b-bec8-4571-9ebb-4e18edb753be">67</container>
               <container type="item" label="Item" parent="408ed71b-bec8-4571-9ebb-4e18edb753be">2</container>
-              <unittitle>Youmans, II <unitdate type="inclusive">undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Youmans, II</unittitle><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 audiocassettes</extent>
               </physdesc>
             </did>
@@ -2769,29 +2507,25 @@
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="9a246ea7-58a1-4599-a564-71a66ae246fa">67</container>
               <container type="item" label="Item" parent="9a246ea7-58a1-4599-a564-71a66ae246fa">2</container>
-              <unittitle>An Evening with Bolcom and Morris, Aspen Music Festival <unitdate type="inclusive" normal="1998-07-07">July 7, 1998</unitdate></unittitle>
-            </did>
+              <unittitle>An Evening with Bolcom and Morris, Aspen Music Festival</unittitle><unitdate type="inclusive" normal="1998-07-07">July 7, 1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="fc81f7c1-a68f-4a72-affe-b0bbfc3783b5">67</container>
               <container type="item" label="Item" parent="fc81f7c1-a68f-4a72-affe-b0bbfc3783b5">2</container>
-              <unittitle>Just a Wearying for You, The Man Who Broke the Bank at Monte Carlo <unitdate type="inclusive" normal="1993-11-26">November 26, 1993</unitdate></unittitle>
-            </did>
+              <unittitle>Just a Wearying for You, The Man Who Broke the Bank at Monte Carlo</unittitle><unitdate type="inclusive" normal="1993-11-26">November 26, 1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="196c5dbf-a3b3-4c97-9ee2-c30c737f432b">67</container>
               <container type="item" label="Item" parent="196c5dbf-a3b3-4c97-9ee2-c30c737f432b">2</container>
-              <unittitle>Lime Jello Crowd <unitdate type="inclusive" normal="2004-09-29">September 29, 2004</unitdate></unittitle>
-            </did>
+              <unittitle>Lime Jello Crowd</unittitle><unitdate type="inclusive" normal="2004-09-29">September 29, 2004</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="98cbb9b6-e929-43d1-bf0a-ff95a2e75807">67</container>
               <container type="item" label="Item" parent="98cbb9b6-e929-43d1-bf0a-ff95a2e75807">2</container>
-              <unittitle>Youmans II, First Edition <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Youmans II, First Edition</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -2802,8 +2536,7 @@
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="e99ec903-7dee-4579-828f-8fe054609fe5">67</container>
               <container type="item" label="Item" parent="e99ec903-7dee-4579-828f-8fe054609fe5">2</container>
-              <unittitle>Berkeley Concerts, <unitdate type="inclusive" normal="2005">Winter/Spring 2005</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Berkeley Concerts</unittitle><unitdate type="inclusive" normal="2005">Winter/Spring 2005</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 audiocassettes</extent>
               </physdesc>
             </did>
@@ -2826,15 +2559,13 @@
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="9dcae549-8f2c-4057-9eeb-e842e1e86957">67</container>
               <container type="item" label="Item" parent="9dcae549-8f2c-4057-9eeb-e842e1e86957">3</container>
-              <unittitle>Guelph Festival, recital <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-            </did>
+              <unittitle>Guelph Festival, recital</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="9f968ddb-052c-4682-9752-78d9cdf87235">67</container>
               <container type="item" label="Item" parent="9f968ddb-052c-4682-9752-78d9cdf87235">3</container>
-              <unittitle>Northeastern Illinois University Jewel Box Series, Let's Face the Music <unitdate type="inclusive" normal="2003-09-19">September 19, 2003</unitdate> (parts 1 and 2)</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Northeastern Illinois University Jewel Box Series, Let's Face the Music  (parts 1 and 2)</unittitle><unitdate type="inclusive" normal="2003-09-19">September 19, 2003</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 optical disks</extent>
                 <physfacet>CDs</physfacet>
               </physdesc>
@@ -2844,36 +2575,31 @@
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="ceeb4546-514b-4f90-a99a-950a5eebbfc4">67</container>
               <container type="item" label="Item" parent="ceeb4546-514b-4f90-a99a-950a5eebbfc4">3</container>
-              <unittitle>Sings Yip Harburg, with Morath <unitdate type="inclusive" normal="2003-09-26">September 26, 2003</unitdate></unittitle>
-            </did>
+              <unittitle>Sings Yip Harburg, with Morath</unittitle><unitdate type="inclusive" normal="2003-09-26">September 26, 2003</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="f9ab52a7-b7e4-43b7-9354-3525f0f1fd5e">67</container>
               <container type="item" label="Item" parent="f9ab52a7-b7e4-43b7-9354-3525f0f1fd5e">3</container>
-              <unittitle>Soundcheck, engineer, Irene Trudel <unitdate type="inclusive" normal="2004-05-11">May 11, 2004</unitdate></unittitle>
-            </did>
+              <unittitle>Soundcheck, engineer, Irene Trudel</unittitle><unitdate type="inclusive" normal="2004-05-11">May 11, 2004</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="b9410620-8a7f-422e-a832-bdde6a4c025b">67</container>
               <container type="item" label="Item" parent="b9410620-8a7f-422e-a832-bdde6a4c025b">3</container>
-              <unittitle>Kerrytown, Ann Arbor, Afternoon <unitdate type="inclusive" normal="2007-12">December 2007</unitdate></unittitle>
-            </did>
+              <unittitle>Kerrytown, Ann Arbor, Afternoon</unittitle><unitdate type="inclusive" normal="2007-12">December 2007</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="f93671b5-fa4d-4aae-81b4-76fe4e8bc9e1">67</container>
               <container type="item" label="Item" parent="f93671b5-fa4d-4aae-81b4-76fe4e8bc9e1">3</container>
-              <unittitle>Kerrytown, Ann Arbor, Evening <unitdate type="inclusive" normal="2007-12">December 2007</unitdate></unittitle>
-            </did>
+              <unittitle>Kerrytown, Ann Arbor, Evening</unittitle><unitdate type="inclusive" normal="2007-12">December 2007</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="76eb771c-761f-4930-92fe-93e28340b0c0">67</container>
               <container type="item" label="Item" parent="76eb771c-761f-4930-92fe-93e28340b0c0">3</container>
-              <unittitle>Distinguished Artist Series, Waco, Texas <unitdate type="inclusive" normal="2008-01-29">January 29, 2008</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Distinguished Artist Series, Waco, Texas</unittitle><unitdate type="inclusive" normal="2008-01-29">January 29, 2008</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 optical disks</extent>
                 <physfacet>CDs</physfacet>
               </physdesc>
@@ -2883,22 +2609,19 @@
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="25d6466d-0cda-458e-9cf3-777952d61bcb">67</container>
               <container type="item" label="Item" parent="25d6466d-0cda-458e-9cf3-777952d61bcb">3</container>
-              <unittitle>Swinging On A Star, Lancaster Festival <unitdate type="inclusive" normal="2008-07-21">July 21, 2008</unitdate></unittitle>
-            </did>
+              <unittitle>Swinging On A Star, Lancaster Festival</unittitle><unitdate type="inclusive" normal="2008-07-21">July 21, 2008</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="e3fb1c1d-d15e-4226-bcd4-b9ffdeaab921">67</container>
               <container type="item" label="Item" parent="e3fb1c1d-d15e-4226-bcd4-b9ffdeaab921">3</container>
-              <unittitle>Kerrytown Concert House <unitdate type="inclusive" normal="2008-12-06">December 6, 2008</unitdate></unittitle>
-            </did>
+              <unittitle>Kerrytown Concert House</unittitle><unitdate type="inclusive" normal="2008-12-06">December 6, 2008</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9610009643402863083581347640]" id="9b8be182-0a49-4e5c-9127-baa95111af60">67</container>
               <container type="item" label="Item" parent="9b8be182-0a49-4e5c-9127-baa95111af60">3</container>
-              <unittitle>Vocal Pieces, Concert <unitdate type="inclusive" normal="2009-11-22">November 22, 2009</unitdate></unittitle>
-            </did>
+              <unittitle>Vocal Pieces, Concert</unittitle><unitdate type="inclusive" normal="2009-11-22">November 22, 2009</unitdate></did>
           </c03>
         </c02>
       </c01>

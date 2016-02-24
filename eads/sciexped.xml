@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,10 +44,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Scientific Expedition to Lake Superior (1868)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5478">University of Michigan. Scientific Expedition to Lake Superior (1868)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Scientific Expedition to Lake Superior photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1868">1868</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92132 UBimu C450 2</unitid>
+      <unittitle encodinganalog="245">Scientific Expedition to Lake Superior photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1868">1868</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92132 UBimu C450 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Stereoscopic photos from a scientific expedition to Michigan's upper peninsula and Lake Superior in 1868 organized by Albert E. Foote, assistant in the University of Michigan Chemistry Laboratory; includes views of the expedition's boats and camps, natural features including the Pictured Rocks and waterfalls, mining operations, Indians, ships, and a lighthouse.</abstract>
       <physdesc altrender="whole">
@@ -89,29 +89,29 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Boats.</subject>
-        <subject source="lctgm" encodinganalog="650">Camping.</subject>
-        <subject source="lctgm" encodinganalog="650">Copper mining.</subject>
-        <subject source="lcsh" encodinganalog="650">Indians of North America.</subject>
-        <subject source="lctgm" encodinganalog="650">Iron industry.</subject>
-        <geogname source="lcsh" encodinganalog="651">Isle Royale (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Lighthouses--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Marquette (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Munising (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82062810">Negaunee (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81144381">Ontonagon County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Pictured Rocks (Mich.)--1868.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Schoolcraft Iron Company.</corpname>
-        <subject source="lctgm" encodinganalog="650">Expeditions and surveys.</subject>
-        <subject source="lctgm" encodinganalog="650">Ships--Great Lakes.</subject>
-        <geogname source="lcsh" encodinganalog="651">Superior, Lake.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Scientific Expedition to Lake Superior (1868)</corpname>
-        <subject source="lcsh" encodinganalog="650">Waterfalls.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3741">Boats.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3650">Camping.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4179">Copper mining.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6751">Indians of North America.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5277">Iron industry.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1691">Isle Royale (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3832">Lighthouses--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/993">Marquette (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1166">Munising (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82062810" ref="/subjects/1169">Negaunee (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81144381" ref="/subjects/2093">Ontonagon County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2784">Pictured Rocks (Mich.)--1868.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3708">Schoolcraft Iron Company.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3860">Expeditions and surveys.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3979">Ships--Great Lakes.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1435">Superior, Lake.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5478">University of Michigan. Scientific Expedition to Lake Superior (1868)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10034">Waterfalls.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="lctgm" encodinganalog="655">Stereographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="lctgm" encodinganalog="655" ref="/subjects/3424">Stereographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -439,8 +439,7 @@
         <c02 level="file">
           <did>
             <container type="folder" label="Folder [07215924957674948163]">13</container>
-            <unittitle>Notes on the Expedition by F. Clever Bald <unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></unittitle>
-          </did>
+            <unittitle>Notes on the Expedition by F. Clever Bald</unittitle><unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></did>
           <odd>
             <p>(includes some extracts form Alexander Winchell journals)</p>
           </odd>

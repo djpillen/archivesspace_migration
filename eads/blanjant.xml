@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Blanchard, Janet.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/7707">Blanchard, Janet.</persname>
       </origination>
-      <unittitle encodinganalog="245">Janet Blanchard Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1987/1990">1987-1990</unitdate></unittitle>
-      <abstract>Career state government worker, later wife of Michigan governor James J. Blanchard. Files detailing her career in state government and her later duties as wife of Michigan governor James J. Blanchard, 1989-1990. The collection includes extensive documentation of the Governor's Task Force on Telecommunications (1990) on which she served.</abstract>
+      <unittitle encodinganalog="245">Janet Blanchard Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1987/1990">1987-1990</unitdate><abstract>Career state government worker, later wife of Michigan governor James J. Blanchard. Files detailing her career in state government and her later duties as wife of Michigan governor James J. Blanchard, 1989-1990. The collection includes extensive documentation of the Governor's Task Force on Telecommunications (1990) on which she served.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">028 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -78,24 +78,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Blanchard, Janet.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85203480">Blanchard, James J., 1942-</persname>
-        <subject source="lcsh" encodinganalog="650">Governors' spouses--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85203482">Michigan. Governor (1983-1991 : Blanchard)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93036919">Michigan. Governor's Telecommunication Task Force.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7707">Blanchard, Janet.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85203480" ref="/agents/people/318">Blanchard, James J., 1942-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6371">Governors' spouses--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85203482" ref="/agents/corporate_entities/4433">Michigan. Governor (1983-1991 : Blanchard)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93036919" ref="/agents/corporate_entities/5498">Michigan. Governor's Telecommunication Task Force.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6372">Women--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Blanchard, Janet.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Information Technology Network, Inc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Children's Trust Fund for the Prevention of Child Abuse.</corpname>
-        <subject source="lctgm" encodinganalog="650">Schools--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7707">Blanchard, Janet.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5543">Michigan Information Technology Network, Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3802">Children's Trust Fund for the Prevention of Child Abuse.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3839">Schools--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3134">Videotapes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,8 +112,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [450114798157589504]">1</container>
-            <unittitle>Clippings <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
               <physfacet>mainly photocopies</physfacet>
             </physdesc>
@@ -134,8 +133,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [450114798157589504]">1</container>
-            <unittitle>Letter from Yousuf Karsh <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <unittitle>Letter from Yousuf Karsh</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -157,20 +155,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [450114798157589504]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [450114798157589504]">1</container>
-            <unittitle>Cabinet Council on Human Investment <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-          </did>
+            <unittitle>Cabinet Council on Human Investment</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [450114798157589504]">1</container>
-            <unittitle>Janet Fox/James Blanchard engagement <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <unittitle>Janet Fox/James Blanchard engagement</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -198,8 +193,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [450114798157589504]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">15 folders</extent>
               </physdesc>
             </did>
@@ -221,14 +215,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57535059345329852535974]">2</container>
-              <unittitle>Child care initiatives (include Governor's Task Force on Child Care) <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
-            </did>
+              <unittitle>Child care initiatives (include Governor's Task Force on Child Care)</unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [57535059345329852535974]">2</container>
-              <unittitle>Children's Trust Fund papers and <genreform source="aat" normal="Videotapes">videotapes</genreform>, <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
-              <physdesc altrender="part">
+              <unittitle>Children's Trust Fund papers and <genreform source="aat" normal="Videotapes">videotapes</genreform></unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -256,8 +248,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [57535059345329852535974]">2</container>
-                <unittitle>Current infrastructure assessment <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Current infrastructure assessment</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">7 folders</extent>
                 </physdesc>
               </did>
@@ -265,8 +256,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [57535059345329852535974]">2</container>
-                <unittitle>Deliverables draft text <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Deliverables draft text</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">8 folders</extent>
                 </physdesc>
               </did>
@@ -274,8 +264,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [57535059345329852535974]">2</container>
-                <unittitle>EDS and task force recommendations <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-              </did>
+                <unittitle>EDS and task force recommendations</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -292,8 +281,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [57535059345329852535974]">2</container>
-                <unittitle>Implementation strategies-draft report <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-              </did>
+                <unittitle>Implementation strategies-draft report</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -319,15 +307,13 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [57535059345329852535974]">2</container>
-                <unittitle>Recommended strategies-draft report <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-              </did>
+                <unittitle>Recommended strategies-draft report</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [57535059345329852535974]">2</container>
-              <unittitle>Michigan 4-H Foundation <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan 4-H Foundation</unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -343,14 +329,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5127834670617984112]">3</container>
-              <unittitle>Event files <unitdate type="inclusive" normal="1989-09/1990-07">September 1989-July 1990</unitdate></unittitle>
-            </did>
+              <unittitle>Event files</unittitle><unitdate type="inclusive" normal="1989-09/1990-07">September 1989-July 1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [8914456904063432332356854]">4</container>
-              <unittitle>Event files <unitdate type="inclusive" normal="1990-07/1990-11">July 1990-November 1990</unitdate></unittitle>
-            </did>
+              <unittitle>Event files</unittitle><unitdate type="inclusive" normal="1990-07/1990-11">July 1990-November 1990</unitdate></did>
           </c03>
         </c02>
       </c01>

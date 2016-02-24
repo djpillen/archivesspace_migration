@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Huddleston, Eugene L., 1931-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6462">Huddleston, Eugene L., 1931-</persname>
       </origination>
-      <unittitle encodinganalog="245">Eugene L. Huddleston collection of railroad slides <unitdate type="inclusive" encodinganalog="245$f" normal="1950/1999" certainty="approximate">1950s-1990s</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010221 Aa 2</unitid>
+      <unittitle encodinganalog="245">Eugene L. Huddleston collection of railroad slides</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1950/1999" certainty="approximate">1950s-1990s</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010221 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Historian of the Chesapeake &amp; Ohio Railroad; color slides documenting the C&amp;O Railroad in Michigan, West Virginia, Kentucky, and Ohio.</abstract>
       <physdesc altrender="whole">
@@ -84,17 +84,17 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Chesapeake and Ohio Railway Company.</corpname>
-        <subject source="lctgm" encodinganalog="650">Railroads--Kentucky.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroads--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroads--Ontario.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroads--Virginia.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroads--West Virginia.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5692">Chesapeake and Ohio Railway Company.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4546">Railroads--Kentucky.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3837">Railroads--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4547">Railroads--Ontario.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4548">Railroads--Virginia.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4549">Railroads--West Virginia.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655" normal="Slides (photographs)">Slides (photographs)</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" normal="Slides (photographs)" ref="/subjects/3242">Slides (photographs)</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

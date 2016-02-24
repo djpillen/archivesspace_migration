@@ -7,7 +7,6 @@ from pre_aspace_cleanup.fetch_dspace_mets import fetch_dspace_mets
 from pre_aspace_cleanup.note_to_odd import note_to_odd
 from pre_aspace_cleanup.move_odds import move_odds
 from pre_aspace_cleanup.move_daos import move_daos
-from pre_aspace_cleanup.dspace_abstract_to_odd import dspace_abstract_to_odd
 from pre_aspace_cleanup.remove_and_between_dates import remove_and_between_dates
 from pre_aspace_cleanup.remove_extent_parens import remove_extent_parens
 from pre_aspace_cleanup.remove_expired_restrictions import remove_expired_restrictions
@@ -22,7 +21,6 @@ def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir):
 	note_to_odd(ead_dir)
 	move_odds(ead_dir)
 	move_daos(ead_dir)
-	dspace_abstract_to_odd(ead_dir, dspace_mets_dir)
 	remove_and_between_dates(ead_dir)
 	remove_extent_parens(ead_dir)
 	remove_expired_restrictions(ead_dir)

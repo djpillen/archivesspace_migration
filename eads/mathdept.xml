@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243">University of Michigan. Dept. of Mathematics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243" ref="/agents/corporate_entities/493">University of Michigan. Dept. of Mathematics.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Dept. of Mathematics (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1913/1981">1913-1981</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1935/1981">1935-1981</unitdate></unittitle>
-      <abstract>Records include administrative files, committee minutes, reminiscences of faculty members Wilfred Kaplan and Raymond Wilder, material relating to various undergraduate mathematics clubs, and photographs of faculty.</abstract>
+      <unittitle encodinganalog="245">Dept. of Mathematics (University of Michigan) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1913/1981">1913-1981</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1935/1981">1935-1981</unitdate><abstract>Records include administrative files, committee minutes, reminiscences of faculty members Wilfred Kaplan and Raymond Wilder, material relating to various undergraduate mathematics clubs, and photographs of faculty.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">90204 Bimu C26 2 UBImum C26</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -95,20 +95,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ishango Society of Mathematics (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Undergraduate Math Club (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243">University of Michigan. Dept. of Mathematics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3934">Ishango Society of Mathematics (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5568">Undergraduate Math Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243" ref="/agents/corporate_entities/493">University of Michigan. Dept. of Mathematics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students.<term type="topical">Students.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243">University of Michigan. Dept. of Mathematics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243" ref="/agents/corporate_entities/493">University of Michigan. Dept. of Mathematics.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -130,10 +130,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [16011884681157022570]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1929/1974">1929-1974</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1929/1974">1929-1974</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">43 folders</extent>
                 </physdesc>
               </did>
@@ -141,10 +138,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [16011884681157022570]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -154,10 +148,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [16011884681157022570]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958/1977">1958-1977</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1958/1977">1958-1977</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -168,8 +159,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [16011884681157022570]">1</container>
-              <unittitle>"Mathematics at the University of Michigan," by Wilfred Kaplan (includes listing of faculty, <unitdate normal="1841/1988" type="inclusive">1841-1988</unitdate>)</unittitle>
-            </did>
+              <unittitle>"Mathematics at the University of Michigan," by Wilfred Kaplan (includes listing of faculty, )</unittitle><unitdate normal="1841/1988" type="inclusive">1841-1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -183,8 +173,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [16011884681157022570]">1</container>
-              <unittitle>Wilder, Raymond L. <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <unittitle>Wilder, Raymond L.</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
             <odd>
               <p>(transcript of <genreform normal="oral history">oral history</genreform> done with Wilder)</p>
             </odd>
@@ -197,8 +186,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [16011884681157022570]">1</container>
-              <unittitle>Ishango Society of Mathematics <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <unittitle>Ishango Society of Mathematics</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
             <odd>
               <p>(Black Graduate Students in Mathematics)</p>
             </odd>
@@ -210,14 +198,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [16011884681157022570]">1</container>
-                <unittitle>Minute book <unitdate type="inclusive" normal="1913/1937">1913-1937</unitdate></unittitle>
-              </did>
+                <unittitle>Minute book</unittitle><unitdate type="inclusive" normal="1913/1937">1913-1937</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [16011884681157022570]">1</container>
-                <unittitle>Miscellaneous <unitdate type="inclusive" normal="1924/1973">1924-1973</unitdate></unittitle>
-              </did>
+                <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1924/1973">1924-1973</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -231,18 +217,14 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Executive Committee <unitdate type="inclusive" normal="1935/1981">1935-1981</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Executive Committee</unittitle><unitdate type="inclusive" normal="1935/1981">1935-1981</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 folders</extent>
             </physdesc>
           </did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [627120704687893326]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935/1969">1935-1969</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1935/1969">1935-1969</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
@@ -250,31 +232,27 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0094035485992357178]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969/1981">1969-1981</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1969/1981">1969-1981</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Appendices <unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Appendices</unittitle><unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0094035485992357178]">3</container>
-                <unittitle>folders 1-3</unittitle>
+                <unittitle>Folders 1-3</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6585556924496939178604]">4</container>
-                <unittitle>folders 4-5</unittitle>
+                <unittitle>Folders 4-5</unittitle>
               </did>
             </c04>
           </c03>
@@ -282,8 +260,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6585556924496939178604]">4</container>
-            <unittitle>Faculty <unitdate type="inclusive" normal="1934/1980">1934-1980</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Faculty</unittitle><unitdate type="inclusive" normal="1934/1980">1934-1980</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>
@@ -291,8 +268,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6585556924496939178604]">4</container>
-            <unittitle>Internal Review <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-          </did>
+            <unittitle>Internal Review</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">

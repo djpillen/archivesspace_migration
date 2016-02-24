@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Leonard, Justin W., 1909-1975.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3048">Leonard, Justin W., 1909-1975.</persname>
       </origination>
-      <unittitle encodinganalog="245">Justin W. Leonard Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1937/1975">1937-1975</unitdate></unittitle>
-      <abstract>Conservationist, professor of natural resources at the University of Michigan. Professional files, including correspondence, speeches, and newspaper clippings; letters to his wife, 1943-1946, while in military service stationed in the Solomon Islands during World War II; and photographs.</abstract>
+      <unittitle encodinganalog="245">Justin W. Leonard Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1937/1975">1937-1975</unitdate><abstract>Conservationist, professor of natural resources at the University of Michigan. Professional files, including correspondence, speeches, and newspaper clippings; letters to his wife, 1943-1946, while in military service stationed in the Solomon Islands during World War II; and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85253 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>offsite storage; prior notification required for access</physloc>
@@ -91,22 +91,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Conservation of natural resources--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600">Leonard, Justin W., 1909-1975.</persname>
-        <subject source="lcsh" encodinganalog="650">Natural resources--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5816">Conservation of natural resources--United States.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3048">Leonard, Justin W., 1909-1975.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7972">Natural resources--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/1961">University of Michigan. School of Natural Resources.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Leonard, Justin W., 1909-1975.</persname>
-        <subject source="lctgm" encodinganalog="650">Conservation of natural resources--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3048">Leonard, Justin W., 1909-1975.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4105">Conservation of natural resources--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/1961">University of Michigan. School of Natural Resources.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -120,8 +120,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [61058987476850688364]">1</container>
-            <unittitle>Letters to his wife and others from the Pacific Theater <unitdate type="inclusive" normal="1943/1946-05">1943-May 1946</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Letters to his wife and others from the Pacific Theater</unittitle><unitdate type="inclusive" normal="1943/1946-05">1943-May 1946</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">26 folders</extent>
             </physdesc>
           </did>
@@ -155,11 +154,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [61058987476850688364]">1</container>
-            <unittitle>
-              <unitdate>Undated</unitdate>
-              <unitdate type="inclusive" normal="1930/1962" certainty="approximate">1930s-1962</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate>Undated</unitdate><unitdate type="inclusive" normal="1930/1962" certainty="approximate">1930s-1962</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">17 folders</extent>
             </physdesc>
           </did>
@@ -167,10 +162,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [084774241780363013]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963/1975">1963-1975</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1963/1975">1963-1975</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">13 folders</extent>
             </physdesc>
           </did>
@@ -195,8 +187,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [084774241780363013]">2</container>
-            <unittitle>Clippings <unitdate>undated</unitdate>, <unitdate type="inclusive" normal="1930/1979" certainty="approximate">1930s-1970s</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Clippings</unittitle><unitdate>undated</unitdate><unitdate type="inclusive" normal="1930/1979" certainty="approximate">1930s-1970s</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -204,14 +195,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [084774241780363013]">2</container>
-            <unittitle>Drummond Hunt (humorous description) <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <unittitle>Drummond Hunt (humorous description)</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [084774241780363013]">2</container>
-            <unittitle>Huron Mountain Wildlife Foundation printed materials <unitdate type="inclusive" normal="1971/1975">1971-1975</unitdate></unittitle>
-          </did>
+            <unittitle>Huron Mountain Wildlife Foundation printed materials</unittitle><unitdate type="inclusive" normal="1971/1975">1971-1975</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -228,8 +217,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [084774241780363013]">2</container>
-            <unittitle>Michigan Hunters and Anglers Association-speech of Cassell Pursell <unitdate type="inclusive" normal="1952-05">May 1952</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Hunters and Anglers Association-speech of Cassell Pursell</unittitle><unitdate type="inclusive" normal="1952-05">May 1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -246,8 +234,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [084774241780363013]">2</container>
-            <unittitle>Speeches <unitdate>undated</unitdate>, <unitdate type="inclusive" normal="1940/1979" certainty="approximate">1940s-1970s</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Speeches</unittitle><unitdate>undated</unitdate><unitdate type="inclusive" normal="1940/1979" certainty="approximate">1940s-1970s</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
@@ -255,14 +242,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [084774241780363013]">2</container>
-            <unittitle>Trip <unitdate type="inclusive" normal="1971">1971</unitdate> to Tahiti, Australia, S.E. Asia, India, Europe-description</unittitle>
-          </did>
+            <unittitle>Trip  to Tahiti, Australia, S.E. Asia, India, Europe-description</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [084774241780363013]">2</container>
-            <unittitle>TV appearance--account in UM News <unitdate type="inclusive" normal="1970-10-15">October 15, 1970</unitdate></unittitle>
-          </did>
+            <unittitle>TV appearance--account in UM News</unittitle><unitdate type="inclusive" normal="1970-10-15">October 15, 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -306,8 +291,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [084774241780363013]">2</container>
-              <unittitle>Department of Biology- <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate> Annual Report</unittitle>
-            </did>
+              <unittitle>Department of Biology-  Annual Report</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -316,26 +300,22 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [084774241780363013]">2</container>
-                <unittitle><unitdate type="inclusive" normal="1964">1964</unitdate> Dean selection committee and merger of Fisheries and Wildlife-notes and printed material</unittitle>
-              </did>
+                <unittitle>Dean selection committee and merger of Fisheries and Wildlife-notes and printed material</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [084774241780363013]">2</container>
-                <unittitle><unitdate type="inclusive" normal="1965">1965</unitdate> Department of Wildlife and Fisheries-printed material</unittitle>
-              </did>
+                <unittitle>Department of Wildlife and Fisheries-printed material</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [084774241780363013]">2</container>
-                <unittitle><unitdate type="inclusive" normal="1967">1967</unitdate> Department of Conservation-printed material</unittitle>
-              </did>
+                <unittitle>Department of Conservation-printed material</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [084774241780363013]">2</container>
-                <unittitle><unitdate type="inclusive" normal="1973">1973</unitdate> Leonard as substitute Dean-notes and printed material</unittitle>
-              </did>
+                <unittitle>Leonard as substitute Dean-notes and printed material</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -510,8 +490,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [504466348639734743767]">6</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

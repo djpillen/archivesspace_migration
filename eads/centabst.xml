@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Central Title Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3675">Central Title Service.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Central Title Service records <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1989" certainty="approximate">1880s-1980s</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0532 Bb 2</unitid>
+      <unittitle encodinganalog="245">Central Title Service records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1880/1989" certainty="approximate">1880s-1980s</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0532 Bb 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor title insurance company. The record group consists of packets of title abstracts for named subdivisions and additions in Ann Arbor, Ypsilanti, Saline, Dexter, and other communities in Washtenaw County. The principal series is arranged alphabetically by name of subdivision with a smaller series of miscellaneous (largely unnamed) parcels of property in Ann Arbor and Ypsilanti (with a scattering of other cities and villages included.</abstract>
       <physdesc altrender="whole">
@@ -68,13 +68,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Real property--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Real property--Michigan--Chelsea.</subject>
-        <subject source="lcsh" encodinganalog="650">Real property--Michigan--Dexter.</subject>
-        <subject source="lcsh" encodinganalog="650">Real property--Michigan--Saline.</subject>
-        <subject source="lcsh" encodinganalog="650">Real property--Michigan--Ypsilanti.</subject>
-        <subject source="lcsh" encodinganalog="650">Real property--Michigan--Ypsilanti (Township)</subject>
-        <subject source="lcsh" encodinganalog="650">Real property--Michigan--Washtenaw County.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6724">Real property--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6725">Real property--Michigan--Chelsea.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6726">Real property--Michigan--Dexter.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6727">Real property--Michigan--Saline.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6728">Real property--Michigan--Ypsilanti.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6729">Real property--Michigan--Ypsilanti (Township)</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6730">Real property--Michigan--Washtenaw County.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

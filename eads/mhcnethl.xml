@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Historical Collections.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5644">Michigan Historical Collections.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Immigration Sources Project (Netherlands) records <unitdate type="inclusive" encodinganalog="245$f" normal="1850/1933" certainty="approximate">circa 1850-1933</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87201 Bimu C445 2</unitid>
+      <unittitle encodinganalog="245">Immigration Sources Project (Netherlands) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1850/1933" certainty="approximate">circa 1850-1933</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87201 Bimu C445 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Papers collected in the Netherlands under the auspices of the Immigration Sources Project of the Michigan Historical Collections. Copies of letters and other materials of Dutch immigrants to Michigan written to friends and relatives in the Netherlands.</abstract>
       <physdesc altrender="whole">
@@ -78,27 +78,27 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Allegan (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n91067689">Borculo (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081922">Coopersville (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82269216">Drenthe (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Dutch Americans--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">East Saugatuck (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Forest Grove (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no93013962">Graafschap (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82105515">Grand Haven (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151">Grand Rapids (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Holland (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82068153">Hudsonville (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n87843794">Jamestown (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Kalamazoo (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Muskegon (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Noordeloos (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82257590">Vriesland (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82062812">Zeeland (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Emigration and immigration.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Netherlands--Emigration and immigration.</geogname>
-        <subject source="lcsh" encodinganalog="650">Immigrants--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1026">Allegan (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n91067689" ref="/subjects/2333">Borculo (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081922" ref="/subjects/2334">Coopersville (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82269216" ref="/subjects/2335">Drenthe (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6040">Dutch Americans--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2336">East Saugatuck (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2337">Forest Grove (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no93013962" ref="/subjects/2338">Graafschap (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82105515" ref="/subjects/1096">Grand Haven (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151" ref="/subjects/1098">Grand Rapids (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1115">Holland (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82068153" ref="/subjects/2339">Hudsonville (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n87843794" ref="/subjects/2340">Jamestown (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/976">Kalamazoo (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1167">Muskegon (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2341">Noordeloos (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82257590" ref="/subjects/2342">Vriesland (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82062812" ref="/subjects/1364">Zeeland (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/859">Michigan--Emigration and immigration.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1688">Netherlands--Emigration and immigration.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5687">Immigrants--Michigan.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

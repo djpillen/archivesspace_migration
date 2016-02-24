@@ -27,7 +27,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Barnett, Douglas.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4468">Barnett, Douglas.</persname>
       </origination>
-      <unittitle encodinganalog="245">Doug Barnett Photographs and Scrapbooks <unitdate type="inclusive" encodinganalog="245$f" normal="1948/2001">1948-2001</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0450 Aa 2</unitid>
+      <unittitle encodinganalog="245">Doug Barnett Photographs and Scrapbooks</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1948/2001">1948-2001</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0450 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>An avid University of Michigan Hockey fan, Douglas Barnett served as official timer at hockey games from 1958 to 1983, and was a founding member of the Dekers club, a hockey booster group. The collection includes memorabilia and photographs collected over more than 40 seasons, much of it relates to the Dekers Hall of Fame. Barnett worked for the University of Michigan Mail Service and scrapbooks containing photos of mail service staff, equipment, facilities, staff events, and clippings.</abstract>
       <physdesc altrender="part">
@@ -95,18 +95,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Barnett, Douglas.</persname>
-        <subject source="lctgm" encodinganalog="650">Ice hockey--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Postal service--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Hockey.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Employees.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Dekers Blue Line Club.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Mail Service.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4468">Barnett, Douglas.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3778">Ice hockey--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3779">Postal service--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Hockey.<term type="topical">Hockey.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Employees.<term type="topical">Employees.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2966">Dekers Blue Line Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1594">University of Michigan. University Mail Service.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -235,8 +235,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [594045092416016]">1</container>
-              <unittitle>Reunion -- <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-            </did>
+              <unittitle>Reunion --</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -264,10 +263,7 @@
             </did>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1969">1969</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1969">1969</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [594045092416016]">1</container>
@@ -283,8 +279,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle><unitdate type="inclusive" normal="1975">1975</unitdate> Induction</unittitle>
-              </did>
+                <unittitle>Induction</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [594045092416016]">1</container>
@@ -300,10 +295,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1976">1976</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1976">1976</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [594045092416016]">1</container>
@@ -313,10 +305,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1977">1977</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1977">1977</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [594045092416016]">1</container>
@@ -362,10 +351,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1978">1978</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1978">1978</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [594045092416016]">1</container>
@@ -393,10 +379,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1979">1979</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1979">1979</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [594045092416016]">1</container>
@@ -439,10 +422,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1981">1981</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1981">1981</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [594045092416016]">1</container>
@@ -503,10 +483,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1986">1986</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1986">1986</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [594045092416016]">1</container>
@@ -525,10 +502,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1988">1988</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1988">1988</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [594045092416016]">1</container>
@@ -538,10 +512,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1990">1990</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1990">1990</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [594045092416016]">1</container>
@@ -581,10 +552,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1991">1991</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1991">1991</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [594045092416016]">1</container>
@@ -672,10 +640,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1992">1992</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1992">1992</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [594045092416016]">1</container>
@@ -709,10 +674,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1993">1993</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1993">1993</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [594045092416016]">1</container>
@@ -1229,8 +1191,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [594045092416016]">1</container>
-                <unittitle>First team -- <unitdate type="inclusive" normal="1982">1982 (scattered)</unitdate></unittitle>
-              </did>
+                <unittitle>First team --</unittitle><unitdate type="inclusive" normal="1982">1982 (scattered)</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">

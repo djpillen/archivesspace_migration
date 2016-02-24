@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Natural Areas Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1071">Michigan Natural Areas Council.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Michigan Natural Areas Council Records <unitdate type="inclusive" encodinganalog="245$f" normal="1938/2005">1938-2005</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1952/1990">1952-1990</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">9418 Bn 2</unitid>
+      <unittitle encodinganalog="245">Michigan Natural Areas Council Records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1938/2005">1938-2005</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1952/1990">1952-1990</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">9418 Bn 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The Michigan Natural Areas Council papers document environmental advocacy activities in Michigan from the mid 1940s through 2003. The record group includes numerous reports and articles on natural areas in Michigan, legislative proceedings regarding those areas, photos, slides, correspondence between Michigan’s myriad environmental groups, data collected on the natural areas, and maps.</abstract>
       <physdesc altrender="whole">
@@ -91,35 +91,34 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Botany--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Conservation of natural resources--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Sand dunes--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Environmental protection--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Natural Areas Council.</corpname>
-        <subject source="lcsh" encodinganalog="650">Natural areas--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Prairies--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Sleeping Bear Dunes (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9409">Botany--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6195">Conservation of natural resources--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9410">Sand dunes--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6632">Environmental protection--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1071">Michigan Natural Areas Council.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9336">Natural areas--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9411">Prairies--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1002">Sleeping Bear Dunes (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lcsh" encodinganalog="651">Cheboygan State Park (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Conservation of natural resources--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Dunes--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Huron Mountains (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Ludington State Park (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Natural Areas Council.</corpname>
-        <subject source="lcsh" encodinganalog="650">Natural areas--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2385">Cheboygan State Park (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4009">Conservation of natural resources--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4972">Dunes--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2386">Huron Mountains (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2387">Ludington State Park (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1071">Michigan Natural Areas Council.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9336">Natural areas--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Administrative Files <unitdate type="inclusive" normal="1944/1995">1944-1995</unitdate></unittitle>
-        </did>
+          <unittitle>Administrative Files</unittitle><unitdate type="inclusive" normal="1944/1995">1944-1995</unitdate></did>
         <scopecontent>
           <p>The Background/Historical files (0.2 linear feet). A set of topical files, this subseries includes records relating to the Natural Areas Committee of the Michigan Botanical Club (MBC), its formation, and its break from the MBC. This subseries includes correspondence, meeting minutes, and manuscript and printed histories.</p>
         </scopecontent>
@@ -130,8 +129,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [2446414762929056067]">1</container>
-              <unittitle>Background Materials <unitdate type="inclusive" normal="1949/1970">1949-1970</unitdate> scattered</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Background Materials  scattered</unittitle><unitdate type="inclusive" normal="1949/1970">1949-1970</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -139,8 +137,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [2446414762929056067]">1</container>
-              <unittitle>Bylaws, Constitution &amp; Structure <unitdate type="inclusive" normal="1954/1995">1954-1995</unitdate> scattered</unittitle>
-            </did>
+              <unittitle>Bylaws, Constitution &amp; Structure  scattered</unittitle><unitdate type="inclusive" normal="1954/1995">1954-1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -149,8 +146,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2446414762929056067]">1</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1944/1951">1944-1951</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1944/1951">1944-1951</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
@@ -158,37 +154,30 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2446414762929056067]">1</container>
-                <unittitle>Meeting Minutes <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
-              </did>
+                <unittitle>Meeting Minutes</unittitle><unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2446414762929056067]">1</container>
-              <unittitle>Policies and Standards <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-            </did>
+              <unittitle>Policies and Standards</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2446414762929056067]">1</container>
-              <unittitle>Printed Histories <unitdate type="inclusive" normal="1951/1993">1951-1993</unitdate> scattered</unittitle>
-            </did>
+              <unittitle>Printed Histories  scattered</unittitle><unitdate type="inclusive" normal="1951/1993">1951-1993</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Chronological <unitdate type="inclusive" normal="1946/1990">1946-1990</unitdate></unittitle>
-          </did>
+            <unittitle>Chronological</unittitle><unitdate type="inclusive" normal="1946/1990">1946-1990</unitdate></did>
           <scopecontent>
             <p>The Chronological files subseries (2.2 linear feet) consists of former chairman George Thomson's chronologically-arranged files and includes correspondence, minutes, notes, reports, newspaper clippings, and maps.</p>
           </scopecontent>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2446414762929056067]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946/1963">1946-1963</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1946/1963">1946-1963</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 volumes</extent>
               </physdesc>
             </did>
@@ -196,10 +185,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [07500665384144168967707519]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964/1977">1964-1977</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1964/1977">1964-1977</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 volumes</extent>
               </physdesc>
             </did>
@@ -207,18 +193,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [493662428355574869666]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1978">1978</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1978">1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [493662428355574869666]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -226,48 +206,39 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [493662428355574869666]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1985/1990">1985-1990</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1985/1990">1985-1990</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Committees <unitdate type="inclusive" normal="1950/1976">1950-1976</unitdate></unittitle>
-          </did>
+            <unittitle>Committees</unittitle><unitdate type="inclusive" normal="1950/1976">1950-1976</unitdate></did>
           <scopecontent>
             <p>The Committee subseries (0.2 linear feet) contains MNAC's various standing committees' correspondence and reports.</p>
           </scopecontent>
           <c03 level="file">
             <did>
               <container type="box" label="Box [493662428355574869666]">3</container>
-              <unittitle>Committee Lists <unitdate type="inclusive" normal="1950/1980">1950-1980</unitdate> scattered</unittitle>
-            </did>
+              <unittitle>Committee Lists  scattered</unittitle><unitdate type="inclusive" normal="1950/1980">1950-1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [493662428355574869666]">3</container>
-              <unittitle>Committee On Natural Areas Legislation, Meeting Minutes <unitdate type="inclusive" normal="1971-05-03">May 3, 1971</unitdate></unittitle>
-            </did>
+              <unittitle>Committee On Natural Areas Legislation, Meeting Minutes</unittitle><unitdate type="inclusive" normal="1971-05-03">May 3, 1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [493662428355574869666]">3</container>
-              <unittitle>Nominating and Tellers Committees Reports <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></unittitle>
-            </did>
+              <unittitle>Nominating and Tellers Committees Reports</unittitle><unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [493662428355574869666]">3</container>
-              <unittitle>Committee on Policies and Standards <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-            </did>
+              <unittitle>Committee on Policies and Standards</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [493662428355574869666]">3</container>
-              <unittitle>Scenic Sites Committees, Correspondence and Reports <unitdate type="inclusive" normal="1951/1959">1951-1959</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Scenic Sites Committees, Correspondence and Reports</unittitle><unitdate type="inclusive" normal="1951/1959">1951-1959</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -279,35 +250,30 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [493662428355574869666]">3</container>
-                <unittitle>Correspondence and Reports <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-              </did>
+                <unittitle>Correspondence and Reports</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [493662428355574869666]">3</container>
-                <unittitle>Reports <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-              </did>
+                <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [493662428355574869666]">3</container>
-              <unittitle>Committee on the Use of Natural Areas <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <unittitle>Committee on the Use of Natural Areas</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Executive Committee <unitdate type="inclusive" normal="1945/2003">1945-2003</unitdate></unittitle>
-          </did>
+            <unittitle>Executive Committee</unittitle><unitdate type="inclusive" normal="1945/2003">1945-2003</unitdate></did>
           <scopecontent>
             <p>The Executive Committee subseries (2 linear feet) contains files relating to the running of the organization, which are arranged alphabetically by topic and then chronologically. The meeting minutes and correspondence make up the bulk of this subseries. Also included are Treasurer's Reports and files relating to membership. Researchers will note that for most years there are no meeting minutes for the months of June, July, and August; the Council did not hold meetings during the summer months.</p>
           </scopecontent>
           <c03 level="file">
             <did>
               <container type="box" label="Box [493662428355574869666]">3</container>
-              <unittitle>Annual Reports <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>, <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
-            </did>
+              <unittitle>Annual Reports</unittitle><unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate><unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -316,8 +282,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [493662428355574869666]">3</container>
-                <unittitle>John Beaman's Papers <unitdate type="inclusive" normal="1976/1980">1976-1980</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>John Beaman's Papers</unittitle><unitdate type="inclusive" normal="1976/1980">1976-1980</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
               </did>
@@ -325,8 +290,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [493662428355574869666]">3</container>
-                <unittitle>James Fowler's Papers <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>James Fowler's Papers</unittitle><unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -334,8 +298,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [493662428355574869666]">3</container>
-                <unittitle>Richard Pippen's Papers <unitdate type="inclusive" normal="1980/1982">1980-1982</unitdate></unittitle>
-              </did>
+                <unittitle>Richard Pippen's Papers</unittitle><unitdate type="inclusive" normal="1980/1982">1980-1982</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -350,14 +313,12 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [493662428355574869666]">3</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1949/1992">1949-1992</unitdate></unittitle>
-                </did>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1949/1992">1949-1992</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [493662428355574869666]">3</container>
-                  <unittitle>General <unitdate type="inclusive" normal="1953/1994">1953-1994</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>General</unittitle><unitdate type="inclusive" normal="1953/1994">1953-1994</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
@@ -365,15 +326,13 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [493662428355574869666]">3</container>
-                  <unittitle>Personal and Other <unitdate type="inclusive" normal="1945/1952">1945-1952</unitdate></unittitle>
-                </did>
+                  <unittitle>Personal and Other</unittitle><unitdate type="inclusive" normal="1945/1952">1945-1952</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [493662428355574869666]">3</container>
-                <unittitle>George Thomson's Papers <unitdate type="inclusive" normal="1953/1958">1953-1958</unitdate></unittitle>
-              </did>
+                <unittitle>George Thomson's Papers</unittitle><unitdate type="inclusive" normal="1953/1958">1953-1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -383,8 +342,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [92298669494247733082]">4</container>
-                  <unittitle>General <unitdate type="inclusive" normal="1990/1998">1990-1998</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>General</unittitle><unitdate type="inclusive" normal="1990/1998">1990-1998</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
                 </did>
@@ -392,8 +350,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [92298669494247733082]">4</container>
-                  <unittitle>Midwest Oak Savanna Conference <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-                </did>
+                  <unittitle>Midwest Oak Savanna Conference</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -406,8 +363,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [92298669494247733082]">4</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1952/1978">1952-1978</unitdate>, <unitdate type="inclusive" normal="1983/1986">1983-1986</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1952/1978">1952-1978</unitdate><unitdate type="inclusive" normal="1983/1986">1983-1986</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">14 folders</extent>
               </physdesc>
             </did>
@@ -415,8 +371,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [92298669494247733082]">4</container>
-              <unittitle>Esch Conservation Forum <unitdate type="inclusive" normal="1971-03">March 1971</unitdate></unittitle>
-            </did>
+              <unittitle>Esch Conservation Forum</unittitle><unitdate type="inclusive" normal="1971-03">March 1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -427,14 +382,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [92298669494247733082]">4</container>
-              <unittitle>Goals and Objectives <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-            </did>
+              <unittitle>Goals and Objectives</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [92298669494247733082]">4</container>
-              <unittitle>Hoffmaster Fund <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
-            </did>
+              <unittitle>Hoffmaster Fund</unittitle><unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -443,10 +396,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [92298669494247733082]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1951/1966">1951-1966</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1951/1966">1951-1966</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">6 folders</extent>
                 </physdesc>
               </did>
@@ -454,10 +404,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5984993144397847801858]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1967/1980">1967-1980</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1967/1980">1967-1980</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">6 folders</extent>
                 </physdesc>
               </did>
@@ -465,25 +412,18 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5984993144397847801858]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1981/1989">1981-1989</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1981/1989">1981-1989</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5984993144397847801858]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1990/2003">1990-2003</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1990/2003">1990-2003</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5984993144397847801858]">5</container>
-              <unittitle>Membership Lists <unitdate type="inclusive" normal="1953/2003">1953-2003</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Membership Lists</unittitle><unitdate type="inclusive" normal="1953/2003">1953-2003</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
@@ -491,8 +431,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5984993144397847801858]">5</container>
-              <unittitle>Membership Characteristics Survey <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Membership Characteristics Survey</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -509,14 +448,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5984993144397847801858]">5</container>
-              <unittitle>Organizational Delegates <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
-            </did>
+              <unittitle>Organizational Delegates</unittitle><unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5984993144397847801858]">5</container>
-              <unittitle>Treasurer's Report <unitdate type="inclusive" normal="1964/1978">1964-1978</unitdate></unittitle>
-            </did>
+              <unittitle>Treasurer's Report</unittitle><unitdate type="inclusive" normal="1964/1978">1964-1978</unitdate></did>
             <odd>
               <p>lacking 1965-1969</p>
             </odd>
@@ -530,8 +467,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5984993144397847801858]">5</container>
-              <unittitle>Tributes <unitdate type="inclusive" normal="1969/1976">1969-1976</unitdate></unittitle>
-            </did>
+              <unittitle>Tributes</unittitle><unitdate type="inclusive" normal="1969/1976">1969-1976</unitdate></did>
             <odd>
               <p>(scattered)</p>
             </odd>
@@ -559,8 +495,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5984993144397847801858]">5</container>
-              <unittitle>Governor's Special Commissions, Miscellaneous Reports <unitdate type="inclusive" normal="1965/1973">1965-1973</unitdate> scattered</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Governor's Special Commissions, Miscellaneous Reports  scattered</unittitle><unitdate type="inclusive" normal="1965/1973">1965-1973</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -568,8 +503,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5984993144397847801858]">5</container>
-              <unittitle>Interim Committee on State Parks and Public Lands, State Park User Survey <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <unittitle>Interim Committee on State Parks and Public Lands, State Park User Survey</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -578,8 +512,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5984993144397847801858]">5</container>
-                <unittitle>General <unitdate type="inclusive" normal="1946/1987">1946-1987</unitdate></unittitle>
-              </did>
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1946/1987">1946-1987</unitdate></did>
               <odd>
                 <p>(1 of 2 folders)</p>
               </odd>
@@ -587,8 +520,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [510069743947835198]">6</container>
-                <unittitle>General <unitdate type="inclusive" normal="1946/1987">1946-1987</unitdate></unittitle>
-              </did>
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1946/1987">1946-1987</unitdate></did>
               <odd>
                 <p>(2 of 2 folders)</p>
               </odd>
@@ -596,21 +528,18 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [510069743947835198]">6</container>
-                <unittitle>Highland Recreation Area Campvention <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></unittitle>
-              </did>
+                <unittitle>Highland Recreation Area Campvention</unittitle><unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [510069743947835198]">6</container>
-                <unittitle>Meeting Minutes, Newsletters <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate>, <unitdate type="inclusive" normal="1958">1958</unitdate>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-              </did>
+                <unittitle>Meeting Minutes, Newsletters</unittitle><unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate><unitdate type="inclusive" normal="1958">1958</unitdate><unitdate type="inclusive" normal="1964">1964</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [510069743947835198]">6</container>
-              <unittitle>Michigan Land Trust, Correspondence <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Land Trust, Correspondence</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -625,8 +554,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [510069743947835198]">6</container>
-                <unittitle>Meeting Minutes, Reports <unitdate type="inclusive" normal="1955/1959">1955-1959</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Meeting Minutes, Reports</unittitle><unitdate type="inclusive" normal="1955/1959">1955-1959</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -641,14 +569,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [510069743947835198]">6</container>
-              <unittitle>Michigan Nature Association <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Nature Association</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [510069743947835198]">6</container>
-              <unittitle>Michigan United Conservation Clubs (MUCC), Meeting Minutes and Newsletters <unitdate type="inclusive" normal="1958/1977">1958-1977</unitdate> scattered</unittitle>
-            </did>
+              <unittitle>Michigan United Conservation Clubs (MUCC), Meeting Minutes and Newsletters  scattered</unittitle><unitdate type="inclusive" normal="1958/1977">1958-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -657,8 +583,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [510069743947835198]">6</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1954/1966">1954-1966</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1954/1966">1954-1966</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
@@ -667,8 +592,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [510069743947835198]">6</container>
-              <unittitle>State Natural Areas System, "A Comparative Study of Four State Area Systems with Recommendations for Michigan," by John W. Humke, Thesis, Michigan State University <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>State Natural Areas System, "A Comparative Study of Four State Area Systems with Recommendations for Michigan," by John W. Humke, Thesis, Michigan State University</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -677,14 +601,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [510069743947835198]">6</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
-              </did>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [510069743947835198]">6</container>
-                <unittitle>Meeting Minutes <unitdate type="inclusive" normal="1974/1978">1974-1978</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Meeting Minutes</unittitle><unitdate type="inclusive" normal="1974/1978">1974-1978</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
               </did>
@@ -843,8 +765,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [316054429914249395306]">7</container>
-              <unittitle>"From the Ground Up... An Activist's Handbook for Protecting Michigan's Natural Areas," <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <unittitle>"From the Ground Up... An Activist's Handbook for Protecting Michigan's Natural Areas,"</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -911,8 +832,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [316054429914249395306]">7</container>
-              <unittitle>Michigan Stewardship Network <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Stewardship Network</unittitle><unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1033,8 +953,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [316054429914249395306]">7</container>
-              <unittitle>Current Project Lists &amp; Correspondence <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
-            </did>
+              <unittitle>Current Project Lists &amp; Correspondence</unittitle><unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1090,8 +1009,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle>Priority Listing of Natural Areas <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <unittitle>Priority Listing of Natural Areas</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1120,8 +1038,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle>Summary of Dedicated Natural Areas in Michigan <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Summary of Dedicated Natural Areas in Michigan</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1135,20 +1052,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle><unitdate type="inclusive" normal="1995">1995</unitdate> Accession</unittitle>
-            </did>
+              <unittitle>Accession</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle><unitdate type="inclusive" normal="1996">1996</unitdate> Accession</unittitle>
-            </did>
+              <unittitle>Accession</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle><unitdate type="inclusive" normal="1997">1997</unitdate> Accession</unittitle>
-            </did>
+              <unittitle>Accession</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1161,14 +1075,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle>Conservation Project <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Conservation Project</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle>First Newsletter <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-            </did>
+              <unittitle>First Newsletter</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1211,38 +1123,32 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle>Efforts to Reinstate Natural Heritage Program Appropriation <unitdate type="inclusive" normal="1987/1993">1987-1993</unitdate></unittitle>
-            </did>
+              <unittitle>Efforts to Reinstate Natural Heritage Program Appropriation</unittitle><unitdate type="inclusive" normal="1987/1993">1987-1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle>Establishment of Ecology Trail, Haven Hill <unitdate type="inclusive" normal="1947/1956">1947-1956</unitdate></unittitle>
-            </did>
+              <unittitle>Establishment of Ecology Trail, Haven Hill</unittitle><unitdate type="inclusive" normal="1947/1956">1947-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle>Response to Illegal Logging at Haven Hill <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <unittitle>Response to Illegal Logging at Haven Hill</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle>Wetlands Conservation Associations Attempt to Reroute Highway 31 Around Bluecreek Fen <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <unittitle>Wetlands Conservation Associations Attempt to Reroute Highway 31 Around Bluecreek Fen</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle>Efforts to Amend the Wilderness and Natural Areas Act <unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate></unittitle>
-            </did>
+              <unittitle>Efforts to Amend the Wilderness and Natural Areas Act</unittitle><unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle>Efforts to Block Construction on Arbor Wetlands <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
-            </did>
+              <unittitle>Efforts to Block Construction on Arbor Wetlands</unittitle><unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1253,48 +1159,41 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [44680964593279458]">8</container>
-              <unittitle>Bald Mt. Fen Nomination for purchase <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <unittitle>Bald Mt. Fen Nomination for purchase</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
           <container type="box" label="Box [5984993144397847801858]">5</container>
-          <unittitle>Site Files <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1934/1989">1934-1989</unitdate></unittitle>
-        </did>
+          <unittitle>Site Files</unittitle><unitdate type="inclusive">undated</unitdate><unitdate type="inclusive" normal="1934/1989">1934-1989</unitdate></did>
         <scopecontent>
           <p>The largest series is the Site Files (4.5 linear feet), which consists of correspondence, reconnaissance and site committee reports, and maps relating to specific areas. In Box 5 are two bound volumes of site and reconnaissance committee reports. The rest of the Site Files contain supporting materials for these reports as well as additional reports not included in the volumes. Some of the sites do not have corresponding reports, but their folders contain pertinent correspondence and maps. The researcher is encouraged to use both the volumes and the site files. This series contains the records relating to the Porcupine Mountains, Haven Hill, South Manitou Island, and Sleeping Bear Dunes National Lakeshore, which together comprise the MNAC's major projects. Reports for these areas are located in the first volume of reports.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box [44680964593279458]">8</container>
-            <unittitle>Survey Notes <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></unittitle>
-          </did>
+            <unittitle>Survey Notes</unittitle><unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [44680964593279458]">8</container>
-            <unittitle>Photographs <unitdate type="inclusive" normal="1961" certainty="approximate">1961 undated</unitdate></unittitle>
-          </did>
+            <unittitle>Photographs</unittitle><unitdate type="inclusive" normal="1961" certainty="approximate">1961 undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [44680964593279458]">8</container>
-            <unittitle>Reconnaissance, Site and Other Reports, vol. 1 <unitdate type="inclusive" normal="1950/1977">1950-1977</unitdate></unittitle>
-          </did>
+            <unittitle>Reconnaissance, Site and Other Reports, vol. 1</unittitle><unitdate type="inclusive" normal="1950/1977">1950-1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [44680964593279458]">8</container>
-            <unittitle>Bound Site and Reconnaissance Reports <unitdate type="inclusive" normal="1953/1976">1953-1976</unitdate></unittitle>
-          </did>
+            <unittitle>Bound Site and Reconnaissance Reports</unittitle><unitdate type="inclusive" normal="1953/1976">1953-1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [44680964593279458]">8</container>
-            <unittitle>Algonac State Park <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <unittitle>Algonac State Park</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1305,8 +1204,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [44680964593279458]">8</container>
-            <unittitle>Alma Outdoor Creek <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>Alma Outdoor Creek</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1323,14 +1221,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [44680964593279458]">8</container>
-            <unittitle>Ann Arbor High School Woods <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Ann Arbor High School Woods</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [44680964593279458]">8</container>
-            <unittitle>Ann Arbor Wet Prairie <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
-          </did>
+            <unittitle>Ann Arbor Wet Prairie</unittitle><unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1347,14 +1243,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [44680964593279458]">8</container>
-            <unittitle>Baker Woodlot <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Baker Woodlot</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Bald Mountain Tract <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Bald Mountain Tract</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [148989411135320]">9</container>
@@ -1389,20 +1283,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Barber's Woods <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Barber's Woods</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Barclay Lake Area <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <unittitle>Barclay Lake Area</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Beaver Island Archipelago <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <unittitle>Beaver Island Archipelago</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1413,26 +1304,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Benzie State Park <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-          </did>
+            <unittitle>Benzie State Park</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Beverly Hills Village Woods <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <unittitle>Beverly Hills Village Woods</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Bois Blanc Island <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Bois Blanc Is</unittitle><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Bridge Lake Tract <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Bridge Lake Tract</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1461,26 +1348,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Cathead Bay <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-          </did>
+            <unittitle>Cathead Bay</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Celeron Island <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Celeron Is</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Chimney Corners Chestnut Grove <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <unittitle>Chimney Corners Chestnut Grove</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Chippewa Nature Center <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <unittitle>Chippewa Nature Center</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1505,8 +1388,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Colonial Point-Burt Lake <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <unittitle>Colonial Point-Burt Lake</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1517,20 +1399,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Craig Lake <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-          </did>
+            <unittitle>Craig Lake</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Cranberry Lake <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Cranberry Lake</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Crawford Virgin Red Pine Tract <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-          </did>
+            <unittitle>Crawford Virgin Red Pine Tract</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1541,8 +1420,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Cut River Gorge <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <unittitle>Cut River Gorge</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1553,14 +1431,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Dearborn Floodplain <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <unittitle>Dearborn Floodplain</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Dexter Mills Creek Outdoor Laboratory <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Dexter Mills Creek Outdoor Laboratory</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1577,14 +1453,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Duck Marsh Area <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <unittitle>Duck Marsh Area</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Eberwhite Woods <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Eberwhite Woods</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1601,14 +1475,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Fairlane Woods <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <unittitle>Fairlane Woods</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Fernwood Private Nature Study Area <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <unittitle>Fernwood Private Nature Study Area</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1619,44 +1491,37 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Flint Area <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Flint Area</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Flower Creek Dunes <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <unittitle>Flower Creek Dunes</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Ford Fund Lands <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Ford Fund Lands</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Fort Custer <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <unittitle>Fort Custer</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Fort Drummond <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-          </did>
+            <unittitle>Fort Drummond</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Fort Wilkins <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-          </did>
+            <unittitle>Fort Wilkins</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [148989411135320]">9</container>
-            <unittitle>Garden Peninsula <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <unittitle>Garden Peninsula</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1679,8 +1544,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Grand Mere <unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate> scattered</unittitle>
-          </did>
+            <unittitle>Grand Mere  scattered</unittitle><unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1709,14 +1573,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Hampton Creek Wetland Complex <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-          </did>
+            <unittitle>Hampton Creek Wetland Complex</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Hartwick Pines <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <unittitle>Hartwick Pines</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1733,8 +1595,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Hessel Area <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Hessel Area</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1757,26 +1618,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Highlands of Sleeping Bear Dunes <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
-          </did>
+            <unittitle>Highlands of Sleeping Bear Dunes</unittitle><unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Hill Lake Area <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Hill Lake Area</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Horner Woods <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
-          </did>
+            <unittitle>Horner Woods</unittitle><unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Huron-Clinton Metro Parks <unitdate type="inclusive" normal="1974">1974</unitdate>, <unitdate type="inclusive" normal="1981">1981</unitdate>, <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
-          </did>
+            <unittitle>Huron-Clinton Metro Parks</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate><unitdate type="inclusive" normal="1981">1981</unitdate><unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1787,14 +1644,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Huron Islands <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Huron Islands</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Huron Mountain Club <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Huron Mountain Club</unittitle><unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -1802,32 +1657,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Indian Bowl <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></unittitle>
-          </did>
+            <unittitle>Indian Bowl</unittitle><unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Interlochen State Park <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-          </did>
+            <unittitle>Interlochen State Park</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Irwin's Woods <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <unittitle>Irwin's Woods</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Island Lake Recreation Area <unitdate type="inclusive" normal="1968">1968</unitdate>, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <unittitle>Island Lake Recreation Area</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Isle Royale <unitdate type="inclusive" normal="1961">1961</unitdate>, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle>Isle Royale</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1838,20 +1688,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Kasey Hartz Natural Area <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-          </did>
+            <unittitle>Kasey Hartz Natural Area</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Keweenaw Peninsula <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
-          </did>
+            <unittitle>Keweenaw Peninsula</unittitle><unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Kirtland Warbler Area <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Kirtland Warbler Area</unittitle><unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1862,8 +1709,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Lakeville Swamp <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <unittitle>Lakeville Swamp</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1877,8 +1723,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Levengood Woodland Preserve <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <unittitle>Levengood Woodland Preserve</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1889,8 +1734,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Little Presque Isle <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
-          </did>
+            <unittitle>Little Presque Isle</unittitle><unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1901,8 +1745,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>Ludington Park <unitdate type="inclusive" normal="1938">1938</unitdate>, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Ludington Park</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1925,20 +1768,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [559847840221818433]">10</container>
-            <unittitle>McCormick Wilderness Area <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-          </did>
+            <unittitle>McCormick Wilderness Area</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [48297211487886058059523]">11</container>
-            <unittitle>McCoy Creek Nature Preserve <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-          </did>
+            <unittitle>McCoy Creek Nature Preserve</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [48297211487886058059523]">11</container>
-            <unittitle>Michigan Prairies <unitdate type="inclusive" normal="1963/1986">1963-1986</unitdate> scattered</unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Michigan Prairies  scattered</unittitle><unitdate type="inclusive" normal="1963/1986">1963-1986</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1958,14 +1798,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [48297211487886058059523]">11</container>
-            <unittitle>Mount Pleasant Woods <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <unittitle>Mount Pleasant Woods</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [48297211487886058059523]">11</container>
-            <unittitle>Mulligan Creek Riparian Management Area <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
-          </did>
+            <unittitle>Mulligan Creek Riparian Management Area</unittitle><unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2111,8 +1949,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [48297211487886058059523]">11</container>
-              <unittitle>Newspaper Clippings <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Newspaper Clippings</unittitle><unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -2178,8 +2015,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [48297211487886058059523]">11</container>
-            <unittitle>Ryerse Lake <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <unittitle>Ryerse Lake</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2407,8 +2243,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0308529424995566]">12</container>
-            <unittitle>Upper Falls, Sturgeon River and Bacco Gorge <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-          </did>
+            <unittitle>Upper Falls, Sturgeon River and Bacco Gorge</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2443,8 +2278,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0308529424995566]">12</container>
-            <unittitle>Willis C. and Mabel Lee Ward Nature Study Area <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <unittitle>Willis C. and Mabel Lee Ward Nature Study Area</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

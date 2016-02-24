@@ -47,7 +47,8 @@
         <item>original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -58,10 +59,9 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2013062839">Williams, Gardner Stewart, 1866-1931.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2013062839" ref="/agents/people/6890">Williams, Gardner Stewart, 1866-1931.</persname>
       </origination>
-      <unittitle encodinganalog="245">Gardner Stewart Williams Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1900/1945">1900-1945</unitdate></unittitle>
-      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85544 Aa 2 UAl</unitid>
+      <unittitle encodinganalog="245">Gardner Stewart Williams Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1900/1945">1900-1945</unitdate><unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85544 Aa 2 UAl</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <abstract>Ann Arbor, Michigan based hydraulic engineer known for his multiple arch dams, hydroelectric plants, and for developing the Hazen-Williams hydraulic tables, designed and consulted on numerous water power and dam projects. Papers include biographical files, material relating to construction of dams and power plants on the Huron River and elsewhere, and papers relating to Michigan Engineering Society.</abstract>
       <physdesc altrender="part">
@@ -107,7 +107,7 @@
       <p>The Gardner Stewart William papers, 1900-1931 are arranged in five series:</p>
       <list type="simple">
         <item>Biographical and Historical Material</item>
-        <item>Power Plants and Dams <sublist type="simple"><subitem>Huron River Power Plants and Dams</subitem><subitem>Other Power Plants and Dams</subitem></sublist></item>
+        <item>Power Plants and Dams <sublist type="simple"><subitem>Huron River Power Plants and Dams</subitem> <subitem>Other Power Plants and Dams</subitem></sublist></item>
         <item>Detroit Edison Company</item>
         <item>Engineering Reports</item>
         <item>Photographs</item>
@@ -124,92 +124,92 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Dams.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001776">Detroit Edison Company.</corpname>
-        <subject source="lcsh" encodinganalog="650">Engineers--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651">Huron River (Oakland County-Monroe County, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85080981">Michigan Engineering Society.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784">Sault Sainte Marie (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Water power.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8081">Dams.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001776" ref="/agents/corporate_entities/848">Detroit Edison Company.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6404">Engineers--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Huron River (Oakland County-Monroe County, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85080981" ref="/agents/corporate_entities/2697">Michigan Engineering Society.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784" ref="/subjects/932">Sault Sainte Marie (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6996">Water power.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83163898">Adrian (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82067491">Alma (Mich.)</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Waterworks.</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Argo Dam (Ann Arbor, Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Augusta (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82060963">Bad Axe (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Bangor (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Barton Dam (Ann Arbor, Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81037331">Bay City (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n94033406">Beaverton (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Belle Isle Bridge (Detroit, Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081793">Belleville (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82094760">Berrien Springs (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81104604">Birmingham (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Black River (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81086464">Boyne Falls (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Breedsville (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Bridges.</subject>
-        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Ypsilanti.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81129557">Cadillac (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Ceresco (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Clare (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Clinton River (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Construction industry.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081719">Croswell (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Dams.</subject>
-        <geogname source="lcsh" encodinganalog="651">Delhi (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001776">Detroit Edison Company.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85046902">Dowagiac (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Dundee (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Edenville (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n98032923">Elsie (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Freeport (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Geddes Dam (Ann Arbor, Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091926">Gladwin County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151">Grand Rapids (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081718">Grosse Pointe Farms (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Heating Plant (University of Michigan)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/nr93039982">Homer (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n87829255">Howard City (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81035936">Howell (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Huron River (Oakland County-Monroe County, Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Ionia (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Kalamazoo (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Laborers.</subject>
-        <geogname source="lcsh" encodinganalog="651">Leonidas (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155110">Lowell (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Milford (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Mottville (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155116">Mount Pleasant (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Osborne's Mill (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Otsego (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82060977">Plainwell (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021">Port Huron (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Rawsonville (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Sanford (Mich. : Village)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Saint Joseph River (Mich. and Ind.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784">Sault Sainte Marie (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Scotts (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81129556">Sturgis (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Superior Dam (Ypsilanti, Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79006537">Traverse City (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Water distribution systems.</subject>
-        <subject source="lctgm" encodinganalog="650">Waterworks--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2013062839">Williams, Gardner Stewart, 1866-1931.</persname>
-        <geogname source="lctgm" encodinganalog="651">Ypsilanti (Mich.)--Business enterprises.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83163898" ref="/subjects/973">Adrian (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82067491" ref="/subjects/1028">Alma (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/317">Ann Arbor (Mich.)--Waterworks.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1957">Argo Dam (Ann Arbor, Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1958">Augusta (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82060963" ref="/subjects/1032">Bad Axe (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1959">Bangor (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1960">Barton Dam (Ann Arbor, Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81037331" ref="/subjects/1034">Bay City (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n94033406" ref="/subjects/1961">Beaverton (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1962">Belle Isle Bridge (Detroit, Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081793" ref="/subjects/1770">Belleville (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82094760" ref="/subjects/1482">Berrien Springs (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81104604" ref="/subjects/1040">Birmingham (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1963">Black River (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81086464" ref="/subjects/1346">Boyne Falls (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1964">Breedsville (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3781">Bridges.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4463">Business enterprises--Michigan--Ypsilanti.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81129557" ref="/subjects/1045">Cadillac (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1965">Ceresco (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1794">Clare (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1966">Clinton River (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3689">Construction industry.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081719" ref="/subjects/1967">Croswell (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4324">Dams.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1067">Delhi (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001776" ref="/agents/corporate_entities/848">Detroit Edison Company.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85046902" ref="/subjects/1070">Dowagiac (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1073">Dundee (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1082">Edenville (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n98032923" ref="/subjects/1083">Elsie (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1968">Freeport (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1969">Geddes Dam (Ann Arbor, Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091926" ref="/subjects/1553">Gladwin County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151" ref="/subjects/1098">Grand Rapids (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081718" ref="/subjects/1855">Grosse Pointe Farms (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1405">Heating Plant (University of Michigan)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/nr93039982" ref="/subjects/1116">Homer (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n87829255" ref="/subjects/1970">Howard City (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81035936" ref="/subjects/1117">Howell (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Huron River (Oakland County-Monroe County, Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1122">Ionia (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/976">Kalamazoo (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3663">Laborers.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1971">Leonidas (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155110" ref="/subjects/1146">Lowell (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1972">Milford (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1973">Mottville (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155116" ref="/subjects/1164">Mount Pleasant (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1974">Osborne's Mill (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1185">Otsego (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82060977" ref="/subjects/1198">Plainwell (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021" ref="/subjects/1202">Port Huron (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1205">Rawsonville (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1975">Sanford (Mich. : Village)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1976">Saint Joseph River (Mich. and Ind.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784" ref="/subjects/932">Sault Sainte Marie (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1977">Scotts (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81129556" ref="/subjects/1232">Sturgis (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1978">Superior Dam (Ypsilanti, Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79006537" ref="/subjects/886">Traverse City (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4464">Water distribution systems.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4465">Waterworks--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2013062839" ref="/agents/people/6890">Williams, Gardner Stewart, 1866-1931.</persname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/318">Ypsilanti (Mich.)--Business enterprises.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79118158">Ayres, Lewis, Norris, and May.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79118158" ref="/agents/corporate_entities/5043">Ayres, Lewis, Norris, and May.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="gmgpc" encodinganalog="655">Albums.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3458">Albums.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -244,14 +244,12 @@
           <c03 level="file">
             <did>
               <container label="Box [7078642855105324]" type="box">1</container>
-              <unittitle>Land Purchases <unitdate type="inclusive" normal="1905/1927">1905-1927</unitdate></unittitle>
-            </did>
+              <unittitle>Land Purchases</unittitle><unitdate type="inclusive" normal="1905/1927">1905-1927</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7078642855105324]">1</container>
-              <unittitle>Maps of the Huron River Valley from Surveys made in <unitdate type="inclusive" normal="1908">1908</unitdate>, <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
-            </did>
+              <unittitle>Maps of the Huron River Valley from Surveys made in</unittitle><unitdate type="inclusive" normal="1908">1908</unitdate><unitdate type="inclusive" normal="1909">1909</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -260,20 +258,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Preliminary Report of the Proposed Development of the Huron River Water Powers <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
-              </did>
+                <unittitle>Preliminary Report of the Proposed Development of the Huron River Water Powers</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Cost New and Cost Less Depreciation of Huron River Power Plants <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
-              </did>
+                <unittitle>Cost New and Cost Less Depreciation of Huron River Power Plants</unittitle><unitdate type="inclusive" normal="1915">1915</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Miscellaneous Reports <unitdate type="inclusive" normal="1917/1930">1917-1930</unitdate></unittitle>
-              </did>
+                <unittitle>Miscellaneous Reports</unittitle><unitdate type="inclusive" normal="1917/1930">1917-1930</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -283,38 +278,32 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Contracts and Specifications <unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate></unittitle>
-              </did>
+                <unittitle>Contracts and Specifications</unittitle><unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Drawings and Computations <unitdate type="inclusive" normal="1912/1919">1912-1919</unitdate></unittitle>
-              </did>
+                <unittitle>Drawings and Computations</unittitle><unitdate type="inclusive" normal="1912/1919">1912-1919</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Property and Correspondence <unitdate type="inclusive" normal="1912/1918">1912-1918</unitdate></unittitle>
-              </did>
+                <unittitle>Property and Correspondence</unittitle><unitdate type="inclusive" normal="1912/1918">1912-1918</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Reports <unitdate type="inclusive" normal="1911">1911</unitdate>, <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
-              </did>
+                <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1911">1911</unitdate><unitdate type="inclusive" normal="1916">1916</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Sketches <unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate></unittitle>
-              </did>
+                <unittitle>Sketches</unittitle><unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Tests <unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate></unittitle>
-              </did>
+                <unittitle>Tests</unittitle><unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -324,50 +313,42 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Computations <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
-              </did>
+                <unittitle>Computations</unittitle><unitdate type="inclusive" normal="1913">1913</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Contracts and Specifications <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
-              </did>
+                <unittitle>Contracts and Specifications</unittitle><unitdate type="inclusive" normal="1913">1913</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Contracts and Specifications, Power House <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
-              </did>
+                <unittitle>Contracts and Specifications, Power House</unittitle><unitdate type="inclusive" normal="1913">1913</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Drawings <unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate></unittitle>
-              </did>
+                <unittitle>Drawings</unittitle><unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Head Race, Tail Race, and Canal <unitdate type="inclusive" normal="1912/1914">1912-1914</unitdate></unittitle>
-              </did>
+                <unittitle>Head Race, Tail Race, and Canal</unittitle><unitdate type="inclusive" normal="1912/1914">1912-1914</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Property <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
-              </did>
+                <unittitle>Property</unittitle><unitdate type="inclusive">undated</unitdate><unitdate type="inclusive" normal="1917">1917</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Spillway Calculations <unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate></unittitle>
-              </did>
+                <unittitle>Spillway Calculations</unittitle><unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [7078642855105324]">1</container>
-                <unittitle>Tests <unitdate type="inclusive" normal="1914/1915">1914-1915</unitdate></unittitle>
-              </did>
+                <unittitle>Tests</unittitle><unitdate type="inclusive" normal="1914/1915">1914-1915</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -377,26 +358,22 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [40576240282469504980]">2</container>
-                <unittitle>Computations <unitdate type="inclusive" normal="1916/1917">1916-1917</unitdate></unittitle>
-              </did>
+                <unittitle>Computations</unittitle><unitdate type="inclusive" normal="1916/1917">1916-1917</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [40576240282469504980]">2</container>
-                <unittitle>Contracts and Specifications <unitdate type="inclusive" normal="1917/1918">1917-1918</unitdate></unittitle>
-              </did>
+                <unittitle>Contracts and Specifications</unittitle><unitdate type="inclusive" normal="1917/1918">1917-1918</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [40576240282469504980]">2</container>
-                <unittitle>Drawings <unitdate type="inclusive" normal="1916/1925">1916-1925</unitdate></unittitle>
-              </did>
+                <unittitle>Drawings</unittitle><unitdate type="inclusive" normal="1916/1925">1916-1925</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [40576240282469504980]">2</container>
-                <unittitle>Tests <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-              </did>
+                <unittitle>Tests</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -410,18 +387,12 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [40576240282469504980]">2</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1907/1914">1907-1914</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1907/1914">1907-1914</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [40576240282469504980]">2</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -431,23 +402,18 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [40576240282469504980]">2</container>
-                  <unittitle><unitdate type="inclusive">Undated</unitdate>, <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
-                </did>
+                  <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1914">1914</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [40576240282469504980]">2</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1916/1922">1916-1922</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1916/1922">1916-1922</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [40576240282469504980]">2</container>
-                <unittitle>Drawings <unitdate type="inclusive" normal="1914/1922">1914-1922</unitdate></unittitle>
-              </did>
+                <unittitle>Drawings</unittitle><unitdate type="inclusive" normal="1914/1922">1914-1922</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -457,26 +423,22 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [40576240282469504980]">2</container>
-                <unittitle>Computations <unitdate type="inclusive" normal="1922/1924">1922-1924</unitdate></unittitle>
-              </did>
+                <unittitle>Computations</unittitle><unitdate type="inclusive" normal="1922/1924">1922-1924</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [40576240282469504980]">2</container>
-                <unittitle>Contracts and Specifications <unitdate type="inclusive" normal="1924">1924</unitdate></unittitle>
-              </did>
+                <unittitle>Contracts and Specifications</unittitle><unitdate type="inclusive" normal="1924">1924</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [40576240282469504980]">2</container>
-                <unittitle>Drawings <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></unittitle>
-              </did>
+                <unittitle>Drawings</unittitle><unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [40576240282469504980]">2</container>
-                <unittitle>Sketches <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></unittitle>
-              </did>
+                <unittitle>Sketches</unittitle><unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -491,14 +453,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [40576240282469504980]">2</container>
-                <unittitle>Computations <unitdate type="inclusive" normal="1927/1931">1927-1931</unitdate></unittitle>
-              </did>
+                <unittitle>Computations</unittitle><unitdate type="inclusive" normal="1927/1931">1927-1931</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [40576240282469504980]">2</container>
-                <unittitle>Reports and drawings <unitdate type="inclusive" normal="1926/1929">1926-1929</unitdate></unittitle>
-              </did>
+                <unittitle>Reports and drawings</unittitle><unitdate type="inclusive" normal="1926/1929">1926-1929</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -508,14 +468,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [40576240282469504980]">2</container>
-                <unittitle>Field Notes <unitdate type="inclusive" normal="1923/1952">1923-1952</unitdate></unittitle>
-              </did>
+                <unittitle>Field Notes</unittitle><unitdate type="inclusive" normal="1923/1952">1923-1952</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [40576240282469504980]">2</container>
-                <unittitle>Maps, Prints, Miscellaneous <unitdate type="inclusive" normal="1916/1952">1916-1952</unitdate></unittitle>
-              </did>
+                <unittitle>Maps, Prints, Miscellaneous</unittitle><unitdate type="inclusive" normal="1916/1952">1916-1952</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -525,14 +483,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1066292230452155140]">3</container>
-                <unittitle>Drawings <unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate></unittitle>
-              </did>
+                <unittitle>Drawings</unittitle><unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1066292230452155140]">3</container>
-                <unittitle>Property <unitdate type="inclusive" normal="1915/1922">1915-1922</unitdate></unittitle>
-              </did>
+                <unittitle>Property</unittitle><unitdate type="inclusive" normal="1915/1922">1915-1922</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -546,26 +502,17 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1066292230452155140]">3</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1923/1926">1923-1926</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1923/1926">1923-1926</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1066292230452155140]">3</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1924/1926">1924-1926</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1924/1926">1924-1926</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [1066292230452155140]">3</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -583,8 +530,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1066292230452155140]">3</container>
-                <unittitle>Reports <unitdate type="inclusive" normal="1923/1924">1923-1924</unitdate></unittitle>
-              </did>
+                <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1923/1924">1923-1924</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -594,26 +540,22 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1066292230452155140]">3</container>
-                <unittitle>Business Correspondence <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></unittitle>
-              </did>
+                <unittitle>Business Correspondence</unittitle><unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1066292230452155140]">3</container>
-                <unittitle>Computations <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-              </did>
+                <unittitle>Computations</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1066292230452155140]">3</container>
-                <unittitle>Drawings <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-              </did>
+                <unittitle>Drawings</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1066292230452155140]">3</container>
-                <unittitle>Specifications <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
-              </did>
+                <unittitle>Specifications</unittitle><unitdate type="inclusive" normal="1917">1917</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -623,14 +565,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1066292230452155140]">3</container>
-                <unittitle>Contract and Correspondence <unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate></unittitle>
-              </did>
+                <unittitle>Contract and Correspondence</unittitle><unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1066292230452155140]">3</container>
-                <unittitle>Drawings <unitdate type="inclusive" normal="1910/1928">1910-1928</unitdate></unittitle>
-              </did>
+                <unittitle>Drawings</unittitle><unitdate type="inclusive" normal="1910/1928">1910-1928</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -646,8 +586,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1066292230452155140]">3</container>
-                <unittitle>Computations <unitdate type="inclusive" normal="1905/1911">1905-1911</unitdate></unittitle>
-              </did>
+                <unittitle>Computations</unittitle><unitdate type="inclusive" normal="1905/1911">1905-1911</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -658,8 +597,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1066292230452155140]">3</container>
-                <unittitle>Financial Records <unitdate type="inclusive" normal="1903/1911">1903-1911</unitdate></unittitle>
-              </did>
+                <unittitle>Financial Records</unittitle><unitdate type="inclusive" normal="1903/1911">1903-1911</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -675,14 +613,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1066292230452155140]">3</container>
-                <unittitle>Drawings <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
-              </did>
+                <unittitle>Drawings</unittitle><unitdate type="inclusive" normal="1909">1909</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1066292230452155140]">3</container>
-                <unittitle>Property <unitdate type="inclusive" normal="1913/1923">1913-1923</unitdate></unittitle>
-              </did>
+                <unittitle>Property</unittitle><unitdate type="inclusive" normal="1913/1923">1913-1923</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -693,8 +629,7 @@
           <c03 level="file">
             <did>
               <container label="Box [8701323941176227043415260]" type="box">4</container>
-              <unittitle>Midway, Alpena, Alcona <unitdate type="inclusive" normal="1922/1924">1922-1924</unitdate></unittitle>
-            </did>
+              <unittitle>Midway, Alpena, Alcona</unittitle><unitdate type="inclusive" normal="1922/1924">1922-1924</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -733,18 +668,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [8701323941176227043415260]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1912/1924">1912-1924</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1912/1924">1912-1924</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [8701323941176227043415260]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1925/1931">1925-1931</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1925/1931">1925-1931</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -764,104 +693,87 @@
         <c02 level="file">
           <did>
             <container label="Box [8701323941176227043415260]" type="box">4</container>
-            <unittitle>Experimental Investigation Upon the Measurement of Discharge of Turbine Wheels made for the Michigan Lake Superior Power Company <unitdate type="inclusive" normal="1900">1900</unitdate></unittitle>
-          </did>
+            <unittitle>Experimental Investigation Upon the Measurement of Discharge of Turbine Wheels made for the Michigan Lake Superior Power Company</unittitle><unitdate type="inclusive" normal="1900">1900</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>The Applicability of the Francis Formula for the Flow of Water over Weirs to the conditions existing at the Holyoke Testing Flume <unitdate type="inclusive" normal="1901">1901</unitdate></unittitle>
-          </did>
+            <unittitle>The Applicability of the Francis Formula for the Flow of Water over Weirs to the conditions existing at the Holyoke Testing Flume</unittitle><unitdate type="inclusive" normal="1901">1901</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>The Flow of Water over Weirs <unitdate type="inclusive" normal="1905">1905</unitdate></unittitle>
-          </did>
+            <unittitle>The Flow of Water over Weirs</unittitle><unitdate type="inclusive" normal="1905">1905</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>The Tittabawassee River Water Power <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
-          </did>
+            <unittitle>The Tittabawassee River Water Power</unittitle><unitdate type="inclusive" normal="1909">1909</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>The Grand Rapids Water Power <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
-          </did>
+            <unittitle>The Grand Rapids Water Power</unittitle><unitdate type="inclusive" normal="1910">1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>The Tittabawassee River Water Power <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
-          </did>
+            <unittitle>The Tittabawassee River Water Power</unittitle><unitdate type="inclusive" normal="1911">1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>Reports on the Valuation and Extension of the Ann Arbor Water Works <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
-          </did>
+            <unittitle>Reports on the Valuation and Extension of the Ann Arbor Water Works</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>Water Power of the Tittabawassee River <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
-          </did>
+            <unittitle>Water Power of the Tittabawassee River</unittitle><unitdate type="inclusive" normal="1913">1913</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>The Tittabawassee River Water Power <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
-          </did>
+            <unittitle>The Tittabawassee River Water Power</unittitle><unitdate type="inclusive" normal="1915">1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>The Electrical Department of the Sanitary District of Chicago, Account Classification <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
-          </did>
+            <unittitle>The Electrical Department of the Sanitary District of Chicago, Account Classification</unittitle><unitdate type="inclusive" normal="1916">1916</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>Preliminary and Supplementary Report to the Great Northern Power Company Upon the Development of Additional Power <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-          </did>
+            <unittitle>Preliminary and Supplementary Report to the Great Northern Power Company Upon the Development of Additional Power</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>A Brief Upon the Potential Water Power of the Great Lakes - St. Lawrence Waterway <unitdate type="inclusive" normal="1921">1921</unitdate></unittitle>
-          </did>
+            <unittitle>A Brief Upon the Potential Water Power of the Great Lakes - St. Lawrence Waterway</unittitle><unitdate type="inclusive" normal="1921">1921</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>Special Report on the Proposed Water Power Development on the St. Louis River near Scanlon, Minnesota <unitdate type="inclusive" normal="1921">1921</unitdate></unittitle>
-          </did>
+            <unittitle>Special Report on the Proposed Water Power Development on the St. Louis River near Scanlon, Minnesota</unittitle><unitdate type="inclusive" normal="1921">1921</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>Report on the Storage Requirements at the Thomson Plant of the Great Northern Power Company <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
-          </did>
+            <unittitle>Report on the Storage Requirements at the Thomson Plant of the Great Northern Power Company</unittitle><unitdate type="inclusive" normal="1922">1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>A Study of the Flow of Water over Weirs <unitdate type="inclusive" normal="1924">1924</unitdate></unittitle>
-          </did>
+            <unittitle>A Study of the Flow of Water over Weirs</unittitle><unitdate type="inclusive" normal="1924">1924</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>Report on the Valuation of the Property of the Beaverton Power Company <unitdate type="inclusive" normal="1924">1924</unitdate></unittitle>
-          </did>
+            <unittitle>Report on the Valuation of the Property of the Beaverton Power Company</unittitle><unitdate type="inclusive" normal="1924">1924</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8701323941176227043415260]">4</container>
-            <unittitle>A Municipal Hydroelectric Plant-Replacing Steam by Water Power in the City of Sturgis, Michigan <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>A Municipal Hydroelectric Plant-Replacing Steam by Water Power in the City of Sturgis, Michigan</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -977,26 +889,22 @@
           <c03 level="file">
             <did>
               <container label="Box [62198134225497306775]" type="box">5</container>
-              <unittitle>Argo Mills <unitdate type="inclusive" normal="1909/1914">1909-1914</unitdate></unittitle>
-            </did>
+              <unittitle>Argo Mills</unittitle><unitdate type="inclusive" normal="1909/1914">1909-1914</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [62198134225497306775]">5</container>
-              <unittitle>Barton Dam <unitdate type="inclusive" normal="1912/1923">1912-1923</unitdate></unittitle>
-            </did>
+              <unittitle>Barton Dam</unittitle><unitdate type="inclusive" normal="1912/1923">1912-1923</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [62198134225497306775]">5</container>
-              <unittitle>Des Moines Electric Company <unitdate type="inclusive" normal="1916/1918">1916-1918</unitdate></unittitle>
-            </did>
+              <unittitle>Des Moines Electric Company</unittitle><unitdate type="inclusive" normal="1916/1918">1916-1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [366397424870991595]">8</container>
-              <unittitle>French Landing Project <unitdate type="inclusive" normal="1918/1926">1918-1926</unitdate></unittitle>
-            </did>
+              <unittitle>French Landing Project</unittitle><unitdate type="inclusive" normal="1918/1926">1918-1926</unitdate></did>
             <odd>
               <p>photos have been removed from album for preservation; donor no. 10511.</p>
             </odd>
@@ -1004,26 +912,22 @@
           <c03 level="file">
             <did>
               <container label="Box [755492342798464651498]" type="box">6</container>
-              <unittitle>Geddes Dam <unitdate type="inclusive" normal="1914/1925">1914-1925</unitdate></unittitle>
-            </did>
+              <unittitle>Geddes Dam</unittitle><unitdate type="inclusive" normal="1914/1925">1914-1925</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [755492342798464651498]">6</container>
-              <unittitle>Sturgis <unitdate type="inclusive" normal="1910/1912">1910-1912</unitdate></unittitle>
-            </did>
+              <unittitle>Sturgis</unittitle><unitdate type="inclusive" normal="1910/1912">1910-1912</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [755492342798464651498]">6</container>
-              <unittitle>Superior <unitdate type="inclusive" normal="1901/1912">1901-1912</unitdate></unittitle>
-            </did>
+              <unittitle>Superior</unittitle><unitdate type="inclusive" normal="1901/1912">1901-1912</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [755492342798464651498]">6</container>
-              <unittitle>Superior <unitdate type="inclusive" normal="1919/1922">1919-1922</unitdate></unittitle>
-            </did>
+              <unittitle>Superior</unittitle><unitdate type="inclusive" normal="1919/1922">1919-1922</unitdate></did>
             <odd>
               <p>(tagged 4a)</p>
             </odd>
@@ -1031,8 +935,7 @@
           <c03 level="file">
             <did>
               <container label="Box [5190232423363750502046]" type="box">7</container>
-              <unittitle>Miscellaneous A <unitdate type="inclusive" normal="1909/1945">1909-1945</unitdate></unittitle>
-            </did>
+              <unittitle>Miscellaneous A</unittitle><unitdate type="inclusive" normal="1909/1945">1909-1945</unitdate></did>
             <odd>
               <p>(tagged 27)</p>
             </odd>
@@ -1084,8 +987,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Miscellaneous B <unitdate type="inclusive" normal="1914/1923">1914-1923</unitdate></unittitle>
-            </did>
+              <unittitle>Miscellaneous B</unittitle><unitdate type="inclusive" normal="1914/1923">1914-1923</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5190232423363750502046]">7</container>
@@ -1223,8 +1125,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Miscellaneous C <unitdate type="inclusive" normal="1914/1920">1914-1920</unitdate></unittitle>
-            </did>
+              <unittitle>Miscellaneous C</unittitle><unitdate type="inclusive" normal="1914/1920">1914-1920</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5190232423363750502046]">7</container>
@@ -1264,8 +1165,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Album No. 16 <unitdate type="inclusive" normal="1904/1924">1904-1924</unitdate></unittitle>
-            </did>
+              <unittitle>Album No. 16</unittitle><unitdate type="inclusive" normal="1904/1924">1904-1924</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5190232423363750502046]">7</container>
@@ -1413,8 +1313,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Album No. 17 <unitdate type="inclusive" normal="1908/1925">1908-1925</unitdate></unittitle>
-            </did>
+              <unittitle>Album No. 17</unittitle><unitdate type="inclusive" normal="1908/1925">1908-1925</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5190232423363750502046]">7</container>
@@ -1539,7 +1438,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [137330384414748611980312]">1</container>
                 <unittitle>5101 [Ypsilanti]</unittitle>
-                <dao href="hs11678" show="new" actuate="onRequest">
+                <dao href="hs11678" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9296">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1550,7 +1449,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [137330384414748611980312]">1</container>
                 <unittitle>5102 [Leforge Road]</unittitle>
-                <dao href="hs11677" show="new" actuate="onRequest">
+                <dao href="hs11677" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9297">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1561,7 +1460,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [137330384414748611980312]">1</container>
                 <unittitle>5103 [Superior Pond]</unittitle>
-                <dao href="hs11676" show="new" actuate="onRequest">
+                <dao href="hs11676" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9298">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1572,7 +1471,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [137330384414748611980312]">1</container>
                 <unittitle>5104 [Fleming Creek]</unittitle>
-                <dao href="hs11675" show="new" actuate="onRequest">
+                <dao href="hs11675" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9299">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1583,7 +1482,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [137330384414748611980312]">1</container>
                 <unittitle>5105 [Vivienne Farm]</unittitle>
-                <dao href="hs11674" show="new" actuate="onRequest">
+                <dao href="hs11674" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9300">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1594,7 +1493,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [94349043742228131564237461]">2</container>
                 <unittitle>5106 [Geddes Pond]</unittitle>
-                <dao href="hs11673" show="new" actuate="onRequest">
+                <dao href="hs11673" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9301">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1605,7 +1504,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [94349043742228131564237461]">2</container>
                 <unittitle>5107 [Arboretum]</unittitle>
-                <dao href="hs11672" show="new" actuate="onRequest">
+                <dao href="hs11672" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9302">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1624,7 +1523,7 @@
             <c04 level="file">
               <did>
                 <unittitle>5109 [Argo Pond]</unittitle>
-                <dao href="hs11671" show="new" actuate="onRequest">
+                <dao href="hs11671" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9303">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1634,8 +1533,7 @@
             <c04 level="file">
               <did>
                 <container type="folder" label="Oversize Folder [94349043742228131564237461]">2</container>
-                <unittitle>5110 [Barton Hills] <unitdate type="inclusive" normal="1905">1905</unitdate></unittitle>
-                <dao href="hs11650" show="new" actuate="onRequest">
+                <unittitle>5110 [Barton Hills]</unittitle><unitdate type="inclusive" normal="1905">1905</unitdate><dao href="hs11650" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9304">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1645,8 +1543,7 @@
             <c04 level="file">
               <did>
                 <container type="folder" label="Oversize Folder [94349043742228131564237461]">2</container>
-                <unittitle>5110 [Barton Hills] <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
-                <dao href="hs11670" show="new" actuate="onRequest">
+                <unittitle>5110 [Barton Hills]</unittitle><unitdate type="inclusive" normal="1911">1911</unitdate><dao href="hs11670" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9305">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1657,7 +1554,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [83161847346989962438416]">3</container>
                 <unittitle>5111 [Fosters]</unittitle>
-                <dao href="hs11669" show="new" actuate="onRequest">
+                <dao href="hs11669" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9306">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1668,7 +1565,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [83161847346989962438416]">3</container>
                 <unittitle>5112 [Delhi]</unittitle>
-                <dao href="hs11659" show="new" actuate="onRequest">
+                <dao href="hs11659" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9307">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1679,7 +1576,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [83161847346989962438416]">3</container>
                 <unittitle>5113 [Scio]</unittitle>
-                <dao href="hs11658" show="new" actuate="onRequest">
+                <dao href="hs11658" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9308">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1690,7 +1587,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [83161847346989962438416]">3</container>
                 <unittitle>5114 [Dexter East]</unittitle>
-                <dao href="hs11657" show="new" actuate="onRequest">
+                <dao href="hs11657" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9309">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1701,7 +1598,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [8353826744252454193712]">4</container>
                 <unittitle>5115 [Dexter West]</unittitle>
-                <dao href="hs11656" show="new" actuate="onRequest">
+                <dao href="hs11656" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9310">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1712,7 +1609,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [8353826744252454193712]">4</container>
                 <unittitle>5116 [Between Dexter and Hudson Mills]</unittitle>
-                <dao href="hs11655" show="new" actuate="onRequest">
+                <dao href="hs11655" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9311">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1723,7 +1620,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [8353826744252454193712]">4</container>
                 <unittitle>5117 [Between Dexter and Hudson Mills]</unittitle>
-                <dao href="hs11654" show="new" actuate="onRequest">
+                <dao href="hs11654" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9312">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1734,7 +1631,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [8353826744252454193712]">4</container>
                 <unittitle>5118 [Hudson Mills]</unittitle>
-                <dao href="hs11653" show="new" actuate="onRequest">
+                <dao href="hs11653" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9313">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1745,7 +1642,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [8353826744252454193712]">4</container>
                 <unittitle>5119 [Portage Lake]</unittitle>
-                <dao href="hs11652" show="new" actuate="onRequest">
+                <dao href="hs11652" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9314">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1761,7 +1658,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [0105074438284945923297]">5</container>
                 <unittitle>5120 [Ypsilanti]</unittitle>
-                <dao href="hs11651" show="new" actuate="onRequest">
+                <dao href="hs11651" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9315">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1781,7 +1678,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [0105074438284945923297]">5</container>
                 <unittitle>5122 [Whittaker Road-Huron River Drive]</unittitle>
-                <dao href="hs11537" show="new" actuate="onRequest">
+                <dao href="hs11537" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9316">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1792,7 +1689,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [0105074438284945923297]">5</container>
                 <unittitle>5123 [Tuttle Hill Road-Harris Road]</unittitle>
-                <dao href="hs11536" show="new" actuate="onRequest">
+                <dao href="hs11536" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9317">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1803,7 +1700,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [0105074438284945923297]">5</container>
                 <unittitle>5124 [Rawsonville West]</unittitle>
-                <dao href="hs11451" show="new" actuate="onRequest">
+                <dao href="hs11451" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9318">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1814,7 +1711,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [0105074438284945923297]">5</container>
                 <unittitle>5125 [Rawsonville East]</unittitle>
-                <dao href="hs11540" show="new" actuate="onRequest">
+                <dao href="hs11540" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9319">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1825,7 +1722,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [1140824154609825305]">6</container>
                 <unittitle>5126 [Belleville West]</unittitle>
-                <dao href="h211536" show="new" actuate="onRequest">
+                <dao href="h211536" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9320">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1836,7 +1733,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [1140824154609825305]">6</container>
                 <unittitle>5127 [Belleville East]</unittitle>
-                <dao href="hs11544" show="new" actuate="onRequest">
+                <dao href="hs11544" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9321">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1847,7 +1744,7 @@
               <did>
                 <container type="folder" label="Oversize Folder [1140824154609825305]">6</container>
                 <unittitle>5128 [French Landing]</unittitle>
-                <dao href="hs11543" show="new" actuate="onRequest">
+                <dao href="hs11543" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9322">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1862,8 +1759,7 @@
             <c04 level="file">
               <did>
                 <container type="folder" label="Oversize Folder [1140824154609825305]">6</container>
-                <unittitle>5134 [Barton Hills] <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
-                <dao href="hs11542" show="new" actuate="onRequest">
+                <unittitle>5134 [Barton Hills]</unittitle><unitdate type="inclusive" normal="1916">1916</unitdate><dao href="hs11542" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9323">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1873,8 +1769,7 @@
             <c04 level="file">
               <did>
                 <container type="folder" label="Oversize Folder [1140824154609825305]">6</container>
-                <unittitle>Village of Rawsonville <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
-                <dao href="bh11539" show="new" actuate="onRequest">
+                <unittitle>Village of Rawsonville</unittitle><unitdate type="inclusive" normal="1922">1922</unitdate><dao href="bh11539" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9324">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
@@ -1935,7 +1830,7 @@
           <c03 level="file">
             <did>
               <unittitle>Huron River Watershed</unittitle>
-              <dao href="hs11984" show="new" actuate="onRequest">
+              <dao href="hs11984" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9325">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>

@@ -51,7 +51,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -62,10 +63,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Grand Hotel (Mackinac Island, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4087">Grand Hotel (Mackinac Island, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Grand Hotel (Mackinac Island, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1855/2011" certainty="approximate">circa 1855-2012</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1946/2012">1946-2012</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05146 Bb 2 Bb outsize; UBB1</unitid>
+      <unittitle encodinganalog="245">Grand Hotel (Mackinac Island, Mich.) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1855/2011" certainty="approximate">circa 1855-2012</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1946/2012">1946-2012</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05146 Bb 2 Bb outsize; UBB1</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The Grand Hotel records comprise documents, photographs, audio and videographic material collected about the hotel by its management. The strength of the collection is in its documentation of the guest experience at the hotel, and the evolution of amenities offered by the hotel during the mid-to-late 20th century. A small number of items also provide a glimpse of the hotel’s earliest days as a summer resort.</abstract>
       <physdesc altrender="part">
@@ -112,43 +112,42 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Grand Hotel (Mackinac Island, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Hotels--Michigan--Mackinac Island.</subject>
-        <subject source="lcsh" encodinganalog="650">Summer resorts--Michigan--Mackinac Island.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923">Mackinac Island (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4087">Grand Hotel (Mackinac Island, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6918">Hotels--Michigan--Mackinac Island.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8036">Summer resorts--Michigan--Mackinac Island.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923" ref="/subjects/945">Mackinac Island (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no95049848">Bush, George W. (George Walker), 1946-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n93010903">Clinton, Hillary Rodham.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021469">Dewey, Thomas E. (Thomas Edmund), 1902-1971.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91103937">Engler, John, 1948-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387">Milliken, William G., 1922-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88027389">Reeve, Christopher, 1952-2004.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81075523">Seymour, Jane, 1951-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79029742">Truman, Harry S., 1884-1972.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50028322">Warren, Earl, 1891-1974.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463">Williams, G. Mennen, 1911-1988.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Grand Hotel (Mackinac Island, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Construction--Michigan--Mackinac Island.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923">Mackinac Island (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Motion picture locations--Michigan--Mackinac Island.</subject>
-        <subject source="lctgm" encodinganalog="650">Hotels--Michigan--Mackinac Island.</subject>
-        <subject source="lctgm" encodinganalog="650">Resorts--Michigan--Mackinac Island.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no95049848" ref="/agents/people/5380">Bush, George W. (George Walker), 1946-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n93010903" ref="/agents/people/5234">Clinton, Hillary Rodham.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021469" ref="/agents/people/7396">Dewey, Thomas E. (Thomas Edmund), 1902-1971.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91103937" ref="/agents/people/4384">Engler, John, 1948-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387" ref="/agents/people/1448">Milliken, William G., 1922-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88027389" ref="/agents/people/7122">Reeve, Christopher, 1952-2004.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81075523" ref="/agents/people/2438">Seymour, Jane, 1951-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79029742" ref="/agents/people/873">Truman, Harry S., 1884-1972.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50028322" ref="/agents/people/2877">Warren, Earl, 1891-1974.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463" ref="/agents/people/3876">Williams, G. Mennen, 1911-1988.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4087">Grand Hotel (Mackinac Island, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4435">Construction--Michigan--Mackinac Island.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923" ref="/subjects/945">Mackinac Island (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8037">Motion picture locations--Michigan--Mackinac Island.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4436">Hotels--Michigan--Mackinac Island.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4437">Resorts--Michigan--Mackinac Island.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="655">Menus.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
-        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3485">Menus.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3134">Videotapes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Printed Material <unitdate type="inclusive" normal="1920/2007" certainty="approximate">circa 1920-2007</unitdate></unittitle>
-        </did>
+          <unittitle>Printed Material</unittitle><unitdate type="inclusive" normal="1920/2007" certainty="approximate">circa 1920-2007</unitdate></did>
         <scopecontent>
           <p>Printed Material, ca. 1920- 2007, comprises mostly materials printed for use in the regular course of the hotel's business, such as brochures, menus, guest identification/information booklets, and similar items. Items of note include an early brochure featuring photographs of guest rooms (stored as an oversize item) and a subseries of menus used at the hotel throughout the 20th century. Also included in this series is a copy of the hardbound book <title render="italic">Grand Hotel: The biography of an American institution</title> by John McCabe.</p>
         </scopecontent>
@@ -165,8 +164,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3680397144583917757017]">1</container>
-              <unittitle>Programs <unitdate type="inclusive" normal="1945/1987">1945-1987</unitdate>, <unitdate type="bulk" normal="1962/1969">1962-1969</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Programs</unittitle><unitdate type="inclusive" normal="1945/1987">1945-1987</unitdate><unitdate type="bulk" normal="1962/1969">1962-1969</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -179,8 +177,7 @@
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [76384498978870540]">Bb</container>
-              <unittitle>Advertisement from Collier's Weekly <unitdate type="inclusive" normal="1901-07-13">July 13, 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Advertisement from Collier's Weekly</unittitle><unitdate type="inclusive" normal="1901-07-13">July 13, 1901</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -291,20 +288,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3680397144583917757017]">1</container>
-              <unittitle>"Grand Hotel News" <unitdate type="inclusive" normal="1926/1927">1926-1927</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>"Grand Hotel News"</unittitle><unitdate type="inclusive" normal="1926/1927">1926-1927</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3680397144583917757017]">1</container>
-              <unittitle>"Island Items" <unitdate type="inclusive" normal="1973/1974" certainty="approximate">circa 1973-1974</unitdate></unittitle>
-            </did>
+              <unittitle>"Island Items"</unittitle><unitdate type="inclusive" normal="1973/1974" certainty="approximate">circa 1973-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3680397144583917757017]">1</container>
-              <unittitle>"Grand News from Mackinac" <unitdate type="inclusive" normal="1980">1980</unitdate>, <unitdate type="inclusive" normal="1984">Spring 1984</unitdate>, <unitdate type="inclusive" normal="1985" certainty="approximate">circa 1985</unitdate>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <unittitle>"Grand News from Mackinac"</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate><unitdate type="inclusive" normal="1984">Spring 1984</unitdate><unitdate type="inclusive" normal="1985" certainty="approximate">circa 1985</unitdate><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -332,8 +326,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3680397144583917757017]">1</container>
-              <unittitle>Flyer naming R. Daniel Musser "Resort Executive of the Year" <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
-            </did>
+              <unittitle>Flyer naming R. Daniel Musser "Resort Executive of the Year"</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -441,8 +434,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Miscellaneous <unitdate type="inclusive" normal="1935/1992">1935-1992</unitdate></unittitle>
-        </did>
+          <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1935/1992">1935-1992</unitdate></did>
         <scopecontent>
           <p>Miscellaneous, 1935-1992, comprises a small number of internal memoranda, a proof sheet for a page reprinting a Ripley's Believe It or Not regarding Grand Hotel's porch and the text of a speech dedicating Grand Hotel as a National Historic Landmark in 1990.</p>
         </scopecontent>
@@ -455,8 +447,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3680397144583917757017]">1</container>
-            <unittitle>Internal Memoranda <unitdate type="inclusive" normal="1935/1992">1935-1992</unitdate></unittitle>
-          </did>
+            <unittitle>Internal Memoranda</unittitle><unitdate type="inclusive" normal="1935/1992">1935-1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -467,25 +458,21 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3680397144583917757017]">1</container>
-            <unittitle>Proof sheet for page reprinting a Ripley's Believe It or Not regarding Grand Hotel's porch <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-          </did>
+            <unittitle>Proof sheet for page reprinting a Ripley's Believe It or Not regarding Grand Hotel's porch</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3680397144583917757017]">1</container>
-            <unittitle>Grand Hotel Centennial Weekend <unitdate type="inclusive" normal="1987-07-10/1987-07-12">July 10-12, 1987</unitdate> and other celebrations</unittitle>
-          </did>
+            <unittitle>Grand Hotel Centennial Weekend  and other celebrations</unittitle><unitdate type="inclusive" normal="1987-07-10/1987-07-12">July 10-12, 1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3680397144583917757017]">1</container>
-            <unittitle>Text of speech dedicating Grand Hotel as a National Historic Landmark <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <unittitle>Text of speech dedicating Grand Hotel as a National Historic Landmark</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Additions received <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate></unittitle>
-          </did>
+            <unittitle>Additions received</unittitle><unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [677816457547290137943956]">19</container>
@@ -495,8 +482,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [677816457547290137943956]">19</container>
-              <unittitle>Menus <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate> and others</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Menus  and others</unittitle><unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -510,15 +496,13 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [677816457547290137943956]">19</container>
-              <unittitle>"Michigan's Island Innkeeper," in Saturday Evening Post <unitdate type="inclusive" normal="1960-06-04">June 4, 1960</unitdate></unittitle>
-            </did>
+              <unittitle>"Michigan's Island Innkeeper," in Saturday Evening Post</unittitle><unitdate type="inclusive" normal="1960-06-04">June 4, 1960</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Press Clippings and Publications <unitdate type="inclusive" normal="1965/2011">1965-2011</unitdate></unittitle>
-        </did>
+          <unittitle>Press Clippings and Publications</unittitle><unitdate type="inclusive" normal="1965/2011">1965-2011</unitdate></did>
         <scopecontent>
           <p>The Press Clippings and Publications series comprises newspaper and magazine articles about Grand Hotel that were saved by its public relations office.</p>
         </scopecontent>
@@ -531,114 +515,72 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2055140279957062869]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1975/1982">1975-1982</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1975/1982">1975-1982</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [81244459418673478641]">25</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1983/1986">1983-1986</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1983/1986">1983-1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8164837148949690045037]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2324235041945908982409061]">26</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [395255407277129823]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1992/1995">1992-1995</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1992/1995">1992-1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [748786426734850461542]">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [86364554967438947978382998]">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1999/2002">1999-2002</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1999/2002">1999-2002</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [29668764044577590]">13</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [87624548197172624]">14</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [302034414840860923421]">18</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2007">2007</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2007">2007</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [178203482099362229917]">20</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [887820970469814328]">22</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2010">2010</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2010">2010</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6406898004299758219327]">23</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2011">2011</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2011">2011</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [53626104278387329]">27</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2012">2012</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2012">2012</unitdate></did>
           <odd>
             <p>(with 125th anniversary flag)</p>
           </odd>
@@ -647,10 +589,7 @@
       <c01 level="series">
         <did>
           <unittitle>
-            <genreform normal="Photographs">Photographic Material</genreform>
-            <unitdate type="inclusive" normal="1855/2004" certainty="approximate">circa 1855-2004</unitdate>
-          </unittitle>
-        </did>
+            <genreform normal="Photographs">Photographic Material</genreform></unittitle><unitdate type="inclusive" normal="1855/2004" certainty="approximate">circa 1855-2004</unitdate></did>
         <scopecontent>
           <p>Photographic Material, 1855-2004 comprises over 2,200 images organized in 5 subseries. Hotel Amenities, Scenery and Unidentified Events comprises images of the hotel, its surroundings, and general unidentified events. The bulk of the images in this subseries are from the mid-20th century through the late 1980s. The Events subseries comprises images of identified events that were held at the hotel, and includes numerous photographs of celebrities and political leaders. People contains images featuring notable personages and staff members, and includes several images of Woodfill and the Musser family. Construction and Remodeling contains almost entirely snapshot images of construction projects that were conducted at the hotel during its off-seasons, mainly during the 1980s. Finally, the Miscellaneous subseries contains images of the recovery work after a room fire at the hotel in 1983, as well as photographic reproductions of several artistic and historical items related to the hotel.</p>
         </scopecontent>
@@ -661,8 +600,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Early images of Grand Hotel and Mackinac Island, <unitdate type="bulk" normal="1920" certainty="approximate">circa pre-1920</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Early images of Grand Hotel and Mackinac Is</unittitle><unitdate type="bulk" normal="1920" certainty="approximate">circa pre-1920</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">27 prints</extent>
               </physdesc>
             </did>
@@ -674,10 +612,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [275715984980958488162]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive">undated</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive">undated</unitdate><physdesc>
                   <physfacet>20 color film slides and 2 b/w negatives</physfacet>
                 </physdesc>
               </did>
@@ -685,10 +620,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [275715984980958488162]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive">undated</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">28 prints</extent>
                   <physfacet>various prints</physfacet>
                 </physdesc>
@@ -697,10 +629,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [275715984980958488162]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive">undated</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">29 prints</extent>
                   <physfacet>various b/w prints</physfacet>
                 </physdesc>
@@ -709,11 +638,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [275715984980958488162]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1984">1984</unitdate>
-                  <unitdate type="inclusive">undated</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1984">1984</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">43 prints</extent>
                   <physfacet>various prints</physfacet>
                 </physdesc>
@@ -727,10 +652,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [275715984980958488162]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1950/1979" certainty="approximate">circa 1950s-1970s</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1950/1979" certainty="approximate">circa 1950s-1970s</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">62 prints</extent>
                   <extent altrender="carrier">in 2 envelopes</extent>
                   <physfacet>bulk b/w prints</physfacet>
@@ -740,10 +662,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [275715984980958488162]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1960/1989" certainty="approximate">circa 1960s-1980s</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1960/1989" certainty="approximate">circa 1960s-1980s</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">27 prints</extent>
                   <physfacet>bulk 8"x10" b/w prints</physfacet>
                 </physdesc>
@@ -753,8 +672,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Catering Staff and Facilities <unitdate type="inclusive" normal="1978" certainty="approximate">circa 1978</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Catering Staff and Facilities</unittitle><unitdate type="inclusive" normal="1978" certainty="approximate">circa 1978</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">40 prints</extent>
                 <physfacet>3 1/2" x 4 1/2" color snapshots</physfacet>
               </physdesc>
@@ -763,8 +681,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Golf Course <unitdate type="inclusive" normal="1986-10-25">October 25, 1986</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Golf Course</unittitle><unitdate type="inclusive" normal="1986-10-25">October 25, 1986</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">65 prints</extent>
                 <physfacet>5" x 7" color prints</physfacet>
               </physdesc>
@@ -773,8 +690,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Rooms and Suites <unitdate type="inclusive">undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Rooms and Suites</unittitle><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">19 prints</extent>
                 <physfacet>8" x 10" color prints</physfacet>
               </physdesc>
@@ -783,8 +699,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Scenery <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Scenery</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 prints</extent>
                 <physfacet>8" x 10" color prints</physfacet>
               </physdesc>
@@ -798,8 +713,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>"This Time For Keeps" Movie Shoot <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>"This Time For Keeps" Movie Shoot</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">77 prints</extent>
                 <extent altrender="carrier">in 2 envelopes</extent>
                 <physfacet>8"x10" b/w prints</physfacet>
@@ -809,8 +723,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Michigan Savings and Loan Event <unitdate type="inclusive" normal="1975" certainty="approximate">circa 1975</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Michigan Savings and Loan Event</unittitle><unitdate type="inclusive" normal="1975" certainty="approximate">circa 1975</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">21 prints</extent>
                 <physfacet>8" x 10" b/w prints</physfacet>
               </physdesc>
@@ -819,8 +732,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>NASA Reception set up with silver service and staff <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>NASA Reception set up with silver service and staff</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">38 prints</extent>
                 <physfacet>3 1/2" x 3 1/2" color snapshots</physfacet>
               </physdesc>
@@ -829,8 +741,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Michigan Bankers' Association Hawaiian Luau <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Michigan Bankers' Association Hawaiian Luau</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">13 prints</extent>
                 <physfacet>5"x7" color prints</physfacet>
               </physdesc>
@@ -839,8 +750,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Knights of Columbus Event <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Knights of Columbus Event</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">22 prints</extent>
                 <physfacet>5"x7" color prints</physfacet>
               </physdesc>
@@ -849,8 +759,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle><unitdate type="inclusive" normal="1983">1983</unitdate> Events</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Events</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">15 prints</extent>
                 <physfacet>5"x7" color prints</physfacet>
               </physdesc>
@@ -862,8 +771,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle><unitdate type="inclusive" normal="1987">1987</unitdate> Events</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Events</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">13 prints</extent>
                 <physfacet>Bulk 8"x10" color prints</physfacet>
               </physdesc>
@@ -872,8 +780,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Democratic Governors' Association Event <unitdate type="inclusive" normal="1987-07">July 1987</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Democratic Governors' Association Event</unittitle><unitdate type="inclusive" normal="1987-07">July 1987</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">17 prints</extent>
                 <physfacet>3"x5" color snapshots</physfacet>
               </physdesc>
@@ -885,8 +792,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Democratic Governors' Association <unitdate type="inclusive" normal="1988" certainty="approximate">circa 1988</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Democratic Governors' Association</unittitle><unitdate type="inclusive" normal="1988" certainty="approximate">circa 1988</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">68 prints</extent>
                 <physfacet>5"x7" color prints</physfacet>
               </physdesc>
@@ -895,8 +801,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>100th Anniversary Party <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>100th Anniversary Party</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">24 prints</extent>
                 <physfacet>color snapshots</physfacet>
               </physdesc>
@@ -905,8 +810,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>100th Anniversary Party <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>100th Anniversary Party</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">235 prints</extent>
                 <extent altrender="carrier">in 3 envelopes</extent>
                 <physfacet>5"x7" color prints</physfacet>
@@ -919,8 +823,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Tea with John McCabe, author of <title render="italic">Grand Hotel</title>, <unitdate type="inclusive" normal="1987" certainty="approximate">circa 1987</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Tea with John McCabe, author of <title render="italic">Grand Hotel</title></unittitle><unitdate type="inclusive" normal="1987" certainty="approximate">circa 1987</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">23 prints</extent>
                 <physfacet>5"x7" color prints</physfacet>
               </physdesc>
@@ -929,8 +832,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>MLSI Banquet <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>MLSI Banquet</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">18 prints</extent>
                 <physfacet>5"x7" color prints</physfacet>
               </physdesc>
@@ -939,8 +841,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Victorian Weekend <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Victorian Weekend</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">32 prints</extent>
                 <physfacet>5"x7" color prints</physfacet>
               </physdesc>
@@ -949,8 +850,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Okemos Office Open House <unitdate type="inclusive" normal="1990-12">December 1990</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Okemos Office Open House</unittitle><unitdate type="inclusive" normal="1990-12">December 1990</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">25 prints</extent>
                 <physfacet>color snapshots</physfacet>
               </physdesc>
@@ -959,8 +859,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Republican Party Event <unitdate type="inclusive" normal="1990" certainty="approximate">circa 1990</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Republican Party Event</unittitle><unitdate type="inclusive" normal="1990" certainty="approximate">circa 1990</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">20 prints</extent>
                 <physfacet>5"x7" color prints</physfacet>
               </physdesc>
@@ -972,8 +871,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>Newsletter Photographs of Events <unitdate type="inclusive">undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Newsletter Photographs of Events</unittitle><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">11 prints</extent>
                 <physfacet>5"x7" color prints</physfacet>
               </physdesc>
@@ -985,8 +883,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>"Somewhere In Time" Period Costume Event <unitdate type="inclusive">undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>"Somewhere In Time" Period Costume Event</unittitle><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">65 prints</extent>
                 <physfacet>5"x7" color prints</physfacet>
               </physdesc>
@@ -995,8 +892,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [275715984980958488162]">5</container>
-              <unittitle>James Beard House Dinner <unitdate type="inclusive" normal="2004-03-18">March 18, 2004</unitdate></unittitle>
-              <physdesc>
+              <unittitle>James Beard House Dinner</unittitle><unitdate type="inclusive" normal="2004-03-18">March 18, 2004</unitdate><physdesc>
                 <physfacet>260 JPEG images on CD-ROM</physfacet>
               </physdesc>
             </did>
@@ -1051,8 +947,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1900882638459941741329]">6</container>
-              <unittitle>Water Tower Removal <unitdate type="inclusive">undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Water Tower Removal</unittitle><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">18 prints</extent>
                 <physfacet>color snapshots</physfacet>
               </physdesc>
@@ -1061,8 +956,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1900882638459941741329]">6</container>
-              <unittitle>Woodville Housing Project <unitdate type="inclusive" normal="1987-12">December 1987</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Woodville Housing Project</unittitle><unitdate type="inclusive" normal="1987-12">December 1987</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 prints</extent>
                 <physfacet>Polaroids</physfacet>
               </physdesc>
@@ -1075,8 +969,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1900882638459941741329]">6</container>
-                <unittitle>Undated, possibly <unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Undated, possibly</unittitle><unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 prints</extent>
                   <physfacet>8"x10" b/w prints</physfacet>
                 </physdesc>
@@ -1085,10 +978,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1900882638459941741329]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1977">1977</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1977">1977</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">7 prints</extent>
                   <physfacet>8"x10" b/w prints</physfacet>
                 </physdesc>
@@ -1097,10 +987,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1900882638459941741329]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1985-05">May 1985</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1985-05">May 1985</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">15 prints</extent>
                   <physfacet>color snapshots</physfacet>
                 </physdesc>
@@ -1109,10 +996,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1900882638459941741329]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1985-11">November 1985</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1985-11">November 1985</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">73 prints</extent>
                   <physfacet>color snapshots</physfacet>
                 </physdesc>
@@ -1124,10 +1008,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1900882638459941741329]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1985-12">December 1985</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1985-12">December 1985</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">38 prints</extent>
                   <physfacet>color snapshots</physfacet>
                 </physdesc>
@@ -1139,10 +1020,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1900882638459941741329]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1986-11">November 1986</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1986-11">November 1986</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">45 prints</extent>
                   <physfacet>color snapshots</physfacet>
                 </physdesc>
@@ -1151,10 +1029,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1900882638459941741329]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1986-12">December 1986</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1986-12">December 1986</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">21 prints</extent>
                   <physfacet>color snapshots</physfacet>
                 </physdesc>
@@ -1163,10 +1038,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1900882638459941741329]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1987-01">January 1987</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1987-01">January 1987</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">53 prints</extent>
                   <physfacet>color snapshots</physfacet>
                 </physdesc>
@@ -1175,10 +1047,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1900882638459941741329]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1987-03">March 1987</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1987-03">March 1987</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">56 prints</extent>
                   <physfacet>color snapshots</physfacet>
                 </physdesc>
@@ -1190,8 +1059,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1900882638459941741329]">6</container>
-                <unittitle>Undated, possibly <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Undated, possibly</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">15 prints</extent>
                   <physfacet>color snapshots</physfacet>
                 </physdesc>
@@ -1200,10 +1068,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1900882638459941741329]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1988/1989">Winter 1988-1989</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1988/1989">Winter 1988-1989</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">135 prints</extent>
                   <extent altrender="carrier">in 3 envelopes</extent>
                   <physfacet>color snapshots</physfacet>
@@ -1216,10 +1081,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [302909841249999217]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1988/1989">Winter 1988-1989</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1988/1989">Winter 1988-1989</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">94 prints</extent>
                   <extent altrender="carrier">in 2 envelopes</extent>
                   <physfacet>color snapshots</physfacet>
@@ -1232,10 +1094,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [302909841249999217]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive">Undated</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">41 prints</extent>
                   <physfacet>color snapshots</physfacet>
                 </physdesc>
@@ -1244,10 +1103,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [302909841249999217]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive">Undated</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">30 prints</extent>
                   <physfacet>18 Polaroids and 12 color snapshots</physfacet>
                 </physdesc>
@@ -1256,10 +1112,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [302909841249999217]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive">Undated</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">48 prints</extent>
                   <physfacet>color snapshots</physfacet>
                 </physdesc>
@@ -1268,10 +1121,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [302909841249999217]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive">Undated</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">12 prints</extent>
                   <physfacet>color snapshots</physfacet>
                 </physdesc>
@@ -1280,10 +1130,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [302909841249999217]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive">Undated</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">37 prints</extent>
                   <physfacet>color snapshots</physfacet>
                 </physdesc>
@@ -1292,10 +1139,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [302909841249999217]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive">Undated</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">36 prints</extent>
                   <physfacet>color snapshots</physfacet>
                 </physdesc>
@@ -1310,8 +1154,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [302909841249999217]">7</container>
-              <unittitle>Images of fire recovery, Room 258 <unitdate type="inclusive" normal="1983-05-10">May 10, 1983</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Images of fire recovery, Room 258</unittitle><unitdate type="inclusive" normal="1983-05-10">May 10, 1983</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">75 prints</extent>
                 <physfacet>5"x7" color prints</physfacet>
               </physdesc>
@@ -1320,8 +1163,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [302909841249999217]">7</container>
-              <unittitle>Mackinac Island and Grand Hotel Art and Historical Items <unitdate type="inclusive" normal="1855/1945">1855-1945 (scattered)</unitdate></unittitle>
-              <physdesc altrender="part">
+              <unittitle>Mackinac Island and Grand Hotel Art and Historical Items</unittitle><unitdate type="inclusive" normal="1855/1945">1855-1945 (scattered)</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">13 prints</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -1347,8 +1189,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [302909841249999217]">7</container>
-              <unittitle>The Art of Hospitality exhibit <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>The Art of Hospitality exhibit</unittitle><unitdate type="inclusive" normal="2012">2012</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
                 <physfacet>CD-ROMs</physfacet>
               </physdesc>
@@ -1357,8 +1198,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Display Photographs <unitdate type="inclusive" normal="1855/1995">1855-1995</unitdate></unittitle>
-          </did>
+            <unittitle>Display Photographs</unittitle><unitdate type="inclusive" normal="1855/1995">1855-1995</unitdate></did>
           <scopecontent>
             <p>Photographs that were once displayed on the walls of the Grand Hotel can be found in the Display Photographs, 1856-1995 subseries. Beginning in 2006, a small group of photographs were transferred to the Bentley Historical Library. The Bentley scanned, color corrected, and printed copies of these photographs and returned the copies to the Grand Hotel; the originals are preserved in this collection. Some photographs are severely faded due to years of sun exposure. The display photographs have been divided into similar groupings as the Photographic Material: Hotel and Grounds, Mackinac Island, Events, People, and Construction. Additional accruals to this series are expected.</p>
           </scopecontent>
@@ -1369,26 +1209,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></did>
             </c04>
           </c03>
           <c03 level="otherlevel" otherlevel="sub-subseries">
@@ -1398,8 +1229,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>Grand Hotel images <unitdate type="inclusive" normal="1888" certainty="approximate">circa 1888</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Grand Hotel images</unittitle><unitdate type="inclusive" normal="1888" certainty="approximate">circa 1888</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">10 prints</extent>
                 </physdesc>
               </did>
@@ -1413,8 +1243,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>Grand Hotel and grounds <unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Grand Hotel and grounds</unittitle><unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 prints</extent>
                 </physdesc>
               </did>
@@ -1523,8 +1352,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle><unitdate type="inclusive" normal="1900">1900</unitdate> Grand Hotel scenes, Dave Rogers:</unittitle>
-              </did>
+                <unittitle>Grand Hotel scenes, Dave Rogers:</unittitle><unitdate type="inclusive" normal="1900">1900</unitdate></did>
               <c05 level="item">
                 <did>
                   <container type="box" label="Box [62975548994918770222976]">16</container>
@@ -1555,8 +1383,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Color interiors <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-              </did>
+                <unittitle>Color interiors</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
               <c05 level="item">
                 <did>
                   <container type="box" label="Box [62975548994918770222976]">16</container>
@@ -1706,8 +1533,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Oversize Box [812305773148048480533918]">17</container>
-                <unittitle>Grand Hotel porch, circa <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-              </did>
+                <unittitle>Grand Hotel porch, circa</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
               <odd>
                 <p>(no. 201 oversize box 17)</p>
               </odd>
@@ -1715,8 +1541,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>Grand Hotel behind shore ice, <unitdate type="inclusive" normal="1980">winter 1980</unitdate></unittitle>
-              </did>
+                <unittitle>Grand Hotel behind shore ice</unittitle><unitdate type="inclusive" normal="1980">winter 1980</unitdate></did>
               <odd>
                 <p>(no. 203)</p>
               </odd>
@@ -1732,8 +1557,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Grand Hotel interiors <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-              </did>
+                <unittitle>Grand Hotel interiors</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
               <c05 level="item">
                 <did>
                   <container type="box" label="Box [62975548994918770222976]">16</container>
@@ -1774,8 +1598,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>Tea dance time in the Grand Hotel's Tea Gardens <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
-              </did>
+                <unittitle>Tea dance time in the Grand Hotel's Tea Gardens</unittitle><unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></did>
               <odd>
                 <p>(no. 207)</p>
               </odd>
@@ -1819,8 +1642,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>Grand Hotel, a projected fantasy sketched in <unitdate type="inclusive" normal="1887">1887</unitdate></unittitle>
-                <physdesc>
+                <unittitle>Grand Hotel, a projected fantasy sketched in</unittitle><unitdate type="inclusive" normal="1887">1887</unitdate><physdesc>
                   <physfacet>photo of a print</physfacet>
                 </physdesc>
               </did>
@@ -1843,8 +1665,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Oversize Box [7186334249856649269821]">21</container>
-                <unittitle>Main lobby, now the parlor <unitdate type="inclusive" normal="1937" certainty="approximate">circa 1937</unitdate></unittitle>
-              </did>
+                <unittitle>Main lobby, now the parlor</unittitle><unitdate type="inclusive" normal="1937" certainty="approximate">circa 1937</unitdate></did>
               <odd>
                 <p>(no. 216, oversize box 21)</p>
               </odd>
@@ -1897,8 +1718,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Oversize Box [7186334249856649269821]">21</container>
-                <unittitle>Grand Hotel architect's rendering <unitdate type="inclusive" normal="1887">1887</unitdate></unittitle>
-                <physdesc>
+                <unittitle>Grand Hotel architect's rendering</unittitle><unitdate type="inclusive" normal="1887">1887</unitdate><physdesc>
                   <physfacet>photo of a print</physfacet>
                 </physdesc>
               </did>
@@ -1970,8 +1790,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Island scenes (1) <unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></unittitle>
-              </did>
+                <unittitle>Island scenes (1)</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></did>
               <c05 level="item">
                 <did>
                   <container type="box" label="Box [62975548994918770222976]">16</container>
@@ -2011,8 +1830,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Island scenes (2) <unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></unittitle>
-              </did>
+                <unittitle>Island scenes (2)</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></did>
               <c05 level="item">
                 <did>
                   <container type="box" label="Box [62975548994918770222976]">16</container>
@@ -2044,8 +1862,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Oversize Box [812305773148048480533918]">17</container>
-                <unittitle>Early Mackinac <unitdate type="inclusive" normal="1870">1870</unitdate></unittitle>
-              </did>
+                <unittitle>Early Mackinac</unittitle><unitdate type="inclusive" normal="1870">1870</unitdate></did>
               <odd>
                 <p>(no. 118)</p>
               </odd>
@@ -2053,8 +1870,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>Bark shanties <unitdate type="inclusive" normal="1888" certainty="approximate">circa 1888</unitdate></unittitle>
-              </did>
+                <unittitle>Bark shanties</unittitle><unitdate type="inclusive" normal="1888" certainty="approximate">circa 1888</unitdate></did>
               <odd>
                 <p>(no. 124)</p>
               </odd>
@@ -2070,8 +1886,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Winter scenes <unitdate type="inclusive" normal="1943-01">January 1943</unitdate> (1)</unittitle>
-              </did>
+                <unittitle>Winter scenes  (1)</unittitle><unitdate type="inclusive" normal="1943-01">January 1943</unitdate></did>
               <c05 level="item">
                 <did>
                   <container type="box" label="Box [62975548994918770222976]">16</container>
@@ -2165,8 +1980,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Winter scenes <unitdate type="inclusive" normal="1943-01">January 1943</unitdate> (2)</unittitle>
-              </did>
+                <unittitle>Winter scenes  (2)</unittitle><unitdate type="inclusive" normal="1943-01">January 1943</unitdate></did>
               <c05 level="item">
                 <did>
                   <container type="box" label="Box [62975548994918770222976]">16</container>
@@ -2261,8 +2075,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>Last of the bark shanties at Mackinac <unitdate type="inclusive" normal="1888" certainty="approximate">circa 1888</unitdate></unittitle>
-              </did>
+                <unittitle>Last of the bark shanties at Mackinac</unittitle><unitdate type="inclusive" normal="1888" certainty="approximate">circa 1888</unitdate></did>
               <odd>
                 <p>(no. 221)</p>
               </odd>
@@ -2314,8 +2127,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>"President Harry S. Truman, conference of Michigan Democrats" <unitdate type="inclusive" normal="1950-08-30">August 30, 1950</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>"President Harry S. Truman, conference of Michigan Democrats"</unittitle><unitdate type="inclusive" normal="1950-08-30">August 30, 1950</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">8 prints</extent>
                 </physdesc>
               </did>
@@ -2329,8 +2141,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>Platform Committee, Democratic National Convention <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-              </did>
+                <unittitle>Platform Committee, Democratic National Convention</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
               <odd>
                 <p>(no. 15c)</p>
               </odd>
@@ -2356,16 +2167,14 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>Michigan Hotel Association banquet in casino <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-              </did>
+                <unittitle>Michigan Hotel Association banquet in casino</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
               <odd>
                 <p>(no. 119)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>World Conference on Large Lakes and Greater Detroit Chamber of Commerce, <unitdate type="inclusive" normal="1986">early spring 1986</unitdate></unittitle>
-              </did>
+                <unittitle>World Conference on Large Lakes and Greater Detroit Chamber of Commerce</unittitle><unitdate type="inclusive" normal="1986">early spring 1986</unitdate></did>
               <c05 level="item">
                 <did>
                   <container type="box" label="Box [62975548994918770222976]">16</container>
@@ -2414,8 +2223,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>The making of "Somewhere in Time" at Grand Hotel <unitdate type="inclusive" normal="1979">1979</unitdate> (1)</unittitle>
-              </did>
+                <unittitle>The making of "Somewhere in Time" at Grand Hotel  (1)</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
               <c05 level="item">
                 <did>
                   <container type="box" label="Box [62975548994918770222976]">16</container>
@@ -2455,8 +2263,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>The making of "Somewhere in Time" at Grand Hotel <unitdate type="inclusive" normal="1979">1979</unitdate> (2)</unittitle>
-              </did>
+                <unittitle>The making of "Somewhere in Time" at Grand Hotel  (2)</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
               <c05 level="item">
                 <did>
                   <container type="box" label="Box [62975548994918770222976]">16</container>
@@ -2496,8 +2303,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Governor's Conference <unitdate type="inclusive" normal="1945">1945</unitdate> with General George Marshall and Admiral Ernest King</unittitle>
-              </did>
+                <unittitle>Governor's Conference  with General George Marshall and Admiral Ernest King</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
             </c04>
           </c03>
           <c03 level="otherlevel" otherlevel="sub-subseries">
@@ -2507,8 +2313,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>Guests on Grand Hotel porch <unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></unittitle>
-              </did>
+                <unittitle>Guests on Grand Hotel porch</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></did>
               <odd>
                 <p>(no. 6)</p>
               </odd>
@@ -2552,8 +2357,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>"Chief Justice Warren Burger in Grand Hotel...," <unitdate type="inclusive" normal="1978-08-18">August 18, 1978</unitdate></unittitle>
-              </did>
+                <unittitle>"Chief Justice Warren Burger in Grand Hotel...,"</unittitle><unitdate type="inclusive" normal="1978-08-18">August 18, 1978</unitdate></did>
               <odd>
                 <p>(no. 15b)</p>
               </odd>
@@ -2665,8 +2469,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Oversize Box [812305773148048480533918]">17</container>
-                <unittitle>Coleman Young and others in carriage <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-              </did>
+                <unittitle>Coleman Young and others in carriage</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
               <odd>
                 <p>(no. 114)</p>
               </odd>
@@ -2705,8 +2508,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Winter visitors (1) <unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate></unittitle>
-              </did>
+                <unittitle>Winter visitors (1)</unittitle><unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate></did>
               <c05 level="item">
                 <did>
                   <container type="box" label="Box [62975548994918770222976]">16</container>
@@ -2764,8 +2566,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Winter visitors (2) <unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate></unittitle>
-              </did>
+                <unittitle>Winter visitors (2)</unittitle><unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate></did>
               <c05 level="item">
                 <did>
                   <container type="box" label="Box [62975548994918770222976]">16</container>
@@ -2824,8 +2625,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Oversize Box [7186334249856649269821]">21</container>
-                <unittitle>Edmund Pace, headwaiter/minister <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-              </did>
+                <unittitle>Edmund Pace, headwaiter/minister</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
               <odd>
                 <p>(no. 123)</p>
               </odd>
@@ -2833,8 +2633,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>Understudies for Spencer Tracy and Katherine Hepburn <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-              </did>
+                <unittitle>Understudies for Spencer Tracy and Katherine Hepburn</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
               <odd>
                 <p>(no. 126)</p>
               </odd>
@@ -2842,8 +2641,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Oversize Box [7186334249856649269821]">21</container>
-                <unittitle>Dan Musser in kitchen <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-              </did>
+                <unittitle>Dan Musser in kitchen</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
               <odd>
                 <p>(no. 127)</p>
               </odd>
@@ -2851,8 +2649,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>World War I drum and bugle corps <unitdate type="inclusive" normal="1979-10">October 1979</unitdate></unittitle>
-              </did>
+                <unittitle>World War I drum and bugle corps</unittitle><unitdate type="inclusive" normal="1979-10">October 1979</unitdate></did>
               <odd>
                 <p>(no. 209)</p>
               </odd>
@@ -2868,8 +2665,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Bishop Fulton J. Sheen at Grand Hotel <unitdate type="inclusive" normal="1959-09-11">September 11, 1959</unitdate></unittitle>
-              </did>
+                <unittitle>Bishop Fulton J. Sheen at Grand Hotel</unittitle><unitdate type="inclusive" normal="1959-09-11">September 11, 1959</unitdate></did>
               <c05 level="item">
                 <did>
                   <container type="box" label="Box [62975548994918770222976]">16</container>
@@ -2897,8 +2693,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [62975548994918770222976]">16</container>
-                <unittitle>Grand Hotel initial construction, nearing completion in <unitdate type="inclusive" normal="1887">1887</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Grand Hotel initial construction, nearing completion in</unittitle><unitdate type="inclusive" normal="1887">1887</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 images</extent>
                 </physdesc>
               </did>
@@ -2912,10 +2707,7 @@
       <c01 level="series">
         <did>
           <unittitle>
-            <genreform normal="Sound recordings">Audio Material</genreform>
-            <unitdate type="inclusive" normal="1981/2007">1981-2007</unitdate>
-          </unittitle>
-        </did>
+            <genreform normal="Sound recordings">Audio Material</genreform></unittitle><unitdate type="inclusive" normal="1981/2007">1981-2007</unitdate></did>
         <scopecontent>
           <p>Audio Material, 1993-2000 comprises both commercial compact discs of music performed by Grand Hotel's musical staff, as well as radio advertisements promotions and interviews.</p>
         </scopecontent>
@@ -2926,20 +2718,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [500352204442153386]">8</container>
-              <unittitle>An Evening at the Grand Volume I <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <unittitle>An Evening at the Grand Volume I</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [500352204442153386]">8</container>
-              <unittitle>An Evening at the Grand Volume II <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>An Evening at the Grand Volume II</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [500352204442153386]">8</container>
-              <unittitle>Amazing Grace: Sunday at the Grand <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-            </did>
+              <unittitle>Amazing Grace: Sunday at the G</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -2949,8 +2738,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [500352204442153386]">8</container>
-              <unittitle>Two commercials promoting Jazz Weekend <unitdate type="inclusive">undated</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Two commercials promoting Jazz Weekend</unittitle><unitdate type="inclusive">undated</unitdate><physdesc>
                 <physfacet>audio cassette tape</physfacet>
               </physdesc>
             </did>
@@ -2958,8 +2746,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [500352204442153386]">8</container>
-              <unittitle>Three commercials mentioning review in Gourmet Magazine <unitdate type="inclusive" normal="1997-06">June 1997</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Three commercials mentioning review in Gourmet Magazine</unittitle><unitdate type="inclusive" normal="1997-06">June 1997</unitdate><physdesc>
                 <physfacet>audio cassette tape</physfacet>
               </physdesc>
             </did>
@@ -2967,8 +2754,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [500352204442153386]">8</container>
-              <unittitle>Three general commercials <unitdate type="inclusive" normal="1998-05-27">May 27, 1998</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Three general commercials</unittitle><unitdate type="inclusive" normal="1998-05-27">May 27, 1998</unitdate><physdesc>
                 <physfacet>audio cassette tape</physfacet>
               </physdesc>
             </did>
@@ -2976,8 +2762,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [500352204442153386]">8</container>
-              <unittitle>Six general commercials <unitdate type="inclusive" normal="2000-05-10">May 10, 2000</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Six general commercials</unittitle><unitdate type="inclusive" normal="2000-05-10">May 10, 2000</unitdate><physdesc>
                 <physfacet>audio cassette tape</physfacet>
               </physdesc>
             </did>
@@ -2985,8 +2770,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [500352204442153386]">8</container>
-              <unittitle>Two commercials promoting Jazz Weekend <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Two commercials promoting Jazz Weekend</unittitle><unitdate type="inclusive" normal="1999">1999</unitdate><physdesc>
                 <physfacet>audio CD</physfacet>
               </physdesc>
             </did>
@@ -2994,8 +2778,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [500352204442153386]">8</container>
-              <unittitle>Three general commercials <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Three general commercials</unittitle><unitdate type="inclusive" normal="1999">1999</unitdate><physdesc>
                 <physfacet>audio CD</physfacet>
               </physdesc>
             </did>
@@ -3008,8 +2791,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [500352204442153386]">8</container>
-              <unittitle>Bob Collins Show, WGN Radio 720 <unitdate type="inclusive" normal="1992-08-02">August 2, 1992</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Bob Collins Show, WGN Radio 720</unittitle><unitdate type="inclusive" normal="1992-08-02">August 2, 1992</unitdate><physdesc>
                 <physfacet>audio cassette tape</physfacet>
               </physdesc>
             </did>
@@ -3017,8 +2799,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [500352204442153386]">8</container>
-              <unittitle>"Mackinac in the Morning", NewsRadio 790 WSGW <unitdate type="inclusive" normal="1998-05">May 1998</unitdate></unittitle>
-              <physdesc>
+              <unittitle>"Mackinac in the Morning", NewsRadio 790 WSGW</unittitle><unitdate type="inclusive" normal="1998-05">May 1998</unitdate><physdesc>
                 <physfacet>audio cassette tape</physfacet>
               </physdesc>
             </did>
@@ -3035,32 +2816,27 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"Grand Hotel Visit" <unitdate type="inclusive" normal="1983-05-12/1983-05-15">May 12-15, 1983</unitdate></unittitle>
-              </did>
+                <unittitle>"Grand Hotel Visit"</unittitle><unitdate type="inclusive" normal="1983-05-12/1983-05-15">May 12-15, 1983</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"Frank Kelly at Jeff-Jack" <unitdate type="inclusive" normal="1984-03-10">March 10, 1984</unitdate></unittitle>
-              </did>
+                <unittitle>"Frank Kelly at Jeff-Jack"</unittitle><unitdate type="inclusive" normal="1984-03-10">March 10, 1984</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"The Grand Hotel" WJR <unitdate type="inclusive" normal="1989-07-20">July 20, 1989</unitdate></unittitle>
-              </did>
+                <unittitle>"The Grand Hotel" WJR</unittitle><unitdate type="inclusive" normal="1989-07-20">July 20, 1989</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"Michigan -- copy from client cassette master," Foote Cone &amp; Belding <unitdate type="inclusive" normal="1995-06-26">June 26, 1995</unitdate></unittitle>
-              </did>
+                <unittitle>"Michigan -- copy from client cassette master," Foote Cone &amp; Belding</unittitle><unitdate type="inclusive" normal="1995-06-26">June 26, 1995</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"1995 Celebrity Golf Series" WJR <unitdate type="inclusive" normal="1995-07-12">July 12, 1995</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>"1995 Celebrity Golf Series" WJR</unittitle><unitdate type="inclusive" normal="1995-07-12">July 12, 1995</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 audiocassettes</extent>
                 </physdesc>
               </did>
@@ -3068,20 +2844,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>Dan Musser on WKHM, Jackson, Mich. <unitdate type="inclusive" normal="1996-05-02">May 2, 1996</unitdate></unittitle>
-              </did>
+                <unittitle>Dan Musser on WKHM, Jackson, Mich.</unittitle><unitdate type="inclusive" normal="1996-05-02">May 2, 1996</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"WSGW's Grand Getaway" <unitdate type="inclusive" normal="1997-03-27/1997-04-25">March 27-April 25, 1997</unitdate></unittitle>
-              </did>
+                <unittitle>"WSGW's Grand Getaway"</unittitle><unitdate type="inclusive" normal="1997-03-27/1997-04-25">March 27-April 25, 1997</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"Taste Mention" WBBM, Chicago <unitdate type="inclusive" normal="1997-07-06">July 6, 1997</unitdate></unittitle>
-              </did>
+                <unittitle>"Taste Mention" WBBM, Chicago</unittitle><unitdate type="inclusive" normal="1997-07-06">July 6, 1997</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -3092,8 +2865,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"Korab demos" <unitdate type="inclusive">undated</unitdate></unittitle>
-              </did>
+                <unittitle>"Korab demos"</unittitle><unitdate type="inclusive">undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -3104,8 +2876,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"Grand Hotel A.V.," <unitdate type="inclusive">undated</unitdate></unittitle>
-              </did>
+                <unittitle>"Grand Hotel A.V.,"</unittitle><unitdate type="inclusive">undated</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -3132,14 +2903,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"Marathon Radio" <unitdate type="inclusive" normal="2001-07-03">July 3, 2001</unitdate></unittitle>
-              </did>
+                <unittitle>"Marathon Radio"</unittitle><unitdate type="inclusive" normal="2001-07-03">July 3, 2001</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>Paul W. Smith Show, WJR, live from Mackinac <unitdate type="inclusive" normal="2004-04-28">April 28, 2004</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Paul W. Smith Show, WJR, live from Mackinac</unittitle><unitdate type="inclusive" normal="2004-04-28">April 28, 2004</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 optical disks</extent>
                   <physfacet>CDs</physfacet>
                 </physdesc>
@@ -3148,8 +2917,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>Travel Globe Radio <unitdate type="inclusive" normal="2004-06">June 2004</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Travel Globe Radio</unittitle><unitdate type="inclusive" normal="2004-06">June 2004</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 optical disks</extent>
                   <physfacet>CDs</physfacet>
                 </physdesc>
@@ -3158,44 +2926,37 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>Grand Hotel radio commercial, WJR <unitdate type="inclusive" normal="2004-08">August 2004</unitdate></unittitle>
-              </did>
+                <unittitle>Grand Hotel radio commercial, WJR</unittitle><unitdate type="inclusive" normal="2004-08">August 2004</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>Paul W. Smith Show, WJR <unitdate type="inclusive" normal="2005-04-27">April 27, 2005</unitdate></unittitle>
-              </did>
+                <unittitle>Paul W. Smith Show, WJR</unittitle><unitdate type="inclusive" normal="2005-04-27">April 27, 2005</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"Travel Michigan/WJR" <unitdate type="inclusive" normal="2006-02-26">February 26, 2006</unitdate></unittitle>
-              </did>
+                <unittitle>"Travel Michigan/WJR"</unittitle><unitdate type="inclusive" normal="2006-02-26">February 26, 2006</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"Where to Play Golf Radio Show," <unitdate type="inclusive" normal="2007-02-24">February 24, 2007</unitdate></unittitle>
-              </did>
+                <unittitle>"Where to Play Golf Radio Show,"</unittitle><unitdate type="inclusive" normal="2007-02-24">February 24, 2007</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"Travel Michigan on WJR" <unitdate type="inclusive" normal="2007-04-22">April 22, 2007</unitdate></unittitle>
-              </did>
+                <unittitle>"Travel Michigan on WJR"</unittitle><unitdate type="inclusive" normal="2007-04-22">April 22, 2007</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"Handyman Show with Glenn Haege" WJR <unitdate type="inclusive" normal="2007-08-11">August 11, 2007</unitdate></unittitle>
-              </did>
+                <unittitle>"Handyman Show with Glenn Haege" WJR</unittitle><unitdate type="inclusive" normal="2007-08-11">August 11, 2007</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [500352204442153386]">8</container>
-                <unittitle>"Travel America" WRMN <unitdate type="inclusive">undated</unitdate></unittitle>
-              </did>
+                <unittitle>"Travel America" WRMN</unittitle><unitdate type="inclusive">undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -3223,8 +2984,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><genreform normal="Videotapes">Videographic Material</genreform>, <unitdate type="inclusive" normal="1980/2011">1980-2011</unitdate></unittitle>
-        </did>
+          <unittitle><genreform normal="Videotapes">Videographic Material</genreform></unittitle><unitdate type="inclusive" normal="1980/2011">1980-2011</unitdate></did>
         <scopecontent>
           <p>Videographic Material, 1980-2011 comprises mainly tapes of television shows that featured Grand Hotel or its staff. Highlights of this series include interviews with executives and employees of the hotel, as well as videographic images of the hotel and its surroundings. Also included in this series are two commercially produced videocassettes on Mackinac Island and its history.</p>
         </scopecontent>
@@ -3248,14 +3008,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [21668447449256879]">24</container>
-              <unittitle>Grand Hotel 100th Birthday <unitdate type="inclusive" normal="1987-05">May 1987</unitdate> (4:05)</unittitle>
-            </did>
+              <unittitle>Grand Hotel 100th Birthday  (4:05)</unittitle><unitdate type="inclusive" normal="1987-05">May 1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [21668447449256879]">24</container>
-              <unittitle>Close-Up: Grand Hotel/100th Anniversary <unitdate type="inclusive" normal="1987-07">July 1987</unitdate> (9:22)</unittitle>
-            </did>
+              <unittitle>Close-Up: Grand Hotel/100th Anniversary  (9:22)</unittitle><unitdate type="inclusive" normal="1987-07">July 1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3272,14 +3030,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [21668447449256879]">24</container>
-              <unittitle>700 Club (Mackinac Island sequence) <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-            </did>
+              <unittitle>700 Club (Mackinac Island sequence)</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [21668447449256879]">24</container>
-              <unittitle>PM Magazine, Milwaukee <unitdate type="inclusive" normal="1981">1981</unitdate> Grand Hotel story, <unitdate type="inclusive" normal="1981-10-08">October 8, 1981</unitdate>; also carriage shots, <unitdate type="inclusive" normal="1981-10-07">October 7, 1981</unitdate></unittitle>
-            </did>
+              <unittitle>PM Magazine, Milwaukee 1981 Grand Hotel story, October 8, 1981; also carriage shots, October 7, 1981</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate><unitdate type="inclusive" normal="1981-10-08">October 8, 1981</unitdate><unitdate type="inclusive" normal="1981-10-07">October 7, 1981</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -3289,14 +3045,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [21668447449256879]">24</container>
-              <unittitle>Michigan Travel Bureau footage of Mackinac Island <unitdate type="inclusive" normal="1997-06-26">June 26, 1997</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Travel Bureau footage of Mackinac Is</unittitle><unitdate type="inclusive" normal="1997-06-26">June 26, 1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [21668447449256879]">24</container>
-              <unittitle>Golf Michigan episode on Grand Hotel <unitdate type="inclusive" normal="1998-05">May 1998</unitdate></unittitle>
-            </did>
+              <unittitle>Golf Michigan episode on Grand Hotel</unittitle><unitdate type="inclusive" normal="1998-05">May 1998</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -3333,8 +3087,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4090467959982252401]">9</container>
-              <unittitle>Fork in the Road, Episode 11 (Grand Hotel kitchen tour) <unitdate type="inclusive" normal="2003-01-19">January 19, 2003</unitdate></unittitle>
-            </did>
+              <unittitle>Fork in the Road, Episode 11 (Grand Hotel kitchen tour)</unittitle><unitdate type="inclusive" normal="2003-01-19">January 19, 2003</unitdate></did>
             <odd>
               <p>(video #4)</p>
             </odd>
@@ -3342,8 +3095,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4090467959982252401]">9</container>
-              <unittitle>Golf Michigan <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Golf Michigan</unittitle><unitdate type="inclusive">undated</unitdate></did>
             <odd>
               <p>(video #5)</p>
             </odd>
@@ -3351,8 +3103,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4090467959982252401]">9</container>
-              <unittitle>Good Morning America, "In Search of America" series segment on Michigan, with short interview with Dan Musser III <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Good Morning America, "In Search of America" series segment on Michigan, with short interview with Dan Musser III</unittitle><unitdate type="inclusive">undated</unitdate></did>
             <odd>
               <p>(video #6)</p>
             </odd>
@@ -3396,8 +3147,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4090467959982252401]">9</container>
-              <unittitle>WNEM Golf series spot on Woods course, with brief interview clips with course designer Jerry Matthew <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>WNEM Golf series spot on Woods course, with brief interview clips with course designer Jerry Matthew</unittitle><unitdate type="inclusive">undated</unitdate></did>
             <odd>
               <p>(video #11)</p>
             </odd>
@@ -3405,8 +3155,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4090467959982252401]">9</container>
-              <unittitle>Great Lakes Ports O'Call Episode #201 featuring Mackinac Island <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-            </did>
+              <unittitle>Great Lakes Ports O'Call Episode #201 featuring Mackinac Is</unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
             <odd>
               <p>(video #12)</p>
             </odd>
@@ -3423,8 +3172,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4090467959982252401]">9</container>
-              <unittitle>QVC Local, Michigan Week Spots, with spot on Grand Hotel <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>QVC Local, Michigan Week Spots, with spot on Grand Hotel</unittitle><unitdate type="inclusive">undated</unitdate></did>
             <odd>
               <p>(video #14)</p>
             </odd>
@@ -3450,8 +3198,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4090467959982252401]">9</container>
-              <unittitle>Michigan Magazine, Episodes #349 and #350 <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Michigan Magazine, Episodes #349 and #350</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate><physdesc>
                 <physfacet>2 videocassettes</physfacet>
               </physdesc>
             </did>
@@ -3474,8 +3221,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle>Grand Hotel: Carleton Varney interview <unitdate type="inclusive" normal="1983-05">May 1983</unitdate></unittitle>
-            </did>
+              <unittitle>Grand Hotel: Carleton Varney interview</unittitle><unitdate type="inclusive" normal="1983-05">May 1983</unitdate></did>
             <odd>
               <p>(video #20)</p>
             </odd>
@@ -3483,8 +3229,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle>Italian TV Looks at Mackinac Island <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-            </did>
+              <unittitle>Italian TV Looks at Mackinac Is</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
             <odd>
               <p>(in Italian with voice over English by W.T. Rabe)</p>
             </odd>
@@ -3495,8 +3240,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle>The <unitdate type="inclusive" normal="1984">1984</unitdate> Resort Committee of the American Hotel &amp; Motel Association</unittitle>
-            </did>
+              <unittitle>The  Resort Committee of the American Hotel &amp; Motel Association</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
             <odd>
               <p>(video #22)</p>
             </odd>
@@ -3504,8 +3248,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle>Grand Hotel Gardens &amp; Stone Skipping Tournament, Detroit <unitdate type="inclusive" normal="1985-07-04">July 4, 1985</unitdate></unittitle>
-            </did>
+              <unittitle>Grand Hotel Gardens &amp; Stone Skipping Tournament, Detroit</unittitle><unitdate type="inclusive" normal="1985-07-04">July 4, 1985</unitdate></did>
             <odd>
               <p>(video #23)</p>
             </odd>
@@ -3522,8 +3265,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle>Klingman's Great Summer Sale <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-            </did>
+              <unittitle>Klingman's Great Summer Sale</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
             <odd>
               <p>(video #25)</p>
             </odd>
@@ -3531,8 +3273,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle>Michigan Forward <unitdate type="inclusive" normal="1987-02-20">February 20, 1987</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Forward</unittitle><unitdate type="inclusive" normal="1987-02-20">February 20, 1987</unitdate></did>
             <odd>
               <p>(video #26)</p>
             </odd>
@@ -3540,8 +3281,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle>Walk Michigan '86, TV Version <unitdate type="inclusive" normal="1987-05-28">May 28, 1987</unitdate></unittitle>
-            </did>
+              <unittitle>Walk Michigan '86, TV Version</unittitle><unitdate type="inclusive" normal="1987-05-28">May 28, 1987</unitdate></did>
             <odd>
               <p>(video #27)</p>
             </odd>
@@ -3549,8 +3289,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle>Colony Interconnects, Commercial <unitdate type="inclusive" normal="1987-07/1987-08">July-August 1987</unitdate></unittitle>
-            </did>
+              <unittitle>Colony Interconnects, Commercial</unittitle><unitdate type="inclusive" normal="1987-07/1987-08">July-August 1987</unitdate></did>
             <odd>
               <p>(video #28)</p>
             </odd>
@@ -3558,8 +3297,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle>Grand 100 Capitol Club <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-            </did>
+              <unittitle>Grand 100 Capitol Club</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
             <odd>
               <p>(video #29)</p>
             </odd>
@@ -3567,8 +3305,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle><unitdate type="inclusive" normal="1988">1988</unitdate> Int. Fin. Planning, Summer Extravaganza</unittitle>
-            </did>
+              <unittitle>Int. Fin. Planning, Summer Extravaganza</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
             <odd>
               <p>(video #30)</p>
             </odd>
@@ -3576,8 +3313,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle>Michigan Travel Bureau, <unitdate type="inclusive" normal="1988">Summer 1988</unitdate> Commercials (I &amp; II), S8-15</unittitle>
-            </did>
+              <unittitle>Michigan Travel Bureau,  Commercials (I &amp; II), S8-15</unittitle><unitdate type="inclusive" normal="1988">Summer 1988</unitdate></did>
             <odd>
               <p>(video #31)</p>
             </odd>
@@ -3585,8 +3321,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle>When the Horses Leave: Metamorphosis at Mackinac, Winter on Mackinac <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-            </did>
+              <unittitle>When the Horses Leave: Metamorphosis at Mackinac, Winter on Mackinac</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
             <odd>
               <p>(Produced for PBS by Ch. 13, Marquette, Michigan)</p>
             </odd>
@@ -3597,8 +3332,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle>Winter on Mackinac Island <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-            </did>
+              <unittitle>Winter on Mackinac Is</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
             <odd>
               <p>3 or 4 parts, ea 5 min, by Mort Crim, Channel IV, Detroit</p>
             </odd>
@@ -3609,8 +3343,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [005540776040535896756]">10</container>
-              <unittitle>Grand Hotel, NBC Today Show <unitdate type="inclusive" normal="1989-08-04">August 4, 1989</unitdate></unittitle>
-            </did>
+              <unittitle>Grand Hotel, NBC Today Show</unittitle><unitdate type="inclusive" normal="1989-08-04">August 4, 1989</unitdate></did>
             <odd>
               <p>(video #34)</p>
             </odd>
@@ -3618,8 +3351,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Grand Hotel on NBC-TV's "Today" show <unitdate type="inclusive" normal="1989-08-04">August 4, 1989</unitdate></unittitle>
-            </did>
+              <unittitle>Grand Hotel on NBC-TV's "Today" show</unittitle><unitdate type="inclusive" normal="1989-08-04">August 4, 1989</unitdate></did>
             <odd>
               <p>(video #35)</p>
             </odd>
@@ -3627,8 +3359,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Mackinac Island News Coverage, WDIV -- TV 4 News/Detroit <unitdate type="inclusive" normal="1990-05-11">May 11, 1990</unitdate></unittitle>
-            </did>
+              <unittitle>Mackinac Island News Coverage, WDIV -- TV 4 News/Detroit</unittitle><unitdate type="inclusive" normal="1990-05-11">May 11, 1990</unitdate></did>
             <odd>
               <p>(video #36)</p>
             </odd>
@@ -3636,8 +3367,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Going Our Way, TNN <unitdate type="inclusive" normal="1992-08">August 1992</unitdate></unittitle>
-            </did>
+              <unittitle>Going Our Way, TNN</unittitle><unitdate type="inclusive" normal="1992-08">August 1992</unitdate></did>
             <odd>
               <p>(video #37)</p>
             </odd>
@@ -3645,8 +3375,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Consumer Travel Reports, Week of <unitdate type="inclusive" normal="1993-10-25">October 25, 1993</unitdate></unittitle>
-            </did>
+              <unittitle>Consumer Travel Reports, Week of</unittitle><unitdate type="inclusive" normal="1993-10-25">October 25, 1993</unitdate></did>
             <odd>
               <p>(video #38)</p>
             </odd>
@@ -3654,8 +3383,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Small Business Journal Program III <unitdate type="inclusive" normal="1994-09">September 1994</unitdate></unittitle>
-            </did>
+              <unittitle>Small Business Journal Program III</unittitle><unitdate type="inclusive" normal="1994-09">September 1994</unitdate></did>
             <odd>
               <p>(includes video from the Small Business Association Summer convention at Grand Hotel)</p>
             </odd>
@@ -3678,8 +3406,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>WZZM ABC-13 "The Morning News" from Mackinac <unitdate type="inclusive" normal="1996-07-08">July 8, 1996</unitdate></unittitle>
-            </did>
+              <unittitle>WZZM ABC-13 "The Morning News" from Mackinac</unittitle><unitdate type="inclusive" normal="1996-07-08">July 8, 1996</unitdate></did>
             <odd>
               <p>(morning news hosts broadcast from Grand Hotel's porch; includes interview with chef Anthony Smith)</p>
             </odd>
@@ -3690,8 +3417,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Mackinac Island, Grand Hotel <unitdate type="inclusive" normal="1996">1996</unitdate> Summer Tourism</unittitle>
-            </did>
+              <unittitle>Mackinac Island, Grand Hotel  Summer Tourism</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
             <odd>
               <p>(video #42)</p>
             </odd>
@@ -3699,8 +3425,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Grand Hotel, Today, NBC-TV Network <unitdate type="inclusive" normal="1997-07-09">July 9, 1997</unitdate></unittitle>
-            </did>
+              <unittitle>Grand Hotel, Today, NBC-TV Network</unittitle><unitdate type="inclusive" normal="1997-07-09">July 9, 1997</unitdate></did>
             <odd>
               <p>(video #43)</p>
             </odd>
@@ -3708,8 +3433,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Channel 7 Spotlight on the News: The Grand Old Island <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <unittitle>Channel 7 Spotlight on the News: The Grand Old Is</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
             <odd>
               <p>(includes panel-style interview with Dan Musser III, Mimi Musser, Marlee Musser, and Margaret Doud, Mayor of Mackinac Island)</p>
             </odd>
@@ -3720,8 +3444,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>American Express / A&amp;E Television America's Castles promotion <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-            </did>
+              <unittitle>American Express / A&amp;E Television America's Castles promotion</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
             <odd>
               <p>(video #45)</p>
             </odd>
@@ -3729,8 +3452,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Commercial that ran during Golf Michigan <unitdate type="inclusive" normal="2001-03-09">March 9, 2001</unitdate></unittitle>
-            </did>
+              <unittitle>Commercial that ran during Golf Michigan</unittitle><unitdate type="inclusive" normal="2001-03-09">March 9, 2001</unitdate></did>
             <odd>
               <p>(tape includes entire episode of show, which was sponsored by Grand Hotel)</p>
             </odd>
@@ -3741,8 +3463,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>"Mackinac Island: A 600 Year History" <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-            </did>
+              <unittitle>"Mackinac Island: A 600 Year History"</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
             <odd>
               <p>(written and produced by Al and Dave Eicher)</p>
             </odd>
@@ -3753,8 +3474,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Good Day Wisconsin segment "Cooking with Amy" <unitdate type="inclusive" normal="2000-07">July 2000</unitdate></unittitle>
-            </did>
+              <unittitle>Good Day Wisconsin segment "Cooking with Amy"</unittitle><unitdate type="inclusive" normal="2000-07">July 2000</unitdate></did>
             <odd>
               <p>(cooking segment featuring Grand Hotel Chef Hans Burtsher)</p>
             </odd>
@@ -3765,8 +3485,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>WILX TV 10 news story on Somewhere in Time event <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-            </did>
+              <unittitle>WILX TV 10 news story on Somewhere in Time event</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
             <odd>
               <p>(includes interview with Jane Seymour at Grand Hotel)</p>
             </odd>
@@ -3777,8 +3496,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Public Places, Private Spaces with Nancy Glass, Episode 110 <unitdate type="inclusive" normal="2002-12-04">December 4, 2002</unitdate></unittitle>
-            </did>
+              <unittitle>Public Places, Private Spaces with Nancy Glass, Episode 110</unittitle><unitdate type="inclusive" normal="2002-12-04">December 4, 2002</unitdate></did>
             <odd>
               <p>(features designs by Carleton Varney, including Grand Hotel)</p>
             </odd>
@@ -3789,8 +3507,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Weekend Explorer, episode on Mackinac Island <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
-            </did>
+              <unittitle>Weekend Explorer, episode on Mackinac Is</unittitle><unitdate type="inclusive" normal="2004">2004</unitdate></did>
             <odd>
               <p>(video #51)</p>
             </odd>
@@ -3843,26 +3560,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Michigan Political History Society tour given by Dan Musser <unitdate type="inclusive" normal="2007-08-25">August 25, 2007</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Political History Society tour given by Dan Musser</unittitle><unitdate type="inclusive" normal="2007-08-25">August 25, 2007</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle><unitdate type="inclusive" normal="2006">2006</unitdate> Mackinac Policy Conference (WXYZ, Spotlight on the News)</unittitle>
-            </did>
+              <unittitle>Mackinac Policy Conference (WXYZ, Spotlight on the News)</unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Little People, Big World, Episode 425 "Somewhere in Time" <unitdate type="inclusive" normal="2008-11-13">November 13, 2008</unitdate></unittitle>
-            </did>
+              <unittitle>Little People, Big World, Episode 425 "Somewhere in Time"</unittitle><unitdate type="inclusive" normal="2008-11-13">November 13, 2008</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>An Interview with R.D. Musser, conducted by Bill Ballenger, Michigan Political History Society <unitdate type="inclusive" normal="2009-12-17">December 17, 2009</unitdate></unittitle>
-            </did>
+              <unittitle>An Interview with R.D. Musser, conducted by Bill Ballenger, Michigan Political History Society</unittitle><unitdate type="inclusive" normal="2009-12-17">December 17, 2009</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3873,20 +3586,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Best of the Midwest with Dan Kaercher <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-            </did>
+              <unittitle>Best of the Midwest with Dan Kaercher</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Fox 2 Detroit, News coverage of Grand Hotel on Mackinac Island <unitdate type="inclusive" normal="2009-04-30">April 30, 2009</unitdate>, <unitdate type="inclusive" normal="2009-05-01">May 1, 2009</unitdate></unittitle>
-            </did>
+              <unittitle>Fox 2 Detroit, News coverage of Grand Hotel on Mackinac Is</unittitle><unitdate type="inclusive" normal="2009-04-30">April 30, 2009</unitdate><unitdate type="inclusive" normal="2009-05-01">May 1, 2009</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Mackinac Island: Mecca of the Midwest <unitdate type="inclusive" normal="2006-05-28">May 28, 2006</unitdate></unittitle>
-            </did>
+              <unittitle>Mackinac Island: Mecca of the Midwest</unittitle><unitdate type="inclusive" normal="2006-05-28">May 28, 2006</unitdate></did>
             <odd>
               <p>(Chicago public television program; taped from the television)</p>
             </odd>
@@ -3894,14 +3604,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Detroit Regional Chamber <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-            </did>
+              <unittitle>Detroit Regional Chamber</unittitle><unitdate type="inclusive" normal="2008">2008</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [38162400491956217575192]">15</container>
-              <unittitle>Maranda Where You Live, Mackinac Island show <unitdate type="inclusive" normal="2011-05-21">May 21, 2011</unitdate></unittitle>
-            </did>
+              <unittitle>Maranda Where You Live, Mackinac Island show</unittitle><unitdate type="inclusive" normal="2011-05-21">May 21, 2011</unitdate></did>
           </c03>
         </c02>
       </c01>

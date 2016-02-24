@@ -24,7 +24,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="110">Ketefian, Shaké.</persname>
+        <persname source="lcnaf" encodinganalog="110" ref="/agents/people/6892">Ketefian, Shaké.</persname>
       </origination>
-      <unittitle encodinganalog="245">Shaké Ketefian papers <unitdate type="inclusive" encodinganalog="245$f" normal="1974/2011">1974-2011</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1984/1999">1984-1999</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012041 Aa 2</unitid>
+      <unittitle encodinganalog="245">Shaké Ketefian papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1974/2011">1974-2011</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1984/1999">1984-1999</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012041 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor at the University of Michigan School of Nursing and a leading scholar and researcher in nursing education, practice, and programs with an emphasis on international education. Collection consists of records of Ketefian's work with the School of Nursing as well as with the University Senate, and the Horace H. Rackham School of Graduate Studies.</abstract>
       <physdesc altrender="whole">
@@ -92,12 +92,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Ketefian, Shaké.</persname>
-        <subject source="lcsh" encodinganalog="650">Nursing--International cooperation.</subject>
-        <subject source="lcsh" encodinganalog="650">Nursing--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Nursing--Study and teaching (Graduate)</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96022006">University of Michigan. School of Nursing.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6892">Ketefian, Shaké.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8657">Nursing--International cooperation.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6094">Nursing--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8658">Nursing--Study and teaching (Graduate)</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96022006" ref="/agents/corporate_entities/2094">University of Michigan. School of Nursing.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -111,8 +111,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0004890480299856414]">1</container>
-            <unittitle>Academic and Student Affairs Committee <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate></unittitle>
-          </did>
+            <unittitle>Academic and Student Affairs Committee</unittitle><unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -124,10 +123,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -135,10 +131,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -146,10 +139,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -158,8 +148,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0004890480299856414]">1</container>
-            <unittitle>Retreat and Task Force Spring-Summer <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-          </did>
+            <unittitle>Retreat and Task Force Spring-Summer</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -171,8 +160,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>Admission, Progression and Grad Task Force <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate></unittitle>
-            </did>
+              <unittitle>Admission, Progression and Grad Task Force</unittitle><unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -180,8 +168,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>Admission, Progression and Grad Task Force-GRE Validity Study <unitdate type="inclusive" normal="1980">1980</unitdate>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-            </did>
+              <unittitle>Admission, Progression and Grad Task Force-GRE Validity Study</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate><unitdate type="inclusive" normal="1984">1984</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -194,10 +181,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -205,10 +189,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -221,10 +202,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -233,8 +211,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0004890480299856414]">1</container>
-            <unittitle>Core Centers Grant Material <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <unittitle>Core Centers Grant Material</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -242,8 +219,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0004890480299856414]">1</container>
-            <unittitle>Continuing Education Task Force Report <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-          </did>
+            <unittitle>Continuing Education Task Force Report</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -269,10 +245,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -280,10 +253,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -296,8 +266,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>Dean Hinshaw <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
-            </did>
+              <unittitle>Dean Hinshaw</unittitle><unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -305,8 +274,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>Deans <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
-            </did>
+              <unittitle>Deans</unittitle><unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -314,8 +282,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>Deans <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
-            </did>
+              <unittitle>Deans</unittitle><unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -328,10 +295,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -339,10 +303,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -355,10 +316,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -366,10 +324,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0004890480299856414]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -377,8 +332,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15820244435278420768]">2</container>
-              <unittitle>Divisions Director's Retreat <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-            </did>
+              <unittitle>Divisions Director's Retreat</unittitle><unitdate type="inclusive" normal="1999">1999</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -386,10 +340,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15820244435278420768]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -398,8 +349,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>Faculty Correspondence <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></unittitle>
-          </did>
+            <unittitle>Faculty Correspondence</unittitle><unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -407,8 +357,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>Faculty Minutes <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></unittitle>
-          </did>
+            <unittitle>Faculty Minutes</unittitle><unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -416,8 +365,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>Faculty Retreat <unitdate type="inclusive" normal="1999-05">May 1999</unitdate></unittitle>
-          </did>
+            <unittitle>Faculty Retreat</unittitle><unitdate type="inclusive" normal="1999-05">May 1999</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -425,8 +373,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>FTE Workload Analysis, May / <unitdate type="inclusive" normal="1988">Fall 1988</unitdate></unittitle>
-          </did>
+            <unittitle>FTE Workload Analysis, May /</unittitle><unitdate type="inclusive" normal="1988">Fall 1988</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -438,10 +385,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15820244435278420768]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994/1996">1994-1996</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1994/1996">1994-1996</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -449,10 +393,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15820244435278420768]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -461,8 +402,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>Graduate Studies Office Annual Report <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-          </did>
+            <unittitle>Graduate Studies Office Annual Report</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -470,8 +410,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>N699 Task Force <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></unittitle>
-          </did>
+            <unittitle>N699 Task Force</unittitle><unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -479,8 +418,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>Office of Graduate Studies /Nursing Administration Program <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
-          </did>
+            <unittitle>Office of Graduate Studies /Nursing Administration Program</unittitle><unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -510,8 +448,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15820244435278420768]">2</container>
-              <unittitle>Curriculum Committee <unitdate type="inclusive" normal="1986">1986</unitdate>, <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-            </did>
+              <unittitle>Curriculum Committee</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -520,8 +457,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>Program Chairs <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
-          </did>
+            <unittitle>Program Chairs</unittitle><unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -529,8 +465,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>Proposals and Relevant Articles-BS/MS, Single MS <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
-          </did>
+            <unittitle>Proposals and Relevant Articles-BS/MS, Single MS</unittitle><unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -538,8 +473,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>Task Force on Work Environment <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
-          </did>
+            <unittitle>Task Force on Work Environment</unittitle><unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -551,8 +485,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [15820244435278420768]">2</container>
-              <unittitle>Proposals to Info Tech Division, <unitdate type="inclusive" normal="1986">Fall 1986</unitdate></unittitle>
-            </did>
+              <unittitle>Proposals to Info Tech Division</unittitle><unitdate type="inclusive" normal="1986">Fall 1986</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -570,8 +503,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>UM Educational Computing Ad Hoc Committee <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
-          </did>
+            <unittitle>UM Educational Computing Ad Hoc Committee</unittitle><unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -586,13 +518,11 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Accreditation UM/ Internationalization <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
-          </did>
+            <unittitle>Accreditation UM/ Internationalization</unittitle><unitdate type="inclusive" normal="2007">2007</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [15820244435278420768]">2</container>
-              <unittitle>Annual Report / Accreditation <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
-            </did>
+              <unittitle>Annual Report / Accreditation</unittitle><unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -601,8 +531,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>Archival Report <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate></unittitle>
-          </did>
+            <unittitle>Archival Report</unittitle><unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -610,8 +539,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>Doctor of Nursing Practice Task Force <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></unittitle>
-          </did>
+            <unittitle>Doctor of Nursing Practice Task Force</unittitle><unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -619,8 +547,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>Faculty / Faculty Service Role <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate></unittitle>
-          </did>
+            <unittitle>Faculty / Faculty Service Role</unittitle><unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -637,8 +564,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [15820244435278420768]">2</container>
-            <unittitle>Information Technology Committee Articles <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
-          </did>
+            <unittitle>Information Technology Committee Articles</unittitle><unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -646,8 +572,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>ITAC-IT Competencies <unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate></unittitle>
-          </did>
+            <unittitle>ITAC-IT Competencies</unittitle><unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -655,8 +580,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate></unittitle>
-          </did>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -664,8 +588,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>MUCIA Global-Discussions <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></unittitle>
-          </did>
+            <unittitle>MUCIA Global-Discussions</unittitle><unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -673,8 +596,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>Ph.D. Program Review, AC/EC <unitdate type="inclusive" normal="1998">Fall 1998</unitdate></unittitle>
-          </did>
+            <unittitle>Ph.D. Program Review, AC/EC</unittitle><unitdate type="inclusive" normal="1998">Fall 1998</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -682,8 +604,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>Plan (Evaluation Plan) <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <unittitle>Plan (Evaluation Plan)</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -691,8 +612,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>Planning (Long-Range) <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-          </did>
+            <unittitle>Planning (Long-Range)</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -713,8 +633,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0974544214032769884804]">3</container>
-              <unittitle>Recruitment/ Marketing Trester/ Marshall <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
-            </did>
+              <unittitle>Recruitment/ Marketing Trester/ Marshall</unittitle><unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -723,8 +642,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>Task Force on International Nursing, <unitdate type="inclusive" normal="1988">Winter 1988</unitdate></unittitle>
-          </did>
+            <unittitle>Task Force on International Nursing</unittitle><unitdate type="inclusive" normal="1988">Winter 1988</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -739,13 +657,11 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Academic Affairs Advisory Committee (AAAC) <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></unittitle>
-          </did>
+            <unittitle>Academic Affairs Advisory Committee (AAAC)</unittitle><unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0974544214032769884804]">3</container>
-              <unittitle>AAAC / Dean Evaluation <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-            </did>
+              <unittitle>AAAC / Dean Evaluation</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -753,8 +669,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0974544214032769884804]">3</container>
-              <unittitle>AAAC / SACUA (Senate Advisory Committee on Academic Affairs) <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></unittitle>
-            </did>
+              <unittitle>AAAC / SACUA (Senate Advisory Committee on Academic Affairs)</unittitle><unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -763,8 +678,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>Academic Affairs Advisory Committee (AAAC) <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></unittitle>
-          </did>
+            <unittitle>Academic Affairs Advisory Committee (AAAC)</unittitle><unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -772,8 +686,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>By Law 14.06 TF <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-          </did>
+            <unittitle>By Law 14.06 TF</unittitle><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -781,8 +694,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>CESF Committee on the Economic Status of the Faculty Report <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
-          </did>
+            <unittitle>CESF Committee on the Economic Status of the Faculty Report</unittitle><unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -790,8 +702,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>Convocation/ Graduation <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
-          </did>
+            <unittitle>Convocation/ Graduation</unittitle><unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -803,10 +714,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0974544214032769884804]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -814,10 +722,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0974544214032769884804]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -825,10 +730,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0974544214032769884804]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -837,8 +739,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>Integrity of Scholarship Faculty Forum, Jan <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-          </did>
+            <unittitle>Integrity of Scholarship Faculty Forum, Jan</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -846,8 +747,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>Office of the Vice President for Research <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
-          </did>
+            <unittitle>Office of the Vice President for Research</unittitle><unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -859,10 +759,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0974544214032769884804]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -870,10 +767,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0974544214032769884804]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -886,8 +780,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0974544214032769884804]">3</container>
-              <unittitle>SACUA Retreat on Cost-containment <unitdate type="inclusive" normal="1991-03">March 1991</unitdate></unittitle>
-            </did>
+              <unittitle>SACUA Retreat on Cost-containment</unittitle><unitdate type="inclusive" normal="1991-03">March 1991</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -900,8 +793,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0974544214032769884804]">3</container>
-              <unittitle>Senate Committee on Research and Scholarship, <unitdate type="inclusive" normal="1986">Spring 1986</unitdate></unittitle>
-            </did>
+              <unittitle>Senate Committee on Research and Scholarship</unittitle><unitdate type="inclusive" normal="1986">Spring 1986</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -910,8 +802,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0974544214032769884804]">3</container>
-            <unittitle>Vice President for Academic and Multicultural Affairs <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
-          </did>
+            <unittitle>Vice President for Academic and Multicultural Affairs</unittitle><unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -932,10 +823,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [859806104055628417]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -943,10 +831,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [859806104055628417]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -954,10 +839,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [859806104055628417]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -965,10 +847,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [859806104055628417]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -976,10 +855,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [859806104055628417]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -987,10 +863,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [859806104055628417]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -998,18 +871,14 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Rackham Executive Board <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Rackham Executive Board</unittitle><unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [859806104055628417]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
             <accessrestrict>
               <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
             </accessrestrict>
@@ -1017,10 +886,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [859806104055628417]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -1032,8 +898,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [859806104055628417]">4</container>
-            <unittitle>Rackham Fellowships <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-          </did>
+            <unittitle>Rackham Fellowships</unittitle><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -1050,8 +915,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [859806104055628417]">4</container>
-            <unittitle>Report on Quality of School of Nursing Graduate Programs-Paper sent to Rackham <unitdate type="inclusive" normal="1987-11">November 1987</unitdate></unittitle>
-          </did>
+            <unittitle>Report on Quality of School of Nursing Graduate Programs-Paper sent to Rackham</unittitle><unitdate type="inclusive" normal="1987-11">November 1987</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -1059,8 +923,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [859806104055628417]">4</container>
-            <unittitle>Rackham Reviews of the School of Nursing Graduate Programs <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-          </did>
+            <unittitle>Rackham Reviews of the School of Nursing Graduate Programs</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -1077,8 +940,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Publications <unitdate type="inclusive" normal="1974/2011">1974-2011</unitdate></unittitle>
-        </did>
+          <unittitle>Publications</unittitle><unitdate type="inclusive" normal="1974/2011">1974-2011</unitdate></did>
         <scopecontent>
           <p>The Publications (1974-2011) series is arranged by year and contains Shaké Ketefian's published work, including presentations for conferences, from 1974 to 2011. Her curriculum vitae included in this section provides a reference list to her publications.</p>
         </scopecontent>
@@ -1094,10 +956,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [966204303754830075]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1974/1989">1974-1989</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1974/1989">1974-1989</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -1105,10 +964,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [966204303754830075]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1990/1994">1990-1994</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1990/1994">1990-1994</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -1116,10 +972,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [966204303754830075]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1996/1999">1996-1999</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1996/1999">1996-1999</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -1127,10 +980,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [966204303754830075]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -1138,10 +988,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [966204303754830075]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2002">2002</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="2002">2002</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1152,10 +999,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [966204303754830075]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2003">2003</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2003">2003</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -1163,10 +1007,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [966204303754830075]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2004">2004</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2004">2004</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -1174,10 +1015,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [966204303754830075]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2005">2005</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2005">2005</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -1185,10 +1023,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [966204303754830075]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -1196,10 +1031,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [966204303754830075]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>
@@ -1207,10 +1039,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [966204303754830075]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate></did>
           <accessrestrict>
             <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
           </accessrestrict>

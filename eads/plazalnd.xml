@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Plaza Land Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3530">Plaza Land Corporation.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Plaza Land Corporation records <unitdate type="inclusive" encodinganalog="245$f" normal="1955/1962">1955-1962</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012010 Bb 2</unitid>
+      <unittitle encodinganalog="245">Plaza Land Corporation records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1955/1962">1955-1962</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012010 Bb 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">2.5 linear feet</extent>
@@ -81,24 +81,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Hotel Pontchartrain (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Plaza Land Corporation.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190241">Cobo, Albert E. (Albert Eugene), 1893-1957.</persname>
-        <persname source="lcnaf" encodinganalog="600">Grace, Edward R.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85299089">Hilton, Conrad N. (Conrad Nicholson), 1887-1979.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190020">Matthaei, Frederick C. (Frederick Carl), 1892-1973.</persname>
-        <persname source="lcnaf" encodinganalog="600">Pierson, H. Lynn.</persname>
-        <persname source="lcnaf" encodinganalog="600">Roby, Douglas F. (Douglas Fergusson), 1898-1992.</persname>
-        <persname source="lcnaf" encodinganalog="600">Webber, Oscar.</persname>
-        <subject source="lcsh" encodinganalog="650">Hotels--Michigan--Detroit.</subject>
-        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Commerce.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/785">Hotel Pontchartrain (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3530">Plaza Land Corporation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190241" ref="/agents/people/8252">Cobo, Albert E. (Albert Eugene), 1893-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8271">Grace, Edward R.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85299089" ref="/agents/people/8071">Hilton, Conrad N. (Conrad Nicholson), 1887-1979.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190020" ref="/agents/people/7884">Matthaei, Frederick C. (Frederick Carl), 1892-1973.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6986">Pierson, H. Lynn.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6509">Roby, Douglas F. (Douglas Fergusson), 1898-1992.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3375">Webber, Oscar.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9779">Hotels--Michigan--Detroit.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1339">Detroit (Mich.)--Commerce.</geogname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Topical Files <unitdate type="inclusive" normal="1955/1962">1955-1962</unitdate></unittitle>
-        </did>
+          <unittitle>Topical Files</unittitle><unitdate type="inclusive" normal="1955/1962">1955-1962</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3652530463819244958282701]">1</container>
@@ -657,14 +656,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [459115445995223313]">3</container>
-            <unittitle>Report: Pontchartrain Hilton; A New Hotel for Detroit <unitdate type="inclusive" normal="1956" certainty="approximate">circa 1956</unitdate></unittitle>
-          </did>
+            <unittitle>Report: Pontchartrain Hilton; A New Hotel for Detroit</unittitle><unitdate type="inclusive" normal="1956" certainty="approximate">circa 1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [459115445995223313]">3</container>
-            <unittitle>Magazine excerpt: Detroit as pictured in Fortune Magazine by The Detroit Bank <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-          </did>
+            <unittitle>Magazine excerpt: Detroit as pictured in Fortune Magazine by The Detroit Bank</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -681,8 +678,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [459115445995223313]">3</container>
-            <unittitle>Hotel Survey Report for Detroit, Michigan, Part II -- Community Interest <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-          </did>
+            <unittitle>Hotel Survey Report for Detroit, Michigan, Part II -- Community Interest</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -692,8 +688,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [459115445995223313]">3</container>
-            <unittitle>Scrapbook of clippings <unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbook of clippings</unittitle><unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

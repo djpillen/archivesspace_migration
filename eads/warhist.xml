@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. War historian.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/2110">University of Michigan. War historian.</corpname>
       </origination>
-      <unittitle encodinganalog="245">War Historian (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1941/1945">1941-1945</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">87367 Bimu E27 2</unitid>
+      <unittitle encodinganalog="245">War Historian (University of Michigan) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1941/1945">1941-1945</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">87367 Bimu E27 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Office headed by F. Clever Bald, and established to collect materials documenting activities of University of Michigan during World War II. Includes files documenting activities of the War Historian as well as various war related special programs including records of the Army Japanese Language School; files of Marvin Niehuss, the coordinator of Emergency Training at the university; records of the Civil Affairs Training School; and records of the University War Board.</abstract>
       <repository>
@@ -81,18 +81,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Japanese language.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. War historian.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945--Education and the war.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10612">Japanese language.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2110">University of Michigan. War historian.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6049">World War, 1939-1945--Education and the war.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6050">World War, 1939-1945--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">United States. Army. Japanese Language School (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="710">United States. Civil Affairs Training School (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. War Board.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97068662">Bald, F. Clever (Frederick Clever), 1897-1970.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007059707">Niehuss, Marvin Lemmon, 1903-2003</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/3478">United States. Army. Japanese Language School (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/2172">United States. Civil Affairs Training School (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/1736">University of Michigan. War Board.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97068662" ref="/agents/people/2304">Bald, F. Clever (Frederick Clever), 1897-1970.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007059707" ref="/agents/people/8431">Niehuss, Marvin Lemmon, 1903-2003</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -712,8 +712,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [57109044164932991]">17</container>
-              <unittitle>Survey of University Facilities <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-            </did>
+              <unittitle>Survey of University Facilities</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -848,8 +847,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5065261848258437216]">21</container>
-            <unittitle>Report of the Wartime Activities of the UM Regents' Committee on War Activities <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-          </did>
+            <unittitle>Report of the Wartime Activities of the UM Regents' Committee on War Activities</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

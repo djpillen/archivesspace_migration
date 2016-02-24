@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,10 +44,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hankinson, Thomas Leroy, 1876-1935</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4129">Hankinson, Thomas Leroy, 1876-1935</persname>
       </origination>
-      <unittitle encodinganalog="245">Thomas L. Hankinson Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1899/1935">1899-1935</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851398 Aa 2</unitid>
+      <unittitle encodinganalog="245">Thomas L. Hankinson Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1899/1935">1899-1935</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851398 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Naturalist, professor of zoology and physiology at Eastern Illinois State Normal College and Michigan State Normal College, and researcher for state conservation departments in Michigan and Ohio. Correspondence, reports, and field and laboratory notes concerning his studies of the fish of Michigan, Illinois and New York; also photographs.</abstract>
       <repository>
@@ -91,35 +91,35 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Hankinson, Thomas L. (Thomas Leroy), 1876-</persname>
-        <subject source="lcsh" encodinganalog="650">Conservation of natural resources--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan State Normal College.</corpname>
-        <subject source="lcsh" encodinganalog="650">Fishes--United States.</subject>
-        <geogname source="lcsh" encodinganalog="651">Illinois.</geogname>
-        <subject source="lcsh" encodinganalog="650">Natural resources.</subject>
-        <geogname source="lcsh" encodinganalog="651">New York (State)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1287">Hankinson, Thomas L. (Thomas Leroy), 1876-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5816">Conservation of natural resources--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/124">Michigan State Normal College.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8109">Fishes--United States.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1984">Illinois.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5818">Natural resources.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1394">New York (State)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Birds.</subject>
-        <subject source="lctgm" encodinganalog="650">Children.</subject>
-        <geogname source="lcsh" encodinganalog="651">Chippewa County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Douglas Lake (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Hankinson, Thomas Leroy, 1876-1937.</persname>
-        <famname source="lcnaf" encodinganalog="600">Hankinson family.</famname>
-        <geogname source="lcsh" encodinganalog="651">Huron River (Oakland County-Monroe County, Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Lakes.</subject>
-        <geogname source="lcsh" encodinganalog="651">New York (State)</geogname>
-        <geogname source="lcsh" encodinganalog="651">North Dakota.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Ohio.</geogname>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <subject source="lctgm" encodinganalog="650">Picnics.</subject>
-        <subject source="lctgm" encodinganalog="650">Rivers.</subject>
-        <geogname source="lcsh" encodinganalog="651">Shelldrake (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Upper Peninsula (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Vermilion (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Washtenaw County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n96092917">Whitefish Point (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3812">Birds.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Children.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/992">Chippewa County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1604">Douglas Lake (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7558">Hankinson, Thomas Leroy, 1876-1937.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/297">Hankinson family.</famname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Huron River (Oakland County-Monroe County, Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4469">Lakes.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1394">New York (State)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1985">North Dakota.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1574">Ohio.</geogname>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3667">Picnics.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4287">Rivers.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1986">Shelldrake (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/934">Upper Peninsula (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1987">Vermilion (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/843">Washtenaw County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n96092917" ref="/subjects/1988">Whitefish Point (Mich.)</geogname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -130,32 +130,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1905/1930">1905-1930</unitdate></unittitle>
-          </did>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1905/1930">1905-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Kendall, W.C. <unitdate type="inclusive" normal="1917/1920">1917-1920</unitdate></unittitle>
-          </did>
+            <unittitle>Kendall, W.C.</unittitle><unitdate type="inclusive" normal="1917/1920">1917-1920</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Reighard, Jacob <unitdate type="inclusive" normal="1915/1921">1915-1921</unitdate></unittitle>
-          </did>
+            <unittitle>Reighard, Jacob</unittitle><unitdate type="inclusive" normal="1915/1921">1915-1921</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Ruthven, Alexander <unitdate type="inclusive" normal="1914/1925">1914-1925</unitdate></unittitle>
-          </did>
+            <unittitle>Ruthven, Alexander</unittitle><unitdate type="inclusive" normal="1914/1925">1914-1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>re. Whitefish Point <unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate></unittitle>
-          </did>
+            <unittitle>Re. Whitefish Point</unittitle><unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -165,32 +160,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Notes on Illinois fish <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Notes on Illinois fish</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Fish in streams about Charleston, Illinois <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Fish in streams about Charleston, Illinois</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Michigan Fish Investigation <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Fish Investigation</unittitle><unitdate type="inclusive" normal="1916">1916</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Allegany State Park Fish <unitdate type="inclusive" normal="1921">1921</unitdate></unittitle>
-          </did>
+            <unittitle>Allegany State Park Fish</unittitle><unitdate type="inclusive" normal="1921">1921</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Lake Erie Fish Survey <unitdate type="inclusive" normal="1930" certainty="approximate">circa 1930</unitdate></unittitle>
-          </did>
+            <unittitle>Lake Erie Fish Survey</unittitle><unitdate type="inclusive" normal="1930" certainty="approximate">circa 1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -212,8 +202,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Field and lab notes, New York, with Photographs <unitdate type="inclusive" normal="1915/1916">1915-1916</unitdate></unittitle>
-          </did>
+            <unittitle>Field and lab notes, New York, with Photographs</unittitle><unitdate type="inclusive" normal="1915/1916">1915-1916</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -230,8 +219,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Field Notes mainly New York, some Michigan and Ohio <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
-          </did>
+            <unittitle>Field Notes mainly New York, some Michigan and Ohio</unittitle><unitdate type="inclusive" normal="1928">1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -248,44 +236,37 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Kickapoo Creek, Charleston, Illinois <unitdate type="inclusive" normal="1905/1911">1905-1911</unitdate></unittitle>
-          </did>
+            <unittitle>Kickapoo Creek, Charleston, Illinois</unittitle><unitdate type="inclusive" normal="1905/1911">1905-1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Oneida Lake, New York <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
-          </did>
+            <unittitle>Oneida Lake, New York</unittitle><unitdate type="inclusive" normal="1916">1916</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Palisades Park <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-          </did>
+            <unittitle>Palisades Park</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Western New York <unitdate type="inclusive" normal="1920">1920</unitdate></unittitle>
-          </did>
+            <unittitle>Western New York</unittitle><unitdate type="inclusive" normal="1920">1920</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [542994574259692269746]">1</container>
-            <unittitle>Great Lakes Region <unitdate type="inclusive" normal="1921/1923">1921-1923</unitdate></unittitle>
-          </did>
+            <unittitle>Great Lakes Region</unittitle><unitdate type="inclusive" normal="1921/1923">1921-1923</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [454250068746282706841]">2</container>
-            <unittitle>North Dakota <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
-          </did>
+            <unittitle>North Dakota</unittitle><unitdate type="inclusive" normal="1922">1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [454250068746282706841]">2</container>
-            <unittitle>Oneida Lake <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
-          </did>
+            <unittitle>Oneida Lake</unittitle><unitdate type="inclusive" normal="1927">1927</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -295,56 +276,47 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [454250068746282706841]">2</container>
-            <unittitle>Volume 1: <unitdate type="inclusive" normal="1899-07/1900-07">July 1899-July 1900</unitdate> Ithaca, New York</unittitle>
-          </did>
+            <unittitle>Volume 1:  Ithaca, New York</unittitle><unitdate type="inclusive" normal="1899-07/1900-07">July 1899-July 1900</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [454250068746282706841]">2</container>
-            <unittitle>Volume 2: <unitdate type="inclusive" normal="1900-07/1901-04">July 1900-April 1901</unitdate> Ithaca, New York</unittitle>
-          </did>
+            <unittitle>Volume 2:  Ithaca, New York</unittitle><unitdate type="inclusive" normal="1900-07/1901-04">July 1900-April 1901</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [454250068746282706841]">2</container>
-            <unittitle>Volume 3: <unitdate type="inclusive" normal="1901-04/1902-02">April 1901-February 1902</unitdate> Ithaca, New York</unittitle>
-          </did>
+            <unittitle>Volume 3:  Ithaca, New York</unittitle><unitdate type="inclusive" normal="1901-04/1902-02">April 1901-February 1902</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [454250068746282706841]">2</container>
-            <unittitle>Volume 4: <unitdate type="inclusive" normal="1902-03/1902-06">March 1902-June 1902</unitdate> Ithaca, New York</unittitle>
-          </did>
+            <unittitle>Volume 4:  Ithaca, New York</unittitle><unitdate type="inclusive" normal="1902-03/1902-06">March 1902-June 1902</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [454250068746282706841]">2</container>
-            <unittitle>Volume 5: <unitdate type="inclusive" normal="1920-06/1920-08">June-August 1920</unitdate> Ithaca, New York</unittitle>
-          </did>
+            <unittitle>Volume 5:  Ithaca, New York</unittitle><unitdate type="inclusive" normal="1920-06/1920-08">June-August 1920</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [454250068746282706841]">2</container>
-            <unittitle>Volume 5: <unitdate type="inclusive" normal="1902-08/1902-09">August-September 1902</unitdate> Ohio and Michigan</unittitle>
-          </did>
+            <unittitle>Volume 5:  Ohio and Michigan</unittitle><unitdate type="inclusive" normal="1902-08/1902-09">August-September 1902</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [454250068746282706841]">2</container>
-            <unittitle>Volume 5: <unitdate type="inclusive" normal="1903-08">August 1903</unitdate> Clark, Indiana</unittitle>
-          </did>
+            <unittitle>Volume 5:  Clark, Indiana</unittitle><unitdate type="inclusive" normal="1903-08">August 1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [454250068746282706841]">2</container>
-            <unittitle>Volume 5: <unitdate type="inclusive" normal="1904-03/1904-04">March-April 1904</unitdate> Charleston, Illinois</unittitle>
-          </did>
+            <unittitle>Volume 5:  Charleston, Illinois</unittitle><unitdate type="inclusive" normal="1904-03/1904-04">March-April 1904</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [454250068746282706841]">2</container>
-            <unittitle>Volume 6: <unitdate type="inclusive" normal="1905-01/1905-08">January-August 1905</unitdate> Charleston, Illinois</unittitle>
-          </did>
+            <unittitle>Volume 6:  Charleston, Illinois</unittitle><unitdate type="inclusive" normal="1905-01/1905-08">January-August 1905</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -365,8 +337,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9618194491935282]">3</container>
-            <unittitle>Station notes, including photographs, Oakland County, Michigan <unitdate type="inclusive" normal="1906-04/1906-06">April-June 1906</unitdate></unittitle>
-          </did>
+            <unittitle>Station notes, including photographs, Oakland County, Michigan</unittitle><unitdate type="inclusive" normal="1906-04/1906-06">April-June 1906</unitdate></did>
           <odd>
             <p>(loose card file)</p>
           </odd>
@@ -374,8 +345,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9618194491935282]">3</container>
-            <unittitle>Station Notes, Champlain, Illinois <unitdate type="inclusive" normal="1906/1910">1906-1910</unitdate></unittitle>
-          </did>
+            <unittitle>Station Notes, Champlain, Illinois</unittitle><unitdate type="inclusive" normal="1906/1910">1906-1910</unitdate></did>
           <odd>
             <p>(boxed card file)</p>
           </odd>
@@ -388,20 +358,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9614828222661873]">4</container>
-            <unittitle>Charleston, Illinois <unitdate type="inclusive" normal="1906/1910">1906-1910</unitdate>, <unitdate type="inclusive" normal="1911/1921">1911-1921</unitdate></unittitle>
-          </did>
+            <unittitle>Charleston, Illinois</unittitle><unitdate type="inclusive" normal="1906/1910">1906-1910</unitdate><unitdate type="inclusive" normal="1911/1921">1911-1921</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9614828222661873]">4</container>
-            <unittitle>Field Notes, Including Summer Work, New York <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
-          </did>
+            <unittitle>Field Notes, Including Summer Work, New York</unittitle><unitdate type="inclusive" normal="1916">1916</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9614828222661873]">4</container>
-            <unittitle>Central New York <unitdate type="inclusive" normal="1920/1921">1920-1921</unitdate>; Station Notes, Charleston, Illinois, <unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate></unittitle>
-          </did>
+            <unittitle>Central New York 1920-1921; Station Notes, Charleston, Illinois, 1914-1917</unittitle><unitdate type="inclusive" normal="1920/1921">1920-1921</unitdate><unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate></did>
           <odd>
             <p>(boxed card file)</p>
           </odd>
@@ -409,8 +376,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9614828222661873]">4</container>
-            <unittitle>Station Notes, including photographs, Charleston, Illinois <unitdate type="inclusive" normal="1907/1918">1907-1918</unitdate></unittitle>
-          </did>
+            <unittitle>Station Notes, including photographs, Charleston, Illinois</unittitle><unitdate type="inclusive" normal="1907/1918">1907-1918</unitdate></did>
           <odd>
             <p>(loose card file)</p>
           </odd>
@@ -427,8 +393,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2733302088546679203588602]">5</container>
-            <unittitle>Station notes, Central Illinois <unitdate type="inclusive" normal="1911/1913">1911-1913</unitdate></unittitle>
-          </did>
+            <unittitle>Station notes, Central Illinois</unittitle><unitdate type="inclusive" normal="1911/1913">1911-1913</unitdate></did>
           <odd>
             <p>(boxed card file)</p>
           </odd>
@@ -436,8 +401,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2733302088546679203588602]">5</container>
-            <unittitle>Breeding Illinois Fish, including photographs, prior to <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
-          </did>
+            <unittitle>Breeding Illinois Fish, including photographs, prior to</unittitle><unitdate type="inclusive" normal="1922">1922</unitdate></did>
           <odd>
             <p>(boxed card file)</p>
           </odd>
@@ -759,16 +723,10 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4721347770687667]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1906/1913-07">1906-July 1913</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1906/1913-07">1906-July 1913</unitdate></did>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1906">1906</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1906">1906</unitdate></did>
               <odd>
                 <p>(Note: From April 16, 1906 through August 28, 1906 photographs were taken at Walnut Lake, Oakland Co., Michigan or other localities when indicated.)</p>
               </odd>
@@ -889,10 +847,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1907">1907</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1907">1907</unitdate></did>
               <odd>
                 <p>(Note: From March 22, 1907 to June 15, 1913 photos were made in Charleston, Coles Co., Illinois or other localities as indicated. Hankinson was at Eastern Illinois State Normal School.)</p>
               </odd>
@@ -935,8 +890,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [4721347770687667]">7</container>
-                  <unittitle>June 15, Port of Louisville, Ky., from steamer on Ohio River <unitdate type="inclusive" normal="1907-06-15" certainty="approximate">circa June 15, 1907</unitdate></unittitle>
-                </did>
+                  <unittitle>June 15, Port of Louisville, Ky., from steamer on Ohio River</unittitle><unitdate type="inclusive" normal="1907-06-15" certainty="approximate">circa June 15, 1907</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -995,10 +949,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1908">1908</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1908">1908</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [4721347770687667]">7</container>
@@ -1038,10 +989,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1909">1909</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1909">1909</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [4721347770687667]">7</container>
@@ -1087,10 +1035,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1910">1910</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1910">1910</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [4721347770687667]">7</container>
@@ -1154,10 +1099,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [4721347770687667]">7</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1911">1911</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1911">1911</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -1378,10 +1320,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1912">1912</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1912">1912</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [4721347770687667]">7</container>
@@ -1421,10 +1360,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1913">1913</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1913">1913</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [4721347770687667]">7</container>
@@ -1529,16 +1465,10 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [064627040499164561375753]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1913-08/1919-06">August 1913-June 1919</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1913-08/1919-06">August 1913-June 1919</unitdate></did>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1913">1913</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1913">1913</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [064627040499164561375753]">8</container>
@@ -1779,10 +1709,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1914">1914</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1914">1914</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [064627040499164561375753]">8</container>
@@ -1882,10 +1809,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1915">1915</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1915">1915</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [064627040499164561375753]">8</container>
@@ -1961,10 +1885,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1916">1916</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1916">1916</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [064627040499164561375753]">8</container>
@@ -1992,10 +1913,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1917">1917</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1917">1917</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [064627040499164561375753]">8</container>
@@ -2011,22 +1929,17 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [064627040499164561375753]">8</container>
-                  <unittitle>February 21, Crotalus horridus [snake], taken <unitdate type="inclusive" normal="1916-09-16">September 16, 1916</unitdate></unittitle>
-                </did>
+                  <unittitle>February 21, Crotalus horridus [snake], taken</unittitle><unitdate type="inclusive" normal="1916-09-16">September 16, 1916</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [064627040499164561375753]">8</container>
-                  <unittitle>May 30, Sparrow hawk, about <unitdate type="inclusive" normal="1917-05-30">May 30, 1917</unitdate></unittitle>
-                </did>
+                  <unittitle>May 30, Sparrow hawk, about</unittitle><unitdate type="inclusive" normal="1917-05-30">May 30, 1917</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1918">1918</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1918">1918</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [064627040499164561375753]">8</container>
@@ -2126,10 +2039,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1919">1919</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1919">1919</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [064627040499164561375753]">8</container>
@@ -2157,8 +2067,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [064627040499164561375753]">8</container>
-                  <unittitle>April 7, Station 4, Normal School forest. Milk snake collected <unitdate type="inclusive" normal="1919-04-06">April 6, 1919</unitdate></unittitle>
-                </did>
+                  <unittitle>April 7, Station 4, Normal School forest. Milk snake collected</unittitle><unitdate type="inclusive" normal="1919-04-06">April 6, 1919</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -2375,16 +2284,10 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [78064394848814136241226]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1919-07/1931-06">July 1919-June 1931</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1919-07/1931-06">July 1919-June 1931</unitdate></did>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1919">1919</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1919">1919</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [78064394848814136241226]">9</container>
@@ -2466,10 +2369,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1921">1921</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1921">1921</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [78064394848814136241226]">9</container>
@@ -2479,10 +2379,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1925">1925</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1925">1925</unitdate></did>
               <odd>
                 <p>(Note: From this point through 1934 photos were made in and, around Ypsilanti, Michigan and other localities as indicated. Hankinson was teaching at the State Normal College at Ypsilanti (later Eastern Michigan University).)</p>
               </odd>
@@ -2543,10 +2440,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1926">1926</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1926">1926</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [78064394848814136241226]">9</container>
@@ -2592,10 +2486,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1927">1927</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1927">1927</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [78064394848814136241226]">9</container>
@@ -2623,10 +2514,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1928">1928</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1928">1928</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [78064394848814136241226]">9</container>
@@ -2636,10 +2524,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1929">1929</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1929">1929</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [78064394848814136241226]">9</container>
@@ -2715,10 +2600,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1930">1930</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1930">1930</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [78064394848814136241226]">9</container>
@@ -2787,8 +2669,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <unittitle>May 30, Three negatives formerly in one jacket labeled: "Breeding habitat of [7 species, illegible] <unitdate type="inclusive" normal="1930-05-08/1930-05-23">May 8-23, 1930</unitdate>. Shallows above ripples shown in foreground. Photo taken May 30, 1930. Up stream at Tourist Camp, Saline River, Saline, Mich." Negatives marked:</unittitle>
-                </did>
+                  <unittitle>May 30, Three negatives formerly in one jacket labeled: "Breeding habitat of [7 species, illegible] . Shallows above ripples shown in foreground. Photo taken May 30, 1930. Up stream at Tourist Camp, Saline River, Saline, Mich." Negatives marked:</unittitle><unitdate type="inclusive" normal="1930-05-08/1930-05-23">May 8-23, 1930</unitdate></did>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box [78064394848814136241226]">9</container>
@@ -2925,8 +2806,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [78064394848814136241226]">9</container>
-                  <unittitle>August 15[?], Lepebema (?) [question mark his]. Coll. 286-153A. Fish 5 mm. Collected <unitdate type="inclusive" normal="1928-06-28">June 28, 1928</unitdate> off Maumee Bay, Lake Erie. (3054)</unittitle>
-                </did>
+                  <unittitle>August 15[?], Lepebema (?) [question mark his]. Coll. 286-153A. Fish 5 mm. Collected  off Maumee Bay, Lake Erie. (3054)</unittitle><unitdate type="inclusive" normal="1928-06-28">June 28, 1928</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -3111,10 +2991,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1931">1931</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1931">1931</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [78064394848814136241226]">9</container>
@@ -3268,7 +3145,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [78064394848814136241226]">9</container>
-                  <unittitle>c. May 20, Cardinal at home feeding station, 96 Oakwood Ave., Ypsilanti</unittitle>
+                  <unittitle>C. May 20, Cardinal at home feeding station, 96 Oakwood Ave., Ypsilanti</unittitle>
                 </did>
               </c05>
               <c05 level="file">
@@ -3330,16 +3207,10 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5453434984556284993]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931-09/1934">September 1931-1934</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1931-09/1934">September 1931-1934</unitdate></did>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1931">1931</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1931">1931</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [5453434984556284993]">10</container>
@@ -3397,10 +3268,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1932">1932</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1932">1932</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [5453434984556284993]">10</container>
@@ -3572,15 +3440,11 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1933">1933</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1933">1933</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [5453434984556284993]">10</container>
-                  <unittitle><unitdate type="inclusive" normal="1933-05-14">May 14, 1933</unitdate> Pittsfield Ponds. Nesting habitat of Sora[?] and Pied-billed grebe</unittitle>
-                </did>
+                  <unittitle>Pittsfield Ponds. Nesting habitat of Sora[?] and Pied-billed grebe</unittitle><unitdate type="inclusive" normal="1933-05-14">May 14, 1933</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -3621,10 +3485,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1934">1934</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1934">1934</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [5453434984556284993]">10</container>
@@ -3670,146 +3531,122 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>T. L. Hankinson <unitdate type="inclusive" normal="1920" certainty="approximate">circa 1920</unitdate></unittitle>
-              </did>
+                <unittitle>T. L. Hankinson</unittitle><unitdate type="inclusive" normal="1920" certainty="approximate">circa 1920</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>T. L. Hankinson <unitdate type="inclusive" normal="1926-01-24">January 24, 1926</unitdate></unittitle>
-              </did>
+                <unittitle>T. L. Hankinson</unittitle><unitdate type="inclusive" normal="1926-01-24">January 24, 1926</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>T. L. Hankinson standing on head in water <unitdate type="inclusive" normal="1906-08-10">August 10, 1906</unitdate></unittitle>
-              </did>
+                <unittitle>T. L. Hankinson standing on head in water</unittitle><unitdate type="inclusive" normal="1906-08-10">August 10, 1906</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>T. L. Hankinson <unitdate type="inclusive" normal="1929-06">June 1929</unitdate></unittitle>
-              </did>
+                <unittitle>T. L. Hankinson</unittitle><unitdate type="inclusive" normal="1929-06">June 1929</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>T. L. Hankinson house <unitdate type="inclusive" normal="1914-08">August 1914</unitdate></unittitle>
-              </did>
+                <unittitle>T. L. Hankinson house</unittitle><unitdate type="inclusive" normal="1914-08">August 1914</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>T. L. Hankinson house <unitdate type="inclusive" normal="1914-09-14">September 14, 1914</unitdate> from SW</unittitle>
-              </did>
+                <unittitle>T. L. Hankinson house  from SW</unittitle><unitdate type="inclusive" normal="1914-09-14">September 14, 1914</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>T. L. Hankinson, Nettie, Ag, Teddy <unitdate type="inclusive" normal="1908-06-29">June 29, 1908</unitdate></unittitle>
-              </did>
+                <unittitle>T. L. Hankinson, Nettie, Ag, Teddy</unittitle><unitdate type="inclusive" normal="1908-06-29">June 29, 1908</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Nettie sewing in woods <unitdate type="inclusive" normal="1907-08-19">August 19, 1907</unitdate></unittitle>
-              </did>
+                <unittitle>Nettie sewing in woods</unittitle><unitdate type="inclusive" normal="1907-08-19">August 19, 1907</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Nettie on porch <unitdate type="inclusive" normal="1907-09-16">September 16, 1907</unitdate></unittitle>
-              </did>
+                <unittitle>Nettie on porch</unittitle><unitdate type="inclusive" normal="1907-09-16">September 16, 1907</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Nettie Hankinson <unitdate type="inclusive" normal="1925-12-26">December 26, 1925</unitdate></unittitle>
-              </did>
+                <unittitle>Nettie Hankinson</unittitle><unitdate type="inclusive" normal="1925-12-26">December 26, 1925</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Nettie and Katherine Adams <unitdate type="inclusive" normal="1909-06">June 1909</unitdate> Charleston, Ill.</unittitle>
-              </did>
+                <unittitle>Nettie and Katherine Adams  Charleston, Ill.</unittitle><unitdate type="inclusive" normal="1909-06">June 1909</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Janet Hankinson <unitdate type="inclusive" normal="1926-01-24">January 24, 1926</unitdate></unittitle>
-              </did>
+                <unittitle>Janet Hankinson</unittitle><unitdate type="inclusive" normal="1926-01-24">January 24, 1926</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Janet Hankinson <unitdate type="inclusive" normal="1927-12">December 1927</unitdate></unittitle>
-              </did>
+                <unittitle>Janet Hankinson</unittitle><unitdate type="inclusive" normal="1927-12">December 1927</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Janet and Christmas tree <unitdate type="inclusive" normal="1925-12-25">December 25, 1925</unitdate></unittitle>
-              </did>
+                <unittitle>Janet and Christmas tree</unittitle><unitdate type="inclusive" normal="1925-12-25">December 25, 1925</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Janet riding by house <unitdate type="inclusive" normal="1921-05-02">May 2, 1921</unitdate></unittitle>
-              </did>
+                <unittitle>Janet riding by house</unittitle><unitdate type="inclusive" normal="1921-05-02">May 2, 1921</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Uncle Herbert and Aunt Emma <unitdate type="inclusive" normal="1919-08-10">August 10, 1919</unitdate></unittitle>
-              </did>
+                <unittitle>Uncle Herbert and Aunt Emma</unittitle><unitdate type="inclusive" normal="1919-08-10">August 10, 1919</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Elizabeth Crowe and friends, Mitchell children and Nettie <unitdate type="inclusive" normal="1909-07">July 1909</unitdate> Charleston, Ill.</unittitle>
-              </did>
+                <unittitle>Elizabeth Crowe and friends, Mitchell children and Nettie  Charleston, Ill.</unittitle><unitdate type="inclusive" normal="1909-07">July 1909</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Elizabeth Crowe and friends, Mitchell children and Nettie <unitdate type="inclusive" normal="1909-07">July 1909</unitdate></unittitle>
-              </did>
+                <unittitle>Elizabeth Crowe and friends, Mitchell children and Nettie</unittitle><unitdate type="inclusive" normal="1909-07">July 1909</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Miss Jackson, Miss Dickson at Urban Park, Charleston, Ill. <unitdate type="inclusive" normal="1907-03-26">March 26, 1907</unitdate></unittitle>
-              </did>
+                <unittitle>Miss Jackson, Miss Dickson at Urban Park, Charleston, Ill.</unittitle><unitdate type="inclusive" normal="1907-03-26">March 26, 1907</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Miss Dickson picking flowers, Charleston, Ill. <unitdate type="inclusive" normal="1907-04-02">April 2, 1907</unitdate></unittitle>
-              </did>
+                <unittitle>Miss Dickson picking flowers, Charleston, Ill.</unittitle><unitdate type="inclusive" normal="1907-04-02">April 2, 1907</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Boy Scouts fishing <unitdate type="inclusive" normal="1918-08">August 1918</unitdate></unittitle>
-              </did>
+                <unittitle>Boy Scouts fishing</unittitle><unitdate type="inclusive" normal="1918-08">August 1918</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Boy Scouts fishing <unitdate type="inclusive" normal="1913-08">August 1913</unitdate></unittitle>
-              </did>
+                <unittitle>Boy Scouts fishing</unittitle><unitdate type="inclusive" normal="1913-08">August 1913</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Guest house and grounds, Palisades Park, N.Y. <unitdate type="inclusive" normal="1918-08">August 1918</unitdate></unittitle>
-              </did>
+                <unittitle>Guest house and grounds, Palisades Park, N.Y.</unittitle><unitdate type="inclusive" normal="1918-08">August 1918</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5453434984556284993]">10</container>
-                <unittitle>Guest house, Palisades Park, N.Y. <unitdate type="inclusive" normal="1918-08">August 1918</unitdate></unittitle>
-              </did>
+                <unittitle>Guest house, Palisades Park, N.Y.</unittitle><unitdate type="inclusive" normal="1918-08">August 1918</unitdate></did>
             </c04>
           </c03>
         </c02>

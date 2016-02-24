@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Committee for Responsible Tax Reform.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/2316">Committee for Responsible Tax Reform.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Committee For Responsible Tax Reform records <unitdate type="inclusive" encodinganalog="245$f" normal="1989">1989</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91430 Bj 2</unitid>
+      <unittitle encodinganalog="245">Committee For Responsible Tax Reform records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1989">1989</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91430 Bj 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Michigan citizens group established in support of proposal B relating to the reform of public school financing on the 1989 state ballot. Reports, surveys, minutes, correspondence, and audio and visual materials.</abstract>
       <physdesc altrender="whole">
@@ -81,20 +81,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Committee for Responsible Tax Reform.</corpname>
-        <subject source="lcsh" encodinganalog="650">Education--Finance.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1989.</subject>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1981-1990.</geogname>
-        <subject source="lcsh" encodinganalog="650">Taxation--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2316">Committee for Responsible Tax Reform.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7074">Education--Finance.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7075">Elections--Michigan--1989.</subject>
+        <geogname source="local" encodinganalog="691" ref="/subjects/798">Michigan--Politics and government--1981-1990.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6194">Taxation--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/906">Michigan--Politics and government--1951-</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Political elections--1989.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4132">Political elections--1989.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3134">Videotapes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -291,14 +291,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [08739778034381093624709]">1</container>
-              <unittitle>Blanchard, James J., "Michigan Schools of Tomorrow," <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <unittitle>Blanchard, James J., "Michigan Schools of Tomorrow,"</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [08739778034381093624709]">1</container>
-              <unittitle>Gongwer News Service, "Reports," <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <unittitle>Gongwer News Service, "Reports,"</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -309,26 +307,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [08739778034381093624709]">1</container>
-              <unittitle>"Opinions of Michigan Citizens about Community Colleges," <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <unittitle>"Opinions of Michigan Citizens about Community Colleges,"</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [08739778034381093624709]">1</container>
-              <unittitle>"Opinions of Michigan Citizens about Public Schools," <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <unittitle>"Opinions of Michigan Citizens about Public Schools,"</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [08739778034381093624709]">1</container>
-              <unittitle>Michigan Department of Management and Budget, "Preparing Our Children: A Report on Education Investment in Michigan," <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Department of Management and Budget, "Preparing Our Children: A Report on Education Investment in Michigan,"</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [08739778034381093624709]">1</container>
-              <unittitle>Michigan State Chamber of Commerce, "Michigan Forward," <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan State Chamber of Commerce, "Michigan Forward,"</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">

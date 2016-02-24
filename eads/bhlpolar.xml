@@ -36,7 +36,8 @@
         <item>Original encoding.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -47,10 +48,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Bentley Historical Library. Polar Bear Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1195">Bentley Historical Library. Polar Bear Project.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Bentley Historical Library Polar Bear Project collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918/2008">1918-2008</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008010 Aa 2</unitid>
+      <unittitle encodinganalog="245">Bentley Historical Library Polar Bear Project collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/2008">1918-2008</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008010 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Documents and correspondence relating to some soldiers in the U.S. 339th Infantry and related units, who fought in northern Russia in 1918-1919, the "Polar Bear Expedition."</abstract>
       <physdesc altrender="part">
@@ -97,8 +97,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,7 +112,7 @@
             <unittitle>
               <corpname normal="American Battle Monuments Commission.">American Battle Monuments Commission.</corpname>
             </unittitle>
-            <dao href="bhlpbabmc0001" show="new" actuate="onRequest">
+            <dao href="bhlpbabmc0001" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7729">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -237,7 +237,7 @@
               <persname normal="Collins, Earl W.">Collins, Earl W.</persname>
               <corpname normal="United States. Army. Infantry, 339th. Company H.">(339th Infantry, Company H)</corpname>
             </unittitle>
-            <dao href="bhlpbcollinse0011" show="new" actuate="onRequest">
+            <dao href="bhlpbcollinse0011" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7730">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -266,7 +266,7 @@
               <persname normal="Elliott, Andrew.">Elliott, Andrew</persname>
               <corpname normal="United States. Army. Infantry, 339th. Company I.">(339th Infantry, Company I)</corpname>
             </unittitle>
-            <dao href="bhlpbellotta0013" show="new" actuate="onRequest">
+            <dao href="bhlpbellotta0013" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7731">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -283,7 +283,7 @@
               <persname normal="Flateau, Fred.">Flateau, Fred</persname>
               <corpname normal="United States. Army. Engineer Regiment, 310th. Company B.">(310th Engineers, Company B)</corpname>
             </unittitle>
-            <dao href="bhlpbflateau0014" show="new" actuate="onRequest">
+            <dao href="bhlpbflateau0014" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7732">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -300,7 +300,7 @@
               <persname normal="Gallemore, Roy T.">Gallemore, Roy T.</persname>
               <corpname normal="Des Moines (Ship)">(U.S.S. Des Moines)</corpname>
             </unittitle>
-            <dao href="bhlpbgallemore0015" show="new" actuate="onRequest">
+            <dao href="bhlpbgallemore0015" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7733">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -317,7 +317,7 @@
               <persname normal="Gardner, Isaiah Milburn.">Gardner, Isaiah Milburn</persname>
               <corpname normal="United States. Army. Field Hospital, 337th.">(337th Field Hospital)</corpname>
             </unittitle>
-            <dao href="bhlpbgardner0016" show="new" actuate="onRequest">
+            <dao href="bhlpbgardner0016" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7734">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -403,7 +403,7 @@
               <persname normal="Lents, Frank W.">Lents, Frank W.</persname>
               <corpname normal="United States. Army. Infantry, 339th. Company I.">(339th Infantry, Company I)</corpname>
             </unittitle>
-            <dao href="bhlpblents0023" show="new" actuate="onRequest">
+            <dao href="bhlpblents0023" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7735">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -444,7 +444,7 @@
               <persname normal="MacLennan, Robert A.">MacLennan, Robert A.</persname>
               <corpname normal="United States. Army. Engineer Regiment, 310th. Company B.">(310th Engineers, Company B)</corpname>
             </unittitle>
-            <dao href="bhlpbmaclennan0026" show="new" actuate="onRequest">
+            <dao href="bhlpbmaclennan0026" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7736">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -497,7 +497,7 @@
               <persname normal="Nicoll, Brian.">Nicoll, Brian, collector</persname>
               <corpname normal="United States. Army. Infantry, 339th. Company I.">(339th Infantry, Company I)</corpname>
             </unittitle>
-            <dao href="bhlpbnicoll0230" show="new" actuate="onRequest">
+            <dao href="bhlpbnicoll0230" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7737">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -625,7 +625,7 @@
           <did>
             <container type="box" label="Box [2703645754410108064041]">1</container>
             <unittitle><persname normal="Schwerin, Henry C.">Schwerin, Henry</persname> and <persname normal="Schwerin, Otto.">Schwerin, Otto</persname> <corpname normal="United States. Army. Infantry, 339th. Company L.">(339th Infantry, Company L)</corpname></unittitle>
-            <dao href="bhlpbschwerin0041" show="new" actuate="onRequest">
+            <dao href="bhlpbschwerin0041" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7738">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -642,7 +642,7 @@
               <persname normal="Sisson, George.">Sisson, George</persname>
               <corpname normal="United States. Army. Engineer Regiment, 310th. Medical Detachment.">(310th Engineers, Medical Detachment)</corpname>
             </unittitle>
-            <dao href="bhlpbsisson0043" show="new" actuate="onRequest">
+            <dao href="bhlpbsisson0043" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7739">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -671,7 +671,7 @@
               <persname normal="Stampor, John.">Stampor, John</persname>
               <corpname normal="United States. Army. Infantry, 339th. Company K.">(339th Infantry, Company K)</corpname>
             </unittitle>
-            <dao href="bhlpbstampor0044" show="new" actuate="onRequest">
+            <dao href="bhlpbstampor0044" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7740">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -688,7 +688,7 @@
               <persname normal="Stempczyk, Karol.">Stempczyk, Karol</persname>
               <corpname normal="United States. Army. Infantry, 339th. Company I.">(339th Infantry, Company I)</corpname>
             </unittitle>
-            <dao href="bhlpbstemczyk0045" show="new" actuate="onRequest">
+            <dao href="bhlpbstemczyk0045" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7741">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -729,7 +729,7 @@
               <persname normal="Thayer, Leon W.">Thayer, Leon W.</persname>
               <corpname normal="United States. Army. Infantry, 339th. Company L.">(339th Infantry, Company L)</corpname>
             </unittitle>
-            <dao href="bhlpbthayer0048" show="new" actuate="onRequest">
+            <dao href="bhlpbthayer0048" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7742">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -842,7 +842,7 @@
               <persname normal="Williams, Oscar Nolan.">Williams, Oscar N.</persname>
               <corpname normal="United States. Army. Infantry, 339th. Company L.">(339th Infantry, Company L)</corpname>
             </unittitle>
-            <dao href="bhlpbwilliams0057" show="new" actuate="onRequest">
+            <dao href="bhlpbwilliams0057" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7743">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>
@@ -859,7 +859,7 @@
               <persname normal="Wood, Asa.">Wood, Asa</persname>
               <corpname normal="United States. Army. Infantry, 339th. Company G.">(339th Infantry, Company G)</corpname>
             </unittitle>
-            <dao href="bhlpbwilliams0058" show="new" actuate="onRequest">
+            <dao href="bhlpbwilliams0058" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7744">
               <daodesc>
                 <p>[view items}</p>
               </daodesc>

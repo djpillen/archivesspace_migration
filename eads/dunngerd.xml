@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Dunn, Gerald R.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/5180">Dunn, Gerald R.</persname>
       </origination>
-      <unittitle encodinganalog="245">Gerald R. Dunn papers <unitdate type="inclusive" encodinganalog="245$f" normal="1969/1984">1969-1984</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861133 Aa 2</unitid>
+      <unittitle encodinganalog="245">Gerald R. Dunn papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1969/1984">1969-1984</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861133 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Regent of the University of Michigan. Topical files relating to his activities as a regent and the issues and problems affecting the University of Michigan.</abstract>
       <physdesc altrender="whole">
@@ -78,16 +78,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Affirmative action programs--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Black Action Movement (University of Michigan)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no89013050">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84041141">Shapiro, Harold T., 1935-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79069136">University of Michigan--Dearborn.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79128281">University of Michigan--Flint.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1961-1970.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1971-1980.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5658">Affirmative action programs--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4081">Black Action Movement (University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no89013050" ref="/agents/people/1273">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84041141" ref="/agents/people/378">Shapiro, Harold T., 1935-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/858">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79069136" ref="/agents/corporate_entities/1346">University of Michigan--Dearborn.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79128281" ref="/agents/corporate_entities/1346">University of Michigan--Flint.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Research.<term type="topical">Research.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1961-1970.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1961-1970.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1971-1980.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1971-1980.</term></corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -97,10 +97,7 @@
         </did>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969/1976">1969-1976</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1969/1976">1969-1976</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [611167489752939853054]">1</container>
@@ -302,10 +299,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1977/1984">1977-1984</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1977/1984">1977-1984</unitdate></did>
           <odd>
             <p>(include some 1969-1976)</p>
           </odd>
@@ -360,14 +354,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9048195411636808857]">3</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3259700456987297139555]">4</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate> (cont.)</unittitle>
-            </did>
+              <unittitle>Correspondence  (cont.)</unittitle><unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -498,8 +490,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [736430748488955003175]">5</container>
-              <unittitle>Miscellaneous Correspondence <unitdate type="inclusive" normal="1977-03/1977-11">March-November 1977</unitdate></unittitle>
-            </did>
+              <unittitle>Miscellaneous Correspondence</unittitle><unitdate type="inclusive" normal="1977-03/1977-11">March-November 1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -600,8 +591,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [2468744438384437548]">7</container>
-              <unittitle><unitdate type="inclusive" normal="1984">1984</unitdate> Re-election Campaign</unittitle>
-            </did>
+              <unittitle>Re-election Campaign</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>

@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Van Dusen, Richard C. (Richard Campbell), 1925-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4136">Van Dusen, Richard C. (Richard Campbell), 1925-</persname>
       </origination>
-      <unittitle encodinganalog="245">Richard C. Van Dusen Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1954/1972">1954-1972</unitdate></unittitle>
-      <abstract>State Republican politician, aide and political advisor to George Romney, legal advisor to the governor and later undersecretary of Housing and Urban Development. Material concerning his campaign for the state attorney general's office in 1956, the elections of 1960, 1962, 1964, and 1968, and the state constitutional convention, 1961-1963; and files detailing his career in Washington at HUD.</abstract>
+      <unittitle encodinganalog="245">Richard C. Van Dusen Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1954/1972">1954-1972</unitdate><abstract>State Republican politician, aide and political advisor to George Romney, legal advisor to the governor and later undersecretary of Housing and Urban Development. Material concerning his campaign for the state attorney general's office in 1956, the elections of 1960, 1962, 1964, and 1968, and the state constitutional convention, 1961-1963; and files detailing his career in Washington at HUD.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85527 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Offsite storage; prior notification required for access</physloc>
@@ -85,18 +85,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1956.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1960.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1962.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1964.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1968.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253">Michigan. Constitutional Convention (1961-1962)</corpname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1946-1960.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1961-1970.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Dept. of Housing and Urban Development.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010047315">Van Dusen, Richard C. (Richard Campbell), 1925-1991</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6514">Elections--Michigan--1956.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6138">Elections--Michigan--1960.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6897">Elections--Michigan--1962.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6620">Elections--Michigan--1964.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7198">Elections--Michigan--1968.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253" ref="/agents/corporate_entities/767">Michigan. Constitutional Convention (1961-1962)</corpname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/805">Michigan--Politics and government--1946-1960.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/806">Michigan--Politics and government--1961-1970.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4055">Republican Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290" ref="/agents/people/4407">Romney, George W., 1907-1995.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4938">United States. Dept. of Housing and Urban Development.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010047315" ref="/agents/people/1158">Van Dusen, Richard C. (Richard Campbell), 1925-1991</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -123,18 +123,14 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [64768849678137446892129]">1</container>
-              <unittitle><unitdate type="inclusive" normal="1954">1954</unitdate> General</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1955">1955</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1955">1955</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [64768849678137446892129]">1</container>
@@ -159,10 +155,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956">1956</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1956">1956</unitdate></did>
             <c04 level="file">
               <did>
                 <unittitle>Attorney General campaign</unittitle>
@@ -210,8 +203,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [64768849678137446892129]">1</container>
-                <unittitle>General <unitdate type="inclusive" normal="1956-01/1956-07">January-July 1956</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1956-01/1956-07">January-July 1956</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">7 folders</extent>
                 </physdesc>
               </did>
@@ -219,8 +211,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [8644844874946891]">2</container>
-                <unittitle>General <unitdate type="inclusive" normal="1956-09/1956-12">September-December 1956</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1956-09/1956-12">September-December 1956</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -240,8 +231,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [8644844874946891]">2</container>
-                <unittitle>State Convention <unitdate type="inclusive" normal="1956-05">May 1956</unitdate>, <unitdate type="inclusive" normal="1956-09">September 1956</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>State Convention</unittitle><unitdate type="inclusive" normal="1956-05">May 1956</unitdate><unitdate type="inclusive" normal="1956-09">September 1956</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -249,10 +239,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1957">1957</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1957">1957</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [8644844874946891]">2</container>
@@ -277,10 +264,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958">1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1958">1958</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [8644844874946891]">2</container>
@@ -308,10 +292,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959">1959</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959">1959</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [8644844874946891]">2</container>
@@ -327,15 +308,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960">1960</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960">1960</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [8644844874946891]">2</container>
-                <unittitle>Fieldmen <unitdate type="inclusive" normal="1960-10">October 1960</unitdate></unittitle>
-              </did>
+                <unittitle>Fieldmen</unittitle><unitdate type="inclusive" normal="1960-10">October 1960</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -359,8 +336,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [8644844874946891]">2</container>
-                  <unittitle>Finance Committee <unitdate type="inclusive" normal="1960-06/1960-12">June-December 1960</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>Finance Committee</unittitle><unitdate type="inclusive" normal="1960-06/1960-12">June-December 1960</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">4 folders</extent>
                   </physdesc>
                 </did>
@@ -368,8 +344,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [8644844874946891]">2</container>
-                  <unittitle>General <unitdate type="inclusive" normal="1960-01/1960-10">January-October 1960</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>General</unittitle><unitdate type="inclusive" normal="1960-01/1960-10">January-October 1960</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">6 folders</extent>
                   </physdesc>
                 </did>
@@ -396,10 +371,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961">1961</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961">1961</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97569484308844414166]">3</container>
@@ -416,21 +388,16 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [97569484308844414166]">3</container>
-              <unittitle><unitdate type="inclusive" normal="1962">1962</unitdate> General</unittitle>
-            </did>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [97569484308844414166]">3</container>
-              <unittitle><unitdate type="inclusive" normal="1963">1963</unitdate> General</unittitle>
-            </did>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964">1964</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1964">1964</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97569484308844414166]">3</container>
@@ -489,10 +456,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965">1965</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1965">1965</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97569484308844414166]">3</container>
@@ -517,10 +481,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966">1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966">1966</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97569484308844414166]">3</container>
@@ -543,15 +504,11 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [97569484308844414166]">3</container>
-              <unittitle><unitdate type="inclusive" normal="1967">1967</unitdate> General</unittitle>
-            </did>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968">1968</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1968">1968</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [97569484308844414166]">3</container>
@@ -568,26 +525,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [97569484308844414166]">3</container>
-              <unittitle><unitdate type="inclusive" normal="1969">1969</unitdate> Republican National Convention</unittitle>
-            </did>
+              <unittitle>Republican National Convention</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [31673842903033054]">4</container>
-              <unittitle><unitdate type="inclusive" normal="1970">1970</unitdate> Republican National Committee</unittitle>
-            </did>
+              <unittitle>Republican National Committee</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [31673842903033054]">4</container>
-              <unittitle><unitdate type="inclusive" normal="1971">1971</unitdate> Republican National Committee</unittitle>
-            </did>
+              <unittitle>Republican National Committee</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [31673842903033054]">4</container>
-              <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Republican National Committee</unittitle>
-            </did>
+              <unittitle>Republican National Committee</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -599,10 +552,7 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962">1962</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1962">1962</unitdate></did>
             <c04 level="file">
               <did>
                 <unittitle>Election Campaign</unittitle>
@@ -676,10 +626,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963">1963</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1963">1963</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [31673842903033054]">4</container>
@@ -713,10 +660,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964">1964</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1964">1964</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0006461644695184431090]">5</container>
@@ -736,18 +680,14 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0006461644695184431090]">5</container>
-              <unittitle><unitdate type="inclusive" normal="1965">1965</unitdate> General</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966">1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966">1966</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0006461644695184431090]">5</container>
@@ -775,8 +715,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0006461644695184431090]">5</container>
-                <unittitle>Republican Governors' Conference <unitdate type="inclusive" normal="1966-12-09/1966-12-10">December 9-10, 1966</unitdate></unittitle>
-              </did>
+                <unittitle>Republican Governors' Conference</unittitle><unitdate type="inclusive" normal="1966-12-09/1966-12-10">December 9-10, 1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -787,10 +726,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967">1967</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1967">1967</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0006461644695184431090]">5</container>
@@ -967,10 +903,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968">1968</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1968">1968</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [642109472622574022]">6</container>
@@ -1025,8 +958,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [53659754404351580508734]">7</container>
-              <unittitle>Kelly v. Van Dusen <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Kelly v. Van Dusen</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -1038,18 +970,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [53659754404351580508734]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1962">1962</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [53659754404351580508734]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1963">1963</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1963">1963</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">8 folders</extent>
                 </physdesc>
               </did>
@@ -1057,18 +983,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [53659754404351580508734]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1964">1964</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1964">1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [53659754404351580508734]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1965">1965</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1965">1965</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
@@ -1076,10 +996,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [53659754404351580508734]">7</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1966">1966</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1966">1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1102,15 +1019,11 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [53659754404351580508734]">7</container>
-              <unittitle><unitdate type="inclusive" normal="1960">1960</unitdate> Citizens for Michigan</unittitle>
-            </did>
+              <unittitle>Citizens for Michigan</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961">1961</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961">1961</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [53659754404351580508734]">7</container>
@@ -1126,8 +1039,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [53659754404351580508734]">7</container>
-                <unittitle>General <unitdate type="inclusive" normal="1961-04/1961-06">April-June 1961</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1961-04/1961-06">April-June 1961</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
@@ -1135,8 +1047,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [587856381545078193547647]">8</container>
-                <unittitle>General <unitdate type="inclusive" normal="1961-07/1961-09">July-September 1961</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1961-07/1961-09">July-September 1961</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
@@ -1156,10 +1067,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962">1962</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1962">1962</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [587856381545078193547647]">8</container>
@@ -1197,18 +1105,14 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [587856381545078193547647]">8</container>
-                  <unittitle>Memo of <unitdate type="inclusive" normal="1962-05-08">May 8, 1962</unitdate></unittitle>
-                </did>
+                  <unittitle>Memo of</unittitle><unitdate type="inclusive" normal="1962-05-08">May 8, 1962</unitdate></did>
               </c05>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [587856381545078193547647]">8</container>
-              <unittitle>
-                <unitdate>Undated</unitdate>
-              </unittitle>
-            </did>
+              <unitdate>Undated</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -1226,58 +1130,37 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [587856381545078193547647]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969">1969</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1969">1969</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970">1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970">1970</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [587856381545078193547647]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1970-01/1970-06">January-June 1970</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1970-01/1970-06">January-June 1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [408826298649910728912]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1970-07/1970-12">July-December 1970</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1970-07/1970-12">July-December 1970</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1971">1971</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1971">1971</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [408826298649910728912]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1971-01/1971-06">January-June 1971</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1971-01/1971-06">January-June 1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [408826298649910728912]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1971-07/1971-08">July-August 1971</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1971-07/1971-08">July-August 1971</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -1288,10 +1171,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [408826298649910728912]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969">1969</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1969">1969</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -1299,18 +1179,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [408826298649910728912]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970">1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [408826298649910728912]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1971">1971</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1971">1971</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -1318,10 +1192,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [408826298649910728912]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972">1972</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1972">1972</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>

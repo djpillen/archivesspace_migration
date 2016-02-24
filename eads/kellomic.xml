@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50060957">Kellogg, John Harvey, 1852-1943.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50060957" ref="/agents/people/6426">Kellogg, John Harvey, 1852-1943.</persname>
       </origination>
-      <unittitle encodinganalog="245">John Harvey Kellogg Papers [microform] <unitdate type="inclusive" encodinganalog="245$f" normal="1832/1965">1832-1965</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1874/1943">1874-1943</unitdate></unittitle>
-      <abstract>Battle Creek, Michigan physician, food scientist, founder of the Battle Creek Sanitarium. Correspondence, student notebooks from University of Michigan and Bellevue Hospital, drafts of speeches and lecture notes, newspaper clippings and scrapbooks, and topical files; include material concerning medical theories and practices, especially matters of diet and hygiene, his work with organizations such as the National Vitality League, Race Betterment Foundation, Battle Creek Three Quarter Century Club, Chicago Workingmen's Home and Medical Mission, and Seventh-Day Adventists; also photographs.</abstract>
+      <unittitle encodinganalog="245">John Harvey Kellogg Papers [microform]</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1832/1965">1832-1965</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1874/1943">1874-1943</unitdate><abstract>Battle Creek, Michigan physician, food scientist, founder of the Battle Creek Sanitarium. Correspondence, student notebooks from University of Michigan and Bellevue Hospital, drafts of speeches and lecture notes, newspaper clippings and scrapbooks, and topical files; include material concerning medical theories and practices, especially matters of diet and hygiene, his work with organizations such as the National Vitality League, Race Betterment Foundation, Battle Creek Three Quarter Century Club, Chicago Workingmen's Home and Medical Mission, and Seventh-Day Adventists; also photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">89500 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -86,84 +86,84 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Battle Creek (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Battle Creek Sanitarium.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50052200">Bellevue Hospital.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Chicago Workingmen's Home and Medical Mission.</corpname>
-        <subject source="lcsh" encodinganalog="650">Depressions--1929--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Food.</subject>
-        <subject source="lcsh" encodinganalog="650">Hygiene.</subject>
-        <geogname source="lcsh" encodinganalog="651">Ireland.</geogname>
-        <subject source="lcsh" encodinganalog="650">Medicine--Michigan--Battle Creek.</subject>
-        <corpname source="lcnaf" encodinganalog="610">National Vitality League.</corpname>
-        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Battle Creek.</subject>
-        <subject source="lcsh" encodinganalog="650">Prohibition--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Public health--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Race Betterment Foundation.</corpname>
-        <subject source="lcsh" encodinganalog="650">Physicians--Religious life--Michigan--Battle Creek.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Seventh Day Adventist Church (Battle Creek, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Three Quarter Century Club (Battle Creek, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/930">Battle Creek (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4355">Battle Creek Sanitarium.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50052200" ref="/agents/corporate_entities/535">Bellevue Hospital.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2556">Chicago Workingmen's Home and Medical Mission.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6505">Depressions--1929--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6185">Food.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6186">Hygiene.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1359">Ireland.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6187">Medicine--Michigan--Battle Creek.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/261">National Vitality League.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8148">Physicians--Michigan--Battle Creek.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5858">Prohibition--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6000">Public health--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5121">Race Betterment Foundation.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8624">Physicians--Religious life--Michigan--Battle Creek.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2548">Seventh Day Adventist Church (Battle Creek, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5618">Three Quarter Century Club (Battle Creek, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <subject source="lctgm" encodinganalog="650">Battle Creek (Mich.)--Buildings.</subject>
-        <geogname source="lctgm" encodinganalog="651">Battle Creek (Mich.)--Dwellings.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Battle Creek (Mich.)--Health resorts.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Battle Creek Sanitarium.</corpname>
-        <subject source="lctgm" encodinganalog="650">Buildings--Michigan--Battle Creek.</subject>
-        <subject source="lctgm" encodinganalog="650">Buildings--Illinois--Chicago.</subject>
-        <geogname source="lctgm" encodinganalog="651">Chicago (Ill.)--Buildings.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Chicago (Ill.)--Missions.</geogname>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Battle Creek.</subject>
-        <subject source="lctgm" encodinganalog="650">Families.</subject>
-        <subject source="lctgm" encodinganalog="650">Health resorts--Michigan--Battle Creek.</subject>
-        <subject source="lctgm" encodinganalog="650">Hospitals--Michigan--Battle Creek.</subject>
-        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50060957">Kellogg, John Harvey, 1852-1943.</persname>
-        <famname source="lcnaf" encodinganalog="600">Kellogg family.</famname>
-        <subject source="lctgm" encodinganalog="650">Laboratories.</subject>
-        <subject source="lctgm" encodinganalog="650">Medicine--Michigan--Battle Creek.</subject>
-        <subject source="lctgm" encodinganalog="650">Missions--Illinois--Chicago.</subject>
-        <subject source="lctgm" encodinganalog="650">Physical fitness.</subject>
-        <subject source="lctgm" encodinganalog="650">Slums.</subject>
-        <subject source="lctgm" encodinganalog="650">Women.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4607">Battle Creek (Mich.)--Buildings.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/283">Battle Creek (Mich.)--Dwellings.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/355">Battle Creek (Mich.)--Health resorts.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4355">Battle Creek Sanitarium.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4608">Buildings--Michigan--Battle Creek.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4609">Buildings--Illinois--Chicago.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/356">Chicago (Ill.)--Buildings.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/357">Chicago (Ill.)--Missions.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4293">Dwellings--Michigan--Battle Creek.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3921">Families.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4610">Health resorts--Michigan--Battle Creek.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4611">Hospitals--Michigan--Battle Creek.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3687">Interiors.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50060957" ref="/agents/people/6426">Kellogg, John Harvey, 1852-1943.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/369">Kellogg family.</famname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3790">Laboratories.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4612">Medicine--Michigan--Battle Creek.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4613">Missions--Illinois--Chicago.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4614">Physical fitness.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4615">Slums.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3617">Women.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2001090592">Barron, Clarence Walker, 1855-1928.</persname>
-        <persname source="lcnaf" encodinganalog="700">Boldyreff, W.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060195">Byrd, Richard Evelyn, 1888-1957.</persname>
-        <persname source="lcnaf" encodinganalog="700">Campbell, B. Hodges.</persname>
-        <persname source="lcnaf" encodinganalog="700">Edison, Mary Stilwell.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80126308">Edison, Thomas A. (Thomas Alva), 1847-1931.</persname>
-        <persname source="lcnaf" encodinganalog="700">Efromoff, G.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50005294">Fisher, Irving, 1867-1947.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ford, Clara Bryant, 1866-1950.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79055385">Ford, Henry, 1863-1947.</persname>
-        <persname source="lcnaf" encodinganalog="700">LeHand, Margaret.</persname>
-        <persname source="lcnaf" encodinganalog="700">Liebold, Ernest G., 1884-</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700">Parran, Thomas.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79091172">Pavlov, Ivan Petrovich, 1849-1936.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78097059">Pinchot, Gifford, 1865-1946.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86868022">Pingree, Hazen S., 1840-1901.</persname>
-        <persname source="lcnaf" encodinganalog="700">Plunckett, Horace.</persname>
-        <persname source="lcnaf" encodinganalog="700">Pomari, M.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84042461">Rockefeller, John D. (John Davison), 1874-1960.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79006533">Shaw, Bernard, 1856-1950.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022244">Taft, William H. (William Howard), 1857-1930.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50008699">Tarbell, Ida M. (Ida Minerva), 1857-1944.</persname>
-        <persname source="lcnaf" encodinganalog="700">Tissier, L.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50049820">Tolstoy, Alexandra, 1884-1979.</persname>
-        <persname source="lcnaf" encodinganalog="700">Tolstoy, Ilga.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79068416">Tolstoy, Leo, 1828-1910.</persname>
-        <persname source="lcnaf" encodinganalog="700">Van Shaick, Louis J.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2001090592" ref="/agents/people/3383">Barron, Clarence Walker, 1855-1928.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5485">Boldyreff, W.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060195" ref="/agents/people/2362">Byrd, Richard Evelyn, 1888-1957.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7425">Campbell, B. Hodges.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7716">Edison, Mary Stilwell.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80126308" ref="/agents/people/2247">Edison, Thomas A. (Thomas Alva), 1847-1931.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5950">Efromoff, G.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50005294" ref="/agents/people/2861">Fisher, Irving, 1867-1947.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4720">Ford, Clara Bryant, 1866-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79055385" ref="/agents/people/1857">Ford, Henry, 1863-1947.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4109">LeHand, Margaret.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1387">Liebold, Ernest G., 1884-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2456">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4562">Parran, Thomas.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79091172" ref="/agents/people/1177">Pavlov, Ivan Petrovich, 1849-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78097059" ref="/agents/people/5671">Pinchot, Gifford, 1865-1946.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86868022" ref="/agents/people/2699">Pingree, Hazen S., 1840-1901.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6686">Plunckett, Horace.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5416">Pomari, M.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84042461" ref="/agents/people/921">Rockefeller, John D. (John Davison), 1874-1960.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932" ref="/agents/people/6807">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79006533" ref="/agents/people/6939">Shaw, Bernard, 1856-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022244" ref="/agents/people/2887">Taft, William H. (William Howard), 1857-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50008699" ref="/agents/people/1173">Tarbell, Ida M. (Ida Minerva), 1857-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1007">Tissier, L.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50049820" ref="/agents/people/8871">Tolstoy, Alexandra, 1884-1979.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4649">Tolstoy, Ilga.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79068416" ref="/agents/people/5419">Tolstoy, Leo, 1828-1910.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1498">Van Shaick, Louis J.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -192,8 +192,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1875/1948">1875-1948</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1875/1948">1875-1948</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
           </physdesc>
         </did>
@@ -203,56 +202,37 @@
         <c02 level="file">
           <did>
             <container label="Roll [96602565947488175136462]" type="reel">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1875/1918">1875-1918</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1875/1918">1875-1918</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [800534438690197690]" type="reel">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1919/1925">1919-1925</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1919/1925">1919-1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [66869041019300093938]" type="reel">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1926/1935">1926-1935</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1926/1935">1926-1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [91557424888815376176]" type="reel">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1935/1938-02-15">1935-February 15, 1938</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1935/1938-02-15">1935-February 15, 1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [530697482967397311]" type="reel">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1938-02-16/1941">February 16, 1938-1941</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1938-02-16/1941">February 16, 1938-1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [22919424309372617]" type="reel">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1942/1948">1942-1948</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1942/1948">1942-1948</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Lectures, speeches, and related <unitdate type="inclusive" normal="1875/1943">1875-1943</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Lectures, speeches, and related</unittitle><unitdate type="inclusive" normal="1875/1943">1875-1943</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">4.5 linear feet</extent>
           </physdesc>
         </did>
@@ -262,104 +242,67 @@
         <c02 level="file">
           <did>
             <container label="Roll [22919424309372617]" type="reel">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1875/1898-10">1875-October 1898</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1875/1898-10">1875-October 1898</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [1368109488199761670]" type="reel">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1898-10/1901-05">October, 1898-May 1901</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1898-10/1901-05">October, 1898-May 1901</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [52992257124517403673612670]" type="reel">8</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1901-06/1903-08">June 1901-August, 1903</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1901-06/1903-08">June 1901-August, 1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [4850498948765880142415]" type="reel">9</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1903-09/1905-12">September 1903-December, 1905</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1903-09/1905-12">September 1903-December, 1905</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [9843486482324859197]" type="reel">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1906-01/1908-07">January 1906-July, 1908</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1906-01/1908-07">January 1906-July, 1908</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [9377379024629029955]" type="reel">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1908-08/1910-09">August 1908-September, 1910</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1908-08/1910-09">August 1908-September, 1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [05427264549822505]" type="reel">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1910-10/1911-07">October 1910-July, 1911</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1910-10/1911-07">October 1910-July, 1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [8602052419477215913396]" type="reel">13</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1911-08/1913-03">August 1911-March, 1913</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1911-08/1913-03">August 1911-March, 1913</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [7317402442909961993696]" type="reel">14</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1913-04/1914-07">April 1913-July, 1914</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1913-04/1914-07">April 1913-July, 1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [6908723040036552053605]" type="reel">15</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1914-08/1922">August, 1914-1922</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1914-08/1922">August, 1914-1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [48830992840083517142]" type="reel">16</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1923/1933">1923-1933</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1923/1933">1923-1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [4307004805932923522592]" type="reel">17</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1934/1943">1934-1943</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1934/1943">1934-1943</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Notes and Articles (by topic) <unitdate type="inclusive" normal="1890/1943" certainty="approximate">circa 1890-1943</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Notes and Articles (by topic)</unittitle><unitdate type="inclusive" normal="1890/1943" certainty="approximate">circa 1890-1943</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">4 linear feet</extent>
           </physdesc>
         </did>
@@ -585,40 +528,29 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Notes and Memoranda (dated) <unitdate type="inclusive" normal="1876/1941">1876-1941</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Notes and Memoranda (dated)</unittitle><unitdate type="inclusive" normal="1876/1941">1876-1941</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">1.5 linear feet</extent>
           </physdesc>
         </did>
         <c02 level="file">
           <did>
             <container label="Roll [684619690469409907519538]" type="reel">25</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1876/1906">1876-1906</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1876/1906">1876-1906</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [4576105040487652172]" type="reel">26</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1907/1941">1907-1941</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1907/1941">1907-1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [807607472133076626860]" type="reel">27</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Subject Files <unitdate type="inclusive" normal="1885/1920" certainty="approximate">circa 1885-1920</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Subject Files</unittitle><unitdate type="inclusive" normal="1885/1920" certainty="approximate">circa 1885-1920</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">1.3 linear feet</extent>
           </physdesc>
         </did>
@@ -777,8 +709,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Clippings/Scrapbooks <unitdate type="inclusive" normal="1878/1952">1878-1952</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Clippings/Scrapbooks</unittitle><unitdate type="inclusive" normal="1878/1952">1878-1952</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
           </physdesc>
         </did>
@@ -788,13 +719,11 @@
         <c02 level="file">
           <did>
             <container label="Roll [93190446109677470362]" type="reel">32</container>
-            <unittitle>Clippings (dated) <unitdate type="inclusive" normal="1879/1952">1879-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Clippings (dated)</unittitle><unitdate type="inclusive" normal="1879/1952">1879-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Clippings (undated) <unitdate type="inclusive" normal="1890/1965" certainty="approximate">circa 1890-1965</unitdate></unittitle>
-          </did>
+            <unittitle>Clippings (undated)</unittitle><unitdate type="inclusive" normal="1890/1965" certainty="approximate">circa 1890-1965</unitdate></did>
           <c03 level="file">
             <did>
               <container label="Roll [93190446109677470362]" type="reel">32</container>
@@ -877,26 +806,22 @@
         <c02 level="file">
           <did>
             <container label="Roll [3635523429897895538]" type="reel">35</container>
-            <unittitle>Scrapbooks (unbound) <unitdate type="inclusive" normal="1878/1929">1878-1929</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbooks (unbound)</unittitle><unitdate type="inclusive" normal="1878/1929">1878-1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [3635523429897895538]" type="reel">35</container>
-            <unittitle>Scrapbooks <unitdate type="inclusive" normal="1904/1924">1904-1924</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbooks</unittitle><unitdate type="inclusive" normal="1904/1924">1904-1924</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [94411564743988365512400]" type="reel">36</container>
-            <unittitle>Scrapbooks <unitdate type="inclusive" normal="1925/1944">1925-1944</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbooks</unittitle><unitdate type="inclusive" normal="1925/1944">1925-1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [4645144085311062750]" type="reel">46</container>
-            <unittitle>Scrapbooks <unitdate type="inclusive" normal="1904/1944">1904-1944</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbooks</unittitle><unitdate type="inclusive" normal="1904/1944">1904-1944</unitdate></did>
           <odd>
             <p>(oversize volume filmed with other outsize materials on reel 46)</p>
           </odd>
@@ -904,14 +829,12 @@
         <c02 level="file">
           <did>
             <container label="Roll [94411564743988365512400]" type="reel">36</container>
-            <unittitle>Scrapbooks (undated) <unitdate type="inclusive" normal="1900/1940" certainty="approximate">circa 1900-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbooks (undated)</unittitle><unitdate type="inclusive" normal="1900/1940" certainty="approximate">circa 1900-1940</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Bound Manuscripts/Published Volumes <unitdate type="inclusive" normal="1869/1940" certainty="approximate">circa 1869-1940</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Bound Manuscripts/Published Volumes</unittitle><unitdate type="inclusive" normal="1869/1940" certainty="approximate">circa 1869-1940</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">4.5 linear feet</extent>
           </physdesc>
         </did>
@@ -933,14 +856,12 @@
         <c02 level="file">
           <did>
             <container label="Roll [424337447788302290629]" type="reel">37</container>
-            <unittitle>Ledgers and Daybooks <unitdate type="inclusive" normal="1889/1923">1889-1923</unitdate></unittitle>
-          </did>
+            <unittitle>Ledgers and Daybooks</unittitle><unitdate type="inclusive" normal="1889/1923">1889-1923</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container label="Roll [424337447788302290629]" type="reel">37</container>
-            <unittitle>Index Rerum <unitdate type="inclusive" normal="1888/1896" certainty="approximate">circa 1888-1896</unitdate></unittitle>
-          </did>
+            <unittitle>Index Rerum</unittitle><unitdate type="inclusive" normal="1888/1896" certainty="approximate">circa 1888-1896</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -949,32 +870,27 @@
           <c03 level="file">
             <did>
               <container label="Roll [424337447788302290629]" type="reel">37</container>
-              <unittitle>Student <unitdate type="inclusive" normal="1869/1873">1869-1873</unitdate></unittitle>
-            </did>
+              <unittitle>Student</unittitle><unitdate type="inclusive" normal="1869/1873">1869-1873</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container label="Roll [40255676432824995125]" type="reel">38</container>
-              <unittitle>Student <unitdate type="inclusive" normal="1874/1875">1874-1875</unitdate></unittitle>
-            </did>
+              <unittitle>Student</unittitle><unitdate type="inclusive" normal="1874/1875">1874-1875</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container label="Roll [40255676432824995125]" type="reel">38</container>
-              <unittitle>Professional <unitdate type="inclusive" normal="1876/1899">1876-1899</unitdate></unittitle>
-            </did>
+              <unittitle>Professional</unittitle><unitdate type="inclusive" normal="1876/1899">1876-1899</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container label="Roll [35092371428713619009]" type="reel">39</container>
-              <unittitle>Professional <unitdate type="inclusive" normal="1899/1927">1899-1927</unitdate></unittitle>
-            </did>
+              <unittitle>Professional</unittitle><unitdate type="inclusive" normal="1899/1927">1899-1927</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Printed works by Kellogg and Sanitarium doctors <unitdate type="inclusive" normal="1890/1940" certainty="approximate">circa 1890-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Printed works by Kellogg and Sanitarium doctors</unittitle><unitdate type="inclusive" normal="1890/1940" certainty="approximate">circa 1890-1940</unitdate></did>
           <c03 level="file">
             <did>
               <container label="Roll [851242300494896394169]" type="reel">40</container>
@@ -1008,8 +924,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Bound Manuscripts by Kellogg <unitdate type="inclusive" normal="1890/1925" certainty="approximate">circa 1890-1925</unitdate></unittitle>
-          </did>
+            <unittitle>Bound Manuscripts by Kellogg</unittitle><unitdate type="inclusive" normal="1890/1925" certainty="approximate">circa 1890-1925</unitdate></did>
           <c03 level="file">
             <did>
               <container label="Roll [33856973748188188253641071]" type="reel">41</container>
@@ -1037,8 +952,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Works by Others (manuscripts) <unitdate type="inclusive" normal="1885/1940" certainty="approximate">circa 1885-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Works by Others (manuscripts)</unittitle><unitdate type="inclusive" normal="1885/1940" certainty="approximate">circa 1885-1940</unitdate></did>
           <c03 level="file">
             <did>
               <container label="Roll [36303443842549263]" type="reel">42</container>
@@ -1066,8 +980,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Works by Others (printed) <unitdate type="inclusive" normal="1832/1940" certainty="approximate">circa 1832-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Works by Others (printed)</unittitle><unitdate type="inclusive" normal="1832/1940" certainty="approximate">circa 1832-1940</unitdate></did>
           <c03 level="file">
             <did>
               <container label="Roll [750022200409939636590683]" type="reel">44</container>
@@ -1108,8 +1021,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><genreform source="aat" normal="Photographs">Photographs</genreform>, <unitdate type="inclusive" normal="1880/1949" certainty="approximate">circa 1880-1940s</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle><genreform source="aat" normal="Photographs">Photographs</genreform></unittitle><unitdate type="inclusive" normal="1880/1949" certainty="approximate">circa 1880-1940s</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">0.8 linear feet</extent>
           </physdesc>
         </did>
@@ -1168,20 +1080,17 @@
           <c03 level="file">
             <did>
               <container label="Roll [01262646097093095]" type="reel">45</container>
-              <unittitle>Africa <unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate></unittitle>
-            </did>
+              <unittitle>Africa</unittitle><unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container label="Roll [01262646097093095]" type="reel">45</container>
-              <unittitle>California <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
-            </did>
+              <unittitle>California</unittitle><unitdate type="inclusive" normal="1928">1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container label="Roll [01262646097093095]" type="reel">45</container>
-              <unittitle>Florida <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate>, <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></unittitle>
-            </did>
+              <unittitle>Florida</unittitle><unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate><unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1297,8 +1206,7 @@
         <c02 level="file">
           <did>
             <container label="Roll [4645144085311062750]" type="reel">46</container>
-            <unittitle>Album re: summer playground-nutrition program for children <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
-          </did>
+            <unittitle>Album re: summer playground-nutrition program for children</unittitle><unitdate type="inclusive" normal="1926">1926</unitdate></did>
           <odd>
             <p>(oversized volume filmed with outsized items on reel 46)</p>
           </odd>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n82002550">Tsang, Daniel, 1949-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n82002550" ref="/agents/people/437">Tsang, Daniel, 1949-</persname>
       </origination>
-      <unittitle encodinganalog="245">Daniel Tsang papers <unitdate type="inclusive" encodinganalog="245$f" normal="1970/1978">1970-1978</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85426 Aa 2</unitid>
+      <unittitle encodinganalog="245">Daniel Tsang papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1970/1978">1970-1978</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85426 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Student at the University of Michigan, member of the Graduate Employees Organization (GEO). Topical files concerning the organization and strike of the GEO in 1975; also papers relating to affirmative action and issues relating to gay University students.</abstract>
       <physdesc altrender="whole">
@@ -78,12 +78,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Graduate Employees Organization (University of Michigan)</corpname>
-        <subject source="lcsh" encodinganalog="650">Gays--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Strikes and lockouts--College teachers--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">College teachers' unions--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1971-1980.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82002550">Tsang, Daniel, 1949-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/43">Graduate Employees Organization (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8370">Gays--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7939">Strikes and lockouts--College teachers--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7938">College teachers' unions--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1971-1980.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1971-1980.</term></corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82002550" ref="/agents/people/437">Tsang, Daniel, 1949-</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -245,14 +245,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [76872814671576766406013]">2</container>
-            <unittitle>Gay Academic Union (GAU) Conference <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <unittitle>Gay Academic Union (GAU) Conference</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [76872814671576766406013]">2</container>
-            <unittitle>AFSCME strike <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <unittitle>AFSCME strike</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -275,8 +273,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [76872814671576766406013]">2</container>
-            <unittitle>Minority students and Administration Building seizure <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-          </did>
+            <unittitle>Minority students and Administration Building seizure</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

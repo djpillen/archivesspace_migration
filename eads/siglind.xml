@@ -36,7 +36,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -47,10 +48,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Siglin, Dave.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4656">Siglin, Dave.</persname>
       </origination>
-      <unittitle encodinganalog="245">Dave Siglin papers <unitdate type="inclusive" encodinganalog="245$f" normal="1968/2008">1968-2008</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009115 Aa 2</unitid>
+      <unittitle encodinganalog="245">Dave Siglin papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1968/2008">1968-2008</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009115 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Program Director at the Ark, Ann Arbor, Michigan music club; administrative records relating to the management of the Ark, including artists’ contracts and financial records, printed materials such as concert calendars, flyers, and posters, and photographs of Ark performances, informal snapshots and publicity photos of performers.</abstract>
       <physdesc altrender="part">
@@ -97,22 +97,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Ann Arbor (Mich.)--Social life and customs.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ark (Nightclub)</corpname>
-        <subject source="lcsh" encodinganalog="650">Folk music--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Siglin, Dave.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/969">Ann Arbor (Mich.)--Social life and customs.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/743">Ark (Nightclub)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10095">Folk music--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4656">Siglin, Dave.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ark (Nightclub)</corpname>
-        <subject source="lctgm" encodinganalog="650">Folk music--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Music concerts--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Siglin, Dave.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/743">Ark (Nightclub)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5304">Folk music--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5305">Music concerts--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4656">Siglin, Dave.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Posters.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3138">Posters.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -126,14 +126,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [80195961545999186132213]">1</container>
-            <unittitle>Ann Arbor Comprehensive Employment Program, Ark Coffeehouse and City of Ann Arbor <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <unittitle>Ann Arbor Comprehensive Employment Program, Ark Coffeehouse and City of Ann Arbor</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [80195961545999186132213]">1</container>
-            <unittitle>Ark Financial Records <unitdate type="inclusive" normal="1972/1986">1972-1986</unitdate></unittitle>
-          </did>
+            <unittitle>Ark Financial Records</unittitle><unitdate type="inclusive" normal="1972/1986">1972-1986</unitdate></did>
           <odd>
             <p>(scattered dates)</p>
           </odd>
@@ -141,8 +139,7 @@
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [19544184768753474]">1</container>
-            <unittitle>Ark Financial Ledger <unitdate type="inclusive" normal="1969-01/1972-08">January 1969-August 1972</unitdate></unittitle>
-          </did>
+            <unittitle>Ark Financial Ledger</unittitle><unitdate type="inclusive" normal="1969-01/1972-08">January 1969-August 1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -177,15 +174,13 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [80195961545999186132213]">1</container>
-              <unittitle><unitdate type="inclusive" normal="1969">1969</unitdate>, <unitdate type="inclusive" normal="1972/1976">1972-1976</unitdate></unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1969">1969</unitdate><unitdate type="inclusive" normal="1972/1976">1972-1976</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [6760874463000461]">2</container>
-            <unittitle>Ark Concert <genreform normal="Posters">Posters</genreform> and Flyers, <unitdate type="inclusive" normal="1978/1986">1978-1986</unitdate></unittitle>
-          </did>
+            <unittitle>Ark Concert <genreform normal="Posters">Posters</genreform> and Flyers</unittitle><unitdate type="inclusive" normal="1978/1986">1978-1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -195,23 +190,18 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [80195961545999186132213]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969/1982">1969-1982</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1969/1982">1969-1982</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [80195961545999186132213]">1</container>
-            <unittitle>Ark Bimonthly Calendar of Events <unitdate type="inclusive" normal="1984-10/2004-12">October 1984-December 2004</unitdate></unittitle>
-          </did>
+            <unittitle>Ark Bimonthly Calendar of Events</unittitle><unitdate type="inclusive" normal="1984-10/2004-12">October 1984-December 2004</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [80195961545999186132213]">1</container>
-            <unittitle>Ark Bimonthly Calendar of Events <unitdate type="inclusive" normal="2005/2008">2005-2008 (scattered dates)</unitdate></unittitle>
-          </did>
+            <unittitle>Ark Bimonthly Calendar of Events</unittitle><unitdate type="inclusive" normal="2005/2008">2005-2008 (scattered dates)</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -220,10 +210,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [80195961545999186132213]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1977-07/1981-04">July 1977-April 1981</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1977-07/1981-04">July 1977-April 1981</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">

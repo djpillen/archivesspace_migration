@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Davis, Joe Lee, 1906-1974.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6484">Davis, Joe Lee, 1906-1974.</persname>
       </origination>
-      <unittitle encodinganalog="245">Joe Lee Davis papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1976">1918-1976</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">90134 Aa 2</unitid>
+      <unittitle encodinganalog="245">Joe Lee Davis papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1976">1918-1976</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">90134 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of English at the University of Michigan. Correspondence, course materials, and writings; also collected materials of father, Lexington, Kentucky journalist, R. Lee Davis, and of brother T.O. Davis, a motion picture theater manager and author.</abstract>
       <physdesc altrender="whole">
@@ -83,29 +83,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Kentucky.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of English Language and Literature.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1441">Kentucky.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/28">University of Michigan. Dept. of English Language and Literature.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lcsh" encodinganalog="650">Motion picture theaters--Kentucky--Ashland.</subject>
-        <subject source="lcsh" encodinganalog="650">Motion picture theaters--Ohio--Cincinnati.</subject>
-        <subject source="lcsh" encodinganalog="650">Motion picture theaters--Ohio--Columbus.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Keith Albee Palace Theatre (Columbus, Ohio)</corpname>
-        <subject source="lctgm" encodinganalog="650">Lobbies--Ohio--Columbus.</subject>
-        <subject source="lctgm" encodinganalog="650">Motion picture theaters.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Paramount Theatre (Ashland, Ky.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7153">Motion picture theaters--Kentucky--Ashland.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7154">Motion picture theaters--Ohio--Cincinnati.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7155">Motion picture theaters--Ohio--Columbus.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4494">Keith Albee Palace Theatre (Columbus, Ohio)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4159">Lobbies--Ohio--Columbus.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4160">Motion picture theaters.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4487">Paramount Theatre (Ashland, Ky.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Davis, Joe Lee.</persname>
-        <persname source="lcnaf" encodinganalog="700">Davis, R. Lee, 1868-1935.</persname>
-        <persname source="lcnaf" encodinganalog="700">Davis, Thomas O.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3221">Davis, Joe Lee.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8501">Davis, R. Lee, 1868-1935.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4625">Davis, Thomas O.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -122,8 +122,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [887306741541678756590]">1</container>
-            <unittitle>Memorials, obituaries, etc. <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <unittitle>Memorials, obituaries, etc.</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -144,14 +143,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>Executive committee minutes and miscellanea <unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate></unittitle>
-            </did>
+              <unittitle>Executive committee minutes and miscellanea</unittitle><unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>Search committee <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-            </did>
+              <unittitle>Search committee</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -161,79 +158,53 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive">Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918">1918</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1918">1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1923/1930">1923-1930</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1923/1930">1923-1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1923/1930" certainty="approximate">circa 1923-1930</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1923/1930" certainty="approximate">circa 1923-1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934/1950">1934-1950</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1934/1950">1934-1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960/1970">1960-1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960/1970">1960-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1971/1976">1971-1976</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1971/1976">1971-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>re. Nominating Committee, American Literature Section, Modern Language Association <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Re. Nominating Committee, American Literature Section, Modern Language Association</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [887306741541678756590]">1</container>
-            <unittitle>Log of books read, etc. <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></unittitle>
-          </did>
+            <unittitle>Log of books read, etc.</unittitle><unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -266,20 +237,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>"Reading notes, English 185-186" <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-            </did>
+              <unittitle>"Reading notes, English 185-186"</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>"Reading notes in English 186" <unitdate type="inclusive" normal="1931-04">April 1931</unitdate></unittitle>
-            </did>
+              <unittitle>"Reading notes in English 186"</unittitle><unitdate type="inclusive" normal="1931-04">April 1931</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [887306741541678756590]">1</container>
-              <unittitle>"Reading notes in English 186 (Second Series)" <unitdate type="inclusive" normal="1931-05">May 1931</unitdate></unittitle>
-            </did>
+              <unittitle>"Reading notes in English 186 (Second Series)"</unittitle><unitdate type="inclusive" normal="1931-05">May 1931</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -1100,8 +1068,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [059205440862700115381]">4</container>
-            <unittitle>Thesis: "The 'Sons of Ben' in English Realistic Comedy, 1625-1642" <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Thesis: "The 'Sons of Ben' in English Realistic Comedy, 1625-1642"</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
@@ -1268,8 +1235,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [28853533438292701]">7</container>
-              <unittitle>Journals and diaries <unitdate type="inclusive" normal="1929/1935">1929-1935</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Journals and diaries</unittitle><unitdate type="inclusive" normal="1929/1935">1929-1935</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 volumes</extent>
               </physdesc>
             </did>

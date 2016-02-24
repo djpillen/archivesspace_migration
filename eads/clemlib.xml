@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">William L. Clements Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/332">William L. Clements Library.</corpname>
       </origination>
-      <unittitle encodinganalog="245">William L. Clements Library records <unitdate type="inclusive" encodinganalog="245$f" normal="1923/1964">1923-1964</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87346 Bimu C440 2</unitid>
+      <unittitle encodinganalog="245">William L. Clements Library records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1923/1964">1923-1964</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87346 Bimu C440 2</unitid>
       <physloc>Stored offsite, two days notice required for retrieval.</physloc>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Records, 1923-1964, of the William L. Clements Library of the University of Michigan; contain official correspondence and other materials.</abstract>
@@ -79,21 +79,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Archives--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr94018515">Clements, William L. (William Lawrence), 1861-1934.</persname>
-        <subject source="lcsh" encodinganalog="650">Libraries--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6309">Archives--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr94018515" ref="/agents/people/5523">Clements, William L. (William Lawrence), 1861-1934.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6310">Libraries--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89613731">Adams, Randolph Greenfield, 1892-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50012423">Peckham, Howard H. (Howard Henry), 1910-1995.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89613731" ref="/agents/people/470">Adams, Randolph Greenfield, 1892-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50012423" ref="/agents/people/5329">Peckham, Howard H. (Howard Henry), 1910-1995.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Topical Files <unitdate type="inclusive" normal="1923/1949" certainty="approximate">circa 1923-1949</unitdate></unittitle>
-        </did>
+          <unittitle>Topical Files</unittitle><unitdate type="inclusive" normal="1923/1949" certainty="approximate">circa 1923-1949</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [072834338347097519]">1</container>
@@ -115,8 +114,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Topical Files <unitdate type="inclusive" normal="1923/1964" certainty="approximate">circa 1923-1964</unitdate></unittitle>
-        </did>
+          <unittitle>Topical Files</unittitle><unitdate type="inclusive" normal="1923/1964" certainty="approximate">circa 1923-1964</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8620053445586190312102]">4</container>
@@ -293,8 +291,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [87934504483968141947166]">31</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1953/1964">1953-1964</unitdate></unittitle>
-          </did>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1953/1964">1953-1964</unitdate></did>
         </c02>
       </c01>
     </dsc>

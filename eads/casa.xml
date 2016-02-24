@@ -24,7 +24,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Community Action on Substance Abuse.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4961">Community Action on Substance Abuse.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Community Action on Substance Abuse Records <unitdate type="inclusive" encodinganalog="245$f" normal="1981/2003">1981-2003</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">06102 Bj 2</unitid>
+      <unittitle encodinganalog="245">Community Action on Substance Abuse Records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1981/2003">1981-2003</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">06102 Bj 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Community Action on Substance Abuse (CASA) was an Ann Arbor-based, non-profit organization of volunteer parents, educators and service groups. CASA’s mission was to educate adolescents in the community about the risks of using alcohol, tobacco and other drugs, and to encourage adolescents to live drug free. The records consist of CASA organizational materials – meeting minutes, annual reports and more – publicity and prevention materials, program information, Ann Arbor-area and national substance abuse resources, conference materials, local drug use surveys, fundraising materials, VHS and cassette tapes, and photographs and other items from Ann Arbor’s Drug Free Schools drug prevention art contests.</abstract>
       <physdesc altrender="whole">
@@ -79,20 +79,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Community Action on Substance Abuse.</corpname>
-        <subject source="lcsh" encodinganalog="650">Drug abuse--Prevention--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Drug abuse--Study and teaching--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Schools--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4961">Community Action on Substance Abuse.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6685">Drug abuse--Prevention--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6686">Drug abuse--Study and teaching--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5701">Schools--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Spencer, Bradley.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1272">Spencer, Bradley.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
-        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3134">Videotapes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

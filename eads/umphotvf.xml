@@ -51,7 +51,8 @@
         <item>Original encoding</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -62,10 +63,9 @@
   <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" role="Collector">Bentley Historical Library (collector)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" role="Collector" ref="/agents/corporate_entities/1181">Bentley Historical Library (collector)</corpname>
       </origination>
-      <unittitle encodinganalog="245">University of Michigan Photographs Vertical File <unitdate type="inclusive" encodinganalog="245$f" normal="1850/1989" certainty="approximate">1850s-1980s</unitdate></unittitle>
-      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">92147 UBImus UBImum UBImul</unitid>
+      <unittitle encodinganalog="245">University of Michigan Photographs Vertical File</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1850/1989" certainty="approximate">1850s-1980s</unitdate><unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">92147 UBImus UBImum UBImul</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <abstract>Photographs collected from various sources, depicting buildings, faculty, students, and other topics relating to the University of Michigan.</abstract>
       <physdesc altrender="part">
@@ -94,7 +94,7 @@
       </prefercite>
     </descgrp>
     <arrangement encodinganalog="351">
-      <p>The University of Michigan Photographs Vertical file is organized in eight categories or series based in part on a classification system developed for the printed and photograph vertical file. The series are listed below along with the major subdivisions in each: <list type="simple"><item>Administration <sublist type="simple"><subitem>Central Administration</subitem><subitem>Business Offices and Miscellaneous Services</subitem><subitem>Faculty Administration</subitem></sublist> </item><item>Academic and Support Units <sublist type="simple"><subitem>Colleges and Schools</subitem><subitem>Summer Sessions</subitem><subitem>Libraries</subitem><subitem>Museums</subitem></sublist> </item><item>History and Description <sublist type="simple"><subitem>General</subitem><subitem>Campus Views</subitem><subitem>Campus Buildings</subitem></sublist> </item><item>Special Celebrations and Events <sublist type="simple"><subitem>Commencements</subitem><subitem>Inaugurals</subitem><subitem>Anniversaries</subitem><subitem>Special Events</subitem><subitem>Emergencies and War</subitem></sublist> </item><item>Student Life and Customs <sublist type="simple"><subitem>General</subitem><subitem>[Student organizations]</subitem><subitem>Honorary Societies and Professional Societies</subitem><subitem>Housing</subitem><subitem>Social Fraternities and Sororities</subitem><subitem>Student Celebrations and Carnivals</subitem><subitem>Intercollegiate Sports</subitem></sublist> </item><item>Class Photos, 1858-1956 <sublist type="simple"><subitem>Classes by Year: Group Portraits and Reunions</subitem></sublist> <sublist type="simple"> <subitem>Classes by Year: Individual Portraits</subitem></sublist> </item><item>Affiliated and Associated Organizations</item></list> </p>
+      <p>The University of Michigan Photographs Vertical file is organized in eight categories or series based in part on a classification system developed for the printed and photograph vertical file. The series are listed below along with the major subdivisions in each: <list type="simple"><item>Administration <sublist type="simple"><subitem>Central Administration</subitem> <subitem>Business Offices and Miscellaneous Services</subitem> <subitem>Faculty Administration</subitem></sublist> </item><item>Academic and Support Units <sublist type="simple"><subitem>Colleges and Schools</subitem> <subitem>Summer Sessions</subitem> <subitem>Libraries</subitem> <subitem>Museums</subitem></sublist> </item><item>History and Description <sublist type="simple"><subitem>General</subitem> <subitem>Campus Views</subitem> <subitem>Campus Buildings</subitem></sublist> </item><item>Special Celebrations and Events <sublist type="simple"><subitem>Commencements</subitem> <subitem>Inaugurals</subitem> <subitem>Anniversaries</subitem> <subitem>Special Events</subitem> <subitem>Emergencies and War</subitem></sublist> </item><item>Student Life and Customs <sublist type="simple"><subitem>General</subitem> <subitem>[Student organizations]</subitem> <subitem>Honorary Societies and Professional Societies</subitem> <subitem>Housing</subitem> <subitem>Social Fraternities and Sororities</subitem> <subitem>Student Celebrations and Carnivals</subitem> <subitem>Intercollegiate Sports</subitem></sublist> </item><item>Class Photos, 1858-1956 <sublist type="simple"><subitem>Classes by Year: Group Portraits and Reunions</subitem></sublist> <sublist type="simple"> <subitem>Classes by Year: Individual Portraits</subitem></sublist> </item><item>Affiliated and Associated Organizations</item></list> </p>
     </arrangement>
     <scopecontent encodinganalog="520">
       <p>The University of Michigan Photographs Vertical File represents a miscellaneous assemblage of U of M-related photographs from many different sources, mainly prior to 1950. The vertical file is especially strong on the earliest photographic images of the campus, university buildings, and class activities. While the vertical file contains many images of individuals, researchers should first consult the library's on-line catalog for images of faculty, administrators, and other University personalities. Most photographs originally accumulated by a University department or other unit are kept with that unit's records.</p>
@@ -108,41 +108,41 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Astronomical observatories.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Catholepistemiad (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Horace H. Rackham Educational Memorial (Detroit, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Hospitals--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Laboratories.</subject>
-        <subject source="lctgm" encodinganalog="650">Libraries--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Medicine--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Campus.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Classes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Commencements.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Honorary societies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Presidents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Alumni and alumnae--Anniversaries, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Student housing.</corpname>
-        <subject source="lcsh" encodinganalog="650">Greek letter societies--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
-        <subject source="lctgm" encodinganalog="650">Classrooms--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Dancing--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918--Education and the war.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945--Education and the war.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Women college students--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3733">Astronomical observatories.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5431">Catholepistemiad (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4724">Horace H. Rackham Educational Memorial (Detroit, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4410">Hospitals--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3790">Laboratories.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3892">Libraries--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5493">Medicine--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Sports.<term type="topical">Sports.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/858">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Buildings.<term type="topical">Buildings.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Campus.<term type="topical">Campus.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Classes.<term type="topical">Classes.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Commencements.<term type="topical">Commencements.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Honorary societies.<term type="topical">Honorary societies.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Presidents.<term type="topical">Presidents.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Alumni and alumnae--Anniversaries, etc.<term type="topical">Alumni and alumnae</term><term type="topical">Anniversaries, etc.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs.<term type="topical">Students</term><term type="topical">Social life and customs.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Student housing.<term type="topical">Student housing.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5839">Greek letter societies--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5675">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3591">Classrooms--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4206">Dancing--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6992">World War, 1914-1918--Education and the war.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6991">World War, 1914-1918--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6049">World War, 1939-1945--Education and the war.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6050">World War, 1939-1945--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5842">Women college students--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="gmgpc" encodinganalog="655">Aerial photographs.</genreform>
-        <genreform source="aat">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3449">Aerial photographs.</genreform>
+        <genreform source="aat" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -442,7 +442,7 @@
               <did>
                 <container label="Folder [8119842586516241]" type="folder">C81-40</container>
                 <unittitle>Pharmacy Laboratories</unittitle>
-                <dao href="92147-40" show="new" actuate="onRequest">
+                <dao href="92147-40" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15854">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -502,7 +502,7 @@
               <did>
                 <container label="Folder [97195804189814776045]" type="folder">C121-47</container>
                 <unittitle>School of Dentistry</unittitle>
-                <dao href="92147-47" show="new" actuate="onRequest">
+                <dao href="92147-47" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15855">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -527,7 +527,7 @@
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
-                <dao href="92147-51" show="new" actuate="onRequest">
+                <dao href="92147-51" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15856">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -752,7 +752,7 @@
             <did>
               <container label="Folder [320817244708289733459]" type="folder">C416-68</container>
               <unittitle>General Library (1883-1918) Interiors</unittitle>
-              <dao href="92147-68" show="new" actuate="onRequest">
+              <dao href="92147-68" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15857">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -824,8 +824,7 @@
           <c03 level="file">
             <did>
               <container label="Folder [03344147238865283058]" type="folder">C435-75</container>
-              <unittitle>Law Library (Haven Hall, <unitdate normal="1863/1931" type="inclusive">1863-1931</unitdate>) Interiors</unittitle>
-              <dao href="92147-75" show="new" actuate="onRequest">
+              <unittitle>Law Library (Haven Hall, ) Interiors</unittitle><unitdate normal="1863/1931" type="inclusive">1863-1931</unitdate><dao href="92147-75" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15858">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1057,7 +1056,7 @@
               <did>
                 <container label="Folder [5383747532473208405033]" type="folder">D2-100</container>
                 <unittitle>Aerial views, central campus and hospital area together</unittitle>
-                <dao href="92147-100" show="new" actuate="onRequest">
+                <dao href="92147-100" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15859">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1077,7 +1076,7 @@
               <did>
                 <container label="Folder [50565598846919332013283]" type="folder">D2-102</container>
                 <unittitle>From the Boulevard</unittitle>
-                <dao href="92147-102" show="new" actuate="onRequest">
+                <dao href="92147-102" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15860">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1102,7 +1101,7 @@
               <did>
                 <container label="Folder [07019458833415195]" type="folder">D2-105</container>
                 <unittitle>Aerial views</unittitle>
-                <dao href="92147-105" show="new" actuate="onRequest">
+                <dao href="92147-105" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15861">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1119,7 +1118,7 @@
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
-                <dao href="92147-106" show="new" actuate="onRequest">
+                <dao href="92147-106" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15862">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1137,7 +1136,7 @@
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
-                  <dao href="92147-108" show="new" actuate="onRequest">
+                  <dao href="92147-108" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15863">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -1154,7 +1153,7 @@
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
-                  <dao href="92147-110" show="new" actuate="onRequest">
+                  <dao href="92147-110" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15864">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -1165,7 +1164,7 @@
                 <did>
                   <container label="Folder [57370824449264816057]" type="folder">D2-112</container>
                   <unittitle>After 1898</unittitle>
-                  <dao href="92147-112" show="new" actuate="onRequest">
+                  <dao href="92147-112" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15865">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -1186,7 +1185,7 @@
               <did>
                 <container label="Folder [18612104094618629394]" type="folder">D2-113</container>
                 <unittitle>East University area</unittitle>
-                <dao href="92147-113" show="new" actuate="onRequest">
+                <dao href="92147-113" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15866">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1197,7 +1196,7 @@
               <did>
                 <container label="Folder [116143412464719950992]" type="folder">D2-114</container>
                 <unittitle>Flagpole area</unittitle>
-                <dao href="92147-114" show="new" actuate="onRequest">
+                <dao href="92147-114" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15867">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1208,7 +1207,7 @@
               <did>
                 <container label="Folder [562274443299065470]" type="folder">D2-115</container>
                 <unittitle>Mall (Ingalls Street)</unittitle>
-                <dao href="92147-115" show="new" actuate="onRequest">
+                <dao href="92147-115" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15868">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1219,7 +1218,7 @@
               <did>
                 <container label="Folder [68012034309081061]" type="folder">D2-116</container>
                 <unittitle>Miscellaneous views</unittitle>
-                <dao href="92147-116" show="new" actuate="onRequest">
+                <dao href="92147-116" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15869">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1230,7 +1229,7 @@
               <did>
                 <container label="Folder [9489996431852422056403]" type="folder">D2-117</container>
                 <unittitle>North University area</unittitle>
-                <dao href="92147-117" show="new" actuate="onRequest">
+                <dao href="92147-117" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15870">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1244,7 +1243,7 @@
               <did>
                 <container label="Folder [64772349196283228]" type="folder">D2-118</container>
                 <unittitle>State Street and North University area seen from campus</unittitle>
-                <dao href="92147-118" show="new" actuate="onRequest">
+                <dao href="92147-118" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15871">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1259,7 +1258,7 @@
                 <did>
                   <container label="Folder [5905177874940591881]" type="folder">D2-119</container>
                   <unittitle>From between North and South University</unittitle>
-                  <dao href="92147-119" show="new" actuate="onRequest">
+                  <dao href="92147-119" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15872">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -1276,7 +1275,7 @@
                 <did>
                   <container label="Folder [0836359943802972733296]" type="folder">D2-120</container>
                   <unittitle>1863 - 1872 and undatable</unittitle>
-                  <dao href="92147-120" show="new" actuate="onRequest">
+                  <dao href="92147-120" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15873">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -1287,7 +1286,7 @@
                 <did>
                   <container label="Folder [08588652043379001967813]" type="folder">D2-120.5</container>
                   <unittitle>1865 Print</unittitle>
-                  <dao href="92147-120.5" show="new" actuate="onRequest">
+                  <dao href="92147-120.5" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15874">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -1298,7 +1297,7 @@
                 <did>
                   <container label="Folder [93250064938371588594]" type="folder">D2-121</container>
                   <unittitle>1872 - 1893</unittitle>
-                  <dao href="92147-121" show="new" actuate="onRequest">
+                  <dao href="92147-121" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15875">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -1312,7 +1311,7 @@
                 <did>
                   <container label="Folder [73793254848430288]" type="folder">D2-122</container>
                   <unittitle>1893 - 1898</unittitle>
-                  <dao href="92147-122" show="new" actuate="onRequest">
+                  <dao href="92147-122" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15876">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -1322,8 +1321,7 @@
               <c05 level="file">
                 <did>
                   <container label="Folder [2356969468884714864]" type="folder">D2-123</container>
-                  <unittitle>From corner of North University and State <unitdate type="inclusive" normal="1898/1924">1898-1924</unitdate></unittitle>
-                  <dao href="92147-123" show="new" actuate="onRequest">
+                  <unittitle>From corner of North University and State</unittitle><unitdate type="inclusive" normal="1898/1924">1898-1924</unitdate><dao href="92147-123" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15877">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -1337,7 +1335,7 @@
                 <did>
                   <container label="Folder [95534318499451951330]" type="folder">D2-124</container>
                   <unittitle>From corner of South University and State</unittitle>
-                  <dao href="92147-124" show="new" actuate="onRequest">
+                  <dao href="92147-124" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15878">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -1357,7 +1355,7 @@
               <did>
                 <container label="Folder [519176427957875000270]" type="folder">D2-125</container>
                 <unittitle>Aerial Views</unittitle>
-                <dao href="92147-125" show="new" actuate="onRequest">
+                <dao href="92147-125" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15879">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1371,7 +1369,7 @@
               <did>
                 <container label="Folder [4820648890825512]" type="folder">D2-126</container>
                 <unittitle>Catherine Street area</unittitle>
-                <dao href="92147-126" show="new" actuate="onRequest">
+                <dao href="92147-126" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15880">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1385,7 +1383,7 @@
               <did>
                 <container label="Folder [322859895404618679813]" type="folder">D2-127</container>
                 <unittitle>University Hospital (Ann and Observatory) area</unittitle>
-                <dao href="92147-127" show="new" actuate="onRequest">
+                <dao href="92147-127" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15881">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1401,7 +1399,7 @@
               <did>
                 <container label="Folder [548316094176577247140]" type="folder">D2-128</container>
                 <unittitle>General views</unittitle>
-                <dao href="92147-128" show="new" actuate="onRequest">
+                <dao href="92147-128" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15882">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1415,7 +1413,7 @@
               <did>
                 <container label="Folder [33403347359568184470]" type="folder">D2-129</container>
                 <unittitle>Planning and construction</unittitle>
-                <dao href="92147-129" show="new" actuate="onRequest">
+                <dao href="92147-129" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15883">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1432,7 +1430,7 @@
             <did>
               <container label="Folder [4332735747137717744755708]" type="folder">D3a-130</container>
               <unittitle>Catholepistemiad, 1817-1837</unittitle>
-              <dao href="92147-130" show="new" actuate="onRequest">
+              <dao href="92147-130" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15884">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1448,7 +1446,7 @@
             <did>
               <container label="Folder [2030384510322124]" type="folder">D12-131</container>
               <unittitle>Burton Tower and Music School</unittitle>
-              <dao href="92147-131" show="new" actuate="onRequest">
+              <dao href="92147-131" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15885">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1465,7 +1463,7 @@
             <did>
               <container label="Folder [50793731843637448189]" type="folder">D12-133</container>
               <unittitle>Miscellaneous</unittitle>
-              <dao href="92147-133" show="new" actuate="onRequest">
+              <dao href="92147-133" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15886">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1502,7 +1500,7 @@
             <did>
               <container label="Folder [43079733045824829481171]" type="folder">D13-134</container>
               <unittitle>Alexander G. Ruthven building</unittitle>
-              <dao href="92147-134" show="new" actuate="onRequest">
+              <dao href="92147-134" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15887">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1513,7 +1511,7 @@
             <did>
               <container label="Folder [379342047088167057]" type="folder">D13-135</container>
               <unittitle>Alice Crocker Lloyd Hall</unittitle>
-              <dao href="92147-135" show="new" actuate="onRequest">
+              <dao href="92147-135" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15888">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1524,7 +1522,7 @@
             <did>
               <container label="Folder [3343909242287539051527464]" type="folder">D13-136</container>
               <unittitle>Alumnae House (1219 Washtenaw)</unittitle>
-              <dao href="92147-136" show="new" actuate="onRequest">
+              <dao href="92147-136" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15889">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1535,7 +1533,7 @@
             <did>
               <container label="Folder [148270654222782529835747]" type="folder">D13-136.5</container>
               <unittitle>Alumni Center</unittitle>
-              <dao href="92147-136.5" show="new" actuate="onRequest">
+              <dao href="92147-136.5" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15890">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1549,7 +1547,7 @@
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
-              <dao href="92147-137" show="new" actuate="onRequest">
+              <dao href="92147-137" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15891">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1560,7 +1558,7 @@
             <did>
               <container label="Folder [93308565943886133]" type="folder">D13-139</container>
               <unittitle>Anatomical Laboratory</unittitle>
-              <dao href="92147-139" show="new" actuate="onRequest">
+              <dao href="92147-139" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15892">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1574,7 +1572,7 @@
             <did>
               <container label="Folder [1365102215647451440704]" type="folder">D13-140</container>
               <unittitle>Angell Hall</unittitle>
-              <dao href="92147-140" show="new" actuate="onRequest">
+              <dao href="92147-140" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15893">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1608,7 +1606,7 @@
             <did>
               <container label="Folder [7852128474002854127768]" type="folder">D13-141</container>
               <unittitle>Barbour Gymnasium [see also Waterman Gymnasium]</unittitle>
-              <dao href="92147-141" show="new" actuate="onRequest">
+              <dao href="92147-141" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15894">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1619,7 +1617,7 @@
             <did>
               <container label="Folder [73074473971306239]" type="folder">D13-142</container>
               <unittitle>Beal Residence (built 1906)</unittitle>
-              <dao href="92147-142" show="new" actuate="onRequest">
+              <dao href="92147-142" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15895">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1635,7 +1633,7 @@
             <did>
               <container label="Folder [8052889440105406557]" type="folder">D13-143</container>
               <unittitle>Betsy Barbour House</unittitle>
-              <dao href="92147-143" show="new" actuate="onRequest">
+              <dao href="92147-143" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15896">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1646,7 +1644,7 @@
             <did>
               <container label="Folder [76112491498174571]" type="folder">D13-144</container>
               <unittitle>Boathouse (Argo Pond)</unittitle>
-              <dao href="92147-144" show="new" actuate="onRequest">
+              <dao href="92147-144" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15897">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1662,7 +1660,7 @@
             <did>
               <container label="Folder [9374548580402214965850114]" type="folder">D13-145</container>
               <unittitle>Boilerhouse (built 1884, near West Engineering Building)</unittitle>
-              <dao href="92147-145" show="new" actuate="onRequest">
+              <dao href="92147-145" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15898">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1686,7 +1684,7 @@
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
-              <dao href="92147-146" show="new" actuate="onRequest">
+              <dao href="92147-146" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15899">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1700,7 +1698,7 @@
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
-              <dao href="92147-149" show="new" actuate="onRequest">
+              <dao href="92147-149" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15900">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1711,7 +1709,7 @@
             <did>
               <container label="Folder [2800185004541837546142110]" type="folder">D13-150</container>
               <unittitle>Catherine Street Parking Structure</unittitle>
-              <dao href="92147-150" show="new" actuate="onRequest">
+              <dao href="92147-150" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15901">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1722,7 +1720,7 @@
             <did>
               <container label="Folder [06241947230692215390]" type="folder">D13-152</container>
               <unittitle>Center for Research on Conflict Resolution</unittitle>
-              <dao href="92147-152" show="new" actuate="onRequest">
+              <dao href="92147-152" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15902">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1733,7 +1731,7 @@
             <did>
               <container label="Folder [571060629468002419704617]" type="folder">D13-153</container>
               <unittitle>Central Energy Plant (built 1914)</unittitle>
-              <dao href="92147-153" show="new" actuate="onRequest">
+              <dao href="92147-153" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15903">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1757,7 +1755,7 @@
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
-              <dao href="92147-154" show="new" actuate="onRequest">
+              <dao href="92147-154" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15904">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1768,7 +1766,7 @@
             <did>
               <container label="Folder [175933142287911186172]" type="folder">D13-156</container>
               <unittitle>Chrysler Center for Continuing Engineering Education</unittitle>
-              <dao href="92147-156" show="new" actuate="onRequest">
+              <dao href="92147-156" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15905">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1779,7 +1777,7 @@
             <did>
               <container label="Folder [97111405397665332943954]" type="folder">D13-157</container>
               <unittitle>Clarence C. Little Science Building (built 1925)</unittitle>
-              <dao href="92147-157" show="new" actuate="onRequest">
+              <dao href="92147-157" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15906">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1798,7 +1796,7 @@
             <did>
               <container label="Folder [766735524918719587248]" type="folder">D13-158</container>
               <unittitle>Coliseum</unittitle>
-              <dao href="92147-158" show="new" actuate="onRequest">
+              <dao href="92147-158" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15907">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1809,7 +1807,7 @@
             <did>
               <container label="Folder [02815168464288126260]" type="folder">D13-159</container>
               <unittitle>Contagious Disease Hospital</unittitle>
-              <dao href="92147-159" show="new" actuate="onRequest">
+              <dao href="92147-159" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15908">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1823,7 +1821,7 @@
             <did>
               <container label="Folder [307099551437298570437]" type="folder">D13-160</container>
               <unittitle>Convalescent Ward</unittitle>
-              <dao href="92147-160" show="new" actuate="onRequest">
+              <dao href="92147-160" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15909">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1842,7 +1840,7 @@
             <did>
               <container label="Folder [9057997642618327047260]" type="folder">D13-161</container>
               <unittitle>Counseling Center (1007 E. Huron)</unittitle>
-              <dao href="92147-161" show="new" actuate="onRequest">
+              <dao href="92147-161" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15910">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1853,7 +1851,7 @@
             <did>
               <container label="Folder [369480624429876613822]" type="folder">D13-162</container>
               <unittitle>Couzens Hall</unittitle>
-              <dao href="92147-162" show="new" actuate="onRequest">
+              <dao href="92147-162" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15911">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1867,7 +1865,7 @@
             <did>
               <container label="Folder [58038910412024399025]" type="folder">D13-163</container>
               <unittitle>Crisler Arena</unittitle>
-              <dao href="92147-163" show="new" actuate="onRequest">
+              <dao href="92147-163" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15912">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1883,7 +1881,7 @@
             <did>
               <container label="Folder [105583894208164739094]" type="folder">D13-164</container>
               <unittitle>David M. Denison Physics and Astronomy Building</unittitle>
-              <dao href="92147-164" show="new" actuate="onRequest">
+              <dao href="92147-164" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15913">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1908,13 +1906,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Dental Building (on North University Avenue) <unitdate type="inclusive" normal="1891/1908">1891-1908</unitdate></unittitle>
-            </did>
+              <unittitle>Dental Building (on North University Avenue)</unittitle><unitdate type="inclusive" normal="1891/1908">1891-1908</unitdate></did>
             <c04 level="file">
               <did>
                 <container label="Folder [53250467874580505681]" type="folder">D13-165</container>
-                <unittitle>(Pavilion Hospital) <unitdate type="inclusive" normal="1877/1891">1877-1891</unitdate></unittitle>
-                <dao href="92147-165" show="new" actuate="onRequest">
+                <unittitle>(Pavilion Hospital)</unittitle><unitdate type="inclusive" normal="1877/1891">1877-1891</unitdate><dao href="92147-165" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15914">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1927,8 +1923,7 @@
             <c04 level="file">
               <did>
                 <container label="Folder [12839954477514405]" type="folder">D13-166</container>
-                <unittitle>(Pavilion Hospital with amphitheatre wing) <unitdate type="inclusive" normal="1879/1891">1879-1891</unitdate></unittitle>
-              </did>
+                <unittitle>(Pavilion Hospital with amphitheatre wing)</unittitle><unitdate type="inclusive" normal="1879/1891">1879-1891</unitdate></did>
               <odd>
                 <p>also medium</p>
               </odd>
@@ -1936,10 +1931,7 @@
             <c04 level="file">
               <did>
                 <container label="Folder [12839954477514405]" type="folder">D13-166</container>
-                <unittitle>
-                  <unitdate normal="1891/1908">1891-1908</unitdate>
-                </unittitle>
-                <dao href="92147-166" show="new" actuate="onRequest">
+                <unitdate normal="1891/1908">1891-1908</unitdate><dao href="92147-166" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15915">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -1954,7 +1946,7 @@
             <did>
               <container label="Folder [1065693104138528088722]" type="folder">D13-168</container>
               <unittitle>Dental Building (built 1908)</unittitle>
-              <dao href="92147-168" show="new" actuate="onRequest">
+              <dao href="92147-168" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15916">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1973,7 +1965,7 @@
             <did>
               <container label="Folder [344845372477175636369]" type="folder">D13-169</container>
               <unittitle>Dermatology Ward</unittitle>
-              <dao href="92147-169" show="new" actuate="onRequest">
+              <dao href="92147-169" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15917">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -1994,7 +1986,7 @@
             <did>
               <container label="Folder [6333376439544617628]" type="folder">D13-170</container>
               <unittitle>East Engineering Building</unittitle>
-              <dao href="92147-170" show="new" actuate="onRequest">
+              <dao href="92147-170" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15918">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2015,7 +2007,7 @@
             <did>
               <container label="Folder [6874194982875024]" type="folder">D13-171</container>
               <unittitle>East Medical Center Parking Structure</unittitle>
-              <dao href="92147-171" show="new" actuate="onRequest">
+              <dao href="92147-171" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15919">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2031,7 +2023,7 @@
             <did>
               <container label="Folder [82795750114450215385007]" type="folder">D13-172</container>
               <unittitle>East Quadrangle (Residential College)</unittitle>
-              <dao href="92147-172" show="new" actuate="onRequest">
+              <dao href="92147-172" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15920">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2046,7 +2038,7 @@
               <did>
                 <container label="Folder [1198151456917323911053]" type="folder">D13-173</container>
                 <unittitle>1856-1880 (One story, with additions)</unittitle>
-                <dao href="92147-173" show="new" actuate="onRequest">
+                <dao href="92147-173" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15921">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2060,7 +2052,7 @@
               <did>
                 <container label="Folder [979400001744138844481583]" type="folder">D13-174</container>
                 <unittitle>1880-1901 (Two stories)</unittitle>
-                <dao href="92147-174" show="new" actuate="onRequest">
+                <dao href="92147-174" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15922">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2074,7 +2066,7 @@
               <did>
                 <container label="Folder [96115094536746810]" type="folder">D13-175</container>
                 <unittitle>1901-1956 (Pharmacology, northwest wing)</unittitle>
-                <dao href="92147-175" show="new" actuate="onRequest">
+                <dao href="92147-175" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15923">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2094,7 +2086,7 @@
               <did>
                 <container label="Folder [86254421845473916934]" type="folder">D13-177</container>
                 <unittitle>1908-1981 (Economics, south wing)</unittitle>
-                <dao href="92147-177" show="new" actuate="onRequest">
+                <dao href="92147-177" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15924">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2108,7 +2100,7 @@
               <did>
                 <container label="Folder [4285158525524088200996748107]" type="folder">D13-178</container>
                 <unittitle>1981 fire</unittitle>
-                <dao href="92147-178" show="new" actuate="onRequest">
+                <dao href="92147-178" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15925">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2127,7 +2119,7 @@
               <did>
                 <container label="Folder [466149334782884883079]" type="folder">D13-179-180</container>
                 <unittitle>Construction</unittitle>
-                <dao href="92147-179" show="new" actuate="onRequest">
+                <dao href="92147-179" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15926">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2138,7 +2130,7 @@
               <did>
                 <container label="Folder [686756362244921587217]" type="folder">D13-181</container>
                 <unittitle>Exterior views</unittitle>
-                <dao href="92147-181" show="new" actuate="onRequest">
+                <dao href="92147-181" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15927">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2159,7 +2151,7 @@
               <did>
                 <container label="Folder [886311195452845519205332]" type="folder">D13-182</container>
                 <unittitle>1879-1891 (original building with east wing)</unittitle>
-                <dao href="92147-182" show="new" actuate="onRequest">
+                <dao href="92147-182" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15928">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2173,7 +2165,7 @@
               <did>
                 <container label="Folder [5555543483691198442]" type="folder">D13-183</container>
                 <unittitle>1891-1922 (rebuilt as three-story building)</unittitle>
-                <dao href="92147-183" show="new" actuate="onRequest">
+                <dao href="92147-183" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15929">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2213,7 +2205,7 @@
             <did>
               <container label="Folder [3800216410857435742]" type="folder">D13-184</container>
               <unittitle>Ferry Field</unittitle>
-              <dao href="92147-184" show="new" actuate="onRequest">
+              <dao href="92147-184" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15930">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2257,7 +2249,7 @@
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
-              <dao href="92147-186" show="new" actuate="onRequest">
+              <dao href="92147-186" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15931">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2278,7 +2270,7 @@
               <did>
                 <container label="Folder [817664628198848377]" type="folder">D13-189</container>
                 <unittitle>Construction</unittitle>
-                <dao href="92147-189" show="new" actuate="onRequest">
+                <dao href="92147-189" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15932">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2289,7 +2281,7 @@
               <did>
                 <container label="Folder [5628745174403441671040024]" type="folder">D13-190</container>
                 <unittitle>Exteriors</unittitle>
-                <dao href="92147-190" show="new" actuate="onRequest">
+                <dao href="92147-190" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15933">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2304,7 +2296,7 @@
             <did>
               <container label="Folder [85962243506183459657]" type="folder">D13-191</container>
               <unittitle>Harris Hall</unittitle>
-              <dao href="92147-191" show="new" actuate="onRequest">
+              <dao href="92147-191" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15934">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2315,7 +2307,7 @@
             <did>
               <container label="Folder [815346442688990573342157]" type="folder">D13-192</container>
               <unittitle>Harrison M. Randall Laboratory</unittitle>
-              <dao href="92147-192" show="new" actuate="onRequest">
+              <dao href="92147-192" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15935">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2333,7 +2325,7 @@
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
-                <dao href="92147-193" show="new" actuate="onRequest">
+                <dao href="92147-193" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15936">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2344,7 +2336,7 @@
               <did>
                 <container label="Folder [835329844595961122192]" type="folder">D13-195</container>
                 <unittitle>1893-1898 (North wing with tower)</unittitle>
-                <dao href="92147-195" show="new" actuate="onRequest">
+                <dao href="92147-195" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15937">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2358,7 +2350,7 @@
               <did>
                 <container label="Folder [107061324683412147610]" type="folder">D13-196-197</container>
                 <unittitle>1898-1950 (South wing added, tower removed)</unittitle>
-                <dao href="92147-196" show="new" actuate="onRequest">
+                <dao href="92147-196" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15938">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2369,7 +2361,7 @@
               <did>
                 <container label="Folder [07584985410853811501]" type="folder">D13-198</container>
                 <unittitle>1950 fire</unittitle>
-                <dao href="92147-198" show="new" actuate="onRequest">
+                <dao href="92147-198" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15939">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2381,7 +2373,7 @@
             <did>
               <container label="Folder [33041429173192408]" type="folder">D13-199</container>
               <unittitle>Haven Hall (built 1952)</unittitle>
-              <dao href="92147-199" show="new" actuate="onRequest">
+              <dao href="92147-199" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15940">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2397,7 +2389,7 @@
             <did>
               <container label="Folder [16769072419264943630896]" type="folder">D13-200</container>
               <unittitle>Health Service (built 1940)</unittitle>
-              <dao href="92147-200" show="new" actuate="onRequest">
+              <dao href="92147-200" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15941">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2408,7 +2400,7 @@
             <did>
               <container label="Folder [835286074811777748]" type="folder">D13-201</container>
               <unittitle>Heating Plant (built 1879), near University Hall)</unittitle>
-              <dao href="92147-201" show="new" actuate="onRequest">
+              <dao href="92147-201" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15942">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2429,7 +2421,7 @@
             <did>
               <container label="Folder [9382905521448431426540]" type="folder">D13-202</container>
               <unittitle>Helen Newberry Residence</unittitle>
-              <dao href="92147-202" show="new" actuate="onRequest">
+              <dao href="92147-202" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15943">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2440,7 +2432,7 @@
             <did>
               <container label="Folder [32892338447641110733]" type="folder">D13-203</container>
               <unittitle>Henry F. Vaughan Public Health Building</unittitle>
-              <dao href="92147-203" show="new" actuate="onRequest">
+              <dao href="92147-203" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15944">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2454,7 +2446,7 @@
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
-              <dao href="92147-204" show="new" actuate="onRequest">
+              <dao href="92147-204" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15945">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2494,7 +2486,7 @@
               <did>
                 <container label="Folder [0156232455590922]" type="folder">D13-206</container>
                 <unittitle>Exteriors</unittitle>
-                <dao href="92147-206" show="new" actuate="onRequest">
+                <dao href="92147-206" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15946">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2505,7 +2497,7 @@
               <did>
                 <container label="Folder [5309174195277780826]" type="folder">D13-207</container>
                 <unittitle>Interiors</unittitle>
-                <dao href="92147-207" show="new" actuate="onRequest">
+                <dao href="92147-207" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15947">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2522,7 +2514,7 @@
             <did>
               <container label="Folder [070654296976181496]" type="folder">D13-208</container>
               <unittitle>Inglis House</unittitle>
-              <dao href="92147-208" show="new" actuate="onRequest">
+              <dao href="92147-208" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15948">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2533,7 +2525,7 @@
             <did>
               <container label="Folder [572581721498270151432]" type="folder">D13-209</container>
               <unittitle>Institute for Social Research Building (Catherine Street, built 1891)</unittitle>
-              <dao href="92147-209" show="new" actuate="onRequest">
+              <dao href="92147-209" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15949">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2547,7 +2539,7 @@
             <did>
               <container label="Folder [60358142597873038402]" type="folder">D13-210</container>
               <unittitle>Institute for Social Research Building (Thompson Street, built 1966)</unittitle>
-              <dao href="92147-210" show="new" actuate="onRequest">
+              <dao href="92147-210" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15950">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2558,7 +2550,7 @@
             <did>
               <container label="Folder [2581486139409576357173962]" type="folder">D13-211</container>
               <unittitle>Internes Home / Nurses Home (see also North Hall)</unittitle>
-              <dao href="92147-211" show="new" actuate="onRequest">
+              <dao href="92147-211" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15951">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2569,7 +2561,7 @@
             <did>
               <container label="Folder [340158452297861027]" type="folder">D13-212</container>
               <unittitle>Intramural Sports Building</unittitle>
-              <dao href="92147-212" show="new" actuate="onRequest">
+              <dao href="92147-212" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15952">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2594,7 +2586,7 @@
               <did>
                 <container label="Folder [089910387460231038]" type="folder">D13-213</container>
                 <unittitle>Construction</unittitle>
-                <dao href="92147-213" show="new" actuate="onRequest">
+                <dao href="92147-213" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15953">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2605,7 +2597,7 @@
               <did>
                 <container label="Folder [6123174769269939982]" type="folder">D13-214</container>
                 <unittitle>Exterior views</unittitle>
-                <dao href="92147-214" show="new" actuate="onRequest">
+                <dao href="92147-214" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15954">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2628,7 +2620,7 @@
             <did>
               <container label="Folder [40675840581138359773]" type="folder">D13-216</container>
               <unittitle>Landscape Architecture Building (730 Hill Street)</unittitle>
-              <dao href="92147-216" show="new" actuate="onRequest">
+              <dao href="92147-216" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15955">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2644,7 +2636,7 @@
           <c03 level="file">
             <did>
               <unittitle>[Law Building (built 1863) see Haven Hall]</unittitle>
-              <dao href="92147-217" show="new" actuate="onRequest">
+              <dao href="92147-217" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15956">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2658,7 +2650,7 @@
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
-              <dao href="92147-218" show="new" actuate="onRequest">
+              <dao href="92147-218" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15957">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2669,7 +2661,7 @@
             <did>
               <container label="Folder [38700845483683959]" type="folder">D13-220</container>
               <unittitle>Legal Research Building</unittitle>
-              <dao href="92147-220" show="new" actuate="onRequest">
+              <dao href="92147-220" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15958">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2687,7 +2679,7 @@
               <did>
                 <container label="Folder [316269014341169138390]" type="folder">D13-221</container>
                 <unittitle>Views from north</unittitle>
-                <dao href="92147-221" show="new" actuate="onRequest">
+                <dao href="92147-221" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15959">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2705,7 +2697,7 @@
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   <physfacet>also medium</physfacet>
                 </physdesc>
-                <dao href="92147-222" show="new" actuate="onRequest">
+                <dao href="92147-222" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15960">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2722,7 +2714,7 @@
               <did>
                 <container label="Folder [106261834180740239]" type="folder">D13-224</container>
                 <unittitle>Views from west and south</unittitle>
-                <dao href="92147-224" show="new" actuate="onRequest">
+                <dao href="92147-224" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15961">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2733,7 +2725,7 @@
               <did>
                 <container label="Folder [9238965048444383451]" type="folder">D13-225</container>
                 <unittitle>Views from west and south.</unittitle>
-                <dao href="92147-225" show="new" actuate="onRequest">
+                <dao href="92147-225" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15962">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2744,7 +2736,7 @@
               <did>
                 <container label="Folder [8408593747539620276498173]" type="folder">D13-226</container>
                 <unittitle>Razing of clock tower, 1918</unittitle>
-                <dao href="92147-226" show="new" actuate="onRequest">
+                <dao href="92147-226" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15963">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2764,7 +2756,7 @@
             <did>
               <container label="Folder [03644284777383448519]" type="folder">D13-227</container>
               <unittitle>Literature, Science and the Arts Building</unittitle>
-              <dao href="92147-227" show="new" actuate="onRequest">
+              <dao href="92147-227" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15964">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2785,7 +2777,7 @@
             <did>
               <container label="Folder [120192079407389364308400792]" type="folder">D13-228</container>
               <unittitle>Lorch Hall</unittitle>
-              <dao href="92147-228" show="new" actuate="onRequest">
+              <dao href="92147-228" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15965">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2804,7 +2796,7 @@
             <did>
               <container label="Folder [4862884848303287]" type="folder">D13-229</container>
               <unittitle>McMath-Hulbert Observatory</unittitle>
-              <dao href="92147-229" show="new" actuate="onRequest">
+              <dao href="92147-229" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15966">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2818,7 +2810,7 @@
             <did>
               <container label="Folder [30882624407858139280635]" type="folder">D13-230</container>
               <unittitle>McMillan Hall</unittitle>
-              <dao href="92147-230" show="new" actuate="onRequest">
+              <dao href="92147-230" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15967">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2829,7 +2821,7 @@
             <did>
               <container label="Folder [38133104758146676]" type="folder">D13-231</container>
               <unittitle>The Mall</unittitle>
-              <dao href="92147-231" show="new" actuate="onRequest">
+              <dao href="92147-231" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15968">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2840,7 +2832,7 @@
             <did>
               <container label="Folder [5562141547512696736]" type="folder">D13-232</container>
               <unittitle>Margaret Bell Pool</unittitle>
-              <dao href="92147-232" show="new" actuate="onRequest">
+              <dao href="92147-232" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15969">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2851,7 +2843,7 @@
             <did>
               <container label="Folder [42501473489488282]" type="folder">D13-233</container>
               <unittitle>Martha Cook Building</unittitle>
-              <dao href="92147-233" show="new" actuate="onRequest">
+              <dao href="92147-233" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15970">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2871,7 +2863,7 @@
             <did>
               <container label="Folder [69562684339735105]" type="folder">D13-234</container>
               <unittitle>Mason Hall (built 1841)</unittitle>
-              <dao href="92147-234" show="new" actuate="onRequest">
+              <dao href="92147-234" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15971">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2893,7 +2885,7 @@
             <did>
               <container label="Folder [670354044949094092]" type="folder">D13-235</container>
               <unittitle>Mechanical Engineering Laboratory (built 1881)</unittitle>
-              <dao href="92147-235" show="new" actuate="onRequest">
+              <dao href="92147-235" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15972">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -2913,7 +2905,7 @@
               <did>
                 <container label="Folder [548566546168603172]" type="folder">D13-236</container>
                 <unittitle>Views from east, northeast, and southeast</unittitle>
-                <dao href="92147-236" show="new" actuate="onRequest">
+                <dao href="92147-236" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15973">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2927,7 +2919,7 @@
               <did>
                 <container label="Folder [874911050476976583983]" type="folder">D13-237</container>
                 <unittitle>Views from north</unittitle>
-                <dao href="92147-237" show="new" actuate="onRequest">
+                <dao href="92147-237" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15974">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2941,7 +2933,7 @@
               <did>
                 <container label="Folder [87113530048149025602867]" type="folder">D13-238</container>
                 <unittitle>Views from south</unittitle>
-                <dao href="92147-238" show="new" actuate="onRequest">
+                <dao href="92147-238" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15975">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2952,7 +2944,7 @@
               <did>
                 <container label="Folder [6429665406696919871]" type="folder">D13-239</container>
                 <unittitle>Views from west and northwest</unittitle>
-                <dao href="92147-239" show="new" actuate="onRequest">
+                <dao href="92147-239" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15976">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2966,7 +2958,7 @@
               <did>
                 <container label="Folder [713719324454620579920]" type="folder">D13-240</container>
                 <unittitle>Building] Fire and razing</unittitle>
-                <dao href="92147-240" show="new" actuate="onRequest">
+                <dao href="92147-240" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15977">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -2988,7 +2980,7 @@
             <did>
               <container label="Folder [27086384780686977872]" type="folder">D13-241</container>
               <unittitle>Medical Science Building</unittitle>
-              <dao href="92147-241" show="new" actuate="onRequest">
+              <dao href="92147-241" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15978">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3003,7 +2995,7 @@
               <did>
                 <container label="Folder [7622893478269867030]" type="folder">D13-242</container>
                 <unittitle>Interior and exterior views</unittitle>
-                <dao href="92147-242" show="new" actuate="onRequest">
+                <dao href="92147-242" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15979">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3021,7 +3013,7 @@
             <did>
               <container label="Folder [5384049924760769081]" type="folder">D13-244</container>
               <unittitle>Michigan Stadium</unittitle>
-              <dao href="92147-244" show="new" actuate="onRequest">
+              <dao href="92147-244" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15980">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3035,7 +3027,7 @@
             <did>
               <container label="Folder [22504673486491884235233]" type="folder">D13-245</container>
               <unittitle>Michigan Union (Thomas M. Cooley House)</unittitle>
-              <dao href="92147-245" show="new" actuate="onRequest">
+              <dao href="92147-245" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15981">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3050,7 +3042,7 @@
               <did>
                 <container label="Folder [379911540109668684]" type="folder">D13-246</container>
                 <unittitle>Exterior views</unittitle>
-                <dao href="92147-246" show="new" actuate="onRequest">
+                <dao href="92147-246" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15982">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3064,7 +3056,7 @@
               <did>
                 <container label="Folder [7204254781278350435]" type="folder">D13-247</container>
                 <unittitle>Interior views</unittitle>
-                <dao href="92147-247" show="new" actuate="onRequest">
+                <dao href="92147-247" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15983">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3079,7 +3071,7 @@
             <did>
               <container label="Folder [576676243787845716223]" type="folder">D13-248</container>
               <unittitle>Mimes Theater Building</unittitle>
-              <dao href="92147-248" show="new" actuate="onRequest">
+              <dao href="92147-248" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15984">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3090,7 +3082,7 @@
             <did>
               <container label="Folder [45166311428809862154]" type="folder">D13-249</container>
               <unittitle>Modern Language Building</unittitle>
-              <dao href="92147-249" show="new" actuate="onRequest">
+              <dao href="92147-249" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15985">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3101,7 +3093,7 @@
             <did>
               <container label="Folder [52817064413677931]" type="folder">D13-250</container>
               <unittitle>Morris Hall</unittitle>
-              <dao href="92147-250" show="new" actuate="onRequest">
+              <dao href="92147-250" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15986">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3112,7 +3104,7 @@
             <did>
               <container label="Folder [651444098553322]" type="folder">D13-251</container>
               <unittitle>Mortimer E. Cooley Building</unittitle>
-              <dao href="92147-251" show="new" actuate="onRequest">
+              <dao href="92147-251" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15987">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3123,7 +3115,7 @@
             <did>
               <container label="Folder [239292733644752585]" type="folder">D13-252</container>
               <unittitle>Mosher-Jordan Hall</unittitle>
-              <dao href="92147-252" show="new" actuate="onRequest">
+              <dao href="92147-252" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15988">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3147,7 +3139,7 @@
             <did>
               <container label="Folder [045466608544866642423]" type="folder">D13-253</container>
               <unittitle>Museums Annex</unittitle>
-              <dao href="92147-253" show="new" actuate="onRequest">
+              <dao href="92147-253" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15989">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3183,7 +3175,7 @@
             <did>
               <container label="Folder [0152230147191391268]" type="folder">D13-254</container>
               <unittitle>North Hall</unittitle>
-              <dao href="92147-254" show="new" actuate="onRequest">
+              <dao href="92147-254" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15990">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3216,7 +3208,7 @@
               <did>
                 <container label="Folder [746096744119894549855]" type="folder">D13-255</container>
                 <unittitle>1854-1868 (Original building)</unittitle>
-                <dao href="92147-255" show="new" actuate="onRequest">
+                <dao href="92147-255" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15991">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3230,7 +3222,7 @@
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
-                <dao href="92147-256" show="new" actuate="onRequest">
+                <dao href="92147-256" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15992">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3241,7 +3233,7 @@
               <did>
                 <container label="Folder [1220342719111327695]" type="folder">D13-258</container>
                 <unittitle>1908-1954 (With east wing added)</unittitle>
-                <dao href="92147-258" show="new" actuate="onRequest">
+                <dao href="92147-258" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15993">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3255,7 +3247,7 @@
               <did>
                 <container label="Folder [98584395404129903107]" type="folder">D13-259</container>
                 <unittitle>1954-Present (With west wing removed)</unittitle>
-                <dao href="92147-259" show="new" actuate="onRequest">
+                <dao href="92147-259" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15994">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3277,7 +3269,7 @@
             <did>
               <container label="Folder [8733748444991604908384]" type="folder">D13-260</container>
               <unittitle>Outpatient Clinic</unittitle>
-              <dao href="92147-260" show="new" actuate="onRequest">
+              <dao href="92147-260" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15995">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3288,7 +3280,7 @@
             <did>
               <container label="Folder [4083478025191475387]" type="folder">D13-261</container>
               <unittitle>Palmer Field</unittitle>
-              <dao href="92147-261" show="new" actuate="onRequest">
+              <dao href="92147-261" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15996">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3307,7 +3299,7 @@
             <did>
               <container label="Folder [66244024475845285223262]" type="folder">D13-262</container>
               <unittitle>Pemberton-Welch Nurses Residence</unittitle>
-              <dao href="92147-262" show="new" actuate="onRequest">
+              <dao href="92147-262" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15997">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3342,7 +3334,7 @@
             <did>
               <container label="Folder [2737148644957299331]" type="folder">D13-263</container>
               <unittitle>Portage Lake Observatory</unittitle>
-              <dao href="92147-263" show="new" actuate="onRequest">
+              <dao href="92147-263" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15998">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3353,7 +3345,7 @@
             <did>
               <container label="Folder [2172072464396892323410]" type="folder">D13-264</container>
               <unittitle>Power Center for the Performing Arts</unittitle>
-              <dao href="92147-264" show="new" actuate="onRequest">
+              <dao href="92147-264" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15999">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3367,7 +3359,7 @@
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
-              <dao href="92147-265" show="new" actuate="onRequest">
+              <dao href="92147-265" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16000">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3398,7 +3390,7 @@
             <did>
               <container label="Folder [6848369234058710741443]" type="folder">D13-267</container>
               <unittitle>Psychological Laboratory (built 1840, North University Avenue)</unittitle>
-              <dao href="92147-267" show="new" actuate="onRequest">
+              <dao href="92147-267" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16001">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3422,7 +3414,7 @@
             <did>
               <container label="Folder [42762484194806113284]" type="folder">D13-268</container>
               <unittitle>R.O.T.C. Building (Old Heating Plant)</unittitle>
-              <dao href="92147-268" show="new" actuate="onRequest">
+              <dao href="92147-268" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16002">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3440,7 +3432,7 @@
               <did>
                 <container label="Folder [80063456185726656349]" type="folder">D13-269</container>
                 <unittitle>Construction</unittitle>
-                <dao href="92147-269" show="new" actuate="onRequest">
+                <dao href="92147-269" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16003">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3451,7 +3443,7 @@
               <did>
                 <container label="Folder [35424240298078235459]" type="folder">D13-270</container>
                 <unittitle>Exterior views</unittitle>
-                <dao href="92147-270" show="new" actuate="onRequest">
+                <dao href="92147-270" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16004">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3465,7 +3457,7 @@
               <did>
                 <container label="Folder [95982971446384060010969]" type="folder">D13-271</container>
                 <unittitle>Interior views</unittitle>
-                <dao href="92147-271" show="new" actuate="onRequest">
+                <dao href="92147-271" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16005">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3480,7 +3472,7 @@
             <did>
               <container label="Folder [850528514098281815438]" type="folder">D13-272</container>
               <unittitle>Radiation Laboratory</unittitle>
-              <dao href="92147-272" show="new" actuate="onRequest">
+              <dao href="92147-272" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16006">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3501,7 +3493,7 @@
             <did>
               <container label="Folder [423514452942228232]" type="folder">D13-273</container>
               <unittitle>Research Administration Building</unittitle>
-              <dao href="92147-273" show="new" actuate="onRequest">
+              <dao href="92147-273" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16007">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3521,7 +3513,7 @@
               <did>
                 <container label="Folder [8602394939431604]" type="folder">D13-274</container>
                 <unittitle>Views from east</unittitle>
-                <dao href="92147-274" show="new" actuate="onRequest">
+                <dao href="92147-274" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16008">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3532,7 +3524,7 @@
               <did>
                 <container label="Folder [02082234319913165781908]" type="folder">D13-275-276</container>
                 <unittitle>Views from west</unittitle>
-                <dao href="92147-275" show="new" actuate="onRequest">
+                <dao href="92147-275" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16009">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3558,7 +3550,7 @@
             <did>
               <container label="Folder [51242154459798899566]" type="folder">D13-278</container>
               <unittitle>Samuel Trask Dana Natural Resources Building</unittitle>
-              <dao href="92147-278" show="new" actuate="onRequest">
+              <dao href="92147-278" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16010">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3572,7 +3564,7 @@
             <did>
               <container label="Folder [437820365544853631823]" type="folder">D13-279</container>
               <unittitle>School of Dentistry Building (built 1971)</unittitle>
-              <dao href="92147-279" show="new" actuate="onRequest">
+              <dao href="92147-279" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16011">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3583,7 +3575,7 @@
             <did>
               <container label="Folder [938141159147430]" type="folder">D13-280</container>
               <unittitle>School of Education Building</unittitle>
-              <dao href="92147-280" show="new" actuate="onRequest">
+              <dao href="92147-280" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16012">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3594,7 +3586,7 @@
             <did>
               <container label="Folder [5197498394535664474461]" type="folder">D13-281</container>
               <unittitle>School of Music Building (Maynard Street)</unittitle>
-              <dao href="92147-281" show="new" actuate="onRequest">
+              <dao href="92147-281" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16013">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3605,7 +3597,7 @@
             <did>
               <container label="Folder [384050531413256835756761]" type="folder">D13-282</container>
               <unittitle>School of Music Building (North Campus)</unittitle>
-              <dao href="92147-282" show="new" actuate="onRequest">
+              <dao href="92147-282" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16014">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3626,7 +3618,7 @@
             <did>
               <container label="Folder [66866375440671504379]" type="folder">D13-283</container>
               <unittitle>Simpson Memorial Institute</unittitle>
-              <dao href="92147-283" show="new" actuate="onRequest">
+              <dao href="92147-283" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16015">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3640,7 +3632,7 @@
             <did>
               <container label="Folder [0008329514007119333423]" type="folder">D13-284</container>
               <unittitle>South College</unittitle>
-              <dao href="92147-284" show="new" actuate="onRequest">
+              <dao href="92147-284" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16016">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3651,7 +3643,7 @@
             <did>
               <container label="Folder [17953049830897839]" type="folder">D13-285</container>
               <unittitle>South Quadrangle</unittitle>
-              <dao href="92147-285" show="new" actuate="onRequest">
+              <dao href="92147-285" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16017">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3662,7 +3654,7 @@
             <did>
               <container label="Folder [51831886446002788457]" type="folder">D13-286</container>
               <unittitle>Space Research Building</unittitle>
-              <dao href="92147-286" show="new" actuate="onRequest">
+              <dao href="92147-286" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16018">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3682,7 +3674,7 @@
               <did>
                 <container label="Folder [96578457743790992529144]" type="folder">D13-287</container>
                 <unittitle>Class boulders and trees (including Tappan Oak)</unittitle>
-                <dao href="92147-287" show="new" actuate="onRequest">
+                <dao href="92147-287" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16019">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3693,7 +3685,7 @@
               <did>
                 <container label="Folder [3480101742188615685955]" type="folder">D13-288</container>
                 <unittitle>Professor's Monument and Franklin Statue</unittitle>
-                <dao href="92147-288" show="new" actuate="onRequest">
+                <dao href="92147-288" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16020">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3714,7 +3706,7 @@
             <did>
               <container label="Folder [83272746668458511]" type="folder">D13-290</container>
               <unittitle>Stockwell Hall</unittitle>
-              <dao href="92147-290" show="new" actuate="onRequest">
+              <dao href="92147-290" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16021">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3725,7 +3717,7 @@
             <did>
               <container label="Folder [0652916477836767894644]" type="folder">D13-291</container>
               <unittitle>Student Publications Building</unittitle>
-              <dao href="92147-291" show="new" actuate="onRequest">
+              <dao href="92147-291" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16022">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3736,7 +3728,7 @@
             <did>
               <container label="Folder [8793567549425980606]" type="folder">D13-292</container>
               <unittitle>Students' Observatory</unittitle>
-              <dao href="92147-292" show="new" actuate="onRequest">
+              <dao href="92147-292" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16023">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3747,7 +3739,7 @@
             <did>
               <container label="Folder [2190244839304178845726]" type="folder">D13-293</container>
               <unittitle>Surveying Building</unittitle>
-              <dao href="92147-293" show="new" actuate="onRequest">
+              <dao href="92147-293" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16024">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3758,7 +3750,7 @@
             <did>
               <container label="Folder [7637059401386079624]" type="folder">D13-294</container>
               <unittitle>Tappan Hall</unittitle>
-              <dao href="92147-294" show="new" actuate="onRequest">
+              <dao href="92147-294" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16025">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3783,7 +3775,7 @@
             <did>
               <container label="Folder [584495041495164029900]" type="folder">D13-296</container>
               <unittitle>Undergraduate Library</unittitle>
-              <dao href="92147-296" show="new" actuate="onRequest">
+              <dao href="92147-296" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16026">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3805,7 +3797,7 @@
                 <did>
                   <container label="Folder [2494546564450729343923]" type="folder">D13-297</container>
                   <unittitle>Construction and views from east</unittitle>
-                  <dao href="92147-297" show="new" actuate="onRequest">
+                  <dao href="92147-297" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16027">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -3816,7 +3808,7 @@
                 <did>
                   <container label="Folder [00371029941994099840979]" type="folder">D13-298</container>
                   <unittitle>Views from west before remodeling of 1879</unittitle>
-                  <dao href="92147-298" show="new" actuate="onRequest">
+                  <dao href="92147-298" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16028">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -3829,11 +3821,10 @@
               <c05 level="file">
                 <did>
                   <container label="Folder [24098453849136297666]" type="folder">D13-299-300</container>
-                  <unittitle>Views from west, <unitdate normal="1879/1896" type="inclusive">1879-1896</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <unittitle>Views from west</unittitle><unitdate normal="1879/1896" type="inclusive">1879-1896</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
-                  <dao href="92147-300" show="new" actuate="onRequest">
+                  <dao href="92147-300" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16029">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -3858,7 +3849,7 @@
                 <did>
                   <container label="Folder [951946655942132921]" type="folder">D13-302</container>
                   <unittitle>Views from east</unittitle>
-                  <dao href="92147-302" show="new" actuate="onRequest">
+                  <dao href="92147-302" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16030">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -3868,8 +3859,7 @@
               <c05 level="file">
                 <did>
                   <container label="Folder [715751973174550243684299]" type="folder">D13-303</container>
-                  <unittitle>Views from west, <unitdate normal="1898/1924" type="inclusive">1898-1924</unitdate></unittitle>
-                  <dao href="92147-303" show="new" actuate="onRequest">
+                  <unittitle>Views from west</unittitle><unitdate normal="1898/1924" type="inclusive">1898-1924</unitdate><dao href="92147-303" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16031">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -3882,8 +3872,7 @@
               <c05 level="file">
                 <did>
                   <container label="Folder [854965644808638823709]" type="folder">D13-304</container>
-                  <unittitle>Views from west, <unitdate normal="1924/1950" type="inclusive">1924-1950</unitdate> (with Angell Hall), also interiors</unittitle>
-                  <dao href="92147-304" show="new" actuate="onRequest">
+                  <unittitle>Views from west,  (with Angell Hall), also interiors</unittitle><unitdate normal="1924/1950" type="inclusive">1924-1950</unitdate><dao href="92147-304" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16032">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -3895,7 +3884,7 @@
               <did>
                 <container label="Folder [809716042949437054]" type="folder">D13-305</container>
                 <unittitle>Opening the cornerstone, 1950</unittitle>
-                <dao href="92147-305" show="new" actuate="onRequest">
+                <dao href="92147-305" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16033">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3906,7 +3895,7 @@
               <did>
                 <container label="Folder [0021060416585496565960230]" type="folder">D13-306</container>
                 <unittitle>Interiors: Auditorium and Frieze Memorial Organ</unittitle>
-                <dao href="92147-306" show="new" actuate="onRequest">
+                <dao href="92147-306" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16034">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -3933,7 +3922,7 @@
             <did>
               <container label="Folder [83369421840860475806661]" type="folder">D13-307</container>
               <unittitle>University Hospital (built 1925)</unittitle>
-              <dao href="92147-307" show="new" actuate="onRequest">
+              <dao href="92147-307" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16035">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3957,7 +3946,7 @@
             <did>
               <container label="Folder [94828285449953937799]" type="folder">D13-308</container>
               <unittitle>University Terrace Apartments</unittitle>
-              <dao href="92147-308" show="new" actuate="onRequest">
+              <dao href="92147-308" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16036">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3976,7 +3965,7 @@
             <did>
               <container label="Folder [58325949158007332638435]" type="folder">D13-309</container>
               <unittitle>Vera Baits Houses</unittitle>
-              <dao href="92147-309" show="new" actuate="onRequest">
+              <dao href="92147-309" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16037">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3987,7 +3976,7 @@
             <did>
               <container label="Folder [88295842752509589]" type="folder">D13-310</container>
               <unittitle>Veterans Village (Hill Street)</unittitle>
-              <dao href="92147-310" show="new" actuate="onRequest">
+              <dao href="92147-310" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16038">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -3998,7 +3987,7 @@
             <did>
               <container label="Folder [130326209439965687327]" type="folder">D13-311</container>
               <unittitle>Victor C. Vaughan House</unittitle>
-              <dao href="92147-311" show="new" actuate="onRequest">
+              <dao href="92147-311" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16039">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4009,7 +3998,7 @@
             <did>
               <container label="Folder [70162479572354655]" type="folder">D13-312</container>
               <unittitle>W. K. Kellogg Foundation Institute</unittitle>
-              <dao href="92147-312" show="new" actuate="onRequest">
+              <dao href="92147-312" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16040">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4024,7 +4013,7 @@
               <did>
                 <container label="Folder [555330342439927553376]" type="folder">D13-313</container>
                 <unittitle>1894-1902 (before Barbour was built)</unittitle>
-                <dao href="92147-313" show="new" actuate="onRequest">
+                <dao href="92147-313" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16041">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -4038,7 +4027,7 @@
               <did>
                 <container label="Folder [90645783965660459]" type="folder">D13-314</container>
                 <unittitle>1902-1916 (with Barbour)</unittitle>
-                <dao href="92147-314" show="new" actuate="onRequest">
+                <dao href="92147-314" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16042">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -4052,7 +4041,7 @@
               <did>
                 <container label="Folder [16785417980710659524]" type="folder">D13-315</container>
                 <unittitle>1916-1977 (after expansion; includes demolition, 1977)</unittitle>
-                <dao href="92147-315" show="new" actuate="onRequest">
+                <dao href="92147-315" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16043">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -4063,7 +4052,7 @@
               <did>
                 <container label="Folder [268347354444206314993801]" type="folder">D13-316</container>
                 <unittitle>Construction and interiors</unittitle>
-                <dao href="92147-316" show="new" actuate="onRequest">
+                <dao href="92147-316" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16044">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -4079,7 +4068,7 @@
               <did>
                 <container label="Folder [191354179325559636234]" type="folder">D13-317</container>
                 <unittitle>1885-1888 (original building)</unittitle>
-                <dao href="92147-317" show="new" actuate="onRequest">
+                <dao href="92147-317" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16045">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -4094,7 +4083,7 @@
                 <did>
                   <container label="Folder [2927755042398545334818]" type="folder">D13-318</container>
                   <unittitle>Views from northeast</unittitle>
-                  <dao href="92147-318" show="new" actuate="onRequest">
+                  <dao href="92147-318" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16046">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -4108,7 +4097,7 @@
                 <did>
                   <container label="Folder [70502114930065422096]" type="folder">D13-319</container>
                   <unittitle>Views from northwest</unittitle>
-                  <dao href="92147-319" show="new" actuate="onRequest">
+                  <dao href="92147-319" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16047">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -4120,7 +4109,7 @@
               <did>
                 <container label="Folder [3673816546976732185785]" type="folder">D13-320</container>
                 <unittitle>1900-1918 (with wings extended south)</unittitle>
-                <dao href="92147-320" show="new" actuate="onRequest">
+                <dao href="92147-320" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16048">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -4131,7 +4120,7 @@
               <did>
                 <container label="Folder [9017944743167418360640]" type="folder">D13-321</container>
                 <unittitle>1918-1956 (with clock added to tower)</unittitle>
-                <dao href="92147-321" show="new" actuate="onRequest">
+                <dao href="92147-321" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16049">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -4146,7 +4135,7 @@
             <did>
               <container label="Folder [53238014443939467623697]" type="folder">D13-322</container>
               <unittitle>West Engineering Building</unittitle>
-              <dao href="92147-322" show="new" actuate="onRequest">
+              <dao href="92147-322" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16050">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4165,7 +4154,7 @@
           <c03 level="file">
             <did>
               <unittitle>[West Medical Building see Samuel Trask Dana Natural Resources Building]</unittitle>
-              <dao href="92147-323" show="new" actuate="onRequest">
+              <dao href="92147-323" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16051">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4180,7 +4169,7 @@
               <did>
                 <container label="Folder [64460416215680827]" type="folder">D13-324</container>
                 <unittitle>1888-1905 (original building)</unittitle>
-                <dao href="92147-324" show="new" actuate="onRequest">
+                <dao href="92147-324" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16052">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -4194,7 +4183,7 @@
               <did>
                 <container label="Folder [3157432449312631271616]" type="folder">D13-325</container>
                 <unittitle>1905-1966 (with addition; includes fire, 1966)</unittitle>
-                <dao href="92147-325" show="new" actuate="onRequest">
+                <dao href="92147-325" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16053">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -4206,7 +4195,7 @@
             <did>
               <container label="Folder [13918108427036669876613]" type="folder">D13-326</container>
               <unittitle>West Quadrangle</unittitle>
-              <dao href="92147-326" show="new" actuate="onRequest">
+              <dao href="92147-326" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16054">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4217,7 +4206,7 @@
             <did>
               <container label="Folder [75435049282002008869]" type="folder">D13-327</container>
               <unittitle>William L. Clements Library</unittitle>
-              <dao href="92147-327" show="new" actuate="onRequest">
+              <dao href="92147-327" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16055">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4228,7 +4217,7 @@
             <did>
               <container label="Folder [384524340592455135629]" type="folder">D13-328</container>
               <unittitle>Willow Village</unittitle>
-              <dao href="92147-328" show="new" actuate="onRequest">
+              <dao href="92147-328" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16056">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4239,7 +4228,7 @@
             <did>
               <container label="Folder [01988940457319852]" type="folder">D13-329</container>
               <unittitle>Women's Athletic Building (built 1912, State Street)</unittitle>
-              <dao href="92147-329" show="new" actuate="onRequest">
+              <dao href="92147-329" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16057">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4250,7 +4239,7 @@
             <did>
               <container label="Folder [6248985844083603710256]" type="folder">D13-330</container>
               <unittitle>Women's Athletic Building (built 1928, Forest (now Washtenaw) Avenue)</unittitle>
-              <dao href="92147-330" show="new" actuate="onRequest">
+              <dao href="92147-330" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16058">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4266,7 +4255,7 @@
             <did>
               <container label="Folder [0998298404330817644022]" type="folder">D13-331</container>
               <unittitle>Yost Ice Arena (Yost Field House)</unittitle>
-              <dao href="92147-331" show="new" actuate="onRequest">
+              <dao href="92147-331" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16059">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4419,7 +4408,7 @@
             <did>
               <container label="Folder [909539679457941681932]" type="folder">E25-348</container>
               <unittitle>Cap Night</unittitle>
-              <dao href="92147-348" show="new" actuate="onRequest">
+              <dao href="92147-348" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16060">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4439,7 +4428,7 @@
             <did>
               <container label="Folder [923641764420832282632006]" type="folder">E25-350</container>
               <unittitle>Freshman Sophomore Rush</unittitle>
-              <dao href="92147-350" show="new" actuate="onRequest">
+              <dao href="92147-350" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16061">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4453,7 +4442,7 @@
             <did>
               <container label="Folder [55416254832509560381]" type="folder">E25-351</container>
               <unittitle>Junior Hop</unittitle>
-              <dao href="92147-351" show="new" actuate="onRequest">
+              <dao href="92147-351" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16062">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4467,7 +4456,7 @@
             <did>
               <container label="Folder [035312446881776057549]" type="folder">E25-352</container>
               <unittitle>Lantern Night</unittitle>
-              <dao href="92147-352" show="new" actuate="onRequest">
+              <dao href="92147-352" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16063">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4478,7 +4467,7 @@
             <did>
               <container label="Folder [38783214956062112]" type="folder">E25-353</container>
               <unittitle>Laws versus Lits</unittitle>
-              <dao href="92147-353" show="new" actuate="onRequest">
+              <dao href="92147-353" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16064">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4495,7 +4484,7 @@
             <did>
               <container label="Folder [2518105484762928810761135]" type="folder">E25-355</container>
               <unittitle>Senior Swing Out, 1903, 1909, 1913, 1915</unittitle>
-              <dao href="92147-355" show="new" actuate="onRequest">
+              <dao href="92147-355" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16065">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4506,7 +4495,7 @@
             <did>
               <container label="Folder [2209440223383043]" type="folder">E25-356</container>
               <unittitle>Spring Games</unittitle>
-              <dao href="92147-356" show="new" actuate="onRequest">
+              <dao href="92147-356" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16066">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4534,7 +4523,7 @@
             <did>
               <container label="Folder [310997014929971192569]" type="folder">E27-358</container>
               <unittitle>U of M &amp; the Civil War</unittitle>
-              <dao href="92147-358" show="new" actuate="onRequest">
+              <dao href="92147-358" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16067">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4545,7 +4534,7 @@
             <did>
               <container label="Folder [6952074804595198172478]" type="folder">E27-359</container>
               <unittitle>U of M &amp; World War I</unittitle>
-              <dao href="92147-359" show="new" actuate="onRequest">
+              <dao href="92147-359" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16068">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4567,7 +4556,7 @@
                 <did>
                   <container label="Folder [96921429146617730203]" type="folder">E27b-360</container>
                   <unittitle>Miscellaneous</unittitle>
-                  <dao href="92147-360" show="new" actuate="onRequest">
+                  <dao href="92147-360" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16069">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -4578,7 +4567,7 @@
                 <did>
                   <container label="Folder [23817224735721821551]" type="folder">E27b-361</container>
                   <unittitle>Army Specialized Training Program</unittitle>
-                  <dao href="92147-361" show="new" actuate="onRequest">
+                  <dao href="92147-361" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16070">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -4589,7 +4578,7 @@
                 <did>
                   <container label="Folder [565843452589343372]" type="folder">E27b-362</container>
                   <unittitle>Company A, 365 1st Service Unit (Army Japanese Language School)</unittitle>
-                  <dao href="92147-362" show="new" actuate="onRequest">
+                  <dao href="92147-362" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16071">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -4600,7 +4589,7 @@
                 <did>
                   <container label="Folder [26112300149479271413]" type="folder">E27b-363</container>
                   <unittitle>Co. B-4 (Meteorology School)</unittitle>
-                  <dao href="92147-363" show="new" actuate="onRequest">
+                  <dao href="92147-363" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16072">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -4695,7 +4684,7 @@
             <did>
               <container label="Folder [10454441914217474]" type="folder">F1-375</container>
               <unittitle>1900-1930</unittitle>
-              <dao href="92147-375" show="new" actuate="onRequest">
+              <dao href="92147-375" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16073">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4726,7 +4715,7 @@
             <did>
               <container label="Folder [490690347496917245273]" type="folder">F3g-378</container>
               <unittitle>The Michigan Daily</unittitle>
-              <dao href="92147-378" show="new" actuate="onRequest">
+              <dao href="92147-378" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16074">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -4881,7 +4870,7 @@
             <did>
               <container label="Folder [79033414458360138002551]" type="folder">F40-392</container>
               <unittitle>Smokers' Club</unittitle>
-              <dao href="92147-392" show="new" actuate="onRequest">
+              <dao href="92147-392" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16075">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -5027,7 +5016,7 @@
             <did>
               <container label="Folder [1324383384399138496]" type="folder">F43-406</container>
               <unittitle>Off-campus: Student Rooming Houses (Exteriors)</unittitle>
-              <dao href="92147-406" show="new" actuate="onRequest">
+              <dao href="92147-406" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16076">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -5041,7 +5030,7 @@
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
-              <dao href="92147-407" show="new" actuate="onRequest">
+              <dao href="92147-407" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16077">
                 <daodesc>
                   <p>[view sample images]</p>
                 </daodesc>
@@ -5551,8 +5540,7 @@
             <c04 level="file">
               <did>
                 <container label="Folder [1409803483430331]" type="folder">F84-466</container>
-                <unittitle>Fans, <unitdate normal="1900/1919" type="inclusive">1900-1919</unitdate></unittitle>
-              </did>
+                <unittitle>Fans</unittitle><unitdate normal="1900/1919" type="inclusive">1900-1919</unitdate></did>
               <odd>
                 <p>also medium</p>
               </odd>
@@ -5567,7 +5555,7 @@
               <did>
                 <container label="Folder [924338932458284401344143]" type="folder">F84-468</container>
                 <unittitle>Game photos</unittitle>
-                <dao href="92147-468" show="new" actuate="onRequest">
+                <dao href="92147-468" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16078">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -5580,8 +5568,7 @@
             <c04 level="file">
               <did>
                 <container label="Folder [6187824794489241148912]" type="folder">F84-469</container>
-                <unittitle>Teams and players, <unitdate normal="1890/1899" type="inclusive">1890-1899</unitdate></unittitle>
-                <dao href="92147-469" show="new" actuate="onRequest">
+                <unittitle>Teams and players</unittitle><unitdate normal="1890/1899" type="inclusive">1890-1899</unitdate><dao href="92147-469" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16079">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -5594,8 +5581,7 @@
             <c04 level="file">
               <did>
                 <container label="Folder [31154407307516184]" type="folder">F84-470-471</container>
-                <unittitle>Teams and players, <unitdate normal="1900/1919" type="inclusive">1900-1919</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Teams and players</unittitle><unitdate normal="1900/1919" type="inclusive">1900-1919</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -5606,8 +5592,7 @@
             <c04 level="file">
               <did>
                 <container label="Folder [550018437769008]" type="folder">F84-472</container>
-                <unittitle>Teams and players, <unitdate normal="1920/1939" type="inclusive">1920-1939</unitdate></unittitle>
-              </did>
+                <unittitle>Teams and players</unittitle><unitdate normal="1920/1939" type="inclusive">1920-1939</unitdate></did>
               <odd>
                 <p>also medium and large</p>
               </odd>
@@ -5615,8 +5600,7 @@
             <c04 level="file">
               <did>
                 <container label="Folder [38727802444806777605049]" type="folder">F84-473</container>
-                <unittitle>Teams and players, <unitdate normal="1940/1959" type="inclusive">1940-1959</unitdate></unittitle>
-              </did>
+                <unittitle>Teams and players</unittitle><unitdate normal="1940/1959" type="inclusive">1940-1959</unitdate></did>
               <odd>
                 <p>also medium</p>
               </odd>
@@ -5624,8 +5608,7 @@
             <c04 level="file">
               <did>
                 <container label="Folder [069279374889220430238404]" type="folder">F84-474</container>
-                <unittitle>Teams and players, <unitdate normal="1960/1969" type="inclusive">1960-1969</unitdate></unittitle>
-              </did>
+                <unittitle>Teams and players</unittitle><unitdate normal="1960/1969" type="inclusive">1960-1969</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -5674,8 +5657,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Class Photos <unitdate type="inclusive" normal="1858/1956">1858-1956</unitdate></unittitle>
-        </did>
+          <unittitle>Class Photos</unittitle><unitdate type="inclusive" normal="1858/1956">1858-1956</unitdate></did>
         <scopecontent>
           <p>The Class Photos series includes group and composite photographs of graduating classes from various schools colleges and departments as well as some photos of class reunions and photographs of individual students arranged by graduating class. Some of the class year and school identifications are very uncertain.</p>
         </scopecontent>
@@ -5955,7 +5937,7 @@
               <did>
                 <container label="Folder [41852243264268700870]" type="folder">F99-494</container>
                 <unittitle>Literature &amp; Arts</unittitle>
-                <dao href="92147-494" show="new" actuate="onRequest">
+                <dao href="92147-494" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16080">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>

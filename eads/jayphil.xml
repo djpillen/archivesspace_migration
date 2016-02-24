@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Jay, Philip, 1898-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6958">Jay, Philip, 1898-</persname>
       </origination>
-      <unittitle encodinganalog="245">Philip Jay papers <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1970">1925-1970</unitdate></unittitle>
-      <physdesc altrender="whole">
+      <unittitle encodinganalog="245">Philip Jay papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1925/1970">1925-1970</unitdate><physdesc altrender="whole">
         <extent encodinganalog="300" altrender="materialtype spaceoccupied">5 linear feet</extent>
       </physdesc>
       <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number">851547 Aa 2</unitid>
@@ -90,24 +90,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Dentists--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Dentistry--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645">University of Michigan. School of Dentistry.</corpname>
-        <subject source="lcsh" encodinganalog="650">Water--Fluoridation.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7211">Dentists--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7210">Dentistry--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645" ref="/agents/corporate_entities/3507">University of Michigan. School of Dentistry.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8444">Water--Fluoridation.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Correspondence, <unitdate type="inclusive" normal="1925/1970">1925-1970</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1925/1970">1925-1970</unitdate></did>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1925/1941">1925-1941</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1925/1941">1925-1941</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44304245453146]">1</container>
@@ -312,8 +308,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [44304245453146]">1</container>
-              <unittitle>C, <unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate></unittitle>
-            </did>
+              <unittitle>C</unittitle><unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1581,10 +1576,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1942">1942</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1942">1942</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [59617043686641967232]">4</container>
@@ -1843,43 +1835,34 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1945/1970">1945-1970</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1945/1970">1945-1970</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Diet (Food Selection for a High Polyunsaturated Fatty Acid Diet), <unitdate type="inclusive">November 15, 1965</unitdate></unittitle>
-            </did>
+              <unittitle>Diet (Food Selection for a High Polyunsaturated Fatty Acid Diet)</unittitle><unitdate type="inclusive">November 15, 1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Diet Program, <unitdate type="inclusive" normal="1958/1969">1958-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Diet Program</unittitle><unitdate type="inclusive" normal="1958/1969">1958-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Dietetics, <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-            </did>
+              <unittitle>Dietetics</unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Dominican Diet Study (Adrian Study), <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></unittitle>
-            </did>
+              <unittitle>Dominican Diet Study (Adrian Study)</unittitle><unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Diet Study, <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></unittitle>
-              </did>
+                <unittitle>Diet Study</unittitle><unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Food and Equipment for Adrian Study, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-              </did>
+                <unittitle>Food and Equipment for Adrian Study</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1890,345 +1873,286 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Study #2, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-              </did>
+                <unittitle>Study #2</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Escanaba Extension Service, <unitdate type="inclusive" normal="1956/1962">1956-1962</unitdate></unittitle>
-            </did>
+              <unittitle>Escanaba Extension Service</unittitle><unitdate type="inclusive" normal="1956/1962">1956-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Fluoridation, <unitdate type="inclusive" normal="1945/1967">1945-1967</unitdate></unittitle>
-            </did>
+              <unittitle>Fluoridation</unittitle><unitdate type="inclusive" normal="1945/1967">1945-1967</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Flint Dental Society, <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
-              </did>
+                <unittitle>Flint Dental Society</unittitle><unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Fluoride, <unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate></unittitle>
-              </did>
+                <unittitle>Fluoride</unittitle><unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Fluoride Phosphate Letters, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-              </did>
+                <unittitle>Fluoride Phosphate Letters</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Fluoride, Topical Application of, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-              </did>
+                <unittitle>Fluoride, Topical Application of</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Fluoridation, <unitdate type="inclusive" normal="1945/1955">1945-1955</unitdate></unittitle>
-              </did>
+                <unittitle>Fluoridation</unittitle><unitdate type="inclusive" normal="1945/1955">1945-1955</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Fluoridation Equipment, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-              </did>
+                <unittitle>Fluoridation Equipment</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Fluoridation Letters, <unitdate type="inclusive" normal="1958/1966">1958-1966</unitdate></unittitle>
-              </did>
+                <unittitle>Fluoridation Letters</unittitle><unitdate type="inclusive" normal="1958/1966">1958-1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Fluoritab Corporation, <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate></unittitle>
-              </did>
+                <unittitle>Fluoritab Corporation</unittitle><unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Fluoridation, State of Michigan, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-              </did>
+                <unittitle>Fluoridation, State of Michigan</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Highland Park Fluoridation Trial, <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></unittitle>
-              </did>
+                <unittitle>Highland Park Fluoridation Trial</unittitle><unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Lansing Fluoridation, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-              </did>
+                <unittitle>Lansing Fluoridation</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Legislative Hearing on Fluoridation, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-              </did>
+                <unittitle>Legislative Hearing on Fluoridation</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Lizaire, A. L., Department of Public Health, Saskatchewan, <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
-              </did>
+                <unittitle>Lizaire, A. L., Department of Public Health, Saskatchewan</unittitle><unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Loyola University, <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-              </did>
+                <unittitle>Loyola University</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>WJBK TV Station, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-              </did>
+                <unittitle>WJBK TV Station</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>WJR Radio Station, <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></unittitle>
-              </did>
+                <unittitle>WJR Radio Station</unittitle><unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>WXYZ Radio Station, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-              </did>
+                <unittitle>WXYZ Radio Station</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Ireland, <unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Ire</unittitle><unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Jp-Jz, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Jp-Jz</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Ludwick, Capt. William E., <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Ludwick, Capt. William E.</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Ma-Mg, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Ma-Mg</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Mann, Dean W. R., <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Mann, Dean W. R.</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>McConnell, Bernie E., <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
+              <unittitle>McConnell, Bernie E.</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Michigan Department of Health, <unitdate type="inclusive" normal="1958/1970">1958-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Department of Health</unittitle><unitdate type="inclusive" normal="1958/1970">1958-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Michigan State Dental Association, <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan State Dental Association</unittitle><unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Michigan State Legislature, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan State Legislature</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>National Institute of Dental Research, <unitdate type="inclusive" normal="1959/1967">1959-1967</unitdate></unittitle>
-            </did>
+              <unittitle>National Institute of Dental Research</unittitle><unitdate type="inclusive" normal="1959/1967">1959-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>National Institute of Health, <unitdate type="inclusive" normal="1958/1965">1958-1965</unitdate></unittitle>
-            </did>
+              <unittitle>National Institute of Health</unittitle><unitdate type="inclusive" normal="1958/1965">1958-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>North Carolina, University of, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>North Carolina, University of</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Nutrition, <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Nutrition</unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Conference on Teaching Nutrition in Dental Schools, <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></unittitle>
-              </did>
+                <unittitle>Conference on Teaching Nutrition in Dental Schools</unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>Course Materials, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-              </did>
+                <unittitle>Course Materials</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [416406454896649829205]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Parsons, Patricia A., <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Parsons, Patricia A.</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Ph-Po, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <unittitle>Ph-Po</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Pp-Pz, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Pp-Pz</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Public Health, School of, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Public Health, School of</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Research Methodology Course, Fall <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle>Research Methodology Course, Fall</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Rhode Island, University of, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <unittitle>Rhode Island, University of</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Rp-Rz, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Rp-Rz</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>S., <unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate></unittitle>
-            </did>
+              <unittitle>S.</unittitle><unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Sandell, Perry, <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
-            </did>
+              <unittitle>Sandell, Perry</unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>San Salvador Meeting, <unitdate type="inclusive">May 1963</unitdate></unittitle>
-            </did>
+              <unittitle>San Salvador Meeting</unittitle><unitdate type="inclusive">May 1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Sodium Fluoride, <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate></unittitle>
-            </did>
+              <unittitle>Sodium Fluoride</unittitle><unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Stannous Fluoride, <unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></unittitle>
-            </did>
+              <unittitle>Stannous Fluoride</unittitle><unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Stare, Frederick J., <unitdate type="inclusive" normal="1955/1966">1955-1966</unitdate></unittitle>
-            </did>
+              <unittitle>Stare, Frederick J.</unittitle><unitdate type="inclusive" normal="1955/1966">1955-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Study Section Symposium, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <unittitle>Study Section Symposium</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Szwejda, Louis F., <unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate></unittitle>
-            </did>
+              <unittitle>Szwejda, Louis F.</unittitle><unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Travis, William, <unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></unittitle>
-            </did>
+              <unittitle>Travis, William</unittitle><unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Rauch-Barraco, M. J., <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Rauch-Barraco, M. J.</unittitle><unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Toothbrushing, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
+              <unittitle>Toothbrushing</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Toothpastes, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Toothpastes</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Upjohn Company, <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
-            </did>
+              <unittitle>Upjohn Company</unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [416406454896649829205]">5</container>
-              <unittitle>Wertheimer, Fred, Michigan Department of Health, <unitdate type="inclusive" normal="1947/1963">1947-1963</unitdate></unittitle>
-            </did>
+              <unittitle>Wertheimer, Fred, Michigan Department of Health</unittitle><unitdate type="inclusive" normal="1947/1963">1947-1963</unitdate></did>
           </c03>
         </c02>
       </c01>

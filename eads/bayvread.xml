@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Bay View Reading Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4711">Bay View Reading Club.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Books published for the use of the Bay View Reading Club <unitdate type="inclusive" encodinganalog="245$f" normal="1887/1914">1887-1914</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009141 Aa 2</unitid>
+      <unittitle encodinganalog="245">Books published for the use of the Bay View Reading Club</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1887/1914">1887-1914</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009141 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">1 linear feet</extent>
@@ -77,7 +77,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Group reading--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6184">Group reading--Michigan.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Bentley Historical Library (collector)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1181">Bentley Historical Library (collector)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Ann Arbor, Michigan photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1979" certainty="approximate">1860s-1970s</unitdate></unittitle>
-      <abstract>Photographs collected from various donors relating to Ann Arbor, Michigan; include photos of buildings (public and private), houses, churches, and schools; also views of the city (by street and area); and miscellaneous photos of local events and activities, school class portraits, and other group portraits.</abstract>
+      <unittitle encodinganalog="245">Ann Arbor, Michigan photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1860/1979" certainty="approximate">1860s-1970s</unitdate><abstract>Photographs collected from various donors relating to Ann Arbor, Michigan; include photos of buildings (public and private), houses, churches, and schools; also views of the city (by street and area); and miscellaneous photos of local events and activities, school class portraits, and other group portraits.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">91153 UCCs UCCm</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -92,88 +92,88 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials</head>
-        <subject source="lcsh" encodinganalog="650">African Americans.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.)</corpname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Business enterprises.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Churches.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Dwellings.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Panoramic views.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Schools.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Streets.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Street Railway Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Taxicab Co. (Ann Arbor, Mich.)--Employees.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Ann Street (Ann Arbor, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Argo Mills (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Bach &amp; Abel (Dry goods store : Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Bach School (Ann Arbor, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Baseball players--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Bryant School (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Buildings--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Cemeteries--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Central Mills (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Churches--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">City and town halls--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">City Ice Company (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Classrooms--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Courthouses--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Dixboro School (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Donovan School (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Dr. Chase's Steam Printing House (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Eberbach School (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Eberwhite School (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Fire engines and equipment.</subject>
-        <subject source="lctgm" encodinganalog="650">Fire stations--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Fires--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Baptist Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First Congregational Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First Methodist Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First Unitarian Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Forest Hill Cemetery (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Frieze Building (University of Michigan)</corpname>
-        <subject source="lcsh" encodinganalog="650">German Americans.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Bethlehem Evangelical Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Goodyear &amp; St. James Drygoods Store (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Gregory House (Hotel : Ann Arbor, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651">Huron Street (Ann Arbor, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Jones School (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ladies Library Association of Ann Arbor.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Lower Town (Ann Arbor, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Mack &amp; Company (Ann Arbor, Mich.)--Fire.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Mack School (Ann Arbor, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651">Main Street (Ann Arbor, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Majestic Theatre (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Masonic Temple (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Maynard Store (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Memorial Christian Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Central Railroad Depot (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Northwest School (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Perry School (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Pioneer High School (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Political parades and rallies.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Porter Zouave Band (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Post offices--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroad bridges--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroad stations--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Residential streets--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. Andrew's Episcopal Church (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Schools--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87103858">Slauson Junior High School (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Tappan Junior High School (Ann Arbor, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Telephone--Employees.</subject>
-        <subject source="lctgm" encodinganalog="650">Toll roads--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County Courthouse (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Young Men's Christian Association (Ann Arbor, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5688">African Americans.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/469">Ann Arbor High School (Mich.)</corpname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/206">Ann Arbor (Mich.)--Business enterprises.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Churches.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/203">Ann Arbor (Mich.)--Dwellings.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/208">Ann Arbor (Mich.)--Panoramic views.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/209">Ann Arbor (Mich.)--Schools.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/205">Ann Arbor (Mich.)--Streets.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3766">Ann Arbor Street Railway Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1821">Ann Arbor Taxicab Co. (Ann Arbor, Mich.)--Employees.<term type="topical">Employees.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/864">Ann Street (Ann Arbor, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3979">Argo Mills (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5321">Bach &amp; Abel (Dry goods store : Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1175">Bach School (Ann Arbor, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5689">Baseball players--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3666">Bryant School (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3586">Buildings--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3587">Business enterprises--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3588">Cemeteries--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/874">Ann Arbor Central Mills (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3589">Churches--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3590">City and town halls--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3458">City Ice Company (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3591">Classrooms--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3592">Courthouses--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3470">Dixboro School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2511">Donovan School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1540">Dr. Chase's Steam Printing House (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3570">Dwellings--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1354">Eberbach School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1514">Eberwhite School (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3593">Fire engines and equipment.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3594">Fire stations--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3595">Fires--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4006">First Baptist Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/518">First Congregational Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5127">First Methodist Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1416">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3842">First Unitarian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2328">Forest Hill Cemetery (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1365">Frieze Building (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5690">German Americans.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5347">Bethlehem Evangelical Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4222">Goodyear &amp; St. James Drygoods Store (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5037">Gregory House (Hotel : Ann Arbor, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/865">Huron Street (Ann Arbor, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1396">Jones School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/712">Ladies Library Association of Ann Arbor.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/866">Lower Town (Ann Arbor, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1381">Mack &amp; Company (Ann Arbor, Mich.)--Fire.<term type="topical">Fire.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3412">Mack School (Ann Arbor, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/851">Main Street (Ann Arbor, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1651">Majestic Theatre (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1046">Masonic Temple (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2812">Maynard Store (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/516">Memorial Christian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3243">Michigan Central Railroad Depot (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/68">Northwest School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1838">Perry School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1640">Pioneer High School (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3596">Political parades and rallies.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1089">Porter Zouave Band (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3597">Post offices--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3598">Railroad bridges--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3599">Railroad stations--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3600">Residential streets--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3819">St. Andrew's Episcopal Church (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3601">Schools--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87103858" ref="/agents/corporate_entities/1531">Slauson Junior High School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3788">Tappan Junior High School (Ann Arbor, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5691">Telephone--Employees.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3602">Toll roads--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Buildings.<term type="topical">Buildings.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4922">Washtenaw County Courthouse (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5723">Young Men's Christian Association (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="gmgpc" encodinganalog="655">Aerial photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Panoramic views.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Stereographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3449">Aerial photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3451">Panoramic views.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3452">Stereographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -197,7 +197,7 @@
               <did>
                 <container label="Folder [04985310340814725468973261]" type="folder">1</container>
                 <unittitle>Argo Mills Milling Co.</unittitle>
-                <dao href="91153-1" show="new" actuate="onRequest">
+                <dao href="91153-1" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7413">
                   <daodesc>
                     <p>[view selected images]</p>
                   </daodesc>
@@ -220,7 +220,7 @@
               <did>
                 <container label="Folder [0219880404796171289]" type="folder">4</container>
                 <unittitle>Central Mills</unittitle>
-                <dao href="91153-4" show="new" actuate="onRequest">
+                <dao href="91153-4" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7414">
                   <daodesc>
                     <p>[view selected images]</p>
                   </daodesc>
@@ -236,8 +236,7 @@
             <c04 level="file">
               <did>
                 <container label="Folder [1573129438714043124]" type="folder">6</container>
-                <unittitle>City Hall (construction views) <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-              </did>
+                <unittitle>City Hall (construction views)</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -249,7 +248,7 @@
               <did>
                 <container label="Folder [6320037428496619981835]" type="folder">8</container>
                 <unittitle>Court Houses</unittitle>
-                <dao href="91153-8" show="new" actuate="onRequest">
+                <dao href="91153-8" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7415">
                   <daodesc>
                     <p>[view selected images]</p>
                   </daodesc>
@@ -260,7 +259,7 @@
               <did>
                 <container label="Folder [14252841870324639]" type="folder">9</container>
                 <unittitle>Fire Department Engine Houses</unittitle>
-                <dao href="91153-9" show="new" actuate="onRequest">
+                <dao href="91153-9" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7416">
                   <daodesc>
                     <p>[view selected images]</p>
                   </daodesc>
@@ -292,7 +291,7 @@
               <did>
                 <container label="Folder [0302233117284383801356452050]" type="folder">13</container>
                 <unittitle>Ladies Library Association</unittitle>
-                <dao href="91153-13" show="new" actuate="onRequest">
+                <dao href="91153-13" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7417">
                   <daodesc>
                     <p>[view selected images]</p>
                   </daodesc>
@@ -308,8 +307,7 @@
             <c04 level="file">
               <did>
                 <container label="Folder [9937082847925516853378780]" type="folder">15</container>
-                <unittitle>Masonic Temple <unitdate type="inclusive" normal="1920/1929" certainty="approximate">circa 1920s</unitdate></unittitle>
-              </did>
+                <unittitle>Masonic Temple</unittitle><unitdate type="inclusive" normal="1920/1929" certainty="approximate">circa 1920s</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -321,7 +319,7 @@
               <did>
                 <container label="Folder [8970060442634253871364]" type="folder">17</container>
                 <unittitle>Michigan Central Depot</unittitle>
-                <dao href="91153-17" show="new" actuate="onRequest">
+                <dao href="91153-17" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7418">
                   <daodesc>
                     <p>[view selected images]</p>
                   </daodesc>
@@ -367,7 +365,7 @@
               <did>
                 <container label="Folder [280222145942578974]" type="folder">22</container>
                 <unittitle>Baptist</unittitle>
-                <dao href="91153-22" show="new" actuate="onRequest">
+                <dao href="91153-22" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7419">
                   <daodesc>
                     <p>[view selected images]</p>
                   </daodesc>
@@ -377,8 +375,7 @@
             <c04 level="file">
               <did>
                 <container label="Folder [70793502949047994478451]" type="folder">23</container>
-                <unittitle>Church of Christ (Memorial) <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
-              </did>
+                <unittitle>Church of Christ (Memorial)</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate></did>
               <odd>
                 <p>(includes interiors and views along South University)</p>
               </odd>
@@ -625,7 +622,7 @@
               <did>
                 <container label="Folder [404994784909812898321253]" type="folder">57</container>
                 <unittitle>Ann</unittitle>
-                <dao href="91153-57" show="new" actuate="onRequest">
+                <dao href="91153-57" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7420">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -665,7 +662,7 @@
               <did>
                 <container label="Folder [36455476990847948997]" type="folder">61</container>
                 <unittitle>State Street</unittitle>
-                <dao href="91153-61" show="new" actuate="onRequest">
+                <dao href="91153-61" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7421">
                   <daodesc>
                     <p>[view sample images]</p>
                   </daodesc>
@@ -687,7 +684,7 @@
               <did>
                 <container label="Folder [9451434648053297291047]" type="folder">63</container>
                 <unittitle>Lower Town and Mills</unittitle>
-                <dao href="91153-62" show="new" actuate="onRequest">
+                <dao href="91153-62" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7422">
                   <daodesc>
                     <p>[view selected images]</p>
                   </daodesc>
@@ -716,7 +713,7 @@
               <did>
                 <container label="Folder [0266341348698220631742]" type="folder">67</container>
                 <unittitle>Taken from the West (Sunset Hill)</unittitle>
-                <dao href="91153-67" show="new" actuate="onRequest">
+                <dao href="91153-67" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7423">
                   <daodesc>
                     <p>[view selected images]</p>
                   </daodesc>
@@ -741,20 +738,17 @@
           <c03 level="file">
             <did>
               <container label="Folder [6842392340796436141816]" type="folder">69</container>
-              <unittitle>Ann Arbor City Officials <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
-            </did>
+              <unittitle>Ann Arbor City Officials</unittitle><unitdate type="inclusive" normal="1909">1909</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container label="Folder [79958120047564985064351]" type="folder">70</container>
-              <unittitle>Ann Arbor Taxicab Co. banquet <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
-            </did>
+              <unittitle>Ann Arbor Taxicab Co. banquet</unittitle><unitdate type="inclusive" normal="1916">1916</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container label="Folder [2129314290095043]" type="folder">71</container>
-              <unittitle>Barton Hills party <unitdate type="inclusive" normal="1920">1920</unitdate></unittitle>
-            </did>
+              <unittitle>Barton Hills party</unittitle><unitdate type="inclusive" normal="1920">1920</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -774,8 +768,7 @@
           <c03 level="file">
             <did>
               <container label="Folder [9831939444108577713152]" type="folder">74</container>
-              <unittitle>Mack &amp; Company fire <unitdate type="inclusive" normal="1899">1899</unitdate></unittitle>
-            </did>
+              <unittitle>Mack &amp; Company fire</unittitle><unitdate type="inclusive" normal="1899">1899</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -802,8 +795,7 @@
             <c04 level="file">
               <did>
                 <container label="Folder [3451314944887161227743]" type="folder">78</container>
-                <unittitle>Donovan (and unidentified) <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
-                <dao href="91153-78" show="new" actuate="onRequest">
+                <unittitle>Donovan (and unidentified)</unittitle><unitdate type="inclusive" normal="1911">1911</unitdate><dao href="91153-78" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7424">
                   <daodesc>
                     <p>[view selected images]</p>
                   </daodesc>
@@ -826,7 +818,7 @@
               <did>
                 <container label="Folder [459204846786618970]" type="folder">81</container>
                 <unittitle>High School</unittitle>
-                <dao href="91153-81" show="new" actuate="onRequest">
+                <dao href="91153-81" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/7425">
                   <daodesc>
                     <p>[view selected images]</p>
                   </daodesc>
@@ -867,14 +859,12 @@
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [96359546335187859]">UCCm</container>
-              <unittitle>Superior Dairy baseball team <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
-            </did>
+              <unittitle>Superior Dairy baseball team</unittitle><unitdate type="inclusive" normal="1911">1911</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container label="Folder [84200814775228750279]" type="folder">86</container>
-              <unittitle>Telephone anniversary gathering <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
-            </did>
+              <unittitle>Telephone anniversary gathering</unittitle><unitdate type="inclusive" normal="1926">1926</unitdate></did>
           </c03>
           <c03 level="file">
             <did>

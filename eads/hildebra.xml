@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87823944">Hildebrandt, Theophil Henry, 1888-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87823944" ref="/agents/people/1983">Hildebrandt, Theophil Henry, 1888-</persname>
       </origination>
-      <unittitle encodinganalog="245">Theophil Henry Hildebrandt Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1887/1978">1887-1978</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1930/1960">1930-1960</unitdate></unittitle>
-      <abstract>Mathematician, professor of mathematics at the University of Michigan. Correspondence and other papers relating to professional and family matters, to his association with the Bethlehem Church in Ann Arbor, and to his involvement with the American Mathematical Society, especially regarding the controversy over loyalty oaths in the 1950s; also letters from family members, notably sister Martha, a school teacher, who comments on her career and her life as a single woman; and letters from son Paul during World War II; and photographs.</abstract>
+      <unittitle encodinganalog="245">Theophil Henry Hildebrandt Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1887/1978">1887-1978</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1930/1960">1930-1960</unitdate><abstract>Mathematician, professor of mathematics at the University of Michigan. Correspondence and other papers relating to professional and family matters, to his association with the Bethlehem Church in Ann Arbor, and to his involvement with the American Mathematical Society, especially regarding the controversy over loyalty oaths in the 1950s; also letters from family members, notably sister Martha, a school teacher, who comments on her career and her life as a single woman; and letters from son Paul during World War II; and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85205 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Boxes 1-5 in offsite location; prior notification required for access</physloc>
@@ -87,45 +87,45 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79060639">American Mathematical Society.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Bethlehem United Church of Christ (Ann Arbor, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">German Americans--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87823944">Hildebrandt, Theophil Henry, 1888-</persname>
-        <subject source="lcsh" encodinganalog="650">Loyalty oaths.</subject>
-        <subject source="lcsh" encodinganalog="650">Mathematics.</subject>
-        <subject source="lcsh" encodinganalog="650">Teachers--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243">University of Michigan. Dept. of Mathematics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women teachers--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79060639" ref="/agents/corporate_entities/2739">American Mathematical Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5663">Bethlehem United Church of Christ (Ann Arbor, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5832">German Americans--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87823944" ref="/agents/people/1983">Hildebrandt, Theophil Henry, 1888-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8205">Loyalty oaths.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6257">Mathematics.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8206">Teachers--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243" ref="/agents/corporate_entities/493">University of Michigan. Dept. of Mathematics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8207">Women teachers--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Churches.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Dwellings.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor School of Music. Class of 1913.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Apostles Club (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Bethlehem United Church of Christ (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Churches--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651">Douglas Lake (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87823944">Hildebrandt, Theophil Henry, 1888-</persname>
-        <famname source="lcnaf" encodinganalog="600">Hildebrandt family.</famname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80149747">University of Michigan. Biological Station.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243">University of Michigan. Dept. of Mathematics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1951-1960.</corpname>
-        <famname source="lcnaf" encodinganalog="600">Ware family.</famname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Churches.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/203">Ann Arbor (Mich.)--Dwellings.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3185">Ann Arbor School of Music. Class of 1913.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5145">Apostles Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5663">Bethlehem United Church of Christ (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3589">Churches--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1604">Douglas Lake (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3570">Dwellings--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87823944" ref="/agents/people/1983">Hildebrandt, Theophil Henry, 1888-</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/337">Hildebrandt family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80149747" ref="/agents/corporate_entities/394">University of Michigan. Biological Station.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243" ref="/agents/corporate_entities/493">University of Michigan. Dept. of Mathematics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1951-1960.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1951-1960.</term></corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/93">Ware family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87813509">Hildebrandt, Martha.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86872518">Hildebrandt, Paul.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87813509" ref="/agents/people/3266">Hildebrandt, Martha.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86872518" ref="/agents/people/2879">Hildebrandt, Paul.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -151,8 +151,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [08352024928887]">1</container>
-            <unittitle>Clippings <unitdate type="inclusive" normal="1934/1962">1934-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1934/1962">1934-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -183,8 +182,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [08352024928887]">1</container>
-                <unittitle>Diaries <unitdate type="inclusive" normal="1887">1887</unitdate>, <unitdate type="inclusive" normal="1910/1914">1910-1914</unitdate></unittitle>
-              </did>
+                <unittitle>Diaries</unittitle><unitdate type="inclusive" normal="1887">1887</unitdate><unitdate type="inclusive" normal="1910/1914">1910-1914</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -217,8 +215,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [08352024928887]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1934/1957">1934-1957</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1934/1957">1934-1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -227,25 +224,18 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [08352024928887]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1926-10/1941-09">October 1926-September 1941</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1926-10/1941-09">October 1926-September 1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [08352024928887]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1941-10/1958-12">October 1941-December 1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1941-10/1958-12">October 1941-December 1958</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [08352024928887]">1</container>
-            <unittitle>Programs <unitdate type="inclusive" normal="1928/1967">1928-1967</unitdate></unittitle>
-          </did>
+            <unittitle>Programs</unittitle><unitdate type="inclusive" normal="1928/1967">1928-1967</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -272,8 +262,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [08352024928887]">1</container>
-            <unittitle>European Travelogue <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
-          </did>
+            <unittitle>European Travelogue</unittitle><unitdate type="inclusive" normal="1926">1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -282,26 +271,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [08352024928887]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [08352024928887]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [08352024928887]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -311,14 +291,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [08352024928887]">1</container>
-              <unittitle>From father <unitdate type="inclusive" normal="1916/1918">1916-1918</unitdate></unittitle>
-            </did>
+              <unittitle>From father</unittitle><unitdate type="inclusive" normal="1916/1918">1916-1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [08352024928887]">1</container>
-              <unittitle>To sister, Martha <unitdate type="inclusive" normal="1917/1920">1917-1920</unitdate></unittitle>
-            </did>
+              <unittitle>To sister, Martha</unittitle><unitdate type="inclusive" normal="1917/1920">1917-1920</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -327,10 +305,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [08352024928887]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
@@ -338,10 +313,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6930764270347116774]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1918/1970">1918-1970</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1918/1970">1918-1970</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">21 folders</extent>
                 </physdesc>
               </did>
@@ -350,8 +322,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6930764270347116774]">2</container>
-              <unittitle>From son Paul, World War II <unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate></unittitle>
-            </did>
+              <unittitle>From son Paul, World War II</unittitle><unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -361,11 +332,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6930764270347116774]">2</container>
-              <unittitle>
-                <unitdate>Undated</unitdate>
-                <unitdate type="inclusive" normal="1906/1953">1906-1953</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate>Undated</unitdate><unitdate type="inclusive" normal="1906/1953">1906-1953</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
@@ -373,10 +340,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [42884408870445044205]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954/1978">1954-1978</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1954/1978">1954-1978</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">13 folders</extent>
               </physdesc>
             </did>
@@ -390,14 +354,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [42884408870445044205]">3</container>
-            <unittitle>"On Integration" <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-          </did>
+            <unittitle>"On Integration"</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [42884408870445044205]">3</container>
-            <unittitle>"Linear Spaces" <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
-          </did>
+            <unittitle>"Linear Spaces"</unittitle><unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -409,10 +371,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate>Undated</unitdate>
-            </unittitle>
-          </did>
+            <unitdate>Undated</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [42884408870445044205]">3</container>
@@ -440,10 +399,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1905">1905</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1905">1905</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [42884408870445044205]">3</container>
@@ -453,10 +409,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1906">1906</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1906">1906</unitdate></did>
           <c03 level="file">
             <did>
               <unittitle>Winter</unittitle>
@@ -499,10 +452,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1907">1907</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1907">1907</unitdate></did>
           <c03 level="file">
             <did>
               <unittitle>Fall</unittitle>
@@ -574,10 +524,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1908">1908</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1908">1908</unitdate></did>
           <c03 level="file">
             <did>
               <unittitle>Winter</unittitle>
@@ -609,10 +556,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1909">1909</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1909">1909</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [747898649680322169510]">4</container>
@@ -638,37 +582,26 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [747898649680322169510]">4</container>
-            <unittitle><unitdate type="inclusive" normal="1910">1910</unitdate> Vector Analysis</unittitle>
-          </did>
+            <unittitle>Vector Analysis</unittitle><unitdate type="inclusive" normal="1910">1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [747898649680322169510]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1916/1917">1916-1917</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1916/1917">1916-1917</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [747898649680322169510]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1924/1936">1924-1936</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1924/1936">1924-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [747898649680322169510]">4</container>
-            <unittitle><unitdate type="inclusive" normal="1929">1929</unitdate> Real Variables</unittitle>
-          </did>
+            <unittitle>Real Variables</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [747898649680322169510]">4</container>
@@ -685,22 +618,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [747898649680322169510]">4</container>
-            <unittitle><unitdate type="inclusive" normal="1932">1932</unitdate> Theory of Integers</unittitle>
-          </did>
+            <unittitle>Theory of Integers</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [747898649680322169510]">4</container>
-            <unittitle><unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate> Function Theory</unittitle>
-          </did>
+            <unittitle>Function Theory</unittitle><unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [747898649680322169510]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1944/1964">1944-1964</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1944/1964">1944-1964</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -721,21 +649,18 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [465028425439076579713]">5</container>
-                <unittitle>Loyalty Oath <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
-              </did>
+                <unittitle>Loyalty Oath</unittitle><unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [465028425439076579713]">5</container>
-                <unittitle>Special Funds <unitdate type="inclusive" normal="1938/1944">1938-1944</unitdate></unittitle>
-              </did>
+                <unittitle>Special Funds</unittitle><unitdate type="inclusive" normal="1938/1944">1938-1944</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1931/1963">1931-1963</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1931/1963">1931-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -744,18 +669,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [465028425439076579713]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1917/1935">1917-1935</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1917/1935">1917-1935</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [465028425439076579713]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1936/1948">1936-1948</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1936/1948">1936-1948</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -768,20 +687,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [465028425439076579713]">5</container>
-            <unittitle>Mathematical Association of America <unitdate type="inclusive" normal="1935">1935</unitdate>, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <unittitle>Mathematical Association of America</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [465028425439076579713]">5</container>
-            <unittitle>Pleasant Lakes Club <unitdate type="inclusive" normal="1927/1943">1927-1943</unitdate></unittitle>
-          </did>
+            <unittitle>Pleasant Lakes Club</unittitle><unitdate type="inclusive" normal="1927/1943">1927-1943</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [465028425439076579713]">5</container>
-            <unittitle>Sigma Xi <unitdate type="inclusive" normal="1942/1945">1942-1945</unitdate></unittitle>
-          </did>
+            <unittitle>Sigma Xi</unittitle><unitdate type="inclusive" normal="1942/1945">1942-1945</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -794,26 +710,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [465028425439076579713]">5</container>
-            <unittitle>Louisiana State University <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-          </did>
+            <unittitle>Louisiana State University</unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [465028425439076579713]">5</container>
-            <unittitle>Marquette University <unitdate type="inclusive" normal="1958/1963">1958-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Marquette University</unittitle><unitdate type="inclusive" normal="1958/1963">1958-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [465028425439076579713]">5</container>
-            <unittitle>Memphis State University <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Memphis State University</unittitle><unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [465028425439076579713]">5</container>
-            <unittitle>Northwestern University <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
-          </did>
+            <unittitle>Northwestern University</unittitle><unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -822,26 +734,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>Employment Records <unitdate type="inclusive" normal="1909/1958">1909-1958</unitdate></unittitle>
-            </did>
+              <unittitle>Employment Records</unittitle><unitdate type="inclusive" normal="1909/1958">1909-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>Correspondence and Memos <unitdate type="inclusive" normal="1933/1961">1933-1961</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence and Memos</unittitle><unitdate type="inclusive" normal="1933/1961">1933-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>Department of Mathematics, PhD's-- <unitdate type="inclusive" normal="1912/1960">1912-1960</unitdate></unittitle>
-            </did>
+              <unittitle>Department of Mathematics, PhD's--</unittitle><unitdate type="inclusive" normal="1912/1960">1912-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>Research Club <unitdate type="inclusive" normal="1937/1956">1937-1956</unitdate></unittitle>
-            </did>
+              <unittitle>Research Club</unittitle><unitdate type="inclusive" normal="1937/1956">1937-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -853,20 +761,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [465028425439076579713]">5</container>
-            <unittitle>University of North Carolina <unitdate type="inclusive" normal="1958/1962">1958-1962</unitdate></unittitle>
-          </did>
+            <unittitle>University of North Carolina</unittitle><unitdate type="inclusive" normal="1958/1962">1958-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [465028425439076579713]">5</container>
-            <unittitle>University of Utah <unitdate type="inclusive" normal="1961/1970">1961-1970</unitdate></unittitle>
-          </did>
+            <unittitle>University of Utah</unittitle><unitdate type="inclusive" normal="1961/1970">1961-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [465028425439076579713]">5</container>
-            <unittitle>Western Michigan University <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-          </did>
+            <unittitle>Western Michigan University</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -894,8 +799,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [465028425439076579713]">5</container>
-            <unittitle>Encyclopedia article <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></unittitle>
-          </did>
+            <unittitle>Encyclopedia article</unittitle><unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -904,34 +808,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>
-                <unitdate>Undated</unitdate>
-              </unittitle>
-            </did>
+              <unitdate>Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1908/1918">1908-1918</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1908/1918">1908-1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1920/1929">1920-1929</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1920/1929">1920-1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1930/1966">1930-1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1930/1966">1930-1966</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -941,41 +833,28 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>
-                <unitdate>Undated</unitdate>
-              </unittitle>
-            </did>
+              <unitdate>Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931/1937">1931-1937</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1931/1937">1931-1937</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943/1959">1943-1959</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943/1959">1943-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960/1976">1960-1976</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960/1976">1960-1976</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [465028425439076579713]">5</container>
-            <unittitle>Reviews (of T.H.) <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <unittitle>Reviews (of T.H.)</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -984,20 +863,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>B.A., "The Hyperbolic Functions" <unitdate type="inclusive" normal="1905">1905</unitdate></unittitle>
-            </did>
+              <unittitle>B.A., "The Hyperbolic Functions"</unittitle><unitdate type="inclusive" normal="1905">1905</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>M.S., "The Limit Surfaces of Linear Congruences" <unitdate type="inclusive" normal="1906">1906</unitdate></unittitle>
-            </did>
+              <unittitle>M.S., "The Limit Surfaces of Linear Congruences"</unittitle><unitdate type="inclusive" normal="1906">1906</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [465028425439076579713]">5</container>
-              <unittitle>Ph.D., "A Contribution to the Foundations of Frechet's Calcul Fonctionnel" <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
-            </did>
+              <unittitle>Ph.D., "A Contribution to the Foundations of Frechet's Calcul Fonctionnel"</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1070,14 +946,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [86145642890767337767]">6</container>
-              <unittitle>Professional Groups and colleagues--includes parties and University of Chicago Math Department in <unitdate type="inclusive" normal="1920">1920</unitdate></unittitle>
-            </did>
+              <unittitle>Professional Groups and colleagues--includes parties and University of Chicago Math Department in</unittitle><unitdate type="inclusive" normal="1920">1920</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [86145642890767337767]">6</container>
-              <unittitle>University of Michigan Buildings and University School of Music Class Photograph <unitdate type="inclusive" normal="1913">1913</unitdate> University School of Music</unittitle>
-            </did>
+              <unittitle>University of Michigan Buildings and University School of Music Class Photograph  University School of Music</unittitle><unitdate type="inclusive" normal="1913">1913</unitdate></did>
             <odd>
               <p>(see also albums)</p>
             </odd>
@@ -1108,8 +982,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [86145642890767337767]">6</container>
-              <unittitle>Small black album <unitdate type="inclusive" normal="1895/1920">1895-1920</unitdate></unittitle>
-            </did>
+              <unittitle>Small black album</unittitle><unitdate type="inclusive" normal="1895/1920">1895-1920</unitdate></did>
             <odd>
               <p>(includes early schooling, family and trip to Germany in 1926. Also shows early life in Ann Arbor, the UM School of Music, Apostles Club, UM campus buildings, homes on Washtenaw, Elm, Walnut and Monroe Streets in Ann Arbor, and organs in churches in Chelsea and Ann Arbor. Some early scenes in Illinois and Ohio as well.)</p>
             </odd>
@@ -1117,8 +990,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [86145642890767337767]">6</container>
-              <unittitle>Small black album <unitdate type="inclusive" normal="1915/1920">1915-1920</unitdate></unittitle>
-            </did>
+              <unittitle>Small black album</unittitle><unitdate type="inclusive" normal="1915/1920">1915-1920</unitdate></did>
             <odd>
               <p>(includes family and friends and early days at the University of Michigan; and views of campus buildings, scenic views of Ann Arbor and the Biological Station at Douglas Lake; also included are the wedding of Grace McDonald and Carl Guthe, Kansas City, and other travels)</p>
             </odd>
@@ -1126,8 +998,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [86145642890767337767]">6</container>
-              <unittitle>Brown album, entitled "Professor and Mrs. T. Hildebrandt" <unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></unittitle>
-            </did>
+              <unittitle>Brown album, entitled "Professor and Mrs. T. Hildebrandt"</unittitle><unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></did>
             <odd>
               <p>(Album consists of photographs of colleagues and friends from1919 to 1956, his years at Michigan, and was presented to him upon his retirement from the University, includes some photographs of Hildebrandt teaching in classroom)</p>
             </odd>

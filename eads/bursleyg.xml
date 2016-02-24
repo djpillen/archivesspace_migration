@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Bursley, Gilbert E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/964">Bursley, Gilbert E.</persname>
       </origination>
-      <unittitle encodinganalog="245">Gilbert E. Bursley papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1981">1960-1981</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8548 Aa 2</unitid>
+      <unittitle encodinganalog="245">Gilbert E. Bursley papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1960/1981">1960-1981</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8548 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Republican state senator, president of Cleary College; legislative files and miscellaneous materials from his tenure as Cleary College president.</abstract>
       <repository>
@@ -76,12 +76,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Abortion--Law and legislation--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Birth control--Law and legislation--Michigan.</subject>
-        <corpname source="lcnaf">Cleary College (Ypsilanti, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Education--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059">Michigan. Legislature.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6223">Abortion--Law and legislation--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6588">Birth control--Law and legislation--Michigan.</subject>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/2204">Cleary College (Ypsilanti, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5734">Education--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059" ref="/agents/corporate_entities/4690">Michigan. Legislature.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4055">Republican Party (Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -103,8 +103,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4913968004482098225671]">1</container>
-            <unittitle>Newsletters, news releases <unitdate type="inclusive" normal="1960/1978">1960-1978</unitdate></unittitle>
-          </did>
+            <unittitle>Newsletters, news releases</unittitle><unitdate type="inclusive" normal="1960/1978">1960-1978</unitdate></did>
           <odd>
             <p>(also include tabulations of constituent questionnaires)</p>
           </odd>
@@ -112,8 +111,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4913968004482098225671]">1</container>
-            <unittitle>Correspondence largely with legislators and other public officials <unitdate type="inclusive" normal="1974/1978">1974-1978</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence largely with legislators and other public officials</unittitle><unitdate type="inclusive" normal="1974/1978">1974-1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -415,8 +413,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [76660674428814601413]">4</container>
-              <unittitle>Con-Con <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-            </did>
+              <unittitle>Con-Con</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -427,14 +424,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [76660674428814601413]">4</container>
-              <unittitle>Delegates-Republican State Convention <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <unittitle>Delegates-Republican State Convention</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [76660674428814601413]">4</container>
-              <unittitle>Delegates-Republican State Convention <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-            </did>
+              <unittitle>Delegates-Republican State Convention</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -481,8 +476,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9409443471681910768542]">5</container>
-              <unittitle>Fund Raiser <unitdate type="inclusive" normal="1978-02-08">February 8, 1978</unitdate></unittitle>
-            </did>
+              <unittitle>Fund Raiser</unittitle><unitdate type="inclusive" normal="1978-02-08">February 8, 1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -514,8 +508,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7793698204898686880905]">6</container>
-              <unittitle>Legislative Dinner <unitdate type="inclusive" normal="1971/1977">1971-1977</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Legislative Dinner</unittitle><unitdate type="inclusive" normal="1971/1977">1971-1977</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
@@ -601,8 +594,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [31333454517399874034]">7</container>
-              <unittitle>News releases and newsletters <unitdate type="inclusive" normal="1960/1978">1960-1978</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>News releases and newsletters</unittitle><unitdate type="inclusive" normal="1960/1978">1960-1978</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
@@ -706,8 +698,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [868111048844929472863]">8</container>
-              <unittitle>Resolutions <unitdate type="inclusive" normal="1965/1972">1965-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Resolutions</unittitle><unitdate type="inclusive" normal="1965/1972">1965-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -825,18 +816,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [33830682237404815849425238]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [33830682237404815849425238]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -844,26 +829,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [891798024190520903]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1975">1975</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [891798024190520903]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1976">1976</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [891798024190520903]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1977">1977</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1171,44 +1147,37 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [30405040128056059]">17</container>
-            <unittitle>Education Commission of the States <unitdate type="inclusive" normal="1976/1980">1976-1980</unitdate></unittitle>
-          </did>
+            <unittitle>Education Commission of the States</unittitle><unitdate type="inclusive" normal="1976/1980">1976-1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [30405040128056059]">17</container>
-            <unittitle>Interstate Migrant Education Task Force <unitdate type="inclusive" normal="1978/1980">1978-1980</unitdate></unittitle>
-          </did>
+            <unittitle>Interstate Migrant Education Task Force</unittitle><unitdate type="inclusive" normal="1978/1980">1978-1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [30405040128056059]">17</container>
-            <unittitle>National Assessment of Educational Progress <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></unittitle>
-          </did>
+            <unittitle>National Assessment of Educational Progress</unittitle><unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [30405040128056059]">17</container>
-            <unittitle>Assessment Policy Committee <unitdate type="inclusive" normal="1977/1980">1977-1980</unitdate></unittitle>
-          </did>
+            <unittitle>Assessment Policy Committee</unittitle><unitdate type="inclusive" normal="1977/1980">1977-1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [30405040128056059]">17</container>
-            <unittitle>Michigan Vocational Education Task Force <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Vocational Education Task Force</unittitle><unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [00259544318007657975686]">18</container>
-            <unittitle>Fund for Improvement of Post-secondary Education <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></unittitle>
-          </did>
+            <unittitle>Fund for Improvement of Post-secondary Education</unittitle><unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [00259544318007657975686]">18</container>
-            <unittitle>Higher Education Capital Investment Advisory Committee <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Higher Education Capital Investment Advisory Committee</unittitle><unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -1216,26 +1185,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [00259544318007657975686]">18</container>
-            <unittitle>Michigan International Council <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan International Council</unittitle><unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [00259544318007657975686]">18</container>
-            <unittitle>Michigan Vocational Education Task Force <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Vocational Education Task Force</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [00259544318007657975686]">18</container>
-            <unittitle>United Nations Day <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></unittitle>
-          </did>
+            <unittitle>United Nations Day</unittitle><unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [00259544318007657975686]">18</container>
-            <unittitle>Artrain <unitdate type="inclusive" normal="1979/1981">1979-1981</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Artrain</unittitle><unitdate type="inclusive" normal="1979/1981">1979-1981</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -1243,8 +1208,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [00259544318007657975686]">18</container>
-            <unittitle>National Assessment of Educational Progress <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
-          </did>
+            <unittitle>National Assessment of Educational Progress</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
         </c02>
       </c01>
     </dsc>

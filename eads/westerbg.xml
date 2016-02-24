@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Westerberg, Martha R.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4358">Westerberg, Martha R.</persname>
       </origination>
-      <unittitle encodinganalog="245">Martha Westerberg papers <unitdate type="inclusive" encodinganalog="245$f" normal="1947/1978">1947-1978</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85461 Aa 2</unitid>
+      <unittitle encodinganalog="245">Martha Westerberg papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1947/1978">1947-1978</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85461 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of neurology at the University of Michigan. Topical files largely concerning her interest in neurological subjects, notably myasthenia gravis; and photographs.</abstract>
       <physdesc altrender="whole">
@@ -78,23 +78,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Myasthenia gravis.</subject>
-        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Dept. of Neurology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Westerberg, Martha R.</persname>
-        <subject source="lcsh" encodinganalog="650">Women physicians--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10696">Myasthenia gravis.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6036">Physicians--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Dept. of Neurology.<term type="topical">Dept. of Neurology.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/3042">University of Michigan. Medical School.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4358">Westerberg, Martha R.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6254">Women physicians--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Medical equipment.</subject>
-        <persname source="lcnaf" encodinganalog="600">Westerberg, Martha R.</persname>
-        <subject source="lctgm" encodinganalog="650">Women.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5571">Medical equipment.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4358">Westerberg, Martha R.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3617">Women.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -195,8 +195,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0172075845757908375965]">1</container>
-            <unittitle>Myasthenia Lecture <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-          </did>
+            <unittitle>Myasthenia Lecture</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -225,8 +224,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0172075845757908375965]">1</container>
-            <unittitle>Myasthenia Symposium <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <unittitle>Myasthenia Symposium</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

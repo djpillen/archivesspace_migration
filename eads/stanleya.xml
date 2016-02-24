@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no92003683">Stanley, Albert A. (Albert Augustus), 1851-1932.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no92003683" ref="/agents/people/1863">Stanley, Albert A. (Albert Augustus), 1851-1932.</persname>
       </origination>
-      <unittitle encodinganalog="245">Albert A. Stanley papers <unitdate type="inclusive" encodinganalog="245$f" normal="1890/1932" certainty="approximate">circa 1890s-1932</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8642 Aa 2</unitid>
+      <unittitle encodinganalog="245">Albert A. Stanley papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1890/1932" certainty="approximate">circa 1890s-1932</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8642 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of music and director of the University Musical Society at University of Michigan. Correspondence, articles, lectures, speeches, autobiography, and photographs.</abstract>
       <physdesc altrender="whole">
@@ -81,31 +81,31 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Music--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Musical instruments.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89606727">Stearns Collection of Musical Instruments.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88656146">Ann Arbor May Festival.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5709">Music--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10222">Musical instruments.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89606727" ref="/agents/corporate_entities/3244">Stearns Collection of Musical Instruments.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88656146" ref="/agents/corporate_entities/173">Ann Arbor May Festival.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/1001">University of Michigan. School of Music.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Composers.</subject>
-        <subject source="lctgm" encodinganalog="650">Musicians.</subject>
-        <subject source="lctgm" encodinganalog="650">Organs.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92003683">Stanley, Albert A. (Albert Augustus), 1851-1932.</persname>
-        <famname source="lcnaf" encodinganalog="600">Stanley family.</famname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4409">Composers.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4063">Musicians.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4064">Organs.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92003683" ref="/agents/people/1863">Stanley, Albert A. (Albert Augustus), 1851-1932.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/319">Stanley family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79110487">Holst, Gustav, 1874-1934.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr90001124">Kelsey, Francis W. (Francis Willey), 1858-1927.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79122078">Sousa, John Philip, 1854-1932.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79110487" ref="/agents/people/1507">Holst, Gustav, 1874-1934.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr90001124" ref="/agents/people/2049">Kelsey, Francis W. (Francis Willey), 1858-1927.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79122078" ref="/agents/people/6378">Sousa, John Philip, 1854-1932.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -123,8 +123,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [536033660442928630065]">1</container>
-              <unittitle>Portraits and photos of Stanley with his wife and seated at an organ <unitdate type="inclusive" normal="1890/1929" certainty="approximate">circa 1890s-1920s</unitdate></unittitle>
-            </did>
+              <unittitle>Portraits and photos of Stanley with his wife and seated at an organ</unittitle><unitdate type="inclusive" normal="1890/1929" certainty="approximate">circa 1890s-1920s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -148,8 +147,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [536033660442928630065]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1913/1932">1913-1932</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1913/1932">1913-1932</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -160,14 +158,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [536033660442928630065]">1</container>
-            <unittitle>International Musical Society correspondence and reports <unitdate type="inclusive" normal="1907/1911">1907-1911</unitdate></unittitle>
-          </did>
+            <unittitle>International Musical Society correspondence and reports</unittitle><unitdate type="inclusive" normal="1907/1911">1907-1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [536033660442928630065]">1</container>
-            <unittitle>Last will and testament <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-          </did>
+            <unittitle>Last will and testament</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -184,8 +180,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [536033660442928630065]">1</container>
-            <unittitle>Reviews of "Greek Themes in Modern Musical Settings" <unitdate type="inclusive" normal="1924">1924</unitdate></unittitle>
-          </did>
+            <unittitle>Reviews of "Greek Themes in Modern Musical Settings"</unittitle><unitdate type="inclusive" normal="1924">1924</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -225,8 +220,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [536033660442928630065]">1</container>
-            <unittitle>Commencement address, University of Michigan School of Music <unitdate type="inclusive" normal="1920">1920</unitdate>, <unitdate type="inclusive" normal="1921">1921</unitdate></unittitle>
-          </did>
+            <unittitle>Commencement address, University of Michigan School of Music</unittitle><unitdate type="inclusive" normal="1920">1920</unitdate><unitdate type="inclusive" normal="1921">1921</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -291,8 +285,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [536033660442928630065]">1</container>
-            <unittitle>"Modern and Colonial" paper of Mrs. Albert A. Stanley read before the Daughters of the American Revolution <unitdate type="inclusive" normal="1907">1907</unitdate></unittitle>
-          </did>
+            <unittitle>"Modern and Colonial" paper of Mrs. Albert A. Stanley read before the Daughters of the American Revolution</unittitle><unitdate type="inclusive" normal="1907">1907</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -377,8 +370,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7241081246984454]">3</container>
-            <unittitle>Commemorative volume presented to A.A. Stanley on the occasion of the Twentieth Annual May Festival <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
-          </did>
+            <unittitle>Commemorative volume presented to A.A. Stanley on the occasion of the Twentieth Annual May Festival</unittitle><unitdate type="inclusive" normal="1913">1913</unitdate></did>
           <odd>
             <p>(includes medallion)</p>
           </odd>

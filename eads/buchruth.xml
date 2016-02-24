@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Buchanan, Ruth B., 1882-1953.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/821">Buchanan, Ruth B., 1882-1953.</persname>
       </origination>
-      <unittitle encodinganalog="245">Ruth B. Buchanan papers <unitdate type="inclusive" encodinganalog="245$f" normal="1928/1953">1928-1953</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85965 Aa 2; UAm</unitid>
+      <unittitle encodinganalog="245">Ruth B. Buchanan papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1928/1953">1928-1953</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85965 Aa 2; UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Employee of the museum at the University of Michigan. Letters received from University of Michigan students and alumni serving in the military during World War II and the Korean War; also miscellaneous and photographs.</abstract>
       <physdesc altrender="part">
@@ -83,44 +83,44 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Bridges.</subject>
-        <persname source="lcnaf" encodinganalog="600">Buchanan, Ruth B., 1882-1953.</persname>
-        <subject source="lcsh" encodinganalog="650">Korean War, 1950-1953.</subject>
-        <subject source="lcsh" encodinganalog="650">Soldiers--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945--Education and the war.</subject>
-        <subject source="lcsh" encodinganalog="650">Korean War, 1950-1953--Education and the war.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6084">Bridges.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/821">Buchanan, Ruth B., 1882-1953.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6539">Korean War, 1950-1953.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6540">Soldiers--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5746">Women--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6049">World War, 1939-1945--Education and the war.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6541">Korean War, 1950-1953--Education and the war.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Bacon, Elbridge F.</persname>
-        <persname source="lcnaf" encodinganalog="600">Buchanan, Ruth B., 1882-1953.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Camp Grayling (Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Covered bridges.</subject>
-        <subject source="lcsh" encodinganalog="650">Korean War, 1950-1953.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587">Michigan. National Guard.</corpname>
-        <subject source="lctgm" encodinganalog="650">Military camps.</subject>
-        <subject source="lctgm" encodinganalog="650">Military parades and ceremonies.</subject>
-        <subject source="lctgm" encodinganalog="650">Soldiers--American.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059051">United States. Navy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Museum.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85218743">United States. Naval Reserve Officers' Training Corps.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Navy V-12 Program.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945--Education and the war.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2839">Bacon, Elbridge F.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/821">Buchanan, Ruth B., 1882-1953.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3088">Camp Grayling (Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3985">Covered bridges.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6539">Korean War, 1950-1953.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587" ref="/agents/corporate_entities/2373">Michigan. National Guard.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3745">Military camps.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3982">Military parades and ceremonies.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3672">Soldiers--American.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059051" ref="/agents/corporate_entities/1768">United States. Navy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/972">University of Michigan. University Museum.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85218743" ref="/agents/corporate_entities/303">United States. Naval Reserve Officers' Training Corps.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3390">University of Michigan. Navy V-12 Program.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6049">World War, 1939-1945--Education and the war.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6050">World War, 1939-1945--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79104234">Addams, Jane, 1860-1935.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79066408">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86125368">Nimitz, Chester W. (Chester William), 1885-1966.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79104234" ref="/agents/people/5174">Addams, Jane, 1860-1935.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79066408" ref="/agents/people/3747">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86125368" ref="/agents/people/793">Nimitz, Chester W. (Chester William), 1885-1966.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="655">Drawings.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3462">Drawings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -793,8 +793,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [333485392480891681938023]">4</container>
-            <unittitle>Miscellaneous correspondence, including letter from Jane Addams <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-          </did>
+            <unittitle>Miscellaneous correspondence, including letter from Jane Addams</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

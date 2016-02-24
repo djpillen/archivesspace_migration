@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Thom, Robert A.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2436">Thom, Robert A.</persname>
       </origination>
-      <unittitle encodinganalog="245">A History of Michigan in Paintings <unitdate type="inclusive" encodinganalog="245$f" normal="1964/1967" certainty="approximate">circa 1964-1967</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">88574 UAm</unitid>
+      <unittitle encodinganalog="245">A History of Michigan in Paintings</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1964/1967" certainty="approximate">circa 1964-1967</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">88574 UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">25 photographs</extent>
@@ -72,44 +72,44 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lcsh" encodinganalog="650">Automobiles--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n94052687">Cadillac, Antoine Laumet de Lamothe, 1658-1730.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50034113">Cass, Lewis, 1782-1866.</persname>
-        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Pictorial works.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Fort Michilimackinac (Mackinaw City, Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Fort Mackinac (Mackinac Island, Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Fur trade--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85306243">Harvey, Charles Thompson, 1829-1912.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162">Houghton, Douglass, 1809-1845.</persname>
-        <subject source="lcsh" encodinganalog="650">Indians of North America--Michigan.</subject>
-        <subject source="local" encodinganalog="690">Interiors--Schools.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50054922">Joliet, Louis, 1645-1700.</persname>
-        <geogname source="lcsh" encodinganalog="651">Kalamazoo (Mich.)--Pictorial works.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50043391">La Salle, Robert Cavelier, sieur de, 1643-1687.</persname>
-        <geogname source="lcsh" encodinganalog="651">Lansing (Mich.)--Pictorial works.</geogname>
-        <subject source="lctgm" encodinganalog="650">Lumber industry.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80103649">Marquette, Jacques, 1637-1675.</persname>
-        <geogname source="lcsh" encodinganalog="651">Marquette (Mich.)--Pictorial works.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81076840">Mason, Stevens Thomson, 1811-1843.</persname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Capital and capitol.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--History.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85373910">Perry, Oliver Hazard, 1785-1819.</persname>
-        <geogname source="lcsh" encodinganalog="651">Pictured Rocks (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Railroads--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Saint Lusson, Simon François Daumont, sieur de, fl. 17th cent.</persname>
-        <geogname source="lcsh" encodinganalog="651">Sault Sainte Marie (Mich.)--Pictorial works.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Sault Sainte Marie Canal (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Ships--Great Lakes.</subject>
-        <geogname source="lcsh" encodinganalog="651">United States--History--War of 1812.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n97063470">United States. Army. Michigan Infantry Regiment, 24th (1862-1865)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Bomber Plant.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10375">Automobiles--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n94052687" ref="/agents/people/8164">Cadillac, Antoine Laumet de Lamothe, 1658-1730.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50034113" ref="/agents/people/1240">Cass, Lewis, 1782-1866.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2962">Detroit (Mich.)--Pictorial works.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1488">Fort Michilimackinac (Mackinaw City, Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2566">Fort Mackinac (Mackinac Island, Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6178">Fur trade--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85306243" ref="/agents/people/147">Harvey, Charles Thompson, 1829-1912.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162" ref="/agents/people/8644">Houghton, Douglass, 1809-1845.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6077">Indians of North America--Michigan.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3560">Interiors--Schools.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50054922" ref="/agents/people/6468">Joliet, Louis, 1645-1700.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2963">Kalamazoo (Mich.)--Pictorial works.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50043391" ref="/agents/people/7656">La Salle, Robert Cavelier, sieur de, 1643-1687.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2964">Lansing (Mich.)--Pictorial works.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3664">Lumber industry.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80103649" ref="/agents/people/1181">Marquette, Jacques, 1637-1675.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2965">Marquette (Mich.)--Pictorial works.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81076840" ref="/agents/people/4430">Mason, Stevens Thomson, 1811-1843.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1851">Michigan--Capital and capitol.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/977">Michigan--History.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85373910" ref="/agents/people/4117">Perry, Oliver Hazard, 1785-1819.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1723">Pictured Rocks (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6684">Railroads--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8273">Saint Lusson, Simon François Daumont, sieur de, fl. 17th cent.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2966">Sault Sainte Marie (Mich.)--Pictorial works.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/994">Sault Sainte Marie Canal (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3979">Ships--Great Lakes.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2967">United States--History--War of 1812.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/905">United States--History--Civil War, 1861-1865.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n97063470" ref="/agents/corporate_entities/4631">United States. Army. Michigan Infantry Regiment, 24th (1862-1865)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2910">Willow Run Bomber Plant.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97068662">Bald, F. Clever (Frederick Clever), 1897-1970.</persname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79068496">Michigan Historical Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Michigan Bell Telephone Company.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97068662" ref="/agents/people/2304">Bald, F. Clever (Frederick Clever), 1897-1970.</persname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79068496" ref="/agents/corporate_entities/3097">Michigan Historical Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/1136">Michigan Bell Telephone Company.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -194,8 +194,7 @@
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [365888864859453152216]">UAm</container>
-              <unittitle>Charles Harvey builds the locks: <unitdate normal="1853/1855" type="inclusive">1853-1855</unitdate></unittitle>
-            </did>
+              <unittitle>Charles Harvey builds the locks:</unittitle><unitdate normal="1853/1855" type="inclusive">1853-1855</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -211,8 +210,7 @@
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [365888864859453152216]">UAm</container>
-              <unittitle>When Pine was King: <unitdate normal="1840/1890" type="inclusive">1840-1890</unitdate></unittitle>
-            </did>
+              <unittitle>When Pine was King:</unittitle><unitdate normal="1840/1890" type="inclusive">1840-1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -269,8 +267,7 @@
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [365888864859453152216]">UAm</container>
-              <unittitle>Michigan in the Civil War: <unitdate normal="1861/1865" type="inclusive">1861-1865</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan in the Civil War:</unittitle><unitdate normal="1861/1865" type="inclusive">1861-1865</unitdate></did>
           </c03>
           <c03 level="file">
             <did>

@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2004052855">Johnston, Clarence Thomas, 1872-1970.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2004052855" ref="/agents/people/2417">Johnston, Clarence Thomas, 1872-1970.</persname>
       </origination>
-      <unittitle encodinganalog="245">Clarence T. Johnston papers <unitdate type="inclusive" encodinganalog="245$f" normal="1888/1941">1888-1941</unitdate></unittitle>
-      <abstract>Professor of engineering at the University of Michigan. Photos of Johnston's personal and family life in Wyoming and Michigan, including student activities at the University of Michigan; photos of his work on water projects in the West and in Egypt; and photos of Camp Davis, the summer engineering camp of the University of Michigan in Cheboygan Co., Michigan.</abstract>
+      <unittitle encodinganalog="245">Clarence T. Johnston papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1888/1941">1888-1941</unitdate><abstract>Professor of engineering at the University of Michigan. Photos of Johnston's personal and family life in Wyoming and Michigan, including student activities at the University of Michigan; photos of his work on water projects in the West and in Egypt; and photos of Camp Davis, the summer engineering camp of the University of Michigan in Cheboygan Co., Michigan.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">88344 Aa2 UAm</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -105,44 +105,44 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <subject source="lcsh" encodinganalog="650">Engineers--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Congregational Church (Ann Arbor, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004052855">Johnston, Clarence Thomas, 1872-1970.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Relicted Lands Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">State Drain Commissioners Association (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Student Religious Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Senate Council.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6404">Engineers--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/518">First Congregational Church (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004052855" ref="/agents/people/2417">Johnston, Clarence Thomas, 1872-1970.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1552">Michigan. Relicted Lands Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3603">State Drain Commissioners Association (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/600">University of Michigan. Student Religious Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/304">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1076">University of Michigan. Senate Council.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <subject source="lctgm" encodinganalog="650">Boats.</subject>
-        <geogname source="lcsh" encodinganalog="651">Burt Lake (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Camp Davis (University of Michigan)</geogname>
-        <subject source="lctgm" encodinganalog="650">Camping.</subject>
-        <subject source="lctgm" encodinganalog="650">Canals.</subject>
-        <subject source="lctgm" encodinganalog="650">Dams.</subject>
-        <geogname source="lcsh" encodinganalog="651">Douglas Lake (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Egypt.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Grand Teton National Park (Wyo.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Idaho.</geogname>
-        <subject source="lcsh" encodinganalog="650">Indians of North America.</subject>
-        <subject source="lctgm" encodinganalog="650">Irrigation.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004052855">Johnston, Clarence Thomas, 1872-1970.</persname>
-        <famname source="lcnaf" encodinganalog="600">Johnston family.</famname>
-        <subject source="lctgm" encodinganalog="650">Photographers.</subject>
-        <subject source="lctgm" encodinganalog="650">Surveying--Wyoming.</subject>
-        <subject source="lctgm" encodinganalog="650">Surveying--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Wyoming.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Yellowstone National Park.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3741">Boats.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2128">Burt Lake (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1605">Camp Davis (University of Michigan)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3650">Camping.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4584">Canals.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4324">Dams.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1604">Douglas Lake (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/888">Egypt.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2129">Grand Teton National Park (Wyo.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1672">Idaho.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6751">Indians of North America.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4585">Irrigation.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004052855" ref="/agents/people/2417">Johnston, Clarence Thomas, 1872-1970.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/21">Johnston family.</famname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4386">Photographers.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4077">Surveying--Wyoming.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4078">Surveying--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs.<term type="topical">Students</term><term type="topical">Social life and customs.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1606">Wyoming.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1642">Yellowstone National Park.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="gmgpc" encodinganalog="655">Cyanotypes.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Glass photonegatives.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3472">Cyanotypes.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3495">Glass photonegatives.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -159,10 +159,7 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1894">1894</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1894">1894</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
@@ -184,15 +181,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1895">1895</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1895">1895</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>View on the Huron from peach orchard, Ann Arbor <unitdate type="inclusive" normal="1895" certainty="approximate">circa 1895</unitdate></unittitle>
-              </did>
+                <unittitle>View on the Huron from peach orchard, Ann Arbor</unittitle><unitdate type="inclusive" normal="1895" certainty="approximate">circa 1895</unitdate></did>
               <odd>
                 <p>[75]</p>
               </odd>
@@ -209,8 +202,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Camp at Fountain Point, Sunday afternoon <unitdate type="inclusive" normal="1895">1895</unitdate></unittitle>
-              </did>
+                <unittitle>Camp at Fountain Point, Sunday afternoon</unittitle><unitdate type="inclusive" normal="1895">1895</unitdate></did>
               <odd>
                 <p>(Lefavour? missing)</p>
               </odd>
@@ -280,15 +272,11 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1895">1895</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1895">1895</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Group at Mrs. Woods, 19th &amp; Copan?, Cheyenne, WY <unitdate type="inclusive" normal="1895-10-10">October 10, 1895</unitdate></unittitle>
-              </did>
+                <unittitle>Group at Mrs. Woods, 19th &amp; Copan?, Cheyenne, WY</unittitle><unitdate type="inclusive" normal="1895-10-10">October 10, 1895</unitdate></did>
               <odd>
                 <p>[243]</p>
               </odd>
@@ -314,15 +302,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1896">1896</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1896">1896</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Four horse stage coach, Baggs, WY <unitdate type="inclusive" normal="1896-05-01">May 1, 1896</unitdate></unittitle>
-              </did>
+                <unittitle>Four horse stage coach, Baggs, WY</unittitle><unitdate type="inclusive" normal="1896-05-01">May 1, 1896</unitdate></did>
               <odd>
                 <p>[196]</p>
               </odd>
@@ -330,8 +314,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Six girls and wheels, 408 W. 23 <unitdate type="inclusive" normal="1896-09-28">September 28, 1896</unitdate></unittitle>
-              </did>
+                <unittitle>Six girls and wheels, 408 W. 23</unittitle><unitdate type="inclusive" normal="1896-09-28">September 28, 1896</unitdate></did>
               <odd>
                 <p>[21]</p>
               </odd>
@@ -339,10 +322,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1897">1897</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1897">1897</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
@@ -355,8 +335,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Miss Shane, Emma O'B., Bessie, Effie, Gussie <unitdate type="inclusive" normal="1897-07">July 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Miss Shane, Emma O'B., Bessie, Effie, Gussie</unittitle><unitdate type="inclusive" normal="1897-07">July 1897</unitdate></did>
               <odd>
                 <p>[298]</p>
               </odd>
@@ -364,8 +343,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Group 408 W. 23, 20 girls <unitdate type="inclusive" normal="1897-08-02">August 2, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Group 408 W. 23, 20 girls</unittitle><unitdate type="inclusive" normal="1897-08-02">August 2, 1897</unitdate></did>
               <odd>
                 <p>[300]</p>
               </odd>
@@ -373,14 +351,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>(Group below falls, picnic outing) <unitdate type="inclusive" normal="1897-07-05">July 5, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>(Group below falls, picnic outing)</unittitle><unitdate type="inclusive" normal="1897-07-05">July 5, 1897</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Large group below falls, picnic <unitdate type="inclusive" normal="1897-07-05">July 5, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Large group below falls, picnic</unittitle><unitdate type="inclusive" normal="1897-07-05">July 5, 1897</unitdate></did>
               <odd>
                 <p>[445]</p>
               </odd>
@@ -388,8 +364,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Group on Middle Crow Creek Picnic <unitdate type="inclusive" normal="1897-07-05">July 5, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Group on Middle Crow Creek Picnic</unittitle><unitdate type="inclusive" normal="1897-07-05">July 5, 1897</unitdate></did>
               <odd>
                 <p>[446]</p>
               </odd>
@@ -397,8 +372,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Group at Stephenson's Picnic <unitdate type="inclusive" normal="1897-07-05">July 5, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Group at Stephenson's Picnic</unittitle><unitdate type="inclusive" normal="1897-07-05">July 5, 1897</unitdate></did>
               <odd>
                 <p>[447]</p>
               </odd>
@@ -406,15 +380,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1898">1898</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1898">1898</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>1822 Pebrican? <unitdate type="inclusive" normal="1898-04">April 1898</unitdate></unittitle>
-              </did>
+                <unittitle>1822 Pebrican?</unittitle><unitdate type="inclusive" normal="1898-04">April 1898</unitdate></did>
               <odd>
                 <p>[341]</p>
               </odd>
@@ -422,8 +392,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Louie, Frank, and William, 1822 Pebrioau? <unitdate type="inclusive" normal="1898-07-10">July 10, 1898</unitdate></unittitle>
-              </did>
+                <unittitle>Louie, Frank, and William, 1822 Pebrioau?</unittitle><unitdate type="inclusive" normal="1898-07-10">July 10, 1898</unitdate></did>
               <odd>
                 <p>[361]</p>
               </odd>
@@ -437,8 +406,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Pebrican? <unitdate type="inclusive" normal="1898-07-10">July 10, 1898</unitdate></unittitle>
-              </did>
+                <unittitle>Pebrican?</unittitle><unitdate type="inclusive" normal="1898-07-10">July 10, 1898</unitdate></did>
               <odd>
                 <p>[362]</p>
               </odd>
@@ -446,8 +414,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Dr. Carey's house <unitdate type="inclusive" normal="1898-08">August 1898</unitdate></unittitle>
-              </did>
+                <unittitle>Dr. Carey's house</unittitle><unitdate type="inclusive" normal="1898-08">August 1898</unitdate></did>
               <odd>
                 <p>[370]</p>
               </odd>
@@ -455,8 +422,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>McGraw's house 20 miles up Bear River from Evanston <unitdate type="inclusive" normal="1898-09-12">September 12, 1898</unitdate></unittitle>
-              </did>
+                <unittitle>McGraw's house 20 miles up Bear River from Evanston</unittitle><unitdate type="inclusive" normal="1898-09-12">September 12, 1898</unitdate></did>
               <odd>
                 <p>[376]</p>
               </odd>
@@ -464,8 +430,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Hay stacks in Christensen's and Whitney's field, 20 miles below Evanston <unitdate type="inclusive" normal="1898-09-14">September 14, 1898</unitdate></unittitle>
-              </did>
+                <unittitle>Hay stacks in Christensen's and Whitney's field, 20 miles below Evanston</unittitle><unitdate type="inclusive" normal="1898-09-14">September 14, 1898</unitdate></did>
               <odd>
                 <p>[379]</p>
               </odd>
@@ -473,15 +438,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1899">1899</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1899">1899</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Clarence N. Johnston <unitdate type="inclusive" normal="1899-05-08">May 8, 1899</unitdate></unittitle>
-              </did>
+                <unittitle>Clarence N. Johnston</unittitle><unitdate type="inclusive" normal="1899-05-08">May 8, 1899</unitdate></did>
               <odd>
                 <p>[471]</p>
               </odd>
@@ -489,8 +450,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Clarence N. Johnston (7 months) <unitdate type="inclusive" normal="1899-05-31">May 31, 1899</unitdate></unittitle>
-              </did>
+                <unittitle>Clarence N. Johnston (7 months)</unittitle><unitdate type="inclusive" normal="1899-05-31">May 31, 1899</unitdate></did>
               <odd>
                 <p>[477]</p>
               </odd>
@@ -498,8 +458,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Clarence N. Johnston (7 months) <unitdate type="inclusive" normal="1899-05-31">May 31, 1899</unitdate></unittitle>
-              </did>
+                <unittitle>Clarence N. Johnston (7 months)</unittitle><unitdate type="inclusive" normal="1899-05-31">May 31, 1899</unitdate></did>
               <odd>
                 <p>[478]</p>
               </odd>
@@ -516,15 +475,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900">1900</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1900">1900</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>C.N. Johnston <unitdate type="inclusive" normal="1900-01-20">January 20, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>C.N. Johnston</unittitle><unitdate type="inclusive" normal="1900-01-20">January 20, 1900</unitdate></did>
               <odd>
                 <p>[487]</p>
               </odd>
@@ -532,8 +487,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>C.N. Johnston <unitdate type="inclusive" normal="1900-03-30">March 30, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>C.N. Johnston</unittitle><unitdate type="inclusive" normal="1900-03-30">March 30, 1900</unitdate></did>
               <odd>
                 <p>[490]</p>
               </odd>
@@ -541,8 +495,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>C.N. Johnston <unitdate type="inclusive" normal="1900-03-30">March 30, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>C.N. Johnston</unittitle><unitdate type="inclusive" normal="1900-03-30">March 30, 1900</unitdate></did>
               <odd>
                 <p>[491]</p>
               </odd>
@@ -550,8 +503,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Overalls group of babies, 1822 Pebrican? St. <unitdate type="inclusive" normal="1900-05-13">May 13, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>Overalls group of babies, 1822 Pebrican? St.</unittitle><unitdate type="inclusive" normal="1900-05-13">May 13, 1900</unitdate></did>
               <odd>
                 <p>[502]</p>
               </odd>
@@ -559,8 +511,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Group of babies, 1822 Pebrican? St. <unitdate type="inclusive" normal="1900-04-29">April 29, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>Group of babies, 1822 Pebrican? St.</unittitle><unitdate type="inclusive" normal="1900-04-29">April 29, 1900</unitdate></did>
               <odd>
                 <p>[504]</p>
               </odd>
@@ -568,8 +519,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Group of babies, 1822 Pebrican? St. <unitdate type="inclusive" normal="1900-04-29">April 29, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>Group of babies, 1822 Pebrican? St.</unittitle><unitdate type="inclusive" normal="1900-04-29">April 29, 1900</unitdate></did>
               <odd>
                 <p>[506]</p>
               </odd>
@@ -577,8 +527,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>William Booker, Jr. <unitdate type="inclusive" normal="1900-05-06">May 6, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>William Booker, Jr.</unittitle><unitdate type="inclusive" normal="1900-05-06">May 6, 1900</unitdate></did>
               <odd>
                 <p>[507]</p>
               </odd>
@@ -586,8 +535,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>House, 1822 Pebrican? St. <unitdate type="inclusive" normal="1900-06-03">June 3, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>House, 1822 Pebrican? St.</unittitle><unitdate type="inclusive" normal="1900-06-03">June 3, 1900</unitdate></did>
               <odd>
                 <p>[509]</p>
               </odd>
@@ -595,8 +543,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Shingles House <unitdate type="inclusive" normal="1900-06-03">June 3, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>Shingles House</unittitle><unitdate type="inclusive" normal="1900-06-03">June 3, 1900</unitdate></did>
               <odd>
                 <p>[510]</p>
               </odd>
@@ -604,8 +551,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>House, 1822 Pebrican? <unitdate type="inclusive" normal="1900-06-03">June 3, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>House, 1822 Pebrican?</unittitle><unitdate type="inclusive" normal="1900-06-03">June 3, 1900</unitdate></did>
               <odd>
                 <p>[511]</p>
               </odd>
@@ -613,8 +559,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>CNJ <unitdate type="inclusive" normal="1900-07-07">July 7, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>CNJ</unittitle><unitdate type="inclusive" normal="1900-07-07">July 7, 1900</unitdate></did>
               <odd>
                 <p>[1001]</p>
               </odd>
@@ -622,8 +567,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>CNJ <unitdate type="inclusive" normal="1900-07-07">July 7, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>CNJ</unittitle><unitdate type="inclusive" normal="1900-07-07">July 7, 1900</unitdate></did>
               <odd>
                 <p>[1002]</p>
               </odd>
@@ -640,8 +584,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>CNJ <unitdate type="inclusive" normal="1900-12">December 1900</unitdate></unittitle>
-              </did>
+                <unittitle>CNJ</unittitle><unitdate type="inclusive" normal="1900-12">December 1900</unitdate></did>
               <odd>
                 <p>[1004]</p>
               </odd>
@@ -649,10 +592,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900" certainty="approximate">circa 1900</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1900" certainty="approximate">circa 1900</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
@@ -674,15 +614,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1901">1901</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1901">1901</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Group, Mrs. Nettleton's <unitdate type="inclusive" normal="1901-02-22">February 22, 1901</unitdate></unittitle>
-              </did>
+                <unittitle>Group, Mrs. Nettleton's</unittitle><unitdate type="inclusive" normal="1901-02-22">February 22, 1901</unitdate></did>
               <odd>
                 <p>[1007]</p>
               </odd>
@@ -690,8 +626,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Franklin just-out-of the bath <unitdate type="inclusive" normal="1901-03">March 1901</unitdate></unittitle>
-              </did>
+                <unittitle>Franklin just-out-of the bath</unittitle><unitdate type="inclusive" normal="1901-03">March 1901</unitdate></did>
               <odd>
                 <p>[1008]</p>
               </odd>
@@ -708,8 +643,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Clarence with his cart <unitdate type="inclusive" normal="1901-04">April 1901</unitdate></unittitle>
-              </did>
+                <unittitle>Clarence with his cart</unittitle><unitdate type="inclusive" normal="1901-04">April 1901</unitdate></did>
               <odd>
                 <p>[1010]</p>
               </odd>
@@ -729,8 +663,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Franklin <unitdate type="inclusive" normal="1901-06-23">June 23, 1901</unitdate></unittitle>
-              </did>
+                <unittitle>Franklin</unittitle><unitdate type="inclusive" normal="1901-06-23">June 23, 1901</unitdate></did>
               <odd>
                 <p>[1013]</p>
               </odd>
@@ -738,8 +671,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Franklin <unitdate type="inclusive" normal="1901-06-23">June 23, 1901</unitdate></unittitle>
-              </did>
+                <unittitle>Franklin</unittitle><unitdate type="inclusive" normal="1901-06-23">June 23, 1901</unitdate></did>
               <odd>
                 <p>[1014]</p>
               </odd>
@@ -747,8 +679,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Bessie and Franklin <unitdate type="inclusive" normal="1901-08-18">August 18, 1901</unitdate></unittitle>
-              </did>
+                <unittitle>Bessie and Franklin</unittitle><unitdate type="inclusive" normal="1901-08-18">August 18, 1901</unitdate></did>
               <odd>
                 <p>[1015]</p>
               </odd>
@@ -756,8 +687,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Clarence <unitdate type="inclusive" normal="1901-08-18">August 18, 1901</unitdate></unittitle>
-              </did>
+                <unittitle>Clarence</unittitle><unitdate type="inclusive" normal="1901-08-18">August 18, 1901</unitdate></did>
               <odd>
                 <p>[1016]</p>
               </odd>
@@ -765,15 +695,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1902">1902</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1902">1902</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Franklin <unitdate type="inclusive" normal="1902-06">June 1902</unitdate></unittitle>
-              </did>
+                <unittitle>Franklin</unittitle><unitdate type="inclusive" normal="1902-06">June 1902</unitdate></did>
               <odd>
                 <p>[1017]</p>
               </odd>
@@ -781,8 +707,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Clarence <unitdate type="inclusive" normal="1902-06">June 1902</unitdate></unittitle>
-              </did>
+                <unittitle>Clarence</unittitle><unitdate type="inclusive" normal="1902-06">June 1902</unitdate></did>
               <odd>
                 <p>[1018]</p>
               </odd>
@@ -790,10 +715,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1903" certainty="approximate">circa 1903</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1903" certainty="approximate">circa 1903</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
@@ -815,10 +737,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1888">1888</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1888">1888</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
@@ -831,15 +750,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1903">1903</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1903">1903</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Gleason, Johnston, and Williams children <unitdate type="inclusive" normal="1903-07">July, 1903</unitdate></unittitle>
-              </did>
+                <unittitle>Gleason, Johnston, and Williams children</unittitle><unitdate type="inclusive" normal="1903-07">July, 1903</unitdate></did>
               <odd>
                 <p>[1022]</p>
               </odd>
@@ -847,10 +762,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1904">1904</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1904">1904</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
@@ -863,8 +775,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Louise, Franklin, Clarence, Anna <unitdate type="inclusive" normal="1904-06-19">June 19, 1904</unitdate></unittitle>
-              </did>
+                <unittitle>Louise, Franklin, Clarence, Anna</unittitle><unitdate type="inclusive" normal="1904-06-19">June 19, 1904</unitdate></did>
               <odd>
                 <p>[1024]</p>
               </odd>
@@ -905,8 +816,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>C.T. Johnston, far right (when State Engineer of Wy? <unitdate normal="1903/1911" type="inclusive">1903-1911</unitdate>)</unittitle>
-              </did>
+                <unittitle>C.T. Johnston, far right (when State Engineer of Wy? )</unittitle><unitdate normal="1903/1911" type="inclusive">1903-1911</unitdate></did>
               <odd>
                 <p>[1030]</p>
               </odd>
@@ -914,8 +824,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>C.T. Johnston, far right (when State Engineer of Wy? <unitdate normal="1903/1911" type="inclusive">1903-1911</unitdate>)</unittitle>
-              </did>
+                <unittitle>C.T. Johnston, far right (when State Engineer of Wy? )</unittitle><unitdate normal="1903/1911" type="inclusive">1903-1911</unitdate></did>
               <odd>
                 <p>[1031]</p>
               </odd>
@@ -928,15 +837,11 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1904">1904</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1904">1904</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>Cheyenne Park <unitdate type="inclusive" normal="1904-06-26">June 26, 1904</unitdate></unittitle>
-              </did>
+                <unittitle>Cheyenne Park</unittitle><unitdate type="inclusive" normal="1904-06-26">June 26, 1904</unitdate></did>
               <odd>
                 <p>[1032]</p>
               </odd>
@@ -1025,15 +930,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1905">1905</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1905">1905</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>(Snow scene) <unitdate type="inclusive" normal="1905-04">April 1905</unitdate></unittitle>
-              </did>
+                <unittitle>(Snow scene)</unittitle><unitdate type="inclusive" normal="1905-04">April 1905</unitdate></did>
               <odd>
                 <p>[1045]</p>
               </odd>
@@ -1041,8 +942,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
-                <unittitle>(Snow on tree-lined street) <unitdate type="inclusive" normal="1905-04">April 1905</unitdate></unittitle>
-              </did>
+                <unittitle>(Snow on tree-lined street)</unittitle><unitdate type="inclusive" normal="1905-04">April 1905</unitdate></did>
               <odd>
                 <p>[1046]</p>
               </odd>
@@ -1073,10 +973,7 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1906" certainty="approximate">circa 1906</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1906" certainty="approximate">circa 1906</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
@@ -1228,14 +1125,10 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Granite Springs Camplight Trip <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
-          </did>
+            <unittitle>Granite Springs Camplight Trip</unittitle><unitdate type="inclusive" normal="1908">1908</unitdate></did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1908" certainty="approximate">circa 1908</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1908" certainty="approximate">circa 1908</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
@@ -1284,10 +1177,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1908">1908</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1908">1908</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52403221742792917500548881]">8:1</container>
@@ -1513,8 +1403,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Country House <unitdate>undated</unitdate></unittitle>
-          </did>
+            <unittitle>Country House</unittitle><unitdate>undated</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
@@ -1583,8 +1472,7 @@
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle>Building Demolition <unitdate>Undated</unitdate></unittitle>
-          </did>
+            <unittitle>Building Demolition</unittitle><unitdate>Undated</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
@@ -1615,8 +1503,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Reservoirs <unitdate type="inclusive" normal="1897" certainty="approximate">circa 1897</unitdate></unittitle>
-          </did>
+            <unittitle>Reservoirs</unittitle><unitdate type="inclusive" normal="1897" certainty="approximate">circa 1897</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
@@ -1722,7 +1609,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>looking down Big Goose Valley</unittitle>
+              <unittitle>Looking down Big Goose Valley</unittitle>
             </did>
             <odd>
               <p>[2026]</p>
@@ -1752,8 +1639,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Dome Lake <unitdate type="inclusive" normal="1897" certainty="approximate">circa 1897</unitdate></unittitle>
-          </did>
+            <unittitle>Dome Lake</unittitle><unitdate type="inclusive" normal="1897" certainty="approximate">circa 1897</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
@@ -1824,15 +1710,11 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1896">1896</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1896">1896</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Stand Pipe, day of test, West Side Mining Co., Routte, Colorado <unitdate type="inclusive" normal="1896-07">July 1896</unitdate></unittitle>
-              </did>
+                <unittitle>Stand Pipe, day of test, West Side Mining Co., Routte, Colorado</unittitle><unitdate type="inclusive" normal="1896-07">July 1896</unitdate></did>
               <odd>
                 <p>[190]</p>
               </odd>
@@ -1840,8 +1722,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Platte River before entering Canyon <unitdate type="inclusive" normal="1896-09-03">September 3, 1896</unitdate></unittitle>
-              </did>
+                <unittitle>Platte River before entering Canyon</unittitle><unitdate type="inclusive" normal="1896-09-03">September 3, 1896</unitdate></did>
               <odd>
                 <p>[228]</p>
               </odd>
@@ -1849,8 +1730,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Cliffs in Platte Canyon <unitdate type="inclusive" normal="1896-09-03">September 3, 1896</unitdate></unittitle>
-              </did>
+                <unittitle>Cliffs in Platte Canyon</unittitle><unitdate type="inclusive" normal="1896-09-03">September 3, 1896</unitdate></did>
               <odd>
                 <p>[229]</p>
               </odd>
@@ -1858,10 +1738,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1897" certainty="approximate">circa 1897</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1897" certainty="approximate">circa 1897</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
@@ -1892,15 +1769,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1897">1897</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1897">1897</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Dome Lake <unitdate type="inclusive" normal="1897-08-19">August 19, 1897</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Dome Lake</unittitle><unitdate type="inclusive" normal="1897-08-19">August 19, 1897</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 plates</extent>
                 </physdesc>
               </did>
@@ -1911,8 +1784,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Arant's? 15 miles W of Otto <unitdate type="inclusive" normal="1897-08-22">August 22, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Arant's? 15 miles W of Otto</unittitle><unitdate type="inclusive" normal="1897-08-22">August 22, 1897</unitdate></did>
               <odd>
                 <p>[389]</p>
               </odd>
@@ -1920,8 +1792,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Messrs. Hay, Mear, Nettleton, Johnston at Franoks? after losing the other members <unitdate type="inclusive" normal="1897-08-25">August 25, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Messrs. Hay, Mear, Nettleton, Johnston at Franoks? after losing the other members</unittitle><unitdate type="inclusive" normal="1897-08-25">August 25, 1897</unitdate></did>
               <odd>
                 <p>[395]</p>
               </odd>
@@ -1929,8 +1800,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Camp on Gooseberry, big tree <unitdate type="inclusive" normal="1897-08-27">August 27, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Camp on Gooseberry, big tree</unittitle><unitdate type="inclusive" normal="1897-08-27">August 27, 1897</unitdate></did>
               <odd>
                 <p>[398]</p>
               </odd>
@@ -1938,8 +1808,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Camp on Gooseberry <unitdate type="inclusive" normal="1897-08-27">August 27, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Camp on Gooseberry</unittitle><unitdate type="inclusive" normal="1897-08-27">August 27, 1897</unitdate></did>
               <odd>
                 <p>[400]</p>
               </odd>
@@ -1947,8 +1816,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Noon camp <unitdate type="inclusive" normal="1897-08-27">August 27, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Noon camp</unittitle><unitdate type="inclusive" normal="1897-08-27">August 27, 1897</unitdate></did>
               <odd>
                 <p>[401]</p>
               </odd>
@@ -1956,8 +1824,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Camp on Wind River <unitdate type="inclusive" normal="1897-08-29">August 29, 1897</unitdate> Taken morning August 30</unittitle>
-              </did>
+                <unittitle>Camp on Wind River  Taken morning August 30</unittitle><unitdate type="inclusive" normal="1897-08-29">August 29, 1897</unitdate></did>
               <odd>
                 <p>[403]</p>
               </odd>
@@ -1965,8 +1832,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Wind River 5 miles above Dubois, WY <unitdate type="inclusive" normal="1897-08-30">August 30, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Wind River 5 miles above Dubois, WY</unittitle><unitdate type="inclusive" normal="1897-08-30">August 30, 1897</unitdate></did>
               <odd>
                 <p>[405]</p>
               </odd>
@@ -1974,8 +1840,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Green River camp on W(estern) Pass, <unitdate type="inclusive" normal="1897-09-01">August 31 September 1, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Green River camp on W(estern) Pass</unittitle><unitdate type="inclusive" normal="1897-09-01">August 31 September 1, 1897</unitdate></did>
               <odd>
                 <p>[406]</p>
               </odd>
@@ -1983,8 +1848,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Cart going up a hill on G? <unitdate type="inclusive" normal="1897-09-02">September 2, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Cart going up a hill on G?</unittitle><unitdate type="inclusive" normal="1897-09-02">September 2, 1897</unitdate></did>
               <odd>
                 <p>[435]</p>
               </odd>
@@ -1992,8 +1856,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Park road through lodge pole pines <unitdate type="inclusive" normal="1897-09-06">September 6, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Park road through lodge pole pines</unittitle><unitdate type="inclusive" normal="1897-09-06">September 6, 1897</unitdate></did>
               <odd>
                 <p>[415]</p>
               </odd>
@@ -2001,8 +1864,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Bed of a torrential stream on E side, Jackson's Lake <unitdate type="inclusive" normal="1897-09-05">September 5, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Bed of a torrential stream on E side, Jackson's Lake</unittitle><unitdate type="inclusive" normal="1897-09-05">September 5, 1897</unitdate></did>
               <odd>
                 <p>[416]</p>
               </odd>
@@ -2010,8 +1872,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Falls on Gibbon River <unitdate type="inclusive" normal="1897-09-08">September 8, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Falls on Gibbon River</unittitle><unitdate type="inclusive" normal="1897-09-08">September 8, 1897</unitdate></did>
               <odd>
                 <p>[423]</p>
               </odd>
@@ -2019,8 +1880,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Rapids above Upper Falls <unitdate type="inclusive" normal="1897-09-09">September 9, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Rapids above Upper Falls</unittitle><unitdate type="inclusive" normal="1897-09-09">September 9, 1897</unitdate></did>
               <odd>
                 <p>[427]</p>
               </odd>
@@ -2028,8 +1888,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Beaver House Lupine Creek <unitdate type="inclusive" normal="1897-09-11">September 11, 1897</unitdate></unittitle>
-              </did>
+                <unittitle>Beaver House Lupine Creek</unittitle><unitdate type="inclusive" normal="1897-09-11">September 11, 1897</unitdate></did>
               <odd>
                 <p>[444]</p>
               </odd>
@@ -2037,15 +1896,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1898">1898</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1898">1898</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Canyon below Shaws Cottonwood Creek <unitdate type="inclusive" normal="1898-06">June 1898</unitdate></unittitle>
-              </did>
+                <unittitle>Canyon below Shaws Cottonwood Creek</unittitle><unitdate type="inclusive" normal="1898-06">June 1898</unitdate></did>
               <odd>
                 <p>[349]</p>
               </odd>
@@ -2053,8 +1908,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Dam site Newells Reservoir, Horse Shoe Creek <unitdate type="inclusive" normal="1898-06">June 1898</unitdate></unittitle>
-              </did>
+                <unittitle>Dam site Newells Reservoir, Horse Shoe Creek</unittitle><unitdate type="inclusive" normal="1898-06">June 1898</unitdate></did>
               <odd>
                 <p>[353]</p>
               </odd>
@@ -2062,8 +1916,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Newell's Ranch, Horse Shoe Park <unitdate type="inclusive" normal="1898-06">June 1898</unitdate></unittitle>
-              </did>
+                <unittitle>Newell's Ranch, Horse Shoe Park</unittitle><unitdate type="inclusive" normal="1898-06">June 1898</unitdate></did>
               <odd>
                 <p>[354]</p>
               </odd>
@@ -2071,8 +1924,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Dam site MacFarlane Reservoir <unitdate type="inclusive" normal="1898-06">June 1898</unitdate></unittitle>
-              </did>
+                <unittitle>Dam site MacFarlane Reservoir</unittitle><unitdate type="inclusive" normal="1898-06">June 1898</unitdate></did>
               <odd>
                 <p>[357]</p>
               </odd>
@@ -2080,15 +1932,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900">1900</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1900">1900</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Warrens Reservoir outlet <unitdate type="inclusive" normal="1900-05-01">May 1, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>Warrens Reservoir outlet</unittitle><unitdate type="inclusive" normal="1900-05-01">May 1, 1900</unitdate></did>
               <odd>
                 <p>[514]</p>
               </odd>
@@ -2096,8 +1944,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Looking along Warrens Dam, Cheyenne <unitdate type="inclusive" normal="1900-05-21">May 21, 1900</unitdate></unittitle>
-              </did>
+                <unittitle>Looking along Warrens Dam, Cheyenne</unittitle><unitdate type="inclusive" normal="1900-05-21">May 21, 1900</unitdate></did>
               <odd>
                 <p>[517]</p>
               </odd>
@@ -2105,16 +1952,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1901">1901</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1901">1901</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Flashlight in Cen. Eureka Mine <unitdate type="inclusive" normal="1901-07-02">7/2/1901</unitdate></unittitle>
-              </did>
+                <unittitle>Flashlight in Cen. Eureka Mine</unittitle><unitdate type="inclusive" normal="1901-07-02">7/2/1901</unitdate></did>
               <odd>
                 <p>[2044]</p>
               </odd>
@@ -2122,8 +1965,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Cable conveyor, Cen. Eureka Mine, Eureka Utah <unitdate type="inclusive" normal="1901-07-02">July 2, 1901</unitdate></unittitle>
-              </did>
+                <unittitle>Cable conveyor, Cen. Eureka Mine, Eureka Utah</unittitle><unitdate type="inclusive" normal="1901-07-02">July 2, 1901</unitdate></did>
               <odd>
                 <p>[2045]</p>
               </odd>
@@ -2131,8 +1973,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5308382496389425445]">8:2</container>
-                <unittitle>Lyman, King, and Johnston <unitdate type="inclusive" normal="1901-07-02">July 2, 1901</unitdate></unittitle>
-              </did>
+                <unittitle>Lyman, King, and Johnston</unittitle><unitdate type="inclusive" normal="1901-07-02">July 2, 1901</unitdate></did>
               <odd>
                 <p>[2046]</p>
               </odd>
@@ -2144,8 +1985,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Trip To Egypt <unitdate type="inclusive" normal="1901/1902">1901-1902</unitdate></unittitle>
-          </did>
+            <unittitle>Trip To Egypt</unittitle><unitdate type="inclusive" normal="1901/1902">1901-1902</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
@@ -2275,8 +2115,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Looking SE from road near Gizeh, Nile in foreground, Island of Rhoda and Old Cairo in distance <unitdate type="inclusive" normal="1901-12-12">December 12, 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Looking SE from road near Gizeh, Nile in foreground, Island of Rhoda and Old Cairo in distance</unittitle><unitdate type="inclusive" normal="1901-12-12">December 12, 1901</unitdate></did>
             <odd>
               <p>[9]</p>
             </odd>
@@ -2284,8 +2123,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Along road to Gizeh looking N from opposite Gizeh Zoological Gardens [Lebeck trees] <unitdate type="inclusive" normal="1901-12-12">December 12, 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Along road to Gizeh looking N from opposite Gizeh Zoological Gardens [Lebeck trees]</unittitle><unitdate type="inclusive" normal="1901-12-12">December 12, 1901</unitdate></did>
             <odd>
               <p>[12]</p>
             </odd>
@@ -2293,14 +2131,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Looking W from headgate Menufrijeh? canal toward Rosetta Barrage <unitdate type="inclusive" normal="1901-12-14">December 14, 1901</unitdate> [I5]</unittitle>
-            </did>
+              <unittitle>Looking W from headgate Menufrijeh? canal toward Rosetta Barrage  [I5]</unittitle><unitdate type="inclusive" normal="1901-12-14">December 14, 1901</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Snapshot of boat on Nile bet. Cairo and Barrage, boat going upstream along eastern margin of the Nile <unitdate type="inclusive" normal="1901-12-14">December 14, 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Snapshot of boat on Nile bet. Cairo and Barrage, boat going upstream along eastern margin of the Nile</unittitle><unitdate type="inclusive" normal="1901-12-14">December 14, 1901</unitdate></did>
             <odd>
               <p>[16]</p>
             </odd>
@@ -2308,8 +2144,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Periphery of sakiyeh on spot where Moses was found. <unitdate type="inclusive" normal="1901-12-18">December 18, 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Periphery of sakiyeh on spot where Moses was found.</unittitle><unitdate type="inclusive" normal="1901-12-18">December 18, 1901</unitdate></did>
             <odd>
               <p>[25]</p>
             </odd>
@@ -2320,8 +2155,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Sphinx and Cheops <unitdate type="inclusive" normal="1901-12-19">December 19, 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Sphinx and Cheops</unittitle><unitdate type="inclusive" normal="1901-12-19">December 19, 1901</unitdate></did>
             <odd>
               <p>[36]</p>
             </odd>
@@ -2329,8 +2163,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Second pyramid from point N of Cheops <unitdate type="inclusive" normal="1901-12-19">December 19, 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Second pyramid from point N of Cheops</unittitle><unitdate type="inclusive" normal="1901-12-19">December 19, 1901</unitdate></did>
             <odd>
               <p>[40]</p>
             </odd>
@@ -2338,8 +2171,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Sphinx and Cheops <unitdate type="inclusive" normal="1901-12-19">December 19, 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Sphinx and Cheops</unittitle><unitdate type="inclusive" normal="1901-12-19">December 19, 1901</unitdate></did>
             <odd>
               <p>[46]</p>
             </odd>
@@ -2347,8 +2179,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Cheops from NW <unitdate type="inclusive" normal="1901-12-19">December 19, 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Cheops from NW</unittitle><unitdate type="inclusive" normal="1901-12-19">December 19, 1901</unitdate></did>
             <odd>
               <p>[47]</p>
             </odd>
@@ -2356,8 +2187,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Arab village W. Island of Balut <unitdate type="inclusive" normal="1901-12-23">December 23, 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Arab village W. Island of Balut</unittitle><unitdate type="inclusive" normal="1901-12-23">December 23, 1901</unitdate></did>
             <odd>
               <p>[69]</p>
             </odd>
@@ -2365,8 +2195,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Clover fields., with buffalo feeding. Arab village in distance <unitdate type="inclusive" normal="1901-12-23">December 23, 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Clover fields., with buffalo feeding. Arab village in distance</unittitle><unitdate type="inclusive" normal="1901-12-23">December 23, 1901</unitdate></did>
             <odd>
               <p>[70]</p>
             </odd>
@@ -2374,8 +2203,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Site for a Chadaruff on mainland W of Bulak Island <unitdate type="inclusive" normal="1901-12-23">December 23, 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Site for a Chadaruff on mainland W of Bulak Is</unittitle><unitdate type="inclusive" normal="1901-12-23">December 23, 1901</unitdate></did>
             <odd>
               <p>[71]</p>
             </odd>
@@ -2383,8 +2211,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Cleansing a small canal S of Medinet. Farsam looking N <unitdate type="inclusive" normal="1901-12-26">December 26, 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Cleansing a small canal S of Medinet. Farsam looking N</unittitle><unitdate type="inclusive" normal="1901-12-26">December 26, 1901</unitdate></did>
             <odd>
               <p>[81]</p>
             </odd>
@@ -2392,8 +2219,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Cliffs NE bank above Mesteh <unitdate type="inclusive" normal="1902-01-03">January 3, 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Cliffs NE bank above Mesteh</unittitle><unitdate type="inclusive" normal="1902-01-03">January 3, 1902</unitdate></did>
             <odd>
               <p>[86]</p>
             </odd>
@@ -2401,8 +2227,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Old quarries on east bank of Nile at Gebel Silesileh. Loose material is all refuse from the quarries <unitdate type="inclusive" normal="1902-01-06">January 6, 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Old quarries on east bank of Nile at Gebel Silesileh. Loose material is all refuse from the quarries</unittitle><unitdate type="inclusive" normal="1902-01-06">January 6, 1902</unitdate></did>
             <odd>
               <p>[31]</p>
             </odd>
@@ -2410,8 +2235,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Chadonfs above Matona <unitdate type="inclusive" normal="1902-01-06">January 6, 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Chadonfs above Matona</unittitle><unitdate type="inclusive" normal="1902-01-06">January 6, 1902</unitdate></did>
             <odd>
               <p>[92]</p>
             </odd>
@@ -2428,8 +2252,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Giraffe, Gizeh Zoo Gardens <unitdate type="inclusive" normal="1902-01-21">January 21, 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Giraffe, Gizeh Zoo Gardens</unittitle><unitdate type="inclusive" normal="1902-01-21">January 21, 1902</unitdate></did>
             <odd>
               <p>[133]</p>
             </odd>
@@ -2437,8 +2260,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Cairo from top of Ghezineh Palace Hotel <unitdate type="inclusive" normal="1902-01-22">January 22, 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Cairo from top of Ghezineh Palace Hotel</unittitle><unitdate type="inclusive" normal="1902-01-22">January 22, 1902</unitdate></did>
             <odd>
               <p>[138]</p>
             </odd>
@@ -2446,8 +2268,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Man cultivating ground-ancient Egyptian figure, Gizeh Museum <unitdate type="inclusive" normal="1902-01-22">January 22, 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Man cultivating ground-ancient Egyptian figure, Gizeh Museum</unittitle><unitdate type="inclusive" normal="1902-01-22">January 22, 1902</unitdate></did>
             <odd>
               <p>[140]</p>
             </odd>
@@ -2455,8 +2276,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Cairo looking SE from top of Ghezineh Palace Hotel <unitdate type="inclusive" normal="1902-01-22">January 22, 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Cairo looking SE from top of Ghezineh Palace Hotel</unittitle><unitdate type="inclusive" normal="1902-01-22">January 22, 1902</unitdate></did>
             <odd>
               <p>[142]</p>
             </odd>
@@ -2464,8 +2284,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Statue of King who built Lake Moeris, Amenhat III, Gizeh Museum <unitdate type="inclusive" normal="1902-01-22">January 22, 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Statue of King who built Lake Moeris, Amenhat III, Gizeh Museum</unittitle><unitdate type="inclusive" normal="1902-01-22">January 22, 1902</unitdate></did>
             <odd>
               <p>[143]</p>
             </odd>
@@ -2473,8 +2292,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Pumps Agr. fair <unitdate type="inclusive" normal="1902-01-22">January 22, 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Pumps Agr. fair</unittitle><unitdate type="inclusive" normal="1902-01-22">January 22, 1902</unitdate></did>
             <odd>
               <p>[148]</p>
             </odd>
@@ -2482,8 +2300,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Mohammed Trav. [Dragoman?] Gizeh Zoo Gardens <unitdate type="inclusive" normal="1902-01-22">January 22, 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Mohammed Trav. [Dragoman?] Gizeh Zoo Gardens</unittitle><unitdate type="inclusive" normal="1902-01-22">January 22, 1902</unitdate></did>
             <odd>
               <p>[194]</p>
             </odd>
@@ -2491,13 +2308,11 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Twin Falls Canal <unitdate type="inclusive" normal="1907-04">April 1907</unitdate></unittitle>
-          </did>
+            <unittitle>Twin Falls Canal</unittitle><unitdate type="inclusive" normal="1907-04">April 1907</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Twin Falls, Perinne Hotel <unitdate type="inclusive" normal="1907-04-07">April 7, 1907</unitdate></unittitle>
-            </did>
+              <unittitle>Twin Falls, Perinne Hotel</unittitle><unitdate type="inclusive" normal="1907-04-07">April 7, 1907</unitdate></did>
             <odd>
               <p>[2061]</p>
             </odd>
@@ -2508,8 +2323,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5308382496389425445]">8:2</container>
-              <unittitle>Twin Falls Canal near Cottonwood Creek flume. Tush, Johnston, Stephenson, Waller, Voorhees <unitdate type="inclusive" normal="1907-04-01/1907-04-09">April 1-9, 1907</unitdate></unittitle>
-            </did>
+              <unittitle>Twin Falls Canal near Cottonwood Creek flume. Tush, Johnston, Stephenson, Waller, Voorhees</unittitle><unitdate type="inclusive" normal="1907-04-01/1907-04-09">April 1-9, 1907</unitdate></did>
             <odd>
               <p>[2062]</p>
             </odd>
@@ -2904,18 +2718,14 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Seminole Canñon <unitdate type="inclusive" normal="1907-08">August 1907</unitdate></unittitle>
-          </did>
+            <unittitle>Seminole Canñon</unittitle><unitdate type="inclusive" normal="1907-08">August 1907</unitdate></did>
           <odd>
             <p>(Includes sketches of canyon with numbers representing vantage points of photos)</p>
           </odd>
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1907-08-17">August 17, 1907</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1907-08-17">August 17, 1907</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">12 plates</extent>
               </physdesc>
             </did>
@@ -2926,10 +2736,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1907-08-19">August 19, 1907</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1907-08-19">August 19, 1907</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 plates</extent>
               </physdesc>
             </did>
@@ -2940,10 +2747,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1907-08-19">August 19, 1907</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1907-08-19">August 19, 1907</unitdate></did>
             <odd>
               <p>[20]</p>
             </odd>
@@ -2954,10 +2758,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1907-08-19">August 19, 1907</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1907-08-19">August 19, 1907</unitdate></did>
             <odd>
               <p>[21]</p>
             </odd>
@@ -2968,10 +2769,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1907-08-19">August 19, 1907</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1907-08-19">August 19, 1907</unitdate></did>
             <odd>
               <p>[22]</p>
             </odd>
@@ -2982,10 +2780,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1907-08-19">August 19, 1907</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1907-08-19">August 19, 1907</unitdate></did>
             <odd>
               <p>[24]</p>
             </odd>
@@ -2996,10 +2791,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1907-08-20">August 20, 1907</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1907-08-20">August 20, 1907</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 plates</extent>
               </physdesc>
             </did>
@@ -3010,8 +2802,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle><unitdate type="inclusive" normal="1907-08-20">August 20, 1907</unitdate> Panorama,</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Panorama</unittitle><unitdate type="inclusive" normal="1907-08-20">August 20, 1907</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 plates</extent>
               </physdesc>
             </did>
@@ -3022,8 +2813,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle><unitdate type="inclusive" normal="1907-08-20">August 20, 1907</unitdate> Panorama</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Panorama</unittitle><unitdate type="inclusive" normal="1907-08-20">August 20, 1907</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 plates</extent>
               </physdesc>
             </did>
@@ -3034,10 +2824,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1907-08-20">August 20, 1907</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1907-08-20">August 20, 1907</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 plates</extent>
               </physdesc>
             </did>
@@ -3048,13 +2835,11 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Chrystal Lake <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
-          </did>
+            <unittitle>Chrystal Lake</unittitle><unitdate type="inclusive" normal="1908">1908</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>General view, Chrystal Lake Reservoir, looking E downstream <unitdate type="inclusive" normal="1908-06-29">June 29, 1908</unitdate></unittitle>
-            </did>
+              <unittitle>General view, Chrystal Lake Reservoir, looking E downstream</unittitle><unitdate type="inclusive" normal="1908-06-29">June 29, 1908</unitdate></did>
             <odd>
               <p>[2]</p>
             </odd>
@@ -3062,8 +2847,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>North shoulder from dam, Chrystal Lake Reservoir, looking easterly downstream <unitdate type="inclusive" normal="1908-06-29">June 29, 1908</unitdate></unittitle>
-            </did>
+              <unittitle>North shoulder from dam, Chrystal Lake Reservoir, looking easterly downstream</unittitle><unitdate type="inclusive" normal="1908-06-29">June 29, 1908</unitdate></did>
             <odd>
               <p>[3]</p>
             </odd>
@@ -3071,8 +2855,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>South should from dam, Chrystal Lake Reservoir, looking SE downstream <unitdate type="inclusive" normal="1908-06-29">June 29, 1908</unitdate></unittitle>
-            </did>
+              <unittitle>South should from dam, Chrystal Lake Reservoir, looking SE downstream</unittitle><unitdate type="inclusive" normal="1908-06-29">June 29, 1908</unitdate></did>
             <odd>
               <p>[4]</p>
             </odd>
@@ -3080,14 +2863,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Dam site Chrystal Lake Reservoir, looking downstream from same point from which [6] was taken <unitdate type="inclusive" normal="1908-06-29">June 29, 1908</unitdate> [5]</unittitle>
-            </did>
+              <unittitle>Dam site Chrystal Lake Reservoir, looking downstream from same point from which [6] was taken  [5]</unittitle><unitdate type="inclusive" normal="1908-06-29">June 29, 1908</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Chrystal Lake Reservoir site, looking upstream from point SW of dam site <unitdate type="inclusive" normal="1908-06-29">June 29, 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Chrystal Lake Reservoir site, looking upstream from point SW of dam site</unittitle><unitdate type="inclusive" normal="1908-06-29">June 29, 1908</unitdate></did>
             <odd>
               <p>[6]</p>
             </odd>
@@ -3095,8 +2876,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Chrystal Lake dam <unitdate type="inclusive" normal="1908-10">October 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Chrystal Lake dam</unittitle><unitdate type="inclusive" normal="1908-10">October 1908</unitdate></did>
             <odd>
               <p>[3015]</p>
             </odd>
@@ -3104,13 +2884,11 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Yellowstone National Park and Jackson Lake Area <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
-          </did>
+            <unittitle>Yellowstone National Park and Jackson Lake Area</unittitle><unitdate type="inclusive" normal="1908">1908</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Government Road Shoshone Canyon, Cody <unitdate type="inclusive" normal="1908-05">May 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Government Road Shoshone Canyon, Cody</unittitle><unitdate type="inclusive" normal="1908-05">May 1908</unitdate></did>
             <odd>
               <p>[3016]</p>
             </odd>
@@ -3118,8 +2896,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>General view Norris Basin, Constant in distance <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>General view Norris Basin, Constant in distance</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3017]</p>
             </odd>
@@ -3127,8 +2904,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Downstream Yellowstone Springs Canyon from Artists' Point <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Downstream Yellowstone Springs Canyon from Artists' Point</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3018]</p>
             </odd>
@@ -3136,8 +2912,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Downstream from Artists' Point <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Downstream from Artists' Point</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3019]</p>
             </odd>
@@ -3145,8 +2920,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Cement bridge, Yellowstone River looking upstream <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Cement bridge, Yellowstone River looking upstream</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3020]</p>
             </odd>
@@ -3154,8 +2928,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Cement bridge, Yellowstone River looking upstream <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Cement bridge, Yellowstone River looking upstream</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3021]</p>
             </odd>
@@ -3163,8 +2936,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Yellowstone River looking downstream from below cement bridge <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Yellowstone River looking downstream from below cement bridge</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3022]</p>
             </odd>
@@ -3172,8 +2944,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Yellowstone River looking downstream from cement arch bridge <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Yellowstone River looking downstream from cement arch bridge</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3023]</p>
             </odd>
@@ -3181,8 +2952,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Crater Fountain Geyser <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Crater Fountain Geyser</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3024]</p>
             </odd>
@@ -3190,8 +2960,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>(A spring) <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>(A spring)</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3025]</p>
             </odd>
@@ -3199,8 +2968,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Camp near Fountain Hotel <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Camp near Fountain Hotel</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3026]</p>
             </odd>
@@ -3208,8 +2976,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Jackson Lake and Tetons <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Jackson Lake and Tetons</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3027]</p>
             </odd>
@@ -3217,8 +2984,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Grotto Geyser, Upper Basin <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Grotto Geyser, Upper Basin</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3028]</p>
             </odd>
@@ -3226,8 +2992,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Grotto Geyser, Upper Geyser Basin <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Grotto Geyser, Upper Geyser Basin</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3029]</p>
             </odd>
@@ -3235,8 +3000,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Giant Geyser Region, Indicator Geyser in view. Upper Geyser Basin, Y.N.P. <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Giant Geyser Region, Indicator Geyser in view. Upper Geyser Basin, Y.N.P.</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3030]</p>
             </odd>
@@ -3244,8 +3008,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Government Dam, Jackson Lake (two boys on wagon) <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Government Dam, Jackson Lake (two boys on wagon)</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3031]</p>
             </odd>
@@ -3253,8 +3016,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Jackson Lake and Tetons <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Jackson Lake and Tetons</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3032]</p>
             </odd>
@@ -3262,8 +3024,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Jackson Lake and Mt. Moran <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Jackson Lake and Mt. Moran</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3033]</p>
             </odd>
@@ -3271,8 +3032,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Jackson Lake and Tetons from point South (of) outlet <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Jackson Lake and Tetons from point South (of) outlet</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3034]</p>
             </odd>
@@ -3280,8 +3040,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Jackson Lake and Tetons <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Jackson Lake and Tetons</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 plates</extent>
               </physdesc>
             </did>
@@ -3292,8 +3051,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Lower Falls, Y.N.P. <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Lower Falls, Y.N.P.</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3037]</p>
             </odd>
@@ -3301,8 +3059,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Lower Falls from Prospect Point <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Lower Falls from Prospect Point</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3038]</p>
             </odd>
@@ -3319,8 +3076,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>New Crater Norris <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>New Crater Norris</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3040]</p>
             </odd>
@@ -3328,8 +3084,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Old Faithful <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Old Faithful</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 plates</extent>
               </physdesc>
             </did>
@@ -3340,8 +3095,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Paint Pots, Fountain Geyser Basin <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Paint Pots, Fountain Geyser Basin</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3043]</p>
             </odd>
@@ -3349,8 +3103,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Turbon Geyser, Upper Geyser Basin <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Turbon Geyser, Upper Geyser Basin</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3044]</p>
             </odd>
@@ -3358,8 +3111,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Wind River near west line Reservation <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Wind River near west line Reservation</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3045]</p>
             </odd>
@@ -3367,8 +3119,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Wind River near west line Reservation <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Wind River near west line Reservation</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3046]</p>
             </odd>
@@ -3376,8 +3127,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Yellowstone Lake from near Lake Hotel <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Yellowstone Lake from near Lake Hotel</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3047]</p>
             </odd>
@@ -3385,8 +3135,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Yellowstone Lake near Hotel <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Yellowstone Lake near Hotel</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3048]</p>
             </odd>
@@ -3394,8 +3143,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Yellowstone Canyon looking downstream from lower falls <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Yellowstone Canyon looking downstream from lower falls</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3049]</p>
             </odd>
@@ -3412,8 +3160,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Snake River and Mt. Moran <unitdate type="inclusive" normal="1908-08">August 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Snake River and Mt. Moran</unittitle><unitdate type="inclusive" normal="1908-08">August 1908</unitdate></did>
             <odd>
               <p>[3051]</p>
             </odd>
@@ -3421,13 +3168,11 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Wheatland Dev. Co. Reservoir No. 2 <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
-          </did>
+            <unittitle>Wheatland Dev. Co. Reservoir No. 2</unittitle><unitdate type="inclusive" normal="1909">1909</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5271942454273247011599886]">3:6</container>
-              <unittitle>Judge Runer's? auto party <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
-            </did>
+              <unittitle>Judge Runer's? auto party</unittitle><unitdate type="inclusive" normal="1909">1909</unitdate></did>
             <odd>
               <p>[3052)</p>
             </odd>
@@ -3435,8 +3180,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5271942454273247011599886]">3:6</container>
-              <unittitle>Wheatland Dev. Co. Reservoir No. 2 <unitdate type="inclusive" normal="1909-06-04/1909-06-05">June 4-5, 1909</unitdate></unittitle>
-            </did>
+              <unittitle>Wheatland Dev. Co. Reservoir No. 2</unittitle><unitdate type="inclusive" normal="1909-06-04/1909-06-05">June 4-5, 1909</unitdate></did>
             <odd>
               <p>[3053]</p>
             </odd>
@@ -3516,13 +3260,11 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Chrystal Lake Dam Site <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
-          </did>
+            <unittitle>Chrystal Lake Dam Site</unittitle><unitdate type="inclusive" normal="1910">1910</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Chrystal Lake Dam, Cheyenne Water Works <unitdate type="inclusive" normal="1910-11">November 1910</unitdate></unittitle>
-            </did>
+              <unittitle>Chrystal Lake Dam, Cheyenne Water Works</unittitle><unitdate type="inclusive" normal="1910-11">November 1910</unitdate></did>
             <odd>
               <p>[3054]</p>
             </odd>
@@ -3530,8 +3272,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Chrystal Lake Dam looking downstream, Cheyenne Water Works <unitdate type="inclusive" normal="1910-11">November 1910</unitdate></unittitle>
-            </did>
+              <unittitle>Chrystal Lake Dam looking downstream, Cheyenne Water Works</unittitle><unitdate type="inclusive" normal="1910-11">November 1910</unitdate></did>
             <odd>
               <p>[3055]</p>
             </odd>
@@ -3539,8 +3280,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Chrystal Lake Dam looking downstream, Cheyenne Water Works <unitdate type="inclusive" normal="1910-11">November 1910</unitdate> taken by Justin T. Ringdon</unittitle>
-            </did>
+              <unittitle>Chrystal Lake Dam looking downstream, Cheyenne Water Works  taken by Justin T. Ringdon</unittitle><unitdate type="inclusive" normal="1910-11">November 1910</unitdate></did>
             <odd>
               <p>[3056]</p>
             </odd>
@@ -3548,8 +3288,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
-              <unittitle>Looking upstream, taken by Justin T. Ringdon <unitdate type="inclusive" normal="1910-11">November 1910</unitdate></unittitle>
-            </did>
+              <unittitle>Looking upstream, taken by Justin T. Ringdon</unittitle><unitdate type="inclusive" normal="1910-11">November 1910</unitdate></did>
             <odd>
               <p>[3057]</p>
             </odd>
@@ -3557,8 +3296,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Unidentified Engineering Projects <unitdate>Undated</unitdate></unittitle>
-          </did>
+            <unittitle>Unidentified Engineering Projects</unittitle><unitdate>Undated</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [77170570438360904411]">8:3</container>
@@ -3754,8 +3492,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Unidentified Photographs of Work-Related Subjects <unitdate>undated</unitdate></unittitle>
-          </did>
+            <unittitle>Unidentified Photographs of Work-Related Subjects</unittitle><unitdate>undated</unitdate></did>
           <odd>
             <p>(negatives in numbered sequence)</p>
           </odd>
@@ -4549,15 +4286,13 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Camp Davis Summer Surveying Camp Photos <unitdate type="inclusive" normal="1911/1928">1911-1928</unitdate></unittitle>
-        </did>
+          <unittitle>Camp Davis Summer Surveying Camp Photos</unittitle><unitdate type="inclusive" normal="1911/1928">1911-1928</unitdate></did>
         <scopecontent>
           <p>The "Camp Davis" series consists of pictures taken at the summer engineering camp held in northern Michigan. The photographs in this series document the staff, students, and camp projects. There are pictures of roll call, swimming period, and mess tents to portray camp life. The geographical area is shown through pictures of new trails and camp sites. Samples of the students' engineering projects include construction of a boat harbor, a storehouse, and a lumber shed. As director of the camp, Johnston frequently used these photographs to illustrate his annual reports.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1911">1911</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1911">1911</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [904355135491869746966]">9:5</container>
@@ -4651,8 +4386,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1912">1912</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [904355135491869746966]">9:5</container>
@@ -4968,8 +4702,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [904355135491869746966]">9:5</container>
-              <unittitle>Method of protecting boats prior to <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
-            </did>
+              <unittitle>Method of protecting boats prior to</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
             <odd>
               <p>[52]</p>
             </odd>
@@ -4977,8 +4710,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1913">1913</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1913">1913</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [904355135491869746966]">9:5</container>
@@ -5027,8 +4759,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [904355135491869746966]">9:5</container>
-              <unittitle>View from the near center of camp, showing concrete floor built during summer of 1912 and piers, for sextant work, made of concrete blocks during summer of <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
-            </did>
+              <unittitle>View from the near center of camp, showing concrete floor built during summer of 1912 and piers, for sextant work, made of concrete blocks during summer of</unittitle><unitdate type="inclusive" normal="1913">1913</unitdate></did>
             <odd>
               <p>[7]</p>
             </odd>
@@ -5192,8 +4923,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1914">1914</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1914">1914</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [904355135491869746966]">9:5</container>
@@ -5209,8 +4939,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1915">1915</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1915">1915</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [904355135491869746966]">9:5</container>
@@ -5433,8 +5162,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1916">1916</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1916">1916</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [904355135491869746966]">9:5</container>
@@ -5555,13 +5283,11 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1917">1917</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1917">1917</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [904355135491869746966]">9:5</container>
-              <unittitle>Camp group <unitdate type="inclusive" normal="1917-08-10">August 10, 1917</unitdate> Dean Cooley, Prof. Davis and Prof. Hoad visiting camp at the time</unittitle>
-            </did>
+              <unittitle>Camp group  Dean Cooley, Prof. Davis and Prof. Hoad visiting camp at the time</unittitle><unitdate type="inclusive" normal="1917-08-10">August 10, 1917</unitdate></did>
             <odd>
               <p>[1]</p>
             </odd>
@@ -5593,8 +5319,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [904355135491869746966]">9:5</container>
-              <unittitle>Camp group <unitdate type="inclusive" normal="1917-08-10">August 10, 1917</unitdate> Dean Cooley, Prof. Davis and Prof. Hoad visiting camp at the time</unittitle>
-            </did>
+              <unittitle>Camp group  Dean Cooley, Prof. Davis and Prof. Hoad visiting camp at the time</unittitle><unitdate type="inclusive" normal="1917-08-10">August 10, 1917</unitdate></did>
             <odd>
               <p>[8]</p>
             </odd>
@@ -5602,8 +5327,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [804769528428484071017]">9:6</container>
-              <unittitle>Camp group <unitdate type="inclusive" normal="1917-08-10">August 10, 1917</unitdate> Dean Cooley, Prof. Davis and Prof. Hoad visiting camp at the time</unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Camp group  Dean Cooley, Prof. Davis and Prof. Hoad visiting camp at the time</unittitle><unitdate type="inclusive" normal="1917-08-10">August 10, 1917</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 plates</extent>
               </physdesc>
             </did>
@@ -5674,8 +5398,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [804769528428484071017]">9:6</container>
-              <unittitle>New steel buildings erected during summer of <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-            </did>
+              <unittitle>New steel buildings erected during summer of</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
             <odd>
               <p>[17]</p>
             </odd>
@@ -5758,8 +5481,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1920">1920</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1920">1920</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [804769528428484071017]">9:6</container>
@@ -5991,8 +5713,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1921">1921</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1921">1921</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [804769528428484071017]">9:6</container>
@@ -6062,8 +5783,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [804769528428484071017]">9:6</container>
-              <unittitle>Harbor building from the SE, Monday evening <unitdate type="inclusive" normal="1921-09-23">September 23, 1921</unitdate></unittitle>
-            </did>
+              <unittitle>Harbor building from the SE, Monday evening</unittitle><unitdate type="inclusive" normal="1921-09-23">September 23, 1921</unitdate></did>
             <odd>
               <p>[9]</p>
             </odd>
@@ -6071,8 +5791,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [804769528428484071017]">9:6</container>
-              <unittitle>Concrete construction of harbor about <unitdate type="inclusive" normal="1921-08-22">August 22, 1921</unitdate> [10]</unittitle>
-            </did>
+              <unittitle>Concrete construction of harbor about  [10]</unittitle><unitdate type="inclusive" normal="1921-08-22">August 22, 1921</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -6113,8 +5832,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [804769528428484071017]">9:6</container>
-              <unittitle>Staff, 2d session <unitdate type="inclusive" normal="1921">1921</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Staff, 2d session</unittitle><unitdate type="inclusive" normal="1921">1921</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 plates</extent>
               </physdesc>
             </did>
@@ -6137,8 +5855,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [804769528428484071017]">9:6</container>
-              <unittitle>Staff, 1st session <unitdate type="inclusive" normal="1921-06">June 1921</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Staff, 1st session</unittitle><unitdate type="inclusive" normal="1921-06">June 1921</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 plates</extent>
               </physdesc>
             </did>
@@ -6149,8 +5866,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1922">1922</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1922">1922</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [804769528428484071017]">9:6</container>
@@ -6409,8 +6125,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1923">1923</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [137327400562297427426]">6.9</container>
@@ -6480,8 +6195,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1924">1924</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1924">1924</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [804769528428484071017]">9:6</container>
@@ -6593,8 +6307,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1925">1925</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1925">1925</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [661844142725410194125]">9:7</container>
@@ -6850,8 +6563,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1926">1926</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1926">1926</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [661844142725410194125]">9:7</container>
@@ -7074,8 +6786,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1927">1927</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1927">1927</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [661844142725410194125]">9:7</container>
@@ -7316,8 +7027,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1928">1928</unitdate> Session</unittitle>
-          </did>
+            <unittitle>Session</unittitle><unitdate type="inclusive" normal="1928">1928</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [661844142725410194125]">9:7</container>
@@ -7816,68 +7526,57 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [62276247417680695640]">10</container>
-              <unittitle>Brodie (Hugh) estate papers <unitdate type="inclusive" normal="1932/1936">1932-1936</unitdate></unittitle>
-            </did>
+              <unittitle>Brodie (Hugh) estate papers</unittitle><unitdate type="inclusive" normal="1932/1936">1932-1936</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [62276247417680695640]">10</container>
-              <unittitle>Committee on Engineering Degrees in the Latin American Republics <unitdate type="inclusive" normal="1916/1918">1916-1918</unitdate></unittitle>
-            </did>
+              <unittitle>Committee on Engineering Degrees in the Latin American Republics</unittitle><unitdate type="inclusive" normal="1916/1918">1916-1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [62276247417680695640]">10</container>
-              <unittitle>Engineering Building Subcommittee <unitdate type="inclusive" normal="1921">1921</unitdate></unittitle>
-            </did>
+              <unittitle>Engineering Building Subcommittee</unittitle><unitdate type="inclusive" normal="1921">1921</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [62276247417680695640]">10</container>
-              <unittitle>First Congregational Church, Ann Arbor <unitdate type="inclusive" normal="1916/1920">1916-1920</unitdate></unittitle>
-            </did>
+              <unittitle>First Congregational Church, Ann Arbor</unittitle><unitdate type="inclusive" normal="1916/1920">1916-1920</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [62276247417680695640]">10</container>
-              <unittitle>Radio Talk and other speeches <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
-            </did>
+              <unittitle>Radio Talk and other speeches</unittitle><unitdate type="inclusive" normal="1927">1927</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [62276247417680695640]">10</container>
-              <unittitle>Relicted Lands Commission <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></unittitle>
-            </did>
+              <unittitle>Relicted Lands Commission</unittitle><unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [62276247417680695640]">10</container>
-              <unittitle>Senate Council <unitdate type="inclusive" normal="1924/1926">1924-1926</unitdate></unittitle>
-            </did>
+              <unittitle>Senate Council</unittitle><unitdate type="inclusive" normal="1924/1926">1924-1926</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [62276247417680695640]">10</container>
-              <unittitle>State Drain Commissioners Association <unitdate type="inclusive" normal="1918/1920">1918-1920</unitdate></unittitle>
-            </did>
+              <unittitle>State Drain Commissioners Association</unittitle><unitdate type="inclusive" normal="1918/1920">1918-1920</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [62276247417680695640]">10</container>
-              <unittitle>Stipe (C.G.T.) correspondence (doctoral student) <unitdate type="inclusive" normal="1938/1941">1938-1941</unitdate></unittitle>
-            </did>
+              <unittitle>Stipe (C.G.T.) correspondence (doctoral student)</unittitle><unitdate type="inclusive" normal="1938/1941">1938-1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [62276247417680695640]">10</container>
-              <unittitle>Student Christian Association <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate></unittitle>
-            </did>
+              <unittitle>Student Christian Association</unittitle><unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [62276247417680695640]">10</container>
-              <unittitle>Westside Mining Company, <unitdate type="inclusive" normal="1895">1895</unitdate>, <unitdate type="inclusive" normal="1915/1920">approximately 1915-1920</unitdate></unittitle>
-            </did>
+              <unittitle>Westside Mining Company</unittitle><unitdate type="inclusive" normal="1895">1895</unitdate><unitdate type="inclusive" normal="1915/1920">approximately 1915-1920</unitdate></did>
           </c03>
         </c02>
       </c01>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n92087359">Doll, Louis Wm. (Louis William), 1911-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n92087359" ref="/agents/people/8892">Doll, Louis Wm. (Louis William), 1911-</persname>
       </origination>
-      <unittitle encodinganalog="245">Louis William Doll papers <unitdate type="inclusive" encodinganalog="245$f" normal="1937/1951">1937-1951</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85146 Aa 2; UAl</unitid>
+      <unittitle encodinganalog="245">Louis William Doll papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1937/1951">1937-1951</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85146 Aa 2; UAl</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Bay City, Michigan, librarian, historian, and teacher; archivist of the Historical Division of the Far East Command in Japan after World War II. Diaries describing life and activities in Japan; letters from friends and family during and after the Second World War; doctoral thesis and miscellanea; and photographs.</abstract>
       <repository>
@@ -82,29 +82,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92087359">Doll, Louis Wm. (Louis William), 1911-</persname>
-        <geogname source="lcsh" encodinganalog="651">East Asia.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Japan.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92087359" ref="/agents/people/8892">Doll, Louis Wm. (Louis William), 1911-</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1702">East Asia.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Japan.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Railroad bridges.</geogname>
-        <subject source="lctgm" encodinganalog="650">Bicycles and tricycles.</subject>
-        <subject source="lctgm" encodinganalog="650">Boats.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92087359">Doll, Louis Wm. (Louis William), 1911-</persname>
-        <geogname source="lcsh" encodinganalog="651">Lower Town (Ann Arbor, Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Offices--1891-1900.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Postal Telegraph-Cable Company (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Railroad bridges--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Telegraph.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85149704">Whitmore Lake (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/274">Ann Arbor (Mich.)--Railroad bridges.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3740">Bicycles and tricycles.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3741">Boats.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92087359" ref="/agents/people/8892">Doll, Louis Wm. (Louis William), 1911-</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/866">Lower Town (Ann Arbor, Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4019">Offices--1891-1900.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5346">Postal Telegraph-Cable Company (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3598">Railroad bridges--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4198">Telegraph.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85149704" ref="/subjects/1703">Whitmore Lake (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform encodinganalog="655" source="aat">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform encodinganalog="655" source="aat" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -125,49 +125,33 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [013882448964730326881]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946-01-24/1946-09-14">January 24-September 14, 1946</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1946-01-24/1946-09-14">January 24-September 14, 1946</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [013882448964730326881]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946-09-14/1947-05-12">September 14, 1946-May 12, 1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1946-09-14/1947-05-12">September 14, 1946-May 12, 1947</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [013882448964730326881]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947-12-07/1948-12-07">December 7, 1947-December 7, 1948</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1947-12-07/1948-12-07">December 7, 1947-December 7, 1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [013882448964730326881]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948-12-08/1949-12-07">December 8, 1948-December 7, 1949</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948-12-08/1949-12-07">December 8, 1948-December 7, 1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [013882448964730326881]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949-12-08/1950-07-25">December 8, 1949-July 25, 1950</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1949-12-08/1950-07-25">December 8, 1949-July 25, 1950</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [013882448964730326881]">1</container>
-            <unittitle>Doctoral thesis: "Secular Aspects of the English Episcopate During the Reigns of Henry III and Edward 1, 1216-1307" University of Michigan <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-          </did>
+            <unittitle>Doctoral thesis: "Secular Aspects of the English Episcopate During the Reigns of Henry III and Edward 1, 1216-1307" University of Michigan</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -178,8 +162,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Correspondence and other papers <unitdate type="inclusive" normal="1941/1951">1941-1951</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence and other papers</unittitle><unitdate type="inclusive" normal="1941/1951">1941-1951</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [68835684141292900083]">2</container>
@@ -403,18 +386,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [8868744430004609806]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1940-10-16/1943-09-26">October 16, 1940-September 26, 1943</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1940-10-16/1943-09-26">October 16, 1940-September 26, 1943</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [82688163443398824926056]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-10-01/1951-05-20">October 1, 1943-May 20, 1951</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1943-10-01/1951-05-20">October 1, 1943-May 20, 1951</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1313,8 +1290,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3638352042194740617]">8</container>
-            <unittitle>Election of <unitdate type="inclusive" normal="1936">1936</unitdate> campaign literature</unittitle>
-          </did>
+            <unittitle>Election of  campaign literature</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1325,8 +1301,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [3638352042194740617]">8</container>
-            <unittitle>Volume: <unitdate type="inclusive" normal="1942">1942</unitdate> Artillery School, Camp Davis, North Carolina</unittitle>
-          </did>
+            <unittitle>Volume:  Artillery School, Camp Davis, North Carolina</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

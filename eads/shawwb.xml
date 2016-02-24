@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Shaw, Wilfred B., 1880-1959.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/5398">Shaw, Wilfred B., 1880-1959.</persname>
       </origination>
-      <unittitle encodinganalog="245">Wilfred B. Shaw Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1873/1954">1873-1954</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1900/1951">1900-1951</unitdate></unittitle>
-      <abstract>General secretary of the Alumni Association of the University of Michigan and editor of the Michigan Alumnus; correspondence, drawings and etchings, photographs and other visual materials</abstract>
+      <unittitle encodinganalog="245">Wilfred B. Shaw Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1873/1954">1873-1954</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1900/1951">1900-1951</unitdate><abstract>General secretary of the Alumni Association of the University of Michigan and editor of the Michigan Alumnus; correspondence, drawings and etchings, photographs and other visual materials</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">8632 Aa 2 Ac</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -92,99 +92,99 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50036849">Adams, Henry Carter, 1851-1921.</persname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83163898">Adrian (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no90002065">Angell, James Burrill, 1829-1916.</persname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Art.</subject>
-        <subject source="lcsh" encodinganalog="650">Artists.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85221105">Hudson, Richard, 1845-1915.</persname>
-        <subject source="lcsh" encodinganalog="611">Michigan alumnus quarterly review.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Union.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50003979">Scott, Fred Newton, 1860-1931.</persname>
-        <persname source="lcnaf" encodinganalog="600">Shaw, Wilfred Byron, 1881-1959.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Alumni and alumnae.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr93034095">University of Michigan. Alumni Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Bureau of Alumni Relations.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of English Language and Literature.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Political Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50036849" ref="/agents/people/7711">Adams, Henry Carter, 1851-1921.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83163898" ref="/subjects/973">Adrian (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no90002065" ref="/agents/people/2745">Angell, James Burrill, 1829-1916.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6569">Art.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6570">Artists.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85221105" ref="/agents/people/7237">Hudson, Richard, 1845-1915.</persname>
+        <subject source="lcsh" encodinganalog="611" ref="/subjects/10058">Michigan alumnus quarterly review.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5184">Michigan Union.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50003979" ref="/agents/people/7354">Scott, Fred Newton, 1860-1931.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7238">Shaw, Wilfred Byron, 1881-1959.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Alumni and alumnae.<term type="topical">Alumni and alumnae.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr93034095" ref="/agents/corporate_entities/637">University of Michigan. Alumni Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Buildings.<term type="topical">Buildings.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1877">University of Michigan. Bureau of Alumni Relations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/28">University of Michigan. Dept. of English Language and Literature.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1802">University of Michigan. Dept. of Political Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83163898">Adrian (Mich.)</geogname>
-        <geogname source="lctgm" encodinganalog="651">Adrian (Mich.)--Dwellings.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Adrian (Mich.)--Schools.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Buildings.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Alpha Delta Phi. Peninsular Chapter (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Apostles Club (University of Michigan)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Baird, Charles, 1870-1944.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Barbour Gymnasium (University of Michigan)</corpname>
-        <subject source="lctgm" encodinganalog="650">Boats.</subject>
-        <subject source="lctgm" encodinganalog="650">Buildings--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Churches.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Collegiate Sorosis (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Comedy Club (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Delta Upsilon Fraternity. University of Michigan Chapter.</corpname>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Adrian.</subject>
-        <subject source="lctgm" encodinganalog="650">Football.</subject>
-        <subject source="lctgm" encodinganalog="650">Fraternities and sororities.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Gamma Phi Beta. Beta Chapter (University of Michigan)</corpname>
-        <geogname source="lcsh" encodinganalog="651">Huron River (Oakland County-Monroe County, Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2006182890">Lombard, Warren P. (Warren Plimpton), 1855-1939.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Union.</corpname>
-        <subject source="lctgm" encodinganalog="650">Music ensembles.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2007182157">Novy, Frederick George, 1864-1957.</persname>
-        <subject source="lctgm" encodinganalog="650">Parades and processions.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Phi Kappa Psi. Michigan Alpha Chapter (University of Michigan)</corpname>
-        <subject source="lctgm" encodinganalog="650">Printmaking.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Quadrangle Club (University of Michigan)</corpname>
-        <subject source="lctgm" encodinganalog="650">Schools--Michigan--Adrian.</subject>
-        <persname source="lcnaf" encodinganalog="600">Shaw, Horatio Watson, 1822-1910.</persname>
-        <persname source="lcnaf" encodinganalog="600">Shaw, Wilfred Byron, 1881-1959.</persname>
-        <famname source="lcnaf" encodinganalog="600">Shaw family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Southern Club (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Campus.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Football.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Junior Hop.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98121869">University of Michigan. Men's Glee Club.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Orchestra.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Presidents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1901-1910.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Student housing--1901-1910.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Track.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Western Club (University of Michigan)</corpname>
-        <subject source="lcsh" encodinganalog="611">Wrinkle.</subject>
-        <subject source="lcsh" encodinganalog="650">Greek letter societies--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
-        <subject source="lcsh" encodinganalog="650">Women college students--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83163898" ref="/subjects/973">Adrian (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/666">Adrian (Mich.)--Dwellings.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/667">Adrian (Mich.)--Schools.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/210">Ann Arbor (Mich.)--Buildings.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1715">Alpha Delta Phi. Peninsular Chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5145">Apostles Club (University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7486">Baird, Charles, 1870-1944.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1225">Barbour Gymnasium (University of Michigan)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3741">Boats.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3586">Buildings--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3947">Churches.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/623">Collegiate Sorosis (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5573">Comedy Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2201">Delta Upsilon Fraternity. University of Michigan Chapter.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5283">Dwellings--Michigan--Adrian.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3660">Football.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3686">Fraternities and sororities.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3969">Gamma Phi Beta. Beta Chapter (University of Michigan)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Huron River (Oakland County-Monroe County, Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2006182890" ref="/agents/people/8113">Lombard, Warren P. (Warren Plimpton), 1855-1939.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5184">Michigan Union.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3690">Music ensembles.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2007182157" ref="/agents/people/2027">Novy, Frederick George, 1864-1957.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Parades and processions.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4079">Phi Kappa Psi. Michigan Alpha Chapter (University of Michigan)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5284">Printmaking.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5372">Quadrangle Club (University of Michigan)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5285">Schools--Michigan--Adrian.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4678">Shaw, Horatio Watson, 1822-1910.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7238">Shaw, Wilfred Byron, 1881-1959.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/108">Shaw family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5261">Southern Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Buildings.<term type="topical">Buildings.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Campus.<term type="topical">Campus.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Football.<term type="topical">Football.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5186">University of Michigan. Junior Hop.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98121869" ref="/agents/corporate_entities/3963">University of Michigan. Men's Glee Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/48">University of Michigan. Orchestra.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Presidents.<term type="topical">Presidents.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1901-1910.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1901-1910.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Student housing--1901-1910.<term type="temporal">1901-1910.</term><term type="topical">Student housing</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Sports.<term type="topical">Sports.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Track.<term type="topical">Track.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/630">Western Club (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="611" ref="/subjects/10059">Wrinkle.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5839">Greek letter societies--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5675">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5842">Women college students--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98115213">Babst, Earl D., 1870-1967.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88650119">Burton, Marion Le Roy, 1874-1925.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007083496">Morrill, J. L. (James Lewis), 1891-1979</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87828171">Ruthven, Alexander Grant, 1882-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700">Shaw, Horatio Watson, 1847-1918.</persname>
-        <persname source="lcnaf" encodinganalog="700">Smith, Harold J.</persname>
-        <persname source="lcnaf" encodinganalog="700">Stone, Ralph, 1868-1956.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90626615">Sullivan, Mark, 1874-1952.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98115213" ref="/agents/people/3041">Babst, Earl D., 1870-1967.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88650119" ref="/agents/people/7244">Burton, Marion Le Roy, 1874-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007083496" ref="/agents/people/1971">Morrill, J. L. (James Lewis), 1891-1979</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2456">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87828171" ref="/agents/people/3760">Ruthven, Alexander Grant, 1882-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4061">Shaw, Horatio Watson, 1847-1918.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/73">Smith, Harold J.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/885">Stone, Ralph, 1868-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90626615" ref="/agents/people/3633">Sullivan, Mark, 1874-1952.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/3635">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="gmgpc" encodinganalog="655">Caricatures.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Daguerreotypes.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Drawings.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Prints.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3469">Caricatures.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3478">Daguerreotypes.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3462">Drawings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3459">Prints.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -202,10 +202,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1904/1950">1904-1950</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1904/1950">1904-1950</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">12 folders</extent>
               </physdesc>
             </did>
@@ -218,80 +215,67 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>Ann Arbor <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></unittitle>
-            </did>
+              <unittitle>Ann Arbor</unittitle><unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>Babst, Earl D. <unitdate type="inclusive" normal="1942/1950">1942-1950</unitdate></unittitle>
-            </did>
+              <unittitle>Babst, Earl D.</unittitle><unitdate type="inclusive" normal="1942/1950">1942-1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>Delta Upsilon Fraternity <unitdate type="inclusive" normal="1931/1949">1931-1949</unitdate></unittitle>
-            </did>
+              <unittitle>Delta Upsilon Fraternity</unittitle><unitdate type="inclusive" normal="1931/1949">1931-1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>Etchings, relating to <unitdate type="inclusive" normal="1928/1950">1928-1950</unitdate></unittitle>
-            </did>
+              <unittitle>Etchings, relating to</unittitle><unitdate type="inclusive" normal="1928/1950">1928-1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>Four Thirteen Club <unitdate type="inclusive" normal="1929/1941">1929-1941</unitdate></unittitle>
-            </did>
+              <unittitle>Four Thirteen Club</unittitle><unitdate type="inclusive" normal="1929/1941">1929-1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>Frank Holmes Memorial Group <unitdate type="inclusive" normal="1944/1948">1944-1948</unitdate></unittitle>
-            </did>
+              <unittitle>Frank Holmes Memorial Group</unittitle><unitdate type="inclusive" normal="1944/1948">1944-1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>Freer, Charles L. <unitdate type="inclusive" normal="1910/1914">1910-1914</unitdate></unittitle>
-            </did>
+              <unittitle>Freer, Charles L.</unittitle><unitdate type="inclusive" normal="1910/1914">1910-1914</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>Johnson, Martyn <unitdate type="inclusive" normal="1904/1953">1904-1953</unitdate></unittitle>
-            </did>
+              <unittitle>Johnson, Martyn</unittitle><unitdate type="inclusive" normal="1904/1953">1904-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>Osborn, Chase S. <unitdate type="inclusive" normal="1935/1945">1935-1945</unitdate></unittitle>
-            </did>
+              <unittitle>Osborn, Chase S.</unittitle><unitdate type="inclusive" normal="1935/1945">1935-1945</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>Retirement <unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate></unittitle>
-            </did>
+              <unittitle>Retirement</unittitle><unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>Smith, Delos G. <unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate></unittitle>
-            </did>
+              <unittitle>Smith, Delos G.</unittitle><unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>Sullivan, Mark <unitdate type="inclusive" normal="1922/1925">1922-1925</unitdate></unittitle>
-            </did>
+              <unittitle>Sullivan, Mark</unittitle><unitdate type="inclusive" normal="1922/1925">1922-1925</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>University of Michigan Alumni Association <unitdate type="inclusive" normal="1873">1873</unitdate>, <unitdate type="inclusive" normal="1902/1929">1902-1929</unitdate></unittitle>
-            </did>
+              <unittitle>University of Michigan Alumni Association</unittitle><unitdate type="inclusive" normal="1873">1873</unitdate><unitdate type="inclusive" normal="1902/1929">1902-1929</unitdate></did>
             <odd>
               <p>include scattered papers of earlier directors of the Association</p>
             </odd>
@@ -299,14 +283,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>University of Michigan <title render="italic">Encyclopedic Survey</title>, <unitdate type="inclusive" normal="1939/1948">1939-1948</unitdate></unittitle>
-            </did>
+              <unittitle>University of Michigan <title render="italic">Encyclopedic Survey</title></unittitle><unitdate type="inclusive" normal="1939/1948">1939-1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9787504869170971]">1</container>
-              <unittitle>War service <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></unittitle>
-            </did>
+              <unittitle>War service</unittitle><unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -332,8 +314,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [9787504869170971]">1</container>
-            <unittitle>re Michigan Union <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
-          </did>
+            <unittitle>Re Michigan Union</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2173,10 +2154,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [87039022784825808926808]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935/1959">1935-1959</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1935/1959">1935-1959</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">35 folders</extent>
               </physdesc>
             </did>
@@ -2189,8 +2167,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Oversize Box [908515487129787061]">9</container>
-              <unittitle>Alumnae House <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-            </did>
+              <unittitle>Alumnae House</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2201,8 +2178,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Oversize Box [908515487129787061]">9</container>
-              <unittitle>Angell Hall in <unitdate type="inclusive" normal="1925">1925</unitdate></unittitle>
-            </did>
+              <unittitle>Angell Hall in</unittitle><unitdate type="inclusive" normal="1925">1925</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2217,8 +2193,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Oversize Box [908515487129787061]">9</container>
-                <unittitle>University in <unitdate type="inclusive" normal="1850">1850</unitdate> from the East</unittitle>
-              </did>
+                <unittitle>University in  from the East</unittitle><unitdate type="inclusive" normal="1850">1850</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -2320,8 +2295,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Oversize Box [908515487129787061]">9</container>
-              <unittitle>Two first University buildings rendered in <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-            </did>
+              <unittitle>Two first University buildings rendered in</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2350,8 +2324,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Oversize Box [908515487129787061]">9</container>
-              <unittitle>West Quadrangle lounge <unitdate type="inclusive" normal="1942-02">February 1942</unitdate></unittitle>
-            </did>
+              <unittitle>West Quadrangle lounge</unittitle><unitdate type="inclusive" normal="1942-02">February 1942</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2537,8 +2510,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Oversize Box [557798874364232643]">11</container>
-              <unittitle>Illustrations used in <title render="italic">Wrinkle</title> publication, <unitdate type="inclusive" normal="1902/1904">1902-1904</unitdate></unittitle>
-            </did>
+              <unittitle>Illustrations used in <title render="italic">Wrinkle</title> publication</unittitle><unitdate type="inclusive" normal="1902/1904">1902-1904</unitdate></did>
             <odd>
               <p>(stored in oversize folder Ac)</p>
             </odd>
@@ -2591,8 +2563,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [41114966847094771867604]">5</container>
-            <unittitle>Student notebooks <unitdate type="inclusive" normal="1901">1901</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Student notebooks</unittitle><unitdate type="inclusive" normal="1901">1901</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
@@ -2600,8 +2571,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [41114966847094771867604]">5</container>
-            <unittitle>re Horatio W. Shaw <unitdate type="inclusive" normal="1878/1947">1878-1947</unitdate> (include typescripts of letters)</unittitle>
-          </did>
+            <unittitle>Re Horatio W. Shaw  (include typescripts of letters)</unittitle><unitdate type="inclusive" normal="1878/1947">1878-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2896,8 +2866,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [41114966847094771867604]">5</container>
-              <unittitle>Line-up, Tecumseh-Adrian football game, <unitdate type="inclusive" normal="1899" certainty="approximate">circa 1899</unitdate></unittitle>
-            </did>
+              <unittitle>Line-up, Tecumseh-Adrian football game</unittitle><unitdate type="inclusive" normal="1899" certainty="approximate">circa 1899</unitdate></did>
             <odd>
               <p>(print no. 34)</p>
             </odd>
@@ -2932,8 +2901,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [41114966847094771867604]">5</container>
-              <unittitle>"The Woods", <unitdate type="inclusive" normal="1900">winter 1900</unitdate></unittitle>
-            </did>
+              <unittitle>"The Woods"</unittitle><unitdate type="inclusive" normal="1900">winter 1900</unitdate></did>
             <odd>
               <p>(print no. 38)</p>
             </odd>
@@ -2941,8 +2909,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [41114966847094771867604]">5</container>
-              <unittitle>Florence W. and Bob Lee's girl, J Hop <unitdate type="inclusive" normal="1900">1900</unitdate></unittitle>
-            </did>
+              <unittitle>Florence W. and Bob Lee's girl, J Hop</unittitle><unitdate type="inclusive" normal="1900">1900</unitdate></did>
             <odd>
               <p>(prints no. 39)</p>
             </odd>
@@ -3051,16 +3018,14 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [41114966847094771867604]">5</container>
-              <unittitle>Byron L. Shaw family album <unitdate type="inclusive" normal="1874/1900" certainty="approximate">1874-circa 1900</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Byron L. Shaw family album</unittitle><unitdate type="inclusive" normal="1874/1900" certainty="approximate">1874-circa 1900</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Album of University of Michigan student activities, disbound <unitdate type="inclusive" normal="1900/1904" certainty="approximate">circa 1900-1904</unitdate></unittitle>
-            </did>
+              <unittitle>Album of University of Michigan student activities, disbound</unittitle><unitdate type="inclusive" normal="1900/1904" certainty="approximate">circa 1900-1904</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [20423331375229155]">8</container>
@@ -3069,8 +3034,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Athletics-Men <unitdate type="inclusive" normal="1900/1905" certainty="approximate">circa 1900-1905</unitdate></unittitle>
-              </did>
+                <unittitle>Athletics-Men</unittitle><unitdate type="inclusive" normal="1900/1905" certainty="approximate">circa 1900-1905</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [20423331375229155]">8</container>
@@ -3081,7 +3045,7 @@
                 <did>
                   <container type="box" label="Box [20423331375229155]">8</container>
                   <unittitle>Football</unittitle>
-                  <dao href="8632-1" show="new" actuate="onRequest">
+                  <dao href="8632-1" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15434">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -3092,7 +3056,7 @@
                 <did>
                   <container type="box" label="Box [20423331375229155]">8</container>
                   <unittitle>Track</unittitle>
-                  <dao href="8632-2" show="new" actuate="onRequest">
+                  <dao href="8632-2" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15435">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -3103,7 +3067,7 @@
                 <did>
                   <container type="box" label="Box [20423331375229155]">8</container>
                   <unittitle>Baseball, Gymnastics, Golf, and Fencing</unittitle>
-                  <dao href="8632-3" show="new" actuate="onRequest">
+                  <dao href="8632-3" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15436">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -3113,8 +3077,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Athletics-Women <unitdate type="inclusive" normal="1900/1905" certainty="approximate">circa 1900-1905</unitdate></unittitle>
-              </did>
+                <unittitle>Athletics-Women</unittitle><unitdate type="inclusive" normal="1900/1905" certainty="approximate">circa 1900-1905</unitdate></did>
               <odd>
                 <p>(mainly at Barbour Gymnasium)</p>
               </odd>
@@ -3122,7 +3085,7 @@
                 <did>
                   <container type="box" label="Box [20423331375229155]">8</container>
                   <unittitle>Women's basketball</unittitle>
-                  <dao href="8632-4" show="new" actuate="onRequest">
+                  <dao href="8632-4" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15437">
                     <daodesc>
                       <p>[view sample images]</p>
                     </daodesc>
@@ -3352,8 +3315,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [20423331375229155]">8</container>
-                  <unittitle>Literary Class Day under Tappan Oak <unitdate type="inclusive" normal="1903">1903</unitdate></unittitle>
-                </did>
+                  <unittitle>Literary Class Day under Tappan Oak</unittitle><unitdate type="inclusive" normal="1903">1903</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -3610,8 +3572,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [40222289748582541519]">6</container>
-              <unittitle>Signs of spring-the Huron <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
-            </did>
+              <unittitle>Signs of spring-the Huron</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate></did>
             <odd>
               <p>(no. 22)</p>
             </odd>

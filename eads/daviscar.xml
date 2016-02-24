@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n96800244">Davis, Carolyne K.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n96800244" ref="/agents/people/4756">Davis, Carolyne K.</persname>
       </origination>
-      <unittitle encodinganalog="245">Carolyne K. Davis papers <unitdate type="inclusive" encodinganalog="245$f" normal="1979/1985">1979-1985</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861058 Aa 2</unitid>
+      <unittitle encodinganalog="245">Carolyne K. Davis papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1979/1985">1979-1985</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861058 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Administrator of the Health Care Financing Administration in the Department of Health and Human Services, 1981-1985. Memoranda and other working papers detailing her involvement with the prospective payment system of health care financing; also files concerning health maintenance organizations (HMO) and professional review organizations.</abstract>
       <physdesc altrender="whole">
@@ -80,11 +80,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Health maintenance organizations.</subject>
-        <subject source="lcsh" encodinganalog="650">Hospitals--Prospective payment.</subject>
-        <subject source="lcsh" encodinganalog="650">Medical care.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United States. Health Care Financing Administration.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96800244">Davis, Carolyne K.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7141">Health maintenance organizations.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7142">Hospitals--Prospective payment.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6002">Medical care.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5732">United States. Health Care Financing Administration.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96800244" ref="/agents/people/4756">Davis, Carolyne K.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,10 +112,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [41188419901312108537]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1981-08/1983-03">August 1981-March 1983</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1981-08/1983-03">August 1981-March 1983</unitdate></did>
               <odd>
                 <p>(folders 1-5)</p>
               </odd>
@@ -123,10 +120,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [8067398984354416592]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1983-03/1984-02">March 1983-February 1984</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1983-03/1984-02">March 1983-February 1984</unitdate></did>
               <odd>
                 <p>(folders 6-10)</p>
               </odd>
@@ -134,10 +128,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [50413744436211131441]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1984-03/1985-06">March 1984-June 1985</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1984-03/1985-06">March 1984-June 1985</unitdate></did>
               <odd>
                 <p>(folders 11-16)</p>
               </odd>
@@ -165,8 +156,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [453467051417096680312176]">6</container>
-            <unittitle>Professional Review Organizations <unitdate type="inclusive" normal="1979/1985">1979-1985</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Professional Review Organizations</unittitle><unitdate type="inclusive" normal="1979/1985">1979-1985</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>

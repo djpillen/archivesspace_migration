@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Larcom, Guy C., 1913-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/8716">Larcom, Guy C., 1913-</persname>
       </origination>
-      <unittitle encodinganalog="245">Guy C. Larcom papers <unitdate type="inclusive" encodinganalog="245$f" normal="1956/1973">1956-1973</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85268 Aa 2</unitid>
+      <unittitle encodinganalog="245">Guy C. Larcom papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1956/1973">1956-1973</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85268 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Michigan, city administrator. Correspondence concerning city business, reports to city council, topical files relating to the operation of city departments and to municipal issues; and photographs.</abstract>
       <repository>
@@ -81,21 +81,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). City Administrator.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Larcom, Guy C.</persname>
-        <subject source="lcsh" encodinganalog="650">Municipal government--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4412">Ann Arbor (Mich.). City Administrator.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/39">Ann Arbor (Mich.). Common Council.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6310">Larcom, Guy C.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5664">Municipal government--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Buildings.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">City Hall (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Municipal officials.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/210">Ann Arbor (Mich.)--Buildings.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/39">Ann Arbor (Mich.). Common Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4248">City Hall (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4114">Municipal officials.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -120,140 +120,117 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [3575502620145804866187]">1</container>
-              <unittitle>Outgoing <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3575502620145804866187]">1</container>
-              <unittitle>Incoming <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <unittitle>Incoming</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3575502620145804866187]">1</container>
-              <unittitle>Outgoing <unitdate type="inclusive" normal="1966-01/1966-06">January-June 1966</unitdate></unittitle>
-            </did>
+              <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1966-01/1966-06">January-June 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3575502620145804866187]">1</container>
-              <unittitle>Outgoing <unitdate type="inclusive" normal="1966-07/1966-12">July-December 1966</unitdate></unittitle>
-            </did>
+              <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1966-07/1966-12">July-December 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3575502620145804866187]">1</container>
-              <unittitle>Incoming <unitdate type="inclusive" normal="1966-01/1966-06">January-June 1966</unitdate></unittitle>
-            </did>
+              <unittitle>Incoming</unittitle><unitdate type="inclusive" normal="1966-01/1966-06">January-June 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3575502620145804866187]">1</container>
-              <unittitle>Incoming <unitdate type="inclusive" normal="1966-07/1966-12">July-December 1966</unitdate></unittitle>
-            </did>
+              <unittitle>Incoming</unittitle><unitdate type="inclusive" normal="1966-07/1966-12">July-December 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0881642761549739]">2</container>
-              <unittitle>Outgoing <unitdate type="inclusive" normal="1967-01/1967-06">January-June, 1967</unitdate></unittitle>
-            </did>
+              <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1967-01/1967-06">January-June, 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0881642761549739]">2</container>
-              <unittitle>Outgoing <unitdate type="inclusive" normal="1967-07/1967-12">July-December 1967</unitdate></unittitle>
-            </did>
+              <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1967-07/1967-12">July-December 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0881642761549739]">2</container>
-              <unittitle>Incoming <unitdate type="inclusive" normal="1967-01/1967-04">January-April 1967</unitdate></unittitle>
-            </did>
+              <unittitle>Incoming</unittitle><unitdate type="inclusive" normal="1967-01/1967-04">January-April 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0881642761549739]">2</container>
-              <unittitle>Incoming <unitdate type="inclusive" normal="1967-07/1967-12">July-December 1967</unitdate></unittitle>
-            </did>
+              <unittitle>Incoming</unittitle><unitdate type="inclusive" normal="1967-07/1967-12">July-December 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0881642761549739]">2</container>
-              <unittitle>Outgoing <unitdate type="inclusive" normal="1968-01/1968-06">January-June 1968</unitdate></unittitle>
-            </did>
+              <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1968-01/1968-06">January-June 1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0881642761549739]">2</container>
-              <unittitle>Outgoing <unitdate type="inclusive" normal="1968-07/1968-12">July-December 1968</unitdate></unittitle>
-            </did>
+              <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1968-07/1968-12">July-December 1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0881642761549739]">2</container>
-              <unittitle>Incoming <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Incoming</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30511904684730655513]">3</container>
-              <unittitle>Outgoing <unitdate type="inclusive" normal="1969-01/1969-06">January-June 1969</unitdate></unittitle>
-            </did>
+              <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1969-01/1969-06">January-June 1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30511904684730655513]">3</container>
-              <unittitle>Outgoing <unitdate type="inclusive" normal="1969-07/1969-12">July-December 1969</unitdate></unittitle>
-            </did>
+              <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1969-07/1969-12">July-December 1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30511904684730655513]">3</container>
-              <unittitle>Incoming <unitdate type="inclusive" normal="1969-01/1969-06">January-June 1969</unitdate></unittitle>
-            </did>
+              <unittitle>Incoming</unittitle><unitdate type="inclusive" normal="1969-01/1969-06">January-June 1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30511904684730655513]">3</container>
-              <unittitle>Incoming <unitdate type="inclusive" normal="1969-07/1969-12">July-December 1969</unitdate></unittitle>
-            </did>
+              <unittitle>Incoming</unittitle><unitdate type="inclusive" normal="1969-07/1969-12">July-December 1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30511904684730655513]">3</container>
-              <unittitle>Outgoing <unitdate type="inclusive" normal="1970-01/1970-06">January-June 1970</unitdate></unittitle>
-            </did>
+              <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1970-01/1970-06">January-June 1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30511904684730655513]">3</container>
-              <unittitle>Outgoing <unitdate type="inclusive" normal="1970-07/1970-12">July-December 1970</unitdate></unittitle>
-            </did>
+              <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1970-07/1970-12">July-December 1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [39575563845597601171484]">4</container>
-              <unittitle>Incoming <unitdate type="inclusive" normal="1970-01/1970-06">January-June 1970</unitdate></unittitle>
-            </did>
+              <unittitle>Incoming</unittitle><unitdate type="inclusive" normal="1970-01/1970-06">January-June 1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [39575563845597601171484]">4</container>
-              <unittitle>Incoming <unitdate type="inclusive" normal="1970-07/1970-12">July-December 1970</unitdate></unittitle>
-            </did>
+              <unittitle>Incoming</unittitle><unitdate type="inclusive" normal="1970-07/1970-12">July-December 1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [39575563845597601171484]">4</container>
-              <unittitle>Outgoing <unitdate type="inclusive" normal="1971-01/1971-06">January-June 1971</unitdate></unittitle>
-            </did>
+              <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1971-01/1971-06">January-June 1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [39575563845597601171484]">4</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></unittitle>
-            </did>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -272,161 +249,106 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [39575563845597601171484]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [39575563845597601171484]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965">1965</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [39575563845597601171484]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966-01/1966-06">January-June 1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966-01/1966-06">January-June 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [39575563845597601171484]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966-07/1966-12">July-December 1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966-07/1966-12">July-December 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [40627384722896444913]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967-01/1967-06">January-June 1967</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1967-01/1967-06">January-June 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [40627384722896444913]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967-07/1967-12">July-December 1967</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1967-07/1967-12">July-December 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [40627384722896444913]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968">1968</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [40627384722896444913]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969-01/1969-06">January-June 1969</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1969-01/1969-06">January-June 1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [40627384722896444913]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969-07/1969-12">July-December 1969</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1969-07/1969-12">July-December 1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [40627384722896444913]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970">1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [40627384722896444913]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1971">1971</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7161432486033757347]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972-01/1972-04">January-April 1972</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1972-01/1972-04">January-April 1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7161432486033757347]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972-05/1972-07">May-July 1972</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1972-05/1972-07">May-July 1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7161432486033757347]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972-07/1972-08">July-August 1972</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1972-07/1972-08">July-August 1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7161432486033757347]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972-09/1972-12">September-December 1972</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1972-09/1972-12">September-December 1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7161432486033757347]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1973-01/1973-02">January-February 1973</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1973-01/1973-02">January-February 1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7161432486033757347]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1973-03/1973-04">March-April 1973</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1973-03/1973-04">March-April 1973</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Topical Files <unitdate type="inclusive" normal="1958/1973">1958-1973</unitdate></unittitle>
-          </did>
+            <unittitle>Topical Files</unittitle><unitdate type="inclusive" normal="1958/1973">1958-1973</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7161432486033757347]">6</container>
-              <unittitle>Administrator's budgets for departments <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Administrator's budgets for departments</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7161432486033757347]">6</container>
-              <unittitle>All American Cities awards presentation <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>All American Cities awards presentation</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7161432486033757347]">6</container>
-              <unittitle>Ann Arbor Area Goals Conference <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <unittitle>Ann Arbor Area Goals Conference</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -455,14 +377,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [362496652149369003]">7</container>
-              <unittitle>Ann Arbor Civic Theater <unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate></unittitle>
-            </did>
+              <unittitle>Ann Arbor Civic Theater</unittitle><unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [362496652149369003]">7</container>
-              <unittitle>Archdiocese contract <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Archdiocese contract</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -473,62 +393,52 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [336115253461791070172435]">8</container>
-              <unittitle>Council of Governments <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <unittitle>Council of Governments</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [336115253461791070172435]">8</container>
-              <unittitle>Day care centers <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Day care centers</unittitle><unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [336115253461791070172435]">8</container>
-              <unittitle>Department of Traffic Engineering and Transportation <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Department of Traffic Engineering and Transportation</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [336115253461791070172435]">8</container>
-              <unittitle>Development Committee <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Development Committee</unittitle><unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [336115253461791070172435]">8</container>
-              <unittitle>Economic Opportunity <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
-            </did>
+              <unittitle>Economic Opportunity</unittitle><unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [336115253461791070172435]">8</container>
-              <unittitle>Five Year Projection Plan <unitdate type="inclusive" normal="1971/1977">1971/1972-1976/1977</unitdate></unittitle>
-            </did>
+              <unittitle>Five Year Projection Plan</unittitle><unitdate type="inclusive" normal="1971/1977">1971/1972-1976/1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [336115253461791070172435]">8</container>
-              <unittitle>Governor's Commission on Local Government <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Governor's Commission on Local Government</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [336115253461791070172435]">8</container>
-              <unittitle>Highway Safety <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Highway Safety</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [367831384741052054650704]">9</container>
-              <unittitle>Housing <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Housing</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [367831384741052054650704]">9</container>
-              <unittitle>Human Rights Department <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Human Rights Department</unittitle><unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -536,20 +446,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [367831384741052054650704]">9</container>
-              <unittitle>International City Managers Association (ICMA); Pittsfield Township; Office of Economic Opportunity <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>International City Managers Association (ICMA); Pittsfield Township; Office of Economic Opportunity</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [367831384741052054650704]">9</container>
-              <unittitle>Michigan State Highway Department <unitdate type="inclusive" normal="1958/1962">1958-1962</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan State Highway Department</unittitle><unitdate type="inclusive" normal="1958/1962">1958-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [367831384741052054650704]">9</container>
-              <unittitle>Planning Commission Minutes <unitdate type="inclusive" normal="1973-01/1973-08">January-August 1973</unitdate></unittitle>
-            </did>
+              <unittitle>Planning Commission Minutes</unittitle><unitdate type="inclusive" normal="1973-01/1973-08">January-August 1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -560,8 +467,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [367831384741052054650704]">9</container>
-              <unittitle>Purchasing bids <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></unittitle>
-            </did>
+              <unittitle>Purchasing bids</unittitle><unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -573,8 +479,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6472805404795985679486]">10</container>
-            <unittitle>Annual Report, City of Ann Arbor <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-          </did>
+            <unittitle>Annual Report, City of Ann Arbor</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -583,34 +488,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6472805404795985679486]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6472805404795985679486]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6472805404795985679486]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962">1962</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6472805404795985679486]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966/1973">1966-1973</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966/1973">1966-1973</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -620,50 +513,35 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6472805404795985679486]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6472805404795985679486]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959/1965">1959-1965</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959/1965">1959-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6472805404795985679486]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1971">1971</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1971">1971</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6472805404795985679486]">10</container>
-                <unittitle>Incoming <unitdate type="inclusive" normal="1971-01/1971-06">January-June 1971</unitdate></unittitle>
-              </did>
+                <unittitle>Incoming</unittitle><unitdate type="inclusive" normal="1971-01/1971-06">January-June 1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6472805404795985679486]">10</container>
-                <unittitle>Incoming <unitdate type="inclusive" normal="1971-07/1971-12">July-December 1971</unitdate></unittitle>
-              </did>
+                <unittitle>Incoming</unittitle><unitdate type="inclusive" normal="1971-07/1971-12">July-December 1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [6472805404795985679486]">10</container>
-                <unittitle>Outgoing <unitdate type="inclusive" normal="1971-07/1971-12">July-December 1971</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1971-07/1971-12">July-December 1971</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -672,25 +550,18 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6472805404795985679486]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972">1972</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6472805404795985679486]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6472805404795985679486]">10</container>
-            <unittitle>Speech Notes <unitdate type="inclusive" normal="1966/1973">1966-1973</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Speech Notes</unittitle><unitdate type="inclusive" normal="1966/1973">1966-1973</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -708,10 +579,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6472805404795985679486]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956/1973">1956-1973</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1956/1973">1956-1973</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -731,14 +599,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6472805404795985679486]">10</container>
-              <unittitle>Housing Commission record book <unitdate type="inclusive" normal="1967-07/1967-12">July-December 1967</unitdate></unittitle>
-            </did>
+              <unittitle>Housing Commission record book</unittitle><unitdate type="inclusive" normal="1967-07/1967-12">July-December 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6472805404795985679486]">10</container>
-              <unittitle>Urban Renewal Appraisal Reports <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Urban Renewal Appraisal Reports</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
@@ -758,14 +624,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [59263310814849787068742]">11</container>
-              <unittitle>East Ann Arbor (Pittsfield Village) street name changes, etc. <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></unittitle>
-            </did>
+              <unittitle>East Ann Arbor (Pittsfield Village) street name changes, etc.</unittitle><unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [59263310814849787068742]">11</container>
-              <unittitle>Public Housing <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Public Housing</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -776,8 +640,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [59263310814849787068742]">11</container>
-              <unittitle>Colored Welfare Building <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Colored Welfare Building</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">

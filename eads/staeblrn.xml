@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Staebler, Neil, 1905-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3351">Staebler, Neil, 1905-</persname>
       </origination>
-      <unittitle encodinganalog="245">Neil Staebler papers <unitdate type="inclusive" encodinganalog="245$f" normal="1944/1992">1944-1992</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85817 Aa 2 AC</unitid>
+      <unittitle encodinganalog="245">Neil Staebler papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1944/1992">1944-1992</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85817 Aa 2 AC</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Michigan, businessman and attorney, chairman of the Michigan Democratic Party State Central Committee, U. S. Congressman-at-large, 1963-1964, gubernatorial candidate in 1964, member of the U. S. Federal Election Commission, 1975-1978. Chronological, congressional and topical files relating to political and personal activities; include political files detailing state election campaigns 1948-1964, particularly the campaigns of G. Mennen Williams and John B. Swainson; also photographs and transcript of oral interview, 1979.</abstract>
       <repository>
@@ -88,9 +88,9 @@
           <head>Summary Contents List</head>
           <item>Chronological files, 1949-1970 -- Boxes 1-16</item>
           <item>People files -- Boxes 16-46, 272-278, 284-298, 300, 315-318</item>
-          <item>Congressional files -- Boxes 47-66 <sublist type="simple"><subitem>Congressman-elect correspondence -- Box 47</subitem><subitem>Subject files -- Boxes 47-51</subitem><subitem>Government departments and agencies -- Boxes 52-56</subitem><subitem>Legislative files -- Boxes 57-63</subitem><subitem>Topical Files -- Box 64</subitem><subitem>Miscellaneous -- Boxes 64-65</subitem><subitem>House Committee on Science and Astronautics -- Box 66</subitem></sublist> </item>
-          <item>Campaign files -- Boxes 67-115 <sublist type="simple"><subitem>Non-Staebler campaigns, 1948-1974 -- Boxes 67-78, 82, 103 (part), 104</subitem><subitem>Neil Staebler: Congressman-at-large campaign, 1962 -- Boxes 79-81</subitem><subitem>Neil Staebler: Gubernatorial campaign, 1964 -- Boxes 83-103 (part)</subitem><subitem>Candidates files, 1948-1973 -- Boxes 105-115</subitem></sublist> </item>
-          <item>Political files -- Boxes 116-221, 313-314, 319 <sublist type="simple"><subitem>Forms (copies of party mailings) -- Boxes 116-122</subitem><subitem>Conventions -- Boxes 123-135</subitem><subitem>Campaign Directories and related materials -- Boxes 135-136</subitem><subitem>Campaign Platforms and Convention Resolutions -- Boxes 136-137</subitem><subitem>Democratic State Central Committee -- Boxes 138-175, 309-310</subitem><subitem>Democratic National Committee -- Boxes 176-190, 311-312</subitem><subitem>Michigan Governors/Senators files -- Boxes 191-196</subitem><subitem>Calendar-Invitations -- Boxes 197-206</subitem><subitem>Federal Agencies and Departments -- Boxes 207-209</subitem><subitem>Miscellaneous -- Boxes 210-221, 313-314, 319</subitem></sublist> </item>
+          <item>Congressional files -- Boxes 47-66 <sublist type="simple"><subitem>Congressman-elect correspondence -- Box 47</subitem> <subitem>Subject files -- Boxes 47-51</subitem> <subitem>Government departments and agencies -- Boxes 52-56</subitem> <subitem>Legislative files -- Boxes 57-63</subitem> <subitem>Topical Files -- Box 64</subitem> <subitem>Miscellaneous -- Boxes 64-65</subitem> <subitem>House Committee on Science and Astronautics -- Box 66</subitem></sublist> </item>
+          <item>Campaign files -- Boxes 67-115 <sublist type="simple"><subitem>Non-Staebler campaigns, 1948-1974 -- Boxes 67-78, 82, 103 (part), 104</subitem> <subitem>Neil Staebler: Congressman-at-large campaign, 1962 -- Boxes 79-81</subitem> <subitem>Neil Staebler: Gubernatorial campaign, 1964 -- Boxes 83-103 (part)</subitem> <subitem>Candidates files, 1948-1973 -- Boxes 105-115</subitem></sublist> </item>
+          <item>Political files -- Boxes 116-221, 313-314, 319 <sublist type="simple"><subitem>Forms (copies of party mailings) -- Boxes 116-122</subitem> <subitem>Conventions -- Boxes 123-135</subitem> <subitem>Campaign Directories and related materials -- Boxes 135-136</subitem> <subitem>Campaign Platforms and Convention Resolutions -- Boxes 136-137</subitem> <subitem>Democratic State Central Committee -- Boxes 138-175, 309-310</subitem> <subitem>Democratic National Committee -- Boxes 176-190, 311-312</subitem> <subitem>Michigan Governors/Senators files -- Boxes 191-196</subitem> <subitem>Calendar-Invitations -- Boxes 197-206</subitem> <subitem>Federal Agencies and Departments -- Boxes 207-209</subitem> <subitem>Miscellaneous -- Boxes 210-221, 313-314, 319</subitem></sublist> </item>
           <item>Federal Election Commission files -- Boxes 222-240, 306-308</item>
           <item>Issues files -- Boxes 241-258, 301-305</item>
           <item>American Veterans Committee -- Boxes 259-260</item>
@@ -111,184 +111,135 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94090783">Democratic Party (Mich.). State Central Committee.</corpname>
-        <subject source="lcsh" encodinganalog="650">Elections--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1948.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1950.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1952.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1954.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1956.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1958.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1960.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2003087794">Swainson, John B. (John Burley), 1925-1994.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Congress.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79069957">United States. Federal Election Commission.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463">Williams, G. Mennen, 1911-1988.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1960.</corpname>
-        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1960.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1962.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1962.</corpname>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1964.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1964.</corpname>
-        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1964.</subject>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1946-1960.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1961-1970.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1971-1980.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1945-1989.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/3762">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94090783" ref="/agents/corporate_entities/1943">Democratic Party (Mich.). State Central Committee.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5804">Elections--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6520">Elections--Michigan--1948.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6521">Elections--Michigan--1950.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6857">Elections--Michigan--1952.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6267">Elections--Michigan--1954.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6514">Elections--Michigan--1956.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6137">Elections--Michigan--1958.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6138">Elections--Michigan--1960.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2003087794" ref="/agents/people/5522">Swainson, John B. (John Burley), 1925-1994.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2414">United States. Congress.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79069957" ref="/agents/corporate_entities/2214">United States. Federal Election Commission.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463" ref="/agents/people/3876">Williams, G. Mennen, 1911-1988.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2414">United States. Congress--Elections, 1960.<term type="topical">Elections, 1960.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6379">Presidents--United States--Election--1960.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6897">Elections--Michigan--1962.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2414">United States. Congress--Elections, 1962.<term type="topical">Elections, 1962.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6620">Elections--Michigan--1964.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2414">United States. Congress--Elections, 1964.<term type="topical">Elections, 1964.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6662">Presidents--United States--Election--1964.</subject>
+        <geogname source="local" encodinganalog="691" ref="/subjects/805">Michigan--Politics and government--1946-1960.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/806">Michigan--Politics and government--1961-1970.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/797">Michigan--Politics and government--1971-1980.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1271">United States--Politics and government--1945-1989.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/906">Michigan--Politics and government--1951-</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Cavanagh, Jerome Patrick, 1928-1979.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80005801">Johnson, Lyndon B. (Lyndon Baines), 1908-1973.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055297">Kennedy, John F. (John Fitzgerald), 1917-1963.</persname>
-        <subject source="lctgm" encodinganalog="650">Politics and government--1946-1960.</subject>
-        <subject source="lctgm" encodinganalog="650">Politics and government--1961-1970.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8438">Cavanagh, Jerome Patrick, 1928-1979.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/3762">Democratic Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80005801" ref="/agents/people/1299">Johnson, Lyndon B. (Lyndon Baines), 1908-1973.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055297" ref="/agents/people/19">Kennedy, John F. (John Fitzgerald), 1917-1963.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3872">Politics and government--1946-1960.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3873">Politics and government--1961-1970.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="655">Motion pictures.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3450">Motion pictures.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Chronological file <unitdate type="inclusive" normal="1949/1970">1949-1970</unitdate></unittitle>
-        </did>
+          <unittitle>Chronological file</unittitle><unitdate type="inclusive" normal="1949/1970">1949-1970</unitdate></did>
         <scopecontent>
           <p>The Chronological Files series consists of duplicate carbons of all of Staebler's outgoing correspondence. This chronological file dates from September 1949 through 1970.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box [01364314711463432503]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1949-09/1950-12">September 1949-December 1950</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1949-09/1950-12">September 1949-December 1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [09414443348249454923099]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951-01/1951-12">January-December 1951</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1951-01/1951-12">January-December 1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [768563504997010]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1952-01/1952-10">January-October 1952</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1952-01/1952-10">January-October 1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3119679074590990455325644]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1952-11/1953-12">November 1952-December 1953</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1952-11/1953-12">November 1952-December 1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8599261634956910385507]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954-01/1954-12">January-December 1954</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1954-01/1954-12">January-December 1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [251714847895486]">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1955-01/1956-07">January 1955-July 1956</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1955-01/1956-07">January 1955-July 1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [430439317414844903589]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956-08/1957-07">August 1956-July 1957</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1956-08/1957-07">August 1956-July 1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2656755849810446746]">8</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957-08/1958-11">August 1957-November 1958</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1957-08/1958-11">August 1957-November 1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3552286433685617269940]">9</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1958-12/1960-03">December 1958-March 1960</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1958-12/1960-03">December 1958-March 1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [867321454630330956825]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1960-04/1961-12">April 1960-December 1961</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1960-04/1961-12">April 1960-December 1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [27405408557272389]">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1962-01/1963-08">January 1962-August 1963</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1962-01/1963-08">January 1962-August 1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [550224883596827]">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963-09/1964-11">September 1963-November 1964</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1963-09/1964-11">September 1963-November 1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5827028248059415931]">13</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1964-12/1966-06">December 1964-June 1966</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1964-12/1966-06">December 1964-June 1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8469709930947081686483]">14</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966-07/1968-03">July 1966-March 1968</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1966-07/1968-03">July 1966-March 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [23267384138717992857]">15</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968-04/1970-04">April 1968-April 1970</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1968-04/1970-04">April 1968-April 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3373428984512730238593]">16</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970-05/1970-12">May-December 1970</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1970-05/1970-12">May-December 1970</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -300,10 +251,7 @@
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950/1969" certainty="approximate">1950s-1960s</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1950/1969" certainty="approximate">1950s-1960s</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3373428984512730238593]">16</container>
@@ -493,10 +441,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970/1980" certainty="approximate">1970s-1980</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1970/1980" certainty="approximate">1970s-1980</unitdate></did>
           <odd>
             <p>(includes much material prior to 1970)</p>
           </odd>
@@ -693,8 +638,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Congressional Files <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
-        </did>
+          <unittitle>Congressional Files</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
         <scopecontent>
           <p>Staebler's Congressional Files were accumulated from his one term in the U.S. House of Representatives, 1963-1964. This series consists of subject files, executive department and agency files, and committee files. This series includes files from Staebler's work as member of the House Committee on Science and Astronautics.</p>
         </scopecontent>
@@ -705,8 +649,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5017742894035274462]">47</container>
-              <unittitle><unitdate type="inclusive" normal="1962-11/1963-01">November 1962-January 1963</unitdate> [A-Z]</unittitle>
-            </did>
+              <unittitle>[A-Z]</unittitle><unitdate type="inclusive" normal="1962-11/1963-01">November 1962-January 1963</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -937,10 +880,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [73000454797975364551]">67</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate></did>
             <odd>
               <p>(include earlier collected campaign material, and material concerning 1950 election recount)</p>
             </odd>
@@ -948,18 +888,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6187348408003986843]">68</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [509332948923344763]">69</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952">1952</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1952">1952</unitdate></did>
             <odd>
               <p>(include material concerning 1952 election recount)</p>
             </odd>
@@ -967,10 +901,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9637097324369475195]">70</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></did>
             <odd>
               <p>(include material concerning 1952 election recount)</p>
             </odd>
@@ -978,72 +909,47 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [933934027140823605179]">71</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954">1954</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5254254261897896]">72</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [34139960489333365566]">73</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956">1956</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1956">1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [014996456142093090728]">74</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [351413214255783041166]">75</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [771256041581189179101]">76</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960">1960</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [786080278407461979386250]">77</container>
-              <unittitle><unitdate type="inclusive" normal="1960">1960</unitdate> (G. Mennen Williams)</unittitle>
-            </did>
+              <unittitle>(G. Mennen Williams)</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0370355478652814]">78</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [013074172145058184412343]">82</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
             <odd>
               <p>(include election statistics, 1964)</p>
             </odd>
@@ -1051,22 +957,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [082390574448786005719]">103</container>
-              <unittitle><unitdate type="inclusive" normal="1966">1966</unitdate> (no 1965)</unittitle>
-            </did>
+              <unittitle>(no 1965)</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [695764840881677016]">104</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Neil Staebler: Congressman-at-large campaign <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <unittitle>Neil Staebler: Congressman-at-large campaign</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           <odd>
             <p>(see also oversize scrapbook)</p>
           </odd>
@@ -1122,8 +1023,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Neil Staebler: Gubernatorial campaign <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <unittitle>Neil Staebler: Gubernatorial campaign</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           <c03 level="otherlevel" otherlevel="sub-subseries">
             <did>
               <unittitle>Detroit office</unittitle>
@@ -1272,20 +1172,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [82819325467042173]">85</container>
-                <unittitle>Mimeo office control (copies of distributed material) <unitdate type="inclusive" normal="1964-01/1964-10">January-October 1964</unitdate></unittitle>
-              </did>
+                <unittitle>Mimeo office control (copies of distributed material)</unittitle><unitdate type="inclusive" normal="1964-01/1964-10">January-October 1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0577611432866628209683]">86</container>
-                <unittitle>Outgoing correspondence <unitdate type="inclusive" normal="1964-02/1964-11">February-November 1964</unitdate></unittitle>
-              </did>
+                <unittitle>Outgoing correspondence</unittitle><unitdate type="inclusive" normal="1964-02/1964-11">February-November 1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0577611432866628209683]">86</container>
-                <unittitle>Copies of correspondence from Ann Arbor and Washington <unitdate type="inclusive" normal="1964-01/1964-09">January-September 1964</unitdate></unittitle>
-              </did>
+                <unittitle>Copies of correspondence from Ann Arbor and Washington</unittitle><unitdate type="inclusive" normal="1964-01/1964-09">January-September 1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1464,18 +1361,12 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [29002944094996984]">87</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1964-04/1964-10">April-October 1964</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1964-04/1964-10">April-October 1964</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [380697841143065630]">88</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1964-10">October 1964</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1964-10">October 1964</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -1487,20 +1378,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [380697841143065630]">88</container>
-                <unittitle>Schedules <unitdate type="inclusive" normal="1963/1964-08">1963-August 1964</unitdate></unittitle>
-              </did>
+                <unittitle>Schedules</unittitle><unitdate type="inclusive" normal="1963/1964-08">1963-August 1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0044204644671326]">89</container>
-                <unittitle>Schedules <unitdate type="inclusive" normal="1964-09">September 1964</unitdate></unittitle>
-              </did>
+                <unittitle>Schedules</unittitle><unitdate type="inclusive" normal="1964-09">September 1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0044204644671326]">89</container>
-                <unittitle>Schedule books <unitdate type="inclusive" normal="1964-02/1964-11">February-November 1964</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Schedule books</unittitle><unitdate type="inclusive" normal="1964-02/1964-11">February-November 1964</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 volumes</extent>
                 </physdesc>
               </did>
@@ -1514,14 +1402,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0044204644671326]">89</container>
-                <unittitle>Events <unitdate type="inclusive" normal="1964-03/1964-10">March-October 1964</unitdate></unittitle>
-              </did>
+                <unittitle>Events</unittitle><unitdate type="inclusive" normal="1964-03/1964-10">March-October 1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0044204644671326]">89</container>
-                <unittitle>Date books <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Date books</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 volumes</extent>
                 </physdesc>
               </did>
@@ -1553,8 +1439,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [8644469199625812]">92</container>
-              <unittitle>Press releases <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
-            </did>
+              <unittitle>Press releases</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1733,50 +1618,32 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [99936433140449699507184]">105</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948/1952">1948-1952</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948/1952">1948-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [011222843484306]">106</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [33949834739815084783]">107</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [512507294057534417]">108</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [58351043563932282]">109</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [34690846539091]">110</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate></did>
             <odd>
               <p>(No file for 1964; see Staebler gubernatorial campaign files, boxes 83-103)</p>
             </odd>
@@ -1784,18 +1651,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7655948041743621238]">111</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [343018041085142482536]">112</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></did>
             <odd>
               <p>(No file for 1967)</p>
             </odd>
@@ -1803,33 +1664,23 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [2598540108006200262]">113</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [350445642567002815]">114</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [25701017243914934217122]">115</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Political Files <unitdate type="inclusive" normal="1950/1975">1950-1975</unitdate></unittitle>
-        </did>
+          <unittitle>Political Files</unittitle><unitdate type="inclusive" normal="1950/1975">1950-1975</unitdate></did>
         <scopecontent>
           <p>Political Files detail Staebler work as chairman of the Democratic State Central Committee (1950-1961) and his work with the Democratic National Committee notably as national committeeman (1961-1964, 1965-1968, and 1972-1975). This series has been subdivided into various subseries. Among these are: Forms (chronologically arranged copies of the materials mailed out of the State Central Committee office); Convention files which concern local, state, and national Democratic Party conventions; Directories and Platform files; State Central Committee files relating to the work and divisions of the state's Democratic organization; Democratic National Committee records; files concerning the relationship between the SCC and state Democratic leaders, primarily G. Mennen Williams, John Swainson, and Senators Hart and McNamara; Calendars/Invitations files; Federal agencies and departments files concerning the relationship of the state party to the federal government; and Miscellaneous files.</p>
         </scopecontent>
@@ -1843,58 +1694,37 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [93044869840530506039]">116</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1950-07/1952">July 1950-1952</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1950-07/1952">July 1950-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [932653147665425466]">117</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1953/1954-09">1953-September 1954</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1953/1954-09">1953-September 1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [72036271445069608038905]">118</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954-10/1956-07">October 1954-July 1956</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1954-10/1956-07">October 1954-July 1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [7316864447211820112]">119</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956-08/1957-10">August 1956-October 1957</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1956-08/1957-10">August 1956-October 1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [743229394410954685236728]">120</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1957-11/1958-12">November 1957-December 1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1957-11/1958-12">November 1957-December 1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [963094204088340751338]">121</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959/1960-02">1959-February 1960</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959/1960-02">1959-February 1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [96151846966608063]">122</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960-03/1961-01">March 1960-January 1961</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960-03/1961-01">March 1960-January 1961</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1904,165 +1734,114 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [33064564154753136]">123</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [27722249913176933]">124</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4583411347554520562]">125</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [53405000458614813216]">126</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956">1956</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1956">1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [60927926004678181989793901]">127</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [40374701419881505428]">128</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [463874146649729084515]">129</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [24405501487123322]">130</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [311021548504845696081]">131</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6108584020977835]">132</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [2897375453858391224238]">133</container>
-              <unittitle>Delegate certification lists <unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate></unittitle>
-            </did>
+              <unittitle>Delegate certification lists</unittitle><unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [8079634174469756032934705]">134</container>
-              <unittitle>Delegate certification lists <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-            </did>
+              <unittitle>Delegate certification lists</unittitle><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [545811649473874320305973]">135</container>
-              <unittitle>Delegate certification lists <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></unittitle>
-            </did>
+              <unittitle>Delegate certification lists</unittitle><unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Campaign directories and related material <unitdate type="inclusive" normal="1950/1975">1950-1975</unitdate></unittitle>
-          </did>
+            <unittitle>Campaign directories and related material</unittitle><unitdate type="inclusive" normal="1950/1975">1950-1975</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [545811649473874320305973]">135</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1950/1960">1950-1960</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1950/1960">1950-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1838485339684874407430]">136</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961/1975">1961-1975</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961/1975">1961-1975</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Campaign platforms and convention resolutions (state and national), <unitdate normal="1948/1970">1948-1970</unitdate></unittitle>
-          </did>
+            <unittitle>Campaign platforms and convention resolutions (state and national)</unittitle><unitdate normal="1948/1970">1948-1970</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1838485339684874407430]">136</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948/1955">1948-1955</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1948/1955">1948-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [587463470483690594427374626]">137</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956/1970">1956-1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1956/1970">1956-1970</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Democratic State Central Committee <unitdate normal="1950/1975">1950-1975</unitdate></unittitle>
-          </did>
+            <unittitle>Democratic State Central Committee</unittitle><unitdate normal="1950/1975">1950-1975</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [217229044820141207261]">138</container>
-              <unittitle>Minutes <unitdate type="inclusive" normal="1950/1965">1950-1965</unitdate></unittitle>
-            </did>
+              <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1950/1965">1950-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [217229044820141207261]">138</container>
-              <unittitle>Meetings <unitdate type="inclusive" normal="1949/1957">1949-1957</unitdate></unittitle>
-            </did>
+              <unittitle>Meetings</unittitle><unitdate type="inclusive" normal="1949/1957">1949-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9807977914699849476625]">139</container>
-              <unittitle>Meetings <unitdate type="inclusive" normal="1957/1973">1957-1973</unitdate></unittitle>
-            </did>
+              <unittitle>Meetings</unittitle><unitdate type="inclusive" normal="1957/1973">1957-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2168,8 +1947,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [27602844713015797]">145</container>
-              <unittitle>Policy Committee <unitdate type="inclusive" normal="1950/1972">1950-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Policy Committee</unittitle><unitdate type="inclusive" normal="1950/1972">1950-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2222,20 +2000,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [11912232404781755758046]">151</container>
-              <unittitle>County files <unitdate type="inclusive" normal="1963/1972">1963-1972</unitdate> (incomplete)</unittitle>
-            </did>
+              <unittitle>County files  (incomplete)</unittitle><unitdate type="inclusive" normal="1963/1972">1963-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6455654830832803]">152</container>
-              <unittitle>Long Term Planning Committee <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-            </did>
+              <unittitle>Long Term Planning Committee</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6455654830832803]">152</container>
-              <unittitle>Political Reform Commission <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
-            </did>
+              <unittitle>Political Reform Commission</unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2282,98 +2057,82 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [839553477036179443]">155</container>
-              <unittitle>County-district papers <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
-            </did>
+              <unittitle>County-district papers</unittitle><unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [839553477036179443]">155</container>
-              <unittitle>Congressional district files <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></unittitle>
-            </did>
+              <unittitle>Congressional district files</unittitle><unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [839553477036179443]">155</container>
-              <unittitle>County-district papers <unitdate type="inclusive" normal="1952/1956">1952-1956</unitdate></unittitle>
-            </did>
+              <unittitle>County-district papers</unittitle><unitdate type="inclusive" normal="1952/1956">1952-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [839553477036179443]">155</container>
-              <unittitle>Congressional district files <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></unittitle>
-            </did>
+              <unittitle>Congressional district files</unittitle><unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [839553477036179443]">155</container>
-              <unittitle>County files <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate> [A-E]</unittitle>
-            </did>
+              <unittitle>County files  [A-E]</unittitle><unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6506235248709745366713]">156</container>
-              <unittitle>County files <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate> [F-W]</unittitle>
-            </did>
+              <unittitle>County files  [F-W]</unittitle><unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6506235248709745366713]">156</container>
-              <unittitle>Congressional district files <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></unittitle>
-            </did>
+              <unittitle>Congressional district files</unittitle><unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [306859540688153421421]">157</container>
-              <unittitle>County files <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate> [A-W]</unittitle>
-            </did>
+              <unittitle>County files  [A-W]</unittitle><unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [43719040882140199888]">158</container>
-              <unittitle>County files <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate> [W]</unittitle>
-            </did>
+              <unittitle>County files  [W]</unittitle><unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [43719040882140199888]">158</container>
-              <unittitle>Congressional district files <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></unittitle>
-            </did>
+              <unittitle>Congressional district files</unittitle><unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [43719040882140199888]">158</container>
-              <unittitle>County files <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate> [A-V]</unittitle>
-            </did>
+              <unittitle>County files  [A-V]</unittitle><unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [68609963475197175544]">159</container>
-              <unittitle>County files <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate> [W]</unittitle>
-            </did>
+              <unittitle>County files  [W]</unittitle><unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [68609963475197175544]">159</container>
-              <unittitle>Congressional district files <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></unittitle>
-            </did>
+              <unittitle>Congressional district files</unittitle><unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [68609963475197175544]">159</container>
-              <unittitle>Organization plans <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></unittitle>
-            </did>
+              <unittitle>Organization plans</unittitle><unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [55414084847786162914]">160</container>
-              <unittitle>County files <unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate> [A-L]</unittitle>
-            </did>
+              <unittitle>County files  [A-L]</unittitle><unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4283097119421909273461208]">161</container>
-              <unittitle>County files <unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate> [M-W]</unittitle>
-            </did>
+              <unittitle>County files  [M-W]</unittitle><unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2423,8 +2182,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [41793208429707042279]">166</container>
-                <unittitle>Wayne County <unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate>: Include correspondence concerning political appointments and organization</unittitle>
-              </did>
+                <unittitle>Wayne County : Include correspondence concerning political appointments and organization</unittitle><unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -2449,50 +2207,32 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [52791444858868851]">168</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [586008654658105277]">169</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5602691845093124994827818]">170</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1887381439526202]">171</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [2971244907557263875]">172</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [8943271946846386202545]">173</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1962/1971">1962-1971</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1962/1971">1962-1971</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -2502,26 +2242,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [8943271946846386202545]">173</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1949">1949</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1949">1949</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [338019614760379045470823]">174</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [35081468468991554431064]">175</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1957/1975">1957-1975</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1957/1975">1957-1975</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -2542,19 +2273,16 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Democratic National Committee <unitdate normal="1950/1968" certainty="approximate">1950-circa 1968</unitdate></unittitle>
-          </did>
+            <unittitle>Democratic National Committee</unittitle><unitdate normal="1950/1968" certainty="approximate">1950-circa 1968</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [32262644685989928991186]">176</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [32262644685989928991186]">176</container>
-              <unittitle>Nationalities Division <unitdate type="inclusive" normal="1952/1956">1952-1956</unitdate></unittitle>
-            </did>
+              <unittitle>Nationalities Division</unittitle><unitdate type="inclusive" normal="1952/1956">1952-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2565,8 +2293,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [32262644685989928991186]">176</container>
-              <unittitle>Democratic National Conference and Jefferson Jubilee <unitdate type="inclusive" normal="1950-05">May 1950</unitdate></unittitle>
-            </did>
+              <unittitle>Democratic National Conference and Jefferson Jubilee</unittitle><unitdate type="inclusive" normal="1950-05">May 1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2576,31 +2303,26 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>National campaigns, <unitdate normal="1852/1961">1852-1961</unitdate></unittitle>
-            </did>
+              <unittitle>National campaigns</unittitle><unitdate normal="1852/1961">1852-1961</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [33764614296977319258]">178</container>
-                <unittitle><unitdate type="inclusive" normal="1952">1952</unitdate> Presidential election</unittitle>
-              </did>
+                <unittitle>Presidential election</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [33764614296977319258]">178</container>
-                <unittitle><unitdate type="inclusive" normal="1956">1956</unitdate> Presidential election</unittitle>
-              </did>
+                <unittitle>Presidential election</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [741845703876745]">179</container>
-                <unittitle><unitdate type="inclusive" normal="1960">1960</unitdate> Presidential election</unittitle>
-              </did>
+                <unittitle>Presidential election</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [741845703876745]">179</container>
-                <unittitle><unitdate type="inclusive" normal="1961">1961</unitdate> Inauguration</unittitle>
-              </did>
+                <unittitle>Inauguration</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -2738,8 +2460,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Michigan governors/senators files <unitdate normal="1952/1968" certainty="approximate">1952-circa 1968</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan governors/senators files</unittitle><unitdate normal="1952/1968" certainty="approximate">1952-circa 1968</unitdate></did>
           <c03 level="file">
             <did>
               <unittitle>Governor G. Mennen Williams</unittitle>
@@ -2747,14 +2468,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [888958418846294417570981]">191</container>
-                <unittitle>Schedule correspondence <unitdate type="inclusive" normal="1952/1960">1952-1960</unitdate></unittitle>
-              </did>
+                <unittitle>Schedule correspondence</unittitle><unitdate type="inclusive" normal="1952/1960">1952-1960</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [888958418846294417570981]">191</container>
-                <unittitle>Message correspondence <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></unittitle>
-              </did>
+                <unittitle>Message correspondence</unittitle><unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -2777,26 +2496,22 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [888958418846294417570981]">191</container>
-                <unittitle>Miscellaneous <unitdate type="inclusive" normal="1952/1960">1952-1960</unitdate></unittitle>
-              </did>
+                <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1952/1960">1952-1960</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [888958418846294417570981]">191</container>
-                <unittitle><unitdate type="inclusive" normal="1956">1956</unitdate> Presidential campaign</unittitle>
-              </did>
+                <unittitle>Presidential campaign</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [888958418846294417570981]">191</container>
-                <unittitle>Testimonial dinners <unitdate type="inclusive" normal="1952/1960">1952-1960</unitdate></unittitle>
-              </did>
+                <unittitle>Testimonial dinners</unittitle><unitdate type="inclusive" normal="1952/1960">1952-1960</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [36946047222287347]">192</container>
-                <unittitle>Inaugurals <unitdate type="inclusive" normal="1951/1959">1951-1959</unitdate></unittitle>
-              </did>
+                <unittitle>Inaugurals</unittitle><unitdate type="inclusive" normal="1951/1959">1951-1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -2850,25 +2565,21 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Calendar-Invitation file <unitdate normal="1951/1975">1951-1975</unitdate></unittitle>
-          </did>
+            <unittitle>Calendar-Invitation file</unittitle><unitdate normal="1951/1975">1951-1975</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [270189606649091353480414]">197</container>
-              <unittitle>Agenda-diary <unitdate type="inclusive" normal="1951/1957">1951-1957</unitdate></unittitle>
-            </did>
+              <unittitle>Agenda-diary</unittitle><unitdate type="inclusive" normal="1951/1957">1951-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9565178498619681653]">198</container>
-              <unittitle>Agenda-diary <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></unittitle>
-            </did>
+              <unittitle>Agenda-diary</unittitle><unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9565178498619681653]">198</container>
-              <unittitle>Appointment books <unitdate type="inclusive" normal="1958/1963">1958-1963</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Appointment books</unittitle><unitdate type="inclusive" normal="1958/1963">1958-1963</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 volumes</extent>
               </physdesc>
             </did>
@@ -2876,10 +2587,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [316372054356368353]">199</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
             <odd>
               <p>(5x7 index cards)</p>
             </odd>
@@ -2887,56 +2595,37 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [7052266483877527641156]">200</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964-04/1964-07">April-July 1964</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1964-04/1964-07">April-July 1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [845393142497921337450]">201</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964-08/1964-12">August-December 1964</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1964-08/1964-12">August-December 1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4921817244187808613131]">202</container>
-              <unittitle><unitdate type="inclusive" normal="1965/1966-02">1965-February 1966</unitdate> (lacking August 1965)</unittitle>
-            </did>
+              <unittitle>(lacking August 1965)</unittitle><unitdate type="inclusive" normal="1965/1966-02">1965-February 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3263970804692702241]">203</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966-03/1967-06">March 1966-June 1967</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1966-03/1967-06">March 1966-June 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [0053414679588581]">204</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967-07/1968">July 1967-1968</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1967-07/1968">July 1967-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6239677684190194177502]">205</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969/1970-09">1969-September 1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1969/1970-09">1969-September 1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [980869047984200341]">206</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970-10/1975-07">October 1970-July 1975</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1970-10/1975-07">October 1970-July 1975</unitdate></did>
             <odd>
               <p>(no August 1973-October 1974)</p>
             </odd>
@@ -2975,8 +2664,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [48248076204199066357006]">210</container>
-              <unittitle>Democratic Club (later committee) of Washtenaw County Records <unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></unittitle>
-            </did>
+              <unittitle>Democratic Club (later committee) of Washtenaw County Records</unittitle><unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2991,14 +2679,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5887452229031935]">212</container>
-                <unittitle>County conventions <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate></unittitle>
-              </did>
+                <unittitle>County conventions</unittitle><unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5887452229031935]">212</container>
-                <unittitle>Dawson for Congress campaign <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-              </did>
+                <unittitle>Dawson for Congress campaign</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -3013,13 +2699,11 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [99304467451357614294285]">213</container>
-              <unittitle>Michigan Democratic Clubs <unitdate type="inclusive" normal="1951/1969">1951-1969</unitdate></unittitle>
-            </did>
+              <unittitle>Michigan Democratic Clubs</unittitle><unitdate type="inclusive" normal="1951/1969">1951-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>State government <unitdate type="inclusive" normal="1950/1960">1950-1960</unitdate></unittitle>
-            </did>
+              <unittitle>State government</unittitle><unitdate type="inclusive" normal="1950/1960">1950-1960</unitdate></did>
             <odd>
               <p>(include correspondence, press releases, etc)</p>
             </odd>
@@ -3056,8 +2740,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [49845423371396]">218</container>
-                <unittitle>Out-of-state correspondence <unitdate type="inclusive" normal="1952/1972">1952-1972</unitdate> [A-W]</unittitle>
-              </did>
+                <unittitle>Out-of-state correspondence  [A-W]</unittitle><unitdate type="inclusive" normal="1952/1972">1952-1972</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -3121,8 +2804,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Federal Election Commission <unitdate normal="1975/1978">1975-1978</unitdate></unittitle>
-        </did>
+          <unittitle>Federal Election Commission</unittitle><unitdate normal="1975/1978">1975-1978</unitdate></did>
         <scopecontent>
           <p>Staebler's membership on the U.S. Federal Election Commission, 1975-1978, is documented in the next series.</p>
         </scopecontent>
@@ -3132,10 +2814,7 @@
           </did>
           <c03 level="otherlevel" otherlevel="sub-subseries">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1975">1975</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1975">1975</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [56460160544904465462]">222</container>
@@ -3193,10 +2872,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="sub-subseries">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1976">1976</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1976">1976</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [3003629704491359149766]">224</container>
@@ -3224,10 +2900,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="sub-subseries">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1977">1977</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1977">1977</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [60739405945356372]">225</container>
@@ -3237,10 +2910,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="sub-subseries">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1978">1978</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1978">1978</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0943350735476945406229]">226</container>
@@ -3250,15 +2920,13 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [0943350735476945406229]">226</container>
-                <unittitle><unitdate type="inclusive" normal="1978">1978</unitdate> Miscellaneous files</unittitle>
-              </did>
+                <unittitle>Miscellaneous files</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
             </c04>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Topical file <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-          </did>
+            <unittitle>Topical file</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [11339491364242280435]">227</container>
@@ -3297,8 +2965,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [0201524158303998628636]">231</container>
-              <unittitle>Staebler Correspondence <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-            </did>
+              <unittitle>Staebler Correspondence</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3459,17 +3126,13 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Issues, <unitdate normal="1950/1989" certainty="approximate">1950s-1980s</unitdate></unittitle>
-        </did>
+          <unittitle>Issues</unittitle><unitdate normal="1950/1989" certainty="approximate">1950s-1980s</unitdate></did>
         <scopecontent>
           <p>Staebler's Issues File and concerns topics of public policy and subjects of current interest (primarily political) confronting American society since World War II. This series is comprised of two alphabetical subseries covering different periods of time (with some overlap).</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950/1979" certainty="approximate">1950s-1970s</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1950/1979" certainty="approximate">1950s-1970s</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [487868574184203020360]">241</container>
@@ -3509,8 +3172,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [82235402369011]">247</container>
-              <unittitle>Issues (National)-Issues (State) <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-            </did>
+              <unittitle>Issues (National)-Issues (State)</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -3581,10 +3243,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970/1989" certainty="approximate">1970s-1980s</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1970/1989" certainty="approximate">1970s-1980s</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [26715450634440861322]">301</container>
@@ -3619,40 +3278,30 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>American Veterans Committee <unitdate normal="1944/1951">1944-1951</unitdate></unittitle>
-        </did>
+          <unittitle>American Veterans Committee</unittitle><unitdate normal="1944/1951">1944-1951</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [64687837354687414505747]">259</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1944/1947">1944-1947</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1944/1947">1944-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [931964984541766067060]">260</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Speeches and Articles <unitdate normal="1950/1968">1950-1968</unitdate></unittitle>
-        </did>
+          <unittitle>Speeches and Articles</unittitle><unitdate normal="1950/1968">1950-1968</unitdate></did>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2158783497184579903]">261</container>
-            <unittitle>Staebler speeches and background for speeches <unitdate type="inclusive" normal="1950/1961">1950-1961</unitdate></unittitle>
-          </did>
+            <unittitle>Staebler speeches and background for speeches</unittitle><unitdate type="inclusive" normal="1950/1961">1950-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [61003249775424495056]">262</container>
-            <unittitle>Staebler speeches and background for speeches <unitdate type="inclusive" normal="1962/1968">1962-1968</unitdate></unittitle>
-          </did>
+            <unittitle>Staebler speeches and background for speeches</unittitle><unitdate type="inclusive" normal="1962/1968">1962-1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -3841,8 +3490,7 @@
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle><genreform normal="Photographs">Photographs</genreform>, <unitdate normal="1957/1971">1957-1971</unitdate> and, <unitdate>undated</unitdate></unittitle>
-          </did>
+            <unittitle><genreform normal="Photographs">Photographs</genreform></unittitle><unitdate normal="1957/1971">1957-1971</unitdate><unitdate>undated</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4515424015141340994]">279</container>
@@ -3866,34 +3514,22 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [4515424015141340994]">279</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1957/1960">1957-1960</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1957/1960">1957-1960</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [4515424015141340994]">279</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [4515424015141340994]">279</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>
-                  </unittitle>
-                </did>
+                  <unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive">Undated</unitdate></did>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [4515424015141340994]">279</container>
@@ -3946,8 +3582,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><genreform normal="Motion pictures">Films</genreform>, <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
-            <physdesc>
+            <unittitle><genreform normal="Motion pictures">Films</genreform></unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate><physdesc>
               <physfacet>all 16mm, black &amp; white, sound</physfacet>
             </physdesc>
           </did>
@@ -3999,8 +3634,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4515424015141340994]">279</container>
-              <unittitle>Announcement <unitdate type="inclusive" normal="1964-01-04">January 4, 1964</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Announcement</unittitle><unitdate type="inclusive" normal="1964-01-04">January 4, 1964</unitdate><physdesc>
                 <physfacet>positive</physfacet>
               </physdesc>
             </did>

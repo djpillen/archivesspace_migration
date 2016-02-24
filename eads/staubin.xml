@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">St. Aubin, Wilfrid de, 1902-1980.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4362">St. Aubin, Wilfrid de, 1902-1980.</persname>
       </origination>
-      <unittitle encodinganalog="245">Wilfrid de St. Aubin Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1938/1980">1938-1980</unitdate></unittitle>
-      <abstract>Executive with the American Red Cross. Correspondence, diaries, reports, memoranda, and other materials relating to relief and refugee work during World War II in Italy, France, and Germany (Buchenwald), his work in re-establishing Red Cross societies in Austria, Hungary, and the Middle East after the war, and his survey of humanitarian problems resulting from the Palestinian conflict, 1948.</abstract>
+      <unittitle encodinganalog="245">Wilfrid de St. Aubin Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1938/1980">1938-1980</unitdate><abstract>Executive with the American Red Cross. Correspondence, diaries, reports, memoranda, and other materials relating to relief and refugee work during World War II in Italy, France, and Germany (Buchenwald), his work in re-establishing Red Cross societies in Austria, Hungary, and the Middle East after the war, and his survey of humanitarian problems resulting from the Palestinian conflict, 1948.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85495 Aa 2 UAm</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -87,48 +87,48 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79096723">American National Red Cross.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Austria.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n97036997">Buchenwald (Concentration camp)</corpname>
-        <subject source="lcsh" encodinganalog="650">Concentration camps.</subject>
-        <geogname source="lcsh" encodinganalog="651">France.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Hungary.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Italy.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Middle East.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Palestine.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80158612">Red Cross.</corpname>
-        <subject source="lcsh" encodinganalog="650">Refugees.</subject>
-        <persname source="lcnaf" encodinganalog="600">St. Aubin, Wilfrid de, 1902-1980.</persname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945--War work--Red Cross.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79096723" ref="/agents/corporate_entities/1441">American National Red Cross.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2299">Austria.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n97036997" ref="/agents/corporate_entities/3803">Buchenwald (Concentration camp)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10225">Concentration camps.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1764">France.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2836">Hungary.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/999">Italy.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2146">Middle East.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1819">Palestine.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80158612" ref="/agents/corporate_entities/74">Red Cross.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9956">Refugees.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4362">St. Aubin, Wilfrid de, 1902-1980.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10226">World War, 1939-1945--War work--Red Cross.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79096723">American National Red Cross.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">American National Red Cross. Washtenaw County Chapter.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Austria.</geogname>
-        <subject source="lctgm" encodinganalog="650">Children.</subject>
-        <subject source="lctgm" encodinganalog="650">Concentration camps.</subject>
-        <subject source="lctgm" encodinganalog="650">Costumes, Austrian.</subject>
-        <subject source="lctgm" encodinganalog="650">Death.</subject>
-        <geogname source="lcsh" encodinganalog="651">Egypt.</geogname>
-        <subject source="lctgm" encodinganalog="650">Handicapped persons--Health and welfare.</subject>
-        <subject source="lctgm" encodinganalog="650">Hospitals.</subject>
-        <geogname source="lcsh" encodinganalog="651">Hungary.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Japan.</geogname>
-        <subject source="lcsh" encodinganalog="650">Korean War, 1950-1953.</subject>
-        <subject source="lctgm" encodinganalog="650">Military personnel.</subject>
-        <geogname source="lcsh" encodinganalog="651">Palestine.</geogname>
-        <subject source="lctgm" encodinganalog="650">Refugees.</subject>
-        <persname source="lcnaf" encodinganalog="600">St. Aubin, Wilfrid de, 1902-1980.</persname>
-        <subject source="lctgm" encodinganalog="650">War damage.</subject>
-        <subject source="lctgm" encodinganalog="650">War relief.</subject>
-        <subject source="lctgm" encodinganalog="650">Women--War.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79096723" ref="/agents/corporate_entities/1441">American National Red Cross.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3862">American National Red Cross. Washtenaw County Chapter.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2299">Austria.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Children.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5380">Concentration camps.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5381">Costumes, Austrian.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4300">Death.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/888">Egypt.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5382">Handicapped persons--Health and welfare.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5383">Hospitals.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2836">Hungary.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Japan.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6539">Korean War, 1950-1953.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5124">Military personnel.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1819">Palestine.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5384">Refugees.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4362">St. Aubin, Wilfrid de, 1902-1980.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4221">War damage.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5385">War relief.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4274">Women--War.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -166,8 +166,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>Collected letters concerning the Modern Historic Records Association <unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate></unittitle>
-          </did>
+            <unittitle>Collected letters concerning the Modern Historic Records Association</unittitle><unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate></did>
           <odd>
             <p>(include letters from Woodrow Wilson, Theodore Roosevelt, James Bryce, John Barrett, and Hiram Maxim)</p>
           </odd>
@@ -175,8 +174,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>Diaries, personal ledgers, and jotting books <unitdate type="inclusive" normal="1944/1956" certainty="approximate">circa 1944-1956</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Diaries, personal ledgers, and jotting books</unittitle><unitdate type="inclusive" normal="1944/1956" certainty="approximate">circa 1944-1956</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -189,66 +187,42 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1938/1943">1938-1943</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1938/1943">1938-1943</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -259,8 +233,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>Retirement letters and clippings <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Retirement letters and clippings</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -274,8 +247,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>Ethel Atkinson to Wilfrid de St. Aubin <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Ethel Atkinson to Wilfrid de St. Aubin</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -283,8 +255,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>Wilfrid de St. Aubin to Ethel Atkinson <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Wilfrid de St. Aubin to Ethel Atkinson</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -292,8 +263,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>Ethel Atkinson to Wilfrid de St. Aubin <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Ethel Atkinson to Wilfrid de St. Aubin</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -301,8 +271,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>Wilfrid de St. Aubin to Ethel Atkinson <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Wilfrid de St. Aubin to Ethel Atkinson</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -310,14 +279,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>Wilfrid de St. Aubin to Ethel Atkinson <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-          </did>
+            <unittitle>Wilfrid de St. Aubin to Ethel Atkinson</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [78054443939502905972]">1</container>
-            <unittitle>Ethel Atkinson to Wilfrid de St. Aubin <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-          </did>
+            <unittitle>Ethel Atkinson to Wilfrid de St. Aubin</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -578,8 +545,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [92453524381449916600910]">3</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -589,8 +555,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [92453524381449916600910]">3</container>
-              <unittitle>Report <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            </did>
+              <unittitle>Report</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -616,8 +581,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [92453524381449916600910]">3</container>
-              <unittitle>Papers <unitdate type="inclusive" normal="1949/1977">1949-1977</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1949/1977">1949-1977</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">12 folders</extent>
               </physdesc>
             </did>
@@ -668,8 +632,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [934810436629912275]">4</container>
-              <unittitle>Dental care program (for low-income children of Washtenaw County) <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
-            </did>
+              <unittitle>Dental care program (for low-income children of Washtenaw County)</unittitle><unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -679,8 +642,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [934810436629912275]">4</container>
-              <unittitle>Papers <unitdate type="inclusive" normal="1956/1970">1956-1970</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1956/1970">1956-1970</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 folders</extent>
               </physdesc>
             </did>
@@ -698,14 +660,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [934810436629912275]">4</container>
-                <unittitle>Round Table <unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate></unittitle>
-              </did>
+                <unittitle>Round Table</unittitle><unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [934810436629912275]">4</container>
-                <unittitle>Brotherhood Banquet <unitdate type="inclusive" normal="1961/1967">1961-1967</unitdate></unittitle>
-              </did>
+                <unittitle>Brotherhood Banquet</unittitle><unitdate type="inclusive" normal="1961/1967">1961-1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -729,26 +689,17 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [934810436629912275]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1972/1976">1972-1976</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1972/1976">1972-1976</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [934810436629912275]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1978">1978</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1978">1978</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [934810436629912275]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1979">1979</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1979">1979</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -781,8 +732,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2202674454316000460490]">5</container>
-            <unittitle>Speeches <unitdate type="inclusive" normal="1948/1969">1948-1969</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Speeches</unittitle><unitdate type="inclusive" normal="1948/1969">1948-1969</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -817,8 +767,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2202674454316000460490]">5</container>
-            <unittitle>Personal letters from his mother, brothers and sisters, and friends <unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate></unittitle>
-          </did>
+            <unittitle>Personal letters from his mother, brothers and sisters, and friends</unittitle><unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -829,8 +778,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2202674454316000460490]">5</container>
-            <unittitle>Scrapbook, re. Hammond housing survey <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbook, re. Hammond housing survey</unittitle><unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -844,10 +792,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [482645494369516691717]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972/1980">1972-1980</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1972/1980">1972-1980</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 folders</extent>
               </physdesc>
             </did>
@@ -860,10 +805,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [482645494369516691717]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972/1980">1972-1980</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1972/1980">1972-1980</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">9 folders</extent>
               </physdesc>
             </did>
@@ -876,8 +818,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [482645494369516691717]">6</container>
-              <unittitle>General <unitdate type="inclusive" normal="1973/1980">1973-1980</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1973/1980">1973-1980</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
             </did>
@@ -885,8 +826,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [482645494369516691717]">6</container>
-              <unittitle>Minutes <unitdate type="inclusive" normal="1974/1980">1974-1980</unitdate></unittitle>
-            </did>
+              <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1974/1980">1974-1980</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -896,10 +836,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [482645494369516691717]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1974/1980">1974-1980</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1974/1980">1974-1980</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -921,8 +858,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [482645494369516691717]">6</container>
-              <unittitle>Senior Scribbles (newsletter) <unitdate type="inclusive" normal="1974/1980">1974-1980</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Senior Scribbles (newsletter)</unittitle><unitdate type="inclusive" normal="1974/1980">1974-1980</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -941,8 +877,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [482645494369516691717]">6</container>
-              <unittitle>Michigan White House Conference on Aging <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Michigan White House Conference on Aging</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -950,14 +885,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [482645494369516691717]">6</container>
-              <unittitle>Ann Arbor Planning Committee for Lifelong Learning <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <unittitle>Ann Arbor Planning Committee for Lifelong Learning</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [482645494369516691717]">6</container>
-              <unittitle>Institute of Gerontology Conference on Economics of Aging <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <unittitle>Institute of Gerontology Conference on Economics of Aging</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1018,8 +951,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [736708264291094269792]">7</container>
-            <unittitle>Italy <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-          </did>
+            <unittitle>Italy</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1066,8 +998,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [736708264291094269792]">7</container>
-            <unittitle>Washtenaw County Chapter and retirement photos <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <unittitle>Washtenaw County Chapter and retirement photos</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1079,14 +1010,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [736708264291094269792]">7</container>
-              <unittitle>Farewell party, Vienna <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-            </did>
+              <unittitle>Farewell party, Vienna</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [736708264291094269792]">7</container>
-              <unittitle>Farewell party, Vienna <unitdate type="inclusive" normal="1946">1946</unitdate> Christmas party, Vienna, <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-            </did>
+              <unittitle>Farewell party, Vienna 1946 Christmas party, Vienna, 1946</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
           </c03>
           <c03 level="file">
             <did>

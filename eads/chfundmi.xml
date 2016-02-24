@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n85815930">Children's Fund of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n85815930" ref="/agents/corporate_entities/754">Children's Fund of Michigan.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Children's Fund of Michigan, records <unitdate type="inclusive" encodinganalog="245$f" normal="1929/1965">1929-1965</unitdate>, <unitdate type="bulk" encodinganalog="245$f" normal="1929/1961">1929-1961</unitdate></unittitle>
-      <abstract>Detroit based philanthropic foundation created by Senator James J. Couzens and administered by William J. Norton to fund organizations in Michigan involved in child health and child guidance; includes administrative records, correspondence, reports of field visits, and topical files.</abstract>
+      <unittitle encodinganalog="245">Children's Fund of Michigan, records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1929/1965">1929-1965</unitdate><unitdate type="bulk" encodinganalog="245$f" normal="1929/1961">1929-1961</unitdate><abstract>Detroit based philanthropic foundation created by Senator James J. Couzens and administered by William J. Norton to fund organizations in Michigan involved in child health and child guidance; includes administrative records, correspondence, reports of field visits, and topical files.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85963 BJ Bj2 UBJm</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -95,83 +95,82 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Charities--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Child mental health--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Child welfare--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Children--Health and hygiene--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91083492">Children's Hospital of Michigan.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86070545">Couzens, James, 1872-1936.</persname>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
-        <subject source="lcsh" encodinganalog="650">Dental clinics--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Depressions--1929--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95051945">Detroit (Mich.). Mayor's Interracial Committee.</corpname>
-        <subject source="lcsh" encodinganalog="650">Hospitals--Michigan--Detroit.</subject>
-        <subject source="lcsh" encodinganalog="650">Hospitals--Michigan--Traverse City.</subject>
-        <subject source="lcsh" encodinganalog="650">Hospitals--Michigan--Marquette.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126086">Michigan. State Emergency Welfare Relief Commission.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91025302">Norton, William J. (William John), 1883-1975.</persname>
-        <subject source="lcsh" encodinganalog="650">Philanthropists--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Social service--Michigan--Societies, etc.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83057589">United Community Services of Metropolitan Detroit.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6779">Charities--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6780">Child mental health--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6781">Child welfare--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6782">Children--Health and hygiene--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91083492" ref="/agents/corporate_entities/984">Children's Hospital of Michigan.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86070545" ref="/agents/people/2305">Couzens, James, 1872-1936.</persname>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6783">Dental clinics--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6505">Depressions--1929--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95051945" ref="/agents/corporate_entities/1124">Detroit (Mich.). Mayor's Interracial Committee.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6784">Hospitals--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6785">Hospitals--Michigan--Traverse City.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6786">Hospitals--Michigan--Marquette.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126086" ref="/agents/corporate_entities/4829">Michigan. State Emergency Welfare Relief Commission.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91025302" ref="/agents/people/6381">Norton, William J. (William John), 1883-1975.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6787">Philanthropists--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6788">Social service--Michigan--Societies, etc.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83057589" ref="/agents/corporate_entities/2859">United Community Services of Metropolitan Detroit.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80149764">Alcona County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83209799">Alger County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80014843">Antrim County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091920">Arenac County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81103576">Benzie County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81002806">Charlevoix County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091936">Cheboygan County (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Children.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85815930">Children's Fund of Michigan.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Chippewa County (Mich.)</geogname>
-        <geogname source="lctgm" encodinganalog="651">Dwellings.</geogname>
-        <subject source="lctgm" encodinganalog="650">Ferries.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091926">Gladwin County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81050397">Grand Traverse County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091939">Houghton County (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091931">Iosco County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Iron County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82072960">Isabella County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n93090839">Keweenaw County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Lake County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80070533">Mackinac County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Menominee County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091880">Montmorency County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81006519">Newaygo County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091879">Oceana County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81074442">Ogemaw County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Osceola County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82143180">Oscoda County (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Parades and processions.</subject>
-        <subject source="lcsh" encodinganalog="650">Public health--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Roads--Michigan, Northern.</subject>
-        <geogname source="lcsh" encodinganalog="651">Roscommon County (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Schools--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Sleds and sleighs.</subject>
-        <geogname source="lcsh" encodinganalog="651">Van Buren County (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Winter.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80149764" ref="/subjects/1548">Alcona County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83209799" ref="/subjects/1468">Alger County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80014843" ref="/subjects/1549">Antrim County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091920" ref="/subjects/1550">Arenac County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81103576" ref="/subjects/1551">Benzie County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81002806" ref="/subjects/1552">Charlevoix County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091936" ref="/subjects/975">Cheboygan County (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Children.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85815930" ref="/agents/corporate_entities/754">Children's Fund of Michigan.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/992">Chippewa County (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/250">Dwellings.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3785">Ferries.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091926" ref="/subjects/1553">Gladwin County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81050397" ref="/subjects/1554">Grand Traverse County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091939" ref="/subjects/1555">Houghton County (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3687">Interiors.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091931" ref="/subjects/1556">Iosco County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1125">Iron County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82072960" ref="/subjects/1557">Isabella County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n93090839" ref="/subjects/1558">Keweenaw County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1559">Lake County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80070533" ref="/subjects/1017">Mackinac County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1351">Menominee County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091880" ref="/subjects/1560">Montmorency County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81006519" ref="/subjects/1561">Newaygo County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091879" ref="/subjects/1542">Oceana County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81074442" ref="/subjects/1562">Ogemaw County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1563">Osceola County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82143180" ref="/subjects/1564">Oscoda County (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Parades and processions.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6037">Public health--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4054">Roads--Michigan, Northern.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1565">Roscommon County (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3839">Schools--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3691">Sleds and sleighs.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1566">Van Buren County (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3940">Winter.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Carey, B. W.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79139359">Dorsey, John M. (John Morris), 1900-1978</persname>
-        <persname source="lcnaf" encodinganalog="700">Gibson, Kenneth Richard, 1895-1959.</persname>
-        <persname source="lcnaf" encodinganalog="700">Kenworthy, Marion E.</persname>
-        <persname source="lcnaf" encodinganalog="700">Watson, Maud E.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6928">Carey, B. W.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79139359" ref="/agents/people/5806">Dorsey, John M. (John Morris), 1900-1978</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5428">Gibson, Kenneth Richard, 1895-1959.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3634">Kenworthy, Marion E.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4193">Watson, Maud E.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Administration <unitdate type="inclusive" normal="1929/1959">1929-1959</unitdate></unittitle>
-        </did>
+          <unittitle>Administration</unittitle><unitdate type="inclusive" normal="1929/1959">1929-1959</unitdate></did>
         <scopecontent>
           <p>The Administration (1929-1959; 5 linear feet) series includes documents pertaining to the establishment of the fund, annual reports, and minutes and resolutions of the board of trustees. Additionally this series includes reports from the field received by Norton from Child Health Division staff members. The three largest files in this series correspond to the three divisions within the CFM: the Research Laboratory, the Child Health Division, and the Child Guidance Division. Each of these files includes such documentation as annual reports, correspondence of division directors, and various other reports and memoranda. The Research Laboratory is the smallest of these, but the researcher should note that its director Icie Macy-Hoobler donated her professional files to the library separately, and included with them are her CFM papers.</p>
           <p>The Child Guidance Division subseries, in addition to annual reports and correspondence of one of its directors Maud Watson, is noteworthy for the correspondence exchanged between Norton and its other director John M. Dorsey. Dorsey was a distinguished psychiatrist and university educator who wrote long and thoughtful letters to Norton about child guidance and the kinds of programs needed to deal with the stresses confronting the state's young people, particularly urban youth.</p>
@@ -179,14 +178,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [31319504176150417686]">1</container>
-            <unittitle>Annual reports <unitdate type="inclusive" normal="1929/1953">1929-1953</unitdate> (lacking 25th AR, 1954)</unittitle>
-          </did>
+            <unittitle>Annual reports  (lacking 25th AR, 1954)</unittitle><unitdate type="inclusive" normal="1929/1953">1929-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [31319504176150417686]">1</container>
-            <unittitle>Partial summary of the activities of the CFM <unitdate type="inclusive" normal="1929/1942">1929-1942</unitdate></unittitle>
-          </did>
+            <unittitle>Partial summary of the activities of the CFM</unittitle><unitdate type="inclusive" normal="1929/1942">1929-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -197,8 +194,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [31319504176150417686]">1</container>
-            <unittitle>By-laws <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-          </did>
+            <unittitle>By-laws</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -207,14 +203,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [31319504176150417686]">1</container>
-              <unittitle>Minutes <unitdate type="inclusive" normal="1929/1954">1929-1954</unitdate></unittitle>
-            </did>
+              <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1929/1954">1929-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [31319504176150417686]">1</container>
-              <unittitle>Resolutions <unitdate type="inclusive" normal="1929/1933">1929-1933</unitdate></unittitle>
-            </did>
+              <unittitle>Resolutions</unittitle><unitdate type="inclusive" normal="1929/1933">1929-1933</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -224,8 +218,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [31319504176150417686]">1</container>
-              <unittitle>Reports of field visits and other memoranda received mainly from the Child Health Division <unitdate type="inclusive" normal="1929/1938">1929-1938</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Reports of field visits and other memoranda received mainly from the Child Health Division</unittitle><unitdate type="inclusive" normal="1929/1938">1929-1938</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
@@ -233,8 +226,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [01908952406500677766]">2</container>
-              <unittitle>Reports of field visits and other memoranda received mainly from the Child Health Division <unitdate type="inclusive" normal="1941/1954">1941-1954</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Reports of field visits and other memoranda received mainly from the Child Health Division</unittitle><unitdate type="inclusive" normal="1941/1954">1941-1954</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -247,20 +239,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [01908952406500677766]">2</container>
-              <unittitle>Summary report of activities <unitdate type="inclusive" normal="1931/1939">1931-1939</unitdate></unittitle>
-            </did>
+              <unittitle>Summary report of activities</unittitle><unitdate type="inclusive" normal="1931/1939">1931-1939</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [01908952406500677766]">2</container>
-              <unittitle>Notebook summarizing research programs sponsored by CFM, late <unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate> (with reprints of principal articles)</unittitle>
-            </did>
+              <unittitle>Notebook summarizing research programs sponsored by CFM, late  (with reprints of principal articles)</unittitle><unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [01908952406500677766]">2</container>
-              <unittitle>Annual reports <unitdate type="inclusive" normal="1931/1952">1931/32-1951/52</unitdate> (lacks 1932/33)</unittitle>
-              <physdesc altrender="part">
+              <unittitle>Annual reports  (lacks 1932/33)</unittitle><unitdate type="inclusive" normal="1931/1952">1931/32-1951/52</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">19 volumes</extent>
                 <physfacet>booklets</physfacet>
               </physdesc>
@@ -272,8 +261,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [01908952406500677766]">2</container>
-              <unittitle>Chronological files <unitdate type="inclusive" normal="1929/1954">1929-1954</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Chronological files</unittitle><unitdate type="inclusive" normal="1929/1954">1929-1954</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
@@ -286,8 +274,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [83353489505648924889]">3</container>
-              <unittitle>Annual reports <unitdate type="inclusive" normal="1929/1954">1929/30-1953/54</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Annual reports</unittitle><unitdate type="inclusive" normal="1929/1954">1929/30-1953/54</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -295,8 +282,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [83353489505648924889]">3</container>
-              <unittitle>B.W. Carey reports, memos, etc. <unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>B.W. Carey reports, memos, etc.</unittitle><unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -304,8 +290,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [83353489505648924889]">3</container>
-              <unittitle>Field staff annual report analysis <unitdate type="inclusive" normal="1931/1932">1931/32</unitdate></unittitle>
-            </did>
+              <unittitle>Field staff annual report analysis</unittitle><unitdate type="inclusive" normal="1931/1932">1931/32</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -314,14 +299,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [83353489505648924889]">3</container>
-                <unittitle>Annual report <unitdate type="inclusive" normal="1931/1932">1931/32</unitdate></unittitle>
-              </did>
+                <unittitle>Annual report</unittitle><unitdate type="inclusive" normal="1931/1932">1931/32</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [83353489505648924889]">3</container>
-                <unittitle>Reports <unitdate type="inclusive" normal="1930">1930</unitdate>, <unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate> of nursing service</unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Reports 1930, 1935-1939 of nursing service</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate><unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
@@ -337,8 +320,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [368011613746505575255991]">4</container>
-                <unittitle>W.J. Norton files <unitdate type="inclusive" normal="1935/1957">1935-1957</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>W.J. Norton files</unittitle><unitdate type="inclusive" normal="1935/1957">1935-1957</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
               </did>
@@ -346,8 +328,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [368011613746505575255991]">4</container>
-                <unittitle>Kenneth Gibson files <unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></unittitle>
-              </did>
+                <unittitle>Kenneth Gibson files</unittitle><unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -360,8 +341,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [368011613746505575255991]">4</container>
-                <unittitle>W.J. Norton files <unitdate type="inclusive" normal="1930/1959">1930-1959</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>W.J. Norton files</unittitle><unitdate type="inclusive" normal="1930/1959">1930-1959</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">8 folders</extent>
                 </physdesc>
               </did>
@@ -369,14 +349,12 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [368011613746505575255991]">4</container>
-                <unittitle>Robert MacRae files <unitdate type="inclusive" normal="1930/1933">1930-1933</unitdate></unittitle>
-              </did>
+                <unittitle>Robert MacRae files</unittitle><unitdate type="inclusive" normal="1930/1933">1930-1933</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [368011613746505575255991]">4</container>
-                <unittitle>Kenneth Gibson files <unitdate type="inclusive" normal="1940/1954">1940-1954</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Kenneth Gibson files</unittitle><unitdate type="inclusive" normal="1940/1954">1940-1954</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
@@ -388,14 +366,12 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [368011613746505575255991]">4</container>
-                  <unittitle>General <unitdate type="inclusive" normal="1930/1939">1930-1939</unitdate></unittitle>
-                </did>
+                  <unittitle>General</unittitle><unitdate type="inclusive" normal="1930/1939">1930-1939</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [368011613746505575255991]">4</container>
-                  <unittitle>Proposed new unit <unitdate type="inclusive" normal="1937/1939">1937-1939</unitdate></unittitle>
-                </did>
+                  <unittitle>Proposed new unit</unittitle><unitdate type="inclusive" normal="1937/1939">1937-1939</unitdate></did>
               </c05>
             </c04>
           </c03>
@@ -411,26 +387,22 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [67911523468079274668]">5</container>
-                <unittitle>Summary of eight years of child guidance under the Children's Fund of Michigan <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
-              </did>
+                <unittitle>Summary of eight years of child guidance under the Children's Fund of Michigan</unittitle><unitdate type="inclusive" normal="1939">1939</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [67911523468079274668]">5</container>
-                <unittitle>Annual reports <unitdate type="inclusive" normal="1936/1953">1936/37-1952/53</unitdate></unittitle>
-              </did>
+                <unittitle>Annual reports</unittitle><unitdate type="inclusive" normal="1936/1953">1936/37-1952/53</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [67911523468079274668]">5</container>
-                <unittitle>Correspondence of Maud Watson, director, with Dr. Marion E. Kenworthy <unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate></unittitle>
-              </did>
+                <unittitle>Correspondence of Maud Watson, director, with Dr. Marion E. Kenworthy</unittitle><unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [67911523468079274668]">5</container>
-                <unittitle>Chronological files <unitdate type="inclusive" normal="1930/1955">1930-1955</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Chronological files</unittitle><unitdate type="inclusive" normal="1930/1955">1930-1955</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">9 folders</extent>
                 </physdesc>
               </did>
@@ -442,8 +414,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box [67911523468079274668]">5</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate> with WJN</unittitle>
-                </did>
+                  <unittitle>Correspondence  with WJN</unittitle><unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -460,8 +431,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Alphabetical files <unitdate type="inclusive" normal="1929/1961">1929-1961</unitdate></unittitle>
-        </did>
+          <unittitle>Alphabetical files</unittitle><unitdate type="inclusive" normal="1929/1961">1929-1961</unitdate></did>
         <scopecontent>
           <p>The Alphabetical series (1929-1961; 8.7 linear feet) details CFM's relationship with organizations receiving grants or other types of support. Some of the larger sequences of files in this series concern the Michigan State Emergency Relief Administration, the Detroit and Pontiac Visiting Nurse Associations, CFM support of University of Michigan programs and research, and the Mayor's (Detroit) Interracial Commission. Included here is CFM's extensive correspondence file with Fund originator, James Couzens.</p>
         </scopecontent>
@@ -480,8 +450,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [095576430553565]">6</container>
-            <unittitle>American Red Cross <unitdate type="inclusive" normal="1952/1955">1952-1955</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>American Red Cross</unittitle><unitdate type="inclusive" normal="1952/1955">1952-1955</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -684,8 +653,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [350172443616390]">7</container>
-            <unittitle>Community Chest of Metropolitan Detroit <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-          </did>
+            <unittitle>Community Chest of Metropolitan Detroit</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -696,8 +664,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [350172443616390]">7</container>
-            <unittitle>Council of Social Agencies <unitdate type="inclusive" normal="1941/1948">1941-1948</unitdate></unittitle>
-          </did>
+            <unittitle>Council of Social Agencies</unittitle><unitdate type="inclusive" normal="1941/1948">1941-1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -708,8 +675,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [350172443616390]">7</container>
-            <unittitle>Couzens, James <unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Couzens, James</unittitle><unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 folders</extent>
             </physdesc>
           </did>
@@ -717,14 +683,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [350172443616390]">7</container>
-            <unittitle>Couzens (James) Memorial <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-          </did>
+            <unittitle>Couzens (James) Memorial</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [350172443616390]">7</container>
-            <unittitle>Couzens, Mrs. James <unitdate type="inclusive" normal="1932/1960">1932-1960</unitdate></unittitle>
-          </did>
+            <unittitle>Couzens, Mrs. James</unittitle><unitdate type="inclusive" normal="1932/1960">1932-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -741,50 +705,42 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [350172443616390]">7</container>
-            <unittitle>Day Care of Children Committee, Wayne County Council of Defense <unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate></unittitle>
-          </did>
+            <unittitle>Day Care of Children Committee, Wayne County Council of Defense</unittitle><unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1775664698761837]">8</container>
-            <unittitle>Dental caries (Bunting research) <unitdate type="inclusive" normal="1932">1932</unitdate>, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <unittitle>Dental caries (Bunting research)</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1775664698761837]">8</container>
-            <unittitle>Dental programs of the CFM: 25 year summary report <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-          </did>
+            <unittitle>Dental programs of the CFM: 25 year summary report</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1775664698761837]">8</container>
-            <unittitle>Detroit (general) <unitdate type="inclusive" normal="1935/1955">1935-1955</unitdate></unittitle>
-          </did>
+            <unittitle>Detroit (general)</unittitle><unitdate type="inclusive" normal="1935/1955">1935-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1775664698761837]">8</container>
-            <unittitle>Detroit Board of Education <unitdate type="inclusive" normal="1949/1958">1949-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Detroit Board of Education</unittitle><unitdate type="inclusive" normal="1949/1958">1949-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1775664698761837]">8</container>
-            <unittitle>Detroit Department of Health <unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Detroit Department of Health</unittitle><unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1775664698761837]">8</container>
-            <unittitle>Detroit Department of Recreation <unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate></unittitle>
-          </did>
+            <unittitle>Detroit Department of Recreation</unittitle><unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1775664698761837]">8</container>
-            <unittitle>Detroit Mayor's Fact-Finding Committee re Detroit City Gas Company <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Detroit Mayor's Fact-Finding Committee re Detroit City Gas Company</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -792,8 +748,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1775664698761837]">8</container>
-            <unittitle>Detroit Mayor's Inter-racial (sic) Commission (formerly Committee on Race Relations) <unitdate type="inclusive" normal="1941/1944">1941-1944</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Detroit Mayor's Inter-racial (sic) Commission (formerly Committee on Race Relations)</unittitle><unitdate type="inclusive" normal="1941/1944">1941-1944</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -801,14 +756,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1775664698761837]">8</container>
-            <unittitle>Detroit Mayor's Unemployment Committee <unitdate type="inclusive" normal="1931/1933">1931-1933</unitdate></unittitle>
-          </did>
+            <unittitle>Detroit Mayor's Unemployment Committee</unittitle><unitdate type="inclusive" normal="1931/1933">1931-1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1775664698761837]">8</container>
-            <unittitle>Detroit School Social Service Committee <unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Detroit School Social Service Committee</unittitle><unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
@@ -816,8 +769,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1775664698761837]">8</container>
-            <unittitle>Detroit Section National Council of Jewish Women <unitdate type="inclusive" normal="1929/1939">1929-1939</unitdate></unittitle>
-          </did>
+            <unittitle>Detroit Section National Council of Jewish Women</unittitle><unitdate type="inclusive" normal="1929/1939">1929-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -837,8 +789,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1775664698761837]">8</container>
-            <unittitle>Federal Emergency Relief Administration <unitdate type="inclusive" normal="1933/1935">1933-1935</unitdate></unittitle>
-          </did>
+            <unittitle>Federal Emergency Relief Administration</unittitle><unitdate type="inclusive" normal="1933/1935">1933-1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -867,8 +818,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [138904340405578916652]">9</container>
-            <unittitle>Freund, Hugo <unitdate type="inclusive" normal="1929/1953">1929-1953</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Freund, Hugo</unittitle><unitdate type="inclusive" normal="1929/1953">1929-1953</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -882,8 +832,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [138904340405578916652]">9</container>
-            <unittitle>Gibson, R. Lauren (paper <unitdate type="inclusive" normal="1930">1930</unitdate> entitled, "Summer Dental Program")</unittitle>
-          </did>
+            <unittitle>Gibson, R. Lauren (paper  entitled, "Summer Dental Program")</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -897,14 +846,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [138904340405578916652]">9</container>
-            <unittitle>Girl Scouts (Michigan) (Annual report of progress of Girl Scouting in Michigan <unitdate type="inclusive" normal="1944/1949">1944-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Girl Scouts (Michigan) (Annual report of progress of Girl Scouting in Michigan</unittitle><unitdate type="inclusive" normal="1944/1949">1944-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [138904340405578916652]">9</container>
-            <unittitle>Girl Scouts (national) <unitdate type="inclusive" normal="1940/1944">1940-1944</unitdate>, <unitdate type="inclusive" normal="1947/1953">1947-1953</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Girl Scouts (national)</unittitle><unitdate type="inclusive" normal="1940/1944">1940-1944</unitdate><unitdate type="inclusive" normal="1947/1953">1947-1953</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -924,8 +871,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [138904340405578916652]">9</container>
-            <unittitle>Greater Detroit Hospital Fund <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Greater Detroit Hospital Fund</unittitle><unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -939,20 +885,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [138904340405578916652]">9</container>
-            <unittitle>Hamtramck-Proposed new health center <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
-          </did>
+            <unittitle>Hamtramck-Proposed new health center</unittitle><unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [138904340405578916652]">9</container>
-            <unittitle>Handicapped children in Michigan (survey of their needs) <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-          </did>
+            <unittitle>Handicapped children in Michigan (survey of their needs)</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [138904340405578916652]">9</container>
-            <unittitle>Health Council of Metropolitan Detroit <unitdate type="inclusive" normal="1942/1952">1942-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Health Council of Metropolitan Detroit</unittitle><unitdate type="inclusive" normal="1942/1952">1942-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -981,14 +924,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675292604499800248649]">10</container>
-            <unittitle>Jewish Community Center <unitdate type="inclusive" normal="1935/1948">1935-1948</unitdate></unittitle>
-          </did>
+            <unittitle>Jewish Community Center</unittitle><unitdate type="inclusive" normal="1935/1948">1935-1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675292604499800248649]">10</container>
-            <unittitle>Joint Committee on Health Education <unitdate type="inclusive" normal="1936/1946">1936-1946</unitdate></unittitle>
-          </did>
+            <unittitle>Joint Committee on Health Education</unittitle><unitdate type="inclusive" normal="1936/1946">1936-1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1005,14 +946,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675292604499800248649]">10</container>
-            <unittitle>Lewis, Samuel J. <unitdate type="inclusive" normal="1930/1938">1930-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Lewis, Samuel J.</unittitle><unitdate type="inclusive" normal="1930/1938">1930-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675292604499800248649]">10</container>
-            <unittitle>Loan Fund <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></unittitle>
-          </did>
+            <unittitle>Loan Fund</unittitle><unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1023,14 +962,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675292604499800248649]">10</container>
-            <unittitle>Madonna Guild <unitdate type="inclusive" normal="1932/1936">1932-1936</unitdate></unittitle>
-          </did>
+            <unittitle>Madonna Guild</unittitle><unitdate type="inclusive" normal="1932/1936">1932-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675292604499800248649]">10</container>
-            <unittitle>Menninger Foundation <unitdate type="inclusive" normal="1945/1959">1945-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Menninger Foundation</unittitle><unitdate type="inclusive" normal="1945/1959">1945-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1041,8 +978,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675292604499800248649]">10</container>
-            <unittitle>Michigan (general) <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Michigan (general)</unittitle><unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -1050,8 +986,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675292604499800248649]">10</container>
-            <unittitle>Michigan Children's Aid Society <unitdate type="inclusive" normal="1932/1954">1932-1954</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Michigan Children's Aid Society</unittitle><unitdate type="inclusive" normal="1932/1954">1932-1954</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1059,20 +994,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675292604499800248649]">10</container>
-            <unittitle>Michigan Crippled Children Commission <unitdate type="inclusive" normal="1950/1958">1950-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Crippled Children Commission</unittitle><unitdate type="inclusive" normal="1950/1958">1950-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675292604499800248649]">10</container>
-            <unittitle>Michigan Department of Health <unitdate type="inclusive" normal="1929/1961">1929-1961</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Department of Health</unittitle><unitdate type="inclusive" normal="1929/1961">1929-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5675292604499800248649]">10</container>
-            <unittitle>Michigan Department of Mental Health <unitdate type="inclusive" normal="1948/1953">1948-1953</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Department of Mental Health</unittitle><unitdate type="inclusive" normal="1948/1953">1948-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1081,25 +1013,18 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5675292604499800248649]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931/1953">1931-1953</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1931/1953">1931-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Michigan Study of the Secondary School Curriculum <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Michigan Study of the Secondary School Curriculum</unittitle><unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5675292604499800248649]">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1115,26 +1040,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7694293410619209]">11</container>
-            <unittitle>Michigan Infantile Paralysis Commission <unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Infantile Paralysis Commission</unittitle><unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7694293410619209]">11</container>
-            <unittitle>Michigan Society for Epileptic Children <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Society for Epileptic Children</unittitle><unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7694293410619209]">11</container>
-            <unittitle>Michigan Society for Mental Health <unitdate type="inclusive" normal="1953/1959">1953-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Society for Mental Health</unittitle><unitdate type="inclusive" normal="1953/1959">1953-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7694293410619209]">11</container>
-            <unittitle>Michigan State Emergency Relief Administration <unitdate type="inclusive" normal="1933/1938">1933-1938</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Michigan State Emergency Relief Administration</unittitle><unitdate type="inclusive" normal="1933/1938">1933-1938</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -1142,14 +1063,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7694293410619209]">11</container>
-            <unittitle>Michigan State Hospital Commission <unitdate type="inclusive" normal="1939/1943">1939-1943</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan State Hospital Commission</unittitle><unitdate type="inclusive" normal="1939/1943">1939-1943</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7694293410619209]">11</container>
-            <unittitle>Michigan State Hospital Survey Committee <unitdate type="inclusive" normal="1944/1947">1944-1947</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Michigan State Hospital Survey Committee</unittitle><unitdate type="inclusive" normal="1944/1947">1944-1947</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1157,26 +1076,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [7694293410619209]">11</container>
-            <unittitle>Michigan State Medical Society <unitdate type="inclusive" normal="1940/1942">1940-1942</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan State Medical Society</unittitle><unitdate type="inclusive" normal="1940/1942">1940-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7694293410619209]">11</container>
-            <unittitle>Michigan Welfare League <unitdate type="inclusive" normal="1941/1953">1941-1953</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Welfare League</unittitle><unitdate type="inclusive" normal="1941/1953">1941-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7694293410619209]">11</container>
-            <unittitle>Michigan Welfare Relief and Study Commission <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Welfare Relief and Study Commission</unittitle><unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7694293410619209]">11</container>
-            <unittitle>Muskegon County Boarding Project <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Muskegon County Boarding Project</unittitle><unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1193,8 +1108,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>National (various organizations) <unitdate type="inclusive" normal="1945/1962">1945-1962</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>National (various organizations)</unittitle><unitdate type="inclusive" normal="1945/1962">1945-1962</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -1202,26 +1116,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>National Association for Mental Health (formerly National Committee for Mental Hygiene) <unitdate type="inclusive" normal="1938/1954">1938-1954</unitdate></unittitle>
-          </did>
+            <unittitle>National Association for Mental Health (formerly National Committee for Mental Hygiene)</unittitle><unitdate type="inclusive" normal="1938/1954">1938-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>National Conference of Social Work <unitdate type="inclusive" normal="1941/1962">1941-1962</unitdate></unittitle>
-          </did>
+            <unittitle>National Conference of Social Work</unittitle><unitdate type="inclusive" normal="1941/1962">1941-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>National Foundation for Infantile Paralysis <unitdate type="inclusive" normal="1944/1954">1944-1954</unitdate></unittitle>
-          </did>
+            <unittitle>National Foundation for Infantile Paralysis</unittitle><unitdate type="inclusive" normal="1944/1954">1944-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>Nursing Field Work Association <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-          </did>
+            <unittitle>Nursing Field Work Association</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1232,8 +1142,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>Oakland County Probate Court <unitdate type="inclusive" normal="1940/1961">1940-1961</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Oakland County Probate Court</unittitle><unitdate type="inclusive" normal="1940/1961">1940-1961</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1241,8 +1150,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>Osborne Association <unitdate type="inclusive" normal="1945/1951">1945-1951</unitdate></unittitle>
-          </did>
+            <unittitle>Osborne Association</unittitle><unitdate type="inclusive" normal="1945/1951">1945-1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1259,14 +1167,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>Pentland School <unitdate type="inclusive" normal="1941/1950">1941-1950</unitdate></unittitle>
-          </did>
+            <unittitle>Pentland School</unittitle><unitdate type="inclusive" normal="1941/1950">1941-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>Peter Pan Nursery School <unitdate type="inclusive" normal="1948/1963">1948-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Peter Pan Nursery School</unittitle><unitdate type="inclusive" normal="1948/1963">1948-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1277,8 +1183,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>Puerto Rico Child Health Committee <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></unittitle>
-          </did>
+            <unittitle>Puerto Rico Child Health Committee</unittitle><unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1304,8 +1209,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>St. Vincent de Paul, Society of <unitdate type="inclusive" normal="1929/1961">1929-1961</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>St. Vincent de Paul, Society of</unittitle><unitdate type="inclusive" normal="1929/1961">1929-1961</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1313,14 +1217,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>Scholler, Peter <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate></unittitle>
-          </did>
+            <unittitle>Scholler, Peter</unittitle><unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>Shady Trails Camp <unitdate type="inclusive" normal="1934/1948">1934-1948</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Shady Trails Camp</unittitle><unitdate type="inclusive" normal="1934/1948">1934-1948</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1328,26 +1230,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>Stanley, Fred G. <unitdate type="inclusive" normal="1930/1934">1930-1934</unitdate></unittitle>
-          </did>
+            <unittitle>Stanley, Fred G.</unittitle><unitdate type="inclusive" normal="1930/1934">1930-1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>Student Aid Foundation <unitdate type="inclusive" normal="1948/1952">1948-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Student Aid Foundation</unittitle><unitdate type="inclusive" normal="1948/1952">1948-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2225442815082057]">12</container>
-            <unittitle>Survey Associates <unitdate type="inclusive" normal="1933/1952">1933-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Survey Associates</unittitle><unitdate type="inclusive" normal="1933/1952">1933-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6585129824797573453213]">13</container>
-            <unittitle>Thomas (Edith Thomas Book Project) <unitdate type="inclusive" normal="1931/1954">1931-1954</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Thomas (Edith Thomas Book Project)</unittitle><unitdate type="inclusive" normal="1931/1954">1931-1954</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -1355,8 +1253,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6585129824797573453213]">13</container>
-            <unittitle>Traverse City State Hospital <unitdate type="inclusive" normal="1934/1938">1934-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Traverse City State Hospital</unittitle><unitdate type="inclusive" normal="1934/1938">1934-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1367,20 +1264,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6585129824797573453213]">13</container>
-            <unittitle>Union Guardina Trust Company <unitdate type="inclusive" normal="1932/1938">1932-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Union Guardina Trust Company</unittitle><unitdate type="inclusive" normal="1932/1938">1932-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6585129824797573453213]">13</container>
-            <unittitle>United China Relief <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
-          </did>
+            <unittitle>United China Relief</unittitle><unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6585129824797573453213]">13</container>
-            <unittitle>United Community Services of Metropolitan Detroit (formed from merger of Community Chest and the Council of Social Agencies) <unitdate type="inclusive" normal="1951/1961">1951-1961</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>United Community Services of Metropolitan Detroit (formed from merger of Community Chest and the Council of Social Agencies)</unittitle><unitdate type="inclusive" normal="1951/1961">1951-1961</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
@@ -1388,20 +1282,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6585129824797573453213]">13</container>
-            <unittitle>United Foundation <unitdate type="inclusive" normal="1949/1953">1949-1953</unitdate></unittitle>
-          </did>
+            <unittitle>United Foundation</unittitle><unitdate type="inclusive" normal="1949/1953">1949-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6585129824797573453213]">13</container>
-            <unittitle>United States Government (general) <unitdate type="inclusive" normal="1945/1954">1945-1954</unitdate></unittitle>
-          </did>
+            <unittitle>United States Government (general)</unittitle><unitdate type="inclusive" normal="1945/1954">1945-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [6585129824797573453213]">13</container>
-            <unittitle>United States War Labor Board, Salary Stabilization Unit <unitdate type="inclusive" normal="1942/1945">1942-1945</unitdate></unittitle>
-          </did>
+            <unittitle>United States War Labor Board, Salary Stabilization Unit</unittitle><unitdate type="inclusive" normal="1942/1945">1942-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1410,8 +1301,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6585129824797573453213]">13</container>
-              <unittitle>General <unitdate type="inclusive" normal="1930/1954">1930-1954</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1930/1954">1930-1954</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -1419,32 +1309,27 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [6585129824797573453213]">13</container>
-              <unittitle>Dental caries research <unitdate type="inclusive" normal="1929/1934">1929-1934</unitdate></unittitle>
-            </did>
+              <unittitle>Dental caries research</unittitle><unitdate type="inclusive" normal="1929/1934">1929-1934</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6585129824797573453213]">13</container>
-              <unittitle>Epidemic diarrhoea of the newborn research <unitdate type="inclusive" normal="1941/1944">1941-1944</unitdate></unittitle>
-            </did>
+              <unittitle>Epidemic diarrhoea of the newborn research</unittitle><unitdate type="inclusive" normal="1941/1944">1941-1944</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6585129824797573453213]">13</container>
-              <unittitle>Fresh Air Camp <unitdate type="inclusive" normal="1929/1948">1929-1948</unitdate></unittitle>
-            </did>
+              <unittitle>Fresh Air Camp</unittitle><unitdate type="inclusive" normal="1929/1948">1929-1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6585129824797573453213]">13</container>
-              <unittitle>Gibson (Kenneth) file <unitdate type="inclusive" normal="1949/1953">1949-1953</unitdate></unittitle>
-            </did>
+              <unittitle>Gibson (Kenneth) file</unittitle><unitdate type="inclusive" normal="1949/1953">1949-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [6585129824797573453213]">13</container>
-              <unittitle>Institute of Health and Social Sciences <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-            </did>
+              <unittitle>Institute of Health and Social Sciences</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1456,8 +1341,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329565443996463911]">14</container>
-            <unittitle>Visiting Nurse Association of Detroit <unitdate type="inclusive" normal="1936/1955">1936-1955</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Visiting Nurse Association of Detroit</unittitle><unitdate type="inclusive" normal="1936/1955">1936-1955</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -1465,8 +1349,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329565443996463911]">14</container>
-            <unittitle>Visiting Nurse Association of Pontiac <unitdate type="inclusive" normal="1936/1953">1936-1953</unitdate></unittitle>
-          </did>
+            <unittitle>Visiting Nurse Association of Pontiac</unittitle><unitdate type="inclusive" normal="1936/1953">1936-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1477,8 +1360,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329565443996463911]">14</container>
-            <unittitle>War (miscellaneous) <unitdate type="inclusive" normal="1942/1946">1942-1946</unitdate></unittitle>
-          </did>
+            <unittitle>War (miscellaneous)</unittitle><unitdate type="inclusive" normal="1942/1946">1942-1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1489,14 +1371,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329565443996463911]">14</container>
-            <unittitle>Wayne County Training School <unitdate type="inclusive" normal="1942/1960">1942-1960</unitdate></unittitle>
-          </did>
+            <unittitle>Wayne County Training School</unittitle><unitdate type="inclusive" normal="1942/1960">1942-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [329565443996463911]">14</container>
-            <unittitle>Wayne University <unitdate type="inclusive" normal="1936/1960">1936-1960</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Wayne University</unittitle><unitdate type="inclusive" normal="1936/1960">1936-1960</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -1504,8 +1384,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329565443996463911]">14</container>
-            <unittitle>Woman's Building Campaign <unitdate type="inclusive" normal="1927/1948">1927-1948</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Woman's Building Campaign</unittitle><unitdate type="inclusive" normal="1927/1948">1927-1948</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1513,8 +1392,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329565443996463911]">14</container>
-            <unittitle>Wright (Sophie Wright Settlement) <unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate> (includes photos)</unittitle>
-          </did>
+            <unittitle>Wright (Sophie Wright Settlement)  (includes photos)</unittitle><unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1525,26 +1403,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329565443996463911]">14</container>
-            <unittitle>Youth Aliyah <unitdate type="inclusive" normal="1938/1945">1938-1945</unitdate></unittitle>
-          </did>
+            <unittitle>Youth Aliyah</unittitle><unitdate type="inclusive" normal="1938/1945">1938-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [329565443996463911]">14</container>
-            <unittitle>Young Men's Christian Association <unitdate type="inclusive" normal="1933/1959">1933-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Young Men's Christian Association</unittitle><unitdate type="inclusive" normal="1933/1959">1933-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [329565443996463911]">14</container>
-            <unittitle>Young Women's Christian Association <unitdate type="inclusive" normal="1935/1954">1935-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Young Women's Christian Association</unittitle><unitdate type="inclusive" normal="1935/1954">1935-1954</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Photographs <unitdate type="inclusive" normal="1930/1965" certainty="approximate">1930-circa 1965</unitdate></unittitle>
-        </did>
+          <unittitle>Photographs</unittitle><unitdate type="inclusive" normal="1930/1965" certainty="approximate">1930-circa 1965</unitdate></did>
         <scopecontent>
           <p>Photographs (1930-ca. 1965; .3 linear feet) is a small series of images relating to the Fund's work with the rural poor in northern Michigan and the Upper Peninsula, especially in the area of child health; also general photos of rural areas and rural children. Most of the photographs concern children as part of groups, either in schools, in health care clinics, or in recreational groups.</p>
         </scopecontent>
@@ -1557,8 +1431,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [329565443996463911]">14</container>
-            <unittitle>Central Michigan Children's Clinic <unitdate type="inclusive" normal="1936-06-24">June 24, 1936</unitdate></unittitle>
-          </did>
+            <unittitle>Central Michigan Children's Clinic</unittitle><unitdate type="inclusive" normal="1936-06-24">June 24, 1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1615,14 +1488,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [329565443996463911]">14</container>
-              <unittitle>Patients <unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate></unittitle>
-            </did>
+              <unittitle>Patients</unittitle><unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [329565443996463911]">14</container>
-              <unittitle>Patients <unitdate type="inclusive" normal="1940/1959" certainty="approximate">1940s-1950s</unitdate></unittitle>
-            </did>
+              <unittitle>Patients</unittitle><unitdate type="inclusive" normal="1940/1959" certainty="approximate">1940s-1950s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1676,18 +1547,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Scrapbooks <unitdate type="inclusive" normal="1929/1953">1929-1953</unitdate></unittitle>
-        </did>
+          <unittitle>Scrapbooks</unittitle><unitdate type="inclusive" normal="1929/1953">1929-1953</unitdate></did>
         <scopecontent>
           <p>The Scrapbook (1929-1953; 10 volumes in 3 boxes and 3 oversize volumes) series consist of volumes of clippings received from a clipping service and relating to the activities and grants made by CFM. The series covers the period from 1929 to 1954 with some gaps. The series is most complete for the 1930s when the CFM initiated many of its programs. Most of the articles are brief but coverage is from newspapers throughout the state. Occasionally, the volumes will contain a photograph or two.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box [52316531346437971262]">15</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1929-04/1932-05">April 1929-May 1932</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1929-04/1932-05">April 1929-May 1932</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 volumes</extent>
             </physdesc>
           </did>
@@ -1695,10 +1562,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [99104517924439999818132]">16</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1932-05/1934-02">May 1932-February 1934</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1932-05/1934-02">May 1932-February 1934</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
@@ -1706,58 +1570,42 @@
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [6671192448150082755288]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1934-02/1936-08">February 1934-August 1936</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1934-02/1936-08">February 1934-August 1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2522174096900362320522]">17</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1936-09/1937-05">September 1936-May 1937</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1936-09/1937-05">September 1936-May 1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2522174096900362320522]">17</container>
-            <unittitle><unitdate type="inclusive" normal="1937-05/1938">May 1937-1938</unitdate> (selection)</unittitle>
-          </did>
+            <unittitle>(selection)</unittitle><unitdate type="inclusive" normal="1937-05/1938">May 1937-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [94755684262159070368]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1941-07/1948-12">July 1941-December 1948</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1941-07/1948-12">July 1941-December 1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2522174096900362320522]">17</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1949/1953">1949-1953</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1949/1953">1949-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [2522174096900362320522]">17</container>
-            <unittitle>Memorial scrapbook to James Couzens <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <unittitle>Memorial scrapbook to James Couzens</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [354241244040795035363]">3</container>
-            <unittitle>History of Central Michigan Children's Clinic, Traverse City, Michigan <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <unittitle>History of Central Michigan Children's Clinic, Traverse City, Michigan</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Financial <unitdate type="inclusive" normal="1929/1965">1929-1965</unitdate></unittitle>
-        </did>
+          <unittitle>Financial</unittitle><unitdate type="inclusive" normal="1929/1965">1929-1965</unitdate></did>
         <scopecontent>
           <p>The series - Financial (1929-1965; 5.5 linear feet and 1 oversize volume) - consists of materials documenting all of the financial operations of the Fund, including budgets, audits, financial statements and reports, and investment reviews. The final series arbitrarily labeled Miscellaneous (1929-ca. 1957; 1.5 linear feet) includes architectural and legal information pertaining to the two children's clinics established by the Fund as well as Green Pastures Camp. Also included are files pertaining to the James Couzens and Maurice Sobell estates. Finally, this series contains information used in the preparation of the 1957 history of the CFM. One of the files labeled "final report" includes transcripts of Norton's interviews with some of the personalities important in CFM history. Portions of these final two series remain unprocessed.</p>
         </scopecontent>
@@ -1770,8 +1618,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [38674167434887249554813]">18</container>
-            <unittitle>Audits <unitdate type="inclusive" normal="1930/1965">1930-1965</unitdate></unittitle>
-          </did>
+            <unittitle>Audits</unittitle><unitdate type="inclusive" normal="1930/1965">1930-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1782,20 +1629,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [38674167434887249554813]">18</container>
-            <unittitle>Budgets (Child Health Division) <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></unittitle>
-          </did>
+            <unittitle>Budgets (Child Health Division)</unittitle><unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [38674167434887249554813]">18</container>
-            <unittitle>Budgets <unitdate type="inclusive" normal="1930/1936">1930-1936</unitdate></unittitle>
-          </did>
+            <unittitle>Budgets</unittitle><unitdate type="inclusive" normal="1930/1936">1930-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [77045040797912757700]">19</container>
-            <unittitle>Real estate reports <unitdate type="inclusive" normal="1934/1945">1934-1945</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Real estate reports</unittitle><unitdate type="inclusive" normal="1934/1945">1934-1945</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
@@ -1807,8 +1651,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [77045040797912757700]">19</container>
-              <unittitle>General <unitdate type="inclusive" normal="1929/1946">1929-1946</unitdate>, <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1929/1946">1929-1946</unitdate><unitdate type="inclusive" normal="1953">1953</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
             </did>
@@ -1816,8 +1659,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [75039471499835037773422]">20</container>
-              <unittitle>Investment Review <unitdate type="inclusive" normal="1946/1954">1946-1954</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Investment Review</unittitle><unitdate type="inclusive" normal="1946/1954">1946-1954</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">17 volumes</extent>
                 <physfacet>booklets</physfacet>
               </physdesc>
@@ -1830,10 +1672,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [75039471499835037773422]">20</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1932/1947">1932-1947</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1932/1947">1932-1947</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">10 folders</extent>
                 </physdesc>
               </did>
@@ -1841,10 +1680,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9916069864910297911627]">21</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1948/1953">1948-1953</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1948/1953">1948-1953</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">6 folders</extent>
                 </physdesc>
               </did>
@@ -1853,8 +1689,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9916069864910297911627]">21</container>
-              <unittitle>Bonds <unitdate type="inclusive" normal="1936/1945">1936-1945</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Bonds</unittitle><unitdate type="inclusive" normal="1936/1945">1936-1945</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -1862,8 +1697,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9916069864910297911627]">21</container>
-              <unittitle>Mortgages <unitdate type="inclusive" normal="1941/1946">1941-1946</unitdate></unittitle>
-            </did>
+              <unittitle>Mortgages</unittitle><unitdate type="inclusive" normal="1941/1946">1941-1946</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1877,10 +1711,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [9916069864910297911627]">21</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1929/1937">1929-1937</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <unitdate type="inclusive" normal="1929/1937">1929-1937</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
               </did>
@@ -1888,10 +1719,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [92840624419140875883]">22</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1938/1956">1938-1956</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1938/1956">1938-1956</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -1904,8 +1732,7 @@
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [245639260141444531155]">4</container>
-            <unittitle>Financial journal <unitdate type="inclusive" normal="1944-03/1965-09">March 1944-September 1965</unitdate></unittitle>
-          </did>
+            <unittitle>Financial journal</unittitle><unitdate type="inclusive" normal="1944-03/1965-09">March 1944-September 1965</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1976,8 +1803,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [4244849034156067710]">24</container>
-              <unittitle><unitdate type="inclusive" normal="1935">1935</unitdate> contracts, elevators and miscellaneous</unittitle>
-            </did>
+              <unittitle>Contracts, elevators and miscellaneous</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate></did>
           </c03>
           <c03 level="file">
             <did>

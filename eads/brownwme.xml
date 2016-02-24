@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brown, William Ellis, 1896-1970.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/8506">Brown, William Ellis, 1896-1970.</persname>
       </origination>
-      <unittitle encodinganalog="245">William E. Brown papers <unitdate type="inclusive" encodinganalog="245$f" normal="1923/1972">1923-1972</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85896 Aa 2; AC</unitid>
+      <unittitle encodinganalog="245">William E. Brown papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1923/1972">1923-1972</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85896 Aa 2; AC</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Republican mayor of Ann Arbor, Michigan, 1945-1957. The collection consists of topical files on Ann Arbor municipal issues, business records from his real estate and automobile sales ventures, scrapbooks, and photographs</abstract>
       <repository>
@@ -82,35 +82,35 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Mayors--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651">Ann Arbor (Mich.)--Politics and government.</geogname>
-        <subject source="lcsh" encodinganalog="650">Automobile industry and trade--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Automobile parking.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190241">Cobo, Albert E. (Albert Eugene), 1893-1957.</persname>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1956.</subject>
-        <subject source="lcsh" encodinganalog="650">Housing--Michigan--Ann Arbor.</subject>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1946-1960.</geogname>
-        <subject source="lcsh" encodinganalog="650">Municipal government--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Real estate business--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Veterans Administration Hospital (Ann Arbor, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Brown, William Ellis, 1896-1970.</persname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1837-1950.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6247">Mayors--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/853">Ann Arbor (Mich.)--Politics and government.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6513">Automobile industry and trade--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6272">Automobile parking.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190241" ref="/agents/people/8252">Cobo, Albert E. (Albert Eugene), 1893-1957.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6514">Elections--Michigan--1956.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5679">Housing--Michigan--Ann Arbor.</subject>
+        <geogname source="local" encodinganalog="691" ref="/subjects/805">Michigan--Politics and government--1946-1960.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5664">Municipal government--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6161">Real estate business--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4055">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2477">Veterans Administration Hospital (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8506">Brown, William Ellis, 1896-1970.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/906">Michigan--Politics and government--1951-</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/880">Michigan--Politics and government--1837-1950.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Buildings, structures, etc.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Buildings, structures, etc.</geogname>
-        <subject source="lctgm" encodinganalog="650">Garages.</subject>
-        <subject source="lctgm" encodinganalog="650">Parking.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/229">Ann Arbor (Mich.)--Buildings, structures, etc.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/39">Ann Arbor (Mich.). Common Council.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1372">Detroit (Mich.)--Buildings, structures, etc.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3980">Garages.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3981">Parking.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="655">Architectural drawings.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3470">Architectural drawings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -120,10 +120,7 @@
         </did>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [58808764063096708834]">1</container>
@@ -163,8 +160,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [58808764063096708834]">1</container>
-              <unittitle>Campaign for Mayor <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-            </did>
+              <unittitle>Campaign for Mayor</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -427,10 +423,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9301274242772142]">2</container>
@@ -740,10 +733,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [9301274242772142]">2</container>
@@ -921,8 +911,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [9301274242772142]">2</container>
-              <unittitle>Parking Structure Dedication <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-            </did>
+              <unittitle>Parking Structure Dedication</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1041,10 +1030,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [497574483984961570]">3</container>
@@ -1480,10 +1466,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [47715264397223104853]">4</container>
@@ -1643,8 +1626,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [478070514069901615969]">5</container>
-              <unittitle>International Municipal Congress <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            </did>
+              <unittitle>International Municipal Congress</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1883,10 +1865,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1118474475970920391]">6</container>
@@ -2328,10 +2307,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957">1957</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1957">1957</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Box [094816500742101819661797]">7</container>
@@ -2480,34 +2456,22 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [116920940759753]">8</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1945/1951">1945-1951</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1945/1951">1945-1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [2785482215799823]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1952">1952</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1952">1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [6714544200813829301491]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [80714404455340022915876]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956/1962">1956-1962</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1956/1962">1956-1962</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -2517,50 +2481,42 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5226485484117]">9</container>
-            <unittitle>Huron Valley Chevrolet, Inc. <unitdate type="inclusive" normal="1928/1933">1928-1933</unitdate></unittitle>
-          </did>
+            <unittitle>Huron Valley Chevrolet, Inc.</unittitle><unitdate type="inclusive" normal="1928/1933">1928-1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [5226485484117]">9</container>
-            <unittitle>Huron Motor Sales, Inc. <unitdate type="inclusive" normal="1933/1972">1933-1972</unitdate></unittitle>
-          </did>
+            <unittitle>Huron Motor Sales, Inc.</unittitle><unitdate type="inclusive" normal="1933/1972">1933-1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [554878448072811094360]">10</container>
-            <unittitle>Brown and Cress <unitdate type="inclusive" normal="1925/1929">1925-1929</unitdate></unittitle>
-          </did>
+            <unittitle>Brown and Cress</unittitle><unitdate type="inclusive" normal="1925/1929">1925-1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [554878448072811094360]">10</container>
-            <unittitle>University Motors, Inc. <unitdate type="inclusive" normal="1950/1964">1950-1964</unitdate></unittitle>
-          </did>
+            <unittitle>University Motors, Inc.</unittitle><unitdate type="inclusive" normal="1950/1964">1950-1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [554878448072811094360]">10</container>
-            <unittitle>Ann Arbor Agency, Inc. <unitdate type="inclusive" normal="1923/1965">1923-1965</unitdate></unittitle>
-          </did>
+            <unittitle>Ann Arbor Agency, Inc.</unittitle><unitdate type="inclusive" normal="1923/1965">1923-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [554878448072811094360]">10</container>
-            <unittitle>Washington Investment Co. <unitdate type="inclusive" normal="1946/1969">1946-1969</unitdate></unittitle>
-          </did>
+            <unittitle>Washington Investment Co.</unittitle><unitdate type="inclusive" normal="1946/1969">1946-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3600236544411871856986554]">11</container>
-            <unittitle>Huron Acceptance <unitdate type="inclusive" normal="1939/1966">1939-1966</unitdate></unittitle>
-          </did>
+            <unittitle>Huron Acceptance</unittitle><unitdate type="inclusive" normal="1939/1966">1939-1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3600236544411871856986554]">11</container>
-            <unittitle>William E. Brown, Inc. <unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate></unittitle>
-          </did>
+            <unittitle>William E. Brown, Inc.</unittitle><unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">

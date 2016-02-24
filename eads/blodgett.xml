@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Blodgett family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/134">Blodgett family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Blodgett Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1872/1953">1872-1953</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1884/1934">1884-1934</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851371 Aa 2; AC</unitid>
+      <unittitle encodinganalog="245">Blodgett Family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1872/1953">1872-1953</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1884/1934">1884-1934</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851371 Aa 2; AC</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Family of Delos A. Blodgett, his son John W. Blodgett, and his grandson John W. Blodgett, Jr., residents of Grand Rapids, Michigan and owners of a series of logging companies active in Michigan, Mississippi, California, Oregon, and Vancouver Island. Correspondence, journals, cash books, ledgers, and maps of family businesses, including the Blodgett Company, Wright-Blodgett Company, Michigan-California Lumber Company, Michigan Timber Company, Hill-Davis Company, and Tidewater Timber Company; also personal correspondence and photographs.</abstract>
       <repository>
@@ -220,64 +220,64 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Blodgett family.</famname>
-        <subject source="lcsh" encodinganalog="650">Business records.</subject>
-        <geogname source="lcsh" encodinganalog="651">California.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Canada.</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151">Grand Rapids (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Logging--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Lumbering--United States.</subject>
-        <geogname source="lcsh" encodinganalog="651">Mississippi.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Oregon.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Vancouver Island (B.C.)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/134">Blodgett family.</famname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5789">Business records.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1277">California.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1320">Canada.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151" ref="/subjects/1098">Grand Rapids (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6250">Logging--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6251">Lumbering--United States.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/924">Mississippi.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1321">Oregon.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1322">Vancouver Island (B.C.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Banquets.</subject>
-        <persname source="lcnaf" encodinganalog="600">Blodgett, Delos A., 1825-1908.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008188992">Blodgett, John Wood, 1860-1951.</persname>
-        <subject source="lctgm" encodinganalog="650">Lumber industry.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican National Committee (U.S.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79027239">Roosevelt, Theodore, 1858-1919.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3772">Banquets.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7170">Blodgett, Delos A., 1825-1908.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008188992" ref="/agents/people/6189">Blodgett, John Wood, 1860-1951.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3664">Lumber industry.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2309">Republican National Committee (U.S.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79027239" ref="/agents/people/799">Roosevelt, Theodore, 1858-1919.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Maps:</head>
-        <corpname source="lcnaf" encodinganalog="610">Blodgett Company--Maps.</corpname>
-        <geogname source="lcsh" encodinganalog="651">California--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Clare County (Mich.)--Maps.</geogname>
-        <subject source="lcsh" encodinganalog="650">Forests and forestry--United States--Maps.</subject>
-        <geogname source="lcsh" encodinganalog="651">Lake County (Mich.)--Maps.</geogname>
-        <subject source="lcsh" encodinganalog="650">Logging--United States--Maps.</subject>
-        <subject source="lcsh" encodinganalog="650">Logging railroads--United States--Maps.</subject>
-        <geogname source="lcsh" encodinganalog="651">Louisiana--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Mecosta County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Missaukee County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Mississippi--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Montmorency County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Muskegon County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Oregon--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Osceola County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Oscoda County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Otsego County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Roscommon County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Vancouver Island (B.C.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Wexford County (Mich.)--Maps.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/296">Blodgett Company--Maps.<term type="genre_form">Maps.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1323">California--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1324">Clare County (Mich.)--Maps.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6380">Forests and forestry--United States--Maps.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1325">Lake County (Mich.)--Maps.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6381">Logging--United States--Maps.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6382">Logging railroads--United States--Maps.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1326">Louisiana--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1327">Mecosta County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1328">Missaukee County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1329">Mississippi--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1330">Montmorency County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1331">Muskegon County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1332">Oregon--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1333">Osceola County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1334">Oscoda County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1335">Otsego County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1336">Roscommon County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1337">Vancouver Island (B.C.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1338">Wexford County (Mich.)--Maps.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Blodgett, Delos A., 1825-1908.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188992">Blodgett, John Wood, 1860-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700">Blodgett, John W., Jr.</persname>
-        <corpname source="lcnaf" encodinganalog="710">Blodgett Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Hill-Davis Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n84006786">Michigan-California Lumber Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Michigan Timber Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Tidewater Timber Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Wright-Blodgett Company.</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7170">Blodgett, Delos A., 1825-1908.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188992" ref="/agents/people/6189">Blodgett, John Wood, 1860-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6494">Blodgett, John W., Jr.</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/296">Blodgett Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/2249">Hill-Davis Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n84006786" ref="/agents/corporate_entities/2545">Michigan-California Lumber Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/4111">Michigan Timber Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/1321">Tidewater Timber Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/3871">Wright-Blodgett Company.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -288,120 +288,77 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [6003074346029141209973]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1872/1911">1872-1911</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1872/1911">1872-1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8973384366134587997050]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1901/1908">1901-1908</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1901/1908">1901-1908</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [9160254965361975464]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1909/1912">1909-1912</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1909/1912">1909-1912</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [118579241875602972116]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1913/1917">1913-1917</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1913/1917">1913-1917</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [8777408970642818327742]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1916/1917">1916-1917</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1916/1917">1916-1917</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [51816947463846386305]">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1917/1918">1917-1918</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1917/1918">1917-1918</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [69907644913312257]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3377354348894201912451]">8</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1919/1921">1919-1921</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1919/1921">1919-1921</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [132993294648777633991]">9</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1922/1925">1922-1925</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1922/1925">1922-1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [32663033473689430892008]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1869706413081589]">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3439646476411232]">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [4974646265928530395]">13</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1929">1929</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1929">1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [67682789494946887607639]">14</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1929/1933">1929-1933</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1929/1933">1929-1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [088305154254007]">33</container>
-            <unittitle><unitdate type="inclusive" normal="1934">1934</unitdate> also scrapbooks and miscellaneous</unittitle>
-          </did>
+            <unittitle>Also scrapbooks and miscellaneous</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -537,39 +494,28 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [44066622641548478422345]">29</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1904/1907">1904-1907</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1904/1907">1904-1907</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [44066622641548478422345]">29</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1908/1910">1908-1910</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1908/1910">1908-1910</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [44066622641548478422345]">29</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1910/1912">1910-1912</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1910/1912">1910-1912</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44066622641548478422345]">29</container>
-              <unittitle>P.S. Brumby (Oregon agent) <unitdate type="inclusive" normal="1903/1909">1903-1909</unitdate></unittitle>
-            </did>
+              <unittitle>P.S. Brumby (Oregon agent)</unittitle><unitdate type="inclusive" normal="1903/1909">1903-1909</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [44066622641548478422345]">29</container>
-              <unittitle>E. McLennon (Mississippi agent) <unitdate type="inclusive" normal="1904/1907">1904-1907</unitdate></unittitle>
-            </did>
+              <unittitle>E. McLennon (Mississippi agent)</unittitle><unitdate type="inclusive" normal="1904/1907">1904-1907</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -578,82 +524,52 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [44066622641548478422345]">29</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1907-01/1907-07">January-July 1907</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1907-01/1907-07">January-July 1907</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [44066622641548478422345]">29</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1907-07/1907-12">July-December 1907</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1907-07/1907-12">July-December 1907</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [44066622641548478422345]">29</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1907-12/1908-07">December 1907-July 1908</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1907-12/1908-07">December 1907-July 1908</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5009957446557569926]">30</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1908-07/1909-03">July 1908-March 1909</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1908-07/1909-03">July 1908-March 1909</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5009957446557569926]">30</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1909-03/1909-10">March-October 1909</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1909-03/1909-10">March-October 1909</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5009957446557569926]">30</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1909-10/1910-04">October 1909-April 1910</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1909-10/1910-04">October 1909-April 1910</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5009957446557569926]">30</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1910-04/1911-02">April 1910-February 1911</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1910-04/1911-02">April 1910-February 1911</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5009957446557569926]">30</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1911-02/1911-09">February-September 1911</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1911-02/1911-09">February-September 1911</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5009957446557569926]">30</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1911-09/1912-04">September 1911-April 1912</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1911-09/1912-04">September 1911-April 1912</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [5009957446557569926]">30</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1912-04/1913-01">April 1912-January 1913</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1912-04/1913-01">April 1912-January 1913</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -663,58 +579,37 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [479142431431628121259]">31</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1905-04/1907-03">April 1905-March 1907</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1905-04/1907-03">April 1905-March 1907</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [479142431431628121259]">31</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1907-03/1908-03">March 1907-March 1908</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1907-03/1908-03">March 1907-March 1908</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [479142431431628121259]">31</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1908-03/1908-12">March 1908-December 1908</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1908-03/1908-12">March 1908-December 1908</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [479142431431628121259]">31</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1908-12/1910-01">December 1908-January 1910</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1908-12/1910-01">December 1908-January 1910</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [479142431431628121259]">31</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1910-12/1912-01">December 1910-January 1912</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1910-12/1912-01">December 1910-January 1912</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [479142431431628121259]">31</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1912-01/1912-12">January-December 1912</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1912-01/1912-12">January-December 1912</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [479142431431628121259]">31</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1912-12/1913-01">December 1912-January 1913</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1912-12/1913-01">December 1912-January 1913</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -724,34 +619,22 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [63413659473808326337856]">32</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1889-06/1902-02">June 1889-February 1902</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1889-06/1902-02">June 1889-February 1902</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [63413659473808326337856]">32</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1902-02/1905-04">February 1902-April 1905</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1902-02/1905-04">February 1902-April 1905</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [63413659473808326337856]">32</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1911-02/1917-11">February 1911-November 1917</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1911-02/1917-11">February 1911-November 1917</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [63413659473808326337856]">32</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1917-11/1921-12">November 1917-December 1921</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1917-11/1921-12">November 1917-December 1921</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -762,80 +645,67 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [6316631490412487896]">1</container>
-              <unittitle>Volume 1 <unitdate type="inclusive" normal="1884-04/1886-12">April 1884-December 1886</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 1</unittitle><unitdate type="inclusive" normal="1884-04/1886-12">April 1884-December 1886</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [33499846203363662]">2</container>
-              <unittitle>Volume 2 <unitdate type="inclusive" normal="1886-12/1888-08">December 1886-August 1888</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 2</unittitle><unitdate type="inclusive" normal="1886-12/1888-08">December 1886-August 1888</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [487205020949093546671]">3</container>
-              <unittitle>Volume 3 <unitdate type="inclusive" normal="1888-09/1890-03">September 1888-March 1890</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 3</unittitle><unitdate type="inclusive" normal="1888-09/1890-03">September 1888-March 1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [194792346545857865712770]">4</container>
-              <unittitle>Volume 4 <unitdate type="inclusive" normal="1890-03/1892-02">March 1890-February 1892</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 4</unittitle><unitdate type="inclusive" normal="1890-03/1892-02">March 1890-February 1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [61950822543639451062500]">5</container>
-              <unittitle>Volume 5 <unitdate type="inclusive" normal="1892-02/1894-01">February 1892-January 1894</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 5</unittitle><unitdate type="inclusive" normal="1892-02/1894-01">February 1892-January 1894</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [765271423477370363737]">6</container>
-              <unittitle>Volume 6 <unitdate type="inclusive" normal="1894-01/1895-10">January 1894-October 1895</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 6</unittitle><unitdate type="inclusive" normal="1894-01/1895-10">January 1894-October 1895</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [11150379492862768992]">7</container>
-              <unittitle>Volume 7 <unitdate type="inclusive" normal="1895-10/1897-07">October 1895-July 1897</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 7</unittitle><unitdate type="inclusive" normal="1895-10/1897-07">October 1895-July 1897</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [37192242602456308125]">8</container>
-              <unittitle>Volume 8 <unitdate type="inclusive" normal="1897-07/1899-03">July 1897-March 1899</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 8</unittitle><unitdate type="inclusive" normal="1897-07/1899-03">July 1897-March 1899</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [43142924596994823007159]">9</container>
-              <unittitle>Volume 9 <unitdate type="inclusive" normal="1899-03/1900-05">March 1899-May 1900</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 9</unittitle><unitdate type="inclusive" normal="1899-03/1900-05">March 1899-May 1900</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [89935637724369010806]">10</container>
-              <unittitle>Volume 10 <unitdate type="inclusive" normal="1899-05/1901-09">May 1899-September 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 10</unittitle><unitdate type="inclusive" normal="1899-05/1901-09">May 1899-September 1901</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [14271634496408909]">11</container>
-              <unittitle>Volume 11 <unitdate type="inclusive" normal="1901-10/1902-12">October 1901-December 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 11</unittitle><unitdate type="inclusive" normal="1901-10/1902-12">October 1901-December 1902</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [468603012493968371]">12</container>
-              <unittitle>Volume 12 <unitdate type="inclusive" normal="1903-01/1910-03">January 1903-March 1910</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 12</unittitle><unitdate type="inclusive" normal="1903-01/1910-03">January 1903-March 1910</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [316145354229737279981]">33</container>
-              <unittitle>Volume 33 <unitdate type="inclusive" normal="1919/1934">1919-1934</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 33</unittitle><unitdate type="inclusive" normal="1919/1934">1919-1934</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -845,38 +715,32 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [162623140794777564930351]">13</container>
-              <unittitle>Volume 13 <unitdate type="inclusive" normal="1884-04/1890-12">April 1884-December 1890</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 13</unittitle><unitdate type="inclusive" normal="1884-04/1890-12">April 1884-December 1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [1732282422191064962]">14</container>
-              <unittitle>Volume 14 <unitdate type="inclusive" normal="1890-12/1897-01">December 1890-January 1897</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 14</unittitle><unitdate type="inclusive" normal="1890-12/1897-01">December 1890-January 1897</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [998016498942176429201]">15</container>
-              <unittitle>Volume 15 <unitdate type="inclusive" normal="1897-01/1901-06">January 1897-June 1901</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 15</unittitle><unitdate type="inclusive" normal="1897-01/1901-06">January 1897-June 1901</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [303453004794965565055]">16</container>
-              <unittitle>Volume 16 <unitdate type="inclusive" normal="1901-07/1902-12">July 1901-December 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 16</unittitle><unitdate type="inclusive" normal="1901-07/1902-12">July 1901-December 1902</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [98013984893100258237201]">17</container>
-              <unittitle>Volume 17 <unitdate type="inclusive" normal="1903-01/1904-05">January 1903-May 1904</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 17</unittitle><unitdate type="inclusive" normal="1903-01/1904-05">January 1903-May 1904</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [5871534992850664890]">32</container>
-              <unittitle>Volume 32 <unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 32</unittitle><unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -886,32 +750,27 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [7871354405390752850]">18</container>
-              <unittitle>Volume 18 <unitdate type="inclusive" normal="1884-04/1893-04">April 1884-April 1893</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 18</unittitle><unitdate type="inclusive" normal="1884-04/1893-04">April 1884-April 1893</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [521757825164590297549]">19</container>
-              <unittitle>Volume 19 <unitdate type="inclusive" normal="1893-05/1902-04">May 1893-April 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 19</unittitle><unitdate type="inclusive" normal="1893-05/1902-04">May 1893-April 1902</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [081916042840294159]">20</container>
-              <unittitle>Volume 20 <unitdate type="inclusive" normal="1902-05/1902-12">May-December 1902</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 20</unittitle><unitdate type="inclusive" normal="1902-05/1902-12">May-December 1902</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [2476194164478980658797381]">21</container>
-              <unittitle>Volume 21 <unitdate type="inclusive" normal="1903-01/1906-04">January 1903-April 1906</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 21</unittitle><unitdate type="inclusive" normal="1903-01/1906-04">January 1903-April 1906</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [74536587775434857597]">31</container>
-              <unittitle>Volume 31 <unitdate type="inclusive" normal="1926/1934">1926-1934</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 31</unittitle><unitdate type="inclusive" normal="1926/1934">1926-1934</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -921,13 +780,13 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [464645443496608586647]">22</container>
-              <unittitle>volumes. 22-24, Indexes to ledgers</unittitle>
+              <unittitle>Volumes. 22-24, Indexes to ledgers</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [72461524428399539150]">23</container>
-              <unittitle>volumes. 22-24, Indexes to ledgers</unittitle>
+              <unittitle>Volumes. 22-24, Indexes to ledgers</unittitle>
             </did>
             <odd>
               <p>continued</p>
@@ -936,7 +795,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [678404544880516548]">24</container>
-              <unittitle>volumes. 22-24, Indexes to ledgers</unittitle>
+              <unittitle>Volumes. 22-24, Indexes to ledgers</unittitle>
             </did>
             <odd>
               <p>continued</p>
@@ -945,8 +804,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [7877439147187412112221]">25</container>
-              <unittitle>Vol 25, Record of Oregon lands <unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></unittitle>
-            </did>
+              <unittitle>Vol 25, Record of Oregon lands</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></did>
             <odd>
               <p>(includes maps; Clatsop, Columbia, Tillamook, and Washington Counties)</p>
             </odd>
@@ -954,8 +812,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [1868466524865138831]">26</container>
-              <unittitle>Volume 26, Record of Mississippi lands <unitdate type="inclusive" normal="1880/1899" certainty="approximate">1880s-1890s</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 26, Record of Mississippi lands</unittitle><unitdate type="inclusive" normal="1880/1899" certainty="approximate">1880s-1890s</unitdate></did>
             <odd>
               <p>(includes maps; George, Greene, Jackson, Jefferson Davis, Jones, Lamar, Marion, Pearl River, Perry, Wayne Counties)</p>
             </odd>
@@ -963,8 +820,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [41407574969390828]">27</container>
-              <unittitle>Volume 27, Land book <unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 27, Land book</unittitle><unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate></did>
             <odd>
               <p>(includes maps; Clare, Lake, Mecosta, Missaukee, Osceola, Roscommon, Wexford Counties, Michigan, and Lamar, Marion, Pearl River Counties, Mississippi)</p>
             </odd>
@@ -972,8 +828,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [494955440408072747093323]">28</container>
-              <unittitle>Volume 28, Land book <unitdate type="inclusive" normal="1870/1879" certainty="approximate">1870s</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 28, Land book</unittitle><unitdate type="inclusive" normal="1870/1879" certainty="approximate">1870s</unitdate></did>
             <odd>
               <p>(includes maps; Clare, Crawford, Lake, Mecosta, Missaukee, Montmorency, Muskegon, Osceola, Oscoda, Otsego, Roscommon, Wexford Counties, Michigan)</p>
             </odd>
@@ -987,14 +842,12 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [5629214435188778]">30</container>
-              <unittitle>Volume 30, Income tax records <unitdate type="inclusive" normal="1913/1923">1913-1923</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 30, Income tax records</unittitle><unitdate type="inclusive" normal="1913/1923">1913-1923</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [9156695636438915541875]">34</container>
-              <unittitle>Volume 34, Memoranda <unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 34, Memoranda</unittitle><unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1005,20 +858,17 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [660750867493390055]">36</container>
-              <unittitle>Volume 36, Mississippi contracts <unitdate type="inclusive" normal="1916/1928">1916-1928</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 36, Mississippi contracts</unittitle><unitdate type="inclusive" normal="1916/1928">1916-1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [353405547718375141286]">37</container>
-              <unittitle>Volume 37, Piave, Miss., lumber shipment record <unitdate type="inclusive" normal="1929/1933">1929-1933</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 37, Piave, Miss., lumber shipment record</unittitle><unitdate type="inclusive" normal="1929/1933">1929-1933</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [36593154749949880520208]">38</container>
-              <unittitle>Volume 38, Township plats, Mississippi lands <unitdate type="inclusive" normal="1920" certainty="approximate">circa 1920</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 38, Township plats, Mississippi lands</unittitle><unitdate type="inclusive" normal="1920" certainty="approximate">circa 1920</unitdate></did>
             <odd>
               <p>(show timber estimates, Greene, Perry, and Jones Counties)</p>
             </odd>
@@ -1026,8 +876,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [0216804448848285617529]">39</container>
-              <unittitle>Volume 39, Mississippi lands of John W. Blodgett <unitdate type="inclusive" normal="1935" certainty="approximate">circa 1935</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 39, Mississippi lands of John W. Blodgett</unittitle><unitdate type="inclusive" normal="1935" certainty="approximate">circa 1935</unitdate></did>
             <odd>
               <p>(includes maps; Greene, Perry, and Jones Counties)</p>
             </odd>
@@ -1035,8 +884,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [796372725455149385964]">40</container>
-              <unittitle>Volume 40, Mississippi lands of Minnie C. Blodgett <unitdate type="inclusive" normal="1920/1930" certainty="approximate">circa 1920-1930</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 40, Mississippi lands of Minnie C. Blodgett</unittitle><unitdate type="inclusive" normal="1920/1930" certainty="approximate">circa 1920-1930</unitdate></did>
             <odd>
               <p>(includes maps; Greene, Perry, and Jones Counties)</p>
             </odd>
@@ -1044,8 +892,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [924910749649613425859]">41</container>
-              <unittitle>Volume 41, Mississippi lands of John W. Blodgett <unitdate type="inclusive" normal="1903/1917">1903-1917</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 41, Mississippi lands of John W. Blodgett</unittitle><unitdate type="inclusive" normal="1903/1917">1903-1917</unitdate></did>
             <odd>
               <p>(includes maps; Lamar, Marion, and Pearl River Counties)</p>
             </odd>
@@ -1053,8 +900,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [9285524997485054746]">42</container>
-              <unittitle>Volume 42, Michigan lands of Blodgett Co., Ltd. <unitdate type="inclusive" normal="1891/1908">1891-1908</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 42, Michigan lands of Blodgett Co., Ltd.</unittitle><unitdate type="inclusive" normal="1891/1908">1891-1908</unitdate></did>
             <odd>
               <p>(includes maps; Benzie, Clare, Kalkaska, Lake, Mecosta, Missaukee, Newaygo, Osceola, Roscommon, Wexford Counties)</p>
             </odd>
@@ -1062,8 +908,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [38756728741938690809543]">43</container>
-              <unittitle>Volume 43, Mississippi lands of Blodgett Co., Ltd. <unitdate type="inclusive" normal="1897/1916">1897-1916</unitdate></unittitle>
-            </did>
+              <unittitle>Volume 43, Mississippi lands of Blodgett Co., Ltd.</unittitle><unitdate type="inclusive" normal="1897/1916">1897-1916</unitdate></did>
             <odd>
               <p>(includes maps; George, Greene, Jackson, Jones, Perry, Wayne Counties)</p>
             </odd>
@@ -1084,21 +929,18 @@
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [457702897439937972097592]">1</container>
-              <unittitle>Calaveras County area <unitdate type="inclusive" normal="1914/1948">1914-1948</unitdate></unittitle>
-            </did>
+              <unittitle>Calaveras County area</unittitle><unitdate type="inclusive" normal="1914/1948">1914-1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [73268984229957763990]">2</container>
-              <unittitle>Redwood Creek area <unitdate type="inclusive" normal="1918/1953">1918-1953</unitdate></unittitle>
-            </did>
+              <unittitle>Redwood Creek area</unittitle><unitdate type="inclusive" normal="1918/1953">1918-1953</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="folder" label="Oversize Folder [47460486216324788]">3</container>
-            <unittitle>Louisiana <unitdate type="inclusive" normal="1898">1898</unitdate> (Allen, Rapides, Washington Parishes)</unittitle>
-          </did>
+            <unittitle>Louisiana  (Allen, Rapides, Washington Parishes)</unittitle><unitdate type="inclusive" normal="1898">1898</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1107,26 +949,22 @@
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [48174057996026356]">4</container>
-              <unittitle>Jones, Perry, Wayne Counties <unitdate type="inclusive" normal="1897/1903">1897-1903</unitdate></unittitle>
-            </did>
+              <unittitle>Jones, Perry, Wayne Counties</unittitle><unitdate type="inclusive" normal="1897/1903">1897-1903</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [7283965113498949446408]">5</container>
-              <unittitle>George, Greene, Jackson Counties <unitdate type="inclusive" normal="1897/1903">1897-1903</unitdate></unittitle>
-            </did>
+              <unittitle>George, Greene, Jackson Counties</unittitle><unitdate type="inclusive" normal="1897/1903">1897-1903</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [72002105994318673847187]">6</container>
-              <unittitle>Lamar, Marion, Pearl River Counties <unitdate type="inclusive" normal="1897/1903">1897-1903</unitdate></unittitle>
-            </did>
+              <unittitle>Lamar, Marion, Pearl River Counties</unittitle><unitdate type="inclusive" normal="1897/1903">1897-1903</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [3346245849229641554]">7</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1910/1935">1910-1935</unitdate></unittitle>
-            </did>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1910/1935">1910-1935</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1136,27 +974,23 @@
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [0905581184286527405]">8</container>
-              <unittitle>Clatsop County <unitdate type="inclusive" normal="1921/1938">1921-1938</unitdate></unittitle>
-            </did>
+              <unittitle>Clatsop County</unittitle><unitdate type="inclusive" normal="1921/1938">1921-1938</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [66709094678739415224730]">9</container>
-              <unittitle>Linn County <unitdate type="inclusive" normal="1915/1941">1915-1941</unitdate></unittitle>
-            </did>
+              <unittitle>Linn County</unittitle><unitdate type="inclusive" normal="1915/1941">1915-1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder [1462053184431870636611]">10</container>
-              <unittitle>Tillamook County <unitdate type="inclusive" normal="1924/1945">1924-1945</unitdate></unittitle>
-            </did>
+              <unittitle>Tillamook County</unittitle><unitdate type="inclusive" normal="1924/1945">1924-1945</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="folder" label="Oversize Folder [4205714961823214]">11</container>
-            <unittitle>Vancouver Island <unitdate type="inclusive" normal="1913/1945">1913-1945</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Vancouver Is</unittitle><unitdate type="inclusive" normal="1913/1945">1913-1945</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1168,8 +1002,7 @@
         <c02 level="file">
           <did>
             <container type="folder" label="Oversize Folder [961748160444260868497434932]">12</container>
-            <unittitle>Portraits of Delos and John Blodgett; photos of lumber mills, group portraits of the Republican National Committee <unitdate type="inclusive" normal="1903">1903</unitdate>, <unitdate type="inclusive" normal="1908">1908</unitdate> the Grand Rapids Board of Trade, <unitdate type="inclusive" normal="1905">1905</unitdate> and a banquet honoring Theodore Roosevelt, <unitdate type="inclusive" normal="1905">1905</unitdate></unittitle>
-          </did>
+            <unittitle>Portraits of Delos and John Blodgett; photos of lumber mills, group portraits of the Republican National Committee 1903, 1908 the Grand Rapids Board of Trade, 1905 and a banquet honoring Theodore Roosevelt, 1905</unittitle><unitdate type="inclusive" normal="1903">1903</unitdate><unitdate type="inclusive" normal="1908">1908</unitdate><unitdate type="inclusive" normal="1905">1905</unitdate></did>
         </c02>
       </c01>
     </dsc>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Slusser, Robert M., 1916-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1438">Slusser, Robert M., 1916-</persname>
       </origination>
-      <unittitle encodinganalog="245">Robert M. Slusser research files <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1980" certainty="approximate">circa 1940-1980</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89362 Aa 2</unitid>
+      <unittitle encodinganalog="245">Robert M. Slusser research files</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1940/1980" certainty="approximate">circa 1940-1980</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89362 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of Russian and Soviet history at Michigan State University. Research and bibliographic note cards used in his study and teaching of Russian history, particularly relating to the study of the Soviet Union; also publications and dissertation.</abstract>
       <physdesc altrender="whole">
@@ -79,10 +79,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Russia--History.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Russia--Study and teaching.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--Study and teaching.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2806">Russia--History.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2807">Russia--Study and teaching.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2808">Soviet Union--History.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2809">Soviet Union--Study and teaching.</geogname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -97,49 +97,33 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5430735848193686096]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1903/1917">1903-1917</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1903/1917">1903-1917</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [81747949729647190]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918/1958">1918-1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1918/1958">1918-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [54414535844883161692]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [000519548530458219]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [424969284306625869260]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963/1984">1963-1984</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1963/1984">1963-1984</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1270439494961772921]">5</container>
-            <unittitle><unitdate type="inclusive" normal="1905">1905</unitdate> revolution bibliography</unittitle>
-          </did>
+            <unittitle>Revolution bibliography</unittitle><unitdate type="inclusive" normal="1905">1905</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -209,8 +193,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [0068421124639399388775]">10</container>
-            <unittitle><unitdate type="inclusive" normal="1957/1964">1957-1964</unitdate> bibliography</unittitle>
-          </did>
+            <unittitle>Bibliography</unittitle><unitdate type="inclusive" normal="1957/1964">1957-1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -346,8 +329,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [2029649614606937564015361]">21</container>
-            <unittitle>Diary <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></unittitle>
-          </did>
+            <unittitle>Diary</unittitle><unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></did>
         </c02>
       </c01>
     </dsc>

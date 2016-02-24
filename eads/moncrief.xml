@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Moncrieff, Frederick E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2146">Moncrieff, Frederick E.</persname>
       </origination>
-      <unittitle encodinganalog="245">Frederick E. Moncrieff papers <unitdate type="inclusive" encodinganalog="245$f" normal="1947/2000">1947-2000</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1961">1961</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">93268 Aa2</unitid>
+      <unittitle encodinganalog="245">Frederick E. Moncrieff papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1947/2000">1947-2000</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1961">1961</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">93268 Aa2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Frederick Moncrieff worked as an editor, writer, photographer, and manager for the University of Michigan News and Information Services between 1946 and 1966. He accompanied the University of Michigan Symphony Band on its 1961 tour of the Soviet Union and the Near East. The majority of the collection is materials relating to this tour. Other items pertain to historic buildings in Ann Arbor and Camp Michigania</abstract>
       <physdesc altrender="part">
@@ -93,44 +93,43 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Band music--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Moncrieff, Frederick E.</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--Description and travel.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89008286">University of Michigan. News and Information Services.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82217048">University of Michigan. Symphony Band.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9426">Band music--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2146">Moncrieff, Frederick E.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/981">Soviet Union--Description and travel.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89008286" ref="/agents/corporate_entities/1593">University of Michigan. News and Information Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82217048" ref="/agents/corporate_entities/4862">University of Michigan. Symphony Band.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Dwellings.</geogname>
-        <subject source="lctgm" encodinganalog="650">Bands.</subject>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Lodi Plains.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Kempf House (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Lodi Academy.</corpname>
-        <geogname source="lctgm" encodinganalog="651">Lodi Plains (Mich.)--Dwellings.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Moncrieff, Frederick E.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Wilson-Wahr House (Ann Arbor, Mich.)</corpname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/203">Ann Arbor (Mich.)--Dwellings.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3644">Bands.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4978">Dwellings--Michigan--Lodi Plains.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4883">Kempf House (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1315">Lodi Academy.</corpname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/595">Lodi Plains (Mich.)--Dwellings.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2146">Moncrieff, Frederick E.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4347">Wilson-Wahr House (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79085230">Cavender, George.</persname>
-        <persname source="lcnaf" encodinganalog="600">Moncrieff, Frederick E.</persname>
-        <persname source="lcnaf" encodinganalog="600">Munson, Gregory W.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82217046">Revelli, William D. (William Donald), 1902-1994.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82217048">University of Michigan. Symphony Band.</corpname>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79085230" ref="/agents/people/250">Cavender, George.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2146">Moncrieff, Frederick E.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1019">Munson, Gregory W.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82217046" ref="/agents/people/8398">Revelli, William D. (William Donald), 1902-1994.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82217048" ref="/agents/corporate_entities/4862">University of Michigan. Symphony Band.</corpname>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Motion pictures.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3162">Motion pictures.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>University of Michigan Band Tour Papers <unitdate type="inclusive" normal="1960/2000">1960-2000</unitdate></unittitle>
-        </did>
+          <unittitle>University of Michigan Band Tour Papers</unittitle><unitdate type="inclusive" normal="1960/2000">1960-2000</unitdate></did>
         <scopecontent>
           <p>The University of Michigan Band Tour Papers, 1960-2000, document Moncrieff's activities regarding the University of Michigan Symphony Band tour of Eastern Europe and the Near East in 1961. Among these materials are correspondence, lists of participants, press releases, newspaper and magazine articles, postcards, a scrapbook, and tourist items (tickets, postcards, guidebooks, etc.). Slides, photographs, and audiotapes relating to the tour are found in the Audiovisual Materials series.</p>
         </scopecontent>
@@ -239,20 +238,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [733232171414927859]">1</container>
-            <unittitle>Russia Tour Band Reunions and Correspondence <unitdate type="inclusive" normal="1981/2000">1981-2000</unitdate></unittitle>
-          </did>
+            <unittitle>Russia Tour Band Reunions and Correspondence</unittitle><unitdate type="inclusive" normal="1981/2000">1981-2000</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [733232171414927859]">1</container>
-            <unittitle>William Revelli <unitdate type="inclusive" normal="1971/1994">1971-1994</unitdate></unittitle>
-          </did>
+            <unittitle>William Revelli</unittitle><unitdate type="inclusive" normal="1971/1994">1971-1994</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Other Materials <unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate></unittitle>
-        </did>
+          <unittitle>Other Materials</unittitle><unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate></did>
         <scopecontent>
           <p>The Other Materials series, 1960-1966, includes personal papers such as vitas and Moncrieff's passport, and various press releases from the University of Michigan News and Information Services.</p>
         </scopecontent>
@@ -271,8 +267,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Audiovisual Materials <unitdate type="inclusive" normal="1947/1966" certainty="approximate">1947-circa 1966</unitdate></unittitle>
-        </did>
+          <unittitle>Audiovisual Materials</unittitle><unitdate type="inclusive" normal="1947/1966" certainty="approximate">1947-circa 1966</unitdate></did>
         <scopecontent>
           <p>The Audiovisual Materials series, 1947-ca. 1966, includes photographs, slides, and audiotapes of interviews and concerts from the University of Michigan Band Tour. The audiotapes are reel-to-reel recordings of concerts in the Soviet Union broadcast by Radio Moscow as well as post-tour interviews with participants. There are also photographs and a 16 mm color film of Camp Michigania, photographs of historic buildings, campus photographs, including the famous photograph from 1947 showing students on the Diag walking amid streaming rays of the morning sun, and some images of Moncrieff in the Audiovisual Materials series. The campus photographs and some of the Band Tour images are located in the oversize folder.</p>
         </scopecontent>
@@ -373,8 +368,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [733232171414927859]">1</container>
-              <unittitle>Photographs of Moncrieff <unitdate type="inclusive" normal="1958/1969" certainty="approximate">1958-1960s</unitdate></unittitle>
-            </did>
+              <unittitle>Photographs of Moncrieff</unittitle><unitdate type="inclusive" normal="1958/1969" certainty="approximate">1958-1960s</unitdate></did>
             <odd>
               <p>(see also outsize folder)</p>
             </odd>

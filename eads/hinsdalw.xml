@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n84012363">Hinsdale, W. B. (Wilbert B.), 1851-1944.</persname>
+        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n84012363" ref="/agents/people/6727">Hinsdale, W. B. (Wilbert B.), 1851-1944.</persname>
       </origination>
-      <unittitle encodinganalog="245">W. B. Hinsdale papers <unitdate encodinganalog="245$f" type="inclusive" normal="1893/1942">1893-1942</unitdate>, <unitdate encodinganalog="245$g" type="bulk" normal="1922/1938">1922-1938</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">851538 Aa 2 UAm</unitid>
+      <unittitle encodinganalog="245">W. B. Hinsdale papers</unittitle><unitdate encodinganalog="245$f" type="inclusive" normal="1893/1942">1893-1942</unitdate><unitdate encodinganalog="245$g" type="bulk" normal="1922/1938">1922-1938</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">851538 Aa 2 UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Often termed the father of Michigan archaeology, Wilbert B. Hinsdale developed and cared for the collections of the Great Lakes Division of the Museum of Anthropology at the University of Michigan from 1922 to 1944, after retiring from his position as Dean of the Homeopathic Medical College. The papers contain correspondence, topical files related to archaeological subjects, site files for archaeological sites throughout Michigan, and personal scrapbooks, diaries, and photographs.</abstract>
       <note>
@@ -85,40 +85,40 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Archaeology.</subject>
-        <geogname source="lcsh" encodinganalog="651">Great Britain.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84012363">Hinsdale, W. B. (Wilbert B.), 1851-1944.</persname>
-        <subject source="lcsh" encodinganalog="650">Homeopathy--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Medicine--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Homoeopathic Hospital.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Homoeopathic Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899">University of Michigan. Museum of Anthropology.</corpname>
-        <subject source="lcsh" encodinganalog="650">Archaeology.</subject>
-        <subject source="lcsh" encodinganalog="650">Excavations (Archaeology)--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Antiquities.</geogname>
-        <subject source="lcsh" encodinganalog="650">Indians of North America--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6611">Archaeology.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1340">Great Britain.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84012363" ref="/agents/people/6727">Hinsdale, W. B. (Wilbert B.), 1851-1944.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8216">Homeopathy--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6035">Medicine--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6036">Physicians--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4366">University of Michigan. Homoeopathic Hospital.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1065">University of Michigan. Homoeopathic Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899" ref="/agents/corporate_entities/2842">University of Michigan. Museum of Anthropology.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6611">Archaeology.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8217">Excavations (Archaeology)--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1872">Michigan--Antiquities.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6077">Indians of North America--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065">Angell, James Burrill, 1829-1916.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96085441">Ferris, Woodbridge N., 1853-1928.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183293">Green, Fred W. (Fred Warren), 1872-1936.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50023001">Harding, Warren G. (Warren Gamaliel), 1865-1923.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hussey, Ethel Fountain, 1865-1915.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88002366">Hutchins, Harry B. (Harry Burns), 1847-1930.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97030246">Thompson, William Oxley, 1855-1933.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065" ref="/agents/people/2745">Angell, James Burrill, 1829-1916.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96085441" ref="/agents/people/7328">Ferris, Woodbridge N., 1853-1928.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183293" ref="/agents/people/2071">Green, Fred W. (Fred Warren), 1872-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50023001" ref="/agents/people/6136">Harding, Warren G. (Warren Gamaliel), 1865-1923.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3128">Hussey, Ethel Fountain, 1865-1915.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88002366" ref="/agents/people/1560">Hutchins, Harry B. (Harry Burns), 1847-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97030246" ref="/agents/people/7913">Thompson, William Oxley, 1855-1933.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84012363">Hinsdale, W. B. (Wilbert B.), 1851-1944.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Club (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84012363" ref="/agents/people/6727">Hinsdale, W. B. (Wilbert B.), 1851-1944.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2028">Club (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Field notes.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3186">Field notes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -132,20 +132,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [972929445283635395411]">1</container>
-            <unittitle>Catalogue Notebook for W.B. Hinsdale Artifact Collection <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Catalogue Notebook for W.B. Hinsdale Artifact Collection</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [972929445283635395411]">1</container>
-            <unittitle>Clippings <unitdate type="inclusive" normal="1909/1932">1909-1932</unitdate></unittitle>
-          </did>
+            <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1909/1932">1909-1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [972929445283635395411]">1</container>
-            <unittitle>Diary of Trip through British Isles <unitdate type="inclusive" normal="1905">1905</unitdate></unittitle>
-          </did>
+            <unittitle>Diary of Trip through British Isles</unittitle><unitdate type="inclusive" normal="1905">1905</unitdate></did>
           <odd>
             <p>(includes related small notebook)</p>
           </odd>
@@ -153,20 +150,17 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [972929445283635395411]">1</container>
-            <unittitle>"Leaves from a Microbe's Notebook," <unitdate type="inclusive" normal="1899">1899</unitdate></unittitle>
-          </did>
+            <unittitle>"Leaves from a Microbe's Notebook,"</unittitle><unitdate type="inclusive" normal="1899">1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [972929445283635395411]">1</container>
-            <unittitle>Mementos <unitdate type="inclusive" normal="1910/1939" certainty="approximate">1910s-1930s</unitdate></unittitle>
-          </did>
+            <unittitle>Mementos</unittitle><unitdate type="inclusive" normal="1910/1939" certainty="approximate">1910s-1930s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [972929445283635395411]">1</container>
-            <unittitle>Notebook of Social Callers to Hinsdale's Home <unitdate type="inclusive" normal="1927/1932">1927-1932</unitdate></unittitle>
-          </did>
+            <unittitle>Notebook of Social Callers to Hinsdale's Home</unittitle><unitdate type="inclusive" normal="1927/1932">1927-1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -175,18 +169,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [972929445283635395411]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1896/1915">1896-1915</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1896/1915">1896-1915</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [972929445283635395411]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933/1938">1933-1938</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1933/1938">1933-1938</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -195,8 +183,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [972929445283635395411]">1</container>
-            <unittitle><title render="italic">Self-Cultivation in English</title> by George H. Palmer, <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Self-Cultivation in English</title> by George H. Palmer</unittitle><unitdate type="inclusive" normal="1916">1916</unitdate></did>
           <odd>
             <p>(annotated)</p>
           </odd>
@@ -204,8 +191,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [972929445283635395411]">1</container>
-            <unittitle><title render="italic">The Medicine of the Future</title> by George Burford, <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">The Medicine of the Future</title> by George Burford</unittitle><unitdate type="inclusive" normal="1910">1910</unitdate></did>
           <odd>
             <p>(inscribed, includes 2 letters from Burford to Hinsdale)</p>
           </odd>
@@ -213,50 +199,42 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [972929445283635395411]">1</container>
-            <unittitle>Scrapbook of Articles by Albert E. Hinsdale and W.B. Hinsdale <unitdate type="inclusive" normal="1900/1922">1900-1922</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbook of Articles by Albert E. Hinsdale and W.B. Hinsdale</unittitle><unitdate type="inclusive" normal="1900/1922">1900-1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [972929445283635395411]">1</container>
-            <unittitle>Scrapbook Related to the Homeopathic Medical College and Hospital <unitdate type="inclusive" normal="1899/1910">1899-1910</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbook Related to the Homeopathic Medical College and Hospital</unittitle><unitdate type="inclusive" normal="1899/1910">1899-1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [972929445283635395411]">1</container>
-            <unittitle>Scrapbook Related to the Homeopathic Medical College and Hospital <unitdate type="inclusive" normal="1911/1920">1911-1920</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbook Related to the Homeopathic Medical College and Hospital</unittitle><unitdate type="inclusive" normal="1911/1920">1911-1920</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3216099640946563328090]">2</container>
-            <unittitle>Scrapbook <unitdate type="inclusive" normal="1905/1911">1905-1911</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbook</unittitle><unitdate type="inclusive" normal="1905/1911">1905-1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3216099640946563328090]">2</container>
-            <unittitle>Scrapbook of Albert E. Hinsdale <unitdate type="inclusive" normal="1893/1903">1893-1903</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbook of Albert E. Hinsdale</unittitle><unitdate type="inclusive" normal="1893/1903">1893-1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3216099640946563328090]">2</container>
-            <unittitle>Scrapbook <unitdate type="inclusive" normal="1899">1899</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbook</unittitle><unitdate type="inclusive" normal="1899">1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [3216099640946563328090]">2</container>
-            <unittitle>Scrapbook <unitdate type="inclusive" normal="1895/1899">1895-1899</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbook</unittitle><unitdate type="inclusive" normal="1895/1899">1895-1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [61168174099690518623]">2A</container>
-            <unittitle>Photographs <unitdate type="inclusive" normal="1900/1939" certainty="approximate">1900s-1930s</unitdate></unittitle>
-          </did>
+            <unittitle>Photographs</unittitle><unitdate type="inclusive" normal="1900/1939" certainty="approximate">1900s-1930s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -275,8 +253,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [61168174099690518623]">2A</container>
-            <unittitle><title render="italic">Archaeological Atlas of Michigan</title> (correspondence re:), <unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Archaeological Atlas of Michigan</title> (correspondence re:)</unittitle><unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -287,14 +264,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [61168174099690518623]">2A</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [61168174099690518623]">2A</container>
-              <unittitle>Questionnaire Responses <unitdate type="inclusive" normal="1927/1935">1927-1935</unitdate></unittitle>
-            </did>
+              <unittitle>Questionnaire Responses</unittitle><unitdate type="inclusive" normal="1927/1935">1927-1935</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -306,8 +281,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [61168174099690518623]">2A</container>
-            <unittitle>Indian Gazetteer (correspondence re:) <unitdate type="inclusive" normal="1925/1936">1925-1936</unitdate></unittitle>
-          </did>
+            <unittitle>Indian Gazetteer (correspondence re:)</unittitle><unitdate type="inclusive" normal="1925/1936">1925-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -318,14 +292,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [61168174099690518623]">2A</container>
-            <unittitle>Indian Modes of Travel <unitdate type="inclusive" normal="1926">1926</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Indian Modes of Travel</unittitle><unitdate type="inclusive" normal="1926">1926</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [61168174099690518623]">2A</container>
-            <unittitle>Nutritive Value of Native Indian Foods in Michigan <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Nutritive Value of Native Indian Foods in Michigan</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -353,8 +325,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>A <unitdate type="inclusive" normal="1927/1938">1927-1938</unitdate></unittitle>
-          </did>
+            <unittitle>A</unittitle><unitdate type="inclusive" normal="1927/1938">1927-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -362,8 +333,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Brock, Mrs. L.P. <unitdate type="inclusive" normal="1924/1929">1924-1929</unitdate></unittitle>
-          </did>
+            <unittitle>Brock, Mrs. L.P.</unittitle><unitdate type="inclusive" normal="1924/1929">1924-1929</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -371,8 +341,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>B <unitdate type="inclusive" normal="1924/1940">1924-1940</unitdate></unittitle>
-          </did>
+            <unittitle>B</unittitle><unitdate type="inclusive" normal="1924/1940">1924-1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -380,8 +349,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>C <unitdate type="inclusive" normal="1927/1942">1927-1942</unitdate></unittitle>
-          </did>
+            <unittitle>C</unittitle><unitdate type="inclusive" normal="1927/1942">1927-1942</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -389,8 +357,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>D <unitdate type="inclusive" normal="1932/1940">1932-1940</unitdate></unittitle>
-          </did>
+            <unittitle>D</unittitle><unitdate type="inclusive" normal="1932/1940">1932-1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -398,8 +365,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>E <unitdate type="inclusive" normal="1932/1940">1932-1940</unitdate></unittitle>
-          </did>
+            <unittitle>E</unittitle><unitdate type="inclusive" normal="1932/1940">1932-1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -407,8 +373,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Fox, George R. <unitdate type="inclusive" normal="1922/1929">1922-1929</unitdate></unittitle>
-          </did>
+            <unittitle>Fox, George R.</unittitle><unitdate type="inclusive" normal="1922/1929">1922-1929</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -416,8 +381,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>F <unitdate type="inclusive" normal="1924/1940">1924-1940</unitdate></unittitle>
-          </did>
+            <unittitle>F</unittitle><unitdate type="inclusive" normal="1924/1940">1924-1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -425,8 +389,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Gagnieur, William F. <unitdate type="inclusive" normal="1932/1937">1932-1937</unitdate></unittitle>
-          </did>
+            <unittitle>Gagnieur, William F.</unittitle><unitdate type="inclusive" normal="1932/1937">1932-1937</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -434,8 +397,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Greenman, Emerson <unitdate type="inclusive" normal="1932/1938">1932-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Greenman, Emerson</unittitle><unitdate type="inclusive" normal="1932/1938">1932-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -443,8 +405,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>G <unitdate type="inclusive" normal="1929/1940">1929-1940</unitdate></unittitle>
-          </did>
+            <unittitle>G</unittitle><unitdate type="inclusive" normal="1929/1940">1929-1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -452,8 +413,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Hiram College <unitdate type="inclusive" normal="1928/1938">1928-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Hiram College</unittitle><unitdate type="inclusive" normal="1928/1938">1928-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -461,8 +421,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Hosack, Harry <unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></unittitle>
-          </did>
+            <unittitle>Hosack, Harry</unittitle><unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -470,8 +429,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>H <unitdate type="inclusive" normal="1925/1939">1925-1939</unitdate></unittitle>
-          </did>
+            <unittitle>H</unittitle><unitdate type="inclusive" normal="1925/1939">1925-1939</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -479,8 +437,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>I-J <unitdate type="inclusive" normal="1927/1938">1927-1938</unitdate></unittitle>
-          </did>
+            <unittitle>I-J</unittitle><unitdate type="inclusive" normal="1927/1938">1927-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -488,8 +445,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>K <unitdate type="inclusive" normal="1927/1940">1927-1940</unitdate></unittitle>
-          </did>
+            <unittitle>K</unittitle><unitdate type="inclusive" normal="1927/1940">1927-1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -497,8 +453,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Lambert, Margaret <unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Lambert, Margaret</unittitle><unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -506,8 +461,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>L <unitdate type="inclusive" normal="1924/1938">1924-1938</unitdate></unittitle>
-          </did>
+            <unittitle>L</unittitle><unitdate type="inclusive" normal="1924/1938">1924-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -515,8 +469,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Ma-Me <unitdate type="inclusive" normal="1927/1940">1927-1940</unitdate></unittitle>
-          </did>
+            <unittitle>Ma-Me</unittitle><unitdate type="inclusive" normal="1927/1940">1927-1940</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -524,8 +477,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Michigan Department of Conservation <unitdate type="inclusive" normal="1929/1938">1929-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Department of Conservation</unittitle><unitdate type="inclusive" normal="1929/1938">1929-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -533,8 +485,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Michigan Historical Commission <unitdate type="inclusive" normal="1922/1935">1922-1935</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Historical Commission</unittitle><unitdate type="inclusive" normal="1922/1935">1922-1935</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -542,8 +493,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Michigan Legislature <unitdate type="inclusive" normal="1924/1929">1924-1929</unitdate></unittitle>
-          </did>
+            <unittitle>Michigan Legislature</unittitle><unitdate type="inclusive" normal="1924/1929">1924-1929</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -551,8 +501,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Moorehead, Warren K. <unitdate type="inclusive" normal="1922/1933">1922-1933</unitdate></unittitle>
-          </did>
+            <unittitle>Moorehead, Warren K.</unittitle><unitdate type="inclusive" normal="1922/1933">1922-1933</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -560,8 +509,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Mi-Mz <unitdate type="inclusive" normal="1924/1938">1924-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Mi-Mz</unittitle><unitdate type="inclusive" normal="1924/1938">1924-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -569,8 +517,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>N-O <unitdate type="inclusive" normal="1922/1938">1922-1938</unitdate></unittitle>
-          </did>
+            <unittitle>N-O</unittitle><unitdate type="inclusive" normal="1922/1938">1922-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -578,8 +525,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Ohio State Archaeological and Historical Society <unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate></unittitle>
-          </did>
+            <unittitle>Ohio State Archaeological and Historical Society</unittitle><unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -587,8 +533,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>P <unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></unittitle>
-          </did>
+            <unittitle>P</unittitle><unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -596,8 +541,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>R <unitdate type="inclusive" normal="1925/1938">1925-1938</unitdate></unittitle>
-          </did>
+            <unittitle>R</unittitle><unitdate type="inclusive" normal="1925/1938">1925-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -605,8 +549,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Schmidt, Walter <unitdate type="inclusive" normal="1923/1938">1923-1938</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Schmidt, Walter</unittitle><unitdate type="inclusive" normal="1923/1938">1923-1938</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -617,8 +560,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Smith, Harlan I. <unitdate type="inclusive" normal="1923/1932">1923-1932</unitdate></unittitle>
-          </did>
+            <unittitle>Smith, Harlan I.</unittitle><unitdate type="inclusive" normal="1923/1932">1923-1932</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -626,8 +568,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>State Historical Society of Wisconsin <unitdate type="inclusive" normal="1924/1930">1924-1930</unitdate></unittitle>
-          </did>
+            <unittitle>State Historical Society of Wisconsin</unittitle><unitdate type="inclusive" normal="1924/1930">1924-1930</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -635,8 +576,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [845102024333823543776]">3</container>
-            <unittitle>Stevens, Edward J. <unitdate type="inclusive" normal="1923/1924">1923-1924</unitdate></unittitle>
-          </did>
+            <unittitle>Stevens, Edward J.</unittitle><unitdate type="inclusive" normal="1923/1924">1923-1924</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -644,8 +584,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>S <unitdate type="inclusive" normal="1923/1938">1923-1938</unitdate></unittitle>
-          </did>
+            <unittitle>S</unittitle><unitdate type="inclusive" normal="1923/1938">1923-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -653,8 +592,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>T <unitdate type="inclusive" normal="1925/1936">1925-1936</unitdate></unittitle>
-          </did>
+            <unittitle>T</unittitle><unitdate type="inclusive" normal="1925/1936">1925-1936</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -662,8 +600,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>University of Michigan <unitdate type="inclusive" normal="1923/1938">1923-1938</unitdate></unittitle>
-          </did>
+            <unittitle>University of Michigan</unittitle><unitdate type="inclusive" normal="1923/1938">1923-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -671,8 +608,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Vreeland, F.M. <unitdate type="inclusive" normal="1932/1937">1932-1937</unitdate></unittitle>
-          </did>
+            <unittitle>Vreeland, F.M.</unittitle><unitdate type="inclusive" normal="1932/1937">1932-1937</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -680,8 +616,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>V <unitdate type="inclusive" normal="1924/1938">1924-1938</unitdate></unittitle>
-          </did>
+            <unittitle>V</unittitle><unitdate type="inclusive" normal="1924/1938">1924-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -689,8 +624,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>W-Y <unitdate type="inclusive" normal="1925/1939">1925-1939</unitdate></unittitle>
-          </did>
+            <unittitle>W-Y</unittitle><unitdate type="inclusive" normal="1925/1939">1925-1939</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -709,8 +643,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Agricultural Activities <unitdate type="inclusive" normal="1926/1935">1926-1935</unitdate></unittitle>
-          </did>
+            <unittitle>Agricultural Activities</unittitle><unitdate type="inclusive" normal="1926/1935">1926-1935</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -718,8 +651,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Archaeology Notebooks <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Archaeology Notebooks</unittitle><unitdate type="inclusive">undated</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -727,8 +659,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Arizona-Artifacts <unitdate type="inclusive" normal="1924/1930">1924-1930</unitdate></unittitle>
-          </did>
+            <unittitle>Arizona-Artifacts</unittitle><unitdate type="inclusive" normal="1924/1930">1924-1930</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -736,8 +667,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Bird-Stones <unitdate type="inclusive" normal="1928/1936">1928-1936</unitdate></unittitle>
-          </did>
+            <unittitle>Bird-Stones</unittitle><unitdate type="inclusive" normal="1928/1936">1928-1936</unitdate></did>
           <odd>
             <p>(includes photos)</p>
           </odd>
@@ -748,8 +678,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Canada <unitdate type="inclusive" normal="1928/1937">1928-1937</unitdate></unittitle>
-          </did>
+            <unittitle>Canada</unittitle><unitdate type="inclusive" normal="1928/1937">1928-1937</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -757,8 +686,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Cemeteries and Burial Grounds <unitdate type="inclusive" normal="1923/1934">1923-1934</unitdate></unittitle>
-          </did>
+            <unittitle>Cemeteries and Burial Grounds</unittitle><unitdate type="inclusive" normal="1923/1934">1923-1934</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -766,8 +694,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Central America <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
-          </did>
+            <unittitle>Central America</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -775,8 +702,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Earthworks and Mounds <unitdate type="inclusive" normal="1923/1937">1923-1937</unitdate></unittitle>
-          </did>
+            <unittitle>Earthworks and Mounds</unittitle><unitdate type="inclusive" normal="1923/1937">1923-1937</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -784,8 +710,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Europe-Germany <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
-          </did>
+            <unittitle>Europe-Germany</unittitle><unitdate type="inclusive" normal="1927">1927</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -793,8 +718,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Field Work <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate></unittitle>
-          </did>
+            <unittitle>Field Work</unittitle><unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -802,8 +726,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Firearms Inventory <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Firearms Inventory</unittitle><unitdate type="inclusive">undated</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -811,8 +734,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Florida <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-          </did>
+            <unittitle>Florida</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -820,8 +742,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Grand Traverse Region <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
-          </did>
+            <unittitle>Grand Traverse Region</unittitle><unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></did>
           <odd>
             <p>(notebook)</p>
           </odd>
@@ -832,8 +753,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Homeopathic Medical College and Hospital <unitdate type="inclusive" normal="1910/1931">1910-1931</unitdate></unittitle>
-          </did>
+            <unittitle>Homeopathic Medical College and Hospital</unittitle><unitdate type="inclusive" normal="1910/1931">1910-1931</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -841,8 +761,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Illinois <unitdate type="inclusive" normal="1922/1933">1922-1933</unitdate></unittitle>
-          </did>
+            <unittitle>Illinois</unittitle><unitdate type="inclusive" normal="1922/1933">1922-1933</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -850,8 +769,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Indian Informants <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
-          </did>
+            <unittitle>Indian Informants</unittitle><unitdate type="inclusive" normal="1926">1926</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -859,8 +777,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Indian People <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-          </did>
+            <unittitle>Indian People</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -868,8 +785,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Indian Place Names <unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Indian Place Names</unittitle><unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate><unitdate type="inclusive">undated</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -877,8 +793,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Indiana-Artifacts <unitdate type="inclusive" normal="1927/1930">1927-1930</unitdate></unittitle>
-          </did>
+            <unittitle>Indiana-Artifacts</unittitle><unitdate type="inclusive" normal="1927/1930">1927-1930</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -886,8 +801,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Indiana-Sites <unitdate type="inclusive" normal="1930/1938">1930-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Indiana-Sites</unittitle><unitdate type="inclusive" normal="1930/1938">1930-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -895,8 +809,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Indiana-Trepanning <unitdate type="inclusive" normal="1927/1932">1927-1932</unitdate></unittitle>
-          </did>
+            <unittitle>Indiana-Trepanning</unittitle><unitdate type="inclusive" normal="1927/1932">1927-1932</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -904,8 +817,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Maps (including correspondence related to maps) <unitdate type="inclusive" normal="1922/1938">1922-1938</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Maps (including correspondence related to maps)</unittitle><unitdate type="inclusive" normal="1922/1938">1922-1938</unitdate><unitdate type="inclusive">undated</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -913,8 +825,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [1369374655842716276310]">4</container>
-            <unittitle>Medals <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
-          </did>
+            <unittitle>Medals</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -926,8 +837,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1369374655842716276310]">4</container>
-              <unittitle>Agriculture <unitdate type="inclusive" normal="1922/1928">1922-1928</unitdate></unittitle>
-            </did>
+              <unittitle>Agriculture</unittitle><unitdate type="inclusive" normal="1922/1928">1922-1928</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -939,8 +849,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1369374655842716276310]">4</container>
-                <unittitle>Baskets, Bones, Canoes, Horn, Ivory, Teeth <unitdate type="inclusive" normal="1924/1932">1924-1932</unitdate></unittitle>
-              </did>
+                <unittitle>Baskets, Bones, Canoes, Horn, Ivory, Teeth</unittitle><unitdate type="inclusive" normal="1924/1932">1924-1932</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -948,8 +857,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1369374655842716276310]">4</container>
-                <unittitle>Brass, Copper, Silver <unitdate type="inclusive" normal="1924/1949">1924-1949</unitdate></unittitle>
-              </did>
+                <unittitle>Brass, Copper, Silver</unittitle><unitdate type="inclusive" normal="1924/1949">1924-1949</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -957,8 +865,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1369374655842716276310]">4</container>
-                <unittitle>Pottery, Shell, Beads <unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></unittitle>
-              </did>
+                <unittitle>Pottery, Shell, Beads</unittitle><unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -966,8 +873,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1369374655842716276310]">4</container>
-                <unittitle>Slate and Stone <unitdate type="inclusive" normal="1924/1938">1924-1938</unitdate></unittitle>
-              </did>
+                <unittitle>Slate and Stone</unittitle><unitdate type="inclusive" normal="1924/1938">1924-1938</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -980,8 +886,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1369374655842716276310]">4</container>
-                <unittitle>Donations <unitdate type="inclusive" normal="1915/1938">1915-1938</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Donations</unittitle><unitdate type="inclusive" normal="1915/1938">1915-1938</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -992,8 +897,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1369374655842716276310]">4</container>
-                <unittitle>Donors <unitdate type="inclusive" normal="1922/1937">1922-1937</unitdate></unittitle>
-              </did>
+                <unittitle>Donors</unittitle><unitdate type="inclusive" normal="1922/1937">1922-1937</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1001,8 +905,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [1369374655842716276310]">4</container>
-                <unittitle>Donors-C.W. Manktelow <unitdate type="inclusive" normal="1922/1938">1922-1938</unitdate></unittitle>
-              </did>
+                <unittitle>Donors-C.W. Manktelow</unittitle><unitdate type="inclusive" normal="1922/1938">1922-1938</unitdate></did>
               <accessrestrict>
                 <p>[Restricted]</p>
               </accessrestrict>
@@ -1011,8 +914,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1369374655842716276310]">4</container>
-              <unittitle>History <unitdate type="inclusive" normal="1931/1936">1931-1936</unitdate></unittitle>
-            </did>
+              <unittitle>History</unittitle><unitdate type="inclusive" normal="1931/1936">1931-1936</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1020,8 +922,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1369374655842716276310]">4</container>
-              <unittitle>Human Remains, Burials <unitdate type="inclusive" normal="1923/1931">1923-1931</unitdate></unittitle>
-            </did>
+              <unittitle>Human Remains, Burials</unittitle><unitdate type="inclusive" normal="1923/1931">1923-1931</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1029,8 +930,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1369374655842716276310]">4</container>
-              <unittitle>Indian Industries <unitdate type="inclusive" normal="1929/1934">1929-1934</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Indian Industries</unittitle><unitdate type="inclusive" normal="1929/1934">1929-1934</unitdate><unitdate type="inclusive">undated</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1038,8 +938,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1369374655842716276310]">4</container>
-              <unittitle>Indian Mines, Quarrying, Stoneworking <unitdate type="inclusive" normal="1922/1938">1922-1938</unitdate></unittitle>
-            </did>
+              <unittitle>Indian Mines, Quarrying, Stoneworking</unittitle><unitdate type="inclusive" normal="1922/1938">1922-1938</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1059,8 +958,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1369374655842716276310]">4</container>
-              <unittitle>Informants (re: Indians) <unitdate type="inclusive" normal="1934/1937">1934-1937</unitdate></unittitle>
-            </did>
+              <unittitle>Informants (re: Indians)</unittitle><unitdate type="inclusive" normal="1934/1937">1934-1937</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1068,8 +966,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1369374655842716276310]">4</container>
-              <unittitle>Museums <unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></unittitle>
-            </did>
+              <unittitle>Museums</unittitle><unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1077,8 +974,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1369374655842716276310]">4</container>
-              <unittitle>Publishers, Press <unitdate type="inclusive" normal="1923/1930">1923-1930</unitdate></unittitle>
-            </did>
+              <unittitle>Publishers, Press</unittitle><unitdate type="inclusive" normal="1923/1930">1923-1930</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1086,8 +982,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [1369374655842716276310]">4</container>
-              <unittitle>Sites <unitdate type="inclusive" normal="1924/1931">1924-1931</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <unittitle>Sites</unittitle><unitdate type="inclusive" normal="1924/1931">1924-1931</unitdate><unitdate type="inclusive">undated</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1095,8 +990,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5707265416849107145]">5</container>
-              <unittitle>Skulls, Skeletal Material <unitdate type="inclusive" normal="1934/1936">1934-1936</unitdate></unittitle>
-            </did>
+              <unittitle>Skulls, Skeletal Material</unittitle><unitdate type="inclusive" normal="1934/1936">1934-1936</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1104,8 +998,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5707265416849107145]">5</container>
-              <unittitle>Trepanning, Medicine <unitdate type="inclusive" normal="1924/1937">1924-1937</unitdate></unittitle>
-            </did>
+              <unittitle>Trepanning, Medicine</unittitle><unitdate type="inclusive" normal="1924/1937">1924-1937</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1114,8 +1007,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>Minnesota <unitdate type="inclusive" normal="1926/1936">1926-1936</unitdate></unittitle>
-          </did>
+            <unittitle>Minnesota</unittitle><unitdate type="inclusive" normal="1926/1936">1926-1936</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1123,8 +1015,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>New Jersey <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
-          </did>
+            <unittitle>New Jersey</unittitle><unitdate type="inclusive" normal="1922">1922</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1132,8 +1023,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>New Mexico <unitdate type="inclusive" normal="1926/1929">1926-1929</unitdate></unittitle>
-          </did>
+            <unittitle>New Mexico</unittitle><unitdate type="inclusive" normal="1926/1929">1926-1929</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1145,14 +1035,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [5707265416849107145]">5</container>
-              <unittitle>Museums <unitdate type="inclusive" normal="1923/1937">1923-1937</unitdate></unittitle>
-            </did>
+              <unittitle>Museums</unittitle><unitdate type="inclusive" normal="1923/1937">1923-1937</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [5707265416849107145]">5</container>
-              <unittitle>Sites and Artifacts <unitdate type="inclusive" normal="1923/1935">1923-1935</unitdate></unittitle>
-            </did>
+              <unittitle>Sites and Artifacts</unittitle><unitdate type="inclusive" normal="1923/1935">1923-1935</unitdate></did>
             <accessrestrict>
               <p>[Restricted]</p>
             </accessrestrict>
@@ -1161,8 +1049,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>Ohio <unitdate type="inclusive" normal="1927/1931">1927-1931</unitdate></unittitle>
-          </did>
+            <unittitle>Ohio</unittitle><unitdate type="inclusive" normal="1927/1931">1927-1931</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1170,8 +1057,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>Panama <unitdate type="inclusive" normal="1922">1922</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Panama</unittitle><unitdate type="inclusive" normal="1922">1922</unitdate><unitdate type="inclusive">undated</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1179,8 +1065,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>Pennsylvania <unitdate type="inclusive" normal="1929/1938">1929-1938</unitdate></unittitle>
-          </did>
+            <unittitle>Pennsylvania</unittitle><unitdate type="inclusive" normal="1929/1938">1929-1938</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1188,8 +1073,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>Personnel <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-          </did>
+            <unittitle>Personnel</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1197,8 +1081,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>Photographs (correspondence re:) <unitdate type="inclusive" normal="1924/1934">1924-1934</unitdate></unittitle>
-          </did>
+            <unittitle>Photographs (correspondence re:)</unittitle><unitdate type="inclusive" normal="1924/1934">1924-1934</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1206,8 +1089,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>Rackham Fund <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate></unittitle>
-          </did>
+            <unittitle>Rackham Fund</unittitle><unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1215,8 +1097,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>Songs and Legends <unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate></unittitle>
-          </did>
+            <unittitle>Songs and Legends</unittitle><unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1224,8 +1105,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>South America <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
-          </did>
+            <unittitle>South America</unittitle><unitdate type="inclusive" normal="1927">1927</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1233,8 +1113,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>South Dakota <unitdate type="inclusive" normal="1924">1924</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>South Dakota</unittitle><unitdate type="inclusive" normal="1924">1924</unitdate><unitdate type="inclusive">undated</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1242,8 +1121,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>Tennessee <unitdate type="inclusive" normal="1922/1928">1922-1928</unitdate></unittitle>
-          </did>
+            <unittitle>Tennessee</unittitle><unitdate type="inclusive" normal="1922/1928">1922-1928</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1251,8 +1129,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>Trails <unitdate type="inclusive" normal="1927">1927</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Trails</unittitle><unitdate type="inclusive" normal="1927">1927</unitdate><unitdate type="inclusive">undated</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1260,8 +1137,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>Washington, D.C. <unitdate type="inclusive" normal="1922/1928">1922-1928</unitdate></unittitle>
-          </did>
+            <unittitle>Washington, D.C.</unittitle><unitdate type="inclusive" normal="1922/1928">1922-1928</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1269,8 +1145,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [5707265416849107145]">5</container>
-            <unittitle>Wisconsin <unitdate type="inclusive" normal="1922/1936">1922-1936</unitdate></unittitle>
-          </did>
+            <unittitle>Wisconsin</unittitle><unitdate type="inclusive" normal="1922/1936">1922-1936</unitdate></did>
           <accessrestrict>
             <p>[Restricted]</p>
           </accessrestrict>
@@ -1278,8 +1153,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Michigan Site Files <unitdate type="inclusive" normal="1920/1939" certainty="approximate">1920s-1930s</unitdate></unittitle>
-        </did>
+          <unittitle>Michigan Site Files</unittitle><unitdate type="inclusive" normal="1920/1939" certainty="approximate">1920s-1930s</unitdate></did>
         <accessrestrict>
           <p>[Access to these portions of these files is restricted; please contact the reference archivist for further information.]</p>
         </accessrestrict>

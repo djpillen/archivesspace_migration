@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lloyd, Alfred Henry, 1864-1927</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/7976">Lloyd, Alfred Henry, 1864-1927</persname>
       </origination>
-      <unittitle encodinganalog="245">Alfred Henry Lloyd pamphlets and reprints <unitdate type="inclusive" encodinganalog="245$f" normal="1889/1901">1889-1901</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">[7217] DA 2 L793 P186</unitid>
+      <unittitle encodinganalog="245">Alfred Henry Lloyd pamphlets and reprints</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1889/1901">1889-1901</unitdate><unitdate type="inclusive" encodinganalog="245$f">undated</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">[7217] DA 2 L793 P186</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of philosophy and dean of the graduate school of University of Michigan. Journal articles and reprints.</abstract>
       <physdesc altrender="whole">
@@ -83,8 +83,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject encodinganalog="650" source="lcsh">Philosophy.</subject>
-        <subject encodinganalog="650" source="lcsh">Psychology.</subject>
+        <subject encodinganalog="650" source="lcsh" ref="/subjects/6445">Philosophy.</subject>
+        <subject encodinganalog="650" source="lcsh" ref="/subjects/8629">Psychology.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

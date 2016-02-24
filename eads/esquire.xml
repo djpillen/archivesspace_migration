@@ -43,7 +43,8 @@
         <item>Original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,10 +55,9 @@
   <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">Esquire, Inc.</corpname>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/892">Esquire, Inc.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Esquire, Inc. Records <unitdate encodinganalog="245$f" type="inclusive" normal="1933/1977">1933-1977</unitdate></unittitle>
-      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85177 Bb/2</unitid>
+      <unittitle encodinganalog="245">Esquire, Inc. Records</unittitle><unitdate encodinganalog="245$f" type="inclusive" normal="1933/1977">1933-1977</unitdate><unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85177 Bb/2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <abstract>Magazine publishing company, principally <title render="italic">Esquire</title> magazine, originally edited by Arnold Gingrich, records include editorial files with drafts and manuscripts of articles and some correspondence with authors and some business records.</abstract>
       <physdesc altrender="whole">
@@ -111,41 +111,41 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Authors, American.</subject>
-        <subject source="lcsh" encodinganalog="650">Literature.</subject>
-        <subject source="lcsh" encodinganalog="650">Poetry.</subject>
-        <subject source="lcsh" encodinganalog="650">Periodicals, Publishing of--New York (N.Y.)</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50029911">Gingrich, Arnold.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50049079">Rockefeller, Nelson A. (Nelson Aldrich), 1908-1979.</persname>
-        <subject source="lcsh" encodinganalog="611">Esquire (New York, N.Y.)</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5877">Authors, American.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5878">Literature.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5896">Poetry.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7560">Periodicals, Publishing of--New York (N.Y.)</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50029911" ref="/agents/people/2999">Gingrich, Arnold.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50049079" ref="/agents/people/7070">Rockefeller, Nelson A. (Nelson Aldrich), 1908-1979.</persname>
+        <subject source="lcsh" encodinganalog="611" ref="/subjects/7561">Esquire (New York, N.Y.)</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83151582">Brownmiller, Susan.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79065205">Buckley, William F. (William Frank), Jr., 1925-2008.</persname>
-        <persname source="lcnaf" encodinganalog="700">Church, Frank.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80044645">Condon, Richard.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n00041042">Felker, Clay.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50033841">Heston, Charlton.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85151608">Hopper, Hedda, 1890-1966.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84077744">Lowry, Robert, 1919-1994</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79084818">Mailer, Norman.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50006898">Mauldin, Bill, 1921-2003</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79045521">Miller, Arthur, 1915-2005.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79077424">Mondale, Walter F., 1928-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81015312">Nabokov, Vladimir Vladimirovich, 1899-1977.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50025063">O'Hair, Madalyn Murray.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79038436">Porter, Katherine Anne, 1890-1980.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82012171">Powell, Adam Clayton, 1908-1972.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79148174">Rabe, David.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79116426">Schoenbrun, David.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79045099">Schulberg, Budd.</persname>
-        <persname source="lcnaf" encodinganalog="700">Sheed, Wilfred.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022959">Styron, William, 1925-2006.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50010195">Thomas, Norman, 1884-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50008356">Thompson, Hunter S.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060187">Wechsberg, Joseph, 1907-1983</persname>
-        <persname source="lcnaf" encodinganalog="700">Yorty, Samuel William, 1909-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83151582" ref="/agents/people/481">Brownmiller, Susan.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79065205" ref="/agents/people/6382">Buckley, William F. (William Frank), Jr., 1925-2008.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2899">Church, Frank.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80044645" ref="/agents/people/3865">Condon, Richard.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n00041042" ref="/agents/people/5516">Felker, Clay.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50033841" ref="/agents/people/2522">Heston, Charlton.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85151608" ref="/agents/people/2555">Hopper, Hedda, 1890-1966.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84077744" ref="/agents/people/6143">Lowry, Robert, 1919-1994</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79084818" ref="/agents/people/7684">Mailer, Norman.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50006898" ref="/agents/people/7727">Mauldin, Bill, 1921-2003</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79045521" ref="/agents/people/7992">Miller, Arthur, 1915-2005.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79077424" ref="/agents/people/4246">Mondale, Walter F., 1928-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81015312" ref="/agents/people/4843">Nabokov, Vladimir Vladimirovich, 1899-1977.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50025063" ref="/agents/people/1813">O'Hair, Madalyn Murray.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79038436" ref="/agents/people/5981">Porter, Katherine Anne, 1890-1980.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82012171" ref="/agents/people/6523">Powell, Adam Clayton, 1908-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79148174" ref="/agents/people/3891">Rabe, David.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79116426" ref="/agents/people/1324">Schoenbrun, David.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79045099" ref="/agents/people/4461">Schulberg, Budd.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8075">Sheed, Wilfred.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022959" ref="/agents/people/6224">Styron, William, 1925-2006.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50010195" ref="/agents/people/6858">Thomas, Norman, 1884-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50008356" ref="/agents/people/5653">Thompson, Hunter S.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060187" ref="/agents/people/8130">Wechsberg, Joseph, 1907-1983</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/167">Yorty, Samuel William, 1909-</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -158,10 +158,7 @@
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1933/1959">1933-1959</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1933/1959">1933-1959</unitdate></did>
           <c03 level="file">
             <did>
               <container label="Box [24792924476060187574]" type="box">1</container>
@@ -1923,10 +1920,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1960/1977">1960-1977</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1960/1977">1960-1977</unitdate></did>
           <c03 level="file">
             <did>
               <container label="Box [691691575344763712015943049]" type="box">7</container>
@@ -3410,8 +3404,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [662964683327023439]">14</container>
-              <unittitle>Poetry <unitdate type="inclusive" normal="1971-05/1977-09">May 1971-September 1977</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Poetry</unittitle><unitdate type="inclusive" normal="1971-05/1977-09">May 1971-September 1977</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">47 folders</extent>
               </physdesc>
             </did>
@@ -4032,18 +4025,12 @@
           <c03 level="file">
             <did>
               <container label="Box [090404497034887633200]" type="box">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964-06/1970-09">June 1964-September 1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1964-06/1970-09">June 1964-September 1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container label="Box [9379155402296102102]" type="box">19</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964-06/1970-09">June 1964-September 1970</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1964-06/1970-09">June 1964-September 1970</unitdate></did>
             <odd>
               <p>(continued)</p>
             </odd>
@@ -4060,10 +4047,7 @@
         <c02 level="file">
           <did>
             <container label="Box [093940860344298780223974]" type="box">20</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1959-05/1966-06">May 1959-June 1966</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1959-05/1966-06">May 1959-June 1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">41 folders</extent>
             </physdesc>
           </did>
@@ -4071,10 +4055,7 @@
         <c02 level="file">
           <did>
             <container label="Box [0598524875099902674]" type="box">21</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966-07/1967-12">July 1966-December 1967</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1966-07/1967-12">July 1966-December 1967</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">19 folders</extent>
             </physdesc>
           </did>
@@ -4082,10 +4063,7 @@
         <c02 level="file">
           <did>
             <container label="Box [6639424449295563431544643]" type="box">22</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968-01/1969-06">January 1968-June 1969</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1968-01/1969-06">January 1968-June 1969</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">18 folders</extent>
             </physdesc>
           </did>
@@ -4093,10 +4071,7 @@
         <c02 level="file">
           <did>
             <container label="Box [495473457689491288]" type="box">23</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969-07/1970-06">July 1969-June 1970</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1969-07/1970-06">July 1969-June 1970</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 folders</extent>
             </physdesc>
           </did>
@@ -4104,8 +4079,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Story research file <unitdate normal="1950/1964" certainty="approximate">circa 1950-1964</unitdate></unittitle>
-        </did>
+          <unittitle>Story research file</unittitle><unitdate normal="1950/1964" certainty="approximate">circa 1950-1964</unitdate></did>
         <scopecontent>
           <p>The Story Research File consists of collected material, proposals, and other information gathered by staff researchers for Esquire and Coronet. These files represent the basis for intended or proposed articles to be published in upcoming issues. This series is dated from around 1950 to 1964.</p>
         </scopecontent>
@@ -4186,8 +4160,7 @@
         <c02 level="file">
           <did>
             <container label="Box [599554288779122270428]" type="box">24</container>
-            <unittitle>College Grad Jobs <unitdate type="inclusive" normal="1957-06">June 1957</unitdate></unittitle>
-          </did>
+            <unittitle>College Grad Jobs</unittitle><unitdate type="inclusive" normal="1957-06">June 1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -4346,8 +4319,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [599554288779122270428]">24</container>
-            <unittitle>Little Research Projects <unitdate type="inclusive" normal="1956-06/1959-12">June 1956-December 1959</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Little Research Projects</unittitle><unitdate type="inclusive" normal="1956-06/1959-12">June 1956-December 1959</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 folders</extent>
             </physdesc>
           </did>
@@ -5053,20 +5025,17 @@
         <c02 level="file">
           <did>
             <container label="Box [30193335443240503266553]" type="box">26</container>
-            <unittitle><persname>Benton, Robert</persname>, <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-          </did>
+            <unittitle><persname>Benton, Robert</persname></unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [30193335443240503266553]">26</container>
-            <unittitle><persname>Brower, Brock</persname>, <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-          </did>
+            <unittitle><persname>Brower, Brock</persname></unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [30193335443240503266553]">26</container>
-            <unittitle><persname>Christgau, Robert</persname>, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <unittitle><persname>Christgau, Robert</persname></unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -5075,44 +5044,37 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle><unitdate type="inclusive" normal="1956/1961">1956-1961</unitdate> General</unittitle>
-            </did>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1956/1961">1956-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle><unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate> re. Rockefeller campaign</unittitle>
-            </did>
+              <unittitle>Re. Rockefeller campaign</unittitle><unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle><unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate> re. Ford Motor Company</unittitle>
-            </did>
+              <unittitle>Re. Ford Motor Company</unittitle><unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate> re. <persname>Bill Vanden Heuvel</persname> campaign</unittitle>
-            </did>
+              <unittitle>Re. <persname>Bill Vanden Heuvel</persname> campaign</unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle><unitdate type="inclusive" normal="1961">1961</unitdate> re. <title render="italic">Infinity</title> </unittitle>
-            </did>
+              <unittitle>Re. <title render="italic">Infinity</title></unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate> re. Common Market book</unittitle>
-            </did>
+              <unittitle>Re. Common Market book</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle><unitdate type="inclusive" normal="1961">1961</unitdate> re. Carl Felker</unittitle>
-            </did>
+              <unittitle>Re. Carl Felker</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -5122,26 +5084,17 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959">1959</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1959">1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -5155,8 +5108,7 @@
         <c02 level="file">
           <did>
             <container label="Box [30193335443240503266553]" type="box">26</container>
-            <unittitle>Manuscripts purchased, <unitdate normal="1959/1960" type="inclusive">1959-1960</unitdate></unittitle>
-          </did>
+            <unittitle>Manuscripts purchased</unittitle><unitdate normal="1959/1960" type="inclusive">1959-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -5165,18 +5117,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -5187,18 +5133,12 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -5214,51 +5154,38 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [30193335443240503266553]">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965">1965</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [30193335443240503266553]">26</container>
-            <unittitle>Scripts Routing <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></unittitle>
-          </did>
+            <unittitle>Scripts Routing</unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [30193335443240503266553]">26</container>
-            <unittitle>Requisition Record <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <unittitle>Requisition Record</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [30193335443240503266553]">26</container>
-            <unittitle>Purchase Contracts <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
-          </did>
+            <unittitle>Purchase Contracts</unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [30193335443240503266553]">26</container>
-            <unittitle>Legal Review Record Book <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
-          </did>
+            <unittitle>Legal Review Record Book</unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -5270,8 +5197,7 @@
         </accessrestrict>
         <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Recording of literary conversation between William Styron and James Jones, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Recording of literary conversation between William Styron and James Jones</unittitle><unitdate type="inclusive">[Undated]</unitdate><physdesc>
               <physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
             </physdesc>
           </did>
@@ -5283,7 +5209,7 @@
               <physdesc>
                 <physfacet>mp3 file</physfacet>
               </physdesc>
-              <dao href="85177-SR-1-1" show="new" actuate="onRequest">
+              <dao href="85177-SR-1-1" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8888">
                 <daodesc>
                   <p>[access item]</p>
                 </daodesc>

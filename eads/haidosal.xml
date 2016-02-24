@@ -23,7 +23,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Haidostian, Alice Berberian.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2043">Haidostian, Alice Berberian.</persname>
       </origination>
-      <unittitle encodinganalog="245">Alice Berberian Haidostian papers <unitdate type="inclusive" encodinganalog="245$f" normal="1970/2006" certainty="approximate">1970s-2006</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0697 Aa 2</unitid>
+      <unittitle encodinganalog="245">Alice Berberian Haidostian papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1970/2006" certainty="approximate">1970s-2006</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0697 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Concert pianist, active in Armenian American organizations, fundraiser; files relating to her organizational activities.</abstract>
       <physdesc altrender="whole">
@@ -75,17 +75,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname encodinganalog="600" source="lcnaf">Haidostian, Alice Berberian.</persname>
-        <subject encodinganalog="650" source="lcsh">Armenian Americans--Michigan.</subject>
-        <subject encodinganalog="650" source="lcsh">Armenian American women--Michigan.</subject>
-        <subject encodinganalog="650" source="lcsh">Armenian Americans--Societies, etc.</subject>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/2043">Haidostian, Alice Berberian.</persname>
+        <subject encodinganalog="650" source="lcsh" ref="/subjects/8092">Armenian Americans--Michigan.</subject>
+        <subject encodinganalog="650" source="lcsh" ref="/subjects/8093">Armenian American women--Michigan.</subject>
+        <subject encodinganalog="650" source="lcsh" ref="/subjects/8094">Armenian Americans--Societies, etc.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Organizational Activities / Topical <unitdate normal="1970/2006" certainty="approximate">circa 1970s-2006</unitdate></unittitle>
-        </did>
+          <unittitle>Organizational Activities / Topical</unittitle><unitdate normal="1970/2006" certainty="approximate">circa 1970s-2006</unitdate></did>
         <odd>
           <p>(dates for individual organizations vary)</p>
         </odd>

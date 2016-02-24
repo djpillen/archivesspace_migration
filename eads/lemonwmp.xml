@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lemon, William Philip, 1882-1967.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4951">Lemon, William Philip, 1882-1967.</persname>
       </origination>
-      <unittitle encodinganalog="245">William P. Lemon papers <unitdate type="inclusive" encodinganalog="245$f" normal="1908/1966">1908-1966</unitdate></unittitle>
-      <abstract>Presbyterian clergyman, longtime pastor of the First Presbyterian Church of Ann Arbor, Michigan, 1934-1951; correspondence, copies of essays and book reviews written for religious periodicals, sermons and addresses, mimeographed study notes of talks given in Detroit before the Men's Club for the Study of Religion, religious and literary notebooks, and travel journals.</abstract>
+      <unittitle encodinganalog="245">William P. Lemon papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1908/1966">1908-1966</unitdate><abstract>Presbyterian clergyman, longtime pastor of the First Presbyterian Church of Ann Arbor, Michigan, 1934-1951; correspondence, copies of essays and book reviews written for religious periodicals, sermons and addresses, mimeographed study notes of talks given in Detroit before the Men's Club for the Study of Religion, religious and literary notebooks, and travel journals.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851727 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Offsite storage for boxes 1-12; prior notification required for access.</physloc>
@@ -87,39 +87,39 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Andrew Church (Minneapolis, Minn.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Calvary Presbyterian Church (Newark, N.J.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Clergy--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Clergy--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94005455">First Presbyterian Church (Iowa City, Iowa)</corpname>
-        <geogname source="lcsh" encodinganalog="651">Iowa City (Iowa)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Lemon, William Philip, 1882-1967.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Men's Club for the Study of Religion (Detroit, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79003965">Minneapolis (Minn.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Newark (N.J.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church--Michigan--Ann Arbor.</corpname>
-        <subject source="lcsh" encodinganalog="650">Travelers.</subject>
-        <subject source="lcsh" encodinganalog="650">Voyages and travels.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1079">Andrew Church (Minneapolis, Minn.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1034">Calvary Presbyterian Church (Newark, N.J.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6374">Clergy--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6446">Clergy--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1416">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94005455" ref="/agents/corporate_entities/2621">First Presbyterian Church (Iowa City, Iowa)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2196">Iowa City (Iowa)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4951">Lemon, William Philip, 1882-1967.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/75">Men's Club for the Study of Religion (Detroit, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79003965" ref="/subjects/2197">Minneapolis (Minn.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2198">Newark (N.J.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2626">Presbyterian Church.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2626">Presbyterian Church--Michigan--Ann Arbor.<term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6015">Travelers.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6014">Voyages and travels.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Andrews Presbyterian Church (Minneapolis, Minn.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Christmas.</subject>
-        <subject source="lctgm" encodinganalog="650">Clergymen.</subject>
-        <subject source="lctgm" encodinganalog="650">Costumes.</subject>
-        <subject source="lctgm" encodinganalog="650">Easter.</subject>
-        <persname source="lcnaf" encodinganalog="600">Lemon, William Philip, 1882-1967.</persname>
-        <subject source="lctgm" encodinganalog="650">Pageants.</subject>
-        <subject source="lctgm" encodinganalog="650">Tableaux.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4307">Andrews Presbyterian Church (Minneapolis, Minn.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4684">Christmas.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3739">Clergymen.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3623">Costumes.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4685">Easter.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4951">Lemon, William Philip, 1882-1967.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3625">Pageants.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4686">Tableaux.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Sermons.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3185">Sermons.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -147,72 +147,47 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [38948245635797802806]">1</container>
-            <unittitle><unitdate>Undated</unitdate> and fragmentary</unittitle>
-          </did>
+            <unittitle>And fragmentary</unittitle><unitdate>Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [38948245635797802806]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1913/1930">1913-1930</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1913/1930">1913-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [38948245635797802806]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [38948245635797802806]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1941/1945">1941-1945</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1941/1945">1941-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [38948245635797802806]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1946/1950">1946-1950</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1946/1950">1946-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [38948245635797802806]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951">1951</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [38948245635797802806]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1952">1952</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1952">1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [38948245635797802806]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953/1960">1953-1960</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1953/1960">1953-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [38948245635797802806]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -237,14 +212,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [38948245635797802806]">1</container>
-            <unittitle>Letters to Editor of <title render="italic">Christian Century</title> written under the pseudonym of Quintus Quiz, <unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate></unittitle>
-          </did>
+            <unittitle>Letters to Editor of <title render="italic">Christian Century</title> written under the pseudonym of Quintus Quiz</unittitle><unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [38948245635797802806]">1</container>
-            <unittitle>Letters to Editor of <title render="italic">Christian Century</title> written under the pseudonym of Quintus Quiz, <unitdate type="inclusive" normal="1933/1935">1933-1935</unitdate></unittitle>
-          </did>
+            <unittitle>Letters to Editor of <title render="italic">Christian Century</title> written under the pseudonym of Quintus Quiz</unittitle><unitdate type="inclusive" normal="1933/1935">1933-1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -423,98 +396,62 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [200878944708927862]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918/1922">1918-1922</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1918/1922">1918-1922</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [200878944708927862]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1923">1923</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1923">1923</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [200878944708927862]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1924">1924</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1924">1924</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [200878944708927862]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1925">1925</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1925">1925</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [200878944708927862]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1926/1927">1926-1927</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1926/1927">1926-1927</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [200878944708927862]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [200878944708927862]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [200878944708927862]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [200878944708927862]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [200878944708927862]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [200878944708927862]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [200878944708927862]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1941/1947">1941-1947</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1941/1947">1941-1947</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -553,8 +490,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [26300219423096625077]">4</container>
-            <unittitle>Lectures on Biblical Literature given at the University of Minnesota <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Lectures on Biblical Literature given at the University of Minnesota</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -572,8 +508,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [26300219423096625077]">4</container>
-              <unittitle>Letters of appreciation <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>Letters of appreciation</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -1055,14 +990,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [125088066411536708605]">6</container>
-            <unittitle>Personal scrapbook kept while in Wales, South Dakota, and Newark, New Jersey <unitdate type="inclusive" normal="1902/1915">1902-1915</unitdate></unittitle>
-          </did>
+            <unittitle>Personal scrapbook kept while in Wales, South Dakota, and Newark, New Jersey</unittitle><unitdate type="inclusive" normal="1902/1915">1902-1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [69555984249856111704]">7</container>
-            <unittitle>Scrapbook containing correspondence, clippings <genreform source="aat" normal="Photographs">photographs</genreform>, and biographical miscellanea, <unitdate type="inclusive" normal="1877/1978">1877-1978</unitdate></unittitle>
-          </did>
+            <unittitle>Scrapbook containing correspondence, clippings <genreform source="aat" normal="Photographs">photographs</genreform>, and biographical miscellanea</unittitle><unitdate type="inclusive" normal="1877/1978">1877-1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1086,27 +1019,23 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [69555984249856111704]">7</container>
-              <unittitle>Europe <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
-            </did>
+              <unittitle>Europe</unittitle><unitdate type="inclusive" normal="1908">1908</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [69555984249856111704]">7</container>
-              <unittitle>Alaska <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-            </did>
+              <unittitle>Alaska</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [69555984249856111704]">7</container>
-              <unittitle>Europe <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-            </did>
+              <unittitle>Europe</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [69555984249856111704]">7</container>
-            <unittitle>Report of the Conference of the Association of Presbyterian University Pastors at Westminster Lodge, Saugatuck, Michigan <unitdate type="inclusive" normal="1941-06-23/1941-06-27">June 23-27, 1941</unitdate></unittitle>
-          </did>
+            <unittitle>Report of the Conference of the Association of Presbyterian University Pastors at Westminster Lodge, Saugatuck, Michigan</unittitle><unitdate type="inclusive" normal="1941-06-23/1941-06-27">June 23-27, 1941</unitdate></did>
           <odd>
             <p>(include study notes prepared by W.P. Lemon)</p>
           </odd>

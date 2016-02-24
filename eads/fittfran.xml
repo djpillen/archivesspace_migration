@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Fitt, Frank, 1889-1982.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4192">Fitt, Frank, 1889-1982.</persname>
       </origination>
-      <unittitle encodinganalog="245">Frank Fitt Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1973">1918-1973</unitdate></unittitle>
-      <abstract>Clergyman, minister of the Grosse Pointe Memorial Presbyterian Church. Scattered correspondence, reminiscences of Henry Ford, sermons and other addresses concerning in part the issues of the day, notably international and domestic affairs, the depression, World War II, and relations with Russia.</abstract>
+      <unittitle encodinganalog="245">Frank Fitt Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1973">1918-1973</unitdate><abstract>Clergyman, minister of the Grosse Pointe Memorial Presbyterian Church. Scattered correspondence, reminiscences of Henry Ford, sermons and other addresses concerning in part the issues of the day, notably international and domestic affairs, the depression, World War II, and relations with Russia.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85160 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -81,33 +81,33 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Clergy--Michigan--Grosse Pointe Farms.</subject>
-        <subject source="lcsh" encodinganalog="650">Depressions--1929--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Fitt, Frank, 1889-1982.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055385">Ford, Henry, 1863-1947.</persname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081718">Grosse Pointe Farms (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Grosse Pointe Memorial Church (Grosse Pointe Farms, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church--Michigan--Grosse Pointe Farms.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--Foreign relations--Soviet Union.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7778">Clergy--Michigan--Grosse Pointe Farms.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5946">Depressions--1929--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4192">Fitt, Frank, 1889-1982.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055385" ref="/agents/people/1857">Ford, Henry, 1863-1947.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081718" ref="/subjects/1855">Grosse Pointe Farms (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3137">Grosse Pointe Memorial Church (Grosse Pointe Farms, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2626">Presbyterian Church--Michigan--Grosse Pointe Farms.<term type="geographic">Michigan</term><term type="geographic">Grosse Pointe Farms.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1856">United States--Foreign relations--Soviet Union.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Willow Run.</subject>
-        <subject source="lctgm" encodinganalog="650">Erosion--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Playgrounds--Michigan--Willow Run.</subject>
-        <subject source="lctgm" encodinganalog="650">Political elections--1948.</subject>
-        <geogname source="lctgm" encodinganalog="651">Willow Run (Mich.)--Dwellings.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Willow Run (Mich.)--Playgrounds.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4313">Dwellings--Michigan--Willow Run.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4314">Erosion--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4315">Playgrounds--Michigan--Willow Run.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4316">Political elections--1948.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/289">Willow Run (Mich.)--Dwellings.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/290">Willow Run (Mich.)--Playgrounds.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">McCarthy, Mary Fitt.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6091">McCarthy, Mary Fitt.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Sermons.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3185">Sermons.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -140,8 +140,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [164814234356917640226631]">1</container>
-              <unittitle>Beatitudes Manuscript <unitdate type="inclusive" normal="1922-08/1922-09">August-September, 1922</unitdate></unittitle>
-            </did>
+              <unittitle>Beatitudes Manuscript</unittitle><unitdate type="inclusive" normal="1922-08/1922-09">August-September, 1922</unitdate></did>
             <odd>
               <p>(mostly letters from publishers giving permission to quote material)</p>
             </odd>
@@ -156,58 +155,40 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box [164814234356917640226631]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1930-12">December 1930</unitdate>
-                  <unitdate type="inclusive">undated</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1930-12">December 1930</unitdate><unitdate type="inclusive">undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [164814234356917640226631]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1931-01">January 1931</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1931-01">January 1931</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Leaving Grosse Pointe, Michigan, Memorial Church <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <unittitle>Leaving Grosse Pointe, Michigan, Memorial Church</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
             <odd>
               <p>incoming correspondence</p>
             </odd>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [164814234356917640226631]">1</container>
-                <unittitle>
-                  <unitdate>Undated</unitdate>
-                </unittitle>
-              </did>
+                <unitdate>Undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [164814234356917640226631]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958-07/1958-08">July-August 1958</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1958-07/1958-08">July-August 1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [164814234356917640226631]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958-09/1958-12">September-December 1958</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1958-09/1958-12">September-December 1958</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [164814234356917640226631]">1</container>
-              <unittitle>Vacation: European <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-            </did>
+              <unittitle>Vacation: European</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
             <odd>
               <p>(collection of Fitt's letters re: his trip abroad with his wife)</p>
             </odd>
@@ -704,10 +685,7 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate>Undated</unitdate>
-              </unittitle>
-            </did>
+              <unitdate>Undated</unitdate></did>
             <c04 level="file">
               <did>
                 <container type="box" label="Box [28825724816459385]">3</container>
@@ -730,10 +708,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [28825724816459385]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918/1933">1918-1933</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1918/1933">1918-1933</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
@@ -741,10 +716,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [224170403439927240776]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934/1943-04">1934-April 1943</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1934/1943-04">1934-April 1943</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">19 folders</extent>
               </physdesc>
             </did>
@@ -752,10 +724,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [644089823547004202139840]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1943-05/1951-12">May 1943-December 1951</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1943-05/1951-12">May 1943-December 1951</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">19 folders</extent>
               </physdesc>
             </did>
@@ -763,10 +732,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [39484383767456]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952-01/1958-12">January 1952-December 1958</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1952-01/1958-12">January 1952-December 1958</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">19 folders</extent>
               </physdesc>
             </did>
@@ -774,10 +740,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [099610873409661420279]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959/1973">1959-1973</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1959/1973">1959-1973</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">16 folders</extent>
               </physdesc>
             </did>

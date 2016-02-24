@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Freemasons. Golden Rule Lodge No. 159 (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4009">Freemasons. Golden Rule Lodge No. 159 (Ann Arbor, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Freemasons, Golden Rule Lodge No. 159 (Ann Arbor, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1864/1997">1864-1997</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010012 Bd 2</unitid>
+      <unittitle encodinganalog="245">Freemasons, Golden Rule Lodge No. 159 (Ann Arbor, Mich.) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1864/1997">1864-1997</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010012 Bd 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
@@ -80,9 +80,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Freemasons. Golden Rule Lodge No. 159 (Ann Arbor, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Freemasons--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4009">Freemasons. Golden Rule Lodge No. 159 (Ann Arbor, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7873">Freemasons--Michigan--Ann Arbor.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -93,122 +93,77 @@
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [51374281147683201762486]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1864/1872">1864-1872</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1864/1872">1864-1872</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [859825342295976183663]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1873/1885">1873-1885</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1873/1885">1873-1885</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [55601434749757963334]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1886/1894">1886-1894</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1886/1894">1886-1894</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [94098904835225143505]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1894/1901">1894-1901</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1894/1901">1894-1901</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [6421720542705048743]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1901/1907">1901-1907</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1901/1907">1901-1907</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [8247258435855749918]">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1907/1913">1907-1913</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1907/1913">1907-1913</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [9798944695789984245]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1913/1917">1913-1917</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1913/1917">1913-1917</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [81409554696363703984]">8</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [2348894024773715]">9</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1919/1921">1919-1921</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1919/1921">1919-1921</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [6263420414109816895011]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1922/1926">1922-1926</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1922/1926">1922-1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [9208445940443562]">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1927/1931">1927-1931</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1927/1931">1927-1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [454703597849862046218]">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1932/1942">1932-1942</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1932/1942">1932-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [38190041422247921421]">13</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1943/1949">1943-1949</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1943/1949">1943-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [653300408886446218]">14</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [1568609480118770763]">15</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -221,26 +176,17 @@
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [64538407419983555270284]">16</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1971/1979">1971-1979</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1971/1979">1971-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [259261929949418435906139]">17</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1980/1992">1980-1992</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1980/1992">1980-1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [87411266467820215332523905]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1993/1997">1993-1997</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1993/1997">1993-1997</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -260,10 +206,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [87411266467820215332523905]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1905/1906">1905-1906</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1905/1906">1905-1906</unitdate></did>
             <odd>
               <p>(combined volume for Golden Rule Lodge 159 and Fraternity Lodge 262)</p>
             </odd>
@@ -271,17 +214,13 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [87411266467820215332523905]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1985/1995">1985-1995</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1985/1995">1985-1995</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [87411266467820215332523905]">1</container>
-            <unittitle>Souvenir programs <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
-          </did>
+            <unittitle>Souvenir programs</unittitle><unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -292,8 +231,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [87411266467820215332523905]">1</container>
-            <unittitle>Miscellaneous records <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></unittitle>
-          </did>
+            <unittitle>Miscellaneous records</unittitle><unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -302,8 +240,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box [87411266467820215332523905]">1</container>
-              <unittitle>Reports of Secretary-Treasurer and Finance Committee <unitdate type="inclusive" normal="1860/1898" certainty="approximate">1860s-1898 (scattered dates)</unitdate></unittitle>
-            </did>
+              <unittitle>Reports of Secretary-Treasurer and Finance Committee</unittitle><unitdate type="inclusive" normal="1860/1898" certainty="approximate">1860s-1898 (scattered dates)</unitdate></did>
             <odd>
               <p>(also include some sundry reports)</p>
             </odd>
@@ -329,8 +266,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4694441413256623408]">2</container>
-            <unittitle>Annual Return to the Grand Lodge F. &amp; A. M. <unitdate type="inclusive" normal="1865/1922">1865-1922</unitdate></unittitle>
-            <physdesc altrender="part">
+            <unittitle>Annual Return to the Grand Lodge F. &amp; A. M.</unittitle><unitdate type="inclusive" normal="1865/1922">1865-1922</unitdate><physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">1 folders</extent>
             </physdesc>
             <physdesc altrender="part">
@@ -344,8 +280,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4694441413256623408]">2</container>
-            <unittitle>Questionnaires submitted by applicants for membership <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
-          </did>
+            <unittitle>Questionnaires submitted by applicants for membership</unittitle><unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -365,8 +300,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box [4694441413256623408]">2</container>
-            <unittitle>Black Book (expulsion of members mainly for non-payment of dues) <unitdate type="inclusive" normal="1874/1895">1874-1895</unitdate></unittitle>
-          </did>
+            <unittitle>Black Book (expulsion of members mainly for non-payment of dues)</unittitle><unitdate type="inclusive" normal="1874/1895">1874-1895</unitdate></did>
           <odd>
             <p>(include rejected, suspended and expelled in sister lodges, 1890-1898)</p>
           </odd>

@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Washtenaw Abstract Company (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5138">Washtenaw Abstract Company (Ann Arbor, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Washtenaw Abstract Company records <unitdate type="inclusive" encodinganalog="245$f" normal="1824/1954" certainty="approximate">circa 1824-1954</unitdate></unittitle>
-      <abstract>Land title company based in Ann Arbor, Michigan. Abstracts of mortgages, deeds, and other legal papers recorded in Washtenaw County; and plat maps for Washtenaw County additions and subdivisions.</abstract>
+      <unittitle encodinganalog="245">Washtenaw Abstract Company records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1824/1954" certainty="approximate">circa 1824-1954</unitdate><abstract>Land title company based in Ann Arbor, Michigan. Abstracts of mortgages, deeds, and other legal papers recorded in Washtenaw County; and plat maps for Washtenaw County additions and subdivisions.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">8544 Bb.2 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -85,19 +85,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Ann Arbor (Mich.)--History.</geogname>
-        <subject source="lcsh" encodinganalog="650">Real property--Michigan--Washtenaw County.</subject>
-        <subject source="lcsh" encodinganalog="650">Land use--Michigan--Washtenaw County.</subject>
-        <geogname source="lcsh" encodinganalog="651">Washtenaw County (Mich.)--Maps.</geogname>
-        <subject source="lcsh" encodinganalog="650">Real property--Michigan--Washtenaw County--Maps.</subject>
-        <corpname source="lcnaf" encodinganalog="710">Peoples Abstract Company.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/846">Ann Arbor (Mich.)--History.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6730">Real property--Michigan--Washtenaw County.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10624">Land use--Michigan--Washtenaw County.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Washtenaw County (Mich.)--Maps.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5988">Real property--Michigan--Washtenaw County--Maps.</subject>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/2420">Peoples Abstract Company.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Abstracts of mortgages <unitdate type="inclusive" normal="1825/1954">1825-1954</unitdate></unittitle>
-        </did>
+          <unittitle>Abstracts of mortgages</unittitle><unitdate type="inclusive" normal="1825/1954">1825-1954</unitdate></did>
         <scopecontent>
           <p>The Abstract of Mortgages series (volumes numbered for storage vol. 24-42) contains abstracts of mortgages from 1825 through 1954. This series covers Ann Arbor, Ypsilanti, the villages in the county, and the townships, with the exception of Salem and Superior Townships. These volumes seem to have been first compiled in the early 1880s. They were kept up-to-date with later mortgages until 1954.</p>
         </scopecontent>
@@ -238,22 +237,19 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Miscellaneous volumes, chiefly <unitdate type="inclusive" normal="1825/1882">1825-1882</unitdate></unittitle>
-        </did>
+          <unittitle>Miscellaneous volumes, chiefly</unittitle><unitdate type="inclusive" normal="1825/1882">1825-1882</unitdate></did>
         <scopecontent>
           <p>The second abstract series, titled Miscellaneous Volumes, (volumes numbered for storage vol. 1-23) includes abstracts of deeds, mortgages, and other legal papers from the earliest years of the county's existence to about 1882. The last items in the series were created around 1912, about the time the company moved its offices. This series is made up of three groups of material: <list type="simple"><item>Volumes 1-8 include miscellaneous abstracts, on a countywide basis, and do not seem well organized.</item><item>Volumes 9-15 include abstracts of mortgages for the period 1829-1882, for each city, village, and township in Washtenaw County.</item><item>Volumes 16-23 include separate lists of abstracts of deeds and of mortgages for the period ca. 1825 to 1882, for cities, villages, and townships. The collection is not complete, with Ann Arbor city and township missing, along with several other townships and villages.</item></list></p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [6224304119457695449263]">1</container>
-            <unittitle>Index to early deeds[?] and mortgages of Ann Arbor and deeds[?] of Ypsilanti, arranged by addition <unitdate>undated</unitdate></unittitle>
-          </did>
+            <unittitle>Index to early deeds[?] and mortgages of Ann Arbor and deeds[?] of Ypsilanti, arranged by addition</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [721402884228498122709]">2</container>
-            <unittitle>Index to deeds for lands sold for unpaid taxes, arranged by township <unitdate type="inclusive" normal="1831/1834">1831-1834</unitdate></unittitle>
-          </did>
+            <unittitle>Index to deeds for lands sold for unpaid taxes, arranged by township</unittitle><unitdate type="inclusive" normal="1831/1834">1831-1834</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -262,14 +258,12 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [827516384639566158630]">3</container>
-              <unittitle>Arranged by township <unitdate type="inclusive" normal="1825/1851">1825-1851</unitdate></unittitle>
-            </did>
+              <unittitle>Arranged by township</unittitle><unitdate type="inclusive" normal="1825/1851">1825-1851</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [21240409548616310270915]">4</container>
-              <unittitle>Arranged roughly chronologically <unitdate type="inclusive" normal="1873/1874">1873-1874</unitdate></unittitle>
-            </did>
+              <unittitle>Arranged roughly chronologically</unittitle><unitdate type="inclusive" normal="1873/1874">1873-1874</unitdate></did>
             <odd>
               <p>(with a few earlier items 1867-1872 and a few property histories)</p>
             </odd>
@@ -282,10 +276,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [89944143244419415760]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1873/1876">1873-1876</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1873/1876">1873-1876</unitdate></did>
             <odd>
               <p>(with a few property histories and earlier items, 1836-1872)</p>
             </odd>
@@ -293,10 +284,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [404752943635168452554]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1824/1869" certainty="approximate">circa 1824-1869</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1824/1869" certainty="approximate">circa 1824-1869</unitdate></did>
             <odd>
               <p>(includes some wills, powers of attorney, and liens)</p>
             </odd>
@@ -305,8 +293,7 @@
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [0722352844480911756127]">7</container>
-            <unittitle>Abstracts of wills recorded <unitdate type="inclusive" normal="1840/1912" certainty="approximate">1840s-circa 1912</unitdate></unittitle>
-          </did>
+            <unittitle>Abstracts of wills recorded</unittitle><unitdate type="inclusive" normal="1840/1912" certainty="approximate">1840s-circa 1912</unitdate></did>
           <odd>
             <p>(arranged alphabetically, letter A missing)</p>
           </odd>
@@ -317,13 +304,11 @@
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume [03181442121656744]">8</container>
-            <unittitle>Tract book of village plats, with property histories for some lots <unitdate>undated</unitdate></unittitle>
-          </did>
+            <unittitle>Tract book of village plats, with property histories for some lots</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Abstracts of mortgages recorded <unitdate type="inclusive" normal="1829/1882">1829-1882</unitdate></unittitle>
-          </did>
+            <unittitle>Abstracts of mortgages recorded</unittitle><unitdate type="inclusive" normal="1829/1882">1829-1882</unitdate></did>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [6545294768910481260337]">9</container>
@@ -369,8 +354,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Abstracts of deeds and mortgages recorded <unitdate type="inclusive" normal="1825/1882" certainty="approximate">circa 1825-1882</unitdate></unittitle>
-          </did>
+            <unittitle>Abstracts of deeds and mortgages recorded</unittitle><unitdate type="inclusive" normal="1825/1882" certainty="approximate">circa 1825-1882</unitdate></did>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume [258450674810071971860]">16</container>
@@ -434,8 +418,7 @@
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle>Plat Maps <unitdate type="inclusive" normal="1825/1957" certainty="approximate">circa 1825-1957</unitdate> (Outsize unbound material)</unittitle>
-          </did>
+            <unittitle>Plat Maps  (Outsize unbound material)</unittitle><unitdate type="inclusive" normal="1825/1957" certainty="approximate">circa 1825-1957</unitdate></did>
           <c03 level="file">
             <did>
               <container type="box" label="Oversize Box [8641309845852484992677]">1</container>
@@ -466,8 +449,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Plat maps <unitdate type="inclusive" normal="1825/1912" certainty="approximate">circa 1825-1912</unitdate></unittitle>
-          </did>
+            <unittitle>Plat maps</unittitle><unitdate type="inclusive" normal="1825/1912" certainty="approximate">circa 1825-1912</unitdate></did>
           <odd>
             <p>(includes hand-drawn and blueprint maps of city and village plats and additions)</p>
           </odd>
