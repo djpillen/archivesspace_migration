@@ -19,7 +19,7 @@ def post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url
     json_to_aspace_successes = join(migration_stats_dir, 'json_to_aspace_successes.txt')
 
     for txt_document in [importer_stats_file, json_to_aspace_successes, json_to_aspace_errors]:
-        if os.path.exist(txt_document):
+        if os.path.exists(txt_document):
             os.remove(txt_document)
 
     start_time = datetime.now()
@@ -80,5 +80,8 @@ def main():
     username = 'admin'
     password = 'admin'
     post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url, username, password)
+
+if __name__ == "__main__":
+    main()
 
     
