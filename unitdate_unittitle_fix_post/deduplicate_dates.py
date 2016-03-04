@@ -103,7 +103,7 @@ def consolidate_duplicate_data(ead_dir):
 def main():
 	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 	aspace_ead_dir = join(project_dir, 'eads')
-	#remove_duplicate_unitdates(aspace_ead_dir)
+	remove_duplicate_unitdates(aspace_ead_dir)
 	consolidate_duplicate_data(aspace_ead_dir)
 
 if __name__ == "__main__":
