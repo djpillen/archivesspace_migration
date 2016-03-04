@@ -33,10 +33,10 @@ def consolidate_duplicate_data(ead_dir):
 		unittitles = tree.xpath('//did/unittitle')
 		rewrite = False
 		for unittitle in unittitles:
-			if 'altrender' in unittitles.attrib and unittitles.attrib['altrender'] == 'calcified':
+			if 'altrender' in unittitle.attrib and unittitle.attrib['altrender'] == 'calcified':
 				rewrite = True
-				del unittitle.attrib['calcified']
-				did = untitle.getparent()
+				del unittitle.attrib['altrender']
+				did = unittitle.getparent()
 				unitdates = did.xpath('./unitdate')
 				if len(unitdates) > 2:
 					inclusive_ranges = []
@@ -93,7 +93,7 @@ def consolidate_duplicate_data(ead_dir):
 def main():
 	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 	aspace_ead_dir = join(project_dir, 'eads')
-	remove_duplicate_unitdates(aspace_ead_dir)
+	#remove_duplicate_unitdates(aspace_ead_dir)
 	consolidate_duplicate_data(aspace_ead_dir)
 
 if __name__ == "__main__":
