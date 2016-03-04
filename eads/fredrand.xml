@@ -37,7 +37,8 @@
       <origination>
         <persname source="lcnaf" encodinganalog="100">Frederickson, Randa, collector.</persname>
       </origination>
-      <unittitle encodinganalog="245">Randa Frederickson collection.</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1894/1978">1894-1978</unitdate><unitdate type="inclusive" encodinganalog="245$f">undated</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861130 Aa 2; UAm</unitid>
+      <unittitle encodinganalog="245">Randa Frederickson collection. <unitdate type="inclusive" encodinganalog="245$f" normal="1894/1978">1894-1978</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861130 Aa 2; UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">0.5 linear feet</extent>
@@ -116,7 +117,11 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1894/1978">1894-1978</unitdate><physdesc altrender="whole">
+            <unittitle>
+              <unitdate type="inclusive">Undated</unitdate>
+              <unitdate type="inclusive" normal="1894/1978">1894-1978</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 folders</extent>
             </physdesc>
           </did>
@@ -141,12 +146,14 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle>Ladies Aid Society, Northport, Michigan: manuscript history and reminiscences of members, compiled</unittitle><unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></did>
+            <unittitle>Ladies Aid Society, Northport, Michigan: manuscript history and reminiscences of members, compiled <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></unittitle>
+          </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle>Leelanau Township Foundation (Northport)</unittitle><unitdate type="inclusive" normal="1945" certainty="approximate">circa 1945</unitdate></did>
+            <unittitle>Leelanau Township Foundation (Northport) <unitdate type="inclusive" normal="1945" certainty="approximate">circa 1945</unitdate></unittitle>
+          </did>
         </c02>
         <c02 level="file">
           <did>
@@ -157,7 +164,8 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><genreform normal="Photographs">Photographs</genreform></unittitle><unitdate type="inclusive" normal="1890/1969" certainty="approximate">circa 1890-1969</unitdate></did>
+          <unittitle><genreform normal="Photographs">Photographs</genreform>, <unitdate type="inclusive" normal="1890/1969" certainty="approximate">circa 1890-1969</unitdate></unittitle>
+        </did>
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
@@ -179,7 +187,8 @@
         <c02 level="file">
           <did>
             <container type="folder" label="Oversize Folder">1</container>
-            <unittitle>Northport Evangelical Lutheran Church building</unittitle><unitdate type="inclusive" normal="1910" certainty="approximate">circa 1910</unitdate></did>
+            <unittitle>Northport Evangelical Lutheran Church building <unitdate type="inclusive" normal="1910" certainty="approximate">circa 1910</unitdate></unittitle>
+          </did>
         </c02>
       </c01>
     </dsc>

@@ -37,7 +37,8 @@
       <origination>
         <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no97068662">Bald, F. Clever (Frederick Clever), 1897-1970.</persname>
       </origination>
-      <unittitle encodinganalog="245">F. Clever Bald papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1917/1919">1917-1919</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1936/1970">1936-1970</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85848 Aa 2</unitid>
+      <unittitle encodinganalog="245">F. Clever Bald papers <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1919">1917-1919</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1936/1970">1936-1970</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85848 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of history and director of the Michigan Historical Collections at the University of Michigan; professional correspondence, lecture and research notes, speeches, writings, and personal miscellanea.</abstract>
       <physdesc altrender="whole">
@@ -120,17 +121,27 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate><unitdate type="inclusive" normal="1938/1954">1938-1954</unitdate></did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate>
+              <unitdate type="inclusive" normal="1938/1954">1938-1954</unitdate>
+            </unittitle>
+          </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unitdate type="inclusive" normal="1955/1966">1955-1966</unitdate></did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1955/1966">1955-1966</unitdate>
+            </unittitle>
+          </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">3</container>
-            <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+            </unittitle>
+          </did>
         </c02>
       </c01>
       <c01 level="series">
@@ -208,7 +219,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">7</container>
-            <unittitle>Chester J. Antiau correspondence</unittitle><unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate></did>
+            <unittitle>Chester J. Antiau correspondence <unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate></unittitle>
+          </did>
         </c02>
       </c01>
     </dsc>
