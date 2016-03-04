@@ -38,7 +38,7 @@ def consolidate_duplicate_data(ead_dir):
 			if 'altrender' in unittitle.attrib and unittitle.attrib['altrender'] == 'calcified':
 				rewrite = True
 				del unittitle.attrib['altrender']
-				unittitle_text = unittitle.text.strip().encode('utf-8')
+				unittitle_text = re.sub(r'<(.*?)>','',etree.tostring(unittitle)).strip().encode('utf-8')
 				did = unittitle.getparent()
 				unitdates = did.xpath('./unitdate')
 				inclusive_ranges = []
@@ -67,7 +67,7 @@ def consolidate_duplicate_data(ead_dir):
 						new_unitdate_text = "{0}-{1}".format(min(inclusive_ranges), max(inclusive_ranges))
 						new_unitdate.text = new_unitdate_text
 					elif len(set(inclusive_ranges)) == 1:
-						new_unidate.attrib["normal"] = "{0}".format(inclusive_ranges[0])
+						new_unitdate.attrib["normal"] = "{0}".format(inclusive_ranges[0])
 						new_unitdate_text = "{0}".format(inclusive_ranges[0])
 						new_unitdate.text = new_unitdate_text
 					if unittitle_text.endswith(' ' + new_unitdate_text):
@@ -103,7 +103,7 @@ def consolidate_duplicate_data(ead_dir):
 def main():
 	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 	aspace_ead_dir = join(project_dir, 'eads')
-	remove_duplicate_unitdates(aspace_ead_dir)
+	#remove_duplicate_unitdates(aspace_ead_dir)
 	consolidate_duplicate_data(aspace_ead_dir)
 
 if __name__ == "__main__":
