@@ -59,28 +59,28 @@ def consolidate_duplicate_data(ead_dir):
 						did.remove(unitdate)
 					if inclusive_ranges:
 						new_unitdate = etree.Element("unitdate")
-						new_unitdate["type"] = "inclusive"
+						new_unitdate.attrib["type"] = "inclusive"
 						if len(inclusive_ranges) >= 2:
-							new_unitdate["normal"] = "{0}/{1}".format(min(inclusive_ranges), max(inclusive_ranges))
+							new_unitdate.attrib["normal"] = "{0}/{1}".format(min(inclusive_ranges), max(inclusive_ranges))
 							new_unitdate.text = "{0} - {1}".format(min(inclusive_ranges), max(inclusive_ranges))
 						elif len(inclusive_ranges) == 1:
-							new_unidate["normal"] = "{0}".format(inclusive_ranges[0])
+							new_unidate.attrib["normal"] = "{0}".format(inclusive_ranges[0])
 							new_unitdate.text = "{0}".format(inclusive_ranges[0])
 						did.append(new_unitdate)
 					if bulk_ranges:
 						new_unitdate = etree.Element("unitdate")
-						new_unitdate["type"] = "bulk"
+						new_unitdate.attrib["type"] = "bulk"
 						if len(bulk_ranges) >= 2:
-							new_unitdate["normal"] = "{0}/{1}".format(min(bulk_ranges), max(bulk_ranges))
+							new_unitdate.attrib["normal"] = "{0}/{1}".format(min(bulk_ranges), max(bulk_ranges))
 							new_unitdate.text = "{0} - {1}".format(min(bulk_ranges), max(bulk_ranges))
 						elif len(bulk_ranges) == 1:
-							new_unitdate["normal"] = "{0}".format(bulk_ranges[0])
+							new_unitdate.attrib["normal"] = "{0}".format(bulk_ranges[0])
 							new_unitdate.text = "{0}".format(bulk_ranges[0])
 						did.append(new_unitdate)
 					if non_normalized:
 						for date in non_normalized:
 							new_unitdate = etree.Element("unitdate")
-							new_unitdate["type"] = non_normalized[date]
+							new_unitdate.attrib["type"] = non_normalized[date]
 							new_unitdate.text = date
 							did.append(new_unitdate)
 		if rewrite:
@@ -91,7 +91,7 @@ def consolidate_duplicate_data(ead_dir):
 
 
 def main():
-	project_dir = ''
+	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 	aspace_ead_dir = join(project_dir, 'eads')
 	remove_duplicate_unitdates(aspace_ead_dir)
 	consolidate_duplicate_data(aspace_ead_dir)
