@@ -1,6 +1,7 @@
 from lxml import etree
 import os
 from os.path import join
+import re
 
 def remove_duplicate_unitdates(ead_dir):
 	for filename in os.listdir(ead_dir):
@@ -16,12 +17,13 @@ def remove_duplicate_unitdates(ead_dir):
 				for unitdate in unitdates:
 					normal = unitdate.get("normal","")
 					expression = unitdate.text.strip().encode('utf-8')
-					if normal not in unitdates_normal and expression not in unitdates_expression:
-						unitdates_normal.append(normal)
-						unitdates_expression.append(expression)
-					else:
-						unitdate.getparent().remove(unitdate)
-						rewrite = True
+					if normal:
+						if normal not in unitdates_normal and expression not in unitdates_expression:
+							unitdates_normal.append(normal)
+							unitdates_expression.append(expression)
+						else:
+							unitdate.getparent().remove(unitdate)
+							rewrite = True
 		if rewrite:
 			with open(join(ead_dir,filename),'w') as f:
 				f.write(etree.tostring(tree,encoding='utf-8',xml_declaration=True,pretty_print=True))
@@ -36,53 +38,61 @@ def consolidate_duplicate_data(ead_dir):
 			if 'altrender' in unittitle.attrib and unittitle.attrib['altrender'] == 'calcified':
 				rewrite = True
 				del unittitle.attrib['altrender']
+				unittitle_text = unittitle.text.strip().encode('utf-8')
 				did = unittitle.getparent()
 				unitdates = did.xpath('./unitdate')
-				if len(unitdates) > 2:
-					inclusive_ranges = []
-					bulk_ranges = []
-					non_normalized = {}
-					for unitdate in unitdates:
-						normal = unitdate.get('normal','')
-						date_type = unitdate.get('type','')
-						if normal:
-							dates = normal.split('/')
-							if date_type == "inclusive":
-								inclusive_ranges.extend(dates)
-							elif date_type == "bulk":
-								bulk_ranges.extend(dates)
-							else:
-								inclusive_ranges.extend(dates)
+				inclusive_ranges = []
+				bulk_ranges = []
+				non_normalized = {}
+				for unitdate in unitdates:
+					normal = unitdate.get('normal','')
+					date_type = unitdate.get('type','')
+					if normal:
+						dates = normal.split('/')
+						if date_type == "inclusive":
+							inclusive_ranges.extend([date.split('-')[0] for date in dates])
+						elif date_type == "bulk":
+							bulk_ranges.extend([date.split('-')[0] for date in dates])
 						else:
-							date = unitdate.text.strip().encode('utf-8')
-							non_normalized[date] = date_type
-						did.remove(unitdate)
-					if inclusive_ranges:
+							inclusive_ranges.extend([date.split('-')[0] for date in dates])
+					else:
+						date = unitdate.text.strip().encode('utf-8')
+						non_normalized[date] = date_type
+					did.remove(unitdate)
+				if inclusive_ranges:
+					new_unitdate = etree.Element("unitdate")
+					new_unitdate.attrib["type"] = "inclusive"
+					if len(set(inclusive_ranges)) >= 2:
+						new_unitdate.attrib["normal"] = "{0}/{1}".format(min(inclusive_ranges), max(inclusive_ranges))
+						new_unitdate_text = "{0}-{1}".format(min(inclusive_ranges), max(inclusive_ranges))
+						new_unitdate.text = new_unitdate_text
+					elif len(set(inclusive_ranges)) == 1:
+						new_unidate.attrib["normal"] = "{0}".format(inclusive_ranges[0])
+						new_unitdate_text = "{0}".format(inclusive_ranges[0])
+						new_unitdate.text = new_unitdate_text
+					if unittitle_text.endswith(' ' + new_unitdate_text):
+						unittitle.text = re.sub(r'[,\s]+' + new_unitdate_text + '$','',unittitle_text)
+					did.append(new_unitdate)
+				if bulk_ranges:
+					new_unitdate = etree.Element("unitdate")
+					new_unitdate.attrib["type"] = "bulk"
+					if len(set(bulk_ranges)) >= 2:
+						new_unitdate.attrib["normal"] = "{0}/{1}".format(min(bulk_ranges), max(bulk_ranges))
+						new_unitdate_text = "{0}-{1}".format(min(bulk_ranges), max(bulk_ranges))
+						new_unitdate.text = new_unitdate_text
+					elif len(set(bulk_ranges)) == 1:
+						new_unitdate.attrib["normal"] = "{0}".format(bulk_ranges[0])
+						new_unitdate_text = "{0}".format(bulk_ranges[0])
+						new_unitdate.text = new_unitdate_text
+					if unittitle_text.endswith(' ' + new_unitdate_text):
+						unittitle.text = re.sub(r'[,\s]+' + new_unitdate_text + '$','',unittitle_text)
+					did.append(new_unitdate)
+				if non_normalized:
+					for date in non_normalized:
 						new_unitdate = etree.Element("unitdate")
-						new_unitdate.attrib["type"] = "inclusive"
-						if len(inclusive_ranges) >= 2:
-							new_unitdate.attrib["normal"] = "{0}/{1}".format(min(inclusive_ranges), max(inclusive_ranges))
-							new_unitdate.text = "{0} - {1}".format(min(inclusive_ranges), max(inclusive_ranges))
-						elif len(inclusive_ranges) == 1:
-							new_unidate.attrib["normal"] = "{0}".format(inclusive_ranges[0])
-							new_unitdate.text = "{0}".format(inclusive_ranges[0])
+						new_unitdate.attrib["type"] = non_normalized[date]
+						new_unitdate.text = date
 						did.append(new_unitdate)
-					if bulk_ranges:
-						new_unitdate = etree.Element("unitdate")
-						new_unitdate.attrib["type"] = "bulk"
-						if len(bulk_ranges) >= 2:
-							new_unitdate.attrib["normal"] = "{0}/{1}".format(min(bulk_ranges), max(bulk_ranges))
-							new_unitdate.text = "{0} - {1}".format(min(bulk_ranges), max(bulk_ranges))
-						elif len(bulk_ranges) == 1:
-							new_unitdate.attrib["normal"] = "{0}".format(bulk_ranges[0])
-							new_unitdate.text = "{0}".format(bulk_ranges[0])
-						did.append(new_unitdate)
-					if non_normalized:
-						for date in non_normalized:
-							new_unitdate = etree.Element("unitdate")
-							new_unitdate.attrib["type"] = non_normalized[date]
-							new_unitdate.text = date
-							did.append(new_unitdate)
 		if rewrite:
 			with open(join(ead_dir,filename),'w') as f:
 				f.write(etree.tostring(tree,encoding="utf-8",xml_declaration=True,pretty_print=True))
