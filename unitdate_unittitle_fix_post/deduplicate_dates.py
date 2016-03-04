@@ -38,7 +38,6 @@ def consolidate_duplicate_data(ead_dir):
 			if 'altrender' in unittitle.attrib and unittitle.attrib['altrender'] == 'calcified':
 				rewrite = True
 				del unittitle.attrib['altrender']
-				unittitle_text = re.sub(r'<(.*?)>','',etree.tostring(unittitle)).strip().encode('utf-8')
 				did = unittitle.getparent()
 				unitdates = did.xpath('./unitdate')
 				inclusive_ranges = []
@@ -70,8 +69,6 @@ def consolidate_duplicate_data(ead_dir):
 						new_unitdate.attrib["normal"] = "{0}".format(inclusive_ranges[0])
 						new_unitdate_text = "{0}".format(inclusive_ranges[0])
 						new_unitdate.text = new_unitdate_text
-					if unittitle_text.endswith(' ' + new_unitdate_text):
-						unittitle.text = re.sub(r'[,\s]+' + new_unitdate_text + '$','',unittitle_text)
 					did.append(new_unitdate)
 				if bulk_ranges:
 					new_unitdate = etree.Element("unitdate")
@@ -84,8 +81,6 @@ def consolidate_duplicate_data(ead_dir):
 						new_unitdate.attrib["normal"] = "{0}".format(bulk_ranges[0])
 						new_unitdate_text = "{0}".format(bulk_ranges[0])
 						new_unitdate.text = new_unitdate_text
-					if unittitle_text.endswith(' ' + new_unitdate_text):
-						unittitle.text = re.sub(r'[,\s]+' + new_unitdate_text + '$','',unittitle_text)
 					did.append(new_unitdate)
 				if non_normalized:
 					for date in non_normalized:
