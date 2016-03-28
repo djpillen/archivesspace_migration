@@ -11,6 +11,8 @@ def add_container_barcodes(ead_dir):
     alumni_filenames = ['alumasso.xml','alumphot.xml']
     alumni_barcodes = {}
 
+    existing_barcodes = re.compile(r'\[[0-9]+\]$')
+
     av_boxes = {}
     dvd_boxes = {}
     cd_boxes = {}
@@ -60,6 +62,8 @@ def add_container_barcodes(ead_dir):
                 if 'type' in container.attrib and container.text:
                     container_type_label_num = container.attrib['type'] + container.attrib['label'] + container.text
                     if container_type_label_num in container_ids:
+                        if existing_barcodes.search(container.attrib['label']):
+                            container.attrib['label'] = re.sub(r'\[[0-9]+\]','',container.attrib['label']).strip()
                         container.attrib['label'] = container.attrib['label'] + ' ['+str(container_ids[container_type_label_num])+']'
 
         elif filename in subgrp_filenames:
@@ -81,6 +85,8 @@ def add_container_barcodes(ead_dir):
                     if 'type' in container.attrib:
                         container_type_label_num = container.attrib['type'] + container.attrib['label'] + container.text
                         if container_type_label_num in container_ids:
+                            if existing_barcodes.search(container.attrib['label']):
+                                container.attrib['label'] = re.sub(r'\[[0-9]+\]','',container.attrib['label']).strip()
                             container.attrib['label'] = container.attrib['label'] + ' ['+str(container_ids[container_type_label_num])+']'
 
         elif filename in alumni_filenames:
@@ -99,6 +105,8 @@ def add_container_barcodes(ead_dir):
                 if 'type' in container.attrib:
                     container_type_label_num = container.attrib['type'] + container.attrib['label'] + container.text
                     if container_type_label_num in alumni_barcodes:
+                        if existing_barcodes.search(container.attrib['label']):
+                            container.attrib['label'] = re.sub(r'\[[0-9]+\]','',container.attrib['label']).strip()
                         container.attrib['label'] = container.attrib['label'] + ' ['+str(alumni_barcodes[container_type_label_num])+']'
 
         with open(join(ead_dir,filename),'w') as eadout:

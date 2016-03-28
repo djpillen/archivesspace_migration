@@ -1,5 +1,6 @@
 from lxml import etree
 import csv
+import os
 from os.path import join
 
 def subject_term_identification(ead_dir, subjects_agents_dir):

@@ -1,4 +1,6 @@
 import getpass
+import os
+from os.path import join
 
 from aspace_migration.convert_ead_to_aspace_json import convert_ead_to_aspace_json
 from aspace_migration.post_json_to_aspace import post_json_to_aspace

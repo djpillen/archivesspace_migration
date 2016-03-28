@@ -6,6 +6,7 @@ from os.path import join
 def add_compound_agent_terms(ead_dir, subjects_agents_dir):
     compound_agent_terms = join(subjects_agents_dir, 'compound_agents_terms.csv')
 
+    compound_agent_terms_dict = {}
     term_type_dict = {}
 
     tags = ['corpname','persname','famname']
@@ -16,11 +17,12 @@ def add_compound_agent_terms(ead_dir, subjects_agents_dir):
             row_index = len(row) - 1
             index = 1
             agent = row[0]
-            term_type_dict[agent] = {}
+            compound_agent_terms_dict[agent] = []
             while index < row_index:
                 term = row[index]
                 term_type = row[index+1]
-                term_type_dict[agent][term] = term_type
+                compound_agent_terms_dict[agent].append(term)
+                term_type_dict[term] = term_type
                 index += 2
 
     for filename in os.listdir(ead_dir):
@@ -31,11 +33,11 @@ def add_compound_agent_terms(ead_dir, subjects_agents_dir):
                 agent_text = agent.text.strip().encode('utf-8')
                 if '---' in agent_text:
                     agent_text = agent_text.replace('---','- --')
-                if agent_text in term_type_dict:
-                    for term in term_type_dict[agent_text]:
+                if agent_text in compound_agent_terms_dict:
+                    for term in compound_agent_terms_dict[agent_text]:
                         new_term = etree.Element('term')
                         new_term.text = term
-                        new_term.attrib['type'] = term_type_dict[agent_text][term]
+                        new_term.attrib['type'] = term_type_dict[term]
                         agent.append(new_term)
         with open(join(ead_dir,filename),'w') as ead_out:
             ead_out.write(etree.tostring(tree,xml_declaration=True,encoding='utf-8',pretty_print=True))

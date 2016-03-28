@@ -10,6 +10,7 @@ from pre_aspace_cleanup.move_daos import move_daos
 from pre_aspace_cleanup.remove_and_between_dates import remove_and_between_dates
 from pre_aspace_cleanup.remove_extent_parens import remove_extent_parens
 from pre_aspace_cleanup.remove_expired_restrictions import remove_expired_restrictions
+from pre_aspace_cleanup.remove_nested_genreforms import remove_nested_genreforms
 
 from utilities.ead_cleanup.prettifydirectory import prettify_xml_in_directory
 
@@ -24,6 +25,7 @@ def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir):
 	remove_and_between_dates(ead_dir)
 	remove_extent_parens(ead_dir)
 	remove_expired_restrictions(ead_dir)
+	remove_nested_genreforms(ead_dir)
 	prettify_xml_in_directory(ead_dir, ead_dir)
 	print "*** RUN WALKER'S EXTENT NORMALIZATION SCRIPT ***"
 	print "*** COPY THE MASTER FILES TO THE LOCAL EAD DIR"

@@ -47,10 +47,12 @@ def post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url
             elif filename in successes:
                 print "{0} posted successfully".format(filename)
 
-    with open(json_to_aspace_errors,'w') as f:
-        f.write("\n".join(errors))
-    with open(json_to_aspace_successes,'w') as f:
-        f.write("\n".join(successes))
+    if errors:
+        with open(json_to_aspace_errors,'w') as f:
+            f.write("\n".join(errors))
+    if successes:
+        with open(json_to_aspace_successes,'w') as f:
+            f.write("\n".join(successes))
 
     end_time = datetime.now()
 

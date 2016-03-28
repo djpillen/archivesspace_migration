@@ -2,9 +2,11 @@ from lxml import etree
 import os
 from os.path import join
 
+special_cases = ['University of Michigan--Dearborn','University of Michigan--Flint','University of Michigan--Dearborn. Department of History','University of Wisconsin--Milwaukee','Lutheran Church--Missouri Synod']
+
+
 def build_text_to_authfilenumber_dict(ead_dir):
 	print "Building text_to_authfilenumber_dict"
-	special_cases = ['University of Michigan--Dearborn','University of Michigan--Flint','University of Michigan--Dearborn. Department of History','University of Wisconsin--Milwaukee','Lutheran Church--Missouri Synod']
 	text_to_authfilenumber_dict = {}
 	filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith('.xml')]
 	for filename in filenames:
@@ -14,7 +16,7 @@ def build_text_to_authfilenumber_dict(ead_dir):
 				subject_text = subject.text.strip().rstrip('.').encode('utf-8')
 				if subject.tag in ['corpname','persname','famname'] and '--' in subject_text:
 					subject_texts = subject_text.split('--')
-					joined = '--'.join(subject_texts[0:2])
+					joined = '--'.join(subject_texts[0:2]).rstrip(".")
 					if joined in special_cases:
 						subject_text = joined
 					else:
@@ -26,7 +28,6 @@ def build_text_to_authfilenumber_dict(ead_dir):
 	return text_to_authfilenumber_dict
 
 def apply_authfilenumbers(text_to_authfilenumber_dict, ead_dir):
-	special_cases = ['University of Michigan--Dearborn','University of Michigan--Flint','University of Michigan--Dearborn. Department of History','University of Wisconsin--Milwaukee','Lutheran Church--Missouri Synod']
 	filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith('.xml')]
 	for filename in filenames:
 		print "Propagating authfilenumbers in {0}".format(filename)
@@ -37,7 +38,7 @@ def apply_authfilenumbers(text_to_authfilenumber_dict, ead_dir):
 				subject_text = subject.text.strip().rstrip('.').encode('utf-8')
 				if subject.tag in ['corpname','persname','famname'] and '--' in subject_text:
 					subject_texts = subject_text.split('--')
-					joined = '--'.join(subject_texts[0:2])
+					joined = '--'.join(subject_texts[0:2]).rstrip(".")
 					if joined in special_cases:
 						subject_text = joined
 					else:

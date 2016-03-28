@@ -47,7 +47,7 @@ def main():
 			password = getpass.getpass("Enter your ASpace password: ")
 			run_aspace_preliminary_postings(aspace_ead_dir, subjects_agents_dir, digital_objects_dir, json_dir, resources_dir, migration_stats_dir, dspace_mets_dir, aspace_url, username, password)
 			print "*** RUN WALKER'S UNITDATE_UNITTITLE_FIX SCRIPT ***"
-			print "*** RUN THE CAPITALIZE UNITTITLE SCRIPT ***"
+			print "*** RUN THE RUN_UNITDATE_UNITTITLE_FIX_POST SCRIPT ***"
 		else:
 			print "Please fix the incorrect values and run the script again"
 			quit()

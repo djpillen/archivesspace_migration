@@ -50,7 +50,7 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
                     row.append(subject_uri)
                     subjects_data.append(row)
 
-    with open(posted_csv,'ab') as csv_out:
+    with open(posted_csv,'wb') as csv_out:
         writer = csv.writer(csv_out)
         writer.writerows(subjects_data)
 
