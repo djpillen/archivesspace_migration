@@ -37,7 +37,7 @@ def characterize_marcxmls(marcxml_dir, has_ead_dir, no_ead_dir, unknown_dir, ead
 		has_ead_link = False
 		if possible_ead_links:
 			possible_ead_link_texts = [ead_link.text.strip().encode('utf-8') for ead_link in possible_ead_links]
-			ead_link_texts = [ead_link for ead_link in possible_ead_link_texts if 'findaid' in eadlink]
+			ead_link_texts = [ead_link for ead_link in possible_ead_link_texts if 'findaid' in ead_link]
 			if ead_link_texts:
 				has_ead_link = True
 				ead_link_text = ead_link_texts[0]
@@ -50,7 +50,7 @@ def characterize_marcxmls(marcxml_dir, has_ead_dir, no_ead_dir, unknown_dir, ead
 						shutil.copy(join(marcxml_dir,filename),unknown_dir)
 				elif filename not in os.listdir(unknown_dir):
 					shutil.copy(join(marcxml_dir,filename),unknown_dir)
-		elif callnumber:
+		elif callnumber and not has_ead_link:
 			callnumber_text = callnumber[0].text.strip().encode('utf-8')
 			collectionid = False
 			collectionids = re.findall(r"^\d+",callnumber_text)
