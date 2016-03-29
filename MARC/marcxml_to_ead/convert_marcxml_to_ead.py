@@ -28,6 +28,7 @@ def make_langmaterial(marcxml_record):
 def make_unitdates(marcxml_record):
 	# Return a list of unitdates
 	# Parse like "for unitdate in unitdate: unitdate"
+	# Look in both 245 and 260 fields
 	pass
 
 def make_unitdate(marcxml_record, type):

@@ -24,7 +24,7 @@ def extract_ead_callnumbers_and_collectionids(ead_dir):
 		tree = etree.parse(join(ead_dir,filename))
 		callnumber = tree.xpath('//archdesc/did/unitid')[0].text.strip().encode('utf-8')
 		eadid = tree.xpath('//eadid')[0].text.strip().encode('utf-8')
-		collectionid = eadid.split('-')[-1]
+		collectionid = "-".join(eadid.split('-')[2:])
 		if callnumber not in ead_callnumbers:
 			ead_callnumbers.append(callnumber)
 		if collectionid not in ead_collectionids:
@@ -46,9 +46,11 @@ def characterize_marcxmls(marcxml_dir, has_ead_dir, no_ead_dir, unknown_dir, ead
 			if ead_link_texts:
 				has_ead_link = True
 				ead_link_text = ead_link_texts[0]
-				collectionids = re.findall(r"\d+$", ead_link_text)
-				if collectionids:
-					collectionid = collectionids[0]
+				eadids = re.findall(r"umich\-bhl\-[\d\.\-]+|\d+$", ead_link_text)
+				if eadids:
+					eadid = eadids[0]
+					if "-" in eadid:
+						collectionid = "-".join(eadid.split('-')[2:])
 					if collectionid in ead_collectionids and filename not in os.listdir(has_ead_dir):
 						shutil.copy(join(marcxml_dir,filename),has_ead_dir)
 					elif filename not in os.listdir(unknown_dir):
