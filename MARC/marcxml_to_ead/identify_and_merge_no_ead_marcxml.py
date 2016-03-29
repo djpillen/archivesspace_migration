@@ -4,6 +4,11 @@ from os.path import join
 import shutil
 import re
 
+def make_directories(directories):
+	for directory in directories:
+		if not os.path.exists(directory):
+			os.makedirs(directory)
+
 def clear_directories(directories):
 	for directory in directories:
 		print "Deleting files from {}".format(directory)
@@ -88,7 +93,7 @@ def merge_records(no_ead_dir, joined_dir):
 				f.write(etree.tostring(collection))
 
 def main():
-	ead_dir = 'C:/Users/djpillen/GitHub/vandura/Real_Masters_all'
+	ead_dir = 'D:/github/vandura/Real_Masters_all'
 	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 	marcxml_dir = join(project_dir, 'marcxml_all')
 	has_ead_dir = join(project_dir, 'marcxml_has_ead')
@@ -96,6 +101,7 @@ def main():
 	unknown_dir = join(project_dir, 'marcxml_unknown')
 	joined_dir = join(project_dir, 'marcxml_no_ead_joined')
 
+	make_directories([has_ead_dir, no_ead_dir, unknown_dir, joined_dir])
 	clear_directories([has_ead_dir, no_ead_dir, unknown_dir, joined_dir])
 
 	ead_callnumbers, ead_collectionids = extract_ead_callnumbers_and_collectionids(ead_dir)

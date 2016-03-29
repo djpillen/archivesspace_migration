@@ -4,7 +4,7 @@ from pre_aspace_cleanup.normalize_dates import normalize_dates
 from pre_aspace_cleanup.authfilenumber_urls_to_uris import authfilenumber_urls_to_uris
 from pre_aspace_cleanup.authfilenumber_propagation import authfilenumber_propagation
 from pre_aspace_cleanup.fetch_dspace_mets import fetch_dspace_mets
-from pre_aspace_cleanup.fix_unittitles_with_only_dates import fix_unittitles_with_only_dates
+from pre_aspace_cleanup.fix_collection_level_unittitle_commas import fix_collection_level_unittitle_commas
 from pre_aspace_cleanup.note_to_odd import note_to_odd
 from pre_aspace_cleanup.move_odds import move_odds
 from pre_aspace_cleanup.move_daos import move_daos
@@ -31,7 +31,6 @@ def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir):
 	remove_extent_parens(ead_dir)
 	remove_expired_restrictions(ead_dir)
 	remove_nested_genreforms(ead_dir)
-	fix_unittitles_with_only_dates(ead_dir)
 	prettify_xml_in_directory(ead_dir, ead_dir)
 	print "*** RUN WALKER'S EXTENT NORMALIZATION SCRIPT ***"
 	print "*** COPY THE MASTER FILES TO THE LOCAL EAD DIR"
