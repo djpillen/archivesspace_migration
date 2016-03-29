@@ -7,7 +7,7 @@ def remove_nested_genreforms(ead_dir):
 	filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith('.xml')]
 	removed_tags = {}
 	for filename in filenames:
-		print "Remove nested genfeforms from physdesc subelements in {0}".format(filename)
+		print "Remove nested genreforms from physdesc subelements in {0}".format(filename)
 		tree = etree.parse(join(ead_dir,filename))
 		physdesc_subelements = tree.xpath('//physfacet') + tree.xpath('//extent') + tree.xpath('//dimensions')
 		rewrite = False

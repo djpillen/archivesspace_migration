@@ -4,6 +4,12 @@ from os.path import join
 import shutil
 import re
 
+def clear_directories(directories):
+	for directory in directories:
+		print "Deleting files from {}".format(directory)
+		for filename in os.listdir(directory):
+			os.remove(join(directory,filename))
+
 def extract_ead_callnumbers_and_collectionids(ead_dir):
 	ead_callnumbers = []
 	ead_collectionids = []
@@ -26,12 +32,24 @@ def characterize_marcxmls(marcxml_dir, has_ead_dir, no_ead_dir, unknown_dir, ead
 		print "Characterizing {}".format(filename)
 		ns = {'marc': 'http://www.loc.gov/MARC21/slim'}
 		tree = etree.parse(join(marcxml_dir,filename))
-		ead_link = tree.xpath('//marc:datafield[@tag="856"]/marc:subfield[@code="u"]', namespaces=ns)
+		possible_ead_links = tree.xpath('//marc:datafield[@tag="856"]/marc:subfield[@code="u"]', namespaces=ns)
 		callnumber = tree.xpath('//marc:datafield[@tag="852"]/marc:subfield[@code="h"]', namespaces=ns)
-		if ead_link:
-			ead_link_text = ead_link[0].text.strip().encode('utf-8')
-			if 'findaid' in ead_link_text and filename not in os.listdir(has_ead_dir):
-				shutil.copy(join(marcxml_dir,filename),has_ead_dir)
+		has_ead_link = False
+		if possible_ead_links:
+			possible_ead_link_texts = [ead_link.text.strip().encode('utf-8') for ead_link in possible_ead_links]
+			ead_link_texts = [ead_link for ead_link in possible_ead_link_texts if 'findaid' in eadlink]
+			if ead_link_texts:
+				has_ead_link = True
+				ead_link_text = ead_link_texts[0]
+				collectionids = re.findall(r"\d+$", ead_link_text)
+				if collectionids:
+					collectionid = collectionids[0]
+					if collectionid in ead_collectionids and filename not in os.listdir(has_ead_dir):
+						shutil.copy(join(marcxml_dir,filename),has_ead_dir)
+					elif filename not in os.listdir(unknown_dir):
+						shutil.copy(join(marcxml_dir,filename),unknown_dir)
+				elif filename not in os.listdir(unknown_dir):
+					shutil.copy(join(marcxml_dir,filename),unknown_dir)
 		elif callnumber:
 			callnumber_text = callnumber[0].text.strip().encode('utf-8')
 			collectionid = False
@@ -77,6 +95,8 @@ def main():
 	no_ead_dir = join(project_dir, 'marcxml_no_ead')
 	unknown_dir = join(project_dir, 'marcxml_unknown')
 	joined_dir = join(project_dir, 'marcxml_no_ead_joined')
+
+	clear_directories([has_ead_dir, no_ead_dir, unknown_dir, joined_dir])
 
 	ead_callnumbers, ead_collectionids = extract_ead_callnumbers_and_collectionids(ead_dir)
 	characterize_marcxmls(marcxml_dir, has_ead_dir, no_ead_dir, unknown_dir, ead_callnumbers, ead_collectionids)
