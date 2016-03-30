@@ -4,7 +4,7 @@ from os.path import join
 import re
 
 def fix_collection_level_unittitle_commas(ead_dir):
-	filenames = [filename for filename in os.listdir(ead_dir)]
+	filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith(".xml")]
 	for filename in filenames:
 		print "Removing collection level unittitle/unitdate commas in {}".format(filename)
 		tree = etree.parse(join(ead_dir, filename))

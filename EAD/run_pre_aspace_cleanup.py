@@ -18,6 +18,7 @@ from pre_aspace_cleanup.wrap_unwrapped_unitdates import wrap_unwrapped_unitdates
 from utilities.ead_cleanup.prettifydirectory import prettify_xml_in_directory
 
 def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir):
+	fix_collection_level_unittitle_commas(ead_dir)
 	wrap_unwrapped_unitdates(ead_dir)
 	normalize_dates(ead_dir)
 	authfilenumber_urls_to_uris(ead_dir)
