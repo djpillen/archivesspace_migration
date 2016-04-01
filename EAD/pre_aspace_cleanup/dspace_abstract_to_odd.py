@@ -20,7 +20,7 @@ def dspace_abstract_to_odd(ead_dir, dspace_mets_dir):
                 did = dao.getparent()
                 c = did.getparent()
                 if href.startswith('http://hdl.handle.net/2027.42'):
-                    if not did.xpath('./odd') and not c.xpath('./odd') or (filename in add_odd):
+                    if not c.xpath('./odd') or (filename in add_odd):
                         handlepath = urlparse.urlparse(href).path
                         the_id = handlepath.split('/')[-1]
                         if the_id + '.xml' in os.listdir(dspace_mets_dir):

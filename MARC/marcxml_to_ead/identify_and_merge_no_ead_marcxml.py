@@ -95,7 +95,7 @@ def merge_records(no_ead_dir, joined_dir):
 				f.write(etree.tostring(collection))
 
 def main():
-	ead_dir = 'D:/github/vandura/Real_Masters_all'
+	ead_dir = 'C:/Users/djpillen/GitHub/vandura/Real_Masters_all'
 	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 	marcxml_dir = join(project_dir, 'marcxml_all')
 	has_ead_dir = join(project_dir, 'marcxml_has_ead')

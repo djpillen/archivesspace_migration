@@ -105,7 +105,6 @@ def subject_term_identification(ead_dir, subjects_agents_dir):
                 if row_nums.index(row_num) == (len(row_nums) - 1):
                     term = term.strip('.')
                 if term in terms_dict:
-                    print term
                     term_type_row = terms_types[row_num]
                     term_type = row[term_type_row]
                     term_type = type_dict[term_type]
@@ -145,14 +144,10 @@ def subject_term_identification(ead_dir, subjects_agents_dir):
                     writer.writerow([term])
         if len(terms_dict[term]) > 1:
             if term not in fixed_term_types and term not in multiple_justified:
-                print term, terms_dict[term]
                 multi += 1
                 with open(join(subjects_agents_dir, 'multiple_type_terms.csv'),'ab') as multi_csv:
                     writer = csv.writer(multi_csv)
                     writer.writerow([term,terms_dict[term]])
-    print unid
-    print multi
-    print total
 
     #Finally, write a CSV with aspaceified subjects to be posted via the API
     with open(ead_subjects,'rb') as unique_file:
@@ -161,7 +156,6 @@ def subject_term_identification(ead_dir, subjects_agents_dir):
             sub_tag = row[0]
             source = row[1]
             subject = row[2]
-            print subject
             first_term_type = type_dict[sub_tag]
             row_indexes = len(row) - 1
             if row_indexes == 3:
@@ -223,6 +217,7 @@ def subject_term_identification(ead_dir, subjects_agents_dir):
                 writer.writerow(new_row)
 
 def main():
+    print "Identifying subject term types"
     project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     aspace_ead_dir = join(project_dir, 'eads')
     subjects_agents_dir = join(project_dir,'subjects_agents')
