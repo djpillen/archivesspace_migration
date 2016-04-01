@@ -29,7 +29,7 @@ def make_filedesc(record):
 	return filedesc
 
 def make_titleproper(record):
-	titleproper = "Finding aid for the {}".format(extract_collection_title(record))
+	titleproper = "Finding aid for the " + extract_collection_title(record)
 
 	return E.titleproper(titleproper)
 
@@ -37,7 +37,7 @@ def make_sponsor(record):
 	sponsor = record.xpath("./marc:datafield[@tag='536']/marc:subfield[@code='a']", namespaces=ns)
 
 	if sponsor:
-		return E.sponsor(sponsor[0].text.strip().encode("utf-8"))
+		return E.sponsor(sponsor[0].text.strip())
 	else:
 		return ""
 
@@ -65,7 +65,7 @@ def make_archdesc(record):
 		make_bioghist(record),
 		make_arrangement(record),
 		make_scopecontent(record),
-		make_controlaccess(record)
+		make_controlaccess([record])
 		)
 
 	return archdesc
@@ -96,7 +96,7 @@ def make_unitid(record):
 	mirlyn_record = record.xpath("./marc:controlfield[@tag='001']", namespaces=ns)
 
 	if call_number:
-		unitid = E.unitid(call_number[0].text.strip().encode("utf-8"))
+		unitid = E.unitid(call_number[0].text.strip())
 	elif mirlyn_record:
 		unitid = E.unitid("NO CALL NUMBER -- {}".format(mirlyn_record[0].text.strip()))
 	else:
@@ -127,10 +127,10 @@ def make_langmaterial(record):
 
 	if langmaterials:
 		langmaterial = langmaterials[0]
-		language_note = langmaterial.xpath("./marc:subfield[@code='a']", namespaces=ns)[0].text.strip().encode("utf-8")
+		language_note = langmaterial.xpath("./marc:subfield[@code='a']", namespaces=ns)[0].text.strip()
 		materials_specified = langmaterial.xpath("./marc:subfield[@code='3']", namespaces=ns)
 		if materials_specified:
-			language_note += ": {}".format(materials_specified[0].text.strip().encode("utf-8"))
+			language_note += ": {}".format(materials_specified[0].text.strip())
 
 		return E.langmaterial(language_note)
 	else:
@@ -157,7 +157,7 @@ def make_unitdates(record):
 	return unitdates
 
 def make_unitdate(unitdate, date_label, date_type):
-	expression = unitdate.text.strip().encode("utf-8")
+	expression = unitdate.text.strip()
 	
 	return E.unitdate({"label":date_label,"type":date_type}, expression)
 
@@ -171,14 +171,14 @@ def extract_collection_title(record):
 	number_of_part = title_section.xpath("./marc:subfield[@code='n']", namespaces=ns)
 	name_of_part = title_section.xpath("./marc:subfield[@code='p']", namespaces=ns)
 
-	collection_title = main_title[0].text.strip().encode("utf-8")
-	collection_title += " {}".format(subtitle[0].text.strip().encode("utf-8")) if subtitle else ""
-	collection_title += " {}".format(medium[0].text.strip().encode("utf-8")) if medium else ""
-	collection_title += " {}".format(number_of_part[0].text.strip().encode("utf-8")) if number_of_part else ""
-	collection_title += " {}".format(name_of_part[0].text.strip().encode("utf-8")) if name_of_part else ""
-	collection_title += "/ {}".format(responsibility[0].text.strip().encode("utf-8")) if responsibility else ""
+	collection_title = main_title[0].text.strip()
+	collection_title += " " + subtitle[0].text.strip() if subtitle else ""
+	collection_title += " {}".format(medium[0].text.strip()) if medium else ""
+	collection_title += " {}".format(number_of_part[0].text.strip()) if number_of_part else ""
+	collection_title += " {}".format(name_of_part[0].text.strip()) if name_of_part else ""
+	collection_title += "/ " + responsibility[0].text.strip() if responsibility else ""
 
-	return collection_title.rstrip(",").decode("utf-8")
+	return collection_title.rstrip(",")
 
 def make_physdescs(record):
 	physdescs = []
@@ -207,7 +207,7 @@ def make_extent(physdesc):
 
 	if extents:
 		extent = extents[0]
-		return E.extent(extent.text.strip().encode("utf-8"))
+		return E.extent(extent.text.strip())
 	else:
 		return ""
 
@@ -217,7 +217,7 @@ def make_physfacet(physdesc):
 	if physfacets:
 		physfacet_note = ""
 		for physfacet in physfacets:
-			physfacet_note += "\n{}".format(physfacet.text.strip().encode("utf-8"))
+			physfacet_note += "\n" + physfacet.text.strip()
 		return E.physfacet(physfacet_note)
 	else:
 		return ""
@@ -228,8 +228,8 @@ def make_dimensions(physdesc, record):
 
 	if dimensions or durations:
 		dimensions_texts = []
-		dimensions_texts.extend([dimension.text.strip().encode("utf-8") for dimension in dimensions])
-		dimensions_texts.extend([duration.text.strip().encode("utf-8") for duration in durations])
+		dimensions_texts.extend([dimension.text.strip() for dimension in dimensions])
+		dimensions_texts.extend([duration.text.strip() for duration in durations])
 		dimensions_text = "; ".join(dimensions_texts)
 
 		return E.dimensions(dimensions_text)
@@ -240,7 +240,7 @@ def make_phystech(record):
 	phystechs = record.xpath("./marc:datafield[@tago='538']/marc:subfield[@code='a']", namespaces=ns)
 
 	if phystechs:
-		phystech = phystechs[0].text.strip().encode("utf-8")
+		phystech = phystechs[0].text.strip()
 
 		return E.phystech(phystech)
 	else:
@@ -272,7 +272,7 @@ def make_altformavail(record):
 	if altformavails:
 		altformavail = altformavails[0]
 		altformavail_notes = altformavail.xpath("./marc:subfield[@code='a']", namespaces=ns) + altformavail.xpath("./marc:subfield[@code='3']", namespaces=ns)
-		altformavail_texts = [altformavail.text.strip().encode("utf-8") for altformavail in altformavail_notes]
+		altformavail_texts = [altformavail.text.strip() for altformavail in altformavail_notes]
 		altformavail_text = " ".join(altformavail_texts)
 
 		return E.altformavail(altformavail_text)
@@ -286,7 +286,7 @@ def make_originalsloc(record):
 		originalsloc = originalslocs[0]
 		originalsloc_note = ""
 		for subfield in originalsloc.xpath("./marc:subfield", namespaces=ns):
-			originalsloc_note += "\n{}".format(subfield.text.strip().encode("utf-8"))
+			originalsloc_note += "\n{}".format(subfield.text.strip())
 
 		return E.originalsloc(originalsloc_note.strip())
 	else:
@@ -296,7 +296,7 @@ def make_otherfindaid(record):
 	otherfindaids = record.xpath("./marc:datafield[@tag='555']/marc:subfield[@code='a']", namespaces=ns)
 
 	if otherfindaids:
-		otherfindaid = otherfindaids[0].text.strip().encode("utf-8")
+		otherfindaid = otherfindaids[0].text.strip()
 		return E.otherfindaid(otherfindaid)
 	else:
 		return ""
@@ -308,7 +308,7 @@ def make_relatedmaterial(record):
 		relatedmaterial = relatedmaterials[0]
 		relatedmaterial_note = ""
 		for subfield in relatedmaterial.xpath("./marc:subfield", namespaces=ns):
-			relatedmaterial_note += "\n{}".format(subfield.text.strip().encode("utf-8"))
+			relatedmaterial_note += "\n{}".format(subfield.text.strip())
 
 		return E.relatedmaterial(relatedmaterial_note.strip())
 	else:
@@ -319,10 +319,10 @@ def make_custodhist(record):
 
 	if custodhists:
 		custodhist = custodhists[0]
-		custodhist_note = custodhist.xpath("./marc:subfield[@code='a']", namespaces=ns)[0].text.strip().encode("utf-8")
+		custodhist_note = custodhist.xpath("./marc:subfield[@code='a']", namespaces=ns)[0].text.strip()
 		materials_specified = custodhist.xpath("./marc:subfield[@code='3']", namespaces=ns)
 		if materials_specified:
-			language_note += ": {}".format(materials_specified[0].text.strip().encode("utf-8"))
+			custodhist_note += ": {}".format(materials_specified[0].text.strip())
 
 		return E.custodhist(custodhist_note)
 	else:
@@ -334,10 +334,10 @@ def make_accessrestrict(record):
 	if accessrestricts:
 		accessrestrict = accessrestricts[0]
 		accessrestrict_statement = accessrestrict.xpath("./marc:subfield[@code='a']", 
-										namespaces=ns)[0].text.strip().encode("utf-8")
+										namespaces=ns)[0].text.strip()
 		if accessrestrict.xpath("./marc:subfield[@code='2']", namespaces=ns):
 			accessrestrict_statement += " {}".format(accessrestrict.xpath("./marc:subfield[@code='2']", 
-											namespaces=ns)[0].text.strip().encode("utf-8"))
+											namespaces=ns)[0].text.strip())
 		return E.accessrestrict(accessrestrict_statement)
 	else:
 		return ""
@@ -346,7 +346,7 @@ def make_userestrict(record):
 	userestrict = record.xpath("./marc:datafield[@tag='540']/marc:subfield[@code='a']", namespaces=ns)
 
 	if userestrict:
-		return E.userestrict(userestrict[0].text.strip().encode("utf-8"))
+		return E.userestrict(userestrict[0].text.strip())
 	else:
 		return ""
 
@@ -354,7 +354,7 @@ def make_acqinfo(record):
 	acqinfo = record.xpath("./marc:datafield[@tag='541']/marc:subfield[@code='a']", namespaces=ns)
 
 	if acqinfo:
-		return E.acqinfo(acqinfo[0].text.strip().encode("utf-8"))
+		return E.acqinfo(acqinfo[0].text.strip())
 	else:
 		return ""
 
@@ -362,7 +362,7 @@ def make_accruals(record):
 	accruals = record.xpath("./marc:datafield[@tag='584']/marc:subfield[@code='a']", namespaces=ns)
 
 	if accruals:
-		return E.accruals(accruals[0].text.strip().encode("utf-8"))
+		return E.accruals(accruals[0].text.strip())
 	else:
 		return ""
 
@@ -374,12 +374,12 @@ def make_bioghist(record):
 		bioghist_statement = ""
 		if bioghist.xpath("./marc:subfield[@code='a']", namespaces=ns):
 			bioghist_statement += bioghist.xpath("./marc:subfield[@code='a']", 
-									namespaces=ns)[0].text.strip().encode("utf-8")
+									namespaces=ns)[0].text.strip()
 		if bioghist.xpath("./marc:subfield[@code='b']", namespaces=ns):
 			bioghist_statement += " " + bioghist.xpath("./marc:subfield[@code='b']", 
-															namespaces=ns)[0].text.strip().encode("utf-8")
+															namespaces=ns)[0].text.strip()
 
-		return E.bioghist(bioghist_statement.decode("utf-8"))
+		return E.bioghist(bioghist_statement)
 	else:
 		return ""
 
@@ -389,10 +389,10 @@ def make_scopecontent(record):
 	if scopecontents:
 		scopecontent = scopecontents[0]
 		scopecontent_notes = scopecontent.xpath("./marc:subfield[@code='a']", namespaces=ns) + scopecontent.xpath("./marc:subfield[@code='b']", namespaces=ns)
-		scopecontent_texts = [scopecontent.text.strip().encode("utf-8") for scopecontent in scopecontent_notes]
+		scopecontent_texts = [scopecontent.text.strip() for scopecontent in scopecontent_notes]
 		scopecontent_text = " ".join(scopecontent_texts)
 
-		return E.scopecontent(scopecontent_text.decode("utf-8"))
+		return E.scopecontent(scopecontent_text)
 	else:
 		return ""
 
@@ -402,29 +402,30 @@ def make_arrangement(record):
 	if arrangements:
 		arrangement = arrangements[0]
 		arrangement_notes = arrangement.xpath("./marc:subfield[@code='a']", namespaces=ns) + arrangement.xpath("./marc:subfield[@code='b']", namespaces=ns)
-		arrangement_texts = [arrangement.text.strip().encode("utf-8") for arrangement in arrangement_notes]
+		arrangement_texts = [arrangement.text.strip() for arrangement in arrangement_notes]
 		arrangement_text = " ".join(arrangement_texts)
 
 		return E.arrangement(arrangement_text)
 	else:
 		return ""
 
-def make_controlaccess(record):
+def make_controlaccess(records):
 	controlaccess = E.controlaccess()
 
-	subjects = make_subjects(record)
-	persnames = make_persnames(record)
-	famnames = make_famnames(record)
-	corpnames = make_corpnames(record)
+	for record in records:
+		subjects = make_subjects(record)
+		persnames = make_persnames(record)
+		famnames = make_famnames(record)
+		corpnames = make_corpnames(record)
 
-	for subject in subjects:
-		controlaccess.append(subject)
-	for persname in persnames:
-		controlaccess.append(persname)
-	for famname in famnames:
-		controlaccess.append(famname)
-	for corpname in corpnames:
-		controlaccess.append(corpname)
+		for subject in subjects:
+			controlaccess.append(subject)
+		for persname in persnames:
+			controlaccess.append(persname)
+		for famname in famnames:
+			controlaccess.append(famname)
+		for corpname in corpnames:
+			controlaccess.append(corpname)
 
 	return controlaccess
 
@@ -510,10 +511,10 @@ def make_subject(subject, term_types, indicator_sources, alternate_sources):
 			source = indicator_sources[indicator]
 			atts["source"] = source
 			indicator_source_found = True
-	elif alternate_sources and not indicator_source_found:
+	if alternate_sources and not indicator_source_found:
 		for code in alternate_sources:
 			if subject.xpath("./marc:subfield[@code={}]".format(code), namespaces=ns):
-				source = subject.xpath("./marc:subfield[@code={}".format(code))[0].text.strip().encode("utf-8")
+				source = subject.xpath("./marc:subfield[@code={}]".format(code), namespaces=ns)[0].text.strip()
 				atts["source"] = source
 
 	subject_element = E.subject(atts)
@@ -522,8 +523,8 @@ def make_subject(subject, term_types, indicator_sources, alternate_sources):
 		code = subfield.get("code", "")
 		if code in term_types:
 			term_type = term_types[code]
-			term_text = subfield.text.strip().encode("utf-8")
-			term = E.term({"type":term_type}, term_text.decode("utf-8"))
+			term_text = subfield.text.strip()
+			term = E.term({"type":term_type}, term_text)
 			subject_element.append(term)
 
 	return subject_element
@@ -556,7 +557,7 @@ def make_persname(persname, context):
 
 	persname_element = E.persname(atts)
 
-	primary_and_rest_of_name = persname.xpath("./marc:subfield[@code='a']", namespaces=ns)[0].text.strip().encode("utf-8").rstrip(",")
+	primary_and_rest_of_name = persname.xpath("./marc:subfield[@code='a']", namespaces=ns)[0].text.strip().rstrip(",")
 	name_parts = primary_and_rest_of_name.split(",")
 	if len(name_parts) > 1:
 		primary_name = name_parts[0].strip()
@@ -564,8 +565,8 @@ def make_persname(persname, context):
 	else:
 		primary_name = name_parts[0].strip()
 		rest_of_name = ""
-	persname_element.append(E.primary_name(primary_name.decode("utf-8")))
-	persname_element.append(E.rest_of_name(rest_of_name.decode("utf-8")))
+	persname_element.append(E.primary_name(primary_name))
+	persname_element.append(E.rest_of_name(rest_of_name))
 
 	persname_mappings = {"b":"number", "c":"title", "d": "dates", "q": "fuller_form"}
 	for subfield in persname.xpath("./marc:subfield", namespaces=ns):
@@ -573,7 +574,7 @@ def make_persname(persname, context):
 		if code in persname_mappings:
 			tag = persname_mappings[code]
 			element = etree.Element(tag)
-			element.text = subfield.text.strip().encode("utf-8")
+			element.text = subfield.text.strip()
 			persname_element.append(element)
 
 	term_mappings = {"t": "uniform_title", "v":"genre_form", "x": "topical", "y": "temporal", "z": "geographic"}
@@ -581,7 +582,7 @@ def make_persname(persname, context):
 		code = subfield.get("code", "")
 		if code in term_mappings:
 			term_type = term_mappings[code]
-			term = E.term({"type":term_type}, subfield.text.strip().encode("utf-8"))
+			term = E.term({"type":term_type}, subfield.text.strip())
 			persname_element.append(term)
 
 	return persname_element
@@ -605,7 +606,7 @@ def make_corpname(corpname, context):
 		if source_indicator in source_mappings:
 			source = source_mappings[source_indicator]
 		elif corpname.xpath("./marc:subfield[@code='2']", namespaces=ns):
-			source = corpname.xpath("./marc:subfield[@code='2']", namespaces=ns)[0].text.strip().encode("utf-8")
+			source = corpname.xpath("./marc:subfield[@code='2']", namespaces=ns)[0].text.strip()
 		else:
 			source = "local"
 
@@ -619,7 +620,7 @@ def make_corpname(corpname, context):
 		if code in corpname_mappings:
 			tag = corpname_mappings[code]
 			element = etree.Element(tag)
-			element.text = subfield.text.strip().encode("utf-8").decode("utf-8")
+			element.text = subfield.text.strip()
 			corpname_element.append(element)
 
 	term_mappings = {"t": "uniform_title", "v":"genre_form", "x": "topical", "y": "temporal", "z": "geographic"}
@@ -627,7 +628,7 @@ def make_corpname(corpname, context):
 		code = subfield.get("code", "")
 		if code in term_mappings:
 			term_type = term_mappings[code]
-			term = E.term({"type":term_type}, subfield.text.strip().encode("utf-8"))
+			term = E.term({"type":term_type}, subfield.text.strip())
 			corpname_element.append(term)
 
 	return corpname_element
@@ -663,7 +664,7 @@ def make_famname(famname, context):
 		if code in famname_mappings:
 			tag = famname_mappings[code]
 			element = etree.Element(tag)
-			element.text = subfield.text.strip().encode("utf-8")
+			element.text = subfield.text.strip()
 			famname_element.append(element)
 
 	term_mappings = {"t": "uniform_title", "v":"genre_form", "x": "topical", "y": "temporal", "z": "geographic"}
@@ -671,7 +672,7 @@ def make_famname(famname, context):
 		code = subfield.get("code", "")
 		if code in term_mappings:
 			term_type = term_mappings[code]
-			term = E.term({"type":term_type}, subfield.text.strip().encode("utf-8"))
+			term = E.term({"type":term_type}, subfield.text.strip())
 			famname_element.append(term)
 
 	return famname_element
@@ -712,24 +713,58 @@ def make_odds(record):
 def make_odd(odd, tag_mappings):
 	tag = odd.get("tag", "")
 	head_text = tag_mappings[tag]
-	note_text = ""
-	for subfield in odd.xpath("./marc:subfield", namespaces=ns):
-		note_text += "\n{}".format(subfield.text.strip().encode("utf-8"))
+	odd_element = E.odd(E.head(head_text))
 
-	return E.odd(E.head(head_text), E.p(note_text))
+	for subfield in odd.xpath("./marc:subfield", namespaces=ns):
+		note_text = subfield.text.strip()
+		odd_element.append(E.p(note_text))
+
+	return odd_element
 
 def make_dsc(main_record, other_records):
-	pass
+	dsc = E.dsc(
+		make_series(main_record),
+		)
+
+	for record in other_records:
+		dsc.append(make_series(record))
+
+	return dsc
 
 def make_series(record):
-	pass
+	series = E.c01({"level":"series"},
+		make_series_did(record)
+		)
+
+	odds = make_odds(record)
+	for odd in odds:
+		series.append(odd)
+
+	return series
+
+def make_series_did(record):
+	did = E.did(
+		make_unittitle(record),
+		make_accessrestrict(record),
+		make_userestrict(record)
+		)
+
+	physdescs = make_physdescs(record)
+	for physdesc in physdescs:
+		did.append(physdesc)
+
+	unitdates = make_unitdates(record)
+	for unitdate in unitdates:
+		did.append(unitdate)
+
+	return did
 
 def make_ead_with_series(records):
 	main_record = identify_main_record(records)
 	if main_record:
 		other_records = [record for record in records if record not in main_record]
 		archdesc = make_archdesc(main_record)
-		controlaccess = make_controlaccess(other_records)
+		controlaccess = make_controlaccess(records)
 		dsc = make_dsc(main_record, other_records)
 		archdesc.append(controlaccess)
 		archdesc.append(dsc)
