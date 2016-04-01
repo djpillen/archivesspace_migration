@@ -16,7 +16,7 @@ from pre_aspace_cleanup.dspace_abstract_to_odd import dspace_abstract_to_odd
 def run_aspace_prep(aspace_ead_dir, subjects_agents_dir, dspace_mets_dir):
 	camelcase_attributes(aspace_ead_dir)
 	remove_online_physlocs(aspace_ead_dir)
-	add_classifications(aspace_ead_dir)
+	add_classifications(aspace_ead_dir, beal_classifications)
 	amend_duplicate_call_numbers(aspace_ead_dir)
 	skip_nested_items(aspace_ead_dir)
 	dspace_abstract_to_odd(aspace_ead_dir, dspace_mets_dir)
@@ -29,8 +29,9 @@ def run_aspace_prep(aspace_ead_dir, subjects_agents_dir, dspace_mets_dir):
 def main():
 	aspace_ead_dir = 'eads'
 	subjects_agents_dir = 'subjects_agents'
+	beal_classifications = 'beal_classifications.csv'
 	dspace_mets_dir = 'C:/Users/djpillen/GitHub/dspace_mets'
-	run_aspace_prep(aspace_ead_dir, subjects_agents_dir, dspace_mets_dir)
+	run_aspace_prep(aspace_ead_dir, subjects_agents_dir, beal_classifications, dspace_mets_dir)
 
 if __name__ == "__main__":
 	main()

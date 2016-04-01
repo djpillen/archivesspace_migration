@@ -60,12 +60,12 @@ def characterize_marcxmls(marcxml_dir, has_ead_dir, no_ead_dir, unknown_dir, ead
 		elif callnumber and not has_ead_link:
 			callnumber_text = callnumber[0].text.strip().encode('utf-8')
 			collectionid = False
-			collectionids = re.findall(r"^\d+",callnumber_text)
+			collectionids = re.findall(r"^[\d\.]+",callnumber_text)
 			if collectionids:
 				collectionid = collectionids[0]
 			if callnumber_text in ead_callnumbers and filename not in os.listdir(has_ead_dir):
 				shutil.copy(join(marcxml_dir,filename),has_ead_dir)
-			elif collectionid and collectionid in ead_collectionids and filename not in os.listdir(has_ead_dir):
+			elif collectionid and (collectionid in ead_collectionids or collectionid.startswith("87265")) and filename not in os.listdir(has_ead_dir):
 				shutil.copy(join(marcxml_dir,filename),has_ead_dir)
 			elif filename not in os.listdir(no_ead_dir):
 				shutil.copy(join(marcxml_dir,filename),no_ead_dir)

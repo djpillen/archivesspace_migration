@@ -64,7 +64,7 @@ def main():
     aspace_url = 'http://localhost:8089'
     username = 'admin'
     password = 'admin'
-    convert_ead_to_aspace_json(aspace_ead_dir, json_dir, aspace_url, username, password)
+    convert_ead_to_aspace_json(aspace_ead_dir, json_dir, migration_stats_dir, aspace_url, username, password)
 
 if __name__ == "__main__":
     main()

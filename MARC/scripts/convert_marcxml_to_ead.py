@@ -2,16 +2,41 @@ from lxml.builder import E
 from lxml import etree
 import os
 from os.path import join
+import shutil
 import uuid
 
 ns = {'marc': 'http://www.loc.gov/MARC21/slim'}
 
 def identify_main_record(records):
-	# Use some combination of looking for LKR and 580 fields to find the "main record"
-	pass
+	# Use some combination of looking for LKR and 580 and 773 fields to find the "main record"
+	# The main record will not have a LKR, 580, or 773 field
+	main_record_identified = False
+	records_count = len(records)
+	five80s_count = 0
+	seven73s_count = 0
+	LKRs_count = 0
+	main_records = []
+	other_records = []
+	for record in records:
+		five80s = record.xpath("./marc:datafield[@tag='580']", namespaces=ns)
+		five80s_count += len(five80s)
+		seven73s = record.xpath("./marc:datafield[@tag='773']", namespaces=ns)
+		seven73s_count += len(seven73s)
+		LKRs = record.xpath("./marc:datafield[@tag='LKR']", namespaces=ns)
+		LKRs_count += len(LKRs)
+		if five80s or seven73s or LKRs:
+			other_records.append(record)
+		else:
+			main_records.append(record)
+
+	if (len(main_records) == 1) and (len(main_records) + len(other_records) == records_count):
+		return main_records[0], other_records
+	else:
+		return False, False
+
 
 def make_eadheader(record):
-	eadheader = E.header(
+	eadheader = E.eadheader(
 		make_filedesc(record),
 		make_profiledesc(record)
 		)
@@ -54,7 +79,7 @@ def make_descrules(record):
 	descrules = record.xpath("./marc:datafield[@tag='040']/marc:subfield[@code='e']", namespaces=ns)
 
 	if descrules:
-		return E.descrules(descrules[0].text.strip().encode('utf-8'))
+		return E.descrules(descrules[0].text.strip())
 	else:
 		return ""
 
@@ -78,7 +103,7 @@ def make_collection_did(record):
 		make_langmaterial(record),
 		)
 
-	unitdates = make_unitdates(record)
+	unitdates = make_unitdates(record, "collection")
 	for unitdate in unitdates:
 		did.append(unitdate)
 
@@ -136,7 +161,7 @@ def make_langmaterial(record):
 	else:
 		return ""
 
-def make_unitdates(record):
+def make_unitdates(record, level):
 	unitdates = []
 
 	inclusive_dates = record.xpath("./marc:datafield[@tag='245']/marc:subfield[@code='f']", namespaces=ns)
@@ -150,26 +175,27 @@ def make_unitdates(record):
 			unitdates.append(make_unitdate(bulk_date, "creation", "bulk"))
 	elif publication_dates:
 		for publication_date in publication_dates:
-			unitdates.append(make_unitdate(publication_date, "publication", "single"))
-	else:
+			unitdates.append(make_unitdate(publication_date, "creation", "inclusive"))
+	elif level == "collection":
 		unitdates.append(E.unitdate("[No date provided]"))
 
 	return unitdates
 
 def make_unitdate(unitdate, date_label, date_type):
-	expression = unitdate.text.strip()
+	expression = unitdate.text.strip().rstrip(".")
 	
 	return E.unitdate({"label":date_label,"type":date_type}, expression)
 
 def extract_collection_title(record):
 	title_section = record.xpath("./marc:datafield[@tag='245']",namespaces=ns)[0]
 
+	"""
 	main_title = title_section.xpath("./marc:subfield[@code='a']", namespaces=ns)
 	subtitle = title_section.xpath("./marc:subfield[@code='b']", namespaces=ns)
 	responsibility = title_section.xpath("./marc:subfield[@code='c']", namespaces=ns)
 	medium = title_section.xpath("./marc:subfield[@code='h']", namespaces=ns)
 	number_of_part = title_section.xpath("./marc:subfield[@code='n']", namespaces=ns)
-	name_of_part = title_section.xpath("./marc:subfield[@code='p']", namespaces=ns)
+	name_of_part = title_section.xpath("./marc:subfield[@code='p']", namespaces=ns))
 
 	collection_title = main_title[0].text.strip()
 	collection_title += " " + subtitle[0].text.strip() if subtitle else ""
@@ -177,8 +203,16 @@ def extract_collection_title(record):
 	collection_title += " {}".format(number_of_part[0].text.strip()) if number_of_part else ""
 	collection_title += " {}".format(name_of_part[0].text.strip()) if name_of_part else ""
 	collection_title += "/ " + responsibility[0].text.strip() if responsibility else ""
+	"""
 
-	return collection_title.rstrip(",")
+	title_codes = ["a","b","c","h","n","p"]
+	collection_title = ""
+	for subfield in title_section.xpath("./marc:subfield", namespaces=ns):
+		code = subfield.get("code", "")
+		if code in title_codes:
+			collection_title += " " + subfield.text.strip()
+
+	return collection_title.strip().rstrip(",")
 
 def make_physdescs(record):
 	physdescs = []
@@ -207,7 +241,7 @@ def make_extent(physdesc):
 
 	if extents:
 		extent = extents[0]
-		return E.extent(extent.text.strip())
+		return E.extent(extent.text.strip().rstrip(".").rstrip(":").strip())
 	else:
 		return ""
 
@@ -217,7 +251,7 @@ def make_physfacet(physdesc):
 	if physfacets:
 		physfacet_note = ""
 		for physfacet in physfacets:
-			physfacet_note += "\n" + physfacet.text.strip()
+			physfacet_note += "\n" + physfacet.text.strip().rstrip(";").strip()
 		return E.physfacet(physfacet_note)
 	else:
 		return ""
@@ -315,7 +349,7 @@ def make_relatedmaterial(record):
 		return ""
 
 def make_custodhist(record):
-	custodhists = record.xpath("./marc:datafield[@tag='546']", namespaces=ns)
+	custodhists = record.xpath("./marc:datafield[@tag='561']", namespaces=ns)
 
 	if custodhists:
 		custodhist = custodhists[0]
@@ -555,6 +589,12 @@ def make_persname(persname, context):
 
 		atts = {"source":source, "encodinganalog":encodinganalog}
 
+	relator_codes = ["4","e"]
+	for subfield in persname.xpath("./marc:subfield", namespaces=ns):
+		code = subfield.get("code", "")
+		if code in relator_codes:
+			atts["role"] = subfield.text.strip().rstrip(".")
+
 	persname_element = E.persname(atts)
 
 	primary_and_rest_of_name = persname.xpath("./marc:subfield[@code='a']", namespaces=ns)[0].text.strip().rstrip(",")
@@ -611,6 +651,12 @@ def make_corpname(corpname, context):
 			source = "local"
 
 		atts = {"source":source, "encodinganalog":encodinganalog}
+
+	relator_codes = ["4","e"]
+	for subfield in corpname.xpath("./marc:subfield", namespaces=ns):
+		code = subfield.get("code", "")
+		if code in relator_codes:
+			atts["role"] = subfield.text.strip().rstrip(".")
 
 	corpname_element = E.corpname(atts)
 
@@ -715,9 +761,13 @@ def make_odd(odd, tag_mappings):
 	head_text = tag_mappings[tag]
 	odd_element = E.odd(E.head(head_text))
 
+	note_texts = []
 	for subfield in odd.xpath("./marc:subfield", namespaces=ns):
 		note_text = subfield.text.strip()
-		odd_element.append(E.p(note_text))
+		note_texts.append(note_text)
+
+	odd_text = " ".join(note_texts)
+	odd_element.append(E.p(odd_text))
 
 	return odd_element
 
@@ -733,12 +783,13 @@ def make_dsc(main_record, other_records):
 
 def make_series(record):
 	series = E.c01({"level":"series"},
-		make_series_did(record)
+		make_series_did(record),
+		make_scopecontent(record)
 		)
 
-	odds = make_odds(record)
-	for odd in odds:
-		series.append(odd)
+	#odds = make_odds(record)
+	#for odd in odds:
+		#series.append(odd)
 
 	return series
 
@@ -753,16 +804,15 @@ def make_series_did(record):
 	for physdesc in physdescs:
 		did.append(physdesc)
 
-	unitdates = make_unitdates(record)
+	unitdates = make_unitdates(record, "series")
 	for unitdate in unitdates:
 		did.append(unitdate)
 
 	return did
 
 def make_ead_with_series(records):
-	main_record = identify_main_record(records)
-	if main_record:
-		other_records = [record for record in records if record not in main_record]
+	main_record, other_records = identify_main_record(records)
+	if main_record and other_records:
 		archdesc = make_archdesc(main_record)
 		controlaccess = make_controlaccess(records)
 		dsc = make_dsc(main_record, other_records)
@@ -786,33 +836,28 @@ def make_ead_without_series(record):
 
 	return ead
 
-def convert_marcxml_to_ead(marcxml_dir, ead_dir):
+def convert_marcxml_to_ead(marcxml_dir, ead_dir, unconverted_dir):
 	for filename in os.listdir(marcxml_dir):
 		print "Converting {} to EAD".format(filename)
 		tree = etree.parse(join(marcxml_dir,filename))
 		ns = {'marc': 'http://www.loc.gov/MARC21/slim'}
 		records = tree.xpath('//marc:record', namespaces=ns)
-		unconverted = []
 		if len(records) > 1:
 			# Make an EAD with series
 			ead = make_ead_with_series(records)
-			if ead:
-				# A main record has been identified
-				pass
-			else:
-				# No main record identified
-				pass
-				"No main record identified for {}".format(filename)
-				unconverted.append(filename)
 		else:
 			# Make only a collection level EAD
 			record = records[0]
 			ead = make_ead_without_series(record)
 
-		with open(join(ead_dir, filename),'w') as f:
-			f.write(etree.tostring(ead,encoding="utf-8",xml_declaration=True,pretty_print=True))
+		if ead:
+			with open(join(ead_dir, filename),'w') as f:
+				f.write(etree.tostring(ead,encoding="utf-8",xml_declaration=True,pretty_print=True))
+		else:
+			shutil.copy(join(marcxml_dir, filename), unconverted_dir)
 
 if __name__ == "__main__":
-	marcxml_dir = "../marcxml_no_ead"
+	marcxml_dir = "../marcxml_no_ead_joined"
 	ead_dir = "../converted_eads"
-	convert_marcxml_to_ead(marcxml_dir, ead_dir)
+	unconverted_dir = "../unconverted_marcxml"
+	convert_marcxml_to_ead(marcxml_dir, ead_dir, unconverted_dir)

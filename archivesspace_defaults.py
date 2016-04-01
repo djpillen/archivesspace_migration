@@ -66,6 +66,7 @@ def post_defaults(aspace_url, headers):
 
 	mhc_classification = {'title':'Michigan Historical Collections','identifier':'MHC'}
 	uarp_classification = {'title':'University Archives and Records Program','identifier':'UARP'}
+	faculty_classification = {'title':'Faculty Papers', 'identifier':'Faculty'}
 	rcs_classification = {'title':'Records Center Storage','identifier':'RCS'}
 
 	for classification in [mhc_classification, uarp_classification, rcs_classification]:

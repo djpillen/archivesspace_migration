@@ -170,7 +170,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
 
                 print digital_object_post
 
-                if 'error' in digital_object_post:
+                if 'invalid_object' in digital_object_post:
                     with open(error_file,'a') as f:
                         f.write(digital_object_post)
 

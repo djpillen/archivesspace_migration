@@ -61,6 +61,12 @@ for filename in os.listdir(ead_dir):
 				if 'id' in top_container.attrib and 'parent' in sub_container.attrib:
 					if top_container.attrib['id'] != sub_container.attrib['parent']:
 						ead_errors.append([filename, 'mismatching container id and parent values',tree.getpath(component)])
+		for unitdate in unitdates:
+			normal = unitdate.get("normal", "")
+			if normal and "/" in normal:
+				begin, end = normal.split("/")
+				if begin > end:
+					ead_errors.append([filename, "date begin comes after end", tree.getpath(component)])
 
 with open(ead_errors_csv,'wb') as csvfile:
 	writer = csv.writer(csvfile)

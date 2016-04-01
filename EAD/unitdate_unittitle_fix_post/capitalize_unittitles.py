@@ -15,7 +15,8 @@ def capitalize_unittitles(ead_dir):
 				if not unittitle_text.startswith('de') and not unittitle_text.startswith('vs.') and not unittitle_text.startswith('von'):
 					unittitle_text = unittitle_text[0].upper() + unittitle_text[1:]
 				unittitle.text = unittitle_text
-				if unittitle_text == '()' or unittitle_text == "[":
+				unittitle_string = re.sub(r"<.*?>", "", etree.tostring(unittitle))
+				if unittitle_string == '()' or unittitle_string == "[":
 					unittitle.getparent().remove(unittitle)
 		with open(join(ead_dir,filename),'w') as ead_out:
 			ead_out.write(etree.tostring(tree,encoding='utf-8',xml_declaration=True,pretty_print=True))
