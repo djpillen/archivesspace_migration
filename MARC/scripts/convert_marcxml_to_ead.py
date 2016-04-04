@@ -543,13 +543,13 @@ def make_subject(subject, term_types, indicator_sources, alternate_sources):
 		indicator = subject.get("ind2", "")
 		if indicator in indicator_sources:
 			source = indicator_sources[indicator]
-			atts["source"] = source
+			atts["source"] = source.strip(".").strip("]")
 			indicator_source_found = True
 	if alternate_sources and not indicator_source_found:
 		for code in alternate_sources:
 			if subject.xpath("./marc:subfield[@code={}]".format(code), namespaces=ns):
 				source = subject.xpath("./marc:subfield[@code={}]".format(code), namespaces=ns)[0].text.strip()
-				atts["source"] = source
+				atts["source"] = source.rstrip(".").strip("]")
 
 	subject_element = E.subject(atts)
 
@@ -606,7 +606,8 @@ def make_persname(persname, context):
 		primary_name = name_parts[0].strip()
 		rest_of_name = ""
 	persname_element.append(E.primary_name(primary_name))
-	persname_element.append(E.rest_of_name(rest_of_name))
+	if rest_of_name:
+		persname_element.append(E.rest_of_name(rest_of_name))
 
 	persname_mappings = {"b":"number", "c":"title", "d": "dates", "q": "fuller_form"}
 	for subfield in persname.xpath("./marc:subfield", namespaces=ns):
@@ -614,7 +615,7 @@ def make_persname(persname, context):
 		if code in persname_mappings:
 			tag = persname_mappings[code]
 			element = etree.Element(tag)
-			element.text = subfield.text.strip()
+			element.text = subfield.text.strip().rstrip(",").rstrip(".").strip()
 			persname_element.append(element)
 
 	term_mappings = {"t": "uniform_title", "v":"genre_form", "x": "topical", "y": "temporal", "z": "geographic"}
@@ -656,7 +657,7 @@ def make_corpname(corpname, context):
 	for subfield in corpname.xpath("./marc:subfield", namespaces=ns):
 		code = subfield.get("code", "")
 		if code in relator_codes:
-			atts["role"] = subfield.text.strip().rstrip(".")
+			atts["role"] = subfield.text.strip().rstrip(".").rstrip(",")
 
 	corpname_element = E.corpname(atts)
 
@@ -666,7 +667,7 @@ def make_corpname(corpname, context):
 		if code in corpname_mappings:
 			tag = corpname_mappings[code]
 			element = etree.Element(tag)
-			element.text = subfield.text.strip()
+			element.text = subfield.text.strip().rstrip(".")
 			corpname_element.append(element)
 
 	term_mappings = {"t": "uniform_title", "v":"genre_form", "x": "topical", "y": "temporal", "z": "geographic"}
@@ -710,7 +711,7 @@ def make_famname(famname, context):
 		if code in famname_mappings:
 			tag = famname_mappings[code]
 			element = etree.Element(tag)
-			element.text = subfield.text.strip()
+			element.text = subfield.text.strip().rstrip(".").rstrip(",")
 			famname_element.append(element)
 
 	term_mappings = {"t": "uniform_title", "v":"genre_form", "x": "topical", "y": "temporal", "z": "geographic"}
@@ -857,7 +858,8 @@ def convert_marcxml_to_ead(marcxml_dir, ead_dir, unconverted_dir):
 			shutil.copy(join(marcxml_dir, filename), unconverted_dir)
 
 if __name__ == "__main__":
-	marcxml_dir = "../marcxml_no_ead_joined"
-	ead_dir = "../converted_eads"
-	unconverted_dir = "../unconverted_marcxml"
+	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+	marcxml_dir = join(project_dir, "marcxml_no_ead_joined")
+	ead_dir = join(project_dir, "converted_eads")
+	unconverted_dir = join(project_dir, "unconverted_marcxml")
 	convert_marcxml_to_ead(marcxml_dir, ead_dir, unconverted_dir)

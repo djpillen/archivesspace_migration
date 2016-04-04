@@ -13,7 +13,7 @@ from aspace_prep.remove_online_physlocs import remove_online_physlocs
 from pre_aspace_cleanup.dspace_abstract_to_odd import dspace_abstract_to_odd
 
 
-def run_aspace_prep(aspace_ead_dir, subjects_agents_dir, dspace_mets_dir):
+def run_aspace_prep(aspace_ead_dir, subjects_agents_dir, beal_classifications, dspace_mets_dir):
 	camelcase_attributes(aspace_ead_dir)
 	remove_online_physlocs(aspace_ead_dir)
 	add_classifications(aspace_ead_dir, beal_classifications)

@@ -2,7 +2,8 @@ from lxml import etree
 import os
 from os.path import join
 
-converted_eads = "converted_eads"
+project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+converted_eads = join(project_dir, "converted_eads")
 
 for filename in os.listdir(converted_eads):
 	print filename
