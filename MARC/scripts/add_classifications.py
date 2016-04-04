@@ -71,9 +71,10 @@ def add_classifications(ead_dir, beal_classifications):
 			ead_out.write(etree.tostring(tree,encoding='utf-8',xml_declaration=True,pretty_print=True))
 
 def main():
-	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-	ead_dir = join(project_dir, 'converted_eads')
-	beal_classifications = join(project_dir, "beal_classifications.csv")
+	project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+	marc_base_dir = join(project_dir, "MARC")
+	ead_dir = join(marc_base_dir, 'converted_eads')
+	beal_classifications = join(project_dir, "shared", "beal_classifications.csv")
 	add_classifications(ead_dir, beal_classifications)
 
 if __name__ == "__main__":

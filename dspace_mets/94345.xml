@@ -1,0 +1,47 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/94345" ID="hdl:2027.42/94345" OBJEDIT="/admin/item?itemID=95722">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">News and Information Services, University of Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2012-11-29T21:46:49Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2012-11-29T21:46:49Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2007</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2007</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87265_0003</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/94345</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Senior Curator of Western Art Carole McNamara discusses the University of Michigan Museum of Art's 2007 exhibit of California artist Lyle Gomes's work, entitled "Imagining Eden: Connecting Landscapes."  The press release for the exhbit states, "Created over a sixteen-year period, Gomes's images of parks, golf courses, gardens, and garden cemeteries explore the enduring human impulse to shape the landscape and to strive for a harmonious balance between humankind and nature."</dim:field>
+<dim:field qualifier="extent" mdschema="dc" language="en_US" element="format">0:03:25</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Imagining Eden</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94345/1/imageden.flv</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94345/2/imageden_bhl-0a7dc00b.mp4</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">News and Information Services (University of Michigan) Sound and Video Recordings</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_326341" CHECKSUM="e468c0b015d3332bfdaf0f257bc70a46" MIMETYPE="application/octet-stream" SIZE="14217487" ID="file_326341" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/94345/imageden.flv?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="imageden.flv"/>
+</mets:file>
+<mets:file GROUPID="group_file_326342" CHECKSUM="4c2f05320a16127a3b9d7967a3911e58" MIMETYPE="video/mpeg" SIZE="25034264" ID="file_326342" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/94345/imageden_bhl-0a7dc00b.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="imageden_bhl-0a7dc00b.mp4"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_326341"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_326342"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

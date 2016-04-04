@@ -1,0 +1,37 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" OBJEDIT="/admin/item?itemID=120962" OBJID="/handle/2027.42/117313" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" ID="hdl:2027.42/117313">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DIM">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field element="contributor" qualifier="author" mdschema="dc">University of Michigan, University Planner's Office</dim:field>
+<dim:field element="date" qualifier="accessioned" mdschema="dc">2016-02-12T16:14:30Z</dim:field>
+<dim:field element="date" qualifier="available" mdschema="dc">2016-02-12T16:14:30Z</dim:field>
+<dim:field element="date" qualifier="issued" mdschema="dc">2016-02</dim:field>
+<dim:field element="identifier" qualifier="other" mdschema="dc">9571_0001</dim:field>
+<dim:field element="identifier" qualifier="uri" mdschema="dc">http://hdl.handle.net/2027.42/117313</dim:field>
+<dim:field element="description" qualifier="abstract" language="en_US" mdschema="dc">PDFs of historic resources survey, floor plans with photo locations, and JPEG images of the President's House.</dim:field>
+<dim:field element="language" qualifier="iso" language="en_US" mdschema="dc">en_US</dim:field>
+<dim:field element="title" language="en_US" mdschema="dc">Properties - Buildings by Number - 0203 Presidents House, 1887-2007</dim:field>
+<dim:field element="contributor" qualifier="affiliationumcampus" language="en_US" mdschema="dc">Ann Arbor</dim:field>
+<dim:field element="description" qualifier="bitstreamurl" mdschema="dc">http://deepblue.lib.umich.edu/bitstream/2027.42/117313/1/President_House.zip</dim:field>
+<dim:field element="description" qualifier="filedescription" mdschema="dc">Description of President_House.zip : PDFs and JPEG images relating to the President's House.</dim:field>
+<dim:field element="owningcollname" mdschema="dc">University Planner's Office (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_405494" ID="file_405494" MIMETYPE="application/zip" SIZE="1167566049" CHECKSUM="fed4ac7a6e352559ed71590cb36f675c">
+<mets:FLocat LOCTYPE="URL" xlink:title="President_House.zip" xlink:label="PDFs and JPEG images relating to the President's House." xlink:type="locator" xlink:href="/bitstream/handle/2027.42/117313/President_House.zip?sequence=1&amp;isAllowed=y"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_405494"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

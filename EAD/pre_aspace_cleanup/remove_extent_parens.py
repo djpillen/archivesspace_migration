@@ -22,7 +22,8 @@ def remove_extent_parens(ead_dir):
 				ead_out.write(etree.tostring(tree,encoding='utf-8',xml_declaration=True,pretty_print=True))
 
 def main():
-	ead_dir = 'C:/Users/djpillen/GitHub/vandura/Real_Masters_all'
+	project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+	ead_dir = join(project_dir, "vandura", "Real_Masters_all")
 	remove_extent_parens(ead_dir)
 
 if __name__ == "__main__":

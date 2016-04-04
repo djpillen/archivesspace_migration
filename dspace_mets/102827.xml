@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102827" ID="hdl:2027.42/102827" OBJEDIT="/admin/item?itemID=104283">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">August 1911</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-20T21:50:36Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-20T21:50:36Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0070</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102827</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Lectures, Speeches, and Related materials from August 1911:  * The Liver, August 3, 1911 * Food, Aug. 10, 1911 * Question Box Lecture 37, August 17, 1911 * The Living Temple or the Miracle of Life, August 26, 1911 * Question Box Lecture 39, August 28, 1911 * Where are we going? August 31, 1911</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Lectures, Speeches, and Related materials, 1911 pt. 07: August</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102827/1/Lectures-1911g.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102827/2/Lectures-1911g.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_351863" CHECKSUM="7af5989d8b46474a2799a14faeb7ee73" MIMETYPE="text/plain" SIZE="165" ID="file_351957" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102827/Lectures-1911g.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1911g.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_351863" CHECKSUM="daa3915aa347eb9ba7c16019d0a7570a" MIMETYPE="application/pdf" SIZE="19942729" ID="file_351863" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102827/Lectures-1911g.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1911g.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_351864" CHECKSUM="0b072cc777a2e82ebddefbf7c04f7ad4" MIMETYPE="application/zip" SIZE="78390338" ID="file_351864" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/102827/Lectures-1911g.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1911g.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351863"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351864"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

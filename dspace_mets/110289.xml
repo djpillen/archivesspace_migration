@@ -1,0 +1,48 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/110289" ID="hdl:2027.42/110289" OBJEDIT="/admin/item?itemID=111836">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">University of Michigan. Department of Psychiatry.</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Roberts, Laura</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2011</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-01-23T20:46:27Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-01-23T20:46:27Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">0360_0001_0016</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/110289</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Video files and transcript of 2011 Waggoner lecture. Laura Roberts, On Becoming a Physician: Stresses and strengths of physicians-in-training, 2011.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Raymond Waggoner Lectures - Laura Roberts, On Becoming a Physician: Stresses and strengths of physicians-in-training, 2011</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video; Other</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/110289/2/2011_Roberts.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/110289/3/2011_Roberts_media.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-11-17</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Dept. of Psychiatry (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_377175" CHECKSUM="22ee248ac8a5e0e8b45752e508e69c3a" MIMETYPE="application/zip" SIZE="431778" ID="file_377175" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version and preservation copy of 2011 Waggoner lecture transcript." xlink:href="/bitstream/handle/2027.42/110289/2011_Roberts.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="2011_Roberts.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_377176" CHECKSUM="4b8a3a5641e3187cbe416c091ef8dfcd" MIMETYPE="application/zip" SIZE="4431320190" ID="file_377176" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Video of 2011 Waggoner lecture." xlink:href="/bitstream/handle/2027.42/110289/2011_Roberts_media.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="2011_Roberts_media.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_377175"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_377176"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

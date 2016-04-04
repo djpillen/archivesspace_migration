@@ -1,0 +1,50 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/108181" ID="hdl:2027.42/108181" OBJEDIT="/admin/item?itemID=109676">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Owens, John</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Traxinger, Deb</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2011</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-08-12T15:33:07Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-08-12T15:33:07Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2011-2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2014049_0001_0014</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/108181</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Video recording [18:26] of an interview with Deb Traxinger, a member of the Women's Basketball Team at Michigan State University from 1978 to 1982 and current high school teacher.  Traxinger discusses issues surrounding her participation in sports during the 1970s prior to coming to college, playing women's basketball at MSU, and how she met Jean Ledwith King, who changed her life by taking her team's case against MSU.  When King made the case into a class action suit because Traxinger was the last remaining party to the suit and about to graduate, Traxinger became the class representative.  Traxinger also relates how much power King's name carries, giving an example of a situation in her own high school.  She states that 'Jean is my hero.'</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Video Recordings - Interviews - Traxinger, Deb, 2011</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">interview; video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/108181/2/Deb Traxinger _bhl.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/108181/3/Deb Traxinger .mov</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of Deb Traxinger _bhl.mp4 : Access restricted to Bentley Library only. Access version of 'Deb Traxinger .mov' created by Bentley Library</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of Deb Traxinger .mov : Access restricted to Bentley Library only.  Original video file</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-07-31</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Jean Ledwith King Oral History Collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_370314" CHECKSUM="e95afcd18281ca5676ae185186eb91e9" MIMETYPE="video/mpeg" SIZE="145549637" ID="file_370314" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access restricted to Bentley Library only. Access version of 'Deb Traxinger .mov' created by Bentley Library" xlink:href="/bitstream/handle/2027.42/108181/Deb%20Traxinger%20_bhl.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Deb Traxinger _bhl.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_370315" CHECKSUM="878b2e90660bb392ba66fb826c1fc153" MIMETYPE="video/quicktime" SIZE="4192170239" ID="file_370315" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access restricted to Bentley Library only.  Original video file" xlink:href="/bitstream/handle/2027.42/108181/Deb%20Traxinger%20.mov?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Deb Traxinger .mov"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_370314"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_370315"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

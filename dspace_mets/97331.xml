@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/97331" ID="hdl:2027.42/97331" OBJEDIT="/admin/item?itemID=98742">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Schoening, Robert W.</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1920</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-04-15T17:29:38Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-04-15T17:29:38Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2012-2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">2013014_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/97331</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">1920 letter from S. G. Randall, a manager at a saw mill in Westwood, California and personal acquaintance of Schoening and his wife that details his experience implementing Schoening's saw hammering methodology</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Correspondence - Randall, S. G.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97331/1/Schoening_RW_Letter-From-Randall.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97331/2/Schoening_RW_Letter-From-Randall.zip</dim:field>
+<dim:field qualifier="source" mdschema="dc" language="en_US" element="identifier">Digitized from the original materials by Joel Corner in 2012.  Original materials are available at the Bentley Historical Library.</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Robert W. Schoening Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_335452" CHECKSUM="e1c06d85ae7b8b032bef47e42e4c08f9" MIMETYPE="text/plain" SIZE="2" ID="file_335483" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/97331/Schoening_RW_Letter-From-Randall.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Schoening_RW_Letter-From-Randall.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_335452" CHECKSUM="e9c412065ede56bbe15df5858a7131bd" MIMETYPE="application/pdf" SIZE="4485351" ID="file_335452" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access Copy - Correspondence from S. G. Randall to R. W. Schoening" xlink:href="/bitstream/handle/2027.42/97331/Schoening_RW_Letter-From-Randall.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Schoening_RW_Letter-From-Randall.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_335453" CHECKSUM="c25a8218df41f0199c276a51cf14b429" MIMETYPE="application/zip" SIZE="174036228" ID="file_335453" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation Copy - Correspondence from S. G. Randall to R. W. Schoening" xlink:href="/bitstream/handle/2027.42/97331/Schoening_RW_Letter-From-Randall.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Schoening_RW_Letter-From-Randall.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335452"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335453"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

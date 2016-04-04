@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/111872" ID="hdl:2027.42/111872" OBJEDIT="/admin/item?itemID=113469">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-06-12T18:27:50Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-06-12T18:27:50Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87245_0009_0006</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/111872</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">A Historical Tour of the University of Michigan Campus was an online exhibit created by Bentley Historical Library staff and Bill Landis to document the changing landscape of the university's campus.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Outreach: Education, Publicity, and Exhibits - Online Exhibits and Special Projects - A Historical Tour of the University of Michigan Campus, 2007</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111872/2/A Historical Tour of the University of Michigan Campus - 2007.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111872/3/A Historical Tour of the University of Michigan Campus - 2007_bhl-f8f6d9a9.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-04-07</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Bentley Historical Library (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_382842" CHECKSUM="b1ecb758ae96abb6e13f69298bbc2487" MIMETYPE="text/plain" SIZE="346208" ID="file_382880" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111872/A%20Historical%20Tour%20of%20the%20University%20of%20Michigan%20Campus%20-%202007.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="A Historical Tour of the University of Michigan Campus - 2007.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_382843" CHECKSUM="b1ecb758ae96abb6e13f69298bbc2487" MIMETYPE="text/plain" SIZE="346208" ID="file_382881" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111872/A%20Historical%20Tour%20of%20the%20University%20of%20Michigan%20Campus%20-%202007_bhl-f8f6d9a9.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="A Historical Tour of the University of Michigan Campus - 2007_bhl-f8f6d9a9.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_382842" CHECKSUM="f7ed885fe04228ddc7abe8cf7a0e0ee4" MIMETYPE="application/pdf" SIZE="10787571" ID="file_382842" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version." xlink:href="/bitstream/handle/2027.42/111872/A%20Historical%20Tour%20of%20the%20University%20of%20Michigan%20Campus%20-%202007.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="A Historical Tour of the University of Michigan Campus - 2007.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_382843" CHECKSUM="1959ba6088d231c284b9899c71270a0c" MIMETYPE="application/pdf" SIZE="1838043" ID="file_382843" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy." xlink:href="/bitstream/handle/2027.42/111872/A%20Historical%20Tour%20of%20the%20University%20of%20Michigan%20Campus%20-%202007_bhl-f8f6d9a9.pdf?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="A Historical Tour of the University of Michigan Campus - 2007_bhl-f8f6d9a9.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382842"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382843"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

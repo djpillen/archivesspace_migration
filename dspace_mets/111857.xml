@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/111857" ID="hdl:2027.42/111857" OBJEDIT="/admin/item?itemID=113454">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-06-12T18:27:42Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-06-12T18:27:42Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87245_0009_0017</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/111857</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Student Scrapbooks: The Michigan Experience was an online exhibit designed to succintly describe the role of scrapbooks in documenting students' lives at the University of Michigan and to index the scrapbooks in the possession of the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Outreach: Education, Publicity, and Exhibits - Online Exhibits and Special Projects - Student Scrapbooks: The Michigan Experience, 2007</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111857/2/Student Scrapbooks The Michigan Experience - 2007.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111857/3/Student Scrapbooks The Michigan Experience - 2007_bhl-956a7550.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-04-07</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Bentley Historical Library (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_382797" CHECKSUM="ed0e168ee232e6328557271139b5f81e" MIMETYPE="text/plain" SIZE="35625" ID="file_382858" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111857/Student%20Scrapbooks%20The%20Michigan%20Experience%20-%202007.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Student Scrapbooks The Michigan Experience - 2007.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_382798" CHECKSUM="ed0e168ee232e6328557271139b5f81e" MIMETYPE="text/plain" SIZE="35625" ID="file_382859" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111857/Student%20Scrapbooks%20The%20Michigan%20Experience%20-%202007_bhl-956a7550.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="Student Scrapbooks The Michigan Experience - 2007_bhl-956a7550.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_382797" CHECKSUM="5fc3235e87b4f68d2fee962a0e02d4f1" MIMETYPE="application/pdf" SIZE="405375" ID="file_382797" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version." xlink:href="/bitstream/handle/2027.42/111857/Student%20Scrapbooks%20The%20Michigan%20Experience%20-%202007.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Student Scrapbooks The Michigan Experience - 2007.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_382798" CHECKSUM="ad31dba23353ca512ed7fd7d9a0742ac" MIMETYPE="application/pdf" SIZE="143406" ID="file_382798" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy." xlink:href="/bitstream/handle/2027.42/111857/Student%20Scrapbooks%20The%20Michigan%20Experience%20-%202007_bhl-956a7550.pdf?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Student Scrapbooks The Michigan Experience - 2007_bhl-956a7550.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382797"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382798"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

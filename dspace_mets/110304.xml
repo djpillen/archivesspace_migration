@@ -1,0 +1,52 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/110304" ID="hdl:2027.42/110304" OBJEDIT="/admin/item?itemID=111851">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Kennedy, Cornelia G.</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">ca. 1950-2008</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-01-26T20:15:46Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-01-26T20:15:46Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2014163_0001_0002</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/110304</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Photographs of Justice Cornelia G. Kennedy with colleagues and family, collected as part of their 2012 oral history interviews for the Women Trailblazers in Law Project.  Includes images of Kennedy with President Jimmy Carter; Justices Alice M. Batchelder, Anna Diggs Taylor, and Mary S. Coleman; and her father, Elmer Groefsema, and sister, Judge Margaret Schaeffer.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Audio-Visual Materials - Women Trailblazers in the Law Project Oral History Interview - Photographs of Justice Kennedy with Colleagues and Family, ca. 1950-2008</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/110304/2/Kennedy_Photos.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/110304/3/Kennedy_Photograph_Descriptions.txt</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Reading room access only: this content must be accessed in the reading room of the Bentley Historical Library</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-07-01</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright is held by the Women Trailblazers in Law Project.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Cornelia G. Kennedy papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_377218" CHECKSUM="8134ccbf62900ad0f7a08b6c35882e7b" MIMETYPE="text/plain" SIZE="1563" ID="file_377231" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/110304/Kennedy_Photograph_Descriptions.txt.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Kennedy_Photograph_Descriptions.txt.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_377217" CHECKSUM="6e44006d5ba2f73ea4b0ca27f96407f8" MIMETYPE="application/zip" SIZE="21725946" ID="file_377217" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access restricted to Bentley Library only. Photographs of Justice Kennedy with colleagues and family." xlink:href="/bitstream/handle/2027.42/110304/Kennedy_Photos.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Kennedy_Photos.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_377218" CHECKSUM="8376bd4cdb5e51f5ea21f781b5cdf8e1" MIMETYPE="text/plain" SIZE="1569" ID="file_377218" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access restricted to Bentley Library only. Descriptions of photographs collected for Justice Kennedy's Women Trailblazers in Law Oral History Project." xlink:href="/bitstream/handle/2027.42/110304/Kennedy_Photograph_Descriptions.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Kennedy_Photograph_Descriptions.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_377217"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_377218"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,36 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/86715" ID="hdl:2027.42/86715" OBJEDIT="/admin/item?itemID=87892">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computer-Aided Engineering Network (CAEN), University of Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2008</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-10-20T22:12:49Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-10-20T22:12:49Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2011</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2011123_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/86715</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Video footage of equipment and interviews from CAEN's 25th anniversary exhibit</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan. The collection is open to research</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Computer Aided Engineering Network 25th Anniversary Materials - Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86715/1/CAENSequence_1.mov</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computer Aided Engineering Network (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_294636" CHECKSUM="22017b518d5dec1473cd7db6defc1394" MIMETYPE="video/quicktime" SIZE="10235205711" ID="file_294636" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Video footage of equipment and interviews from CAEN's 25th anniversary exhibit" xlink:href="/bitstream/handle/2027.42/86715/CAENSequence_1.mov?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="CAENSequence_1.mov"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_294636"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

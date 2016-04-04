@@ -1,0 +1,52 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/109251" ID="hdl:2027.42/109251" OBJEDIT="/admin/item?itemID=110765">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Weinstein, Arnold</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Arnold Weinstein Intellectual Trust</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2013</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-10-27T20:02:00Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-10-27T20:02:00Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2013066_0001_0055</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/109251</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Index of Arnold Weinstein's theatrical works and songs transferred to the Bentlet Historical Library by the Weinstein Intellectual Trust.  Includes information on Weinstein's collaborators and copyright holders and also indicates if materials are available in paper, analog, and/or digital formats.  Please note that digital content has been repackaged for long-term preservation and should be identified via the collection's finding aid.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Theater - Index of Theatrical Works and Songs Transferred by the Weinstein Intellectual Trust, 2013</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/109251/2/Weinstein_Works-and-Songs_1960-2000.xlsx</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/109251/3/Weinstein_Works-and-Songs_1961-2005.txt</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Access to content is limited to the reading room of the University of Michigan Bentley Historical Library.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-09-15</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyrights have not been transferred to the Regents of the University of Michigan. Copyright is held by the Arnold Weinstein Intellectual Property Trust or other third parties and permission must be obtained for any uses of the Works other than for educat</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Arnold Weinstein papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_373599" CHECKSUM="f6445cb80631d8bb2501a9b57349cdfb" MIMETYPE="text/plain" SIZE="26032" ID="file_373608" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/109251/Weinstein_Works-and-Songs_1961-2005.txt.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Weinstein_Works-and-Songs_1961-2005.txt.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_373598" CHECKSUM="4b51e3f32c6c4151787bea1862085a46" MIMETYPE="application/vnd.ms-excel" SIZE="26805" ID="file_373598" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access restricted to Bentley Library only. Excel spreadsheet" xlink:href="/bitstream/handle/2027.42/109251/Weinstein_Works-and-Songs_1960-2000.xlsx?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Weinstein_Works-and-Songs_1960-2000.xlsx"/>
+</mets:file>
+<mets:file GROUPID="group_file_373599" CHECKSUM="5e655d10baaa66a54e4097d05d2b627c" MIMETYPE="text/plain" SIZE="27099" ID="file_373599" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access restricted to Bentley Library only.  Tab-delimited version" xlink:href="/bitstream/handle/2027.42/109251/Weinstein_Works-and-Songs_1961-2005.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Weinstein_Works-and-Songs_1961-2005.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_373598"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_373599"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

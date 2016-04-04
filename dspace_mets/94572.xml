@@ -1,0 +1,55 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/94572" ID="hdl:2027.42/94572" OBJEDIT="/admin/item?itemID=95959">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Office of Human Resources and Affirmative Action, University of Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2011-2013</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2011-2013</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2012-12-20T17:41:40Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2012-12-20T17:41:40Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2012-2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2012-12-19</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">9770_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/94572</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">An analysis of salaries paid to regular instructional faculty, regular clinical instructional faculty, lecturers and graduate student instructors for the 2011-2012 and 2012-2013 academic years.  This report, published annually based upon fall term data, analyzes current salaries of instructional staff and graduate student instructors appointed in academic units at the University of Michigan</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Publications - Unit Publications - An Analysis of Salaries Paid to the University of Michigan Faculty, Instructional Staff and Graduate Student Instructors - 2011-2012 and 2012-2013</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Dataset</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94572/1/FSA_2011-2012.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94572/2/FSA_2012-2013.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Office of Human Resources and Affirmative Action (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_327133" CHECKSUM="7fa6e2c3779d9992228db52eb688c650" MIMETYPE="text/plain" SIZE="392544" ID="file_327149" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/94572/FSA_2011-2012.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="FSA_2011-2012.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_327134" CHECKSUM="e7f84e855869e4019fb7deb09f30b37c" MIMETYPE="text/plain" SIZE="401212" ID="file_327150" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/94572/FSA_2012-2013.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="FSA_2012-2013.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_327133" CHECKSUM="ed1c39ec3e28d9a34e8738eabe001866" MIMETYPE="application/pdf" SIZE="2780282" ID="file_327133" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Analysis of Salaries Paid Report 2011-2012" xlink:href="/bitstream/handle/2027.42/94572/FSA_2011-2012.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="FSA_2011-2012.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_327134" CHECKSUM="fbd66e82bfbf9e60ac0989c6cf60630d" MIMETYPE="application/pdf" SIZE="2154117" ID="file_327134" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Analysis of Salaries Paid Report 2012-2013" xlink:href="/bitstream/handle/2027.42/94572/FSA_2012-2013.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="FSA_2012-2013.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_327133"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_327134"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

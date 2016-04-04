@@ -1,0 +1,50 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/86189" ID="hdl:2027.42/86189" OBJEDIT="/admin/item?itemID=87347">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Castagnacci, Vincent</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2011-09-08T13:57:05Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2011-09-08T13:57:05Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2010</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2011012_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/86189</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Promotional slideshow produced by the River Gallery (Chelsea, MI) for the opening of the exhibition "Castagnacci: notes from a quarry..."</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">The collection is open to research</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is not held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Artwork and Exhibitions - Promotional Materials - "Notes from a Quarry" Exhibit, 2010</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Article</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Presentation</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86189/1/Castagnacci_20100219_RiverGalleryShow.pps</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86189/2/Castagnacci_20100219_RiverGalleryShow.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Castagnacci, Vincent</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_292902" CHECKSUM="89f8696f284dc28a6416abe689f8c10d" MIMETYPE="application/octet-stream" SIZE="72386560" ID="file_292902" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Slideshow promoting Castagnacci's 2010 exhibit at the River Gallery" xlink:href="/bitstream/handle/2027.42/86189/Castagnacci_20100219_RiverGalleryShow.pps?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Castagnacci_20100219_RiverGalleryShow.pps"/>
+</mets:file>
+<mets:file GROUPID="group_file_292903" CHECKSUM="cfb6d3bd84a3f2fd4b07f9b3b912f668" MIMETYPE="application/pdf" SIZE="2887122" ID="file_292903" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="PDF version of the slideshow promoting Castagnacci's 2010 exhibit at the River Gallery" xlink:href="/bitstream/handle/2027.42/86189/Castagnacci_20100219_RiverGalleryShow.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Castagnacci_20100219_RiverGalleryShow.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_292903" CHECKSUM="124005682fd402a3fa55c86263c3fd7a" MIMETYPE="text/plain" SIZE="2426" ID="file_292956" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/86189/Castagnacci_20100219_RiverGalleryShow.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Castagnacci_20100219_RiverGalleryShow.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_292902"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_292903"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

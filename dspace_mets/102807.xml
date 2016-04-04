@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102807" ID="hdl:2027.42/102807" OBJEDIT="/admin/item?itemID=104263">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Anderson, William G.</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">October 1907</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-20T21:15:25Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-20T21:15:25Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0050</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102807</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Lectures, Speeches, and Related materials from Oct. 1907:  * The Outdoor Life, Oct. 10, 1907 * How to Live Well One Hundred Years, Oct. 17, 1907 * Untitled talk by Kellogg and Dr. Wm. G. Anderson * University of Michigan Alumni Banquet talk, Oct. 24, 1907 * The Scientific Basis of Vegetarianism, Oct. 29, 1907 * Oatmeal, Oct. 31, 1907</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Lectures, Speeches, and Related materials, 1907 pt. 02: October</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102807/1/Lectures-1907b.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102807/2/Lectures-1907b.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_351803" CHECKSUM="93eb1983952f5f7c870312496fa165e6" MIMETYPE="text/plain" SIZE="156" ID="file_351923" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102807/Lectures-1907b.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1907b.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_351803" CHECKSUM="e49ce1884fdd46a3140a323f7ffc1c74" MIMETYPE="application/pdf" SIZE="22676389" ID="file_351803" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102807/Lectures-1907b.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1907b.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_351804" CHECKSUM="d4ebf81e44f0d43ea61ea8fdc5b51d32" MIMETYPE="application/zip" SIZE="70444443" ID="file_351804" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/102807/Lectures-1907b.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1907b.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351803"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351804"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

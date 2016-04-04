@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102778" ID="hdl:2027.42/102778" OBJEDIT="/admin/item?itemID=104234">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">September-November 1900</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-20T20:12:35Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-20T20:12:35Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0021</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102778</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Lectures, Speeches, and Related materials from Sept.-Nov. 1900:  * Branch Sanitarium and Their Purposes, Sept. 24, 1900 * Medical Students' Commencement, Sept. 26, 1900 * How Nature Fights Disease, Sept. 27, 1900 * How We Can Aid Nature in the Struggle Against Disease, Oct. 4, 1900 * The Return to Nature, Oct. 11, 1900 * The Evolution of Rational Medicine, Oct. 18, 1900 * The Evolution of Rational Medicine (Pt. II), Oct. 25, 1900 * Getting Well, Nov. 1, 1900</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Lectures, Speeches, and Related materials, 1900 pt. 03: September-November</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102778/1/Lectures-1900c.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102778/2/Lectures-1900c.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_351716" CHECKSUM="0c668c53e465b2c042065b48f7d75c6b" MIMETYPE="text/plain" SIZE="170" ID="file_351916" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102778/Lectures-1900c.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1900c.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_351716" CHECKSUM="06b4b3ac839369d2e59361ebab1f5eda" MIMETYPE="application/pdf" SIZE="29319894" ID="file_351716" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102778/Lectures-1900c.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1900c.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_351717" CHECKSUM="a759401dfa59e1fcfbab787cd6fd14b1" MIMETYPE="application/zip" SIZE="83982896" ID="file_351717" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/102778/Lectures-1900c.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1900c.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351716"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351717"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,51 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/93344" ID="hdl:2027.42/93344" OBJEDIT="/admin/item?itemID=94683">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Digital Curation Division</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2012-08-30T21:03:58Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2012-08-30T21:03:58Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2012</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/93344</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">In processing digitized and born-digital materials, archivists at the Bentley Historical Library adhere to professional best practices to ensure that content is prepared for long-term preservation and that end-users have full assurance of the authenticity and integrity of digital files. This document outlines these procedures and points to additional resources.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Division Records - Digital Curation - Strategies and Procedures - Bentley Historical Library Digital Processing Note</dim:field>
+<dim:field qualifier="affiliationum" mdschema="dc" language="en_US" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/93344/1/ProcessingNote_20120712.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/93344/4/ProcessingNote_20131312.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Bentley Historical Library (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_323311" CHECKSUM="f372fb3ffbd8f8e4c913255828d38db4" MIMETYPE="text/plain" SIZE="3586" ID="file_323635" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/93344/ProcessingNote_20120712.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="ProcessingNote_20120712.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_348722" CHECKSUM="8c3906ae61bf5e3c05be1db1f37e065f" MIMETYPE="text/plain" SIZE="3788" ID="file_348770" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/93344/ProcessingNote_20131312.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="ProcessingNote_20131312.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_348722" CHECKSUM="e3a2eea5e72ab59a9360cf42378f55ad" MIMETYPE="application/pdf" SIZE="282532" ID="file_348722" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Version 2.0: Effective December 12, 2013" xlink:href="/bitstream/handle/2027.42/93344/ProcessingNote_20131312.pdf?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="ProcessingNote_20131312.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_323311" CHECKSUM="9c1c687e8da78605b4bd4af7e2c5fa32" MIMETYPE="application/pdf" SIZE="141274" ID="file_323311" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Version 1.0: Effective July 12, 2012" xlink:href="/bitstream/handle/2027.42/93344/ProcessingNote_20120712.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="ProcessingNote_20120712.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_348722"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_323311"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

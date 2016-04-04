@@ -1,0 +1,61 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/94168" ID="hdl:2027.42/94168" OBJEDIT="/admin/item?itemID=95534">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Men's Glee Club, University of Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" element="coverage">2012</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2012-10-23T20:43:52Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2012-10-23T20:43:52Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" element="date">2012</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2012</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">87250_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/94168</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Video, audio, and photos from the Men's Glee Club performance at the Chongqing Grand Theater. The club visited Chongqing from May 8 to May 11, 2012.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">China Concert Tour - May 10, 2012: Chongqing - Grand Theater</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94168/1/Photos.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94168/2/Chongquing-0168.wav</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94168/3/Chongqing-Grand-Theater.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94168/4/Chongqing-Rehearsal.zip</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Men's Glee Club (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_325775" CHECKSUM="bac66a40b791ccf06504d7fe116623ff" MIMETYPE="audio/x-wav" SIZE="1771732912" ID="file_325775" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Audio recording of the Men's Glee Club performance at the Chongqing Grand Theater" xlink:href="/bitstream/handle/2027.42/94168/Chongquing-0168.wav?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Chongquing-0168.wav"/>
+</mets:file>
+<mets:file GROUPID="group_file_325774" CHECKSUM="5b5ccca2b410e0c166234c6a7107c519" MIMETYPE="application/zip" SIZE="227265285" ID="file_325774" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Digital images of the Men's Glee Club performance at the Chongqing Grand Theater" xlink:href="/bitstream/handle/2027.42/94168/Photos.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Photos.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_325777" CHECKSUM="bce97c1faed6422a848375c766ed3a5c" MIMETYPE="application/zip" SIZE="262908459" ID="file_325777" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Video recording of the Men's Glee Club tour at the Chongqing Grand Theater" xlink:href="/bitstream/handle/2027.42/94168/Chongqing-Grand-Theater.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Chongqing-Grand-Theater.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_325779" CHECKSUM="7624151421a630636e5070cb5ca930af" MIMETYPE="application/zip" SIZE="1482283257" ID="file_325779" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Video recording of the Men's Glee Club rehearsal at the Chongqing Grand Theater" xlink:href="/bitstream/handle/2027.42/94168/Chongqing-Rehearsal.zip?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Chongqing-Rehearsal.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_325775"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_325774"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_325777"/>
+</mets:div>
+<mets:div ID="div_5" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_325779"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

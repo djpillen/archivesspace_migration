@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102903" ID="hdl:2027.42/102903" OBJEDIT="/admin/item?itemID=104360">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">ca. 1890-1943</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-21T16:05:39Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-21T16:05:39Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0146</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102903</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Typed, handwritten, and printed documents on various diseases and treatments.  Treatments include exposure to heat or light, exercise, surgery, and diet changes.  Topius include fevers, high blood pressure, and other health problems.  Also lists treatment recommendations for particular diseases, such influenza, appendicitis, and hysteria.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Notes and Articles, ca. 1890-1943 - Diseases, diagnosis, and treatment</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102903/1/Notes-Diseases.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102903/2/Notes-Diseases.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_352182" CHECKSUM="ddf6631519314f313e05cd023f7c6e64" MIMETYPE="text/plain" SIZE="1551" ID="file_352286" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102903/Notes-Diseases.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Notes-Diseases.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_352182" CHECKSUM="8563c1d5cb3a523a2b712e7fba092085" MIMETYPE="application/pdf" SIZE="196717478" ID="file_352182" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102903/Notes-Diseases.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Notes-Diseases.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_352183" CHECKSUM="63e6743108546cf065834089fca65bb9" MIMETYPE="application/zip" SIZE="563677739" ID="file_352183" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/102903/Notes-Diseases.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Notes-Diseases.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_352182"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_352183"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

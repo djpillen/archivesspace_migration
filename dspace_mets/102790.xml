@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102790" ID="hdl:2027.42/102790" OBJEDIT="/admin/item?itemID=104246">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">July-August 1903</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-20T20:41:20Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-20T20:41:20Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0033</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102790</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Lectures, Speeches, and Related materials from July-August 1903:  * Lectures to Post Graduates, July 6, 1903 * Lectures to Post Graduates: Electrotherapeutics, July 9, 1903 * Lectures to Post Graduates: Electrotherapeutics, July 10, 1903 * Lectures to Post Graduates: Electrotherapeutics, July 13, 1903 * Lectures to Post Graduates: Electrotherapeutics, July 9, 1903</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Lectures, Speeches, and Related materials, 1903 pt. 04: July-August</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102790/1/Lectures-1903d.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102790/2/Lectures-1903d.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_351752" CHECKSUM="933a7e6b4ec512c379630af186546cb6" MIMETYPE="text/plain" SIZE="137" ID="file_351951" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102790/Lectures-1903d.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1903d.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_351752" CHECKSUM="13c5b7375b861a26f54244e63f0e3685" MIMETYPE="application/pdf" SIZE="30768559" ID="file_351752" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102790/Lectures-1903d.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1903d.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_351753" CHECKSUM="9ed33c490fd44235a451e45157e6b94d" MIMETYPE="application/zip" SIZE="81598102" ID="file_351753" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/102790/Lectures-1903d.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1903d.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351752"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351753"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

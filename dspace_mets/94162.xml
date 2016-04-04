@@ -1,0 +1,51 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/94162" ID="hdl:2027.42/94162" OBJEDIT="/admin/item?itemID=95528">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Digital Curation Division</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2012-10-19T13:24:01Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2012-10-19T13:24:01Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2011</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/94162</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Guidelines for conducting quality assurance on preserved content in the Bentley Historical Library Web Archives.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Division Records - Digital Curation - Web Archiving - Policies - Quality Assurance Guidelines</dim:field>
+<dim:field qualifier="affiliationum" mdschema="dc" language="en_US" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94162/1/BHL_WebArchives_QAguidelines_20110921.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94162/4/BHL_WebArchivesQA-v3-20130909.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Bentley Historical Library (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_325753" CHECKSUM="2194b78b1ac3b34e1e83811fe97bfb8a" MIMETYPE="text/plain" SIZE="25741" ID="file_325759" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/94162/BHL_WebArchives_QAguidelines_20110921.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="BHL_WebArchives_QAguidelines_20110921.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_342071" CHECKSUM="731d7cb375c24c02e6e15d2908b2e0f6" MIMETYPE="text/plain" SIZE="48183" ID="file_342072" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/94162/BHL_WebArchivesQA-v3-20130909.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="BHL_WebArchivesQA-v3-20130909.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_342071" CHECKSUM="2b7e19da6f9d0f1a931c3b2cc9900e7d" MIMETYPE="application/pdf" SIZE="901126" ID="file_342071" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Version 3.0: BHL QA guidelines for archived websites 9/09/2013" xlink:href="/bitstream/handle/2027.42/94162/BHL_WebArchivesQA-v3-20130909.pdf?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="BHL_WebArchivesQA-v3-20130909.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_325753" CHECKSUM="9601a916af6125e5bdc7b0ab23e5c609" MIMETYPE="application/pdf" SIZE="378005" ID="file_325753" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Version 1.0: BHL QA guidelines for archived websites 9/21/2011" xlink:href="/bitstream/handle/2027.42/94162/BHL_WebArchives_QAguidelines_20110921.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="BHL_WebArchives_QAguidelines_20110921.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_342071"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_325753"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

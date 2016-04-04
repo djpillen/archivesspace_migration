@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/97335" ID="hdl:2027.42/97335" OBJEDIT="/admin/item?itemID=98746">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Schoening, Robert W.</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1921</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-04-15T18:04:26Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-04-15T18:04:26Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2012-2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">2013014_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/97335</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Manuscript of Robert W. Schoening's account of his experiences on the road as a travelling salesman in the western United States from 1919 to 1921. Also describes the cross-country journeys he took with his wife as he set forth and returned from this endeavor.  Includes firsthand accounts of life on the road and the often harrowing conditions of highways in the early twentieth century, with narrations of stops in Flint, Chicago, Portland, Salt Lake City, Yellowstone, and other locales.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Manuscripts - "The Automobile" - Handwritten Copy</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97335/1/Schoening_RW_story_The-Automobile.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97335/2/Schoening_RW_story_The-Automobile.zip</dim:field>
+<dim:field qualifier="source" mdschema="dc" language="en_US" element="identifier">Digitized from the original materials by Joel Corner in 2012.  Original materials are available at the Bentley Historical Library.</dim:field>
+<dim:field qualifier="holder" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Robert W. Schoening Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_335465" CHECKSUM="55182c43eecf0429a975fdcdddb487e7" MIMETYPE="text/plain" SIZE="25" ID="file_335481" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/97335/Schoening_RW_story_The-Automobile.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Schoening_RW_story_The-Automobile.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_335465" CHECKSUM="65a40e23b606aa96cbf629ac27f12f49" MIMETYPE="application/pdf" SIZE="10737402" ID="file_335465" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy - R. W. Schoening's handwritten manuscript 'The Automobile'" xlink:href="/bitstream/handle/2027.42/97335/Schoening_RW_story_The-Automobile.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Schoening_RW_story_The-Automobile.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_335466" CHECKSUM="5332e2533332e24dfe9ff0d49879f9de" MIMETYPE="application/zip" SIZE="1111194220" ID="file_335466" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy - R. W. Schoening's handwritten manuscript 'The Automobile'" xlink:href="/bitstream/handle/2027.42/97335/Schoening_RW_story_The-Automobile.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Schoening_RW_story_The-Automobile.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335465"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335466"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

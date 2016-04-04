@@ -1,0 +1,56 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/106798" ID="hdl:2027.42/106798" OBJEDIT="/admin/item?itemID=108524">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Edge, Laura A.</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">circa 1945</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="en_US" element="date">2014-05-22T20:57:22Z</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-05-30T15:50:13Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="en_US" element="date">2014-05-22T20:57:22Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2014014_0001_0007</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="en_US" element="identifier">http://hdl.handle.net/2027.42/106798</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Individual Deceased Personnel File (IDPF) for copilot Robert Greenwood, who was shot down with Lawrence Witt on May 12, 1944 and died.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Collected materials - Military documents - Greenwood, Robert, circa 1945</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Other</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="en_US" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/106798/1/CollMat-Military-IDPF_Greenwood.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/106798/3/CollMat-Military-IDPF_Greenwood.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/106798/4/CollMat-Military-IDPF_Greenwood.zip</dim:field>
+<dim:field qualifier="mapping" mdschema="dc" language="en_US" element="description">-1</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Lawrence Witt and Laura Edge Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_365143" CHECKSUM="9dfbb122ff595ef3dc317a617f7eb8fa" MIMETYPE="application/pdf" SIZE="61213305" ID="file_365143" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/106798/CollMat-Military-IDPF_Greenwood.pdf?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="CollMat-Military-IDPF_Greenwood.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_365144" CHECKSUM="1b07c97b8031dd0e5d58ffd1e8204677" MIMETYPE="application/zip" SIZE="2084718348" ID="file_365144" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: TIFF files" xlink:href="/bitstream/handle/2027.42/106798/CollMat-Military-IDPF_Greenwood.zip?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="CollMat-Military-IDPF_Greenwood.zip"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_365143" CHECKSUM="e5563de258cca7f8e013b70ca63103d7" MIMETYPE="text/plain" SIZE="82" ID="file_365141" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/106798/CollMat-Military-IDPF_Greenwood.pdf.txt?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="CollMat-Military-IDPF_Greenwood.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_365143"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_365144"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

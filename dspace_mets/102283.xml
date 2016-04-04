@@ -1,0 +1,49 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102283" ID="hdl:2027.42/102283" OBJEDIT="/admin/item?itemID=103732">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Sparling, Peter</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="contributor">Zenharmonic Gamelan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2010</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-01-16T20:13:05Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-01-16T20:13:05Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2011, 2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">0312_0001_0003</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102283</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Entitled "black body", this piece was created in December 2010 in Paris and signifies a surface or body capable of absorbing all the radiation falling on it..  Peter Sparling: performer/editor and music by Zenharmonic Gamelan.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is retained by Peter Sparling.  Music used with permission of composer.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Performances, Auditions, and Rehearsals - black body, 2010</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102283/1/Black_body_10-25.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102283/2/black_body_10-25.mov</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Sparling, Peter D.</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_350165" CHECKSUM="314a5f72fb5444c0536aff6b4ed025c4" MIMETYPE="video/mpeg" SIZE="152801516" ID="file_350165" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102283/Black_body_10-25.mp4?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Black_body_10-25.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_350166" CHECKSUM="03ab8bd8deada16b30a61f4a7c6d4bd4" MIMETYPE="video/quicktime" SIZE="1678865780" ID="file_350166" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original copy" xlink:href="/bitstream/handle/2027.42/102283/black_body_10-25.mov?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="black_body_10-25.mov"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_350165"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_350166"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

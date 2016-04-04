@@ -1,0 +1,48 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/113213" ID="hdl:2027.42/113213" OBJEDIT="/admin/item?itemID=114827">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim withdrawn="y" dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">President (University of Michigan)</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2002</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2015-09-11T14:52:47Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="en_US" element="date">WITHHELD_190_MONTHS</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2015-09-11T14:52:47Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2002</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87274_0009_0010</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/113213</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Waggoner Lecture Slides, 2002</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">President's Supplemental Files - Mary Sue Coleman - Speeches - September 2002-December 2004 - Waggoner Lecture Slides, 2002</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Office Documents</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113213/2/report4.ppt</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113213/3/report4_bhl-02b1805a.pptx</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Executive Records: Restricted.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2031-07-01</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">President (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_387836" CHECKSUM="1d705da92ef5c9ad5590314acd3a0672" MIMETYPE="application/vnd.ms-powerpoint" SIZE="19498496" ID="file_387836" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy of Waggoner Lecture Slides, 2002." xlink:href="/bitstream/handle/2027.42/113213/report4.ppt?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="report4.ppt"/>
+</mets:file>
+<mets:file GROUPID="group_file_387837" CHECKSUM="fc4ba04f8a00db52e9e08319b04061a8" MIMETYPE="application/vnd.ms-powerpoint" SIZE="19571485" ID="file_387837" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy of Waggoner Lecture Slides, 2002." xlink:href="/bitstream/handle/2027.42/113213/report4_bhl-02b1805a.pptx?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="report4_bhl-02b1805a.pptx"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387836"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387837"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

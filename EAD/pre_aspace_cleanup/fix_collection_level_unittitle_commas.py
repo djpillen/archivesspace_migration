@@ -20,7 +20,8 @@ def fix_collection_level_unittitle_commas(ead_dir):
 				f.write(etree.tostring(tree, encoding="utf-8",xml_declaration=True, pretty_print=True))
 
 def main():
-	ead_dir = 'D:/github/vandura/Real_Masters_all'
+	project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+	ead_dir = join(project_dir, "vandura", "Real_Masters_all")
 	fix_collection_level_unittitle_commas(ead_dir)
 
 if __name__ == "__main__":

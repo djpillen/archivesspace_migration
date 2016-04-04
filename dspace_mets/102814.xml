@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102814" ID="hdl:2027.42/102814" OBJEDIT="/admin/item?itemID=104270">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="contributor">Fletcher, Horace</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">August-December 1909</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-20T21:28:20Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-20T21:28:20Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0057</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102814</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Lectures, Speeches, and Related materials from Aug.-Dec. 1909:  * The Magical Curative Power of Water, Aug. 5, 1909 * The Liver, Aug. 19, 1909 * Vital Economics (given by Dr. Horace Fletcher), Sept. 2, 1909 * Digestion, Sept. 5, 1909 * Talk to Domestic Science Class, Sept. 21, 1909 * Physical Education, Oct. 7, 1909 * Pellagra Tuberculosis, Oct. 28, 1909 * Friendly Germs, Dec. 9, 1909</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Lectures, Speeches, and Related materials, 1909 pt. 03: August-December</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102814/1/Lectures-1909c.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102814/2/Lectures-1909c.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_351824" CHECKSUM="7af5989d8b46474a2799a14faeb7ee73" MIMETYPE="text/plain" SIZE="165" ID="file_351901" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102814/Lectures-1909c.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1909c.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_351824" CHECKSUM="2ec4e337280e172397c933fc1fde95b8" MIMETYPE="application/pdf" SIZE="16615896" ID="file_351824" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102814/Lectures-1909c.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1909c.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_351825" CHECKSUM="f3b317a4df5a306a3232540ca35e5b43" MIMETYPE="application/zip" SIZE="59950927" ID="file_351825" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/102814/Lectures-1909c.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1909c.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351824"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351825"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

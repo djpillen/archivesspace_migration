@@ -1,0 +1,45 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/86187" ID="hdl:2027.42/86187" OBJEDIT="/admin/item?itemID=87345">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Castagnacci, Vincent</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">undated</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2011-09-08T13:57:02Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2011-09-08T13:57:02Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2011</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2011012_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/86187</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Photographs of Gloucester, Massachusetts and Italian city scenes and landscapes.  Background information related to the life and work of Vincent Castagnacci</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">The collection is open to research</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Interviews and Background Materials - Photographs of Gloucester (Mass.) and Italy, undated</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86187/1/GlousterMassachusetts.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86187/2/Italy.zip</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Castagnacci, Vincent</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_292897" CHECKSUM="e84592fe1f3e7b1d026cb470a5cf6b66" MIMETYPE="application/zip" SIZE="543253637" ID="file_292897" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Photographs of Gloucester, Mass" xlink:href="/bitstream/handle/2027.42/86187/GlousterMassachusetts.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="GlousterMassachusetts.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_292898" CHECKSUM="d279798d49a3086a3d035c99b6d67a97" MIMETYPE="application/zip" SIZE="254136106" ID="file_292898" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Photographs of architecture and street scenes in Italy" xlink:href="/bitstream/handle/2027.42/86187/Italy.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Italy.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_292897"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_292898"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102860" ID="hdl:2027.42/102860" OBJEDIT="/admin/item?itemID=104317">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1930</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-21T14:56:01Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-21T14:56:01Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0103</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102860</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Lectures, Speeches, and Related materials from 1930:  * Question Box Lecture, June 2, 1930 * Does Prohibition Make Scoff-Laws? June 6, 1930 * Question Box Lecture, June 29, 1930 * What Makes a Man Tired? July 1930 * Question Box Lecture, July 7, 1930 * Question Box Lecture, July 14, 1930 * The Battle Creek Sanitarium Sends a Skilled Dietitian to Labrador, July  23, 1930 * The Reason Why, July 28, 1930 (copy 1 of 2) * The Reason Why, July 28, 1930 (copy 2 of 2) * Soybeans as Human Food, Sept. 11, 1930 * Question Box Lecture, Sept. 29, 1930 * Additional materials</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Lectures, Speeches, and Related materials, 1930</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102860/1/Lectures-1930.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102860/2/Lectures-1930.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_352052" CHECKSUM="ae0c73d26146ef16e9ed4c1a8324027d" MIMETYPE="text/plain" SIZE="164" ID="file_352296" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102860/Lectures-1930.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1930.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_352052" CHECKSUM="642a053969c86aa8d75918e2aeee1b20" MIMETYPE="application/pdf" SIZE="18137722" ID="file_352052" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102860/Lectures-1930.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1930.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_352053" CHECKSUM="0e38c2b77628e0c5f9cdb592004102e9" MIMETYPE="application/zip" SIZE="48641236" ID="file_352053" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/102860/Lectures-1930.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1930.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_352052"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_352053"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

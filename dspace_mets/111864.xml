@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/111864" ID="hdl:2027.42/111864" OBJEDIT="/admin/item?itemID=113461">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2013</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2015-06-12T18:27:46Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2015-06-12T18:27:46Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87245_0009_0023</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/111864</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">The Seals of the University of Michigan was an online exhibit prepared by Bentley Historical Library staff to chronicle the changes in the official seals of the university over the years.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Outreach: Education, Publicity, and Exhibits - Online Exhibits and Special Projects - The Seals of the University of Michigan, 2013</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111864/2/The Seals of the University of Michigan - 1995.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111864/3/The Seals of the University of Michigan - 1995_bhl-5030ec94.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-04-07</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Bentley Historical Library (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_382818" CHECKSUM="2245e7feb6705f0863d422744bf28e24" MIMETYPE="text/plain" SIZE="21718" ID="file_382862" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111864/The%20Seals%20of%20the%20University%20of%20Michigan%20-%201995.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="The Seals of the University of Michigan - 1995.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_382819" CHECKSUM="d1936136eec895437a670350768ca235" MIMETYPE="text/plain" SIZE="21715" ID="file_382863" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111864/The%20Seals%20of%20the%20University%20of%20Michigan%20-%201995_bhl-5030ec94.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="The Seals of the University of Michigan - 1995_bhl-5030ec94.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_382818" CHECKSUM="c6a5bdeadbc79acd98f84c51326cf969" MIMETYPE="application/pdf" SIZE="1348041" ID="file_382818" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version." xlink:href="/bitstream/handle/2027.42/111864/The%20Seals%20of%20the%20University%20of%20Michigan%20-%201995.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="The Seals of the University of Michigan - 1995.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_382819" CHECKSUM="70934f4d996024b0920143477d4e428a" MIMETYPE="application/pdf" SIZE="336507" ID="file_382819" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy." xlink:href="/bitstream/handle/2027.42/111864/The%20Seals%20of%20the%20University%20of%20Michigan%20-%201995_bhl-5030ec94.pdf?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="The Seals of the University of Michigan - 1995_bhl-5030ec94.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382818"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382819"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

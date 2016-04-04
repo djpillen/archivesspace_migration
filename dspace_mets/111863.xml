@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/111863" ID="hdl:2027.42/111863" OBJEDIT="/admin/item?itemID=113460">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2015-06-12T18:27:45Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2015-06-12T18:27:45Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87245_0009_0022</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/111863</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">The Making of University of Michigan History: The People, Events, &amp; Buildings that Shaped the University was an online exhibit and timeline prepared by Bentley Historical Library staff to chronicle some of the most pivotal and cherished influences on the University of Michigan's development.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Outreach: Education, Publicity, and Exhibits - Online Exhibits and Special Projects - The Making of University of Michigan History: The People, Events, and Buildings that Shaped the University, 2007</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111863/2/The Making of University of Michigan History - 1995.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111863/3/The Making of University of Michigan History - 1995_bhl-4162667d.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-04-07</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Bentley Historical Library (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_382815" CHECKSUM="5a4b02e8a2118c29a8104182176090c9" MIMETYPE="text/plain" SIZE="69374" ID="file_382898" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111863/The%20Making%20of%20University%20of%20Michigan%20History%20-%201995.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="The Making of University of Michigan History - 1995.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_382816" CHECKSUM="a2571ffd61d25ed2a32d8c5e705daf84" MIMETYPE="text/plain" SIZE="69373" ID="file_382899" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111863/The%20Making%20of%20University%20of%20Michigan%20History%20-%201995_bhl-4162667d.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="The Making of University of Michigan History - 1995_bhl-4162667d.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_382815" CHECKSUM="369813a64db003a7f5968dbbda132362" MIMETYPE="application/pdf" SIZE="6219785" ID="file_382815" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version." xlink:href="/bitstream/handle/2027.42/111863/The%20Making%20of%20University%20of%20Michigan%20History%20-%201995.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="The Making of University of Michigan History - 1995.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_382816" CHECKSUM="b8f8f66eb654424e49a029e194319a60" MIMETYPE="application/pdf" SIZE="1093450" ID="file_382816" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy." xlink:href="/bitstream/handle/2027.42/111863/The%20Making%20of%20University%20of%20Michigan%20History%20-%201995_bhl-4162667d.pdf?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="The Making of University of Michigan History - 1995_bhl-4162667d.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382815"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382816"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

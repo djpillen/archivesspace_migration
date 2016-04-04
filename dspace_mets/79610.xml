@@ -1,0 +1,45 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79610" ID="hdl:2027.42/79610" OBJEDIT="/admin/item?itemID=80436">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Information Technology Division, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:41:59Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:41:59Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1988-05</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79610</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">The MTS Manual is a series of volumes that describe in detail the facilities provided by the Michigan Terminal System. The UTILISP (University of Tokyo Interactive LISt Processor) system is designed for highly interactive programming and debugging of sophisticated programs. This document is intended to serve both as a User&#8217;s Guide and as a Reference Manual for the language and the system.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">383991 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Manuals - MTS Volume 22: UTLisp in MTS</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79610/1/MTSVol22-UTLispInMTS-May1988.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283279" CHECKSUM="b3b1f7883efb4e4079c73f34a9d21520" MIMETYPE="application/pdf" SIZE="383991" ID="file_283279" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79610/MTSVol22-UTLispInMTS-May1988.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol22-UTLispInMTS-May1988.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283279" CHECKSUM="7373d6725b7cd1911dddb9a2b7d5d293" MIMETYPE="text/plain" SIZE="355066" ID="file_283357" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79610/MTSVol22-UTLispInMTS-May1988.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol22-UTLispInMTS-May1988.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283279"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/105982" ID="hdl:2027.42/105982" OBJEDIT="/admin/item?itemID=107439">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1920-1927</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-24T19:21:51Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-24T19:21:51Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0225</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/105982</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Handwritten notebooks.  Includes various medical notes on various conditions and treatments as well as patient data. Also includes diary or calendar entries from 1912 and 1919.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Bound Manuscripts and Published Volumes - Notebooks (J. H. Kellogg) - Professional, 1920 -1927</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/105982/1/Bound-ProfessionalPt2.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/105982/2/Bound-ProfessionalPt2.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_358519" CHECKSUM="44519860a60d25172f7ad1f527d42ce2" MIMETYPE="text/plain" SIZE="1435" ID="file_361724" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/105982/Bound-ProfessionalPt2.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Bound-ProfessionalPt2.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_358519" CHECKSUM="ac8f08cbe860a7d297d4288a13ba2172" MIMETYPE="application/pdf" SIZE="100055731" ID="file_358519" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/105982/Bound-ProfessionalPt2.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Bound-ProfessionalPt2.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_358520" CHECKSUM="d996fb3aa54846ab6f72ba19dde35a03" MIMETYPE="application/zip" SIZE="326981343" ID="file_358520" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/105982/Bound-ProfessionalPt2.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Bound-ProfessionalPt2.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_358519"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_358520"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

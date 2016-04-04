@@ -1,0 +1,55 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/101943" ID="hdl:2027.42/101943" OBJEDIT="/admin/item?itemID=103390">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">University of Michigan., College of Engineering</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2012-2013</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-12-18T18:10:37Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-12-18T18:10:37Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">977_0001_0007</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/101943</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">2012-2013 University of Michigan Engineering program bulletin; provides information about the program, the history of the college, undergraduate admissions, financial aid, student life and services, academic rules and procedures, and specifics about courses and specializations within the undergraduate and graduate programs. The bulletin also includes welcome letters from President Coleman, the Dean of Engineering, and the student president of the University of Michigan Engineering Council.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Unit Publications - Bulletins (Course Catalogs) - Bulletins, 2012-2013</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/101943/1/bulletin-2012-13.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/101943/2/bulletin-2012-13_bhl-2747a3b2.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">College of Engineering (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_348830" CHECKSUM="19b1cefd3e496c2186e5892a10730d91" MIMETYPE="text/plain" SIZE="1203757" ID="file_348858" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/101943/bulletin-2012-13.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="bulletin-2012-13.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_348831" CHECKSUM="2aeee27f935ef276f1c067b260c9f938" MIMETYPE="text/plain" SIZE="1205567" ID="file_348859" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/101943/bulletin-2012-13_bhl-2747a3b2.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="bulletin-2012-13_bhl-2747a3b2.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_348830" CHECKSUM="d8677537909ee7e50b77796fc2255451" MIMETYPE="application/pdf" SIZE="2250550" ID="file_348830" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original copy: 2012-2013 College of Engineering bulletin" xlink:href="/bitstream/handle/2027.42/101943/bulletin-2012-13.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="bulletin-2012-13.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_348831" CHECKSUM="f080f9fc499ddf4bcf21349a2b42dec7" MIMETYPE="application/pdf" SIZE="1715506" ID="file_348831" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy: 2012-2013 College of Engineering bulletin created by the Bentley Historical Society" xlink:href="/bitstream/handle/2027.42/101943/bulletin-2012-13_bhl-2747a3b2.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="bulletin-2012-13_bhl-2747a3b2.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_348830"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_348831"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

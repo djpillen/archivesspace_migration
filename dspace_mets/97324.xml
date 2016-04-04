@@ -1,0 +1,52 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/97324" ID="hdl:2027.42/97324" OBJEDIT="/admin/item?itemID=98461">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Pittsfield (Mich. : Township)</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1835-1887</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-04-12T16:54:49Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-04-12T16:54:49Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">86329_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/97324</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Documentation of the position and routes of roads in Pittsfield Township, with identification of public highways and minutes of road surveys that contain precise descriptions of length and bearing.  Also includes records of petitions of citizens and tax payers to the Highway Commission for the township to lay out roadways. Index to volume indicates pages on which township roads are identified.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Miscellaneous Township Responsibilities - Highways - Road Record Book and Determinations</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97324/1/ROADRECS_18351887.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97324/2/ROADRECS_18351887.pdf</dim:field>
+<dim:field qualifier="source" mdschema="dc" language="en_US" element="identifier">Digitized from the original materials by Image Data Conversion (Saline, Mich.) in 2012.  Original volume is available at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Pittsfield, Mich. Township Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_335418" CHECKSUM="c1818207c3010c183ea954277b0b80d8" MIMETYPE="text/plain" SIZE="171" ID="file_335420" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/97324/ROADRECS_18351887.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="ROADRECS_18351887.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_335417" CHECKSUM="0f178cb1b5bb4b37744afa84e0caefea" MIMETYPE="application/zip" SIZE="244124067" ID="file_335417" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation Copy - Pittsfield Township Road Record Book and Determinations - 1835-1887" xlink:href="/bitstream/handle/2027.42/97324/ROADRECS_18351887.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="ROADRECS_18351887.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_335418" CHECKSUM="d95c57085ef08d1b1c2141cdc96497be" MIMETYPE="application/pdf" SIZE="244441434" ID="file_335418" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access Copy - Pittsfield Township Road Record Book and Determinations - 1835-1887" xlink:href="/bitstream/handle/2027.42/97324/ROADRECS_18351887.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="ROADRECS_18351887.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335417"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335418"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

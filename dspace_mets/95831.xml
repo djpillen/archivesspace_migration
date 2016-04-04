@@ -1,0 +1,46 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/95831" ID="hdl:2027.42/95831" OBJEDIT="/admin/item?itemID=97237">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Granholm, Jennifer</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-01-22T15:03:35Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-01-22T15:03:35Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2012</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2012</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2011101_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/95831</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Greetings and remarks recorded in 2007 by Governor Jennifer M. Granholm when she was unable to attend events held by communities, businesses, religious organizations, government agencies, and private individuals.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Communications Division - Staff Files - Video greetings and remarks - 2007</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video; Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/95831/1/2007_A-M.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/95831/2/2007_N-Z.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Jennifer Granholm Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_330865" CHECKSUM="b249f497f23388023c981b5e3913e6bf" MIMETYPE="application/zip" SIZE="1059078325" ID="file_330865" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Digital video content: greetings and remarks (includes titles A-M), 2007" xlink:href="/bitstream/handle/2027.42/95831/2007_A-M.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="2007_A-M.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_330866" CHECKSUM="15f2cdfc0cf13f8ea86741d9c04a2863" MIMETYPE="application/zip" SIZE="1084357025" ID="file_330866" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Digital video content: greetings and remarks (includes titles N-Z), 2007" xlink:href="/bitstream/handle/2027.42/95831/2007_N-Z.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="2007_N-Z.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_330865"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_330866"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

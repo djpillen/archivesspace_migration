@@ -1,0 +1,41 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/96440" ID="hdl:2027.42/96440" OBJEDIT="/admin/item?itemID=97854">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Adair, Matthew L.</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-02-14T21:11:15Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-02-14T21:11:15Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2011</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/96440</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">This report was the product of an Institute of Museum and Library Services (IMLS) internship at the Bentley Historical Library in the summer of 2011.  It examines the Bentley Historical Library&#8217;s in-house digital reformatting practices to identify conformance with digital preservation best practices as articulated in the Technical Guidelines for Digitizing Cultural Heritage Materials developed by the Federal Agencies Digitization Initiative (FADGI). This document provides an overview of the the Bentley's procedures as of June 2011 and includes recommendations based on professional best practices.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Division Records - Digital Curation - Papers - Digital Reformatting Procedures</dim:field>
+<dim:field qualifier="affiliationum" mdschema="dc" language="en_US" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/96440/1/Adair_digitization-report-2011.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Bentley Historical Library (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_332692" CHECKSUM="06ab0af776e776cb354aa65a1f1be00a" MIMETYPE="text/plain" SIZE="92881" ID="file_332700" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/96440/Adair_digitization-report-2011.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Adair_digitization-report-2011.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_332692" CHECKSUM="06bd3d20d7498894c62c03bc6faf75aa" MIMETYPE="application/pdf" SIZE="2384215" ID="file_332692" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/96440/Adair_digitization-report-2011.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Adair_digitization-report-2011.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_332692"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

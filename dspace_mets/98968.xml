@@ -1,0 +1,51 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/98968" ID="hdl:2027.42/98968" OBJEDIT="/admin/item?itemID=100406">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">University of Michigan., Gerald R. Ford School of Public Policy</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2008</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="en_US" element="date">2013-07-16T15:38:48Z</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2013-07-22T17:10:28Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="en_US" element="date">2013-07-16T15:38:48Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87209_0002</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="en_US" element="identifier">http://hdl.handle.net/2027.42/98968</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">To access this archived Website, download the .ZIP file and extract the contents with the utility of your choice. Using a Web browser, open the 'BHL-start-here.html' file found within to review additional information from the Bentley Historical Library and follow a link to view the archived homepage.</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Archived version of the Gerald R. Ford School of Public Policy website as it appeared on May 8-9, 2008. Documents the academic programs, accomplishments, resources, events, and people at the Ford School of Public Policy as presented on its public website. Content includes important news and announcements, publications including newsletters, course catalogs, and working papers, and information about admissions, curriculum, degree requirements, student life, faculty, and the overall mission of the School. The website also made numerous audio and video recordings of presentations and other events available to the public. Due to the large size of these files, two versions of the site have been provided -- one including these multimedia files and another without them.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Archived Website - Gerald R. Ford School of Public Policy - 2008</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Dataset</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="en_US" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/98968/1/2008FSPP-no_multimedia.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/98968/2/2008FSPP-no_multimedia.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/98968/3/2008FSPP.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Gerald R. Ford School of Public Policy (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_340504" CHECKSUM="bec8faa06ddaa0409185c8a14f2298d3" MIMETYPE="application/zip" SIZE="2388344037" ID="file_340504" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Complete version of 2008 School of Public Policy website" xlink:href="/bitstream/handle/2027.42/98968/2008FSPP.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="2008FSPP.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_340503" CHECKSUM="95a238a6bf8ae4c08feb094fd15e443f" MIMETYPE="application/zip" SIZE="431769868" ID="file_340503" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy: version of 2008 School of Public Policy Website without large audio files to facilitate download" xlink:href="/bitstream/handle/2027.42/98968/2008FSPP-no_multimedia.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="2008FSPP-no_multimedia.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_340504"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_340503"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

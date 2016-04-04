@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102864" ID="hdl:2027.42/102864" OBJEDIT="/admin/item?itemID=104321">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1938</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-21T15:00:12Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-21T15:00:12Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0107</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102864</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Lectures, Speeches, and Related materials from 1938:  * Normal Colon Habits, Jan. 7, 1938 * The Case Against Meat Eating, Jan. 11, 1938 * The Ideal Food Laxative, Jan. 18, 1938 (2 versions) * Direction for Using LD-Lax, Jan. 21, 1938 * Colon Poisons, Jan. 30, 1938 * Lecture to Patients of the Miami-Battle Creek in the Sanitarium, Jan. 31, 1938 * The Constipation Problem Solved, Feb. 17, 1938 * A Master Germ, Mar. 17, 1938 * Lecture to Patients of the Miami-Battle Creek in the Sanitarium, Mar. 27, 1938 * Lecture to Patients of the Miami-Battle Creek in the Sanitarium, Apr. 17, 1938 * Untitled autobiographical statement, Oct. 21, 1938</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Lectures, Speeches, and Related materials, 1938</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102864/1/Lectures-1938.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102864/2/Lectures-1938.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_352064" CHECKSUM="585f13fb6aa70bcf0ee23123c2e3f4b8" MIMETYPE="text/plain" SIZE="145" ID="file_352341" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102864/Lectures-1938.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1938.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_352064" CHECKSUM="529d029e6dcafc09ead62caa7831b26a" MIMETYPE="application/pdf" SIZE="16182606" ID="file_352064" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102864/Lectures-1938.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1938.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_352065" CHECKSUM="623018fe0dfb013e5277f9a8e91c578e" MIMETYPE="application/zip" SIZE="42296042" ID="file_352065" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/102864/Lectures-1938.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1938.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_352064"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_352065"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

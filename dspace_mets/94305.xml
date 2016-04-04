@@ -1,0 +1,40 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/94305" ID="hdl:2027.42/94305" OBJEDIT="/admin/item?itemID=95681">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Computer-Aided Engineering Network (CAEN), University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2012-11-20T19:43:43Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2012-11-20T19:43:43Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2012</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">2011123_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/94305</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Promotional video describing the unique features and course offerings at Camp CAEN, a computer exploration camp for middle and high school students and sponsored by CAEN and the College of Engineering. Narrated by Camp CAEN Director James Todd.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Visual Materials - Video - Camp CAEN Computer Exploration Camp</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="hlbsecondlevel" mdschema="dc" element="subject">Computer Science</dim:field>
+<dim:field qualifier="hlbtoplevel" mdschema="dc" element="subject">Engineering</dim:field>
+<dim:field qualifier="affiliationum" mdschema="dc" language="en_US" element="contributor">Computer Aided Engineering Network</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94305/1/Camp-CAEN.mp4</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computer Aided Engineering Network (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_326243" CHECKSUM="9d92e56cd6a6422aafb3bc077583bdfe" MIMETYPE="video/mpeg" SIZE="43385960" ID="file_326243" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Camp CAEN Promotional Video" xlink:href="/bitstream/handle/2027.42/94305/Camp-CAEN.mp4?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Camp-CAEN.mp4"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_326243"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

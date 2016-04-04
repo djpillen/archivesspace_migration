@@ -1,0 +1,51 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/110281" ID="hdl:2027.42/110281" OBJEDIT="/admin/item?itemID=111828">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Leslie, Dale</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Dorton, Arnie Martin</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Vuolo, Art</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2010</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2015-01-23T16:39:04Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2015-01-23T16:39:04Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">9577_0004_0003</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/110281</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">WWWJ's broadcast celebrating ten decades of broadcasting in Detroit</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan History - Detroit: Motor City Radio Reunion, 2010</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Sound recording</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/110281/2/Motor-City-Radio-Reunion.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/110281/3/Motor-City-Radio-Reunion-Access.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Use of this content is restricted to the reading room of the University of Michigan's Bentley Historical Library.</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" language="" element="description">Description of Motor-City-Radio-Reunion-Access.zip : Access Version of audio recordings in .MP3 format. Access restricted to Bentley Library only.</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" language="" element="description">Description of Motor-City-Radio-Reunion.zip : Preservation Version of audio recordings in .WAV format. Access restricted to Bentley Library only.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-12-08</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Dale Leslie Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_377150" CHECKSUM="ccc8b27ea2dedb73a0116dfe5d12fc03" MIMETYPE="application/zip" SIZE="76532394" ID="file_377150" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access Version of audio recordings in .MP3 format. Access restricted to Bentley Library only." xlink:href="/bitstream/handle/2027.42/110281/Motor-City-Radio-Reunion-Access.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Motor-City-Radio-Reunion-Access.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_377149" CHECKSUM="9df5783e4ea913781093f2cd2bc6a192" MIMETYPE="application/zip" SIZE="821882579" ID="file_377149" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation Version of audio recordings in .WAV format. Access restricted to Bentley Library only." xlink:href="/bitstream/handle/2027.42/110281/Motor-City-Radio-Reunion.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Motor-City-Radio-Reunion.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_377150"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_377149"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

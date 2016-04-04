@@ -1,0 +1,50 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/95717" ID="hdl:2027.42/95717" OBJEDIT="/admin/item?itemID=97119">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Babicki, Andrew</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2013-01-17T20:17:37Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2013-01-17T20:17:37Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">2009120_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/95717</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Digitized version of a panoramic photograph depicting Company D, 125th Infantry Division &#13;
+in May 1919</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Photographs - Infantry, 125th</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/95717/1/hs10302.jpg</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/95717/3/hs10302.tif</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Andrew Babicki Collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="THUMBNAIL">
+<mets:file GROUPID="group_file_330597" CHECKSUM="e725857d81ea043dfa604164832e6f3d" MIMETYPE="image/jpeg" SIZE="1648" ID="file_330603" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Generated Thumbnail" xlink:href="/bitstream/handle/2027.42/95717/hs10302.jpg.jpg?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="hs10302.jpg.jpg"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_330597" CHECKSUM="6d82a5d170cff2e76b201eba041a9777" MIMETYPE="image/jpeg" SIZE="25153162" ID="file_330597" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Low resolution version of image" xlink:href="/bitstream/handle/2027.42/95717/hs10302.jpg?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="hs10302.jpg"/>
+</mets:file>
+<mets:file GROUPID="group_file_330601" CHECKSUM="ca7bf31cb2bd2afb163ed00be77f9499" MIMETYPE="image/tiff" SIZE="249975408" ID="file_330601" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="High resolution version of image" xlink:href="/bitstream/handle/2027.42/95717/hs10302.tif?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="hs10302.tif"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_330597"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_330601"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

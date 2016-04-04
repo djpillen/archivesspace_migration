@@ -1,0 +1,48 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/113216" ID="hdl:2027.42/113216" OBJEDIT="/admin/item?itemID=114830">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim withdrawn="y" dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">President (University of Michigan)</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-09-11T14:54:41Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="en_US" element="date">WITHHELD_190_MONTHS</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-09-11T14:54:41Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87274_0009_0002</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/113216</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Footage from University of Toledo 2007 commencement with University of Michigan President Mary Sue Coleman giving the address.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">President's Supplemental Files - Mary Sue Coleman - Subject Files - University of Toledo commencement address, 2007</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113216/2/39015094707968.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113216/3/U-Toledo.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Executive Records: Restricted.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2031-07-01</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">President (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_387846" CHECKSUM="eaea0fc9ad0e2e1568e18f713074bb61" MIMETYPE="application/zip" SIZE="4282655444" ID="file_387846" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy." xlink:href="/bitstream/handle/2027.42/113216/39015094707968.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="39015094707968.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_387847" CHECKSUM="77a5c74e4690339f17bfe00c161c8443" MIMETYPE="application/zip" SIZE="2540509778" ID="file_387847" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access Copy, includes 10 videos." xlink:href="/bitstream/handle/2027.42/113216/U-Toledo.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="U-Toledo.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387846"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387847"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

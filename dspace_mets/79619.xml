@@ -1,0 +1,41 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79619" ID="hdl:2027.42/79619" OBJEDIT="/admin/item?itemID=80445">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computing Center, University of Michigan</dim:field>
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Television Service, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:42:40Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:42:40Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1968</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79619</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">Demonstration of advanced use of the IBM 29 card punch. Material was derived from original 16mm film created by the UM Computing Center.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">49848504 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">video/quicktime</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Historical Files - Movies - Advanced Use of IBM 29 Card Punch</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79619/1/AdvancedUseOfTheIBM29CardPunch.mov</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283297" CHECKSUM="12ea19a1243d74f3f568f68334fff6af" MIMETYPE="video/quicktime" SIZE="49848504" ID="file_283297" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79619/AdvancedUseOfTheIBM29CardPunch.mov?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="AdvancedUseOfTheIBM29CardPunch.mov"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283297"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

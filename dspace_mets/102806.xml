@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102806" ID="hdl:2027.42/102806" OBJEDIT="/admin/item?itemID=104262">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Fisher, Irving</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">January-August 1907</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-20T21:12:54Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-20T21:12:54Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0049</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102806</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Lectures, Speeches, and Related materials from Jan.-Aug. 1907:  * The Essentials of Health, Jan. 22, 1907 * Vital Coefficients, Jan. 24, 1907 (1 of 2 pts.) * Vital Coefficients,  Jan. 31, 1907 (2 of 2 pts.) * Colon Disease: Its Etiology, Pathology, Diagnosis and Treatment (article taken from Modern Medicine), June 1907 * The Anti-Toxic Diet, July 18, 1907 * Health Perils in the United States (lecture given by Kellogg and Prof. Irving Fisher), July 29, 1907 * The Sanitarium System, Aug. 8, 1907</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Lectures, Speeches, and Related materials, 1907 pt. 01: January-August</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102806/1/Lectures-1907a.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102806/2/Lectures-1907a.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_351800" CHECKSUM="8e5019f77695732f3529fa9eace945c5" MIMETYPE="text/plain" SIZE="178" ID="file_351922" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102806/Lectures-1907a.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1907a.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_351800" CHECKSUM="40b8306b85cfaf945b88b40cc54c6cf4" MIMETYPE="application/pdf" SIZE="26933681" ID="file_351800" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102806/Lectures-1907a.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1907a.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_351801" CHECKSUM="913d37236bf01cc01fca283eabee4062" MIMETYPE="application/zip" SIZE="82007746" ID="file_351801" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/102806/Lectures-1907a.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1907a.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351800"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351801"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,47 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/51252" ID="hdl:2027.42/51252" OBJEDIT="/admin/item?itemID=51417">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Somers, Margaret R.</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2007-05-14T19:17:51Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2007-05-14T19:17:51Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1992-10</dim:field>
+<dim:field mdschema="dc" language="en_US" element="identifier">CRSO Working Paper #486</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/51252</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">Also CSST Working Paper #88.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">3017345 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">3384 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">The Political Culture Concept: The Empirical Power of Conceptual Transformations</dim:field>
+<dim:field qualifier="hlbsecondlevel" mdschema="dc" language="en_US" element="subject">Sociology</dim:field>
+<dim:field qualifier="hlbtoplevel" mdschema="dc" language="en_US" element="subject">Social Sciences</dim:field>
+<dim:field qualifier="affiliationum" mdschema="dc" language="en_US" element="contributor">Center for Research on Social Organization</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="en_US" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/51252/1/486.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Social Organization, Center for Research on - Working Paper Series (CRSO)</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_189651" CHECKSUM="756f89719dc2ab663b4bc55eb24bfca8" MIMETYPE="text/plain" SIZE="111988" ID="file_190383" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/51252/486.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="486.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_189651" CHECKSUM="4d9e29733470f53705faf8a0f590df60" MIMETYPE="application/pdf" SIZE="3017345" ID="file_189651" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/51252/486.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="486.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_189651"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,56 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/85368" ID="hdl:2027.42/85368" OBJEDIT="/admin/item?itemID=86496">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Office of the Registrar, University of Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2009</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2011-08-02T14:47:59Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2011-08-02T14:47:59Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2010</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2009-09</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">0393_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/85368</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Course offerings listed by academic unit; includes course title, course number, section number, class time, cross listings, prerequisites, credit hour, instructor and location.  The Schedule of Classes serves to confirm that a particular class was offered and provides evidence of the university's compliance with stated degree program requirements.  The University Archives holds the official versions of the Schedule of Classes dating to 1926; starting in Winter 2004,  the document has only been available in digital form.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="subject">Time Schedule</dim:field>
+<dim:field mdschema="dc" language="en_US" element="subject">Schedule of Classes</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Publications - Time Schedule - Schedule of Classes - 2009-2010 - Fall 2009</dim:field>
+<dim:field qualifier="affiliationum" mdschema="dc" language="en_US" element="contributor">Office of the Registrar, University of Michigan</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/85368/1/FA2009.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/85368/4/FA2009_bhl-e36dc609.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Office of the Registrar (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_290227" CHECKSUM="3b4f17759f009e9faa32af50d38154df" MIMETYPE="application/pdf" SIZE="1035311" ID="file_290227" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Schedule of Classes Fall 2009--Original Copy" xlink:href="/bitstream/handle/2027.42/85368/FA2009.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="FA2009.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_333763" CHECKSUM="ab2e908a2fcaead337e40527d4fd82cb" MIMETYPE="application/pdf" SIZE="780931" ID="file_333763" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Schedule of Classes Fall 2009--Preservation Copy" xlink:href="/bitstream/handle/2027.42/85368/FA2009_bhl-e36dc609.pdf?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="FA2009_bhl-e36dc609.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_290227" CHECKSUM="cb8ee35132db532d3a635e7c1721f4b2" MIMETYPE="text/plain" SIZE="1028641" ID="file_290302" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/85368/FA2009.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="FA2009.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_333763" CHECKSUM="481af1c802de909723d55a8b85609ac6" MIMETYPE="text/plain" SIZE="1028354" ID="file_333870" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/85368/FA2009_bhl-e36dc609.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="FA2009_bhl-e36dc609.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_290227"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_333763"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

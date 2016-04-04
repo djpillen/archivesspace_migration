@@ -1,0 +1,47 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" OBJEDIT="/admin/item?itemID=119728" OBJID="/handle/2027.42/116146" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" ID="hdl:2027.42/116146">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DIM">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field element="contributor" qualifier="author" language="en_US" mdschema="dc">Ovshinsky, Stanford R.</dim:field>
+<dim:field element="coverage" qualifier="temporal" language="en_US" mdschema="dc">2010</dim:field>
+<dim:field element="date" qualifier="accessioned" mdschema="dc">2015-12-08T21:38:38Z</dim:field>
+<dim:field element="date" qualifier="available" mdschema="dc">2015-12-08T21:38:38Z</dim:field>
+<dim:field element="date" qualifier="created" language="en_US" mdschema="dc">2015</dim:field>
+<dim:field element="date" qualifier="issued" language="en_US" mdschema="dc">2015</dim:field>
+<dim:field element="identifier" qualifier="other" language="en_US" mdschema="dc">2014092_0002_0024</dim:field>
+<dim:field element="identifier" qualifier="uri" mdschema="dc">http://hdl.handle.net/2027.42/116146</dim:field>
+<dim:field element="description" qualifier="abstract" language="en_US" mdschema="dc">A video tour of the Uni-Solar plant dated July 5, 2010. Includes Stanford Ovshinsky escorting guests through the plant, as well as background on the company and Ovshinsky's innovations. Also features President George W. Bush's visit to the plant.</dim:field>
+<dim:field element="title" language="en_US" mdschema="dc">Business Administration - Energy Conversion Devices - Subsidiaries - Uni-Solar, 2010</dim:field>
+<dim:field element="type" language="en_US" mdschema="dc">Video</dim:field>
+<dim:field element="description" qualifier="bitstreamurl" mdschema="dc">http://deepblue.lib.umich.edu/bitstream/2027.42/116146/2/Sro Uni Solar Dvd-1.mp4</dim:field>
+<dim:field element="description" qualifier="bitstreamurl" mdschema="dc">http://deepblue.lib.umich.edu/bitstream/2027.42/116146/3/Sro Uni Solar Dvd-1.zip</dim:field>
+<dim:field element="rights" qualifier="access" language="en_US" mdschema="dc">This content is open for research.</dim:field>
+<dim:field element="date" qualifier="open" language="en_US" mdschema="dc">2015-11-11</dim:field>
+<dim:field element="rights" qualifier="copyright" language="en_US" mdschema="dc">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field element="owningcollname" mdschema="dc">Stanford R. Ovshinsky Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_401937" ID="file_401937" MIMETYPE="video/mpeg" SIZE="134625376" CHECKSUM="85763aa3f67f362ea3a754a131f6fb1b">
+<mets:FLocat LOCTYPE="URL" xlink:title="Sro Uni Solar Dvd-1.mp4" xlink:label="Access video." xlink:type="locator" xlink:href="/bitstream/handle/2027.42/116146/Sro%20Uni%20Solar%20Dvd-1.mp4?sequence=2&amp;isAllowed=y"/>
+</mets:file>
+<mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_401938" ID="file_401938" MIMETYPE="application/zip" SIZE="344825107" CHECKSUM="71a4542f480f15f10c587c222bdf6ce3">
+<mets:FLocat LOCTYPE="URL" xlink:title="Sro Uni Solar Dvd-1.zip" xlink:label="Preservation video." xlink:type="locator" xlink:href="/bitstream/handle/2027.42/116146/Sro%20Uni%20Solar%20Dvd-1.zip?sequence=3&amp;isAllowed=y"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_401937"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_401938"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

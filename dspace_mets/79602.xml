@@ -1,0 +1,45 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79602" ID="hdl:2027.42/79602" OBJEDIT="/admin/item?itemID=80428">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computing Center, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:41:25Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:41:25Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1985-09</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79602</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">The MTS Manual is a series of volumes that describe in detail the facilities provided by the Michigan Terminal System. The Symbolic Debugging System (SDS) is a conversational facility for testing and debugging programs. This facility was originally provided for 360/370-assembler language programs, but it has been extended to include FORTRAN, PL/I, and PL360 programs. SDS enables the user to initiate the execution of a program and monitor its performance by displaying or modifying instructions and data at strategic points in the program.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">494658 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Manuals - MTS Volume 13: The Symbolic Debugging System</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79602/1/MTSVol13-TheSymbolicDebuggingSystem-Sep1985.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283263" CHECKSUM="abfafc89d8e2d02989ebf82c30a8923e" MIMETYPE="application/pdf" SIZE="494658" ID="file_283263" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79602/MTSVol13-TheSymbolicDebuggingSystem-Sep1985.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol13-TheSymbolicDebuggingSystem-Sep1985.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283263" CHECKSUM="b9fab669cc01c318869848795e526a5b" MIMETYPE="text/plain" SIZE="299267" ID="file_283349" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79602/MTSVol13-TheSymbolicDebuggingSystem-Sep1985.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol13-TheSymbolicDebuggingSystem-Sep1985.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283263"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,47 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/51155" ID="hdl:2027.42/51155" OBJEDIT="/admin/item?itemID=51320">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Ortner, Sherry</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2007-05-14T19:06:33Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2007-05-14T19:06:33Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1989-04</dim:field>
+<dim:field mdschema="dc" language="en_US" element="identifier">CRSO Working Paper #387</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/51155</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">Also CSST Working Paper #24.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">438662 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">3384 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">A Feminist Perspective on Christopher Lasch, 'The Social Invasion of the Self'</dim:field>
+<dim:field qualifier="hlbsecondlevel" mdschema="dc" language="en_US" element="subject">Sociology</dim:field>
+<dim:field qualifier="hlbtoplevel" mdschema="dc" language="en_US" element="subject">Social Sciences</dim:field>
+<dim:field qualifier="affiliationum" mdschema="dc" language="en_US" element="contributor">Center for Research on Social Organization</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="en_US" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/51155/1/387.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Social Organization, Center for Research on - Working Paper Series (CRSO)</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_189457" CHECKSUM="9d3746239125e5bd779de6b9fad89d18" MIMETYPE="text/plain" SIZE="17629" ID="file_190292" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/51155/387.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="387.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_189457" CHECKSUM="463c04113ca8510aa4714f4cbbe65edc" MIMETYPE="application/pdf" SIZE="438662" ID="file_189457" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/51155/387.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="387.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_189457"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102805" ID="hdl:2027.42/102805" OBJEDIT="/admin/item?itemID=104261">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Benedict, Francis G.</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">October-December &#65279;1906</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-20T21:10:45Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-20T21:10:45Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0048</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102805</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Lectures, Speeches, and Related materials from Oct.-Dec. 1906:  * Course in Physiologic Therapeutics, Oct. 2, 1906 * Hydrotherapy, Oct. 8, 1906 * Question Box Lecture, Oct. 18, 1906 * Question Box Lecture, Nov. 8, 1906 * Summary of Address of welcome to Chautauqua Managers,  Nov. 14, 1906 * Question Box Lecture, Nov. 22, 1906 * Question Box Lecture, Nov. 26, 1906 * Dr. Kellogg's First Word (re Sanitarium and Sanitarium tax suit), Dec. 1906 * Question Box Lecture, Dec. 17, 1906 * Atwater Calorimeter (Given by Francis G. Benedict), Dec. 31, 1906</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Lectures, Speeches, and Related materials, 1906 pt. 04: October-December</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102805/1/Lectures-1906e.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102805/2/Lectures-1906e.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_351797" CHECKSUM="4332648245d403edc9030815ef2a4dbf" MIMETYPE="text/plain" SIZE="169" ID="file_351914" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102805/Lectures-1906e.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1906e.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_351797" CHECKSUM="f43430257e0b8cef12ac9287d594c63b" MIMETYPE="application/pdf" SIZE="26531785" ID="file_351797" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102805/Lectures-1906e.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1906e.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_351798" CHECKSUM="098b2518e2bb20ddc9de6dc755a71a3f" MIMETYPE="application/zip" SIZE="83301141" ID="file_351798" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/102805/Lectures-1906e.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1906e.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351797"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351798"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

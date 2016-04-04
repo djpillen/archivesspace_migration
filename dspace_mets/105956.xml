@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/105956" ID="hdl:2027.42/105956" OBJEDIT="/admin/item?itemID=107413">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">ca. 1890-1965</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-24T17:15:24Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-24T17:15:24Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0199</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/105956</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Clippings related to the Battle Creek College people, teaching, and events.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Clippings/Scrapbooks - Clippings, ca. 1890-1965 - Battle Creek College</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/105956/1/Clippings-BattleC.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/105956/2/Clippings-BattleC.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_358440" CHECKSUM="0ba4d87f46b301ffef18538c3aaa82d0" MIMETYPE="text/plain" SIZE="80" ID="file_361710" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/105956/Clippings-BattleC.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Clippings-BattleC.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_358440" CHECKSUM="3479d4260f50f47203d06f691a360b4d" MIMETYPE="application/pdf" SIZE="24171447" ID="file_358440" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/105956/Clippings-BattleC.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Clippings-BattleC.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_358441" CHECKSUM="d5d4380ce37a1bb503073724893fa59e" MIMETYPE="application/zip" SIZE="52781502" ID="file_358441" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/105956/Clippings-BattleC.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Clippings-BattleC.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_358440"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_358441"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

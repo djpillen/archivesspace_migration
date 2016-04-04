@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/106601" ID="hdl:2027.42/106601" OBJEDIT="/admin/item?itemID=108074">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Edge, Laura A.</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">circa 1945</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-05-20T14:46:49Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-05-20T14:46:49Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">Collected materials - Military documents - Detwiler, Samuel, circa 1945</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/106601</dim:field>
+<dim:field qualifier="sponsorship" mdschema="dc" language="en_US" element="description">Individual Deceased Personnel File (IDPF) navigator Samuel Detwiler, who was shot down with Lawrence Witt on May 12, 1944 and died.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Collected materials - Military documents - Detwiler, Samuel, circa 1945</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Other</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/106601/1/CollMat-Military-IDPF_Detwiler.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/106601/2/CollMat-Military-IDPF_Detwiler.zip</dim:field>
+<dim:field qualifier="mapping" mdschema="dc" language="en_US" element="description">-1</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Lawrence Witt and Laura Edge Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_363842" CHECKSUM="3b176f4d8377d6d81fa41c3fdcef32a4" MIMETYPE="text/plain" SIZE="48" ID="file_363934" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/106601/CollMat-Military-IDPF_Detwiler.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="CollMat-Military-IDPF_Detwiler.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_363842" CHECKSUM="55b390bd51eaa153e309a581046f6787" MIMETYPE="application/pdf" SIZE="27942798" ID="file_363842" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access version: PDF file created by Bentley Historical Library ; Preservation version: TIFF files " xlink:href="/bitstream/handle/2027.42/106601/CollMat-Military-IDPF_Detwiler.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="CollMat-Military-IDPF_Detwiler.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_363843" CHECKSUM="4f640b146c9a134e1262f97a095b2af7" MIMETYPE="application/zip" SIZE="1209036498" ID="file_363843" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/106601/CollMat-Military-IDPF_Detwiler.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="CollMat-Military-IDPF_Detwiler.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_363842"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_363843"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

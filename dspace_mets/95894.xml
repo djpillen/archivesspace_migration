@@ -1,0 +1,60 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/95894" ID="hdl:2027.42/95894" OBJEDIT="/admin/item?itemID=97300">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Granholm, Jennifer</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2006</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2013-01-22T15:31:18Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2013-01-22T15:31:18Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2012</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2012</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2011101_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/95894</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Audio recordings of interviews, radio addresses, press conferences, and news events featuring Governor Granholm in 2006</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Communications Division - General Office Records - Audio Files - Governor Granholm - 2006</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Recording, oral</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/95894/1/2006_January-August.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/95894/2/2006_September.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/95894/3/2006_October-November.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/95894/4/2006_December.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Jennifer Granholm Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_330994" CHECKSUM="47dc5708d954bdc5d3846ffea36043e6" MIMETYPE="application/zip" SIZE="1960543455" ID="file_330994" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Audio recordings from January through August 2006" xlink:href="/bitstream/handle/2027.42/95894/2006_January-August.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="2006_January-August.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_330995" CHECKSUM="7d063337722660c5e2e4e634c3f5e7b4" MIMETYPE="application/zip" SIZE="1796442130" ID="file_330995" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Audio recordings from September 2006" xlink:href="/bitstream/handle/2027.42/95894/2006_September.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="2006_September.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_330996" CHECKSUM="d1d016ff7e25f024192ce1128ab82cfe" MIMETYPE="application/zip" SIZE="1339522814" ID="file_330996" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Audio recordings from October and November 2006" xlink:href="/bitstream/handle/2027.42/95894/2006_October-November.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="2006_October-November.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_330997" CHECKSUM="78b2c11ea38db1cad070db0bec7dc823" MIMETYPE="application/zip" SIZE="961122506" ID="file_330997" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Audio recordings from December 2006" xlink:href="/bitstream/handle/2027.42/95894/2006_December.zip?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="2006_December.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_330994"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_330995"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_330996"/>
+</mets:div>
+<mets:div ID="div_5" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_330997"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

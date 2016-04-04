@@ -1,0 +1,50 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102529" ID="hdl:2027.42/102529" OBJEDIT="/admin/item?itemID=103997">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Sparling, Peter</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Bostridge, Ian</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Brewer, Aileen</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2012</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-01-22T18:50:16Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-01-22T18:50:16Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2012</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">0312_0001_0021</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/102529</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">This work is a danceplay by Sparling that features music by Benjamin Britten, vocals by Ian Bostridge, harp performance by Aline Brewer, text by T.S. Eliot, and paintings by Alyse Radenovic.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is retained by Peter Sparling and appropriate copyright holders.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Performances, Auditions, and Rehearsals - The Death of Saint Narcissus, 2012</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102529/1/The Death of Saint Narcissus 2012.mov</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102529/2/The Death of Saint Narcissus 2012.mp4</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content may only be viewed in the Reading Room of the Bentley Historical Library (1150 Beal Avenue Ann Arbor, MI 48109 U.S.A.)</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" language="en_US" element="description">Description of The Death of Saint Narcissus 2012.mp4 : Access restricted to Bentley, Duderstadt Center, Hatcher, and Shapiro Libraries on the U-M campus.</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" language="en_US" element="description">Description of The Death of Saint Narcissus 2012.mov : Access restricted to Bentley, Duderstadt Center, Hatcher, and Shapiro Libraries on the U-M campus. Original copy.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Sparling, Peter D.</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_350962" CHECKSUM="213a1ce6f849002415f42b95356416c8" MIMETYPE="video/quicktime" SIZE="1710968928" ID="file_350962" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access restricted to Bentley, Duderstadt Center, Hatcher, and Shapiro Libraries on the U-M campus. Original copy." xlink:href="/bitstream/handle/2027.42/102529/The%20Death%20of%20Saint%20Narcissus%202012.mov?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="The Death of Saint Narcissus 2012.mov"/>
+</mets:file>
+<mets:file GROUPID="group_file_350963" CHECKSUM="fb77acc5936b0410e5eda9747a05a895" MIMETYPE="video/mpeg" SIZE="501125208" ID="file_350963" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access restricted to Bentley, Duderstadt Center, Hatcher, and Shapiro Libraries on the U-M campus." xlink:href="/bitstream/handle/2027.42/102529/The%20Death%20of%20Saint%20Narcissus%202012.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="The Death of Saint Narcissus 2012.mp4"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_350962"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_350963"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

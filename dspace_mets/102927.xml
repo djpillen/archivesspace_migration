@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102927" ID="hdl:2027.42/102927" OBJEDIT="/admin/item?itemID=104384">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1920-1929</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-21T16:49:29Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-21T16:49:29Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0170</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102927</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Typed and handwritten documents.  Includes notes on a visit to the Mayo clinic, various notes and memoranda, and John Harvey Kellogg's conversations with Count Tolstoy and Dr. Wiggam.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Notes and Articles -  Memoranda [dated files], 1920-1929</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102927/1/Notes-1920s.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102927/2/Notes-1920s.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_352254" CHECKSUM="66a89633a91e0d1a8a93c692ef110829" MIMETYPE="text/plain" SIZE="424" ID="file_352266" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102927/Notes-1920s.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Notes-1920s.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_352254" CHECKSUM="b5c7662444e74b58eabf9849d299e312" MIMETYPE="application/pdf" SIZE="42118767" ID="file_352254" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102927/Notes-1920s.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Notes-1920s.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_352255" CHECKSUM="ac451efcbba89b3fe70b1cab376843e6" MIMETYPE="application/zip" SIZE="129348549" ID="file_352255" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/102927/Notes-1920s.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Notes-1920s.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_352254"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_352255"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

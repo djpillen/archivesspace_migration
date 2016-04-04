@@ -1,0 +1,55 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/107640" ID="hdl:2027.42/107640" OBJEDIT="/admin/item?itemID=109130">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Van Zoeren, Tom</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Basch, Laura</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">1995</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-07-07T20:04:13Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-07-07T20:04:13Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2009</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">0129_0001_0053</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/107640</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Video of oral history interview with Laura Basch centered around items and photographs from her home conducted by Tom Van Zoeren from January 20, 1995 to April 12, 1995.  Describes the context of items and photographs as well as identifying people in the images. Focuses on personal and family history and other families in the Port Oneida area. Description of video based on transcript available in 'Information on Farms, Families, etc.' series and selected review of the video files.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Video Recordings - Basch, Laura - Photos, 1995</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Interview; Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107640/2/Basch, Laura--Photos, Part 1.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107640/3/Basch, Laura--Photos, Part 2.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107640/4/Basch, Laura--Photos, Part 3.mp4</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-06-05</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright is not held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Tom Van Zoeren Oral History Collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_367173" CHECKSUM="75ca35a445dad4d55166e2935e7e7691" MIMETYPE="video/mpeg" SIZE="2713383315" ID="file_367173" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Part 1 of interview" xlink:href="/bitstream/handle/2027.42/107640/Basch%2c%20Laura--Photos%2c%20Part%201.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Basch, Laura--Photos, Part 1.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_367174" CHECKSUM="6947e7271c821b81a3e1227b0992d58c" MIMETYPE="video/mpeg" SIZE="2529556273" ID="file_367174" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Part 2 of interview" xlink:href="/bitstream/handle/2027.42/107640/Basch%2c%20Laura--Photos%2c%20Part%202.mp4?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Basch, Laura--Photos, Part 2.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_367175" CHECKSUM="3b3815d5219da2d8c4e61a865abc5810" MIMETYPE="video/mpeg" SIZE="587600762" ID="file_367175" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Part 3 of interview" xlink:href="/bitstream/handle/2027.42/107640/Basch%2c%20Laura--Photos%2c%20Part%203.mp4?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Basch, Laura--Photos, Part 3.mp4"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367173"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367174"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367175"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

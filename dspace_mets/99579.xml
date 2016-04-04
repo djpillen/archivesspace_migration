@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/99579" ID="hdl:2027.42/99579" OBJEDIT="/admin/item?itemID=101009">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Schmid, Friedrich</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage"/>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2013-08-28T17:01:56Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2013-08-28T17:01:56Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2013</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/99579</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Record of marriages from 1833-1871; maintained by Rev. Friedrich Schmid and originally part of the records of Zion Lutheran Church of Ann Arbor.   Information likely refers to congregants of Bethlehem Church (Ann Arbor, Mich., the precursor organization of  Zion Luthearn Church); may include records related to other congregations in Schmid's jurisdiction (such as Salem Lutheran Church).  Records are in German and entries extend across facing pages.  Information includes the names of the bride and groom; details on their standing, character, profession, residence, or religion; the parents of the bride and groom; prior marital status of participants, with names of previous spouse if widowed or divorced; date and location of wedding; and the clergyman who performed the ceremony.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of MIchigan</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digital images created in 2013 from microfilm made by the University of Michigan Library Preservation Office Microfilming Unit in 1985.  Original volume held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Record of Marriages, 1833-1871</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="oclc" mdschema="dc" element="identifier">2013093_0001</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99579/1/Marriages_1833-1871.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99579/2/Marriages_1833-1871.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Friedrich Schmid Church Records, 1833-1875</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_341598" CHECKSUM="f751400473ec73a55a56ccf7e0009059" MIMETYPE="text/plain" SIZE="129" ID="file_341616" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/99579/Marriages_1833-1871.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Marriages_1833-1871.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_341598" CHECKSUM="16d38556675ef8fa0e02f0811f05e397" MIMETYPE="application/pdf" SIZE="64427571" ID="file_341598" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy: PDF file of marriage register created and maintained by Rev. Friedrich Schmid from 1833-1871 " xlink:href="/bitstream/handle/2027.42/99579/Marriages_1833-1871.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Marriages_1833-1871.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_341599" CHECKSUM="22e110f2e401d1b549ea23c09b738ad4" MIMETYPE="application/zip" SIZE="1545910217" ID="file_341599" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy: TIFF image files of marriage register created and maintained by Rev. Friedrich Schmid from 1833-1871" xlink:href="/bitstream/handle/2027.42/99579/Marriages_1833-1871.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Marriages_1833-1871.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_341598"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_341599"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

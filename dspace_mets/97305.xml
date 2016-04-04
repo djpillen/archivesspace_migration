@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/97305" ID="hdl:2027.42/97305" OBJEDIT="/admin/item?itemID=98717">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Pittsfield Township, Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage"/>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1850-1873</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-04-12T15:01:48Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-04-12T15:01:48Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date"/>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">86329_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/97305</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Records of annual Pittsfield Township meetings.  Includes voting results for elected officials and local ordinances (related to road maintenance, taxes, elections, etc.), annual reports (from the Overseer of Highways, Superintendent of Schools, and other officials), and the swearing in of newly elected officials. Also contains balances and audits for the township's financial records, including payments to officials and private individuals.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Township Administration - Proceedings of the Town Board Meetings - 1850-1873</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97305/2/PITTSTWP_18501873.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97305/3/PITTSTWP_18501873.zip</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Pittsfield, Mich. Township Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_335360" CHECKSUM="91d037e620643d73145a54e44da2fd6b" MIMETYPE="text/plain" SIZE="185" ID="file_335435" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/97305/PITTSTWP_18501873.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="PITTSTWP_18501873.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_335360" CHECKSUM="e6961cb640ce6458f88d5733fe29dc60" MIMETYPE="application/pdf" SIZE="307315850" ID="file_335360" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access Copy - Pittsfield Township Board Meeting Proceedings - 1850-1873" xlink:href="/bitstream/handle/2027.42/97305/PITTSTWP_18501873.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="PITTSTWP_18501873.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_335361" CHECKSUM="66680be8660039e220440c3176a99238" MIMETYPE="application/zip" SIZE="306948188" ID="file_335361" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation Copy - Pittsfield Township Board Meeting Proceedings - 1850-1873" xlink:href="/bitstream/handle/2027.42/97305/PITTSTWP_18501873.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="PITTSTWP_18501873.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335360"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335361"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

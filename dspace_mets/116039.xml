@@ -1,0 +1,47 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/116039" ID="hdl:2027.42/116039" OBJEDIT="/admin/item?itemID=119620">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Prison Creative Arts Project (PCAP)</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">1992-11-21</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-11-24T19:28:19Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-11-24T19:28:19Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2010177_0001_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/116039</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Junkie, a play by Martha Boesing, performed by The Sisters Within Theater Troupe at Florence Crane Correctional Facility in Coldwater, Michigan on November 21, 1992.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Audiovisual Material - Junkie, Sisters Within Theater Troupe, November 21, 1992</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/116039/2/Junkie.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/116039/3/Junkie.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-11-23</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Prison Creative Arts Project collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_401471" CHECKSUM="8c417ede7be6b49ba22de82c5a64b8df" MIMETYPE="video/mpeg" SIZE="3029747725" ID="file_401471" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access version." xlink:href="/bitstream/handle/2027.42/116039/Junkie.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Junkie.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_401472" CHECKSUM="7563747c65f5dacc3b58fa20c52bb88f" MIMETYPE="application/zip" SIZE="3630867861" ID="file_401472" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version." xlink:href="/bitstream/handle/2027.42/116039/Junkie.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Junkie.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_401471"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_401472"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,58 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79010" ID="hdl:2027.42/79010" OBJEDIT="/admin/item?itemID=79832">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Office of the Registrar, University of Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2004-2005</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2011-01-19T16:56:56Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2011-01-19T16:56:56Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2006-2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2005-08-19</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">0393_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/79010</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">The Schedule of Classes Supplement record includes the academic calendar, registration deadlines, final examination schedule, key to the schedule of classes, residency policy, student directory, student rights and records, term withdrawal policy, tuition &amp; fees schedule, late registration fee and laboratory fees.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" language="" element="format">214587 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" language="" element="format">1801 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" language="en_US" element="format">pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" language="" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" language="" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Publications - Time Schedule - Schedule of Classes - 2004-2005 - Supplement</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79010/1/Supplement200405.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79010/4/supplement2004-05_bhl-997d9998.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Office of the Registrar (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_281808" CHECKSUM="a56dbdefe1e37baf95ecf2622444aa64" MIMETYPE="text/plain" SIZE="151200" ID="file_281870" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79010/Supplement200405.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Supplement200405.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_333792" CHECKSUM="390f3a6b538f6048dc5613fc4f4dbfb0" MIMETYPE="text/plain" SIZE="151067" ID="file_333845" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79010/supplement2004-05_bhl-997d9998.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="supplement2004-05_bhl-997d9998.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_281808" CHECKSUM="e637059e75e258e6c13cb2093e4e13ae" MIMETYPE="application/pdf" SIZE="214587" ID="file_281808" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Schedule of Classes Supplement 2004-2005--Original Copy" xlink:href="/bitstream/handle/2027.42/79010/Supplement200405.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Supplement200405.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_333792" CHECKSUM="79ad8dff13af863547505ff8a30d4c79" MIMETYPE="application/pdf" SIZE="534708" ID="file_333792" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Schedule of Classes Supplement 2004-2005--Preservation Copy" xlink:href="/bitstream/handle/2027.42/79010/supplement2004-05_bhl-997d9998.pdf?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="supplement2004-05_bhl-997d9998.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_281808"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_333792"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

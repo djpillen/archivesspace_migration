@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/111852" ID="hdl:2027.42/111852" OBJEDIT="/admin/item?itemID=113449">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-06-12T18:27:39Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-06-12T18:27:39Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87245_0009_0012</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/111852</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Online exhibit introducing the reader to the collections of John and Leni Sinclair held by the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Outreach: Education, Publicity, and Exhibits - Online Exhibits and Special Projects - John Sinclair, 2007</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111852/2/John Sinclair.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111852/3/John Sinclair_bhl-c9b6d46e.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-04-07</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Bentley Historical Library (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_382783" CHECKSUM="1bea46885d0d9c1f9edf5dd00afcf19d" MIMETYPE="text/plain" SIZE="18128" ID="file_382874" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111852/John%20Sinclair.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="John Sinclair.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_382784" CHECKSUM="1bea46885d0d9c1f9edf5dd00afcf19d" MIMETYPE="text/plain" SIZE="18128" ID="file_382875" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111852/John%20Sinclair_bhl-c9b6d46e.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="John Sinclair_bhl-c9b6d46e.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_382783" CHECKSUM="e9efa72367c8053c0d33160eb3ac7f49" MIMETYPE="application/pdf" SIZE="686015" ID="file_382783" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version." xlink:href="/bitstream/handle/2027.42/111852/John%20Sinclair.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="John Sinclair.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_382784" CHECKSUM="acadcf1aecd0062cbbf74e71fc6a8fcb" MIMETYPE="application/pdf" SIZE="284331" ID="file_382784" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy." xlink:href="/bitstream/handle/2027.42/111852/John%20Sinclair_bhl-c9b6d46e.pdf?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="John Sinclair_bhl-c9b6d46e.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382783"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382784"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

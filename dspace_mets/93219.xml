@@ -1,0 +1,47 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/93219" ID="hdl:2027.42/93219" OBJEDIT="/admin/item?itemID=94560">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Kavanaugh, John</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" element="coverage">2007-2010</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2012-08-29T19:56:14Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2012-08-29T19:56:14Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" element="date">2007-2012</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2012</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">2011124_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/93219</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Part of the Digital Materials series, the Personal Materials subseries includes digital photographs collected by Kavanaugh or taken of him and associates as well as some video footage of his home and neighborhood circa 2008</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Personal Materials</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/93219/1/Pictures.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/93219/2/Videos.zip</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John L. Kavanaugh Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_323061" CHECKSUM="1f28b05295b1e0836482528478ccb50a" MIMETYPE="application/zip" SIZE="54050907" ID="file_323061" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Digital photographs collected by Kavanaugh or taken of him and his associates" xlink:href="/bitstream/handle/2027.42/93219/Pictures.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Pictures.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_323062" CHECKSUM="09a9931f11e1c63e0c94ed0d698c3cc5" MIMETYPE="application/zip" SIZE="198854955" ID="file_323062" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Video footage of Kavanaugh, his home, and his Detroit neighborhood" xlink:href="/bitstream/handle/2027.42/93219/Videos.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Videos.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_323061"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_323062"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

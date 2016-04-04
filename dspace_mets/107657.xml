@@ -1,0 +1,48 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/107657" ID="hdl:2027.42/107657" OBJEDIT="/admin/item?itemID=109149">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">King, Emery C.</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Kingberry Productions</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">1998</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-07-08T17:51:15Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-07-08T17:51:15Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2009-2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2014069_0001_0003</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/107657</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Documentary video about the history of the Ford Rouge River plant from the early 1920s to early 1940s that was produced by WDIV-TV in association with Kingberry Productions. The documentary features interviews of those who worked at the plant as well as archival footage and photographs and showcases the diversity of racial and ethnic backgrounds represented as well as struggles for labor rights, such as the ability to unionize. The documentary was produced, written and edited by John Owens; narrated by Emery King; Emery and Jacqueline Casselberry King executive producers.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Ford Rouge River Plant, Dearborn, Mich. - The Rouge, 1998</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107657/2/The Rouge_bhl.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107657/3/The Rouge.mov</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-06-12</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Emery C. King and Jacqueline C. King  Collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_367214" CHECKSUM="12575ae35b46331292dd12877d4977da" MIMETYPE="video/mpeg" SIZE="886208001" ID="file_367214" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy of video file created by Bentley Library from The Rouge.mov" xlink:href="/bitstream/handle/2027.42/107657/The%20Rouge_bhl.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="The Rouge_bhl.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_367215" CHECKSUM="ed3e1fd35ea5a70b64b2b9c9d087b118" MIMETYPE="video/quicktime" SIZE="10750164420" ID="file_367215" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original video file" xlink:href="/bitstream/handle/2027.42/107657/The%20Rouge.mov?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="The Rouge.mov"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367214"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367215"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

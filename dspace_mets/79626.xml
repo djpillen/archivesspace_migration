@@ -1,0 +1,45 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79626" ID="hdl:2027.42/79626" OBJEDIT="/admin/item?itemID=80452">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computing Center, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:43:11Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:43:11Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1988-03</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79626</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">The MTS Manual is a series of volumes that describe in detail the facilities provided by the Michigan Terminal System. Volume 15 contains the descriptions for the FORMAT and TEXT360 text-processing programs. FORMAT is a text-processing language that takes the text of a document in free format, and reformats it into lines, paragraphs, and pages according to control information supplied with the text. FORMAT numbers pages, generates titles and footers, justifies text (aligns right and left margins), indents sections of text, prints text in multiple columns, etc. An index and table of contents may be generated for the document. TEXT360 is a text-processing system that can expedite the production of publishable documents. The TEXT360 user specifies the desired format by embedding two types of instructions in the text flow: "edit codes," which usually affect the format of a relatively small area of text, and "alter codes," which are more general instructions dealing with format specifications of a larger scope, such as page depth, column width, etc</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">5982651 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Manuals - MTS Volume 15: FORMAT and TEXT360</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79626/1/MTSVol15-FORMATAndTEXT360-Mar1988.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283311" CHECKSUM="8467c4a94f71e3f4fc540f4b0bc68edc" MIMETYPE="application/pdf" SIZE="5982651" ID="file_283311" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79626/MTSVol15-FORMATAndTEXT360-Mar1988.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol15-FORMATAndTEXT360-Mar1988.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283311" CHECKSUM="f51cf0855f26acb2948621546cf34ac6" MIMETYPE="text/plain" SIZE="637249" ID="file_283372" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79626/MTSVol15-FORMATAndTEXT360-Mar1988.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol15-FORMATAndTEXT360-Mar1988.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283311"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

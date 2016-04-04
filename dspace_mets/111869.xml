@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/111869" ID="hdl:2027.42/111869" OBJEDIT="/admin/item?itemID=113466">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2010</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-06-12T18:27:48Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-06-12T18:27:48Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87245_0009_0003</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/111869</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Online exhibit prepared by Bentley Historical Library staff to document a century of vacationing and travel in Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Outreach: Education, Publicity, and Exhibits - Online Exhibits and Special Projects - A Century of Vacationing and Travel in Michigan, 2010</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111869/2/A Century of Vacationing and Travel in Michigan - 2010.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111869/3/A Century of Vacationing and Travel in Michigan - 2010_bhl-4e2fd48c.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-04-07</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Bentley Historical Library (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_382833" CHECKSUM="961192b17652d389dee24d6e04442cde" MIMETYPE="text/plain" SIZE="1672" ID="file_382900" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111869/A%20Century%20of%20Vacationing%20and%20Travel%20in%20Michigan%20-%202010.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="A Century of Vacationing and Travel in Michigan - 2010.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_382834" CHECKSUM="961192b17652d389dee24d6e04442cde" MIMETYPE="text/plain" SIZE="1672" ID="file_382901" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111869/A%20Century%20of%20Vacationing%20and%20Travel%20in%20Michigan%20-%202010_bhl-4e2fd48c.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="A Century of Vacationing and Travel in Michigan - 2010_bhl-4e2fd48c.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_382833" CHECKSUM="df847eff1620a64269e837de3bbc978f" MIMETYPE="application/pdf" SIZE="5544964" ID="file_382833" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version." xlink:href="/bitstream/handle/2027.42/111869/A%20Century%20of%20Vacationing%20and%20Travel%20in%20Michigan%20-%202010.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="A Century of Vacationing and Travel in Michigan - 2010.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_382834" CHECKSUM="5a0e7d3a00fbb8e0eec35d90310d5931" MIMETYPE="application/pdf" SIZE="1842172" ID="file_382834" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy." xlink:href="/bitstream/handle/2027.42/111869/A%20Century%20of%20Vacationing%20and%20Travel%20in%20Michigan%20-%202010_bhl-4e2fd48c.pdf?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="A Century of Vacationing and Travel in Michigan - 2010_bhl-4e2fd48c.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382833"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382834"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

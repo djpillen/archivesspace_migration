@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/97334" ID="hdl:2027.42/97334" OBJEDIT="/admin/item?itemID=98745">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Schoening, Robert W.</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">ca. 1919-1923</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-04-15T17:57:08Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-04-15T17:57:08Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2012-2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">2013014_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/97334</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Essay by Robert W. Schoening that explores the nature of modern business with a review of large-scale, industrial capitalism and social inequalities among the working classes.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Essays - "What Is Business?"</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97334/1/Schoening_RW_Essay_What-is-Business.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97334/2/Schoening_RW_Essay_What-is-Business.zip</dim:field>
+<dim:field qualifier="source" mdschema="dc" language="en_US" element="identifier">Digitized from the original materials by Joel Corner in 2012.  Original materials are available at the Bentley Historical Library.</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Robert W. Schoening Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_335462" CHECKSUM="7f5b903a193cc66524e06d8c0458e34a" MIMETYPE="text/plain" SIZE="19" ID="file_335486" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/97334/Schoening_RW_Essay_What-is-Business.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Schoening_RW_Essay_What-is-Business.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_335462" CHECKSUM="5fbe1297bc7094865ff363eb4c7b5806" MIMETYPE="application/pdf" SIZE="6014450" ID="file_335462" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access Copy - R. W. Schoening's essay &quot;What is Business?&quot;" xlink:href="/bitstream/handle/2027.42/97334/Schoening_RW_Essay_What-is-Business.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Schoening_RW_Essay_What-is-Business.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_335463" CHECKSUM="e83f85d5d75bc131e76e4a175f60ff8e" MIMETYPE="application/zip" SIZE="1108788652" ID="file_335463" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation Copy - R. W. Schoening's essay &quot;What is Business?&quot;" xlink:href="/bitstream/handle/2027.42/97334/Schoening_RW_Essay_What-is-Business.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Schoening_RW_Essay_What-is-Business.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335462"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335463"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

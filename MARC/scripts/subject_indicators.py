@@ -4,7 +4,8 @@ from os.path import join
 
 subject_tags = ["630", "650", "651", "655", "656"]
 
-marcxmls = "marcxml_no_ead"
+project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+marcxmls = join(project_dir, "marcxml_no_ead")
 ns = {'marc': 'http://www.loc.gov/MARC21/slim'}
 
 tags_indicators = {}

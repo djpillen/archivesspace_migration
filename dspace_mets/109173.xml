@@ -1,0 +1,48 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/109173" ID="hdl:2027.42/109173" OBJEDIT="/admin/item?itemID=110685">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Taubman, A. Alfred</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Coleman, Mary Sue</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2011</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-10-14T19:08:48Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-10-14T19:08:48Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2011097_0001_0027</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/109173</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">A gift to the University of Michigan by A. Alfred Taubman is signed, March 16, 2011.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Personal - Digital images and video recordings - Interviews, Philanthropic Activities, etc. - University of Michigan Donation Signing Ceremony, 2011</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/109173/2/Taubman-part1.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/109173/3/Taubman-part2.mp4</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-08-26</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">A. Alfred Taubman papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_373414" CHECKSUM="e66f79731460e46c641d7606bedb7011" MIMETYPE="video/mpeg" SIZE="217248661" ID="file_373414" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Part 1" xlink:href="/bitstream/handle/2027.42/109173/Taubman-part1.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Taubman-part1.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_373415" CHECKSUM="79b11bfda6b0af02bfeded5eb7b2083b" MIMETYPE="video/mpeg" SIZE="247819704" ID="file_373415" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Part 2" xlink:href="/bitstream/handle/2027.42/109173/Taubman-part2.mp4?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Taubman-part2.mp4"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_373414"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_373415"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

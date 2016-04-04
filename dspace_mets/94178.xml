@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/94178" ID="hdl:2027.42/94178" OBJEDIT="/admin/item?itemID=95545">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Men's Glee Club, University of Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" element="coverage">2012</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2012-10-24T13:07:14Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2012-10-24T13:07:14Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" element="date">2012</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2012</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">87250_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/94178</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Audio, photos, and video of the University of Michigan Men's Glee Club's May 4, 2012 performance at Beijing's Tsinghua University. The club visited Beijing from May 3 to May 5, 2012.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">China Concert Tour - May 04, 2012: Beijing - Tsinghua University Meng Minwei Concert Hall</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94178/1/Tsinghua-University-Photos.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94178/2/157-0758.MOV</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94178/3/Tsinghua-University-Beijing.WAV</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Men's Glee Club (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_325807" CHECKSUM="773c6d173ff3aa11010d98da53081398" MIMETYPE="audio/x-wav" SIZE="1365766144" ID="file_325807" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Audio recording of the Men's  Glee Club performance at Tsinghua University" xlink:href="/bitstream/handle/2027.42/94178/Tsinghua-University-Beijing.WAV?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Tsinghua-University-Beijing.WAV"/>
+</mets:file>
+<mets:file GROUPID="group_file_325805" CHECKSUM="543ef341cf59d08ca9f183a8eb5caa76" MIMETYPE="application/zip" SIZE="99711079" ID="file_325805" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Digital images of the  Men's  Glee Club performance at Tsinghua University" xlink:href="/bitstream/handle/2027.42/94178/Tsinghua-University-Photos.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Tsinghua-University-Photos.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_325806" CHECKSUM="20a17273686487c75640d1a9f14f2160" MIMETYPE="video/quicktime" SIZE="2086488300" ID="file_325806" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Video recording of the  Men's  Glee Club performance at Tsinghua University" xlink:href="/bitstream/handle/2027.42/94178/157-0758.MOV?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="157-0758.MOV"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_325807"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_325805"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_325806"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

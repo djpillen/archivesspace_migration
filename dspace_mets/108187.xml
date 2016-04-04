@@ -1,0 +1,50 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/108187" ID="hdl:2027.42/108187" OBJEDIT="/admin/item?itemID=109682">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Owens, John</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Ruggiero, Angela</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2011</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-08-12T15:36:20Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-08-12T15:36:20Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2011-2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2014049_0001_0019</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/108187</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Video recording [0:54] of Angela Ruggiero, four-time Olympian on the United States Ice Hockey Team, thanking Jean Ledwith King for her Title IX work and expressing her regrets that she was not able to attend the event honoring King and the Women's Center of Southeastern Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Video Recordings - Tribute Statements - Ruggiero, Angela, 2011</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/108187/2/Angela Ruggiero, Jean King event video_bhl.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/108187/3/Angela Ruggiero, Jean King event video.mov</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of Angela Ruggiero, Jean King event video_bhl.mp4 : Access restricted to Bentley Library only. Access version of 'Angela Ruggiero, Jean King event video.mov' created by Bentley Library</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of Angela Ruggiero, Jean King event video.mov : Access restricted to Bentley Library only.  Original video file</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-07-31</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Jean Ledwith King Oral History Collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_370336" CHECKSUM="a236cdd4f6dd0ed6ae1b14a95dac7887" MIMETYPE="video/mpeg" SIZE="2832816" ID="file_370336" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access restricted to Bentley Library only. Access version of 'Angela Ruggiero, Jean King event video.mov' created by Bentley Library" xlink:href="/bitstream/handle/2027.42/108187/Angela%20Ruggiero%2c%20Jean%20King%20event%20video_bhl.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Angela Ruggiero, Jean King event video_bhl.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_370337" CHECKSUM="5a5bca9fdbebac5a7723bc9070486d9c" MIMETYPE="video/quicktime" SIZE="2476271" ID="file_370337" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access restricted to Bentley Library only.  Original video file" xlink:href="/bitstream/handle/2027.42/108187/Angela%20Ruggiero%2c%20Jean%20King%20event%20video.mov?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Angela Ruggiero, Jean King event video.mov"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_370336"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_370337"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -4,8 +4,8 @@ from os.path import join
 
 ns = {'marc': 'http://www.loc.gov/MARC21/slim'}
 
-
-marcxml_dir = "marcxml_no_ead_joined"
+project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+marcxml_dir = join(project_dir, "marcxml_no_ead_joined")
 
 no_main_record = []
 for filename in os.listdir(marcxml_dir):

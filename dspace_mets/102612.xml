@@ -1,0 +1,55 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102612" ID="hdl:2027.42/102612" OBJEDIT="/admin/item?itemID=104065">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">University of Michigan. School of Kinesiology</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2012-2013</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-05T20:29:44Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-05T20:29:44Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">0324_0001_0013</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102612</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">The 2012-2013 School of Kinesiology bulletin provides information on academic program requirements, courses, and admission information. Included are separate bulletins for undergraduate studies and graduate studies. Also included is a bulletin addendum.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Unit Publications - Bulletins, 2012-2013</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Technical Report</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102612/1/Bulletin12_13.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102612/2/GradBulletin12_13.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102612/3/Addendum12_13.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">School of Kinesiology (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_351282" CHECKSUM="e99b7c1a37d8c5f13fe35674cb451af0" MIMETYPE="application/zip" SIZE="1063069" ID="file_351282" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Undergraduate Kinesiology Bulletin 2012-2013" xlink:href="/bitstream/handle/2027.42/102612/Bulletin12_13.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Bulletin12_13.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_351283" CHECKSUM="f56644d89772389bc1fdbe8763acb0d9" MIMETYPE="application/zip" SIZE="1282497" ID="file_351283" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Graduate Kinesiology Bulletin 2012-2013 " xlink:href="/bitstream/handle/2027.42/102612/GradBulletin12_13.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="GradBulletin12_13.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_351284" CHECKSUM="9628af0fab9c25c17a9d4c5ffe495636" MIMETYPE="application/zip" SIZE="194020" ID="file_351284" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Kinesiology Bulletin Addendum 2012-2013" xlink:href="/bitstream/handle/2027.42/102612/Addendum12_13.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Addendum12_13.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351282"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351283"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351284"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

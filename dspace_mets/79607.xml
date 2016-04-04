@@ -1,0 +1,44 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79607" ID="hdl:2027.42/79607" OBJEDIT="/admin/item?itemID=80433">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computing Center, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:41:45Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:41:45Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1987-04</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79607</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">Internal documentation and reference of disks employed in Distribution 6.0 of the Michigan Terminal System.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">225535 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Internal System Documentation - MTS D6.0 Disk Documentation</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79607/1/MTSDiskInformation-Apr1987.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283273" CHECKSUM="fe9be941c8c43566e45aba3201f0eb66" MIMETYPE="application/pdf" SIZE="225535" ID="file_283273" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79607/MTSDiskInformation-Apr1987.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSDiskInformation-Apr1987.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283273" CHECKSUM="2ba44e90d15b468d23c14c8cdf8018a3" MIMETYPE="text/plain" SIZE="239645" ID="file_283354" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79607/MTSDiskInformation-Apr1987.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSDiskInformation-Apr1987.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283273"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

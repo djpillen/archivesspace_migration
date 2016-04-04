@@ -1,0 +1,48 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/110291" ID="hdl:2027.42/110291" OBJEDIT="/admin/item?itemID=111838">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">University of Michigan. Department of Psychiatry.</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Sade, Robert</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2013</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2015-01-23T20:46:37Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2015-01-23T20:46:37Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">0360_0001_0018</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/110291</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Video files and transcript of 2013 Waggoner lecture. Robert Sade, Myths and Misconceptions in Biomedical Ethics, 2013.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Raymond Waggoner Lectures - Robert Sade, Myths and Misconceptions in Biomedical Ethics, 2013</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video; Other</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/110291/2/2013_Sade.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/110291/3/2013_RobertSade.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-11-10</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Dept. of Psychiatry (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_377181" CHECKSUM="af3522bed7365836295c486c81c7bd85" MIMETYPE="application/zip" SIZE="2817723" ID="file_377181" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version and preservation copy of 2013 Waggoner lecture transcript." xlink:href="/bitstream/handle/2027.42/110291/2013_Sade.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="2013_Sade.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_377182" CHECKSUM="15f9bbd88f19357b4ea06171d1fceb92" MIMETYPE="application/zip" SIZE="198608767" ID="file_377182" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Video files for 2013Waggoner lecture." xlink:href="/bitstream/handle/2027.42/110291/2013_RobertSade.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="2013_RobertSade.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_377181"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_377182"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/93218" ID="hdl:2027.42/93218" OBJEDIT="/admin/item?itemID=94559">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Kavanaugh, John</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" element="coverage">2005-2012</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2012-08-29T19:45:15Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2012-08-29T19:45:15Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" element="date">2006-2012</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2012</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">2011124_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/93218</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Part of the Digital Materials series, the Issues subseries contains drafts of correspondence, email, articles, essays, eNewsletters (including copies of "Some Missing Lines"), flyers and other material related to the various issues with which Kavanaugh was involved: gay rights, religion, public transit, elections, voter suppression, and urban development among others. As such, these materials will have varying degrees of overlap with other series in the John L. Kavanaugh papers</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Issues</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Article</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Other</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/93218/1/Documents.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/93218/2/Email_Correspondence.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/93218/3/SOME_MISSING_LINES_eNewsletters.zip</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John L. Kavanaugh Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_323057" CHECKSUM="456eaae088ccbba596cba090cec9cf6b" MIMETYPE="application/zip" SIZE="6258427" ID="file_323057" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Documents: essays, draft correspondence, flyers and memoranda relating to various religious, transit, and socioeconomic issues" xlink:href="/bitstream/handle/2027.42/93218/Documents.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Documents.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_323058" CHECKSUM="d6eab69895a50c89a7137ff404e499e7" MIMETYPE="application/zip" SIZE="492432078" ID="file_323058" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Email Correspondence related to various issues, including socio-economic status, religion, race, gay rights, public transit, urban development, and elections and voter rights" xlink:href="/bitstream/handle/2027.42/93218/Email_Correspondence.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Email_Correspondence.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_323059" CHECKSUM="161f478c7cf3d58a987e587dd4a2daa8" MIMETYPE="application/zip" SIZE="1425053" ID="file_323059" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Some Missing Lines eNewsletters: cover various issues related to gay rights, voter suppression, religion, and other topics. Includes related correspondence" xlink:href="/bitstream/handle/2027.42/93218/SOME_MISSING_LINES_eNewsletters.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="SOME_MISSING_LINES_eNewsletters.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_323057"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_323058"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_323059"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

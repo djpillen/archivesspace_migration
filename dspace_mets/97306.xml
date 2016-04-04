@@ -1,0 +1,55 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/97306" ID="hdl:2027.42/97306" OBJEDIT="/admin/item?itemID=98718">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Pittsfield Township, Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage"/>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1924-1947</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-04-12T15:14:38Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-04-12T15:14:38Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date"/>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">86329_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/97306</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">Please note that date range for these materials was originally misidentified as 1927-1947.</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Records of regular Pittsfield Township meetings, which eventually move from annual to monthly. Includes proposals and voting results on various issues, including taxes for road improvements, funds for county fairs, bounties for pests (woodchucks, crows, etc.), and lobbying of the state legislature for the passage of various bills.  Also contains statements of receipts and expenditures for various funds (highway improvements, road repairs, contigencies, and relief of the poor), news clippings related to local news, and records of individuals elected to the Pittsfield Township Republican Party Committee.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Township Administration - Proceedings of the Town Board Meetings - 1924-1947</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97306/1/PITTSTWP_19271947.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97306/2/PITTSTWP_19241947.pdf</dim:field>
+<dim:field qualifier="source" mdschema="dc" language="en_US" element="identifier">Digitized from the original in 2012 by Image Data Conversion (IDC) of Saline, Mich. Original volume available at the Bentley Historical Library</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Pittsfield, Mich. Township Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_335364" CHECKSUM="6663abcd758cd35f4e3ed1642929e868" MIMETYPE="text/plain" SIZE="139" ID="file_335437" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/97306/PITTSTWP_19241947.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="PITTSTWP_19241947.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_335363" CHECKSUM="23eda7ea39b4a43692e8f3cec5806643" MIMETYPE="application/zip" SIZE="273973736" ID="file_335363" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation Copy - Pittsfield Township Board Meeting Proceedings - 1924-1947" xlink:href="/bitstream/handle/2027.42/97306/PITTSTWP_19271947.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="PITTSTWP_19271947.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_335364" CHECKSUM="c728365b6a963419259df8a3ce3b2d55" MIMETYPE="application/pdf" SIZE="274251350" ID="file_335364" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access Copy - Pittsfield Township Board Meeting Proceedings - 1924-1947" xlink:href="/bitstream/handle/2027.42/97306/PITTSTWP_19241947.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="PITTSTWP_19241947.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335363"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335364"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

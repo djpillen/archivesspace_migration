@@ -1,0 +1,48 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/113221" ID="hdl:2027.42/113221" OBJEDIT="/admin/item?itemID=114835">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim withdrawn="y" dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">President (University of Michigan)</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2009</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2015-09-11T14:56:22Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="en_US" element="date">WITHHELD_190_MONTHS</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2015-09-11T14:56:22Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87274_0009_0007</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/113221</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">University of Michigan President Mary Sue Coleman giving a talk at the City Club of Cleveland in 2009.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">President's Supplemental Files - Mary Sue Coleman - Speeches - January 2007-May 2010 - City Club of Cleveland, 2009</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113221/2/39015094708024.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113221/3/Dvd Video Recorder-1.mp4</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Executive Records: Restricted.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2031-07-01</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">President (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_387860" CHECKSUM="687defbd5ae3a4e634117be94e1ea018" MIMETYPE="application/zip" SIZE="3987891889" ID="file_387860" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy." xlink:href="/bitstream/handle/2027.42/113221/39015094708024.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="39015094708024.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_387861" CHECKSUM="0ee68bdf467deeae865c10ec24d67bb1" MIMETYPE="video/mpeg" SIZE="1110025838" ID="file_387861" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy." xlink:href="/bitstream/handle/2027.42/113221/Dvd%20Video%20Recorder-1.mp4?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Dvd Video Recorder-1.mp4"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387860"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387861"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,55 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/100191" ID="hdl:2027.42/100191" OBJEDIT="/admin/item?itemID=101629">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">University of Michigan., A. Alfred Taubman College of Architecture and Urban Planning</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2003-2004</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-10-08T14:52:35Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-10-08T14:52:35Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2005, 2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">976_0002</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/100191</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Programs and course descriptions from the University of Michigan's Taubman College of Architecture and Urban Planning for the 2003-2004 academic year.  Includes program requirements and course descriptions for undergraduate as well as Master and/or Doctoral programs in Architecture, Urban and Regional Planning, and Urban Design.  Masters degree descriptions detail various dual-degree options with Business Administration, Engineering, Law, Public Policy, and other programs at the University of Michigan.  Also contains general information about the history, policies, facilities, resources, student body and faculty of the college.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Unit Publications - Bulletins - A. Alfred Taubman College of Architecture and Urban Planning - Programs and Course Descriptions, 2003-2004</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/100191/1/tcaup0304.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/100191/2/tcaup0304_bhl-ed6cf77a.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">A. Alfred Taubman College of Architecture and Urban Planning (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_343618" CHECKSUM="f9b8841e799513dccd1b018f32e9b20f" MIMETYPE="text/plain" SIZE="587496" ID="file_343647" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/100191/tcaup0304.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="tcaup0304.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_343619" CHECKSUM="774946ac11139162b7a99106d42575e5" MIMETYPE="text/plain" SIZE="587487" ID="file_343648" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/100191/tcaup0304_bhl-ed6cf77a.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="tcaup0304_bhl-ed6cf77a.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_343618" CHECKSUM="0602630e053771dcc91c96291288edca" MIMETYPE="application/pdf" SIZE="1413377" ID="file_343618" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version of 2003-2004 Taubman College Bulletin" xlink:href="/bitstream/handle/2027.42/100191/tcaup0304.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="tcaup0304.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_343619" CHECKSUM="f2be6eab134f3f8290f5c0c74e4a9a77" MIMETYPE="application/pdf" SIZE="1221555" ID="file_343619" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy of the 2003-2004 Taubman College Bulletin created by the Bentley Historical Library " xlink:href="/bitstream/handle/2027.42/100191/tcaup0304_bhl-ed6cf77a.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="tcaup0304_bhl-ed6cf77a.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_343618"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_343619"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

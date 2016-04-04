@@ -1,0 +1,47 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/94386" ID="hdl:2027.42/94386" OBJEDIT="/admin/item?itemID=95763">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">News and Information Services, University of Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2009</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2012-11-29T21:48:41Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2012-11-29T21:48:41Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2009</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2009</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87265_0003</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/94386</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">V.P. for Research Stephen Forrest talks about U-M's commitment to transforming the economy of Michigan</dim:field>
+<dim:field qualifier="extent" mdschema="dc" language="en_US" element="format">0:04:04</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">University of Michigan Innovation economy partnership</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94386/1/University-of-Michigan-Innovation-economy-partnership.flv</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94386/2/University-of-Michigan-Innovation-economy-partnership_bhl-a4abfb2d.mp4</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">News and Information Services (University of Michigan) Sound and Video Recordings</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_326439" CHECKSUM="b89b25eef07c0256adb066767e1775e7" MIMETYPE="application/octet-stream" SIZE="21295755" ID="file_326439" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/94386/University-of-Michigan-Innovation-economy-partnership.flv?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="University-of-Michigan-Innovation-economy-partnership.flv"/>
+</mets:file>
+<mets:file GROUPID="group_file_326440" CHECKSUM="e27096de0232848f3d18f17d0898fc70" MIMETYPE="video/mpeg" SIZE="20155313" ID="file_326440" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/94386/University-of-Michigan-Innovation-economy-partnership_bhl-a4abfb2d.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="University-of-Michigan-Innovation-economy-partnership_bhl-a4abfb2d.mp4"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_326439"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_326440"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

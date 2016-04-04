@@ -1,0 +1,45 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79591" ID="hdl:2027.42/79591" OBJEDIT="/admin/item?itemID=80417">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computing Center, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:40:33Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:40:33Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1983-01</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79591</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">MTS Manual is a series of volumes that describe in detail the facilities provided by the Michigan Terminal System. This volume contains the language descriptions of the two major list-processing languages that are supported in MTS, namely, LISP and SLIP. LISP is a programming language designed mainly for list-processing applications. The principal applications have been in artificial intelligence research. LISP was originally developed by J. McCarthy in the early 1960s as a formal language based on Church&#8217;s lambda calculus. SLIP (Symmetric List Processor) is a set of subroutines to allow list structures to be easily built and maintained in higher-level languages that do not have list-processing capabilities (e.g., FORTRAN).</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">281191 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Manuals - MTS Volume 08: LISP and SLIP in MTS</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79591/1/MTSVol08-LISPAndSLIPInMTS-Jan1983.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283241" CHECKSUM="f90380833ee20577954121974559fc1c" MIMETYPE="application/pdf" SIZE="281191" ID="file_283241" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79591/MTSVol08-LISPAndSLIPInMTS-Jan1983.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol08-LISPAndSLIPInMTS-Jan1983.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283241" CHECKSUM="42c8b57e867494be4baf98ecd6dd7241" MIMETYPE="text/plain" SIZE="394866" ID="file_283340" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79591/MTSVol08-LISPAndSLIPInMTS-Jan1983.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol08-LISPAndSLIPInMTS-Jan1983.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283241"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

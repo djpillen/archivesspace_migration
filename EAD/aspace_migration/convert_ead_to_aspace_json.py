@@ -6,7 +6,7 @@ import time
 from datetime import datetime
 
 def authenticate(aspace_url, username, password):
-    auth = requests.post(aspace_url + '/users/'+username+'/login?password='+password).json()
+    auth = requests.post(aspace_url + '/users/'+username+'/login?password='+password+'&expiring=false').json()
     session = auth["session"]
     headers = {'Content-type': 'text/html; charset=utf-8', 'X-ArchivesSpace-Session': session}
     return headers
@@ -25,13 +25,15 @@ def convert_ead_to_aspace_json(ead_dir, json_dir, migration_stats_dir, aspace_ur
             os.remove(txt_document)
     attempts = 0
     errors = 0
+    s = requests.session()
+    s.headers.update(authenticate(aspace_url, username, password))
     for filename in os.listdir(ead_dir):
         if filename + '.json' not in os.listdir(json_dir):
             print "Converting {0} to ASpace JSON".format(filename)
             attempts += 1
-            headers = authenticate(aspace_url, username, password)
+            #headers = authenticate(aspace_url, username, password)
             data = open(join(ead_dir, filename), 'rb')
-            eadtojson = requests.post(aspace_url + '/plugins/jsonmodel_from_format/resource/ead', headers=headers, data=data).json()
+            eadtojson = s.post(aspace_url + '/plugins/jsonmodel_from_format/resource/ead', data=data).json()
             for result in eadtojson:
                 if 'invalid_object' in result:
                     with open(ead_to_json_errors,'a') as f:

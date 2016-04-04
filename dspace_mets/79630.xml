@@ -1,0 +1,45 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79630" ID="hdl:2027.42/79630" OBJEDIT="/admin/item?itemID=80456">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computing Center, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:43:28Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:43:28Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1974-12</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79630</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">The MTS Manual is a series of volumes that describe in detail the facilities provided by the Michigan Terminal System. PIL, the Pittsburgh Interpretive Language, was designed and implemented at the University of Pittsburgh. PIL/2 in MTS is based on the second version of PIL, with many modifications and additions for the implementation on the Michigan Terminal System.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">192596 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Manuals - MTS Volume 12: PIL/2 in MTS</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79630/1/MTSVol12-PIL2inMTS-Dec1974.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283319" CHECKSUM="448031cdc3ef3c0352dca77aedd8fbb4" MIMETYPE="application/pdf" SIZE="192596" ID="file_283319" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79630/MTSVol12-PIL2inMTS-Dec1974.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol12-PIL2inMTS-Dec1974.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283319" CHECKSUM="9d7fda208d9eb5b2d3632e9029de7ede" MIMETYPE="text/plain" SIZE="192065" ID="file_283376" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79630/MTSVol12-PIL2inMTS-Dec1974.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol12-PIL2inMTS-Dec1974.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283319"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

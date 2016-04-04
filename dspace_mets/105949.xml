@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/105949" ID="hdl:2027.42/105949" OBJEDIT="/admin/item?itemID=107406">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1893-1907 and undated</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-24T16:56:24Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-24T16:56:24Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0192</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/105949</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Typed documents relating to the Sanitarium Training School for Missionary Nurses and medical work in general.  Includes graduation addresses and sermons for the school and information about the establishment and operation of various sanitariums ("Medical Missions and Benevolent Associations") in the United States as well as in England, Denmark, Mexico, and Australia.  Also included are standard responses to be used in correspondence related to various inquiries about the Sanitarium and health care practices in general.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Subject Files (primarily medical missionary materials) - Sanitarium Training School for Missionary Nurses, 1893-1907 and undated</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/105949/1/Subject-Sanitarium.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/105949/2/Subject-Sanitarium.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_358419" CHECKSUM="1f454d8be5c661b0ee74ece15b9614cc" MIMETYPE="text/plain" SIZE="203" ID="file_361691" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/105949/Subject-Sanitarium.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Subject-Sanitarium.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_358419" CHECKSUM="887bc712a360403c3c8052e5865a3df7" MIMETYPE="application/pdf" SIZE="15770326" ID="file_358419" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/105949/Subject-Sanitarium.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Subject-Sanitarium.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_358420" CHECKSUM="86fc883e06f96fccd727f9e96c5c1b56" MIMETYPE="application/zip" SIZE="51574107" ID="file_358420" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/105949/Subject-Sanitarium.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Subject-Sanitarium.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_358419"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_358420"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

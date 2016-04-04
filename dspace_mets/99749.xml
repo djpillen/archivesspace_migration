@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/99749" ID="hdl:2027.42/99749" OBJEDIT="/admin/item?itemID=101181">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Fox Island Lighthouse Association</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2006-2009 and undated</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-09-10T17:50:36Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-09-10T17:50:36Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date"/>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">2013064_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/99749</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Island structures and grounds: Assistant keepers' quarters interior and exterior, 2006-2007 and undated; Boat house interior and exterior, 2006-2009; Carpenter's shop exterior, 2006-2009 and undated; Dock, lake, and shoreline, 2009 and undated; Fog Signal Building interior and exterior, 2007, 2009, and undated; 1867 Lighthouse interior and exterior, 2006-2009 and undated; Oil house exterior, 2007 and undated; Skeletal lighthouse tower, 2006-2007 and undated; Walkways overgrown and cleared, 2007, 2009, and undated. Includes additional undated photograph identified as 'winter on the island.'</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Visual Materials - Island Structures and Grounds, 2006-2009 and undated</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99749/1/Visual-Island.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99749/2/winter on the island.jpg</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Fox Island Lighthouse Association Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="THUMBNAIL">
+<mets:file GROUPID="group_file_342166" CHECKSUM="4472bd0f7cfa27acd4c5d632019ceea5" MIMETYPE="image/jpeg" SIZE="1919" ID="file_342177" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Generated Thumbnail" xlink:href="/bitstream/handle/2027.42/99749/winter%20on%20the%20island.jpg.jpg?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="winter on the island.jpg.jpg"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_342165" CHECKSUM="39c22f2a6f055608afe5c7ab642fce1e" MIMETYPE="application/zip" SIZE="73791259" ID="file_342165" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Various images of South Fox Island and its structures" xlink:href="/bitstream/handle/2027.42/99749/Visual-Island.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Visual-Island.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_342166" CHECKSUM="8afcea1946993f90c1492fe943bcb999" MIMETYPE="image/jpeg" SIZE="1566388" ID="file_342166" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Image of lighthouse and other building in winter" xlink:href="/bitstream/handle/2027.42/99749/winter%20on%20the%20island.jpg?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="winter on the island.jpg"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_342165"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_342166"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

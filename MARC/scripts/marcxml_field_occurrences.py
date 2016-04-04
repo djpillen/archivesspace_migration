@@ -3,8 +3,9 @@ import os
 from os.path import join
 import csv
 
-marc_path = 'marcxml-no_ead'
-field_occurrences_csv = 'marc_field_occurrences.csv'
+project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+marc_path = join(project_dir, 'marcxml_no_ead')
+field_occurrences_csv = join(project_dir, 'marc_field_occurrences.csv')
 
 marc_fields = {}
 

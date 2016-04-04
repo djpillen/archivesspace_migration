@@ -1,0 +1,57 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/86716" ID="hdl:2027.42/86716" OBJEDIT="/admin/item?itemID=87893">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computer-Aided Engineering Network (CAEN), University of Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2000-2008</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-10-20T22:15:07Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-10-20T22:15:07Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2011</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2011123_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/86716</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Posters and signs produced for CAEN's 25th anniversary exhibit</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan. The collection is open to research</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Computer Aided Engineering Network 25th Anniversary Materials - Posters</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86716/1/CAEN_25th_Anniversary_AdditionalPosters.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86716/2/CAEN_25th_Anniversary_Posters_jpg.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86716/3/CAEN_25th_Anniversary_Posters_Original_Scans.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86716/4/CAEN_25th_Anniversary_Posters_pdf.zip</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computer Aided Engineering Network (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_294638" CHECKSUM="6e0b77c3c4368f1f2af23f697f73634d" MIMETYPE="application/zip" SIZE="124970954" ID="file_294638" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Photographs and signs from the CAEN 25th anniversary exhibit" xlink:href="/bitstream/handle/2027.42/86716/CAEN_25th_Anniversary_AdditionalPosters.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="CAEN_25th_Anniversary_AdditionalPosters.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_294639" CHECKSUM="1247f199e9e4d94c32112f582ab9336f" MIMETYPE="application/zip" SIZE="5125068" ID="file_294639" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Web-optimized posters documenting highlights from CAEN's first 25 years" xlink:href="/bitstream/handle/2027.42/86716/CAEN_25th_Anniversary_Posters_jpg.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="CAEN_25th_Anniversary_Posters_jpg.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_294640" CHECKSUM="9d06d57cf894e530caec874650fd84b9" MIMETYPE="application/zip" SIZE="2053529370" ID="file_294640" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original scans of images used in posters for CAEN's 25th anniversary" xlink:href="/bitstream/handle/2027.42/86716/CAEN_25th_Anniversary_Posters_Original_Scans.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="CAEN_25th_Anniversary_Posters_Original_Scans.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_294641" CHECKSUM="abcd0d9c3a0c3cf2cce3db22cf449fa4" MIMETYPE="application/zip" SIZE="998623295" ID="file_294641" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Posters documenting highlights from CAEN's first 25 years" xlink:href="/bitstream/handle/2027.42/86716/CAEN_25th_Anniversary_Posters_pdf.zip?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="CAEN_25th_Anniversary_Posters_pdf.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_294638"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_294639"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_294640"/>
+</mets:div>
+<mets:div ID="div_5" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_294641"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

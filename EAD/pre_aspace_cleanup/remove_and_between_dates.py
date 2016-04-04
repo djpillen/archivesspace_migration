@@ -13,7 +13,8 @@ def remove_and_between_dates(ead_dir):
 			ead_out.write(replaced)
 
 def main():
-	ead_dir = 'D:/github/vandura/Real_Masters_all'
+	project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+	ead_dir = join(project_dir, "vandura", "Real_Masters_all")
 	remove_and_between_dates(ead_dir)
 
 if __name__ == "__main__":

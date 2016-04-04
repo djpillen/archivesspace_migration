@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/111867" ID="hdl:2027.42/111867" OBJEDIT="/admin/item?itemID=113464">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-06-12T18:27:47Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-06-12T18:27:47Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87245_0009_0026</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/111867</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Women of Michigan was an online exhibit created by Bentley Historical Library staff to provide brief biographies of key women in University of Michigan history and to guide researchers to their papers in the library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Outreach: Education, Publicity, and Exhibits - Online Exhibits and Special Projects - Women of Michigan, 2007</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111867/2/Women of Michigan 2007.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111867/3/Women of Michigan 2007_bhl-33bc719b.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-04-07</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Bentley Historical Library (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_382827" CHECKSUM="49ef82dbaa4c6b15da889d1d91c79906" MIMETYPE="text/plain" SIZE="31948" ID="file_382886" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111867/Women%20of%20Michigan%202007.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Women of Michigan 2007.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_382828" CHECKSUM="6f9a460982a351ec6f3458448874fd7e" MIMETYPE="text/plain" SIZE="31881" ID="file_382887" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111867/Women%20of%20Michigan%202007_bhl-33bc719b.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="Women of Michigan 2007_bhl-33bc719b.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_382827" CHECKSUM="36cd7f30ea5c18751f9d986bbb51b030" MIMETYPE="application/pdf" SIZE="301782" ID="file_382827" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version." xlink:href="/bitstream/handle/2027.42/111867/Women%20of%20Michigan%202007.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Women of Michigan 2007.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_382828" CHECKSUM="ab8e94fb47a4d18230fdb6071445f4ea" MIMETYPE="application/pdf" SIZE="153303" ID="file_382828" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy." xlink:href="/bitstream/handle/2027.42/111867/Women%20of%20Michigan%202007_bhl-33bc719b.pdf?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Women of Michigan 2007_bhl-33bc719b.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382827"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382828"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

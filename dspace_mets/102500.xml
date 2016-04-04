@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102500" ID="hdl:2027.42/102500" OBJEDIT="/admin/item?itemID=103975">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Sparling, Peter</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Leiz, Pete</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Mersereau, Jacques</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Alder, Jeff</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2013</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="en_US" element="date">2014-01-16T20:49:51Z</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-01-20T20:37:05Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="en_US" element="date">2014-01-16T20:49:51Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2013-2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">0312_0001_0009</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="en_US" element="identifier">http://hdl.handle.net/2027.42/102500</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">"Last Man at Willow Run" is an elegiac tone poem for the post-industrial age, shot in the Willow Run Bomber Plant just months before its demolition. A lone figure maps the cavernous spaces of the abandoned plant with his dancing body. The camera charts his progress down mile-long corridors, as he wrestles with forgotten spirits and is cloned into assembly lines of workers past. Set to Richard Strauss's dramatic yet non-narrative orchestral score, Death and Transfiguration, the work has a tragic, ironic edge. It embodies the final throes of an American Dream. Peter Sparling: performer and editor; Pete Leix: videographer; Jacques Mersereau: videographer, studio; and Jeff Alder: lighting, studio.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is retained by Peter Sparling</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Performances, Auditions, and Rehearsals - Last Man at Willow Run, 2013</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="en_US" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102500/1/Last Man at Willow Run 7-6.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102500/2/Last Man at Willow Run 7-6.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102500/3/Last Man at Willow Run 7-6.mov</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Sparling, Peter D.</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_350911" CHECKSUM="2eaa5374536b7d63a816d911d2a351ab" MIMETYPE="video/mpeg" SIZE="1087702355" ID="file_350911" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102500/Last%20Man%20at%20Willow%20Run%207-6.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Last Man at Willow Run 7-6.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_350912" CHECKSUM="35e025723c7f6e6637ab85e4ee1b2a30" MIMETYPE="video/quicktime" SIZE="21163115669" ID="file_350912" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original copy" xlink:href="/bitstream/handle/2027.42/102500/Last%20Man%20at%20Willow%20Run%207-6.mov?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Last Man at Willow Run 7-6.mov"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_350911"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_350912"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

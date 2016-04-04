@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/105973" ID="hdl:2027.42/105973" OBJEDIT="/admin/item?itemID=107430">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">ca. 1885-1909</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-24T19:05:43Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-24T19:05:43Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0216</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/105973</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Handwritten account of Newell Carey Kellogg as a baby; expense books for various people including Agnes Kellogg, Lena Sargent, and Georgia Hartsough; data on Sheltland ponies owned by John W. Kellogg; unidentified diary entries; a "Time's Footprints" book; and other miscellaneous notes.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Bound Manuscripts and Published Volumes - Various (primarily family materials): biographical materials, diaries, expense books, etc., ca. 1885-1909</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/105973/1/Bound-Misc.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/105973/2/Bound-Misc.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_358491" CHECKSUM="6787593f4a2ab1b9bf488c8974ce37bd" MIMETYPE="text/plain" SIZE="245" ID="file_361727" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/105973/Bound-Misc.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Bound-Misc.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_358491" CHECKSUM="d6d17a8e5ad53b1af8167fa9141d56c5" MIMETYPE="application/pdf" SIZE="57797255" ID="file_358491" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/105973/Bound-Misc.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Bound-Misc.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_358492" CHECKSUM="939fe3ea21250678064c7b59f619b32a" MIMETYPE="application/zip" SIZE="64711825" ID="file_358492" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/105973/Bound-Misc.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Bound-Misc.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_358491"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_358492"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

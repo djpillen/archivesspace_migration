@@ -1,0 +1,47 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/113048" ID="hdl:2027.42/113048" OBJEDIT="/admin/item?itemID=114658">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Ovshinsky, Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">1983</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-08-10T18:14:58Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-08-10T18:14:58Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2015038_0001_0002</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/113048</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Documentary on deer hunting in Northern Michigan, produced by Harvey Ovshinsky for WDIV (running time approximately forty-five minutes). Copyright Post-Newsweek Stations, Michigan, Inc., 1983.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Audiovisual materials, 1969-2009 - Miscellaneous videos, 1974-2005 with gaps  - The Deer Hunters, 1983</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113048/2/Ovshinsky_DeerHunters.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113048/3/Deer Hunters-1.mp4</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Reading room access only: this content must be accessed in the reading room of the Bentley Historical Library</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-07-01</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has not been transferred to the Regents of the University of Michigan. Researchers are responsible for determining appropriate rights holder.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Harvey Ovshinsky papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_387333" CHECKSUM="a80abd8f41c3b3f41f49cd1e463c6cb6" MIMETYPE="application/zip" SIZE="1954652900" ID="file_387333" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version. Access restricted to Bentley Library only." xlink:href="/bitstream/handle/2027.42/113048/Ovshinsky_DeerHunters.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Ovshinsky_DeerHunters.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_387334" CHECKSUM="c8bcb5ff5f3f73b64aeb8e3573babd69" MIMETYPE="video/mpeg" SIZE="822160035" ID="file_387334" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy. Access restricted to Bentley Library only." xlink:href="/bitstream/handle/2027.42/113048/Deer%20Hunters-1.mp4?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Deer Hunters-1.mp4"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387333"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387334"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

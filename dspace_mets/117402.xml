@@ -1,0 +1,47 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" OBJEDIT="/admin/item?itemID=121057" OBJID="/handle/2027.42/117402" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" ID="hdl:2027.42/117402">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DIM">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field element="contributor" qualifier="author" language="" mdschema="dc">University of Michigan - University Planner's Office</dim:field>
+<dim:field element="coverage" qualifier="temporal" language="" mdschema="dc">1961-2009</dim:field>
+<dim:field element="date" qualifier="accessioned" mdschema="dc">2016-02-29T18:33:33Z</dim:field>
+<dim:field element="date" qualifier="available" mdschema="dc">2016-02-29T18:33:33Z</dim:field>
+<dim:field element="date" qualifier="created" language="" mdschema="dc">2015</dim:field>
+<dim:field element="date" qualifier="issued" language="" mdschema="dc">2016</dim:field>
+<dim:field element="identifier" qualifier="other" language="" mdschema="dc">9571_0001_0007</dim:field>
+<dim:field element="identifier" qualifier="uri" mdschema="dc">http://hdl.handle.net/2027.42/117402</dim:field>
+<dim:field element="description" qualifier="abstract" language="" mdschema="dc">Video of the Biological Station grounds.</dim:field>
+<dim:field element="title" language="" mdschema="dc">Properties - Buildings by Number - 4001-4171 Biological Station, 1961-2009</dim:field>
+<dim:field element="type" language="" mdschema="dc">Video</dim:field>
+<dim:field element="description" qualifier="bitstreamurl" mdschema="dc">http://deepblue.lib.umich.edu/bitstream/2027.42/117402/2/Biological_Station_1.zip</dim:field>
+<dim:field element="description" qualifier="bitstreamurl" mdschema="dc">http://deepblue.lib.umich.edu/bitstream/2027.42/117402/3/Biological_Station_2.zip</dim:field>
+<dim:field element="rights" qualifier="access" language="" mdschema="dc">This content is open for research.</dim:field>
+<dim:field element="date" qualifier="open" language="" mdschema="dc">2016-01-01</dim:field>
+<dim:field element="rights" qualifier="copyright" language="" mdschema="dc">Copyright has been transferred to the Regents of the University of Michigan. Researchers are responsible for determining appropriate rights holder.</dim:field>
+<dim:field element="owningcollname" mdschema="dc">University Planner's Office (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_405832" ID="file_405832" MIMETYPE="application/zip" SIZE="3477971561" CHECKSUM="20005abc53558d5f782984517d4154fb">
+<mets:FLocat LOCTYPE="URL" xlink:title="Biological_Station_1.zip" xlink:type="locator" xlink:href="/bitstream/handle/2027.42/117402/Biological_Station_1.zip?sequence=2&amp;isAllowed=y"/>
+</mets:file>
+<mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_405833" ID="file_405833" MIMETYPE="application/zip" SIZE="2975229905" CHECKSUM="1ed47466553a53a8f4c630447b853e2d">
+<mets:FLocat LOCTYPE="URL" xlink:title="Biological_Station_2.zip" xlink:type="locator" xlink:href="/bitstream/handle/2027.42/117402/Biological_Station_2.zip?sequence=3&amp;isAllowed=y"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_405832"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_405833"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

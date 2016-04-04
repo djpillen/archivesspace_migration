@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/101946" ID="hdl:2027.42/101946" OBJEDIT="/admin/item?itemID=103393">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">University of Michigan., College of Engineering</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage"/>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2013-12-18T18:29:14Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2013-12-18T18:29:14Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date"/>
+<dim:field qualifier="issued" mdschema="dc" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">977_0001_0010</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/101946</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">To access the interactive Flash version, download and extract the contents of the .ZIP file and then double-click on the 'StartBulletin.exe' file.</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">2009-2010 University of Michigan Engineering program bulletin; provides information about the program,undergraduate admissions, financial aid, student life and services, academic procedures, and specifics about courses for the undergraduate and graduate programs. The bulletin also includes welcome letters from President Coleman, the  Dean of Engineering, and the student president of the University of Michigan Engineering Council. This deposit  includes a PDF of the bulletin, a copy of the First Year Student Handbook, and an introduction to the Center for Entrepreneurship. The 2009-2010 bulletin was also available in an interactive Flash version that a welcome message from President Coleman, a welcome message from Dean of Engineering, David Munson Jr., and a message about the power of engineering to stimulate social change.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Unit Publications - Bulletins (Course Catalogs) - Bulletins, 2009-2010</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/101946/1/2009-2010-COE-Bulletin.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/101946/2/bulletin-2009-10.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights"/>
+<dim:field mdschema="dc" element="owningcollname">College of Engineering (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_348841" CHECKSUM="630d75c51a05aa34ee4eeb32d6e5277f" MIMETYPE="text/plain" SIZE="1261060" ID="file_348857" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/101946/bulletin-2009-10.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="bulletin-2009-10.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_348840" CHECKSUM="2dfd08fcf52c915e0d7f3a0637234ef2" MIMETYPE="application/zip" SIZE="223959666" ID="file_348840" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original copy in Flash format: 2009-2010 College of Engineering Bulletin" xlink:href="/bitstream/handle/2027.42/101946/2009-2010-COE-Bulletin.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="2009-2010-COE-Bulletin.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_348841" CHECKSUM="0b1589fa7825e65fbc5ff99aa4cdf35b" MIMETYPE="application/pdf" SIZE="1999244" ID="file_348841" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original copy in PDF format: 2009-2010 College of Engineering Bulletin" xlink:href="/bitstream/handle/2027.42/101946/bulletin-2009-10.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="bulletin-2009-10.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_348840"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_348841"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

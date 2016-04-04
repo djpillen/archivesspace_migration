@@ -1,0 +1,46 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/109665" ID="hdl:2027.42/109665" OBJEDIT="/admin/item?itemID=111190">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">March 5, 1970</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-12-09T17:46:48Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-12-09T17:46:48Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">2014162_0001_0003</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/109665</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Box 107, President (University of Michigan) records, Bentley Historical Library, University of Michigan, 3 pages</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">BAM I - The response - R.W. Fleming to the Members of the Black Action Movement, with attachment &#8220;Administration Propos</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/109665/1/BAM1-2.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research.</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Black Action Movement I, II and III select documents</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_375145" CHECKSUM="e1c06d85ae7b8b032bef47e42e4c08f9" MIMETYPE="text/plain" SIZE="2" ID="file_375215" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/109665/BAM1-2.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="BAM1-2.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_375145" CHECKSUM="f194b7eb3025eb34025f4f4faa71bbbf" MIMETYPE="application/pdf" SIZE="1567604" ID="file_375145" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="" xlink:href="/bitstream/handle/2027.42/109665/BAM1-2.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="BAM1-2.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_375145"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

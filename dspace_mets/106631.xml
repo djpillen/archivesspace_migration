@@ -1,0 +1,55 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/106631" ID="hdl:2027.42/106631" OBJEDIT="/admin/item?itemID=108104">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Edge, Laura A.</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="contributor">Witt, Lawrence L.</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1923-2008</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-05-20T15:37:25Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-05-20T15:37:25Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">2014014_0001_0013</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/106631</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">A selection of Witt's family photographs from childhood to old age as well as copies of photographs from the Collected materials series.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Audio-Visual materials - Photographs, 1923-2008</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Other</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/106631/1/AudioVisual-Photographs.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/106631/2/AudioVisual-Photographs.zip</dim:field>
+<dim:field qualifier="mapping" mdschema="dc" language="en_US" element="description">-1</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Lawrence Witt and Laura Edge Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_363911" CHECKSUM="2b54ff3e0718caeaee20fc59b2db1e75" MIMETYPE="text/plain" SIZE="3436" ID="file_363963" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/106631/AudioVisual-Photographs.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="AudioVisual-Photographs.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_363911" CHECKSUM="26f33da199074309f0b46e8bab503ee9" MIMETYPE="application/pdf" SIZE="18378938" ID="file_363911" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access version: PDF file created by Bentley Historical Library ; Preservation version: TIFF files, JPG files, and Word documents " xlink:href="/bitstream/handle/2027.42/106631/AudioVisual-Photographs.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="AudioVisual-Photographs.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_363912" CHECKSUM="9288eb415664ebfd5135cb58cac1867e" MIMETYPE="application/zip" SIZE="441117247" ID="file_363912" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/106631/AudioVisual-Photographs.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="AudioVisual-Photographs.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_363911"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_363912"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

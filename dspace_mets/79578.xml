@@ -1,0 +1,46 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79578" ID="hdl:2027.42/79578" OBJEDIT="/admin/item?itemID=80404">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computing Services, University of Alberta.</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:39:33Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:39:33Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1986-01</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79578</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">Updated for use by Information Technology Division, University of Michigan.</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Guide for using TEXTFORM with MTS. TEXTFORM can produce a variety of documents, ranging from single-page memos and letters to entire books. It is primarily aimed at the production of multi-page documents. The powerful MTS File Editor permits revising the contents of a document without having to be concerned about the format. With the TEXTFORM program, users can change the format without affecting the contents.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">717229 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Reference Documents - TEXTFORM Reference Manual</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79578/1/r1028-TEXTFORMReferenceManual-Jan1986.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283215" CHECKSUM="444fac5d0512c7511cb03f8db03ffa6f" MIMETYPE="application/pdf" SIZE="717229" ID="file_283215" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79578/r1028-TEXTFORMReferenceManual-Jan1986.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="r1028-TEXTFORMReferenceManual-Jan1986.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283215" CHECKSUM="250fe4080e32f9117a41c2ddb0033a84" MIMETYPE="text/plain" SIZE="438434" ID="file_283327" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79578/r1028-TEXTFORMReferenceManual-Jan1986.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="r1028-TEXTFORMReferenceManual-Jan1986.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283215"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

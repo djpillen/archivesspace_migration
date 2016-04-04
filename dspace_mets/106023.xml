@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/106023" ID="hdl:2027.42/106023" OBJEDIT="/admin/item?itemID=107480">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">undated</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-24T20:43:08Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-24T20:43:08Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0266</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/106023</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Miscellaneous photographs of groups of people, buildings, etc.  Includes several with individuals dressed in Native American attire as well as scenes in France.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Photographs - Miscellaneous and unidentified, undated</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/106023/1/Photos-Misc.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/106023/2/Photos-Misc.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_358642" CHECKSUM="fa4ea51a0f77146f48e0db0f0159801b" MIMETYPE="text/plain" SIZE="30" ID="file_361774" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/106023/Photos-Misc.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Photos-Misc.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_358642" CHECKSUM="fb30660ca16d80119e65904c4d75a3f9" MIMETYPE="application/pdf" SIZE="1089104" ID="file_358642" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/106023/Photos-Misc.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Photos-Misc.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_358643" CHECKSUM="786152f157af2268e0ab8550ed5d2e6e" MIMETYPE="application/zip" SIZE="4242156" ID="file_358643" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/106023/Photos-Misc.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Photos-Misc.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_358642"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_358643"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

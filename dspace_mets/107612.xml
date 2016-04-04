@@ -1,0 +1,58 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/107612" ID="hdl:2027.42/107612" OBJEDIT="/admin/item?itemID=109102">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Van Zoeren, Tom</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Hulka, Nancy</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Hulka, Margaret</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Groesser, Charlotte</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Bond, Kay</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2007-2010</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-07-07T19:51:40Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-07-07T19:51:40Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">0129_0001_0028</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/107612</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Audio recordings of oral history interviews with members of the Kelderhouse family from 2007-2010. Interview with Nancy and Margaret Hulka conducted by Tom Van Zoeren on August 11, 2007 focuses on Kelderhouse family history and background. Interview with Charlotte Groesser conducted by Tom Van Zoeren on May 4, 2009 focuses on information about various members of the Kelderhouse family as well as some information about her childhood in Beeman Road and Glen Arbor areas and her work as a school teacher. Interview with Kay Bond conducted by Tom Van Zoeren on November 13, 2010 focuses on Kelderhouse and Farrant family history. Description of content based on summaries and transcript available in 'Information on Farms, Families, etc.' series.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Oral History Audio Files - Sleeping Bear Dunes Region - Port Oneida Area - Kelderhouse, Thomas, 2007-2010</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Interview; Recording, oral</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107612/2/Audio-KelderhouseT-HulkaNM.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107612/3/Audio-KelderhouseT-GroesserC.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107612/4/Audio-KelderhouseT-BondK.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-06-05</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright is not held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Tom Van Zoeren Oral History Collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_367093" CHECKSUM="768dfc3927ca473a41b3387470caa548" MIMETYPE="application/zip" SIZE="124075038" ID="file_367093" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Nancy and Margaret Hulka interview" xlink:href="/bitstream/handle/2027.42/107612/Audio-KelderhouseT-HulkaNM.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Audio-KelderhouseT-HulkaNM.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_367094" CHECKSUM="2fdd0eb8021c02a81931934e181a30ed" MIMETYPE="application/zip" SIZE="181708510" ID="file_367094" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Charlotte Groesser interview" xlink:href="/bitstream/handle/2027.42/107612/Audio-KelderhouseT-GroesserC.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Audio-KelderhouseT-GroesserC.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_367095" CHECKSUM="5bedcdd03327fe15801dc450c19aa41c" MIMETYPE="application/zip" SIZE="142926086" ID="file_367095" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Kay Bond interview" xlink:href="/bitstream/handle/2027.42/107612/Audio-KelderhouseT-BondK.zip?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Audio-KelderhouseT-BondK.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367093"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367094"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367095"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

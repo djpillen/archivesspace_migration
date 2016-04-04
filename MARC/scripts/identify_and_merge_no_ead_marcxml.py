@@ -95,13 +95,14 @@ def merge_records(no_ead_dir, joined_dir):
 				f.write(etree.tostring(collection))
 
 def main():
-	ead_dir = 'C:/Users/djpillen/GitHub/vandura/Real_Masters_all'
-	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-	marcxml_dir = join(project_dir, 'marcxml_all')
-	has_ead_dir = join(project_dir, 'marcxml_has_ead')
-	no_ead_dir = join(project_dir, 'marcxml_no_ead')
-	unknown_dir = join(project_dir, 'marcxml_unknown')
-	joined_dir = join(project_dir, 'marcxml_no_ead_joined')
+	project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+	ead_dir = join(project_dir, "vandura", "Real_Mastes_all")
+	marc_base_dir = join(project_dir, "MARC")
+	marcxml_dir = join(marc_base_dir, 'marcxml_all')
+	has_ead_dir = join(marc_base_dir, 'marcxml_has_ead')
+	no_ead_dir = join(marc_base_dir, 'marcxml_no_ead')
+	unknown_dir = join(marc_base_dir, 'marcxml_unknown')
+	joined_dir = join(marc_base_dir, 'marcxml_no_ead_joined')
 
 	make_directories([has_ead_dir, no_ead_dir, unknown_dir, joined_dir])
 	clear_directories([has_ead_dir, no_ead_dir, unknown_dir, joined_dir])

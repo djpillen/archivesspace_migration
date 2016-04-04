@@ -1,0 +1,45 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79582" ID="hdl:2027.42/79582" OBJEDIT="/admin/item?itemID=80408">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Information Technology Division, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:39:50Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:39:50Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1993-10</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79582</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">The MTS Manual is a series of volumes that describe in detail the facilities provided by the Michigan Terminal System. Volume 19 is intended as a reference guide to the use of magnetic tapes in MTS. This edition reflects the changes that have occurred in the magnetic-tape support since October 1989. The major change has been the addition of cartridge tape tape service. Also, 800 BPI 9-track tapes are no longer supported. The description of floppy-disk support has been removed from this volume.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">360840 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Manuals - MTS Volume 19: Magnetic Tapes</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79582/1/MTSVol19-MagneticTapes-Oct1993.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283223" CHECKSUM="fa7199a39c43d96687f8d7641531659c" MIMETYPE="application/pdf" SIZE="360840" ID="file_283223" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79582/MTSVol19-MagneticTapes-Oct1993.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol19-MagneticTapes-Oct1993.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283223" CHECKSUM="66d976f61a6d6235de5581a028b603c0" MIMETYPE="text/plain" SIZE="280356" ID="file_283331" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79582/MTSVol19-MagneticTapes-Oct1993.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol19-MagneticTapes-Oct1993.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283223"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

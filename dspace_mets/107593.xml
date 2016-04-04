@@ -1,0 +1,57 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/107593" ID="hdl:2027.42/107593" OBJEDIT="/admin/item?itemID=109083">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Van Zoeren, Tom</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">DeKorne, Jack</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Ryskamp, Ken</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Van Noord, Trudy</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2006-2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-07-07T19:44:52Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-07-07T19:44:52Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">0129_0001_0009</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/107593</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Audio recordings of oral history interviews with three members of the DeKorne family conducted by Tom Van Zoeren in 2006 and 2007.  Series of interviews conducted with Jack DeKorne from September 8 to October 3, 2006 cover family history generally as well as his own life and background, DeKorne Furniture, and Glen Haven Indians. Interview with Ken Ryskamp conducted on August 31, 2007 covers his life growing up and career, various family members, and the Indian settlement by DH Day Park. Interview with Trudy van Noord conducted on September 19, 2006 covers her life growing up and Glen Lake as well as information on some of her relatives. Description of recordings based on summaries available in 'Information on Farms, Families, etc.' series.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Oral History Audio Files - Sleeping Bear Dunes Region - Burdickville Area - DeKorne, 2006-2007</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Interview; Recording, oral</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107593/2/Audio-DeKorne-DeKorneJ.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107593/3/Audio-DeKorne-RyskampK.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107593/4/Audio-DeKorne-VanNoordT.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-06-05</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright is not held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Tom Van Zoeren Oral History Collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_367034" CHECKSUM="304d08bf840b13a516aaec542ada973f" MIMETYPE="application/zip" SIZE="527860620" ID="file_367034" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Series of interviews with Jack DeKorne" xlink:href="/bitstream/handle/2027.42/107593/Audio-DeKorne-DeKorneJ.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Audio-DeKorne-DeKorneJ.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_367035" CHECKSUM="af21ef3532ed2ce0ee617629cda887f9" MIMETYPE="application/zip" SIZE="97828292" ID="file_367035" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Interview with Ken Ryskamp" xlink:href="/bitstream/handle/2027.42/107593/Audio-DeKorne-RyskampK.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Audio-DeKorne-RyskampK.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_367036" CHECKSUM="7396b392e2de634409af1bb062066b8b" MIMETYPE="application/zip" SIZE="48630936" ID="file_367036" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Interview with Trudy Van Noord" xlink:href="/bitstream/handle/2027.42/107593/Audio-DeKorne-VanNoordT.zip?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Audio-DeKorne-VanNoordT.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367034"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367035"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367036"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

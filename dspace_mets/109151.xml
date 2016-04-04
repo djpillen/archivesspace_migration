@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/109151" ID="hdl:2027.42/109151" OBJEDIT="/admin/item?itemID=110663">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Taubman, A. Alfred</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">1991 and 2008-2011</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-10-14T19:04:06Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-10-14T19:04:06Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2011097_0002_0075</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/109151</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Images and related materials from miscellaneous University of Michigan events involving A. Alfred Taubman, 1991-2011.  Events include receiving an honorary Doctorate of Law at the 1991 University of Michigan Commencement, May 4, 1991, and the Philip J. Bowen Award in 2009, as well the University of Michigan Legacy Night Gala honoring Taubman on June 9, 2011 and the Young People of the Taubman Institute Inaugural Event at Sotheby's, June 13, 2011.  Also includes images, articles, radio programs, and video regarding a CureMichigan Event with A. Alfred Taubman and  Bill Clinton on October 10, 2008 at the Taubman Air Terminal at Oakland County Airport in support of stem cell research and Proposition 2 on the 2008 Michigan ballot.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Personal - Digital images and video recordings - Topical and Miscellaneous - University of Michigan - Miscellaneous events, 1991 and 2008-2011</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image; Video; Interview; Recording, oral; Article</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/109151/2/U-M-Misc-events.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/109151/3/CureMichigan-event.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/109151/4/CureMI_original-video-files.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-09-15</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">A. Alfred Taubman papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_373356" CHECKSUM="06b4663497632bf8673d1700d0060bf7" MIMETYPE="application/zip" SIZE="25896575" ID="file_373356" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Miscellaneous University of Michigan event materials, 1991-2011" xlink:href="/bitstream/handle/2027.42/109151/U-M-Misc-events.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="U-M-Misc-events.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_373357" CHECKSUM="2018e97575c5f05201d65de187c692e4" MIMETYPE="application/zip" SIZE="234813887" ID="file_373357" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Cure Michigan event materials, 2008,  including preservation version of 'Clinton.Prop2.VIDEO' created by Bentley Library" xlink:href="/bitstream/handle/2027.42/109151/CureMichigan-event.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="CureMichigan-event.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_373358" CHECKSUM="ac85ab1046354fe37c5affde0e12c593" MIMETYPE="application/zip" SIZE="1443565314" ID="file_373358" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original video files for Cure Michigan event, 2008" xlink:href="/bitstream/handle/2027.42/109151/CureMI_original-video-files.zip?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="CureMI_original-video-files.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_373356"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_373357"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_373358"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

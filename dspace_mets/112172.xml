@@ -1,0 +1,50 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/112172" ID="hdl:2027.42/112172" OBJEDIT="/admin/item?itemID=113780">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Ovshinsky, Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1964</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2015-08-04T20:07:28Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2015-08-04T20:07:28Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">2015038_0001_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/112172</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Short monster film (duration three and half minutes) created by Harvey Ovshinsky and brother Dale Ovshinsky in 1964 during Harvey Ovshinsky's high school years.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Personal files, 1948-2015, with gaps - High School, 1962-1965 - Short film, 1964</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/112172/1/Ovshinsky_shortfilm.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/112172/2/ShortFilm.mp4</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" language="" element="description">Description of Ovshinsky_shortfilm.zip : Preservation copy</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" language="" element="description">Description of ShortFilm.mp4 : Access copy; created by the Bentley Historical Library</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Harvey Ovshinsky papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_384029" CHECKSUM="dd339f9ecb88712174e7fefc7d4ff030" MIMETYPE="application/zip" SIZE="977937762" ID="file_384029" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy" xlink:href="/bitstream/handle/2027.42/112172/Ovshinsky_shortfilm.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Ovshinsky_shortfilm.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_384030" CHECKSUM="25b09dbccb1087aa1d7584f376cc278c" MIMETYPE="video/mpeg" SIZE="117756327" ID="file_384030" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/112172/ShortFilm.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="ShortFilm.mp4"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_384029"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_384030"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

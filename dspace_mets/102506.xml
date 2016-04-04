@@ -1,0 +1,51 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102506" ID="hdl:2027.42/102506" OBJEDIT="/admin/item?itemID=103955">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Sparling, Peter</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="contributor">Landry, Benjamin</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="contributor">Mersereau, Jacques</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="contributor">Alder, Jeff</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2011</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-01-16T21:39:51Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-01-16T21:39:51Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2012, 2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">0312_0001_0016</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102506</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Inspired by a poem written by Benjamin Landry, this work combines text and movement into a 'dancepoem' with music by Benjamin Duboc.  Peter Sparling: dancer and editor; Benjamin Landry: poet; Jacques Mersereau: videography; and Jeff Alder: lighting.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is retained by Peter Sparling; music is used with permission of Benjamin Duboc.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Performances, Auditions, and Rehearsals - The Snowy Owl, 2011</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102506/1/The Snowy Owl 4.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102506/2/The Snowy Owl 4.mov</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Sparling, Peter D.</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_350637" CHECKSUM="c46e3fa51142aa45f7715901cfe3c6de" MIMETYPE="video/mpeg" SIZE="151515507" ID="file_350637" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102506/The%20Snowy%20Owl%204.mp4?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="The Snowy Owl 4.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_350638" CHECKSUM="89f5bfcbb1d3d79e9182e9d7e06b2997" MIMETYPE="video/quicktime" SIZE="325938811" ID="file_350638" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original copy" xlink:href="/bitstream/handle/2027.42/102506/The%20Snowy%20Owl%204.mov?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="The Snowy Owl 4.mov"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_350637"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_350638"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

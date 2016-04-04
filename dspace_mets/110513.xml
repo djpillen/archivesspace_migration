@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/110513" ID="hdl:2027.42/110513" OBJEDIT="/admin/item?itemID=112065">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">University of Michigan., Office of Human Resources and Affirmative Action</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-02-10T22:10:33Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-02-10T22:10:33Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9770_0003_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/110513</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">2014-2015 academic year salary Record for individuals on each of the University of Michigan's campuses. The Salary Record is listed by alphabetical order. The report includes all regular faculty and staff who have an active or paid leave appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments. Includes individual's name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund. Includes data for Ann Arbor, Dearborn and Flint campuses.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Publications - Topical Publications - Faculty and Staff Salary Listings, 2014-2015</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Dataset</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/110513/1/Salary_Disclosure_2014.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/110513/2/Salary_Disclosure_2014_bhl-6a37a93a.pdf</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of Salary_Disclosure_2014.pdf : Original version of 2014-2015 U-M Salary Record</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of Salary_Disclosure_2014_bhl-6a37a93a.pdf : Preservation copy of 2014-2015 U-M Salary record</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Office of Human Resources and Affirmative Action (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_378122" CHECKSUM="4c1f8ee868acfe1aae5bb8c215b05379" MIMETYPE="text/plain" SIZE="5805404" ID="file_378135" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/110513/Salary_Disclosure_2014.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Salary_Disclosure_2014.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_378123" CHECKSUM="a1cad2d5239a666a9801ad475a7e3399" MIMETYPE="text/plain" SIZE="4795675" ID="file_378136" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/110513/Salary_Disclosure_2014_bhl-6a37a93a.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="Salary_Disclosure_2014_bhl-6a37a93a.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_378122" CHECKSUM="049718b07e4c28e89a0b53258afd4646" MIMETYPE="application/pdf" SIZE="16105099" ID="file_378122" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version of 2014-2015 U-M Salary Record" xlink:href="/bitstream/handle/2027.42/110513/Salary_Disclosure_2014.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Salary_Disclosure_2014.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_378123" CHECKSUM="f980771239b95886a596732592c4ff58" MIMETYPE="application/pdf" SIZE="6759753" ID="file_378123" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy of 2014-2015 U-M Salary record" xlink:href="/bitstream/handle/2027.42/110513/Salary_Disclosure_2014_bhl-6a37a93a.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Salary_Disclosure_2014_bhl-6a37a93a.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_378122"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_378123"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

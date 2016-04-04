@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/99576" ID="hdl:2027.42/99576" OBJEDIT="/admin/item?itemID=101006">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Schmid, Friedrich</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage"/>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2013-08-28T16:48:44Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2013-08-28T16:48:44Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">2013093_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/99576</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Record of deaths maintained by Rev. Friedrich Schmid from 1833-1871 at Salem Lutheran Church (Ann Arbor, Mich.); date range reflects Schmid's involvement with the community from the original log cabin church in Scio Township through his retirement.  May also include information related to other congregations.  Death records are in German and extend across facing pages.  Information includes the name of the deceased; his or her standing, character, religion and previous residence; the parents and spouses of the deceased; age at death; cause of death; and the time and place of death and burial.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of MIchigan</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digital images created in 2013 from microfilm made by the University of Michigan Library Preservation Office Microfilming Unit in 1985.  Original volume held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Record of Deaths, 1833-1871</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99576/1/Deaths_1833-1871.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99576/2/Deaths_1833-1871.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Friedrich Schmid Church Records, 1833-1875</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_341590" CHECKSUM="7d652a2ff5b9aa6913ecb65cbbd9f325" MIMETYPE="text/plain" SIZE="94" ID="file_341615" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/99576/Deaths_1833-1871.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Deaths_1833-1871.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_341590" CHECKSUM="2dbec8ffabc6f6dbfe18eff840d0b331" MIMETYPE="application/pdf" SIZE="52908888" ID="file_341590" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy: PDF file of the record of death records for 1833-1871 maintained by Rev. Friedrich Schmid" xlink:href="/bitstream/handle/2027.42/99576/Deaths_1833-1871.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Deaths_1833-1871.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_341591" CHECKSUM="f4a80fc55a84a2fd922ed537a4222a88" MIMETYPE="application/zip" SIZE="1155580219" ID="file_341591" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy: TIFF image files of death records for 1833-1871 maintained by Rev. Friedrich Schmid" xlink:href="/bitstream/handle/2027.42/99576/Deaths_1833-1871.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Deaths_1833-1871.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_341590"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_341591"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

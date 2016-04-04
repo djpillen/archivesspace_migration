@@ -1,0 +1,59 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/109709" ID="hdl:2027.42/109709" OBJEDIT="/admin/item?itemID=111237">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Binkowski, Don</dim:field>
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Binkowski, Don</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1910-2006</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-12-11T19:08:00Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-12-11T19:08:00Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">85807_0001_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/109709</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Photographs of people from 2006 event, photos of Polish American and political figures</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Biographical/Personal - Biographical Information - Event and Historical Photographs</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/109709/1/Disc1.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/109709/2/Disc2.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/109709/3/Disc3.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of Disc1.zip : Photos from 2006 event (1 of 2)</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of Disc2.zip : Photos from 2006 event (2 of 2)</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of Disc3.zip : Photos of Polish American and political figures</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Don Binkowski papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_375265" CHECKSUM="5f24920eadbf649e2985f00dff262e0a" MIMETYPE="application/zip" SIZE="6717330" ID="file_375265" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Photos from 2006 event (1 of 2)" xlink:href="/bitstream/handle/2027.42/109709/Disc1.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Disc1.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_375266" CHECKSUM="8f3cb2b339bb02dae1a5777f7d43764d" MIMETYPE="application/zip" SIZE="26481845" ID="file_375266" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Photos from 2006 event (2 of 2)" xlink:href="/bitstream/handle/2027.42/109709/Disc2.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Disc2.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_375267" CHECKSUM="a339c2b561675180296d89bd657cddac" MIMETYPE="application/zip" SIZE="95225872" ID="file_375267" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Photos of Polish American and political figures" xlink:href="/bitstream/handle/2027.42/109709/Disc3.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Disc3.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_375265"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_375266"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_375267"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

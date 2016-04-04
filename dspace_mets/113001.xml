@@ -1,0 +1,52 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/113001" ID="hdl:2027.42/113001" OBJEDIT="/admin/item?itemID=114611">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Gonzales, Jesse</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2004</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-08-10T17:50:46Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-08-10T17:50:46Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2006</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2014079_0001_0002</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/113001</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Bibliography of Michigan Latino History, 1781-1980, created by Jesse Gonzales, 2004.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Visual Materials - Digital Files - Bibliography of Michigan Latino History, 1781-1980 Calendario, 2004</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Other</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113001/2/bibliography2006.doc</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113001/3/bibliography2006_bhl-f1ce20ef.docx</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-07-22</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Jesse Gonzales papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_387238" CHECKSUM="f04b832dbd9b9dc1750ef4a4401781ca" MIMETYPE="text/plain" SIZE="60287" ID="file_387367" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/113001/bibliography2006.doc.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="bibliography2006.doc.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_387238" CHECKSUM="6136bd99f50850b496e4fddbaaa82d6b" MIMETYPE="application/msword" SIZE="120320" ID="file_387238" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Acces copy of Bibliography of Michigan Latino History, 1781-1980, 2004.. Access restricted to Bentley Library only." xlink:href="/bitstream/handle/2027.42/113001/bibliography2006.doc?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="bibliography2006.doc"/>
+</mets:file>
+<mets:file GROUPID="group_file_387239" CHECKSUM="5bea1a4fba0363ebff04f8f208c8bd39" MIMETYPE="application/msword" SIZE="40111" ID="file_387239" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy of Bibliography of Michigan Latino History, 1781-1980, 2004.. Access restricted to Bentley Library only." xlink:href="/bitstream/handle/2027.42/113001/bibliography2006_bhl-f1ce20ef.docx?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="bibliography2006_bhl-f1ce20ef.docx"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387238"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387239"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

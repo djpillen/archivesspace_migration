@@ -1,0 +1,52 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/86194" ID="hdl:2027.42/86194" OBJEDIT="/admin/item?itemID=87352">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Castagnacci, Vincent</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Knox, Peter</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2011-09-08T14:19:19Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2011-09-08T14:19:19Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2004</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2011012_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/86194</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Footage of Vincent Castagnacci providing a tour of his studio space and the artist at work on a printing press.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">The collection is open to research</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Artwork and Exhibitions - Studio Work, 2004</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86194/1/Castagnacci_2004_PrintingPress.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86194/2/Castagnacci_2004_StudioTour_pt2.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86194/3/Castagnacci_2004_StudioTour.mp4</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Castagnacci, Vincent</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_292952" CHECKSUM="f57ae380812772bf96c9d6ac6c9413f8" MIMETYPE="video/mpeg" SIZE="1205180395" ID="file_292952" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Castagnacci at work on a printing press in 2004" xlink:href="/bitstream/handle/2027.42/86194/Castagnacci_2004_PrintingPress.mp4?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Castagnacci_2004_PrintingPress.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_292953" CHECKSUM="09ef5ef97ce975eb162e43bb85b4c432" MIMETYPE="video/mpeg" SIZE="71879428" ID="file_292953" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Part 2 of a 2004 tour of Castagnacci's home studio" xlink:href="/bitstream/handle/2027.42/86194/Castagnacci_2004_StudioTour_pt2.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Castagnacci_2004_StudioTour_pt2.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_292954" CHECKSUM="1a59f77a0d931257d9e05484abe060a4" MIMETYPE="video/mpeg" SIZE="416510611" ID="file_292954" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Part 1 of a 2004 tour of Castagnacci's home studio" xlink:href="/bitstream/handle/2027.42/86194/Castagnacci_2004_StudioTour.mp4?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Castagnacci_2004_StudioTour.mp4"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_292952"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_292953"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_292954"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,46 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/109676" ID="hdl:2027.42/109676" OBJEDIT="/admin/item?itemID=111201">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">Feb. 21, 1975</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-12-09T18:13:25Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-12-09T18:13:25Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">2014162_0001_0014</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/109676</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Box 109, President (University of Michigan) records, Bentley Historical Library, University of Michigan, 4 pages</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">BAM II - The demands - &#8220;Demands of the Black Action Movement,&#8221;, Feb. 21, 1975</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/109676/1/BAM2-3.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research.</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Black Action Movement I, II and III select documents</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_375167" CHECKSUM="ff4c8ff01d544500ea4bfea43e6108c1" MIMETYPE="text/plain" SIZE="4" ID="file_375224" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/109676/BAM2-3.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="BAM2-3.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_375167" CHECKSUM="0eb4e5c8bd5add614092887318388612" MIMETYPE="application/pdf" SIZE="3160346" ID="file_375167" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="" xlink:href="/bitstream/handle/2027.42/109676/BAM2-3.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="BAM2-3.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_375167"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

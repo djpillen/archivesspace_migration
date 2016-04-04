@@ -1,0 +1,46 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79587" ID="hdl:2027.42/79587" OBJEDIT="/admin/item?itemID=80413">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computing Center, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:40:12Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:40:12Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1967-12</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79587</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">Material was scanned from the original printed manual by bitsavers.org.</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" element="description">The second edition (December 1,, 1967) is a major revision of the first edition (June 1, 1967). Volume II contains writeups concerned with the content of the languages available within MTS.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">13720308 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Manuals - MTS Second Edition (1967) Volume II</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79587/1/MTSVol-II-MichiganTerminalSystem-SecondEdition-Dec1967.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283233" CHECKSUM="b0c9ab3ccb4ae32bc7ac43cfd80b5e8a" MIMETYPE="application/pdf" SIZE="13720308" ID="file_283233" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79587/MTSVol-II-MichiganTerminalSystem-SecondEdition-Dec1967.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol-II-MichiganTerminalSystem-SecondEdition-Dec1967.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283233" CHECKSUM="28447a4ddcbdadd3f59d57b492926131" MIMETYPE="text/plain" SIZE="323" ID="file_283336" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79587/MTSVol-II-MichiganTerminalSystem-SecondEdition-Dec1967.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol-II-MichiganTerminalSystem-SecondEdition-Dec1967.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283233"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

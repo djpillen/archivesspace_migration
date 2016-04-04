@@ -1,0 +1,46 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79593" ID="hdl:2027.42/79593" OBJEDIT="/admin/item?itemID=80419">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computing Center, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:40:43Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:40:43Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1985-04</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79593</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">The MTS Manual is a series of volumes that describe in detail the facilities provided by the Michigan Terminal System. This edition of Volume 11 replaces the April 1971 edition. It has been completely reorganized with a number of new sections. The Plot Description System (PDS) is a library of subroutines to aid&#13;
+in producing plots. Subroutines are provided to draw commonly used objects such as lines, symbol strings, circles, axes, and so on. Coordinates given to the PDS may be either rectangular or polar and/or linear or logarithmic.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">4287302 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Manuals - MTS Volume 11: Plot Description System</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79593/1/MTSVol11-PlotDescriptionSystem-Apr1985.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283245" CHECKSUM="1fe5226342fd419e82bf995487643035" MIMETYPE="application/pdf" SIZE="4287302" ID="file_283245" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79593/MTSVol11-PlotDescriptionSystem-Apr1985.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol11-PlotDescriptionSystem-Apr1985.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283245" CHECKSUM="bd9bfa517a7e374a04bb8180b09aa8e6" MIMETYPE="text/plain" SIZE="367645" ID="file_283342" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79593/MTSVol11-PlotDescriptionSystem-Apr1985.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol11-PlotDescriptionSystem-Apr1985.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283245"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

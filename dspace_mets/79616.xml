@@ -1,0 +1,47 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79616" ID="hdl:2027.42/79616" OBJEDIT="/admin/item?itemID=80442">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computing Centre, University of British Columbia</dim:field>
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Ballard, Alan</dim:field>
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Whaley, Paul</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:42:27Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:42:27Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1987-10</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79616</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" element="description">This manual provides a description of the systems programming language Plus, developed at the University of British Columbia by Allan Ballard and Paul Whaley. Plus is based to a large extent on the Sue system language developed at the University of Toronto (circa 1971) to implement an operating system for the IBM System 360 computers. Plus has much in common with the structure and semantics of Sue, Pascal, and C.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">880573 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">University of British Columbia, 1987.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Manuals - University of British Columbia Computing Centre - PLUS: The Plus Programming Language</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79616/1/UBCPlus-Oct1987.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283291" CHECKSUM="44808fcb76b5b45e7f9a88f1325dc22e" MIMETYPE="application/pdf" SIZE="880573" ID="file_283291" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79616/UBCPlus-Oct1987.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="UBCPlus-Oct1987.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283291" CHECKSUM="c0f0f9102e78ef9c455035c64f917aa4" MIMETYPE="text/plain" SIZE="728338" ID="file_283363" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79616/UBCPlus-Oct1987.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="UBCPlus-Oct1987.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283291"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

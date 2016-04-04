@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102600" ID="hdl:2027.42/102600" OBJEDIT="/admin/item?itemID=104053">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">University of Michigan. School of Kinesiology</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1998-2001</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-05T19:54:52Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-05T19:54:52Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102600</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">This bulletin provides information on undergraduate and graduate academic program requirements, courses, and admission information for academic years 1998-1999, 1999-2000, 2000-2001. The School of Kinesiology bulletin includes a welcome letter from director, Beverley D. Ulrich. Also included is a bulletin addendum that highlights curriculum changes. The student forms folder contains record sheets used to track degree requirements and elective courses for each kinesiology program.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Unit Publications - Bulletins, 1998-2001</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Technical Report</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102600/1/Bulletin9801.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102600/2/Addendum9801.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102600/3/StudentForms9801.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">School of Kinesiology (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_351242" CHECKSUM="1eb2aa1e9a9e2e8b93b199a4f87e3fe4" MIMETYPE="application/zip" SIZE="4946498" ID="file_351242" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Kinesiology Bulletin, 1998-2001" xlink:href="/bitstream/handle/2027.42/102600/Bulletin9801.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Bulletin9801.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_351243" CHECKSUM="64c580098dccdd451863b95b2bcc100c" MIMETYPE="application/zip" SIZE="121289" ID="file_351243" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Kinesiology Bulletin Addendum, 1998-2001" xlink:href="/bitstream/handle/2027.42/102600/Addendum9801.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Addendum9801.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_351244" CHECKSUM="40c3098279b804dcee2351a4589f08a9" MIMETYPE="application/zip" SIZE="998402" ID="file_351244" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Kinesiology Recod Sheets, 1998-2001" xlink:href="/bitstream/handle/2027.42/102600/StudentForms9801.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="StudentForms9801.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351242"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351243"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351244"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

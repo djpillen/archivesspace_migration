@@ -1,0 +1,45 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79603" ID="hdl:2027.42/79603" OBJEDIT="/admin/item?itemID=80429">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computing Center, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:41:29Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:41:29Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1988-02</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79603</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">On Translation Day, February 22, 1988, the Computing Center changed the codes used to represent some characters on MTS to improve the ability of those using MTS to move files or send messages to other hosts without having characters become unreadable or having to translate a file that contains them upon arrival at another host. This memo provides details about the change and explains how to convert affected files easily to the new codes.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">180736 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Computing Center Memos - No. 480: Translation Day Character Code Changes on MTS</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79603/1/ccm480-TranslationDay-Feb1988.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283265" CHECKSUM="3e79c23e7532abec69a1fcc4aeea45bc" MIMETYPE="application/pdf" SIZE="180736" ID="file_283265" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79603/ccm480-TranslationDay-Feb1988.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="ccm480-TranslationDay-Feb1988.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283265" CHECKSUM="9df5f463a4c5b92dc0d1f46ae2c8ffb2" MIMETYPE="text/plain" SIZE="84633" ID="file_283350" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79603/ccm480-TranslationDay-Feb1988.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="ccm480-TranslationDay-Feb1988.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283265"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

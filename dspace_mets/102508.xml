@@ -1,0 +1,50 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102508" ID="hdl:2027.42/102508" OBJEDIT="/admin/item?itemID=103958">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Sparling, Peter</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="contributor">Cogswell, Jim</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="contributor">Peter Sparling Dance Company</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1997</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-01-16T22:02:49Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-01-16T22:02:49Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2012, 2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">0312_0001_0019</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102508</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">This interdisciplinary work explores the enigmatic liminal spaces between abstract and figurative imagery. The work was created for a 'Year of the Humanities and the Arts' event in 1997 and features the Peter Sparling Dance Company and a collaboration with visual artist Jim Cogswell.  Music by Daniel Bernard Roumain.  Peter Sparling: director and choreographer.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is retained by Peter Sparling; music used with permission of Daniel Bernard Roumain.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Performances, Auditions, and Rehearsals - Seven Enigmas, 1997</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102508/1/Seven Enigmas.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102508/2/Seven Enigmas.mov</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Sparling, Peter D.</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_350643" CHECKSUM="843c57f0eee4b9875823ebd7f670029e" MIMETYPE="video/mpeg" SIZE="545195199" ID="file_350643" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102508/Seven%20Enigmas.mp4?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Seven Enigmas.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_350644" CHECKSUM="44537ad8fe3e5354a09cb8901673fc6c" MIMETYPE="video/quicktime" SIZE="789181195" ID="file_350644" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original copy" xlink:href="/bitstream/handle/2027.42/102508/Seven%20Enigmas.mov?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Seven Enigmas.mov"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_350643"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_350644"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

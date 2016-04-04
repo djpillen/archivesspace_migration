@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/94164" ID="hdl:2027.42/94164" OBJEDIT="/admin/item?itemID=95530">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Digital Curation Division</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2012-10-19T13:29:51Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2012-10-19T13:29:51Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2011</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/94164</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Description of workflow and procedures for the acquisition of content in the Bentley Historical Library Web Archives. Includes discussion of the appraisal and selection of websites, configuration of crawler settings, and conventions for description and metadata entry.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Division Records - Digital Curation - Web Archiving - Policies  - Methodology for the Acquisition of Content</dim:field>
+<dim:field qualifier="affiliationum" mdschema="dc" language="en_US" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94164/1/BHL_WebArchives_Methodology_20110802.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94164/4/BHL_WASmethodology_20140911.pdf</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of BHL_WebArchives_Methodology_20110802.pdf : Version 2.0, effective August 2, 2011</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of BHL_WASmethodology_20140911.pdf : Version 4.0, effective September 11, 2014</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Bentley Historical Library (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_325757" CHECKSUM="53b69f1454d4f8c82b1ee63ec563bfc3" MIMETYPE="text/plain" SIZE="14599" ID="file_325761" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/94164/BHL_WebArchives_Methodology_20110802.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="BHL_WebArchives_Methodology_20110802.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_371016" CHECKSUM="cf674cc2251639a58e985a828f650b07" MIMETYPE="text/plain" SIZE="18278" ID="file_371019" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/94164/BHL_WASmethodology_20140911.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="BHL_WASmethodology_20140911.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_371016" CHECKSUM="28bff4254fdd905ca403c79e629ac737" MIMETYPE="application/pdf" SIZE="979362" ID="file_371016" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Version 4.0, effective September 11, 2014" xlink:href="/bitstream/handle/2027.42/94164/BHL_WASmethodology_20140911.pdf?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="BHL_WASmethodology_20140911.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_325757" CHECKSUM="f2731ad95d80c6ad89e5ad655b57e3d4" MIMETYPE="application/pdf" SIZE="1420201" ID="file_325757" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Version 2.0, effective August 2, 2011" xlink:href="/bitstream/handle/2027.42/94164/BHL_WebArchives_Methodology_20110802.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="BHL_WebArchives_Methodology_20110802.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_371016"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_325757"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

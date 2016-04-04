@@ -29,6 +29,9 @@ for filename in os.listdir(ead_dir):
 			container.attrib["type"] = label.lower()
 		if label in container_label_to_label_dict:
 			container.attrib["label"] = container_label_to_label_dict[label]
+		if len(label) == 0:
+			container.attrib["label"] = "unknown"
+			container.attrib["type"] = "unknown"
 
 	with open(join(ead_dir, filename), 'w') as f:
 		f.write(etree.tostring(tree, encoding="utf-8", xml_declaration=True, pretty_print=True))

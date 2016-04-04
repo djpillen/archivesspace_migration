@@ -31,7 +31,8 @@ def remove_nested_genreforms(ead_dir):
 	print removed_tags
 
 def main():
-	ead_dir = 'C:/Users/djpillen/GitHub/vandura/Real_Masters_all'
+	project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+	ead_dir = join(project_dir, "vandura", "Real_Masters_all")
 	remove_nested_genreforms(ead_dir)
 
 if __name__ == "__main__":

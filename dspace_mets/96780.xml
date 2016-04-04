@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/96780" ID="hdl:2027.42/96780" OBJEDIT="/admin/item?itemID=98205">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Office of the Registrar, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2013-03-07T20:13:54Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2013-03-07T20:13:54Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">0393_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/96780</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Course offerings listed by academic unit; includes course title, course number, section number, class time, cross listings, prerequisites, credit hour, instructor and location.  The Schedule of Classes serves to confirm that a particular class was offered and provides evidence of the university's compliance with stated degree program requirements.  The University Archives holds the official versions of the Schedule of Classes dating to 1926; starting in Winter 2004,  the document has only been available in digital form.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Publications - Time Schedule - Schedule of Classes - 2010-2011 - Fall 2010</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Dataset</dim:field>
+<dim:field qualifier="affiliationum" mdschema="dc" language="en_US" element="contributor">Office of the Registrar, University of Michigan</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/96780/1/FA2010.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/96780/2/FA2010_bhl-49852bb5.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Office of the Registrar (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_333802" CHECKSUM="3227f1a15a90244885ccef2bc4fb9119" MIMETYPE="text/plain" SIZE="1065809" ID="file_333886" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/96780/FA2010.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="FA2010.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_333803" CHECKSUM="ea843be5d542a0405b06f519b61ff99e" MIMETYPE="text/plain" SIZE="1065292" ID="file_333887" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/96780/FA2010_bhl-49852bb5.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="FA2010_bhl-49852bb5.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_333802" CHECKSUM="d294cd9cba053cd7287b689b106d8420" MIMETYPE="application/pdf" SIZE="1065710" ID="file_333802" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Schedule of Classes Fall 2010--Original Copy" xlink:href="/bitstream/handle/2027.42/96780/FA2010.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="FA2010.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_333803" CHECKSUM="7a3ba5ac4ecbadca534e149c6792d19f" MIMETYPE="application/pdf" SIZE="809112" ID="file_333803" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Schedule of Classes Fall 2010--Preservation Copy" xlink:href="/bitstream/handle/2027.42/96780/FA2010_bhl-49852bb5.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="FA2010_bhl-49852bb5.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_333802"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_333803"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

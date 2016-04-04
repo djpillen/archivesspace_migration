@@ -1,0 +1,47 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/94346" ID="hdl:2027.42/94346" OBJEDIT="/admin/item?itemID=95723">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">News and Information Services, University of Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2011</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2012-11-29T21:46:50Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2012-11-29T21:46:50Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2011</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2011</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87265_0003</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/94346</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">University of Michigan students travel to Patagonia in Chile for the educational trip of a lifetime.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" language="en_US" element="format">0:04:38</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">In Patagonia</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94346/1/In-Patagonia.flv</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94346/2/In-Patagonia_bhl-b2a6428d.mp4</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">News and Information Services (University of Michigan) Sound and Video Recordings</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_326344" CHECKSUM="9674030eb6b850b8595de1556b492b49" MIMETYPE="application/octet-stream" SIZE="14628272" ID="file_326344" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/94346/In-Patagonia.flv?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="In-Patagonia.flv"/>
+</mets:file>
+<mets:file GROUPID="group_file_326345" CHECKSUM="7f67f3d818969adec56e0cb7a91e8816" MIMETYPE="video/mpeg" SIZE="11242448" ID="file_326345" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/94346/In-Patagonia_bhl-b2a6428d.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="In-Patagonia_bhl-b2a6428d.mp4"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_326344"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_326345"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102838" ID="hdl:2027.42/102838" OBJEDIT="/admin/item?itemID=104295">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Fisher, Irving</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">July-December 1913</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-21T14:05:02Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-21T14:05:02Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0081</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102838</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Lectures, Speeches, and Related materials from July-Dec. 1913:  * Human Health as a Natural Asset, July 31, 1913 (lecture given by Irving Fisher), July 31, 1913 * First Annual Reunion of Sanitarium Patients, August 12, 1913 * Relation of Public Health Work to Race Degeneracy, Sept. 10, 1913 * Question Box Lecture, Sept. 15, 1913 * Question Box Lecture, Oct. 13, 1913 * Question Box Lecture, Oct. 27, 1913 * Question Box Lecture, Nov. 3, 1913 * Question Box Lecture, Dec. 2, 1913 * Question Box Lecture, Dec. 15, 1913</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Lectures, Speeches, and Related materials, 1913 pt. 04: July-December</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102838/1/Lectures-1913d.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102838/2/Lectures-1913d.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_351984" CHECKSUM="eac0237f4daa1841c6679f1dbb980191" MIMETYPE="text/plain" SIZE="223" ID="file_352283" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102838/Lectures-1913d.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1913d.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_351984" CHECKSUM="6c712fc1540b8cf2da7365cc0df3ee82" MIMETYPE="application/pdf" SIZE="33235947" ID="file_351984" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102838/Lectures-1913d.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1913d.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_351985" CHECKSUM="7597e0c673e69c594d9c22d325f2686f" MIMETYPE="application/zip" SIZE="85025561" ID="file_351985" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/102838/Lectures-1913d.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1913d.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351984"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351985"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

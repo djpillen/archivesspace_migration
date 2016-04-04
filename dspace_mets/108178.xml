@@ -1,0 +1,50 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/108178" ID="hdl:2027.42/108178" OBJEDIT="/admin/item?itemID=109674">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Owens, John</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Rivers, Lynn</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2011</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-08-12T15:29:29Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-08-12T15:29:29Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2011-2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2014049_0001_0012</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/108178</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Video recording [13:19] of an interview with Lynn Rivers, who worked for Jean Ledwith King as a Law Clerk from 1989 to 1991.  Rivers talks about how she first met King on the Ann Arbor School Board in the mid-1980s. She also discusses particular cases such as those against the Department of Labor and Eastern Michigan University, which King did not win, and the lessons learned from that experience.  Rivers also recounts how she brought King's values to her time serving in Congress and that King directly encouraged her to run for political office.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Video Recordings - Interviews - Rivers, Lynn, 2011</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">interview; video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/108178/2/Lynn Rivers_bhl.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/108178/3/Lynn Rivers.mov</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of Lynn Rivers_bhl.mp4 : Access restricted to Bentley Library only. Access version of 'Lynn Rivers.mov' created by Bentley Library</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of Lynn Rivers.mov : Access restricted to Bentley Library only.  Original video file</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-07-31</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Jean Ledwith King Oral History Collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_370305" CHECKSUM="50fb4e4028a674d857156a75fa6a31e4" MIMETYPE="video/mpeg" SIZE="113445601" ID="file_370305" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access restricted to Bentley Library only. Access version of 'Lynn Rivers.mov' created by Bentley Library" xlink:href="/bitstream/handle/2027.42/108178/Lynn%20Rivers_bhl.mp4?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Lynn Rivers_bhl.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_370306" CHECKSUM="92254efecae0c93d3a16c06a44bc152c" MIMETYPE="video/quicktime" SIZE="3028863884" ID="file_370306" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access restricted to Bentley Library only.  Original video file" xlink:href="/bitstream/handle/2027.42/108178/Lynn%20Rivers.mov?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Lynn Rivers.mov"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_370305"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_370306"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

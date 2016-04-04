@@ -1,0 +1,55 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/100241" ID="hdl:2027.42/100241" OBJEDIT="/admin/item?itemID=101679">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">University of Michigan., Stephen M. Ross School of Business</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2010-2011</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2013-10-16T18:54:09Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2013-10-16T18:54:09Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">00132_0002</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/100241</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">2010-2011 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of July 2010.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Unit Publications - Bulletins - Undergraduate Program, 2010-2011</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/100241/1/BBABulletin.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/100241/2/BBABulletin_bhl-99f6d4e0.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Stephen M. Ross School of Business (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_343820" CHECKSUM="93772c84d3d5a8755f4c8fd1d976a04d" MIMETYPE="text/plain" SIZE="88781" ID="file_343840" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/100241/BBABulletin.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="BBABulletin.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_343821" CHECKSUM="d5c9d214ea9c57b726f88a795e213bc7" MIMETYPE="text/plain" SIZE="88663" ID="file_343841" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/100241/BBABulletin_bhl-99f6d4e0.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="BBABulletin_bhl-99f6d4e0.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_343820" CHECKSUM="acea8edc620de1d4183cb807270e6fe0" MIMETYPE="application/pdf" SIZE="332007" ID="file_343820" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version of the 2010-2011 BBA Bulletin for the Ross School of Business" xlink:href="/bitstream/handle/2027.42/100241/BBABulletin.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="BBABulletin.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_343821" CHECKSUM="b8b02537c7116c47e028d4d3c85aa024" MIMETYPE="application/pdf" SIZE="449599" ID="file_343821" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy  of the 2010-2011 BBA Bulletin for the Ross School of Business; created by the Bentley Historical Library " xlink:href="/bitstream/handle/2027.42/100241/BBABulletin_bhl-99f6d4e0.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="BBABulletin_bhl-99f6d4e0.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_343820"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_343821"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

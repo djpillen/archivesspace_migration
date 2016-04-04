@@ -1,0 +1,48 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/107609" ID="hdl:2027.42/107609" OBJEDIT="/admin/item?itemID=109099">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Van Zoeren, Tom</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Schmidt, Ed</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2008-2010</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-07-07T19:49:59Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-07-07T19:49:59Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">0129_0001_0025</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/107609</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Audio recordings of oral history interviews with Ed Schmidt and other members of the Schmidt family conducted in 2008 and 2010. Interviews with Ed Schmidt conducted by Tom Van Zoeren on February 28, 2008 and March 5, 2008 focus on family history, including their work and career choices. Interview with Schmidt family members at their reunion conducted on July 24, 2010 by Tom Van Zoeren covers aspects of their family history and that of others in the area. Description of recordings based on summaries and transcript available in 'Information on Farms, Families, etc.' series.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Oral History Audio Files - Sleeping Bear Dunes Region - Port Oneida Area - Burfiend, John, 2008-2010</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Interview; Recording, oral</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107609/2/Audio-BurfiendJ-Schmidt.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107609/3/Audio-BurfiendJ-Reunion.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-06-05</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright is not held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Tom Van Zoeren Oral History Collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_367080" CHECKSUM="4b4f6515f0d5825fa7829a551c3da6a4" MIMETYPE="application/zip" SIZE="564752306" ID="file_367080" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Ed Schmidt interviews" xlink:href="/bitstream/handle/2027.42/107609/Audio-BurfiendJ-Schmidt.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Audio-BurfiendJ-Schmidt.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_367081" CHECKSUM="25c328bf8110b45911b2b710eece46cb" MIMETYPE="application/zip" SIZE="214073628" ID="file_367081" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Reunion attendees interview" xlink:href="/bitstream/handle/2027.42/107609/Audio-BurfiendJ-Reunion.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Audio-BurfiendJ-Reunion.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367080"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367081"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

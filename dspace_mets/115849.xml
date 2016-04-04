@@ -1,0 +1,37 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/115849" ID="hdl:2027.42/115849" OBJEDIT="/admin/item?itemID=119421">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Michigan Citizen</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-10-30T20:31:23Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-10-30T20:31:23Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2015-10-30</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/115849</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Photo Archive for the Michigan Citizen containing image files of newspaper filler pieces, permanent ads, customer promo ads, and the Detroit Business Directory from 1998 to 1999.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Photo Archive</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/115849/1/PhotoArchive.zip</dim:field>
+<dim:field qualifier="filedescription" mdschema="dc" element="description">Description of PhotoArchive.zip : Photo Archive</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Michigan Citizen Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_400375" CHECKSUM="1a50ee857bf3f8675cf97da660c1e5fa" MIMETYPE="application/zip" SIZE="198398794" ID="file_400375" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Photo Archive" xlink:href="/bitstream/handle/2027.42/115849/PhotoArchive.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="PhotoArchive.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_400375"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

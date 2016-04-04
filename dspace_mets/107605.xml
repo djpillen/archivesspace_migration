@@ -1,0 +1,57 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/107605" ID="hdl:2027.42/107605" OBJEDIT="/admin/item?itemID=109095">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Van Zoeren, Tom</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Liljestrand, Barbara Louise</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Mikowski, Maxine Louise Wepking</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Mikowski, Helen Louise</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2009</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2014-07-07T19:48:05Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2014-07-07T19:48:05Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">0129_0001_0021</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/107605</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Audio recordings of oral history interview with Barbara Louise Liljestrand, Maxine Louise Wepking Mikowski, and Helen Louise Mikowski conducted by Glen Peterson and Tom Van Zoeren on October 10, 2009.  Focuses on the life and work of Honora Roe of Maple City, a female minister. Also includes information on Maxine Mikowski's life and background. Description of recordings based on summary available in 'Information on Farms, Families, etc.' series.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Oral History Audio Files - Sleeping Bear Dunes Region - Other Areas - Roe, 2009</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Interview; Recording, oral</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107605/2/Audio-Roe_orig_pres.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107605/3/Audio-Roe_tracks_wav.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/107605/4/Audio-Roe_tracks_mp3.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Content is open for research</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-06-05</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright is not held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Tom Van Zoeren Oral History Collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_367064" CHECKSUM="84ab2c1a05a4d7f19a20b2aa2c012df1" MIMETYPE="application/zip" SIZE="989379103" ID="file_367064" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original and preservation version of interview session recordings" xlink:href="/bitstream/handle/2027.42/107605/Audio-Roe_orig_pres.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Audio-Roe_orig_pres.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_367065" CHECKSUM="93bca530fb9fcbbb81f9bdd91f62a6ad" MIMETYPE="application/zip" SIZE="163327451" ID="file_367065" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Interview tracks as WAV files" xlink:href="/bitstream/handle/2027.42/107605/Audio-Roe_tracks_wav.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Audio-Roe_tracks_wav.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_367066" CHECKSUM="df6637b5282ac747ab3b4685fe6ee2a7" MIMETYPE="application/zip" SIZE="25528260" ID="file_367066" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Interview tracks as MP3 files" xlink:href="/bitstream/handle/2027.42/107605/Audio-Roe_tracks_mp3.zip?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Audio-Roe_tracks_mp3.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367064"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367065"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_367066"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

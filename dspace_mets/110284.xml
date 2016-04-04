@@ -1,0 +1,48 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/110284" ID="hdl:2027.42/110284" OBJEDIT="/admin/item?itemID=111831">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">University of Michigan. Department of Psychiatry.</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="contributor">Markel, Howard</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2006</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-01-23T20:40:41Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-01-23T20:40:41Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">0360_0001_0011</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/110284</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Video files and transcript of 2006 Waggoner lecture. Howard Markel, Contemplating Pandemics: The Role of Historical Inquiry in Developing Pandemic Influenza Mitigation Strategies for the 21st Century,  2006.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Raymond Waggoner Lectures - Howard Markel, Contemplating Pandemics: The Role of Historical Inquiry in Developing Pandemic Influenza Mitigation Strategies for the 21st Century, 2006</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video; Other</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/110284/2/2006_Markel.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/110284/3/2006_Markel_media.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2014-11-17</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Dept. of Psychiatry (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_377158" CHECKSUM="e03aa5b1cd11ed5a91b8477fe621838a" MIMETYPE="application/zip" SIZE="596062" ID="file_377158" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version and preservation copy of 2006 Waggoner lecture transcript." xlink:href="/bitstream/handle/2027.42/110284/2006_Markel.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="2006_Markel.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_377159" CHECKSUM="d1f2c7abd1a6fabba75e332766e4cf6e" MIMETYPE="application/zip" SIZE="2305547015" ID="file_377159" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Video of 2006 Waggoner lecture." xlink:href="/bitstream/handle/2027.42/110284/2006_Markel_media.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="2006_Markel_media.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_377158"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_377159"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

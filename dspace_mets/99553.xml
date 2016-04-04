@@ -1,0 +1,48 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/99553" ID="hdl:2027.42/99553" OBJEDIT="/admin/item?itemID=100984">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Shurtleff, Mary</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">ca. 1890s</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-08-20T18:14:28Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-08-20T18:14:28Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">861078_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/99553</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Panoramic photograph of Cross Village, Mich. (ca. 1890s) showing sawmill and waterfront</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is not held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Visual materials - Panoramic view of Cross Village, Mich., ca. 1890s</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99553/1/bl006912.jpg</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99553/2/bl006912.tif</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Mary Shurtleff Collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_341526" CHECKSUM="5ab2b282e7b8a9ca10f24df2a351cf9e" MIMETYPE="image/jpeg" SIZE="5850039" ID="file_341526" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; panoramic view of Cross Village, MI" xlink:href="/bitstream/handle/2027.42/99553/bl006912.jpg?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="bl006912.jpg"/>
+</mets:file>
+<mets:file GROUPID="group_file_341527" CHECKSUM="7f7c09a06dc8560eceb11fdd876b5ba3" MIMETYPE="image/tiff" SIZE="49506452" ID="file_341527" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy; panoramic view of Cross Village, MI" xlink:href="/bitstream/handle/2027.42/99553/bl006912.tif?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="bl006912.tif"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_341526"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_341527"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

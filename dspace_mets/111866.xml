@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/111866" ID="hdl:2027.42/111866" OBJEDIT="/admin/item?itemID=113463">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2002</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-06-12T18:27:47Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-06-12T18:27:47Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87245_0009_0025</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/111866</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">The University of Michigan Timelines was an online exhibit created by Bentley Historical Library staff to document major developments in the university's history chronologically and chronologically by category.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Outreach: Education, Publicity, and Exhibits - Online Exhibits and Special Projects - University of Michigan Timelines, 2002</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111866/2/University of Michigan Timelines - 2002.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111866/3/University of Michigan Timelines - 2002_bhl-65fb7638.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-04-07</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Bentley Historical Library (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_382824" CHECKSUM="855e562324cfe6bfb1ca9f7fe9534d77" MIMETYPE="text/plain" SIZE="72933" ID="file_382878" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111866/University%20of%20Michigan%20Timelines%20-%202002.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="University of Michigan Timelines - 2002.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_382825" CHECKSUM="0e266e44c9ee7a0729b2e87f053c6462" MIMETYPE="text/plain" SIZE="72713" ID="file_382879" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111866/University%20of%20Michigan%20Timelines%20-%202002_bhl-65fb7638.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="University of Michigan Timelines - 2002_bhl-65fb7638.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_382824" CHECKSUM="91fe54b315928e86e631d1841cd3ba54" MIMETYPE="application/pdf" SIZE="2097142" ID="file_382824" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version." xlink:href="/bitstream/handle/2027.42/111866/University%20of%20Michigan%20Timelines%20-%202002.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="University of Michigan Timelines - 2002.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_382825" CHECKSUM="c135ac6dea7b4b483eed3c264da83dc2" MIMETYPE="application/pdf" SIZE="543668" ID="file_382825" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy." xlink:href="/bitstream/handle/2027.42/111866/University%20of%20Michigan%20Timelines%20-%202002_bhl-65fb7638.pdf?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="University of Michigan Timelines - 2002_bhl-65fb7638.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382824"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382825"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

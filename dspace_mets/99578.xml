@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/99578" ID="hdl:2027.42/99578" OBJEDIT="/admin/item?itemID=101007">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Schmid, Friedrich</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage"/>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2013-08-28T16:54:39Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2013-08-28T16:54:39Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">2013093_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/99578</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Family register from the records of Zion Lutheran Church; Information likely refers to congregants of Salem Lutheran Church (Ann Arbor, Mich.), the first Evangelical Lutheran Congregation formed by Rev. Friedrich Schmid in Scio Township after his arrival in the United States in 1833.  May also include information on families from other congregations.  The register appears to have been regularly updated through the 1830s and includes information about family members from the late-eighteenth through the mid-nineteenth centuries.  Records are in German and a single family's entry extends across facing pages, with documentation of the names and birthdates of husband and wife, their wedding date, and names of their respective parents.  Entries also record the number and names of children as well as information on their birth dates, confirmation or first communion, weddings and deaths.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of MIchigan</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digital images created in 2013 from microfilm made by the University of Michigan Library Preservation Office Microfilming Unit in 1985.  Original volume held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Family Register, ca. 1833-1838</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99578/1/Family-Register_1833.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99578/2/Family-Register_1833.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Friedrich Schmid Church Records, 1833-1875</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_341593" CHECKSUM="f751400473ec73a55a56ccf7e0009059" MIMETYPE="text/plain" SIZE="129" ID="file_341610" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/99578/Family-Register_1833.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Family-Register_1833.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_341593" CHECKSUM="9e45a07cb2447bf966adfc0403464ca8" MIMETYPE="application/pdf" SIZE="48262280" ID="file_341593" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy: PDF file of a family register created by Rev. Friedrich Schmid in 1833 and maintained until ca. 1838" xlink:href="/bitstream/handle/2027.42/99578/Family-Register_1833.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Family-Register_1833.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_341594" CHECKSUM="c2331af5bcddf73249aaaa109bafc0a7" MIMETYPE="application/zip" SIZE="1558295116" ID="file_341594" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy: TIFF image files of a family register created by Rev. Friedrich Schmid in 1833 and maintained until ca. 1838" xlink:href="/bitstream/handle/2027.42/99578/Family-Register_1833.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Family-Register_1833.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_341593"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_341594"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

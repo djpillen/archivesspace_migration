@@ -1,0 +1,47 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" OBJEDIT="/admin/item?itemID=119725" OBJID="/handle/2027.42/116143" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" ID="hdl:2027.42/116143">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DIM">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field element="contributor" qualifier="author" language="en_US" mdschema="dc">Ovshinsky, Stanford R.</dim:field>
+<dim:field element="coverage" qualifier="temporal" language="en_US" mdschema="dc">2008</dim:field>
+<dim:field element="date" qualifier="accessioned" mdschema="dc">2015-12-08T21:38:12Z</dim:field>
+<dim:field element="date" qualifier="available" mdschema="dc">2015-12-08T21:38:12Z</dim:field>
+<dim:field element="date" qualifier="created" language="en_US" mdschema="dc">2015</dim:field>
+<dim:field element="date" qualifier="issued" language="en_US" mdschema="dc">2015</dim:field>
+<dim:field element="identifier" qualifier="other" language="en_US" mdschema="dc">2014092_0002_0021</dim:field>
+<dim:field element="identifier" qualifier="uri" mdschema="dc">http://hdl.handle.net/2027.42/116143</dim:field>
+<dim:field element="description" qualifier="abstract" language="en_US" mdschema="dc">A 2008 video entitled Leading the Way: High Tech, Today and Tomorrow Southeast Michigan, Presented by: Automation Alley. Includes footage of Stanford Ovshinsky's companies.</dim:field>
+<dim:field element="title" language="en_US" mdschema="dc">Correspondence - Companies, 2008</dim:field>
+<dim:field element="type" language="en_US" mdschema="dc">Video</dim:field>
+<dim:field element="description" qualifier="bitstreamurl" mdschema="dc">http://deepblue.lib.umich.edu/bitstream/2027.42/116143/2/Leading The Way-1.mp4</dim:field>
+<dim:field element="description" qualifier="bitstreamurl" mdschema="dc">http://deepblue.lib.umich.edu/bitstream/2027.42/116143/3/Leading The Way-1.zip</dim:field>
+<dim:field element="rights" qualifier="access" language="en_US" mdschema="dc">This content is open for research.</dim:field>
+<dim:field element="date" qualifier="open" language="en_US" mdschema="dc">2015-11-11</dim:field>
+<dim:field element="rights" qualifier="copyright" language="en_US" mdschema="dc">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field element="owningcollname" mdschema="dc">Stanford R. Ovshinsky Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_401929" ID="file_401929" MIMETYPE="video/mpeg" SIZE="114416389" CHECKSUM="04212016e87811ab52142f6ed67ac152">
+<mets:FLocat LOCTYPE="URL" xlink:title="Leading The Way-1.mp4" xlink:label="Access video." xlink:type="locator" xlink:href="/bitstream/handle/2027.42/116143/Leading%20The%20Way-1.mp4?sequence=2&amp;isAllowed=y"/>
+</mets:file>
+<mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_401930" ID="file_401930" MIMETYPE="application/zip" SIZE="331565291" CHECKSUM="e9157b2a5ae24430b3d5fe6dcc041175">
+<mets:FLocat LOCTYPE="URL" xlink:title="Leading The Way-1.zip" xlink:label="Preservation video." xlink:type="locator" xlink:href="/bitstream/handle/2027.42/116143/Leading%20The%20Way-1.zip?sequence=3&amp;isAllowed=y"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_401929"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_401930"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

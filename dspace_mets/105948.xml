@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/105948" ID="hdl:2027.42/105948" OBJEDIT="/admin/item?itemID=107405">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1897-1899 and undated</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-24T16:55:07Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-24T16:55:07Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0191</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/105948</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Typed and printed documents regarding the "Michigan Sanitarium and Benevolent Association," the successor organization Western Health Reform Institute and which was incorporated in 1897.  Includes meeting minutes and articles of association for the group.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Subject Files (primarily medical missionary materials) - Michigan Sanitarium and Benevolent Association, 1897-1899 and undated</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/105948/1/Subject-Michigan.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/105948/2/Subject-Michigan.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_358416" CHECKSUM="87f397d11bb15031a7a9208dc1ebcae6" MIMETYPE="text/plain" SIZE="99" ID="file_361701" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/105948/Subject-Michigan.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Subject-Michigan.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_358416" CHECKSUM="2819269c44bdeaf0da5706e75c511b59" MIMETYPE="application/pdf" SIZE="14404777" ID="file_358416" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/105948/Subject-Michigan.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Subject-Michigan.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_358417" CHECKSUM="71cd0aeddc1a222a22096cf48a08966f" MIMETYPE="application/zip" SIZE="33064689" ID="file_358417" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/105948/Subject-Michigan.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Subject-Michigan.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_358416"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_358417"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

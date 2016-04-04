@@ -1,0 +1,62 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/94183" ID="hdl:2027.42/94183" OBJEDIT="/admin/item?itemID=95550">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">Men's Glee Club, University of Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" element="coverage">2012</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2012-10-24T13:49:17Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2012-10-24T13:49:17Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" element="date">2012</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2012</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">87250_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/94183</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Digital images, audio, and video of the University of Michigan Men's Glee Club performance at the Qintai Grand Theater in Wuhan, China on May 12, 2012. The club visited Wuhan from May 11 to May 13, 2012.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">China Concert Tour - May 12, 2012: Wuhan - Qintai Grand Theater</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Recording, musical</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94183/1/Wuhan-Qintai-Grand-Theater-Photos.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94183/2/Wuhan-Qintai-Grand-Theater.wav</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94183/3/Wuhan-Qintai-Theater-Tour.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/94183/4/Wuhan-Rehearsal.zip</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Men's Glee Club (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_325827" CHECKSUM="83f061dd324ffb3040a7017281bfb119" MIMETYPE="audio/x-wav" SIZE="1446401200" ID="file_325827" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Audio recording of the Men's Glee Club performance  at the Qintai Grand Theater" xlink:href="/bitstream/handle/2027.42/94183/Wuhan-Qintai-Grand-Theater.wav?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Wuhan-Qintai-Grand-Theater.wav"/>
+</mets:file>
+<mets:file GROUPID="group_file_325826" CHECKSUM="05747d1f6bd701fd74747c586e19baae" MIMETYPE="application/zip" SIZE="69895902" ID="file_325826" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Digital images of the Men's Glee Club performance  at the Qintai Grand Theater" xlink:href="/bitstream/handle/2027.42/94183/Wuhan-Qintai-Grand-Theater-Photos.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Wuhan-Qintai-Grand-Theater-Photos.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_325828" CHECKSUM="fe35f41e801691c726fcfd0e7ad0e027" MIMETYPE="application/zip" SIZE="538355900" ID="file_325828" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Video recording of the Men's Glee Club tour of the Qintai Grand Theater" xlink:href="/bitstream/handle/2027.42/94183/Wuhan-Qintai-Theater-Tour.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Wuhan-Qintai-Theater-Tour.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_325829" CHECKSUM="e92ce4c1cb1abb10e77ee81dd5bdf6cc" MIMETYPE="application/zip" SIZE="400482722" ID="file_325829" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Video recording of the Men's Glee Club rehearsal  at the Qintai Grand Theater" xlink:href="/bitstream/handle/2027.42/94183/Wuhan-Rehearsal.zip?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Wuhan-Rehearsal.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_325827"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_325826"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_325828"/>
+</mets:div>
+<mets:div ID="div_5" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_325829"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

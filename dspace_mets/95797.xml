@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/95797" ID="hdl:2027.42/95797" OBJEDIT="/admin/item?itemID=97203">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Granholm, Jennifer</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2004</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2013-01-22T14:53:01Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2013-01-22T14:53:01Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2012</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2012</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2011101_0002</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/95797</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Digital photographs of various events, including Lt. Governor John Cherry's trip to the Upper Peninsula, Earth Day festivities, and the summer and winter meetings of the National Governors Association</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Other Executive Divisions - Operations - Photographs -2004</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/95797/1/2004-EarthDay-and-LtGovernor.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/95797/2/2004-National-Governors-Association-Summer.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/95797/3/2004-National-Governors-Association-Winter-Meeting.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Jennifer Granholm Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_330793" CHECKSUM="8ef98c5f6b3801b29fe38a1a30df4b9b" MIMETYPE="application/zip" SIZE="473062745" ID="file_330793" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Digital images of Earth Day and Bring Your Child to Work Day as well as Lt. Governor John Cherry in the UP" xlink:href="/bitstream/handle/2027.42/95797/2004-EarthDay-and-LtGovernor.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="2004-EarthDay-and-LtGovernor.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_330794" CHECKSUM="5f0807b3ea0c0381473d3876deb76d05" MIMETYPE="application/zip" SIZE="2437631031" ID="file_330794" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Digital images from the 2004 annual summer meeting of the National Governors Association" xlink:href="/bitstream/handle/2027.42/95797/2004-National-Governors-Association-Summer.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="2004-National-Governors-Association-Summer.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_330795" CHECKSUM="4154ae444db14245ef927216bc80139c" MIMETYPE="application/zip" SIZE="1219160135" ID="file_330795" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Digital images of the 2004 annual winter meeting of the National Governors Association" xlink:href="/bitstream/handle/2027.42/95797/2004-National-Governors-Association-Winter-Meeting.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="2004-National-Governors-Association-Winter-Meeting.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_330793"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_330794"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_330795"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

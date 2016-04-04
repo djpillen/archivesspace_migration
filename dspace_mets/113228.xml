@@ -1,0 +1,61 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/113228" ID="hdl:2027.42/113228" OBJEDIT="/admin/item?itemID=114842">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Davis, Ann B.</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2015-09-11T17:22:18Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2015-09-11T17:22:18Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2015044_0001_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/113228</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Video recording of a Follies in Concert performance at the Little Theatre on the Square in 2007 (total running time: 107 minutes).</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Theatre - Follies in Concert - Performance video, 2007</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Video</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113228/2/Follies_Performance-Part1.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113228/3/Follies_Performance-Part2.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113228/4/Follies In Concert-1.mp4</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/113228/5/Follies In Concert Part 2-1.mp4</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">Reading room access only: this content must be accessed in the reading room of the Bentley Historical Library</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-07-01</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has not been transferred to the Regents of the University of Michigan. Researchers are responsible for determining appropriate rights holder.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Ann B. Davis Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_387880" CHECKSUM="aceae8639a8f8e6339633acbb9e53ca8" MIMETYPE="application/zip" SIZE="3702550261" ID="file_387880" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Follies in Concert Performance Part 1 - Preservation Copy. Access restricted to Bentley Library only." xlink:href="/bitstream/handle/2027.42/113228/Follies_Performance-Part1.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Follies_Performance-Part1.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_387881" CHECKSUM="91513d1fa7a31fa39c30d49137cb6867" MIMETYPE="application/zip" SIZE="3085817690" ID="file_387881" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Follies in Concert Performance Part 2 - Preservation Copy. Access restricted to Bentley Library only." xlink:href="/bitstream/handle/2027.42/113228/Follies_Performance-Part2.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="Follies_Performance-Part2.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_387882" CHECKSUM="1d4e5efc9753c1353e0eef9507c26d98" MIMETYPE="video/mpeg" SIZE="1140165465" ID="file_387882" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Follies in Concert Performance Part 1 - Access Copy. Access restricted to Bentley Library only." xlink:href="/bitstream/handle/2027.42/113228/Follies%20In%20Concert-1.mp4?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Follies In Concert-1.mp4"/>
+</mets:file>
+<mets:file GROUPID="group_file_387883" CHECKSUM="468eefe9bb61bbdf446ea917f60a49bf" MIMETYPE="video/mpeg" SIZE="915430361" ID="file_387883" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Follies in Concert Performance Part 2 - Access Copy. Access restricted to Bentley Library only." xlink:href="/bitstream/handle/2027.42/113228/Follies%20In%20Concert%20Part%202-1.mp4?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="Follies In Concert Part 2-1.mp4"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387880"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387881"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387882"/>
+</mets:div>
+<mets:div ID="div_5" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_387883"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,56 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102606" ID="hdl:2027.42/102606" OBJEDIT="/admin/item?itemID=104059">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">University of Michigan. School of Kinesiology</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2006-2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-05T20:14:38Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-05T20:14:38Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2007, 2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">0324_0001_0007</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102606</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">The 2006-2007 School of Kinesiology bulletin provides information on undergraduate and graduate academic program requirements, courses, and admission information.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Unit Publications - Bulletins, 2006-2007</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Technical Report</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102606/1/Bulletin0607.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102606/2/Bulletin0607_bhl-f26e646c.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">School of Kinesiology (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_351264" CHECKSUM="4d827874d543582f48f2725753fcec07" MIMETYPE="text/plain" SIZE="216605" ID="file_351293" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102606/Bulletin0607.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Bulletin0607.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_351265" CHECKSUM="ac914334bc7c3873e7adef858afcd4cd" MIMETYPE="text/plain" SIZE="216390" ID="file_351294" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102606/Bulletin0607_bhl-f26e646c.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="Bulletin0607_bhl-f26e646c.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_351264" CHECKSUM="447ea78f821e7870ef62410be2306908" MIMETYPE="application/pdf" SIZE="351175" ID="file_351264" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original Copy: 2006-2007 Kinesiology Bulletin " xlink:href="/bitstream/handle/2027.42/102606/Bulletin0607.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Bulletin0607.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_351265" CHECKSUM="ad27cf60a48e923a1a1fc62587c5cae2" MIMETYPE="application/pdf" SIZE="600961" ID="file_351265" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation Copy of the 2006-2007 Kinesiology Bulletin created by Bentley Historical Library " xlink:href="/bitstream/handle/2027.42/102606/Bulletin0607_bhl-f26e646c.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Bulletin0607_bhl-f26e646c.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351264"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_351265"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,48 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/86714" ID="hdl:2027.42/86714" OBJEDIT="/admin/item?itemID=87891">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computer-Aided Engineering Network (CAEN), University of Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2008</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-10-20T22:05:05Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-10-20T22:05:05Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2008</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">2011123_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/86714</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Timeline of events and milestones over CAEN's first 25 years</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Regents of the University of Michigan. The collection is open to research</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Computer Aided Engineering Network 25th Anniversary Materials - Timeline</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86714/1/CAEN_Timeline_1983-2008.docx</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/86714/2/CAEN_Timeline_1983-2008.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computer Aided Engineering Network (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_294633" CHECKSUM="13e21b8a0e9b1552441a611c2e64818a" MIMETYPE="application/msword" SIZE="23798" ID="file_294633" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Timeline of events and milestones over CAEN's first 25 years" xlink:href="/bitstream/handle/2027.42/86714/CAEN_Timeline_1983-2008.docx?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="CAEN_Timeline_1983-2008.docx"/>
+</mets:file>
+<mets:file GROUPID="group_file_294634" CHECKSUM="c454bea005fffabd78408e7a5a4875d5" MIMETYPE="application/pdf" SIZE="164256" ID="file_294634" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="PDF/A version of a timeline of events and milestones over CAEN's first 25 years" xlink:href="/bitstream/handle/2027.42/86714/CAEN_Timeline_1983-2008.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="CAEN_Timeline_1983-2008.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_294634" CHECKSUM="0fa1735037875b6c3af7ece550db75af" MIMETYPE="text/plain" SIZE="9739" ID="file_294674" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/86714/CAEN_Timeline_1983-2008.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="CAEN_Timeline_1983-2008.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_294633"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_294634"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

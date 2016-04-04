@@ -1,0 +1,49 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" OBJEDIT="/admin/item?itemID=121046" OBJID="/handle/2027.42/117389" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" ID="hdl:2027.42/117389">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DIM">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field element="contributor" qualifier="author" language="" mdschema="dc">Metcalf, Robert C.</dim:field>
+<dim:field element="contributor" qualifier="author" language="" mdschema="dc">Golden, Fred</dim:field>
+<dim:field element="date" qualifier="accessioned" language="" mdschema="dc">2016-02-24T16:23:16Z</dim:field>
+<dim:field element="date" qualifier="available" language="" mdschema="dc">2016-02-24T16:23:16Z</dim:field>
+<dim:field element="date" qualifier="issued" language="" mdschema="dc">2016</dim:field>
+<dim:field element="identifier" qualifier="other" language="" mdschema="dc">2009179_0001_0006</dim:field>
+<dim:field element="identifier" qualifier="uri" language="" mdschema="dc">http://hdl.handle.net/2027.42/117389</dim:field>
+<dim:field element="description" language="en_US" mdschema="dc">Once the .zip file has been downloaded, viewers should navigate to the 'data' folder within it and then to the numerically-named folder inside 'data.'</dim:field>
+<dim:field element="description" qualifier="abstract" language="en_US" mdschema="dc">Two folders of interior and exterior photographs of a home designed by Robert Metcalf for the Gilbert family.</dim:field>
+<dim:field element="language" qualifier="iso" language="en_US" mdschema="dc">en_US</dim:field>
+<dim:field element="title" language="en_US" mdschema="dc">Audio Visual Materials - Photographs and Negatives - Gilbert house, 2000 | 2009</dim:field>
+<dim:field element="type" language="en_US" mdschema="dc">Image</dim:field>
+<dim:field element="contributor" qualifier="affiliationumcampus" language="en_US" mdschema="dc">Ann Arbor</dim:field>
+<dim:field element="description" qualifier="bitstreamurl" language="" mdschema="dc">http://deepblue.lib.umich.edu/bitstream/2027.42/117389/1/Metcalf_Gilbert.zip</dim:field>
+<dim:field element="description" qualifier="bitstreamurl" language="" mdschema="dc">http://deepblue.lib.umich.edu/bitstream/2027.42/117389/2/Metcalf_Gilbert2.zip</dim:field>
+<dim:field element="description" qualifier="mapping" language="en_US" mdschema="dc">-1</dim:field>
+<dim:field element="description" qualifier="filedescription" language="" mdschema="dc">Description of Metcalf_Gilbert.zip : Photographs dated 2000</dim:field>
+<dim:field element="description" qualifier="filedescription" language="" mdschema="dc">Description of Metcalf_Gilbert2.zip : Photographed dated 2009</dim:field>
+<dim:field element="owningcollname" mdschema="dc">Robert C. Metcalf Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_405730" ID="file_405730" MIMETYPE="application/zip" SIZE="66567772" CHECKSUM="929368766930a191cd605d6236aace0e">
+<mets:FLocat LOCTYPE="URL" xlink:title="Metcalf_Gilbert.zip" xlink:label="Photographs dated 2000" xlink:type="locator" xlink:href="/bitstream/handle/2027.42/117389/Metcalf_Gilbert.zip?sequence=1&amp;isAllowed=y"/>
+</mets:file>
+<mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_405731" ID="file_405731" MIMETYPE="application/zip" SIZE="458968090" CHECKSUM="967096c8fecf7e65fad44057ecc9d5ac">
+<mets:FLocat LOCTYPE="URL" xlink:title="Metcalf_Gilbert2.zip" xlink:label="Photographed dated 2009" xlink:type="locator" xlink:href="/bitstream/handle/2027.42/117389/Metcalf_Gilbert2.zip?sequence=2&amp;isAllowed=y"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_405730"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_405731"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

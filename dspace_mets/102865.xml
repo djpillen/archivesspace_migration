@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102865" ID="hdl:2027.42/102865" OBJEDIT="/admin/item?itemID=104322">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Kellogg, John Harvey</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1939-1940</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-02-21T15:01:13Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-02-21T15:01:13Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">89500_0001_0108</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102865</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Lectures, Speeches, and Related materials from 1939-1940:  * A Summer Message for Battle Creek, July 10, 1939 * Vital Energy, Dec. 27, 1939 * The Mission of Food Health is to Help Save Civilization through Race Betterment and Biologic Living, Jan. 23, 1940 * Is B. Coli a Protective Organism or a Menace? Feb. 29, 1940 * Short Talks About Health, Mar. 10, 1940 * Soy Acidophilus Concentrate, Mar. 21, 1940 * Who and What Are Faddists? April 20, 1940 * B. Coli: A Parasite and Not a Desirable Resident of the Colon, April 25, 1940 * Old Age is a Disease, May 3, 1940 * The Alcohol of Beer and Wine as Damaging as That of Rum and Whiskey, May 27, 1940 * Philosophy of Life, June 5, 1940 * Early History of the Oxygen Tent, July 28, 1940 * Untitled typescript of article on sugar, July 1, 1940 * The War Spirit, July 9, 1940 * Additional materials (1 of 2) * Additional materials (2 of 2)</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright has not been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from a microfilm version of papers held at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Lectures, Speeches, and Related materials, 1939-1940</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102865/1/Lectures-1939-1940.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102865/2/Lectures-1939-1940.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open to research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">John Harvey Kellogg Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_352067" CHECKSUM="e14e3b0192b3305205ba6736170435d0" MIMETYPE="text/plain" SIZE="58" ID="file_352274" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102865/Lectures-1939-1940.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1939-1940.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_352067" CHECKSUM="5c5ffb69565c8848809979a251158525" MIMETYPE="application/pdf" SIZE="6924197" ID="file_352067" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; created by the Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102865/Lectures-1939-1940.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1939-1940.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_352068" CHECKSUM="1f8d1af9449afe010a459b2fa2e21ccc" MIMETYPE="application/zip" SIZE="19001494" ID="file_352068" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation version: JPEG2000 files digitized from microfilm" xlink:href="/bitstream/handle/2027.42/102865/Lectures-1939-1940.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Lectures-1939-1940.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_352067"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_352068"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

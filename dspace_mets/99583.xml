@@ -1,0 +1,61 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/99583" ID="hdl:2027.42/99583" OBJEDIT="/admin/item?itemID=101014">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">University of Michigan., Edwin S. George Reserve</dim:field>
+<dim:field qualifier="author" mdschema="dc" element="contributor">University of Michigan., Department of Ecology and Evolutionary Biology</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1948-1997</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2013-08-29T15:28:38Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2013-08-29T15:28:38Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">2013089_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/99583</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">The Evans Old Field Plant Database contains FileMaker and Excel files of data collected by Dr. Francis C. Evans during a 50-year study on successional change on Evans Old Field on the Edwin S. George Reserve. Data include plant phenology, location, and abundances observed from 1948 to 1997.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Research - Plants - Evans Old Field Plant Database, 1948-1997</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Dataset</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99583/1/Evans_Old_Field_Plant_Database.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99583/2/George-Reserve-Plants-Database-description.txt</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99583/3/George-Reserve-Plants-Database-description.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Edwin S. George Reserve (Mich.) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_341620" CHECKSUM="124ccfd6d358b79fea63aca2ff3efa5f" MIMETYPE="text/plain" SIZE="5393" ID="file_341623" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/99583/George-Reserve-Plants-Database-description.txt.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="George-Reserve-Plants-Database-description.txt.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_341619" CHECKSUM="e7b6428e626126758f2f17152fb444e6" MIMETYPE="application/zip" SIZE="4808973" ID="file_341619" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Data collected by Francis C. Evans during study of Evans Old Field at the E.S. George Reserve; Filemaker database files and Excel spreadsheets" xlink:href="/bitstream/handle/2027.42/99583/Evans_Old_Field_Plant_Database.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Evans_Old_Field_Plant_Database.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_341620" CHECKSUM="bc85a2f74976604752b6dff7aedc33b7" MIMETYPE="text/plain" SIZE="5500" ID="file_341620" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Description of Evans Plant database (plain text file); includes overview of study and details on database fields" xlink:href="/bitstream/handle/2027.42/99583/George-Reserve-Plants-Database-description.txt?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="George-Reserve-Plants-Database-description.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_341621" CHECKSUM="a26088356993abc4aa58ecc2dc928bac" MIMETYPE="application/zip" SIZE="477151" ID="file_341621" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Description of Evans Plant database (html version); includes overview of study and details on database fields" xlink:href="/bitstream/handle/2027.42/99583/George-Reserve-Plants-Database-description.zip?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="George-Reserve-Plants-Database-description.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_341619"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_341620"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_341621"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

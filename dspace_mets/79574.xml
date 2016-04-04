@@ -1,0 +1,45 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79574" ID="hdl:2027.42/79574" OBJEDIT="/admin/item?itemID=80400">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computing Center, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:39:14Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:39:14Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1983-01</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79574</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">MTS Manual is a series of volumes that describe in detail the facilities provided by the Michigan Terminal System. The SNOBOL4 language was developed at Bell Telephone Laboratories as a tool for string and list-processing applications. This volume describes the four distinct SNOBOL4 language processors which are available in the public files of MTS: *SNOBOL4, *SNOBOL4B, *SPITBOL, and *SNOSTORM.</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">769713 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Manuals - MTS Volume 09: SNOBOL4 in MTS</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79574/1/MTSVol09-SNOBOLInMTS-May1984.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283207" CHECKSUM="4e6b96bad9e8e409f2dee6da5f2b1b28" MIMETYPE="application/pdf" SIZE="769713" ID="file_283207" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79574/MTSVol09-SNOBOLInMTS-May1984.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol09-SNOBOLInMTS-May1984.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283207" CHECKSUM="4ae62005bf7fc45662a070fee32c9e28" MIMETYPE="text/plain" SIZE="424605" ID="file_283324" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79574/MTSVol09-SNOBOLInMTS-May1984.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="MTSVol09-SNOBOLInMTS-May1984.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283207"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

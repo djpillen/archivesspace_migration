@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/101944" ID="hdl:2027.42/101944" OBJEDIT="/admin/item?itemID=103391">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">University of Michigan., College of Engineering</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2006-2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-12-18T18:20:42Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-12-18T18:20:42Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">977_0001_0008</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/101944</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">To access online version, download and extract content from the .ZIP file and then open the "Start Bulletin.html" file in a web browser.</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">2006-2007 University of Michigan Engineering program bulletin; provides information and history about the program, undergraduate admissions, financial aid, student life and services, academic procedures, and specifics about courses for the undergraduate and graduate programs. The bulletin also includes welcome letters from President Coleman, the Dean of Engineering, and the student president of the University of Michigan Engineering Council. The 2006-2007 was also available online, and so this deposit contains webpages and content.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Unit Publications - Bulletins (Course Catalogs) - Bulletins, 2006-2007</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/101944/1/2006-2007.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/101944/2/bulletin-2006-07.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">College of Engineering (University of Michigan) Records and Publications</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_348834" CHECKSUM="f9f5c7119e5b8cdea178cf59958c4db1" MIMETYPE="text/plain" SIZE="330" ID="file_348855" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/101944/bulletin-2006-07.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="bulletin-2006-07.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_348833" CHECKSUM="840bf2502e06a25186c81daaca2fbd5d" MIMETYPE="application/zip" SIZE="4647673" ID="file_348833" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original web version of 2006-2007 College of Engineering bulletin" xlink:href="/bitstream/handle/2027.42/101944/2006-2007.zip?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="2006-2007.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_348834" CHECKSUM="229103ec9d69a20eb370ef78da055edb" MIMETYPE="application/pdf" SIZE="16147752" ID="file_348834" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Scanned version of 2006-2007 College of Engineering bulletin" xlink:href="/bitstream/handle/2027.42/101944/bulletin-2006-07.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="bulletin-2006-07.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_348833"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_348834"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,3 +1,5 @@
+from os.path import join
+
 from aspace_prep.camelcase_attributes import camelcase_attributes
 from aspace_prep.add_classifications import add_classifications
 from aspace_prep.amend_duplicate_call_numbers import amend_duplicate_call_numbers
@@ -27,10 +29,11 @@ def run_aspace_prep(aspace_ead_dir, subjects_agents_dir, beal_classifications, d
 	subject_term_identification(aspace_ead_dir, subjects_agents_dir)
 
 def main():
+	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 	aspace_ead_dir = 'eads'
 	subjects_agents_dir = 'subjects_agents'
-	beal_classifications = 'beal_classifications.csv'
-	dspace_mets_dir = 'C:/Users/djpillen/GitHub/dspace_mets'
+	beal_classifications = join(project_dir, 'shared', 'beal_classifications.csv')
+	dspace_mets_dir = join(project_dir, 'dspace_mets')
 	run_aspace_prep(aspace_ead_dir, subjects_agents_dir, beal_classifications, dspace_mets_dir)
 
 if __name__ == "__main__":

@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/102033" ID="hdl:2027.42/102033" OBJEDIT="/admin/item?itemID=103482">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Upatnieks, Juris</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1965-1968</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2014-01-08T14:44:26Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2014-01-08T14:44:26Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2014</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">2013062_0001_0002</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/102033</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Digitized version of Juris Upatniek's laboratory notebook from December 1965 to July 2, 1968.  Records variables, procedures, and results of experiments related to hologram construction, photography, microscopy, and optics among related topics.  Includes Upnatnieks's analyses of results, equations, hand drawings of optical set ups and photographic examples of holograms.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="" element="source">Digitized from the original notebooks by donor in 2013</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Laboratory Notebooks, 1965-1968</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102033/1/Notebook 1965.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/102033/2/Notebook 1965.zip</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Juris Upatnieks Papers</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_349300" CHECKSUM="6465350839c05bcfb50b779100d2bbd1" MIMETYPE="text/plain" SIZE="152" ID="file_349885" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/102033/Notebook%201965.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Notebook 1965.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_349300" CHECKSUM="8853f8702e9245edee3757eaa63b2517" MIMETYPE="application/pdf" SIZE="90556031" ID="file_349300" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="PDF access copy of Upatnieks's digitized laboratory notebook, 1965-1968, created by Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/102033/Notebook%201965.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Notebook 1965.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_349301" CHECKSUM="1e1f7b0430b407ede293a8631d595fcd" MIMETYPE="application/zip" SIZE="90181499" ID="file_349301" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original copy of Upatnieks's digitized laboratory notebook, 1965-1968" xlink:href="/bitstream/handle/2027.42/102033/Notebook%201965.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Notebook 1965.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_349300"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_349301"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

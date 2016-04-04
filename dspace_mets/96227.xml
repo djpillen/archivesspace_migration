@@ -1,0 +1,42 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/96227" ID="hdl:2027.42/96227" OBJEDIT="/admin/item?itemID=97640">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" element="contributor">NSFNET 20th Anniversary Committee</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2013-02-12T16:10:14Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2013-02-12T16:10:14Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2007</dim:field>
+<dim:field qualifier="issued" mdschema="dc" element="date">2013</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/96227</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Program for the NSFNET 20th Anniversary celebration. Identifies keynote speakers as well as panel moderators and participants.  Includes descriptions of topics discussed in each segment of the event and biographies of individuals.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Event Information - Print Materials - NSFNET 20th Anniversary Event Program</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/96227/1/NSFNET_ProgramBook-2007.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">NSFNET 20th Anniversary Collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_332130" CHECKSUM="acd53be0df5b299df87cbe2c601266c6" MIMETYPE="text/plain" SIZE="75980" ID="file_332586" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/96227/NSFNET_ProgramBook-2007.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="NSFNET_ProgramBook-2007.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_332130" CHECKSUM="2131ec68c6b8350ebe70134f70628bee" MIMETYPE="application/pdf" SIZE="527968" ID="file_332130" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/96227/NSFNET_ProgramBook-2007.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="NSFNET_ProgramBook-2007.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_332130"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

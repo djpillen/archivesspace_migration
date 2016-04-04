@@ -1,5 +1,6 @@
 import getpass
 from os.path import join
+import os
 
 from aspace_prep.add_compound_agent_terms import add_compound_agent_terms
 
@@ -23,13 +24,14 @@ def run_aspace_preliminary_postings(aspace_ead_dir, subjects_agents_dir, digital
 				print filename
 
 def main():
+	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 	aspace_ead_dir = 'eads'
 	subjects_agents_dir = 'subjects_agents'
 	digital_objects_dir = 'digital_objects'
 	json_dir = 'json'
 	resources_dir = 'resources'
 	migration_stats_dir = 'migration_stats'
-	dspace_mets_dir = 'C:/Users/djpillen/GitHub/dspace_mets'
+	dspace_mets_dir = join(project_dir, 'dspace_mets')
 	aspace_url = 'http://localhost:8089'
 	username = 'admin'
 	print "*** RUN THE FOLLOWING SCRIPTS ***"

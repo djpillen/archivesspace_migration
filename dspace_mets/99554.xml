@@ -1,0 +1,53 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/99554" ID="hdl:2027.42/99554" OBJEDIT="/admin/item?itemID=100985">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Shurtleff, Mary</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">ca. 1900</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-08-20T18:18:36Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-08-20T18:18:36Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/99554</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Plat map showing land ownership of Cross Village Township, Michigan (ca. 1900); original map on linen.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is not held by the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Visual materials - Plat map of Cross Village, Mich., ca. 1900</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="oclc" mdschema="dc" language="" element="identifier">861078_0001</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99554/1/hs10443.jpg</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99554/2/hs10443.tif</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Mary Shurtleff Collection</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="THUMBNAIL">
+<mets:file GROUPID="group_file_341529" CHECKSUM="b2f6b6d8d63808d49f2251bae9829195" MIMETYPE="image/jpeg" SIZE="2114" ID="file_341533" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Generated Thumbnail" xlink:href="/bitstream/handle/2027.42/99554/hs10443.jpg.jpg?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="hs10443.jpg.jpg"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_341529" CHECKSUM="a687e01a00a6d7e1fa7ef8c29477ff02" MIMETYPE="image/jpeg" SIZE="18846992" ID="file_341529" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access copy; plat map of Cross Village, Mich., ca. 1900" xlink:href="/bitstream/handle/2027.42/99554/hs10443.jpg?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="hs10443.jpg"/>
+</mets:file>
+<mets:file GROUPID="group_file_341530" CHECKSUM="a51f65d3b47fd32408862bad72af7788" MIMETYPE="image/tiff" SIZE="239271996" ID="file_341530" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy; plat map of Cross Village, Mich, ca. 1900" xlink:href="/bitstream/handle/2027.42/99554/hs10443.tif?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="hs10443.tif"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_341529"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_341530"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

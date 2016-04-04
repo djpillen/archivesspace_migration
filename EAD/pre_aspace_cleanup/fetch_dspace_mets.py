@@ -26,8 +26,9 @@ def fetch_dspace_mets(ead_dir, dspace_mets_dir):
                     time.sleep(15)
 
 def main():
-    ead_dir = 'C:/Users/djpillen/GitHub/vandura/Real_Masters_all'
-    dspace_mets_dir = 'C:/Users/djpillen/GitHub/dspace_mets'
+    project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    ead_dir = join(project_dir, "vandura", "Real_Masters_all")
+    join(project_dir, 'dspace_mets')
     fetch_dspace_mets(ead_dir, dspace_mets_dir)
 
 if __name__ == "__main__":

@@ -1,0 +1,45 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/79584" ID="hdl:2027.42/79584" OBJEDIT="/admin/item?itemID=80410">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Computing Center, University of Michigan</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" element="date">2011-02-08T20:39:58Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" element="date">2011-02-08T20:39:58Z</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">1987-11</dim:field>
+<dim:field qualifier="other" mdschema="dc" element="identifier">9551_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" element="identifier">http://hdl.handle.net/2027.42/79584</dim:field>
+<dim:field mdschema="dc" language="en_US" element="description">This document provides descriptions of supervisor calls used in the University of Michigan Multiprogramming Supervisor (UMMPS) of MTS Distribution 6.0</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">246527 bytes</dim:field>
+<dim:field qualifier="extent" mdschema="dc" element="format">1883 bytes</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">application/pdf</dim:field>
+<dim:field qualifier="mimetype" mdschema="dc" element="format">text/plain</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">english</dim:field>
+<dim:field mdschema="dc" language="en_US" element="rights">Copyright is held by the Board of Regents, University of Michigan.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Michigan Terminal System - Internal System Documentation - University of Michigan Multiprogramming Supervisor (UMMPS) Supervisor Call Descriptions (MTS Distribution 6.0)</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/79584/1/SupervisorCallDescriptions-Nov1987.pdf</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Computing Center (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_283227" CHECKSUM="49af278010e54bdcda68880498e7e466" MIMETYPE="application/pdf" SIZE="246527" ID="file_283227" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/2027.42/79584/SupervisorCallDescriptions-Nov1987.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="SupervisorCallDescriptions-Nov1987.pdf"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_283227" CHECKSUM="99466f762b8d4b0eac5f720fc806189f" MIMETYPE="text/plain" SIZE="170014" ID="file_283333" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/79584/SupervisorCallDescriptions-Nov1987.pdf.txt?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="SupervisorCallDescriptions-Nov1987.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_283227"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

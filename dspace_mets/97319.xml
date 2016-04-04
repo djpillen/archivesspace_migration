@@ -1,0 +1,52 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/97319" ID="hdl:2027.42/97319" OBJEDIT="/admin/item?itemID=98731">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Pittsfield Township, Michigan</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1959</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-04-12T16:35:52Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-04-12T16:35:52Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">86329_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/97319</dim:field>
+<dim:field qualifier="sponsorship" mdschema="dc" language="en_US" element="description">Records of regular and special Pittsfield Township board meetings for the year 1959.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Township Administration - Proceedings of the Town Board Meetings - 1959</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97319/1/PITTSTWP_19590000.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/97319/2/PITTSTWP_19590000.zip</dim:field>
+<dim:field qualifier="source" mdschema="dc" language="en_US" element="identifier">Digitized from the original materials by Image Data Conversion (Saline, Mich.) in 2012.  Original volume is available at the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Pittsfield, Mich. Township Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_335402" CHECKSUM="bf17417a9631c3d4f7ea348cc4101d7a" MIMETYPE="text/plain" SIZE="42" ID="file_335433" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/97319/PITTSTWP_19590000.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="PITTSTWP_19590000.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_335402" CHECKSUM="a8122364f8f98c9ff4c3a318bd67ffae" MIMETYPE="application/pdf" SIZE="60217214" ID="file_335402" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access Copy - Pittsfield Township Board Meeting Proceedings - 1959" xlink:href="/bitstream/handle/2027.42/97319/PITTSTWP_19590000.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="PITTSTWP_19590000.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_335403" CHECKSUM="cca7eac8e8658ac211ba5d3a28d1b9fb" MIMETYPE="application/zip" SIZE="60135827" ID="file_335403" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation Copy - Pittsfield Township Board Meeting Proceedings - 1959" xlink:href="/bitstream/handle/2027.42/97319/PITTSTWP_19590000.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="PITTSTWP_19590000.zip"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335402"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_335403"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

@@ -1,0 +1,54 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/111868" ID="hdl:2027.42/111868" OBJEDIT="/admin/item?itemID=113465">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="en_US" element="contributor">Bentley Historical Library</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="en_US" element="coverage">2007</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2015-06-12T18:27:48Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2015-06-12T18:27:48Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="en_US" element="date">2015</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="en_US" element="identifier">87245_0009_0002</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/111868</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Exhibit documenting 150 years of student life at the University of Michigan, using photographs and quotes drawn from the collections of the Bentley Historical Library.</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Outreach: Education, Publicity, and Exhibits - Online Exhibits and Special Projects - A Book of Days: 150 Years of Student Life, 2007</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111868/2/A Book of Days 150 Years of Student Life - 1987.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/111868/3/A Book of Days 150 Years of Student Life - 1987_bhl-e7839f71.pdf</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="en_US" element="rights">This content is open for research.</dim:field>
+<dim:field qualifier="open" mdschema="dc" language="en_US" element="date">2015-04-07</dim:field>
+<dim:field qualifier="copyright" mdschema="dc" language="en_US" element="rights">Copyright has been transferred to the Regents of the University of Michigan.</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Bentley Historical Library (University of Michigan) Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_382830" CHECKSUM="100051cc2bf40b0e9b1f2935a807c813" MIMETYPE="text/plain" SIZE="47148" ID="file_382896" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111868/A%20Book%20of%20Days%20150%20Years%20of%20Student%20Life%20-%201987.pdf.txt?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="A Book of Days 150 Years of Student Life - 1987.pdf.txt"/>
+</mets:file>
+<mets:file GROUPID="group_file_382831" CHECKSUM="50e34df3a64be5ba64395ff5350f9938" MIMETYPE="text/plain" SIZE="47144" ID="file_382897" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/111868/A%20Book%20of%20Days%20150%20Years%20of%20Student%20Life%20-%201987_bhl-e7839f71.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="A Book of Days 150 Years of Student Life - 1987_bhl-e7839f71.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_382830" CHECKSUM="fc0152df038a9719c3d1c1599dcaace3" MIMETYPE="application/pdf" SIZE="4589811" ID="file_382830" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original version." xlink:href="/bitstream/handle/2027.42/111868/A%20Book%20of%20Days%20150%20Years%20of%20Student%20Life%20-%201987.pdf?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="A Book of Days 150 Years of Student Life - 1987.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_382831" CHECKSUM="f5e4c29b38ebfe44c26895570c206929" MIMETYPE="application/pdf" SIZE="913526" ID="file_382831" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Preservation copy." xlink:href="/bitstream/handle/2027.42/111868/A%20Book%20of%20Days%20150%20Years%20of%20Student%20Life%20-%201987_bhl-e7839f71.pdf?sequence=3&amp;isAllowed=y" xlink:type="locator" xlink:title="A Book of Days 150 Years of Student Life - 1987_bhl-e7839f71.pdf"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382830"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_382831"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>

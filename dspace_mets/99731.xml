@@ -1,0 +1,61 @@
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" OBJID="/handle/2027.42/99731" ID="hdl:2027.42/99731" OBJEDIT="/admin/item?itemID=101163">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field qualifier="author" mdschema="dc" language="" element="contributor">Fox Island Lighthouse Association</dim:field>
+<dim:field qualifier="temporal" mdschema="dc" language="" element="coverage">1887-1907</dim:field>
+<dim:field qualifier="accessioned" mdschema="dc" language="" element="date">2013-09-10T15:54:05Z</dim:field>
+<dim:field qualifier="available" mdschema="dc" language="" element="date">2013-09-10T15:54:05Z</dim:field>
+<dim:field qualifier="created" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="issued" mdschema="dc" language="" element="date">2013</dim:field>
+<dim:field qualifier="other" mdschema="dc" language="" element="identifier">2013064_0001</dim:field>
+<dim:field qualifier="uri" mdschema="dc" language="" element="identifier">http://hdl.handle.net/2027.42/99731</dim:field>
+<dim:field qualifier="abstract" mdschema="dc" language="en_US" element="description">Correspondence from the Lighthouse Board to the Lighthouse Inspector, 1887-1907.</dim:field>
+<dim:field qualifier="iso" mdschema="dc" language="en_US" element="language">en_US</dim:field>
+<dim:field mdschema="dc" language="" element="rights">Copyright is held by the Regents of the University of Michigan</dim:field>
+<dim:field mdschema="dc" language="en_US" element="title">Collected Research Materials - U.S. Lighthouse Service - Correspondence - Lighthouse Board to the Lighthouse Inspector, 1887-1907</dim:field>
+<dim:field mdschema="dc" language="en_US" element="type">Image</dim:field>
+<dim:field qualifier="affiliationumcampus" mdschema="dc" language="en_US" element="contributor">Ann Arbor</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99731/1/Collected-Docs017-062.pdf</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99731/2/Collected-Docs017-062.zip</dim:field>
+<dim:field qualifier="bitstreamurl" mdschema="dc" language="" element="description">http://deepblue.lib.umich.edu/bitstream/2027.42/99731/4/Nat-Archives-Catalogue_017-062.xlsx</dim:field>
+<dim:field qualifier="source" mdschema="dc" language="en_US" element="identifier">Digitized images created circa 2009 from original records held by the National Archives regional facility in Chicago, IL</dim:field>
+<dim:field qualifier="access" mdschema="dc" language="" element="rights">Content is open for research</dim:field>
+<dim:field mdschema="dc" element="owningcollname">Fox Island Lighthouse Association Records</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="TEXT">
+<mets:file GROUPID="group_file_342117" CHECKSUM="82cb4069a222e4c0dd5616b30fbf2f9b" MIMETYPE="text/plain" SIZE="46" ID="file_342144" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Extracted text" xlink:href="/bitstream/handle/2027.42/99731/Collected-Docs017-062.pdf.txt?sequence=5&amp;isAllowed=y" xlink:type="locator" xlink:title="Collected-Docs017-062.pdf.txt"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file GROUPID="group_file_342117" CHECKSUM="c1a682acf6fef1c426d2aa0304eb613e" MIMETYPE="application/pdf" SIZE="34408913" ID="file_342117" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Access version: PDF file created by Bentley Historical Library" xlink:href="/bitstream/handle/2027.42/99731/Collected-Docs017-062.pdf?sequence=1&amp;isAllowed=y" xlink:type="locator" xlink:title="Collected-Docs017-062.pdf"/>
+</mets:file>
+<mets:file GROUPID="group_file_342118" CHECKSUM="4b1de701353dcc486fdcabe8365023fc" MIMETYPE="application/zip" SIZE="34142992" ID="file_342118" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Original files: digitized version of documents held by the National Archives regional facility in Chicago, IL" xlink:href="/bitstream/handle/2027.42/99731/Collected-Docs017-062.zip?sequence=2&amp;isAllowed=y" xlink:type="locator" xlink:title="Collected-Docs017-062.zip"/>
+</mets:file>
+<mets:file GROUPID="group_file_342128" CHECKSUM="7afc1f3cf24a9a5b04ded8e7a9217bd8" MIMETYPE="application/vnd.ms-excel" SIZE="20413" ID="file_342128" CHECKSUMTYPE="MD5">
+<mets:FLocat LOCTYPE="URL" xlink:label="Catalog of scanned documents, files 017-062" xlink:href="/bitstream/handle/2027.42/99731/Nat-Archives-Catalogue_017-062.xlsx?sequence=4&amp;isAllowed=y" xlink:type="locator" xlink:title="Nat-Archives-Catalogue_017-062.xlsx"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_342117"/>
+</mets:div>
+<mets:div ID="div_3" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_342118"/>
+</mets:div>
+<mets:div ID="div_4" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_342128"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>
