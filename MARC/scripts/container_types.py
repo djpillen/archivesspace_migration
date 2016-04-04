@@ -18,6 +18,23 @@ container_label_to_label_dict = {"Box out.":"Oversize Box","Vol.":"Volume", "Vol
 								"Folder out.":"Oversize Folder","P-DVD Box":"DVD Box","Box  P":"Box P"}
 
 for filename in os.listdir(ead_dir):
+	print "Adding container types to {}".format(filename)
+	tree = etree.parse(join(ead_dir, filename))
+	containers = tree.xpath("//container")
+	for container in containers:
+		label = container.attrib["label"]
+		if label in container_label_to_type_dict:
+			container.attrib["type"] = container_label_to_type_dict[label]
+		else:
+			container.attrib["type"] = label.lower()
+		if label in container_label_to_label_dict:
+			container.attrib["label"] = container_label_to_label_dict[label]
+
+	with open(join(ead_dir, filename), 'w') as f:
+		f.write(etree.tostring(tree, encoding="utf-8", xml_declaration=True, pretty_print=True))
+
+"""
+for filename in os.listdir(ead_dir):
 	print filename
 	tree = etree.parse(join(ead_dir, filename))
 	containers = tree.xpath("//container")
@@ -28,3 +45,4 @@ for filename in os.listdir(ead_dir):
 
 for label in container_labels:
 	print label
+"""
