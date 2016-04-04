@@ -1,0 +1,789 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::coughlin.xml//EN" encodinganalog="identifier">umich-bhl-02156</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Charles E. Coughlin Sermons and Sunday Evening Radio Addresses <date>1930-1940</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2002</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>October 2002</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031001</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>20021021</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Charles E. Coughlin Sermons and Sunday Evening Radio Addresses, <date type="inclusive">1930-1940</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50018203">Coughlin, Charles E. (Charles Edward), 1891-1979.</persname>
+      </origination>
+      <unittitle encodinganalog="245">Charles E. Coughlin Sermons and Sunday Evening Radio Addresses <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1940">1930-1940</unitdate></unittitle>
+      <abstract>Published sermons and Sunday evening radio addresses</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">DA 2; C854; S486; Box</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">100 items</extent>
+        <physfacet>approximate</physfacet>
+      </physdesc>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The items within the collection were received from different sources.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has not been transferred.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Charles E. Coughlin Sermons and Sunday Evening Radio Addresses, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Father Charles E. Coughlin was Roman Catholic priest, renowned as founder and pastor of the Shrine of the Little Flower in Royal Oak, Michigan. Father Coughlin gained a wide following for his Sunday afternoon radio addresses on political and economic subjects. Coughlin was a vocal opponent of Franklin Roosevelt and the New Deal.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The collection consists of published sermons and Sunday evening radio addresses given by Father Coughlin in the period 1930-1940. The materials are arranged chronologically.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50018203">Coughlin, Charles E. (Charles Edward), 1891-1979.</persname>
+        <subject source="lcsh" encodinganalog="650">Sermons--American.</subject>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Sermons and Sunday Evening Radio Addresses <unitdate type="inclusive" normal="1930/1940">1930-1940</unitdate></unittitle>
+        </did>
+        <odd>
+          <p>(arranged by date)</p>
+        </odd>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Four sermons: excerpts from the Fisher Tre Ore services <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Lest We Forget" <unitdate type="inclusive" normal="1930-11-09">Sunday November 9, 1930</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"'The Slaughter of the Innocents"' <unitdate type="inclusive" normal="1931-03-08">Sunday March 8, 1931</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Great Betrayal" <unitdate type="inclusive" normal="1931-03-22">Sunday March 22, 1931</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>The Dedication Services of the Charity Crucifixion Tower; sermon. <unitdate type="inclusive" normal="1931-10-11">Sunday October 11, 1931</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(Published with addresses by: Right Reverend Michael James Gallager, D.D., Bishop of Detroit; Right Reverend Joseph Schrembs, D.D., Bishop of Cleveland; Hon. Wilber M. Brucker, Governor of Michigan; Hon. Frank Murphy, Mayor of Detroit)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"A Sandy Foundation" <unitdate type="inclusive" normal="1932-01-31">Sunday January 31, 1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Secret Is Out!" <unitdate type="inclusive" normal="1932-02-14">Sunday February 14, 1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Introduction" <unitdate type="inclusive" normal="1932-10-16">Sunday October 16, 1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Taxation-Its Remedy" <unitdate type="inclusive" normal="1932-10-23">Sunday October 23, 1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Gold-Master or Servant?" <unitdate type="inclusive" normal="1932-10-30">Sunday October 30, 1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Revaluation" <unitdate type="inclusive" normal="1932-11-06">Sunday November 6, 1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Gold-The Medium of Exchange" <unitdate type="inclusive" normal="1932-11-13">Sunday November 13, 1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Human Standard-Old and New" <unitdate type="inclusive" normal="1932-11-20">Sunday November 20, 1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Use and Not Abuse" <unitdate type="inclusive" normal="1932-11-27">Sunday November 27, 1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Our Solitary Boast" <unitdate type="inclusive" normal="1932-12-04">Sunday December 4, 1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"And Opening Their Treasures, They Offered Him Gifts-Gold Incense and Myrrh" <unitdate type="inclusive" normal="1932-12-18">Sunday December 18, 1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The New Age" <unitdate type="inclusive" normal="1933-01-01">Sunday January 1, 1933</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Bonds or Charity?" <unitdate type="inclusive" normal="1933-01-22">Sunday January 22, 1933</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The March of the Workers" <unitdate type="inclusive" normal="1933-01-29">Sunday January 29, 1933</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Suicide of Capitalism" <unitdate type="inclusive" normal="1933-02-05">Sunday February 5, 1933</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Salvation of Capitalism" <unitdate type="inclusive" normal="1933-02-12">Sunday February 12, 1933</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Gold-Private or Public?" <unitdate type="inclusive" normal="1933-02-19">Sunday February 19, 1933</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Banks and Gold" <unitdate type="inclusive" normal="1933-02-26">Sunday February 26, 1933</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Lateral and Frontal Attack" <unitdate type="inclusive" normal="1933-10-22">Sunday October 22, 1933</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The New Temple" <unitdate type="inclusive" normal="1933-10-29">Sunday October 29, 1933</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Restoration of Silver" <unitdate type="inclusive" normal="1933-11-05">Sunday November 5, 1933</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Call to Arms" <unitdate type="inclusive" normal="1933-11-12">Sunday November 12, 1933</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Following the Christ-Child!" <unitdate type="inclusive" normal="1934-12-23">Sunday December 23, 1934</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"'An Introduction'-(Keep Out of War)" <unitdate type="inclusive" normal="1935-11-03">Sunday November 3, 1935</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Our Sovereign Right and the Patman Plan" <unitdate type="inclusive" normal="1935-11-10">Sunday November 10, 1935</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Taking Inventory of My Stewardship" <unitdate type="inclusive" normal="1935-11-17">Sunday November 17, 1935</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Social Justice and Communism" <unitdate type="inclusive" normal="1935-11-24">Sunday November 24, 1935</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"To Perfect and Not Destroy" <unitdate type="inclusive" normal="1935-12-01">Sunday December 1, 1935</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Forward to Victory" <unitdate type="inclusive" normal="1935-12-08">Sunday December 8, 1935</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Our First and Necessary Reform" <unitdate type="inclusive" normal="1935-12-15">Sunday December 15, 1935</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Supply and Demand-A New Year's Resolution" <unitdate type="inclusive" normal="1935-12-29">Sunday December 29, 1935</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Bonus and Neutrality" <unitdate type="inclusive" normal="1936-01-05">Sunday January 5, 1936</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Federal Reserve Bank Case" <unitdate type="inclusive" normal="1936-01-12">Sunday January 12, 1936</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Who are the Inflationists?" <unitdate type="inclusive" normal="1936-02-09">Sunday February 9, 1936</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Together We Stand" <unitdate type="inclusive" normal="1938-01-09">Sunday January 9, 1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"A Permanent Cure for the Recession" <unitdate type="inclusive" normal="1938-01-16">Sunday January 16, 1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Shall We Enter into a League with Death?" <unitdate type="inclusive" normal="1938-02-13">Sunday February 13, 1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Unsound Property Laws" <unitdate type="inclusive" normal="1938-02-20">Sunday February 20, 1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Five Years of the New Deal" <unitdate type="inclusive" normal="1938-03-06">Sunday March 6, 1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Corporative State" <unitdate type="inclusive" normal="1938-03-13">Sunday March 13, 1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Taxation Through Misrepresentation" <unitdate type="inclusive" normal="1938-03-20">Sunday March 20, 1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Three Lectures on the Reorganization Bill</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>"New Deal Bookkeeping" <unitdate type="inclusive" normal="1938-03-27">Sunday March 27, 1938</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>"'It Is What We Do, Not What We Say'" Thursday <unitdate type="inclusive" normal="1938-03-31">March 31, 1938</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>"The Spirit of the Reorganization Bill" <unitdate type="inclusive" normal="1938-04-03">Sunday April 3, 1938</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Persecution-Jewish and Christian" and "Let Us Consider the Record" <unitdate type="inclusive" normal="1938-11-20">Sunday November 20, 1938</unitdate>, <unitdate type="inclusive" normal="1938-11-27">Sunday November 27, 1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The President's Message to Congress" <unitdate type="inclusive" normal="1939-01-08">Sunday January 8, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Rightists Go into Action" <unitdate type="inclusive" normal="1939-01-15">Sunday January 15, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Ten Million Unemployed" <unitdate type="inclusive" normal="1939-01-22">Sunday January 22, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Why Leave Our Own?" <unitdate type="inclusive" normal="1939-01-29">Sunday January 29, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Foreign Relations-In Three Acts" <unitdate type="inclusive" normal="1939-02-05">Sunday February 5, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Fides Intrepida" <unitdate type="inclusive" normal="1939-02-12">Sunday February 12, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Internationalism-or No Foreign Entanglements" <unitdate type="inclusive" normal="1939-02-19">Sunday February 19, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"An American Christian Program" <unitdate type="inclusive" normal="1939-02-26">Sunday February 26, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Papacy-Pius VII and Pius XII" <unitdate type="inclusive" normal="1939-03-05">Sunday March 5, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Bonds and Neutrality" <unitdate type="inclusive" normal="1939-03-12">Sunday March 12, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Our Problem is in America" <unitdate type="inclusive" normal="1939-03-26">Sunday March 26, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Foreign Aggressors" <unitdate type="inclusive" normal="1939-04-16">Sunday April 16, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"So This Is Democracy!" <unitdate type="inclusive" normal="1939-04-30">Sunday April 30, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Propaganda at Work" <unitdate type="inclusive" normal="1939-05-07">Sunday May 7, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Policy of 'Social Justice Magazine"' and "Social Justice and Democracy" <unitdate type="inclusive" normal="1939-05-21">Sunday May 21, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Memorial Day and Pentecost" <unitdate type="inclusive" normal="1939-05-28">Sunday May 28, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Christians, Be Militant" <unitdate type="inclusive" normal="1939-06-04">Sunday June 4, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Questions and Answers on the Visit of Their Britannic Majesties" <unitdate type="inclusive" normal="1939-06-11">Sunday June 11, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The 'Neutrality' Bill" and "Billy's Rose" <unitdate type="inclusive" normal="1939-06-18">Sunday June 18, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Government by Law or by Man?" <unitdate type="inclusive" normal="1939-06-25">Sunday June 25, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>The American Declaration of Independence and Washington's Farewell Address, as broadcast by Rev. Chas. E. Coughlin. <unitdate type="inclusive" normal="1939-07-02">Sunday July 2, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Let's Have an Armed Guard" <unitdate type="inclusive" normal="1939-07-09">Sunday July 9, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Appeal to the Laboring Man" <unitdate type="inclusive" normal="1939-07-16">Sunday July 16, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Popular Front vs. The Christian Front" <unitdate type="inclusive" normal="1939-07-30">Sunday July 30, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Unpayable Debts" <unitdate type="inclusive" normal="1939-08-06">Sunday August 6, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"To the Laboring Men" <unitdate type="inclusive" normal="1939-08-13">Sunday August 13, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Popular Front" <unitdate type="inclusive" normal="1939-08-20">Sunday August 20, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"What of the Future?" <unitdate type="inclusive" normal="1939-08-27">Sunday August 27, 1939</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(Published with "The Challenge of the Pact and the Challenge of Social Justice" by Rev. Edward Lodge Curran, president of the International Catholic Truth Society)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Good Samaritan" <unitdate type="inclusive" normal="1939-09-03">Sunday September 3, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"'Cash and Carry'" <unitdate type="inclusive" normal="1939-09-10">Sunday September 10, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"If Cash-and-Carry, Then War Within a Year" <unitdate type="inclusive" normal="1939-09-17">Sunday September 17, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The President's Message to Congress" <unitdate type="inclusive" normal="1939-09-24">Sunday September 24, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Lifting the Embargo-A Victory for the Future" <unitdate type="inclusive" normal="1939-10-01">Sunday October 1, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Senator William E. Borah-No Blood Profits" <unitdate type="inclusive" normal="1939-10-08">Sunday October 8, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Neutrality Bill-The First Step Towards Communism" <unitdate type="inclusive" normal="1939-10-15">Sunday October 15, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Lifting the Embargo Begets an Emergency; An Emergency Begets Dictatorship" <unitdate type="inclusive" normal="1939-10-22">Sunday October 22, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Embargo Lifted-What of the Future?" <unitdate type="inclusive" normal="1939-11-05">Sunday November 5, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Chrysler-C.I.O. Industrial Strike" <unitdate type="inclusive" normal="1939-11-12">Sunday November 12, 1939</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(Published with "A Statement on the Chrysler Strike," by David Brann, former secretary-treasurer of the Detroit and Wayne County District of the U.A.W.A.)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Chrysler-C.I.O. Industrial Strike" <unitdate type="inclusive" normal="1939-11-19">Sunday November 19, 1939</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(Published with: "A Statement on the Chrysler Strike," by David Brann; a statement by the Editor of "Social Justice" entitled "Letter on Labor and Strikes by Archbishop Francis J. L. Beckman, S.T.D., and Father Coughlin's Attitude;" and "A Complete Program," by the Editor of "Social Justice")</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Strikes and the National Labor Relations Board" <unitdate type="inclusive" normal="1939-11-26">Sunday November 26, 1939</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(Published with "America Awake" by Rev. Aubert, O.F.M., Sacred Heart Franciscan Province)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The National Labor Relations Act-Its History and Proposed Amendments" <unitdate type="inclusive" normal="1939-12-03">Sunday December 3, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Recovery or Stagnation" and Our Solitary Boast" <unitdate type="inclusive" normal="1939-12-10">Sunday December 10, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"India's Financial Revolt" and "A Patron for Social Justice Workers" <unitdate type="inclusive" normal="1939-12-17">Sunday December 17, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"A Christmas Message" <unitdate type="inclusive" normal="1939-12-24">Sunday December 24, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"A Retrospect-and a Program" and "An Examination of Conscience" <unitdate type="inclusive" normal="1939-12-31">Sunday December 31, 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Presidential Message to Congress" <unitdate type="inclusive" normal="1940-01-07">Sunday January 7, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Can Man Catch Up with the Machine?" <unitdate type="inclusive" normal="1940-01-14">Sunday January 14, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"I Take My Stand" <unitdate type="inclusive" normal="1940-01-21">Sunday January 21, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"I Take My Stand" and "Discussing 'A' Christian Front" <unitdate type="inclusive" normal="1940-01-21/1940-01-28">Sunday January 21-28, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Youth, the Citizenry and the Politician" <unitdate type="inclusive" normal="1940-02-18">Sunday February 18, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"We Pause to Remember" <unitdate type="inclusive" normal="1940-02-25">Sunday February 25, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"'Communism Accepts Religion'" <unitdate type="inclusive" normal="1940-03-03">Sunday March 3, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The History of Holy Week" <unitdate type="inclusive" normal="1940-03-10">Sunday March 10, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Cross and Suffering" <unitdate type="inclusive" normal="1940-03-17">Sunday March 17, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Story of the Resurrection" <unitdate type="inclusive" normal="1940-03-24">Sunday March 24, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Let Us Solve Our Home Problems" <unitdate type="inclusive" normal="1940-03-31">Sunday March 31, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Birth of a Bond" <unitdate type="inclusive" normal="1940-04-07">Sunday April 7, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Abuse of Bonds" <unitdate type="inclusive" normal="1940-04-14">Sunday April 14, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Gold and the Second World War" <unitdate type="inclusive" normal="1940-04-21">Sunday April 21, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Who Owns the Federal Reserve Banks" <unitdate type="inclusive" normal="1940-04-28">Sunday April 28, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Financial Liberty" <unitdate type="inclusive" normal="1940-05-05">Sunday May 5, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"May 12, 1940"</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
